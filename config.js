@@ -1,7 +1,7 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
-  subtitle: "Bodemonderzoek",
+  subtitle: "SIKB en Geonovum informatiemodel",
   //canonicalURI: "WV",
   //publishDate: "2021-11-19",
   maxTocLevel: 4,
@@ -17,6 +17,8 @@ var respecConfig = {
     {
       name: "SIKB",
       url: "https://www.sikb.nl",
+	},
+	{
       name: "Geonovum",
       url: "https://www.geonovum.nl",	  
     },  
@@ -25,9 +27,12 @@ var respecConfig = {
     {
       name: "SIKB",
       url: "https://www.sikb.nl",
+	},
+	{
       name: "Geonovum",
 	  url: "https://www.geonovum.nl",
-	}],
+	},
+	],
   shortName: "sad",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/SAD",
