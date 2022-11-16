@@ -1,7 +1,7 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
-  subtitle: "SIKB en Geonovum informatiemodel",
+  //subtitle: "SIKB en Geonovum informatiemodel",
   //canonicalURI: "WV",
   //publishDate: "2021-11-19",
   maxTocLevel: 4,
