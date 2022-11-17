@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/0.1"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.broservices.nl/xsd/sadcommon/0.1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="0.1-1">
+   <xs:annotation>
+      <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+         <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+      </xs:appinfo>
+   </xs:annotation>
+   <xs:import namespace="http://www.opengis.net/gml/3.2"
+              schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+   <xs:complexType name="DeliveryContextType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:DeliveryContext"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+</xs:schema>
