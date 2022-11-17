@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registrationRequest 
+    xmlns="http://www.broservices.nl/xsd/issad/0.1" 
+    xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/0.1" 
+    xmlns:sikb="http://www.sikb.nl/imsikb0101" 
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.broservices.nl/xsd/issad/0.1 ../../XSD/issad-messages.xsd">
+	<!-- Inhoud:
+         * SAD object.
+    -->
+    <brocom:requestReference>verzoek_1</brocom:requestReference>
+    <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>
+    <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+    <sourceDocument>
+    <SAD_SiteAssessmentData gml:id="id_001">
+        <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">Omgevingswet</deliveryContext>
+        <featureCollection>
+            <sikb:FeatureCollectionIMSIKB0101 gml:id="id_002">
+                <sikb:metaData>
+                    <!-- OptionaL -->
+                    <sikb:application>urn:imsikb0101:Applicaties:id:1</sikb:application>
+                    <sikb:date>2022-11-15</sikb:date>
+                    <sikb:version>0.1</sikb:version>
+                </sikb:metaData>
+                <sikb:featureMember>
+                    <sikb:Project gml:id="id_003">
+                        <!-- Optional: not allowed in sourceDocument SAD_SiteAssessmentData within registrationRequest
+                        <sadcom:broId>?</sadcom:broId>
+                        -->
+                        <sikb:projectCode>SIKB0002</sikb:projectCode>
+                    </sikb:Project>
+                </sikb:featureMember>
+            </sikb:FeatureCollectionIMSIKB0101>
+        </featureCollection>
+    </SAD_SiteAssessmentData>
+    </sourceDocument>
+</registrationRequest>
