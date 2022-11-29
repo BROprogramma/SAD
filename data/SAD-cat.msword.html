@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Bodemkwaliteitonderzoek SAD/20221101</p>
       <p>Imvertor: Nightly-build.0</p>
-      <p>Model release: Conceptualmodel-BodemkwaliteitonderzoekSAD-1.0-1-20221101-20221129-130105</p>
+      <p>Model release: Conceptualmodel-BodemkwaliteitonderzoekSAD-1.0-1-20221101-20221129-161658</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -33,14 +33,31 @@
                      </tr>
                      <tr>
                         <th>Code</th>
-                        <td>EPL</td>
+                        <td>SAD</td>
                      </tr>
                      <tr>
                         <th>Definitie</th>
                         <td>
                            
-                           <p>Een entititeit met het geheel van generieke gegevens die voorkomen bij alle verschillende
-                              soorten registratieobjecten in de basisregistratie ondergrond (BRO).</p>
+                           <p>Het geheel van gegevens dat betrekking heeft op een bodemkwaliteitonderzoek dat vanuit
+                              een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie
+                              in Nederland een of meer boringen uit te voeren en de monsters die daarmee uit de
+                              ondergrond zijn verkregen te beschrijven en/of te onderzoeken en door een of meer
+                              peilbuizen te plaatsen om metingen aan het grondwater uit te voeren en/of grondwatermonsters
+                              te nemen voor onderzoek in het laboratorium.</p>
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Populatie</th>
+                        <td>
+                           
+                           <p>De populatie bodemkwaliteitonderzoeken in de registratie ondergrond omvat de onderzoeken
+                              die op basis van een wettelijke plicht aan het bevoegd gezag worden gerapporteerd
+                              of in opdracht van een bestuursorgaan zijn uitgevoerd.
+                              Ieder object heeft ter identificatie een eigen BRO-ID.
+                              De huidige gegevensdefinitie beperkt zich tot de onderzoeken op maaiveld, daar waar
+                              het aardoppervlak niet is bedekt met water, en tot het kwaliteitsregime IMBRO/A, dat
+                              bedoeld is voor historische gegevens.</p>
                            </td>
                      </tr>
                   </tbody>
@@ -49,13 +66,16 @@
          </section>
          <section>
             <h2>Het domeinmodel</h2>
-            <section id=""></section>
+            <section id="">
+               <div class="imageinfo overview"><img src="Images/EAID_FABA90F8_223C_433d_BAE3_74F87B3DC220.png" usemap="#imagemap-EAID_FABA90F8_223C_433d_BAE3_74F87B3DC220" alt="Diagram &#xA;                        &#xA;                     "><map name="imagemap-EAID_FABA90F8_223C_433d_BAE3_74F87B3DC220"><area shape="rect" alt="Aangeleverde locatie" coords="14,573,395,748" href="#graph_EAID_851735B3_CC49_423b_A961_AF5FDCDE34D6"><area shape="rect" alt="Registratieobject" coords="47,14,361,189" href="#graph_EAID_67DBE718_38E0_4ead_8649_72EA0B4A2355"><area shape="rect" alt="Bodemonderzoek" coords="18,279,390,602" href="#graph_EAID_ABAADB49_C747_4775_A739_CC832CAD59F1"></map><p><b>Domeinmodel milieuhygiënisch bodemonderzoek</b></p>
+               </div>
+            </section>
          </section>
          <section>
             <h2>Entiteiten en attributen</h2>
-            <section id=""><a class="anchor" id="graph_EAID_ABAADB49_C747_4775_A739_CC832CAD59F1"></a><a class="anchor" id="global_class_Model_Bodemkwaliteitonderzoek"></a><section id="global_class_Model_Bodemkwaliteitonderzoek">
-                  <h3>   Bodemkwaliteitonderzoek</h3>
-                  <div class="imageinfo "><img src="Images/EAID_6947001B_5B81_47f2_B8DC_8E20C90445C9.png" usemap="#imagemap-EAID_6947001B_5B81_47f2_B8DC_8E20C90445C9" alt="Diagram "><map name="imagemap-EAID_6947001B_5B81_47f2_B8DC_8E20C90445C9"><area shape="rect" alt="Registratieobject" coords="89,14,357,185" href="#graph_EAID_67DBE718_38E0_4ead_8649_72EA0B4A2355"><area shape="rect" alt="Bodemkwaliteitonderzoek" coords="14,249,434,497" href="#graph_EAID_ABAADB49_C747_4775_A739_CC832CAD59F1"></map><p><b></b></p>
+            <section id=""><a class="anchor" id="graph_EAID_ABAADB49_C747_4775_A739_CC832CAD59F1"></a><a class="anchor" id="global_class_Model_Bodemonderzoek"></a><section id="global_class_Model_Bodemonderzoek">
+                  <h3>   Bodemonderzoek</h3>
+                  <div class="imageinfo "><img src="Images/EAID_6947001B_5B81_47f2_B8DC_8E20C90445C9.png" usemap="#imagemap-EAID_6947001B_5B81_47f2_B8DC_8E20C90445C9" alt="Diagram "><map name="imagemap-EAID_6947001B_5B81_47f2_B8DC_8E20C90445C9"><area shape="rect" alt="Registratieobject" coords="89,14,357,185" href="#graph_EAID_67DBE718_38E0_4ead_8649_72EA0B4A2355"><area shape="rect" alt="Bodemonderzoek" coords="14,249,434,568" href="#graph_EAID_ABAADB49_C747_4775_A739_CC832CAD59F1"></map><p><b></b></p>
                   </div>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -65,8 +85,271 @@
                            <th>Type gegeven</th>
                            <td>Entiteit</td>
                         </tr>
+                        <tr>
+                           <th>Definitie</th>
+                           <td>
+                              
+                              <p>De gegevens die het bodemkwaliteitonderzoek identificeren en inzicht geven in de geschiedenis
+                                 van het object voorafgaand aan opname in de registratie ondergrond.</p>
+                              </td>
+                        </tr>
                      </tbody>
-                  </table><a class="anchor" id="detail_attribute_Model_Bodemkwaliteitonderzoek_kaderaanlevering"></a><section id="detail_attribute_Model_Bodemkwaliteitonderzoek_kaderaanlevering">
+                  </table><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_BROID"></a><section id="detail_attribute_Model_Bodemonderzoek_BROID">
+                     <h4>  BRO-ID</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De identificatie van een booronderzoek in de registratie ondergrond.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Registratieobjectcode</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Code</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Opbouw</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan
+                                    het object toe. </p>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_bronhouder"></a><section id="detail_attribute_Model_Bodemonderzoek_bronhouder">
+                     <h4>  bronhouder</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het KvK-nummer van de maatschappelijke activiteit van de publiekrechtelijke rechtspersoon
+                                    die bronhouder is van de gegevens in de basisregistratie ondergrond. </p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Organisatie</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p> De organisatie moet binnen de basisregistratie ondergrond als bronhouder van booronderzoek
+                                    bekend zijn. </p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het gegeven is door de dataleverancier bij de overdracht meegegeven in het geval de
+                                    dataleverancier niet de bronhouder is. </p>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_objectIDbronhouder"></a><section id="detail_attribute_Model_Bodemonderzoek_objectIDbronhouder">
+                     <h4>  object-ID bronhouder</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen
+                                    administratie te kunnen vinden. </p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Niet-authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Tekst 200</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het
+                                    is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de
+                                    bronhouder of dataleverancier te vergemakkelijken.</p>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_dataleverancier"></a><section id="detail_attribute_Model_Bodemonderzoek_dataleverancier">
+                     <h4>  dataleverancier</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon
+                                    die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent
+                                    daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                                    </p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Niet-authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Organisatie</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>De organisatie moet binnen de basisregistratie ondergrond als dataleverancier van
+                                    booronderzoek bekend zijn. </p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen
+                                    uitgeleverd aan de dataleverancier en de bronhouder. </p>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_kwaliteitsregime"></a><section id="detail_attribute_Model_Bodemonderzoek_kwaliteitsregime">
+                     <h4>  kwaliteitsregime</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>
+                                 Kwaliteitsregime
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst niet uitbreidbaar</td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het gegeven is door de dataleverancier bij de overdracht meegegeven.</p>
+                                 </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_kaderaanlevering"></a><section id="detail_attribute_Model_Bodemonderzoek_kaderaanlevering">
                      <h4>  kader aanlevering</h4>
                      
                      <table style="width: 100%;">
@@ -75,7 +358,15 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Bodemkwaliteitonderzoek</td>
+                              <td>Attribuut van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De rechtsgrond op basis waarvan, of bij afwezigheid daarvan, de activiteit naar aanleiding
+                                    waarvan, het betreffende gegeven is aangeleverd aan de basisregistratie ondergrond.</p>
+                                 </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -99,9 +390,18 @@
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>De wetgever stipuleert dat het gegeven moet zijn vastgelegd om inzicht te geven in
+                                    de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke
+                                    betekenis van de informatie.</p>
+                                 </td>
+                           </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_attribute_Model_Bodemkwaliteitonderzoek_kaderinwinning"></a><section id="detail_attribute_Model_Bodemkwaliteitonderzoek_kaderinwinning">
+                     </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_kaderinwinning"></a><section id="detail_attribute_Model_Bodemonderzoek_kaderinwinning">
                      <h4>  kader inwinning</h4>
                      
                      <table style="width: 100%;">
@@ -110,7 +410,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Bodemkwaliteitonderzoek</td>
+                              <td>Attribuut van Bodemonderzoek</td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -136,7 +436,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_attribute_Model_Bodemkwaliteitonderzoek_rapportagedatumonderzoek"></a><section id="detail_attribute_Model_Bodemkwaliteitonderzoek_rapportagedatumonderzoek">
+                     </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_rapportagedatumonderzoek"></a><section id="detail_attribute_Model_Bodemonderzoek_rapportagedatumonderzoek">
                      <h4>  rapportagedatum onderzoek</h4>
                      
                      <table style="width: 100%;">
@@ -145,7 +445,16 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Bodemkwaliteitonderzoek</td>
+                              <td>Attribuut van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De datum waarop de uitvoerder van het bodemkwaliteitonderzoek alle gegevens van het
+                                    bodemkwaliteitonderzoek aan de bronhouder heeft overgedragen of in het geval van historische
+                                    gegevens de datum waarop alle gegevens zijn vastgesteld.</p>
+                                 </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -171,11 +480,18 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td>1 jan 1950 tot heden</td>
+                              <td>???? tot heden</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>De datum mag niet liggen na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.</p>
+                                 </td>
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_attribute_Model_Bodemkwaliteitonderzoek_SIKBID"></a><section id="detail_attribute_Model_Bodemkwaliteitonderzoek_SIKBID">
+                     </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_SIKBID"></a><section id="detail_attribute_Model_Bodemonderzoek_SIKBID">
                      <h4>  SIKB-ID</h4>
                      
                      <table style="width: 100%;">
@@ -184,7 +500,7 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Bodemkwaliteitonderzoek</td>
+                              <td>Attribuut van Bodemonderzoek</td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -204,7 +520,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_attribute_Model_Bodemkwaliteitonderzoek_uitvoerderonderzoek"></a><section id="detail_attribute_Model_Bodemkwaliteitonderzoek_uitvoerderonderzoek">
+                     </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_uitvoerderonderzoek"></a><section id="detail_attribute_Model_Bodemonderzoek_uitvoerderonderzoek">
                      <h4>  uitvoerder onderzoek</h4>
                      
                      <table style="width: 100%;">
@@ -213,7 +529,17 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Attribuut van Bodemkwaliteitonderzoek</td>
+                              <td>Attribuut van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon
+                                    die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het bodemonderzoek,
+                                    of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese
+                                    Unie dan Nederland.</p>
+                                 </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -231,9 +557,24 @@
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Organisatie</td>
                            </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
+                                    van bodemonderzoek.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</p>
+                                 </td>
+                           </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d18320e1829"></a><section id="detail_d18320e1829">
+                     </section><a class="anchor" id="detail_d18613e2070"></a><section id="detail_d18613e2070">
                      <h4>  registratiegeschiedenis</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -241,7 +582,14 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Gegevensgroep van Bodemkwaliteitonderzoek</td>
+                              <td>Gegevensgroep van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De geschiedenis van het bodemonderzoek in de registratie ondergrond.</p>
+                                 </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -259,7 +607,7 @@
                            </tr>
                         </tbody>
                      </table>
-                  </section><a class="anchor" id="detail_d18320e1972"></a><section id="detail_d18320e1972">
+                  </section><a class="anchor" id="detail_d18613e2255"></a><section id="detail_d18613e2255">
                      <h4>  aangeleverde locatie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -267,7 +615,15 @@
                         <tbody>
                            <tr>
                               <th>Type gegeven</th>
-                              <td>Gegevensgroep van Bodemkwaliteitonderzoek</td>
+                              <td>Gegevensgroep van Bodemonderzoek</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De plaats van het bodemonderzoek op het aardoppervlak, zoals die is aangeleverd aan
+                                    de basisregistratie ondergrond.</p>
+                                 </td>
                            </tr>
                            <tr>
                               <th>Juridische status</th>
@@ -904,15 +1260,15 @@
                            <th>Definitie</th>
                            <td>
                               
-                              <p>De gegevens over de plaats van het booronderzoek op het aardoppervlak, zoals die zijn
-                                 aangeleverd aan de basisregistratie ondergrond.</p>
+                              <p>De gegevens over de plaats van het bodemonderzoek op het aardoppervlak, zoals die
+                                 zijn aangeleverd aan de basisregistratie ondergrond.</p>
                               </td>
                         </tr>
                         <tr>
                            <th>Toelichting</th>
                            <td>
                               
-                              <p>De locatie van booronderzoek is gedefinieerd als een punt. </p>
+                              <p>De locatie van bodemonderzoek is gedefinieerd als een vlak. </p>
                               </td>
                         </tr>
                      </tbody>
@@ -1025,7 +1381,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De datum waarop de plaats van het booronderzoek op het aardoppervlak is bepaald.</p>
+                                 <p>De datum waarop de plaats van het bodemonderzoek op het aardoppervlak is bepaald.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -1058,7 +1414,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De datum ligt niet na de <em>startdatum rapportage</em> van de entiteit <em>Rapportagegeschiedenis</em>.</p>
+                                 <p>De datum mag niet liggen na de <em>rapportagedatum onderzoek</em> van de entiteit <em>Bodemonderzoek</em>.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -1078,8 +1434,8 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De werkwijze die is gevolgd voor de bepaling van de plaats van het booronderzoek op
-                                    het aardoppervlak.</p>
+                                 <p>De werkwijze die is gevolgd voor de bepaling van de plaats van het bodemonderzoek
+                                    op het aardoppervlak.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -1108,7 +1464,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven geeft inzicht in de nauwkeurigheid waarmee de plaats van het booronderzoek
+                                 <p>Het gegeven geeft inzicht in de nauwkeurigheid waarmee de plaats van het bodemonderzoek
                                     op het aardoppervlak is bepaald.</p>
                                  </td>
                            </tr>
@@ -1130,7 +1486,7 @@
                               <td>
                                  
                                  <p>Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon
-                                    die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het booronderzoek,
+                                    die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het bodemonderzoek,
                                     of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese
                                     Unie dan Nederland.</p>
                                  </td>
@@ -1155,7 +1511,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De onderneming moet binnen de basisregistratie ondergrond als uitvoerder van booronderzoek
+                                 <p>De onderneming moet binnen de basisregistratie ondergrond als uitvoerder van bodemonderzoek
                                     bekend zijn.</p>
                                  </td>
                            </tr>
@@ -1182,7 +1538,11 @@
                <colgroup></colgroup>
                <tbody>
                   <tr>
-                     <td></td>
+                     <td>
+                        
+                        <p>De lijst met de redenen waarom het registratieobject aan de basisregistratie ondergrond
+                           is aangeleverd.</p>
+                        </td>
                   </tr>
                </tbody>
             </table>
@@ -1203,7 +1563,10 @@
                      <td>archiefoverdracht</td>
                      <td></td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>De gegevens zijn aangeleverd in het kader van archiefoverdracht.</p>
+                        </td>
                   </tr>
                </tbody>
             </table>
@@ -1241,7 +1604,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>Het is niet bekend voor welk doel het onderzoek is uitgevoerd. </p>
+                        <p>Het is niet bekend voor welk doel het onderzoek is uitgevoerd.</p>
                         </td>
                   </tr>
                </tbody>
@@ -1369,9 +1732,7 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>Locatie bepaald aan de hand van niet-digitale kaart, afwijking onbekend. Een grootschalige
-                           kaart is een kaart met een schaalgrootte niet kleiner dan 1:10.000 (bijvoorbeeld 1:500,
-                           1:5.000 of 1:10.000).</p>
+                        <p>Het is niet bekend op welke manier de locatie is bepaald.</p>
                         </td>
                   </tr>
                </tbody>
