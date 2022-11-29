@@ -52,7 +52,7 @@
                 </imsikb0101:metaData>
                 <!--Project-->
                 <imsikb0101:featureMember>
-                    <imsikb0101:Project gml:id="_fb16c0ae-4fd0-4c3f-9e14-8d013d1886c9">
+                    <imsikb0101:Project gml:id="_fb16c0ae-4fd0-4c3f-9e14-8d013d1886c9">                    
                         <!-- TODO not yet supported
                         <imsikb0101:assesorConclusion>Belangrijkste resultaten van het onderzoek volgens de beoordelaar van het rapport. Dit zijn meer dan 250 characters opvulling. Dit zijn meer dan 250 characters opvulling. Dit zijn meer dan 250 characters opvulling. Dit zijn meer dan 250 characters opvulling. Dit zijn meer dan 250 characters opvulling. </imsikb0101:assesorConclusion>
                         <imsikb0101:assignmentCode>IDENTIFICATIECODE</imsikb0101:assignmentCode>
@@ -70,19 +70,19 @@
                                     </gml:Polygon>
                                 </gml:surfaceMember>
                             </gml:MultiSurface>
-                        </imsikb0101:geometry>
-                        <imsikb0101:identification>
-                            <immetingen:NEN3610ID>
-                                <immetingen:namespace>SIKB</immetingen:namespace>
-                                <immetingen:lokaalID>fb16c0ae-4fd0-4c3f-9e14-8d013d1886c9</immetingen:lokaalID>
-                            </immetingen:NEN3610ID>
-                        </imsikb0101:identification>
+                        </imsikb0101:geometry>                        
                         <imsikb0101:name>Test project</imsikb0101:name>
                         <imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:5</imsikb0101:phase>
                         -->
                         <imsikb0101:projectCode>Test1234</imsikb0101:projectCode>
-                        <!-- TODO not yet supported
+                        <imsikb0101:identification>
+                            <imsikb0101:NEN3610ID>
+                                <imsikb0101:namespace>SIKB</imsikb0101:namespace>
+                                <imsikb0101:lokaalID>fb16c0ae-4fd0-4c3f-9e14-8d013d1886c9</imsikb0101:lokaalID>
+                            </imsikb0101:NEN3610ID>
+                        </imsikb0101:identification>
                         <imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:1</imsikb0101:projectType>
+                        <!-- TODO not yet supported                   
                         <imsikb0101:reportDate>2013-01-09</imsikb0101:reportDate>
                         <imsikb0101:reportNumber>RAP0001</imsikb0101:reportNumber>
                         <imsikb0101:strategyType>urn:imsikb0101:StrategieType:id:1</imsikb0101:strategyType>
