@@ -30,6 +30,12 @@
                         <sadcom:broId>?</sadcom:broId>
                         -->
                         <sikb:projectCode>SIKB0002</sikb:projectCode>
+                        <sikb:identification>
+                            <sikb:NEN3610ID>
+                                <sikb:namespace>IDNAAM</sikb:namespace>
+                                <sikb:lokaalID>GUID</sikb:lokaalID>
+                            </sikb:NEN3610ID>
+                        </sikb:identification>
                     </sikb:Project>
                 </sikb:featureMember>
             </sikb:FeatureCollectionIMSIKB0101>

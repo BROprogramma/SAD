@@ -1,96 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:gml="http://www.opengis.net/gml/3.2"
-           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           xmlns:issad="http://www.broservices.nl/xsd/issad/0.1"
-           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/0.1"
-           xmlns:sikb="http://www.sikb.nl/imsikb0101"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.broservices.nl/xsd/issad/0.1"
-           elementFormDefault="qualified"
-           attributeFormDefault="unqualified"
-           version="0.1-1">
-   <xs:annotation>
-      <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
-         <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
-      </xs:appinfo>
-   </xs:annotation>
-   <xs:import namespace="http://www.broservices.nl/xsd/sadcommon/0.1"
-              schemaLocation="sadcommon.xsd"/>
-   <xs:import namespace="http://www.sikb.nl/imsikb0101"
-              schemaLocation="sikb0101.xsd"/>
-   <xs:import namespace="http://www.opengis.net/gml/3.2"
-              schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
-   <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0"
-              schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-   <xs:element name="SAD_SiteAssessmentData"
-               type="issad:SAD_SiteAssessmentDataType"
-               substitutionGroup="gml:AbstractFeature">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Registratieobject Milieukwaliteitonderzoek</xs:documentation>
-      </xs:annotation>
-   </xs:element>
-   <xs:complexType name="SAD_SiteAssessmentDataType">
-      <xs:complexContent>
-         <xs:extension base="gml:AbstractFeatureType">
-            <xs:sequence>
-               <xs:element name="objectIdAccountableParty"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="xs:string">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:issad="http://www.broservices.nl/xsd/issad/0.1" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/0.1" xmlns:sikb="http://www.sikb.nl/imsikb0101" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/issad/0.1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.1-1">
+    <xs:annotation>
+        <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+            <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:import namespace="http://www.broservices.nl/xsd/sadcommon/0.1" schemaLocation="sadcommon.xsd"/>
+    <xs:import namespace="http://www.sikb.nl/imsikb0101" schemaLocation="sikb0101.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    <xs:element name="SAD_SiteAssessmentData" type="issad:SAD_SiteAssessmentDataType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Registratieobject Milieukwaliteitonderzoek</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="SAD_SiteAssessmentDataType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="objectIdAccountableParty" minOccurs="0" maxOccurs="1" type="xs:string">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.
 Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element name="deliveryContext"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="sadcom:DeliveryContextType">
-                  <xs:annotation>
-                     <xs:appinfo>
-                        <CodeListName>DeliveryContext</CodeListName>
-                        <CodeListURI>urn:bro:sad:DeliveryContext</CodeListURI>
-                     </xs:appinfo>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Kader aanlevering</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-               <xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="featureCollection"
-                           nillable="false"
-                           type="sikb:FeatureCollectionIMSIKB0101PropertyType"/>
-            </xs:sequence>
-         </xs:extension>
-      </xs:complexContent>
-   </xs:complexType>
-   <xs:complexType name="SAD_SiteAssessmentDataPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="issad:SAD_SiteAssessmentData"/>
-      </xs:sequence>
-      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-   </xs:complexType>
-   <xs:element name="registrationRequest"
-               type="issad:RegistrationRequestType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht RegistrationRequest is een specialisatie van de abstract klasse RegistrationRequest uit de package brocommon, waaraan het een sourceDocument toevoegt. Met dit bericht kan een nog niet geregistreerd Bodemkwaliteitsonderzoek in de BRO worden opgenomen.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
-   <xs:complexType name="RegistrationRequestType">
-      <xs:complexContent>
-         <xs:extension base="brocom:RegistrationRequestType">
-            <xs:sequence>
-               <xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="sourceDocument"
-                           nillable="false"
-                           type="issad:SAD_SiteAssessmentDataPropertyType">
-                  <xs:annotation>
-                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die in het BRO-systeem geregistreerd zullen worden en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het registratieverzoek.</xs:documentation>
-                  </xs:annotation>
-               </xs:element>
-            </xs:sequence>
-         </xs:extension>
-      </xs:complexContent>
-   </xs:complexType>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="deliveryContext" minOccurs="1" maxOccurs="1" type="sadcom:DeliveryContextType">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>DeliveryContext</CodeListName>
+                                <CodeListURI>urn:bro:sad:DeliveryContext</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Kader aanlevering</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="1" maxOccurs="1" name="featureCollection" nillable="false" type="sikb:FeatureCollectionIMSIKB0101PropertyType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SAD_SiteAssessmentDataPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="issad:SAD_SiteAssessmentData"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="registrationRequest" type="issad:RegistrationRequestType">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht RegistrationRequest is een specialisatie van de abstract klasse RegistrationRequest uit de package brocommon, waaraan het een sourceDocument toevoegt. Met dit bericht kan een nog niet geregistreerd Bodemkwaliteitsonderzoek in de BRO worden opgenomen.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="RegistrationRequestType">
+        <xs:complexContent>
+            <xs:extension base="brocom:RegistrationRequestType">
+                <xs:sequence>
+                    <xs:element minOccurs="1" maxOccurs="1" name="sourceDocument" nillable="false" type="issad:SAD_SiteAssessmentDataPropertyType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die in het BRO-systeem geregistreerd zullen worden en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het registratieverzoek.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
 </xs:schema>
