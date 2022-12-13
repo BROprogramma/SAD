@@ -28,6 +28,7 @@ Explanation: door opdrachtnemer gehanteerde identificatiecode van het project</x
                     </xs:element>
                     <xs:element minOccurs="1" maxOccurs="1" name="identification" nillable="false" type="sikb:NEN3610IDPropertyType"/>
                     <xs:element name="projectType" type="gml:CodeType" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>

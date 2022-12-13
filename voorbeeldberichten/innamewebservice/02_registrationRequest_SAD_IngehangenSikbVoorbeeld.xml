@@ -82,8 +82,8 @@
                             </imsikb0101:NEN3610ID>
                         </imsikb0101:identification>
                         <imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:1</imsikb0101:projectType>
-                        <!-- TODO not yet supported                   
                         <imsikb0101:reportDate>2013-01-09</imsikb0101:reportDate>
+                        <!-- TODO not yet supported                   
                         <imsikb0101:reportNumber>RAP0001</imsikb0101:reportNumber>
                         <imsikb0101:strategyType>urn:imsikb0101:StrategieType:id:1</imsikb0101:strategyType>
                         <imsikb0101:usingMonitoringNetwork xlink:href="#_d22a2110-b1bc-4bf6-976b-07dfda438e0b"/>
