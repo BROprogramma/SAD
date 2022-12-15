@@ -9,7 +9,7 @@
          <tbody>
             <tr>
                <th>Naam</th>
-               <td></td>
+               <td>Milieuhygiënisch bodemonderzoek</td>
             </tr>
             <tr>
                <th>Code</th>
@@ -24,20 +24,19 @@
                      in Nederland een of meer boringen uit te voeren en de monsters die daarmee uit de
                      ondergrond zijn verkregen te beschrijven en/of te onderzoeken en door een of meer
                      peilbuizen te plaatsen om metingen aan het grondwater uit te voeren en/of grondwatermonsters
-                     te nemen voor onderzoek in het laboratorium.</p>
+                     te nemen voor onderzoek in het laboratorium of door archiefonderzoek uit te voeren.</p>
                   </td>
             </tr>
             <tr>
                <th>Populatie</th>
                <td>
                   
-                  <p>De populatie bodemonderzoeken in de registratie ondergrond omvat de onderzoeken die
-                     op basis van een wettelijke plicht aan het bevoegd gezag worden gerapporteerd of in
-                     opdracht van een bestuursorgaan zijn uitgevoerd.
+                  <p>De populatie bodemonderzoeken in de registratie ondergrond omvat alle bodemonderzoeken
+                     die zijn uitgevoerd vanaf maaiveld, daar waar het aardoppervlak niet is bedekt met
+                     water.
                      Ieder object heeft ter identificatie een eigen BRO-ID.
-                     De huidige gegevensdefinitie beperkt zich tot de onderzoeken op maaiveld, daar waar
-                     het aardoppervlak niet is bedekt met water, en tot het kwaliteitsregime IMBRO/A, dat
-                     bedoeld is voor historische gegevens.</p>
+                     De huidige gegevensdefinitie beperkt zich tot het kwaliteitsregime IMBRO/A, dat bedoeld
+                     is voor historische gegevens.</p>
                   </td>
             </tr>
          </tbody>
@@ -85,7 +84,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>De identificatie van een booronderzoek in de registratie ondergrond.</p>
+                        <p>De identificatie van een bodemonderzoek in de registratie ondergrond.</p>
                         </td>
                   </tr>
                   <tr>
@@ -161,7 +160,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p> De organisatie moet binnen de basisregistratie ondergrond als bronhouder van booronderzoek
+                        <p>De organisatie moet binnen de basisregistratie ondergrond als bronhouder van bodemonderzoek
                            bekend zijn. </p>
                         </td>
                   </tr>
@@ -392,9 +391,9 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>De datum waarop de uitvoerder van het bodemkwaliteitonderzoek alle gegevens van het
-                           bodemkwaliteitonderzoek aan de bronhouder heeft overgedragen of in het geval van historische
-                           gegevens de datum waarop alle gegevens zijn vastgesteld.</p>
+                        <p>De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek
+                           aan de bronhouder heeft overgedragen of in het geval van historische gegevens de datum
+                           waarop alle gegevens zijn vastgesteld.</p>
                         </td>
                   </tr>
                   <tr>
@@ -432,8 +431,8 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_typeonderzoek"></a><section id="detail_attribute_Model_Bodemonderzoek_typeonderzoek">
-            <h4>  type onderzoek</h4>
+            </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_SIKBID"></a><section id="detail_attribute_Model_Bodemonderzoek_SIKBID">
+            <h4>  SIKB-ID</h4>
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -447,7 +446,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>Het type onderzoek dat is uitgevoerd.</p>
+                        <p>De identificatie die het bodemonderzoek in het bodem informatie systeem had.</p>
                         </td>
                   </tr>
                   <tr>
@@ -456,7 +455,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td>0..1</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -464,13 +463,18 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td><a class="link" href="#detail_class_Model_TypeOnderzoek">
-                           TypeOnderzoek
-                           </a></td>
+                     <td>Tekst </td>
                   </tr>
                   <tr>
-                     <th>&nbsp;&nbsp;Type</th>
-                     <td>Waardelijst uitbreidbaar</td>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p>Dit gegeven komt alleen voor wanneer het bodemonderzoek voor opname in de BRO geregistreerd
+                           was in een Bodem Informatie Systeem (BIS). Het SIKB-identificatienummer is de algemeen
+                           gebruikte identificatie die een bodemonderzoek voor invoering van de basisregistratie
+                           ondergrond had. Het SIKB-ID kan gelijk zijn aan het object-ID bronhouder. Anders dan
+                           het object-ID bronhouder wordt het SIKB-ID standaard uitgeleverd.</p>
+                        </td>
                   </tr>
                </tbody>
             </table>
@@ -517,8 +521,8 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_SIKBcode"></a><section id="detail_attribute_Model_Bodemonderzoek_SIKBcode">
-            <h4>  SIKB-code</h4>
+            </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_typeonderzoek"></a><section id="detail_attribute_Model_Bodemonderzoek_typeonderzoek">
+            <h4>  type onderzoek</h4>
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -532,7 +536,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>De identificatie die het bodemonderzoek in het bodem informatie systeem had.</p>
+                        <p>Het type onderzoek dat is uitgevoerd.</p>
                         </td>
                   </tr>
                   <tr>
@@ -541,7 +545,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>0..1</td>
+                     <td>1</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -549,22 +553,17 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Tekst </td>
+                     <td><a class="link" href="#detail_class_Model_TypeOnderzoek">
+                           TypeOnderzoek
+                           </a></td>
                   </tr>
                   <tr>
-                     <th>Toelichting</th>
-                     <td>
-                        
-                        <p>Dit gegeven komt alleen voor wanneer het bodemonderzoek voor opname in de BRO geregistreerd
-                           was in een Bodem Informatie Systeem (BIS). Het SIKB-identificatienummer is de algemeen
-                           gebruikte identificatie die een bodemonderzoek voor invoering van de basisregistratie
-                           ondergrond had. De SIKB-code kan gelijk zijn aan het object-ID bronhouder. Anders
-                           dan het object-ID bronhouder wordt de SIKB-code standaard uitgeleverd.</p>
-                        </td>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d15117e2125"></a><section id="detail_d15117e2125">
+            </section><a class="anchor" id="detail_d15063e2133"></a><section id="detail_d15063e2133">
             <h4>  registratiegeschiedenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -748,8 +747,7 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>Het gegeven is alleen aanwezig wanneer na de registratie van een deelonderzoek ander
-                           deelonderzoek is vastgelegd.</p>
+                        <p>De gegevens van een bodemonderzoek worden altijd in een keer aangeleverd.</p>
                         </td>
                   </tr>
                </tbody>
@@ -1318,16 +1316,7 @@
                <td>✔</td>
                <td>
                   
-                  <p>Het is niet bekend voor welk type onderzoek is uitgevoerd.</p>
-                  </td>
-            </tr>
-            <tr>
-               <td>verkennendOnderzoek</td>
-               <td></td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>Het is niet bekend voor welk type onderzoek is uitgevoerd.</p>
+                  <p>Het is niet bekend welk type onderzoek is uitgevoerd.</p>
                   </td>
             </tr>
          </tbody>
