@@ -597,7 +597,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d16621e2233"></a><section id="detail_d16621e2233">
+            </section><a class="anchor" id="detail_d18205e2233"></a><section id="detail_d18205e2233">
             <h4>  registratiegeschiedenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -626,6 +626,32 @@
                      <th>Gegevensgroeptype</th>
                      <td>
                         <a class="link" href="#global_class_Model_Registratiegeschiedenis">Registratiegeschiedenis</a>
+                        </td>
+                  </tr>
+               </tbody>
+            </table>
+         </section><a class="anchor" id="detail_d18205e2418"></a><section id="detail_d18205e2418">
+            <h4>  conclusie onderzoek</h4>
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 70%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Gegevensgroep van Bodemonderzoek</td>
+                  </tr>
+                  <tr>
+                     <th>Juridische status</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>0..1</td>
+                  </tr>
+                  <tr>
+                     <th>Gegevensgroeptype</th>
+                     <td>
+                        <a class="link" href="#global_class_Model_Conclusie">Conclusie</a>
                         </td>
                   </tr>
                </tbody>
@@ -1230,10 +1256,119 @@
                </tbody>
             </table>
             </section>
+      </section><a class="anchor" id="graph_EAID_EDC234B3_84B8_4de3_9D44_B1260A9B8970"></a><a class="anchor" id="global_class_Model_Conclusie"></a><section id="global_class_Model_Conclusie">
+         <h3>   Conclusie</h3>
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Type gegeven</th>
+                  <td>Entiteit</td>
+               </tr>
+            </tbody>
+         </table><a class="anchor" id="detail_attribute_Model_Conclusie_onderzoeksconclusie"></a><section id="detail_attribute_Model_Conclusie_onderzoeksconclusie">
+            <h4>  onderzoeksconclusie</h4>
+            
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 70%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Conclusie</td>
+                  </tr>
+                  <tr>
+                     <th>Juridische status</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>0..1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>Tekst </td>
+                  </tr>
+               </tbody>
+            </table>
+            </section><a class="anchor" id="detail_attribute_Model_Conclusie_asbest"></a><section id="detail_attribute_Model_Conclusie_asbest">
+            <h4>  asbest</h4>
+            
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 70%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Conclusie</td>
+                  </tr>
+                  <tr>
+                     <th>Juridische status</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>0..1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td><a class="link" href="#detail_class_Model_AsbestAanwezig">
+                           AsbestAanwezig
+                           </a></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Type</th>
+                     <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+               </tbody>
+            </table>
+            </section>
       </section>
    </section>
 </section><section>
    <h1>Uitbreidbare waardelijsten</h1>
+   <section id="detail_class_Model_AanleidingOnderzoek">
+      <h2>  AanleidingOnderzoek</h2>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td></td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup style="width: 20%;"></colgroup>
+         <colgroup style="width: 5%;"></colgroup>
+         <colgroup style="width: 5%;"></colgroup>
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <th>Waarde</th>
+               <th>IMBRO</th>
+               <th>IMBRO/A</th>
+               <th>Omschrijving</th>
+            </tr>
+            <tr>
+               <td>onbekend</td>
+               <td></td>
+               <td>✔</td>
+               <td></td>
+            </tr>
+         </tbody>
+      </table>
+      </section>
    <section id="detail_class_Model_KaderAanlevering">
       <h2>  KaderAanlevering</h2>
       
@@ -1354,8 +1489,8 @@
          </tbody>
       </table>
       </section>
-   <section id="detail_class_Model_AanleidingOnderzoek">
-      <h2>  AanleidingOnderzoek</h2>
+   <section id="detail_class_Model_AsbestAanwezig">
+      <h2>  AsbestAanwezig</h2>
       
       <table style="width: 100%;" class="list">
          <colgroup></colgroup>
@@ -1377,6 +1512,24 @@
                <th>IMBRO</th>
                <th>IMBRO/A</th>
                <th>Omschrijving</th>
+            </tr>
+            <tr>
+               <td>aanwezig</td>
+               <td>✔</td>
+               <td>✔</td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>afwezig</td>
+               <td>✔</td>
+               <td>✔</td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>nietOnderzocht</td>
+               <td>✔</td>
+               <td>✔</td>
+               <td></td>
             </tr>
             <tr>
                <td>onbekend</td>
