@@ -536,7 +536,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td>0..1</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -578,7 +578,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td>0..1</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -713,7 +713,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d21910e2823"></a><section id="detail_d21910e2823">
+            </section><a class="anchor" id="detail_d22839e2881"></a><section id="detail_d22839e2881">
             <h4>  registratiegeschiedenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -746,7 +746,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d21910e3008"></a><section id="detail_d21910e3008">
+         </section><a class="anchor" id="detail_d22839e3066"></a><section id="detail_d22839e3066">
             <h4>  gestandaardiseerde locatie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -788,7 +788,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d21910e3234"></a><section id="detail_d21910e3234">
+         </section><a class="anchor" id="detail_d22839e3292"></a><section id="detail_d22839e3292">
             <h4>  conclusie onderzoek</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -802,7 +802,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>De belangrijkste resultaten van het onderzoek volgend de uitvoerder van het bodemonderzoek.</p>
+                        <p>De belangrijkste resultaten van het onderzoek volgens de auteur van het bodemonderzoeksrapport.</p>
                         </td>
                   </tr>
                   <tr>
@@ -817,6 +817,40 @@
                      <th>Gegevensgroeptype</th>
                      <td>
                         <a class="link" href="#global_class_Model_Conclusie">Conclusie</a>
+                        </td>
+                  </tr>
+               </tbody>
+            </table>
+         </section><a class="anchor" id="detail_association_Model_Bodemonderzoek_heeft"></a><section id="detail_association_Model_Bodemonderzoek_heeft">
+            <h4>  </h4>
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 70%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Associatie van Bodemonderzoek</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>0..1</td>
+                  </tr>
+                  <tr>
+                     <th>Relatiesoort naam</th>
+                     <td>heeft</td>
+                  </tr>
+                  <tr>
+                     <th>Relatierol naam</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>Bron</th>
+                     <td>Bodemonderzoek</td>
+                  </tr>
+                  <tr>
+                     <th>Doel</th>
+                     <td>
+                        Rapport
                         </td>
                   </tr>
                </tbody>
@@ -1638,6 +1672,78 @@
                      <th>&nbsp;&nbsp;Naam</th>
                      <td>
                         Coördinaattransformatie
+                        </td>
+                  </tr>
+               </tbody>
+            </table>
+            </section>
+      </section><a class="anchor" id="graph_EAID_1A8201CD_7E4B_4216_916D_D3AEB7E30188"></a><a class="anchor" id="global_class_Model_Rapport"></a><section id="global_class_Model_Rapport">
+         <h3>   Rapport</h3>
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Type gegeven</th>
+                  <td>Entiteit</td>
+               </tr>
+            </tbody>
+         </table><a class="anchor" id="detail_attribute_Model_Rapport_Rapportnummer"></a><section id="detail_attribute_Model_Rapport_Rapportnummer">
+            <h4>  Rapportnummer</h4>
+            
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 70%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Rapport</td>
+                  </tr>
+                  <tr>
+                     <th>Juridische status</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>Tekst </td>
+                  </tr>
+               </tbody>
+            </table>
+            </section><a class="anchor" id="detail_attribute_Model_Rapport_Rapportdatum"></a><section id="detail_attribute_Model_Rapport_Rapportdatum">
+            <h4>  Rapportdatum</h4>
+            
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 70%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Type gegeven</th>
+                     <td>Attribuut van Rapport</td>
+                  </tr>
+                  <tr>
+                     <th>Juridische status</th>
+                     <td>Authentiek</td>
+                  </tr>
+                  <tr>
+                     <th>Kardinaliteit</th>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <th>Domein</th>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Naam</th>
+                     <td>
+                        Datum
                         </td>
                   </tr>
                </tbody>
