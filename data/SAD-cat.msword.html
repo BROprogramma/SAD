@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Milieuhygienisch bodemonderzoek SAD/20230120</p>
       <p>Imvertor: 2.0.0</p>
-      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-1.0-1-20230120-20230126-155843</p>
+      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-1.0-1-20230120-20230126-165022</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -170,7 +170,7 @@
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
-                              <td>0..1</td>
+                              <td>1</td>
                            </tr>
                            <tr>
                               <th>Domein</th>
@@ -183,10 +183,21 @@
                                  </td>
                            </tr>
                            <tr>
+                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
+                              <td>OnvolledigeDatum</td>
+                           </tr>
+                           <tr>
                               <th>Regels</th>
                               <td>
                                  
                                  <p>De datum mag niet liggen na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>De datum van het rapport wordt vastgelegd bij het <em>Rapport</em> als <em>rapportdatum</em>.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -272,7 +283,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De naam is door de uitvoerder van het onderzoek toegekend aan het onderzoek.</p>
+                                 <p>De naam is door de uitvoerder van het onderzoek is toegekend aan het onderzoek.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -292,7 +303,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Het doel waarvoor het onderzoek is uitgevoerd.</p>
+                                 <p>De aanleiding waarvoor het onderzoek is uitgevoerd.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -323,7 +334,8 @@
                                  
                                  <p>Onderzoek wordt normaliter projectmatig uitgevoerd, zelfs als het direct gebonden
                                     is aan een publieke taak. Het gegeven beschrijft het hogere doel van het project waarvoor
-                                    het onderzoek is uitgevoerd of preciseert de taak. </p>
+                                    het onderzoek is uitgevoerd of preciseert de taak.
+                                    [TODO: onderscheid tussen taak, doel en aanleiding helder maken]</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -385,7 +397,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De aanduiding of asbest aanwezig is. </p>
+                                 <p>De aanduiding of binnen het onderzoek de aanwezigheid van asbest is onderzocht. </p>
                                  </td>
                            </tr>
                            <tr>
@@ -394,7 +406,7 @@
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
-                              <td>1</td>
+                              <td>0..1</td>
                            </tr>
                            <tr>
                               <th>Domein</th>
@@ -402,8 +414,8 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td><a class="link" href="#detail_class_Model_AsbestAanwezig">
-                                    AsbestAanwezig
+                              <td><a class="link" href="#detail_class_Model_AsbestAanwezigheid">
+                                    AsbestAanwezigheid
                                     </a></td>
                            </tr>
                            <tr>
@@ -500,6 +512,14 @@
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>Tekst </td>
                            </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>In de conclusie staat of er verontreiniging is aangetroffen en in welke mate, en of
+                                    vervolg onderzoek wordt geadviseerd.</p>
+                                 </td>
+                           </tr>
                         </tbody>
                      </table>
                      </section><a class="anchor" id="detail_attribute_Model_Bodemonderzoek_uitvoerderonderzoek"></a><section id="detail_attribute_Model_Bodemonderzoek_uitvoerderonderzoek">
@@ -525,7 +545,7 @@
                            </tr>
                            <tr>
                               <th>Juridische status</th>
-                              <td>Authentiek</td>
+                              <td>Niet-authentiek</td>
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
@@ -556,7 +576,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d29339e3100"></a><section id="detail_d29339e3100">
+                     </section><a class="anchor" id="detail_d29479e3170"></a><section id="detail_d29479e3170">
                      <h4>  registratiegeschiedenis</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -589,7 +609,7 @@
                            </tr>
                         </tbody>
                      </table>
-                  </section><a class="anchor" id="detail_d29339e3285"></a><section id="detail_d29339e3285">
+                  </section><a class="anchor" id="detail_d29479e3355"></a><section id="detail_d29479e3355">
                      <h4>  gestandaardiseerde locatie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -625,13 +645,14 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De begrenzing van het bodemonderzoek is vastgelegd als een mulitvlak (multi surface).
-                                    </p>
+                                 <p>Het gegeven staat niet in een brondocument. De gestandaardiseerde locatie wordt door
+                                    de basisregistratie ondergrond berekend ten behoeve van afnemers.<br clear="none">
+                                    De locatie van het bodemonderzoek is gedefinieerd als een multivlak.</p>
                                  </td>
                            </tr>
                         </tbody>
                      </table>
-                  </section><a class="anchor" id="detail_d29339e3511"></a><section id="detail_d29339e3511">
+                  </section><a class="anchor" id="detail_d29479e3589"></a><section id="detail_d29479e3589">
                      <h4>  rapport onderzoek</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1292,8 +1313,8 @@
                               
                               <p>De gegevens staan niet in een brondocument. De gestandaardiseerde locatie wordt door
                                  de basisregistratie ondergrond berekend ten behoeve van afnemers. Het maakt het mogelijk
-                                 alle gegevens in de registratie ondergrond in een en hetzelfde referentiestelsel te
-                                 ontsluiten.</p>
+                                 alle gegevens in de registratie ondergrond in in één en hetzelfde referentiestelsel
+                                 te ontsluiten.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -1504,7 +1525,7 @@
                   <tr>
                      <td>
                         
-                        <p>De lijst met de redenen waarom het onderzoek is uitgevoerd.</p>
+                        <p>De lijst met de aanleiding waarvoor het onderzoek is uitgevoerd.</p>
                         </td>
                   </tr>
                </tbody>
@@ -1651,8 +1672,8 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_class_Model_AsbestAanwezig">
-            <h3>  AsbestAanwezig</h3>
+         <section id="detail_class_Model_AsbestAanwezigheid">
+            <h3>  AsbestAanwezigheid</h3>
             
             <table style="width: 100%;" class="list">
                <colgroup></colgroup>
@@ -1679,28 +1700,45 @@
                      <th>Omschrijving</th>
                   </tr>
                   <tr>
-                     <td>aanwezig</td>
+                     <td>1</td>
                      <td></td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Aanwezig: onderzoek uitgevoerd conform NEN 5707/NEN 5897. Asbest aangetoond boven
+                           de detectielimiet.</p>
+                        </td>
                   </tr>
                   <tr>
-                     <td>afwezig</td>
+                     <td>2</td>
                      <td></td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Afwezig: onderzoek uitgevoerd conform NEN 5707/NEN 5897. Geen asbest aangetoond boven
+                           de detectielimiet.</p>
+                        </td>
                   </tr>
                   <tr>
-                     <td>nietOnderzocht</td>
+                     <td>3</td>
                      <td></td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>onbekend: vooronderzoek uitgevoerd conform NEN5725. Onvoldoende informatie beschikbaar
+                           om vast te stellen of asbest in of op de bodem aanwezig is. Vervolgonderzoek conform
+                           NEN 5707/NEN 5897 noodzakelijk.</p>
+                        </td>
                   </tr>
                   <tr>
-                     <td>onbekend</td>
+                     <td>4</td>
                      <td></td>
                      <td>✔</td>
-                     <td></td>
+                     <td>
+                        
+                        <p>Niet onderzocht: geen onderzoek uitgevoerd naar het mogelijk voorkomen van asbest
+                           in of op de bodem.</p>
+                        </td>
                   </tr>
                </tbody>
             </table>
