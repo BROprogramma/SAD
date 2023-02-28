@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.broservices.nl/xsd/sadcommon/1.0"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.0.0-1">
+           <!--
+
+    Copyright 2012-2023 TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+   <xs:annotation>
+      <xs:appinfo source="http://schemas.opengis.net/gmlsfProfile/2.0/gmlsfLevels.xsd">
+         <gmlsf:ComplianceLevel>0</gmlsf:ComplianceLevel>
+      </xs:appinfo>
+   </xs:annotation>
+   <xs:import namespace="http://www.opengis.net/gml/3.2"
+              schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+   <xs:element name="AbstractRegistrationObject"
+               type="sadcom:AbstractRegistrationObjectType"
+               abstract="true"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Abstract objecttype met als gegeven alleen de unieke identificatie van een registratieobject in de registratie ondergrond.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="AbstractRegistrationObjectType" abstract="true">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="broId"
+                           type="sadcom:RegistrationObjectCodeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Unieke aanduiding van een registratieobject in de basisregistratie ondergrond.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AbstractRegistrationObjectPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:AbstractRegistrationObject"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="BRO_DO"
+               type="sadcom:BRO_DOType"
+               substitutionGroup="sadcom:AbstractRegistrationObject">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het datatype BRO_DO bevat de gegevens over een registratieobject dat uit registratie is genomen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="BRO_DOType">
+      <xs:complexContent>
+         <xs:extension base="sadcom:AbstractRegistrationObjectType">
+            <xs:sequence>
+               <xs:element name="deregistered"
+                           type="sadcom:IndicationYesNoType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deregistrationTime"
+                           type="xs:dateTime"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="BRO_DOPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:BRO_DO"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="RegistrationObject"
+               type="sadcom:RegistrationObjectType"
+               abstract="true"
+               substitutionGroup="sadcom:AbstractRegistrationObject">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het geheel van gegevens dat betrekking heeft op een registratieobject en dat in de registratie ondergrond is opgenomen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="RegistrationObjectType" abstract="true">
+      <xs:complexContent>
+         <xs:extension base="sadcom:AbstractRegistrationObjectType">
+            <xs:sequence>
+               <xs:element name="deliveryAccountableParty"
+                           type="sadcom:OrganizationPropertyType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het bestuursorgaan, dat bronhouder is van de gegevens in de basisregistratie ondergrond, als onderneming in het Handelsregister heeft.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="objectIdAccountableParty"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.
+Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveryResponsibleParty"
+                           type="sadcom:OrganizationPropertyType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO
+Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="qualityRegime"
+                           type="sadcom:QualityregimeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.
+Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="RegistrationObjectPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:RegistrationObject"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="AbstractCharacteristicsV2"
+               type="sadcom:AbstractCharacteristicsV2Type"
+               abstract="true"
+               substitutionGroup="sadcom:AbstractRegistrationObject">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De entiteit Characteristics bevat de registratieobject onafhankelijke kengegevens van een registratieobject dat niet uit registratie is genomen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="AbstractCharacteristicsV2Type" abstract="true">
+      <xs:complexContent>
+         <xs:extension base="sadcom:AbstractRegistrationObjectType">
+            <xs:sequence>
+               <xs:element name="deregistered"
+                           type="sadcom:IndicationYesNoType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveryAccountableParty"
+                           type="sadcom:ChamberOfCommerceNumberType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="qualityRegime"
+                           type="sadcom:QualityregimeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="objectRegistrationTime"
+                           type="xs:dateTime"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="latestCorrectionTime"
+                           type="xs:dateTime"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="underReview"
+                           type="sadcom:IndicationYesNoType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="standardizedLocation"
+                           type="sadcom:StandardizedGeometryPropertyType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveredLocation"
+                           type="sadcom:DeliveredGeometryPropertyType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AbstractCharacteristicsV2PropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:AbstractCharacteristicsV2"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="AbstractCharacteristics"
+               type="sadcom:AbstractCharacteristicsType"
+               abstract="true"
+               substitutionGroup="sadcom:AbstractRegistrationObject">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De entiteit Characteristics bevat de registratieobject onafhankelijke kengegevens van een registratieobject dat niet uit registratie is genomen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="AbstractCharacteristicsType" abstract="true">
+      <xs:complexContent>
+         <xs:extension base="sadcom:AbstractRegistrationObjectType">
+            <xs:sequence>
+               <xs:element name="deregistered"
+                           type="sadcom:IndicationYesNoType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveryAccountableParty"
+                           type="sadcom:ChamberOfCommerceNumberType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="qualityRegime"
+                           type="sadcom:QualityregimeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="objectRegistrationTime"
+                           type="xs:dateTime"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="latestCorrectionTime"
+                           type="xs:dateTime"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="underReview"
+                           type="sadcom:IndicationYesNoType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="standardizedLocation"
+                           type="gml:PointPropertyType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveredLocation"
+                           type="gml:PointPropertyType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AbstractCharacteristicsPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:AbstractCharacteristics"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="AbstractDispatchCharacteristicsRequest"
+               type="sadcom:AbstractDispatchCharacteristicsRequestType"
+               abstract="true"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht AbstractDispatchCharacteristicsRequest bevat een verzoek tot het leveren van kengegevens en bestaat uit alleen een element requestReference. Een specialisate van dit abstracte bericht moet hier een registratieobject afhankelijk element criteria aan toevoegen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="AbstractDispatchCharacteristicsRequestType" abstract="true">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="requestReference"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een kenmerk dat de dataleverancier meegeeft om het uitgifteverzoek voor eigen doeleinden te kunnen identificeren.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="AbstractDispatchCharacteristicsRequestPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:AbstractDispatchCharacteristicsRequest"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="DispatchDataRequest"
+               type="sadcom:DispatchDataRequestType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Verzoek tot uitgifte van objectgegevens.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="DispatchDataRequestType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="requestReference"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="broId"
+                           type="sadcom:RegistrationObjectCodeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="DispatchDataRequestPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:DispatchDataRequest"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="Circle"
+               type="sadcom:CircleType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Begrenzing aan van een geografisch gebied aan het aardoppervlak aangeduid door een middelpunt en een straal.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="CircleType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="center" minOccurs="1" maxOccurs="1" type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO
+Explanation: Eigenlijk moet dit gemodelleerd worden als een DirectPosition, maar dit complexType is niet opgenomen in het configuratiebestand conceptualschemas.xml van Imvertor.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="radius" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+                  <xs:complexType>
+                     <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                           <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="km"/>
+                        </xs:restriction>
+                     </xs:simpleContent>
+                  </xs:complexType>
+               </xs:element>
+               <xs:element name="srsName" minOccurs="1" maxOccurs="1" type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="CirclePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:Circle"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="CorrectionRequest"
+               type="sadcom:CorrectionRequestType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.
+Explanation: Gegevens over een registratieobject zonder levenscyclus worden eenmalig geregistreerd. Gegevens over een registratieobject met een levenscyclus worden eerst geregistreerd en vervolgens aangevuld en eventueel uiteindelijke beëindigd. Met een correctieverzoek kunnen fouten in geregistreerde gegevens in de BRO worden verbeterd. Verwijderen, of beter het uit registratie nemen van een object is een ingrijpende verandering in de registratie ondergrond, en daartoe kan pas worden besloten na zorgvuldig onderzoek. Het onderzoek begint bij de registratiebeheerder en uiteindelijk kan een object alleen na akkoord van de bronhouder uit registratie genomen worden. Het is bovendien goed om te weten dat de gegevens niet uit de registratie verwijderd worden. De gegevens blijven bestaan maar zijn niet langer voor gebruikers toegankelijk.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="CorrectionRequestType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="requestReference"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een kenmerk dat de dataleverancier meegeeft om het innameverzoek voor eigen doeleinden te kunnen identificeren.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveryAccountableParty"
+                           type="sadcom:ChamberOfCommerceNumberType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het bestuursorgaan dat bronhouder is van de gegevens in de basisregistratie ondergrond als onderneming in het Handelsregister heeft.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="broId"
+                           type="sadcom:RegistrationObjectCodeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Unieke aanduiding van het registratieobject in de basisregistratie ondergrond dat gecorrigeerd moet worden.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="qualityRegime"
+                           type="sadcom:QualityregimeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="underPrivilege"
+                           type="sadcom:IndicationYesNoType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft dat de dataleverancier het recht heeft gedurende een bepaalde tijd putten met voorgeschiedenis aan te leveren.
+Explanation: Onder dit voorrecht mag een brondocument binnen bepaalde restricties een datum voor gebeurtenissen bevatten met een waarde uit het domein OnvolledigeDatum.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="CorrectionRequestPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:CorrectionRequest"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="IntakeResponse"
+               type="sadcom:IntakeResponseType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Functioneel antwoord als reactie op een innameverzoek (registratie of correctie).
+Explanation: Als het BRO-systeem na de toegangscontrole het innameverzoek * kan verwerken zonder dat er fouten worden geconstateerd in het innameverzoek en/of het brondocument en zonder dat er tijdens de verwerking een onverwachte fout optreedt in het BRO-systeem, dan reageert het BRO-systeem met een functioneel antwoord. Dit functionele antwoord is van het datatypeIntakeResponse*.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="IntakeResponseType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="responseType"
+                           type="sadcom:IntakeResponseTypeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="requestReference"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="transactionId"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="broId"
+                           type="sadcom:RegistrationObjectCodeType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="objectIdAccountableParty"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="acceptanceTime"
+                           type="xs:dateTime"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="completionTime"
+                           type="xs:dateTime"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="rejectionTime"
+                           type="xs:dateTime"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="rejectionReason"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="sourceDocumentError"
+                           nillable="false"
+                           type="sadcom:SourceDocumentErrorType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="IntakeResponsePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:IntakeResponse"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="DispatchResponse"
+               type="sadcom:DispatchResponseType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het datatype DispatchResponse is een abstract datatype voor het samenstellen van een response als reactie op een uitgifteverzoek (dispatch request).
+Explanation: Het datatype DispatchResponse is een generiek response. Het definieert een aantal platte elementen, sommigen verplicht en anderen optioneel, inclusief een optionele lijst met foutmeldingen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="DispatchResponseType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="responseType"
+                           type="sadcom:DispatchResponseTypeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="requestReference"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het kenmerk van het uitgifteverzoek, dat de afnemer heeft meegegeven om voor eigen doeleinden het uitgifteverzoek te kunnen identificeren, waarop dit bericht een antwoord is.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="rejectionTime"
+                           type="xs:dateTime"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="dispatchTime"
+                           type="xs:dateTime"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="rejectionReason"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="criterionError"
+                           nillable="false"
+                           type="sadcom:CriterionErrorType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Optionele lijst met foutmeldingen met betrekking tot een geconstateerde fout in de kenmerkenverzameling van een uitgifteverzoek.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="DispatchResponsePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:DispatchResponse"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="ParseFault"
+               type="sadcom:ParseFaultType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Gemodelleerde vorm van de algemene SOAP:Fault (Systeemfout), waarbij op de plek van het detail de gegevens van de ParseFault (Validatiefout) worden opgenomen.
+Explanation: In de ParseFault (Validatiefout) zit een lijst met abortReasons (Redenen afbreken).</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="ParseFaultType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="requestReference"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een voor de dataleverancier unieke aanduiding van het uitgifteverzoek.
+Explanation: Waarde overgenomen uit het request. Dit gegeven is optioneel omdat de softwarefout geconstateerd kan worden voordat het BRO-systeem het uitgifteverzoek heeft kunnen lezen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="transactionId"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een voor het BRO-systeem unieke aanduiding voor de verwerking van een innameverzoek of uitgifteverzoek.
+Explanation: Waarde toegekend door het transactieregister. Dit gegeven is optioneel omdat de softwarefout geconstateerd kan worden voordat het BRO-systeem een transactie heeft kunnen aanmaken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="abortTime" type="xs:dateTime" minOccurs="1" maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Tijdstip, toegekend door de webservice, waarop de verwerking van het uitgifteverzoek is afgebroken.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="abortReason"
+                           nillable="false"
+                           type="sadcom:AbortReasonType">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Lijst met redenen waarom de verwerking van het uitgifteverzoek is afgebroken.
+Explanation: Om praktische redenen wordt de lijst beperkt tot maximaal 99 redenen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="ParseFaultPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:ParseFault"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:element name="RegistrationRequest"
+               type="sadcom:RegistrationRequestType"
+               substitutionGroup="gml:AbstractFeature">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Innameverzoek, dat een dataleverancier (ofwel tevens bronhouder danwel in opdracht van de bronhouder) aanbiedt bij de innameservice van het BRO systeem, waarmee nieuwe gegevens, die net beschikbaar zijn gekomen, aan de BRO worden overdragen.
+Explanation: Gegevens over een registratieobject zonder levenscyclus worden eenmalig geregistreerd. Gegevens over een registratieobject met een levenscyclus worden eerst geregistreerd en vervolgens aangevuld en eventueel uiteindelijke beëindigd. Met een correctieverzoek kunnen fouten in geregistreerde gegevens in de BRO worden verbeterd. Verwijderen, of beter het uit registratie nemen van een object is een ingrijpende verandering in de registratie ondergrond, en daartoe kan pas worden besloten na zorgvuldig onderzoek. Het onderzoek begint bij de registratiebeheerder en uiteindelijk kan een object alleen na akkoord van de bronhouder uit registratie genomen worden. Het is bovendien goed om te weten dat de gegevens niet uit de registratie verwijderd worden. De gegevens blijven bestaan maar zijn niet langer voor gebruikers toegankelijk.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="RegistrationRequestType">
+      <xs:complexContent>
+         <xs:extension base="gml:AbstractFeatureType">
+            <xs:sequence>
+               <xs:element name="requestReference"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="xs:string">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een kenmerk dat de dataleverancier meegeeft om het innameverzoek voor eigen doeleinden te kunnen identificeren.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="deliveryAccountableParty"
+                           type="sadcom:ChamberOfCommerceNumberType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het bestuursorgaan, dat bronhouder is van de gegevens in de basisregistratie ondergrond, als onderneming in het Handelsregister heeft.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="broId"
+                           type="sadcom:RegistrationObjectCodeType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Unieke aanduiding van een registratieobject in de basisregistratie ondergrond.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="qualityRegime"
+                           type="sadcom:QualityregimeType"
+                           minOccurs="1"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+               <xs:element name="underPrivilege"
+                           type="sadcom:IndicationYesNoType"
+                           minOccurs="0"
+                           maxOccurs="1">
+                  <xs:annotation>
+                     <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft dat de dataleverancier het recht heeft gedurende een bepaalde tijd putten met voorgeschiedenis aan te leveren.
+Explanation: Onder dit voorrecht mag een brondocument binnen bepaalde restricties een datum voor gebeurtenissen bevatten met een waarde uit het domein OnvolledigeDatum.</xs:documentation>
+                  </xs:annotation>
+               </xs:element>
+            </xs:sequence>
+         </xs:extension>
+      </xs:complexContent>
+   </xs:complexType>
+   <xs:complexType name="RegistrationRequestPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:RegistrationRequest"/>
+      </xs:sequence>
+      <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+   </xs:complexType>
+   <xs:complexType name="RegistrationHistoryType">
+      <xs:sequence>
+         <xs:element name="objectRegistrationTime"
+                     type="xs:dateTime"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie ondergrond zijn opgenomen.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="registrationStatus"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sadcom:RegistrationStatusType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>RegistrationStatus</CodeListName>
+                  <CodeListURI>urn:bro:RegistrationStatus</CodeListURI>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De actuele fase van registratie waarin het object zich bevindt.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="latestAdditionTime"
+                     type="xs:dateTime"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop de laatste aanvulling op gegevens in de registratie ondergrond is doorgevoerd.
+Explanation: Het gegeven is alleen aanwezig wanneer na de start van de registratie van de mijnbouwwetvergunning aanvullende gegevens zijn vastgelegd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="registrationCompletionTime"
+                     type="xs:dateTime"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond zijn opgenomen en er geen nieuwe gegevens meer ter registratie kunnen worden aangeboden.
+Explanation: Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd. Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden. Wel kunnen fouten in de registratie worden verbeterd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="corrected"
+                     type="sadcom:IndicationYesNoType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of er een correctie in de gegevens van het object in de registratie ondergrond heeft plaatsgevonden.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="latestCorrectionTime"
+                     type="xs:dateTime"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop de laatste correctie in de gegevens van het object is doorgevoerd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="underReview"
+                     type="sadcom:IndicationYesNoType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het object door de registerbeheerder in onderzoek is genomen.
+Explanation: Wanneer een object in onderzoek is genomen betekent dit dat er bij de registerbeheerder gerede twijfel bestaat over de juistheid van de geregistreerde gegevens en dat er een onderzoek is gestart om vast te stellen wat de juiste gegevens zijn. Normaliter gaat hieraan een melding van derden vooraf.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="underReviewTime"
+                     type="xs:dateTime"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop de registerbeheerder het object in onderzoek heeft genomen.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="deregistered"
+                     type="sadcom:IndicationYesNoType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de gegevens van het object door de registerbeheerder uit de registratie ondergrond zijn verwijderd.
+Explanation: Wanneer de registerbeheerder een object uit registratie heeft genomen, zijn de gegevens niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier. De registerbeheerder zal een object alleen bij hoge uitzondering uit registratie nemen. Aan die beslissing gaat een proces van zorgvuldige afweging vooraf en dat komt tot uitdrukking in de regel dat een object slechts een keer uit registratie kan worden genomen.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="deregistrationTime"
+                     type="xs:dateTime"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop het object uit de registratie ondergrond is verwijderd.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="reregistered"
+                     type="sadcom:IndicationYesNoType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het eerder uit registratie was genomen.
+Explanation: De registerbeheerder kan een object eenmalig uit registratie nemen, en die actie kan hij eenmalig ongedaan maken. Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="reregistrationTime"
+                     type="xs:dateTime"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het uit registratie was genomen.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="StandardizedLocationType">
+      <xs:sequence>
+         <xs:element name="location"
+                     type="gml:PointPropertyType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De coördinaten in het standaard referentiestelsel.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="coordinateTransformation"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sadcom:CoordinateTransformationType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>CoordinateTransformation</CodeListName>
+                  <CodeListURI>urn:bro:CoordinateTransformation</CodeListURI>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De methode die de basisregistratie ondergrond heeft gebruikt voor het omzetten van de aangeleverde coördinaten.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="StandardizedLocationV2Type">
+      <xs:sequence>
+         <xs:element name="location"
+                     type="sadcom:StandardizedGeometryPropertyType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De geometrie in het standaard referentiestelsel.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="coordinateTransformation"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="sadcom:CoordinateTransformationType">
+            <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>CoordinateTransformation</CodeListName>
+                  <CodeListURI>urn:bro:CoordinateTransformation</CodeListURI>
+               </xs:appinfo>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De methode die de basisregistratie ondergrond heeft gebruikt voor het omzetten van de aangeleverde coördinaten.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="AbortReasonType">
+      <xs:sequence>
+         <xs:element name="sequenceNumber"
+                     type="xs:integer"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een binnen deze lijst van abortReasons (redenen afbreken) uniek nummer.
+Explanation: Numerieke waarde bedoelt om de lijst met foutmeldingen te kunnen sorteren.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="specification"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Omschrijving van de validatie fout.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="CriteriaSetType">
+      <xs:sequence>
+         <xs:element name="deliveryAccountableParty"
+                     type="sadcom:ChamberOfCommerceNumberType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="qualityRegime"
+                     type="sadcom:QualityregimeType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="1"
+                     name="registrationPeriod"
+                     nillable="false"
+                     type="sadcom:DatePeriodType">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het datuminterval waarbinnen de datum van het tijdstip registratie object van het booronderzoek ligt</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element minOccurs="0"
+                     maxOccurs="1"
+                     name="correctionPeriod"
+                     nillable="false"
+                     type="sadcom:DatePeriodType">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het datuminterval waarbinnen het laatste correctietijdstip van het booronderzoek ligt.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="underReview"
+                     type="sadcom:IndicationYesNoType"
+                     minOccurs="0"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="area"
+                     type="sadcom:AreaPropertyType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De geografische begrenzing waarbinnen de locatie van een booronderzoek ligt.
+Explanation: Een gebied bestaat uit een omsluitende rechthoek of een omsluitende cirkel.</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="CriterionErrorType">
+      <xs:sequence>
+         <xs:element name="sequenceNumber"
+                     type="xs:integer"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="specification"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="DatePeriodType">
+      <xs:sequence>
+         <xs:element name="begindate" type="xs:date" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="endDate" type="xs:date" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="SourceDocumentErrorType">
+      <xs:sequence>
+         <xs:element name="sequenceNumber"
+                     type="xs:integer"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="specification"
+                     minOccurs="1"
+                     maxOccurs="1"
+                     type="xs:string">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="VerticalPositionRangeType">
+      <xs:sequence>
+         <xs:element name="startDepth" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begindiepte van het bereik waarbinnen de einddiepte van de boring ligt.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+         <xs:element name="endDepth" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De einddiepte van het bereik waarbinnen de einddiepte van de boring ligt.</xs:documentation>
+            </xs:annotation>
+            <xs:complexType>
+               <xs:simpleContent>
+                  <xs:restriction base="gml:MeasureType">
+                     <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                  </xs:restriction>
+               </xs:simpleContent>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:simpleType name="ChamberOfCommerceNumberType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het domein KvK-nummer geeft het identificerende gegeven van een onderneming in het Handelsregister. De opbouw is NNNNNNNN.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="DateType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het domein Datum geeft een datum volgens de Gregoriaanse kalender tot op de dag nauwkeurig. De opbouw is JJJJ-MM-DD. Wanneer een attribuut een domein van het type Datum heeft is het voldoende de naam te geven, omdat de opbouw altijd hetzelfde is.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="Number4Type">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een domein van het type aantal is een getal met een bepaalde maximale lengte. Het wordt gebruikt voor een telbare hoeveelheid. Een domein wordt volledig gespecificeerd door met de aanduiding ook de maximale lengte mee te geven. In het domeinmodel is de algemene aanduiding AantalN, waarbij N de maximale lengte aangeeft.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="RegistrationObjectCodeType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van een object in de registratie ondergrond.
+Explanation: Opbouw: &lt;RO&gt;NNNNNNNNNNNN De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan het object toe.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="Text7Type">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="Text40Type">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een domein van het type tekst bestaat uit een stuk tekst van een bepaalde maximale lengte. De tekst mag alleen bestaan uit de tekens die voorkomen in de MES-1 set. De MES-1 set omvat 335 tekens en wordt gebruikt binnen de landen van de Europese Unie die een Latijns schrift kennen. Een domein van het type tekst wordt volledig gespecificeerd door met de aanduiding tekst ook de maximale lengte mee te geven. In het domeinmodel wordt het domein aangeduid als TekstN, waarbij N de maximale lengte aangeeft.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="MeasureNillableType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Datatype voor een meetwaarde die mogelijk geen waarde heeft en waarvan de eenheid (uom) niet vast ligt (not fixed=true).
+Explanation: Het attribute uom moet aanwezig zijn als een gegeven met dit datatype een waarde heeft. Het attribute uom mag niet aanwezig zijn als een gegeven met dit datatype geen waarde heeft en wel een attribuut nil="true".</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string"/>
+   </xs:simpleType>
+   <xs:simpleType name="IndicationYesNoType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="ja"/>
+         <xs:enumeration value="nee"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="IndicationYesNoUnknownType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden. Uitbreiding van de keuzelijst is niet mogelijk.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="ja"/>
+         <xs:enumeration value="nee"/>
+         <xs:enumeration value="onbekend"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="QualityregimeType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een domein in de vorm van een keuzelijst met een limitatieve opsomming van waarden voor het duiden van de kwaliteitseis waaraan de gegevens van het object voldoen. Uitbreiding van de keuzelijst is niet mogelijk.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="IMBRO"/>
+         <xs:enumeration value="IMBRO/A"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="VoidReasonType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geen datum bekend, met als vaste waarde onbekend.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="onbekend"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="DispatchResponseTypeType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Lijst met aanduidingen voor de betekenis van het antwoord op een uitgifteverzoek.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="dispatch"/>
+         <xs:enumeration value="rejection"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="IntakeResponseTypeType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Lijst met aanduidingen voor de betekenis van het antwoord op een innameverzoek.</xs:documentation>
+      </xs:annotation>
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="completion"/>
+         <xs:enumeration value="acceptance"/>
+         <xs:enumeration value="rejection"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:complexType name="DeliveryContextType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:DeliveryContext"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="CoordinateTransformationType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:CoordinateTransformation"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="CRSType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:CRS"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:complexType name="RegistrationStatusType">
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:RegistrationStatus"/>
+         </xs:restriction>
+      </xs:simpleContent>
+   </xs:complexType>
+   <xs:element name="DeliveredGeometry" type="sadcom:DeliveredGeometryType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Zie inleiding catalogus</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="DeliveredGeometryType">
+      <xs:choice minOccurs="1" maxOccurs="1">
+         <xs:element ref="gml:Point"/>
+         <xs:element ref="gml:Curve"/>
+         <xs:element ref="gml:Surface"/>
+      </xs:choice>
+   </xs:complexType>
+   <xs:complexType name="DeliveredGeometryPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:DeliveredGeometry"/>
+      </xs:sequence>
+   </xs:complexType>
+
+   <xs:element name="deliveryResponsibleParty" type="sadcom:ChamberOfCommerceNumberType"/>
+
+   <xs:element name="StandardizedGeometry" type="sadcom:StandardizedGeometryType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: ToDo: zie inleiding catalogus</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="StandardizedGeometryType">
+      <xs:choice minOccurs="1" maxOccurs="1">
+         <xs:element ref="gml:Point"/>
+         <xs:element ref="gml:MultiPoint"/>
+         <xs:element ref="gml:MultiSurface"/>
+      </xs:choice>
+   </xs:complexType>
+   <xs:complexType name="StandardizedGeometryPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:StandardizedGeometry"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="Organization" type="sadcom:OrganizationType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het wandonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="OrganizationType">
+      <xs:choice minOccurs="1" maxOccurs="1">
+         <xs:element name="chamberOfCommerceNumber"
+                     type="sadcom:ChamberOfCommerceNumberType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: KvK-nummer</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="europeanCompanyRegistrationNumber"
+                     type="sadcom:Text40Type"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Europees handelsnummer</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:choice>
+   </xs:complexType>
+   <xs:complexType name="OrganizationPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:Organization"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="PartialDate" type="sadcom:PartialDateType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Voor gegevens die onder het kwaliteitsregime IMBRO/A aangeleverd worden, geldt een derde domein met vier keuzemogelijkheden.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="PartialDateType">
+      <xs:choice minOccurs="1" maxOccurs="1">
+         <xs:element name="date" type="xs:date" minOccurs="1" maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Volledige datum</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="yearMonth"
+                     type="sadcom:Text7Type"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Jaartal en maand van een datum</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="year"
+                     type="sadcom:Number4Type"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Jaartal van een datum</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+         <xs:element name="voidReason"
+                     type="sadcom:VoidReasonType"
+                     minOccurs="1"
+                     maxOccurs="1">
+            <xs:annotation>
+               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Datum onbekend</xs:documentation>
+            </xs:annotation>
+         </xs:element>
+      </xs:choice>
+   </xs:complexType>
+   <xs:complexType name="PartialDatePropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:PartialDate"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:element name="Area" type="sadcom:AreaType">
+      <xs:annotation>
+         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De entiteit Area geeft de begrenzing aan van een geografisch gebied aan het aardoppervlak.
+Explanation: De entiteit heeft een stereotype Union, wat aangeeft dat óf een enclosingCircle óf een boundingBox moet worden opgenomen.</xs:documentation>
+      </xs:annotation>
+   </xs:element>
+   <xs:complexType name="AreaType">
+      <xs:choice minOccurs="1" maxOccurs="1">
+         <xs:element ref="sadcom:Circle"/>
+         <xs:element ref="gml:Envelope"/>
+      </xs:choice>
+   </xs:complexType>
+   <xs:complexType name="AreaPropertyType">
+      <xs:sequence minOccurs="0">
+         <xs:element ref="sadcom:Area"/>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>
