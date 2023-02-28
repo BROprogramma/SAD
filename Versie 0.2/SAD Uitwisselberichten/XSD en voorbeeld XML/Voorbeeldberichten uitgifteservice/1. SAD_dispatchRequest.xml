@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dispatchDataRequest
+        xmlns="http://www.broservices.nl/xsd/dssad/1.0"
+        xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.broservices.nl/xsd/dssad/1.0 ../dssad-messages.xsd">
+    <!--Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innameservice.
+        Het is niet gevalideert door de innameservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+        xsi:schemaLocation="http://www.broservices.nl/xsd/dssad/1.0 https://schema.broservices.nl/xsd/dssad/1.0/dssad-messages.xsd"/>
+    -->
+    <sadcom:requestReference>Verzoek_1</sadcom:requestReference>
+    <sadcom:broId>123456789</sadcom:broId>
+</dispatchDataRequest>
