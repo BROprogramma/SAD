@@ -68,10 +68,11 @@
                 <sadcom:reportDate>2023-01-15</sadcom:reportDate>
             </report>
             <Borehole>
-                <sadcom:Borehole gml:id="b3f20ade-8c5a-44cf-8b8e-4b06e4cc0130">
+                <sadcom:Borehole gml:id="_846f345f-e5f5-43d8-b86b-a12ff1bfd26c">
                     <sadcom:identification>846f345f-e5f5-43d8-b86b-a12ff1bfd26c</sadcom:identification>
                     <sadcom:boringName>Boring_1</sadcom:boringName>
                     <sadcom:boringDate>2023-04-25</sadcom:boringDate>
+                    <sadcom:finalDepthBoring uom="m">2</sadcom:finalDepthBoring>
                     <sadcom:deliveredLocation>
                         <gml:Point gml:id="a49833b5-1a32-4d02-81df-6c429d498527">
                             <gml:pos>50.8748363 5.9284810</gml:pos>
@@ -84,22 +85,30 @@
                         <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RD</brocom:coordinateTransformation>
                     </sadcom:standardizedLocation>
                     <sadcom:deliveredVerticalPosition>
-                        <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">1</sadcom:localVerticalReferencePoint>
-                        <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">12</sadcom:verticalDatum>
+                        <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">11</sadcom:localVerticalReferencePoint> <!-- Maaiveld -->
+                        <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">12</sadcom:verticalDatum> <!-- NAP -->
                         <sadcom:offset uom="m">6.5</sadcom:offset>
                     </sadcom:deliveredVerticalPosition>
                     <sadcom:boreholeSampleDescription>
                         <sadcom:BoreholeSampleDescription gml:id="ff26ddf1-7a45-4a04-a416-994b4bbc8848">
+                        <sadcom:descriptionProcedure codeSpace="urn:bro:sad:DescriptionProcedure">NEN5104</sadcom:descriptionProcedure> <!-- default value: 'NEN5104' -->
                             <sadcom:descriptiveBoreholeLog>
                                 <sadcom:DescriptiveBoreholeLog gml:id="a8eab264-cccb-48b1-b5b2-75f8e5e7b6f4">
+                                <sadcom:describedMaterial codeSpace="urn:bro:sad:DescribedMaterial">grond</sadcom:describedMaterial>  <!-- default value: 'grond' -->
                                     <sadcom:layer>
                                         <sadcom:Layer gml:id="id_007">
-                                            <sadcom:identification/>
+                                            <sadcom:identification></sadcom:identification>
                                             <sadcom:upperBoundary uom="m">0</sadcom:upperBoundary>
                                             <sadcom:lowerBoundary uom="m">1.2</sadcom:lowerBoundary>
                                             <sadcom:oilWaterReaction codeSpace="urn:bro:sad:OilWaterReaction">1</sadcom:oilWaterReaction>
-                                            <sadcom:soilType>
+                                            <sadcom:soilType>                                            
                                                 <sadcom:soilNameNEN5104 codeSpace="urn:bro:sad:SoilTypeNEN5104">1</sadcom:soilNameNEN5104>
+                                                <!-- choose between sandMedianClass   or  gravelMedianClass -->
+                                                <sadcom:sandMedianClass codeSpace="urn:bro:sad:SandMedianClass">1</sadcom:sandMedianClass>
+                                                <sadcom:gravelMedianClass codeSpace="urn:bro:sad:GravelMedianClass">1</sadcom:gravelMedianClass>
+                                                <!-- end choose -->
+                                                <sadcom:gravelContentClass codeSpace="urn:bro:sad:GravelContentClass">1</sadcom:gravelContentClass>
+                                                <sadcom:organicMatterContentClass codeSpace="urn:bro:sad:OrganicMatterContentClass">1</sadcom:organicMatterContentClass>
                                             </sadcom:soilType>
                                             <sadcom:colour>
                                                 <sadcom:mainColour codeSpace="urn:bro:sad:ColourType">1</sadcom:mainColour>
@@ -121,6 +130,12 @@
                                             <sadcom:oilWaterReaction codeSpace="urn:bro:sad:OilWaterReaction">1</sadcom:oilWaterReaction>
                                             <sadcom:soilType>
                                                 <sadcom:soilNameNEN5104 codeSpace="urn:bro:sad:SoilTypeNEN5104">3</sadcom:soilNameNEN5104>
+                                                <!-- choose between sandMedianClass   or  gravelMedianClass -->
+                                                <sadcom:sandMedianClass codeSpace="urn:bro:sad:SandMedianClass">1</sadcom:sandMedianClass>
+                                                <sadcom:gravelMedianClass codeSpace="urn:bro:sad:GravelMedianClass">1</sadcom:gravelMedianClass>
+                                                <!-- end choose -->
+                                                <sadcom:gravelContentClass codeSpace="urn:bro:sad:GravelContentClass">1</sadcom:gravelContentClass>
+                                                <sadcom:organicMatterContentClass codeSpace="urn:bro:sad:OrganicMatterContentClass">1</sadcom:organicMatterContentClass>
                                             </sadcom:soilType>
                                             <sadcom:colour>
                                                 <sadcom:mainColour codeSpace="urn:bro:sad:ColourType">4</sadcom:mainColour>
@@ -142,7 +157,9 @@
                             <sadcom:identification>bedb499e-e061-44dc-b9a6-54e4261374e6</sadcom:identification>
                             <sadcom:screenName>1</sadcom:screenName>
                             <sadcom:deliveredVerticalPosition>
-                                <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">14</sadcom:localVerticalReferencePoint>
+                                <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">14</sadcom:localVerticalReferencePoint> <!-- BOPB -->
+                                <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">12</sadcom:verticalDatum> <!-- zou moeten zijn; 10 cm tov Maaiveld, maar die is er nu nog niet. Is nu gevuld met NAP -->
+                                <sadcom:offset uom="m">6.6</sadcom:offset>
                             </sadcom:deliveredVerticalPosition>
                             <sadcom:upperBoundary uom="m">2.00</sadcom:upperBoundary>
                             <sadcom:lowerBoundary uom="m">3.00</sadcom:lowerBoundary>
@@ -163,7 +180,7 @@
                                     </sadcom:fieldObservation>
                                     <sadcom:fieldMeasurement>
                                         <sadcom:FieldMeasurement gml:id="cd2e0615-52d5-4ca4-ab0e-0721736a91b7">
-                                            <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">3548</sadcom:parameter>
+                                            <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">3548</sadcom:parameter> <!-- Geleidendheid -->
                                             <sadcom:fieldMeasurementValue uom="µs/cm">1234</sadcom:fieldMeasurementValue>
                                         </sadcom:FieldMeasurement>
                                     </sadcom:fieldMeasurement>
@@ -183,9 +200,9 @@
                     <sadcom:soilsampling>
                         <sadcom:SoilSampling gml:id="bd357455-4697-43c0-b4f5-18881104993b">
                             <sadcom:identification>bd357455-4697-43c0-b4f5-18881104993b</sadcom:identification>
-                            <sadcom:sampleName>Mons_01</sadcom:sampleName>
-                            <sadcom:beginDepth uom="m">0.5</sadcom:beginDepth>
-                            <sadcom:endDepth uom="m">1</sadcom:endDepth>
+                            <sadcom:sampleName>Mons_02</sadcom:sampleName>
+                            <sadcom:beginDepth uom="m">1</sadcom:beginDepth>
+                            <sadcom:endDepth uom="m">1.5</sadcom:endDepth>
                             <sadcom:sampleTime>2023-04-25T09:00:00</sadcom:sampleTime>
                         </sadcom:SoilSampling>
                     </sadcom:soilsampling>
