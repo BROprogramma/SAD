@@ -51,10 +51,10 @@
                             <imsikb0101:geometry>
                                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb">
                                     <gml:surfaceMember>
-                                        <gml:Polygon gml:id="_d604d147-bb50-469c-bd5c-60cef435f9db" srsName="urn:ogc:def:crs:EPSG::28992">
+                                        <gml:Polygon gml:id="_d604d147-bb50-469c-bd5c-60cef435f9db" srsName="urn:ogc:def:crs:EPSG::4326">
                                             <gml:exterior>
                                                 <gml:LinearRing>
-                                                    <gml:posList srsDimension="2">200000 350000 210000 350000 210000 370000 200000 370000 200000 350000</gml:posList>
+                                                    <gml:posList srsDimension="2">52.00439274920983 4.358917081981024 52.00402618781154 4.358289445071539 52.003560551436216 4.358455742030462 52.003874278604464 4.359217489390692 52.00439274920983 4.358917081981024</gml:posList>
                                                 </gml:LinearRing>
                                             </gml:exterior>
                                         </gml:Polygon>
@@ -291,7 +291,7 @@
                             <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
                             <immetingen:geometry>
                                 <gml:Point gml:id="_d38ee87f-9552-464a-8125-e8409b01c5c1" srsName="urn:ogc:def:crs:EPSG::4326">
-                                    <gml:pos srsDimension="2">52.021452919231081 4.6905720233917227</gml:pos>
+                                    <gml:pos srsDimension="2">52.00410874694697 4.358954632907231</gml:pos>
                                 </gml:Point>
                             </immetingen:geometry>
                             <immetingen:startTime>2018-03-08T00:00:00</immetingen:startTime>
