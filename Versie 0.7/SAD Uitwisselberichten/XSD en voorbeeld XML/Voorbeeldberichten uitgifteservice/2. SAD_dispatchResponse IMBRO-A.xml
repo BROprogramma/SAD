@@ -1210,6 +1210,51 @@
                         <imsikb0101:inProject xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
                     </imsikb0101:Sample>
                 </imsikb0101:featureMember>
+                <imsikb0101:featureMember>
+		<imsikb0101:Sample gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
+			<sam:sampledFeature/>
+			<sam:relatedObservation xlink:href="#_850d533c-4087-4229-aa81-f916569428ed"/>
+			<!-- Deelmonster 1 -->
+			<sam:relatedSamplingFeature>
+				<sam:SamplingFeatureComplex>
+					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+					<sam:relatedSamplingFeature xlink:href="#_0571c066-806a-459e-a8a1-b099cb6814d0"/>
+				</sam:SamplingFeatureComplex>
+			</sam:relatedSamplingFeature>
+			<!-- /Deelmonster 1 -->
+			<!-- Deelmonster 2 -->
+			<sam:relatedSamplingFeature>
+				<sam:SamplingFeatureComplex>
+					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+					<sam:relatedSamplingFeature xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
+				</sam:SamplingFeatureComplex>
+			</sam:relatedSamplingFeature>
+			<!-- /Deelmonster 2 -->
+			<!-- Deelmonster 3-->
+			<sam:relatedSamplingFeature>
+				<sam:SamplingFeatureComplex>
+					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+					<sam:relatedSamplingFeature xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
+				</sam:SamplingFeatureComplex>
+			</sam:relatedSamplingFeature>
+			<!-- /Deelmonster 3 -->
+			<spec:materialClass xlink:href="urn:immetingen:Compartiment:id:1"/>
+			<spec:samplingTime>
+				<gml:TimeInstant gml:id="_89f63e1e-a156-461c-8d77-bbaf108b60a4">
+					<gml:timePosition>2013-04-12T11:00:00</gml:timePosition>
+				</gml:TimeInstant>
+			</spec:samplingTime>
+			<spec:specimenType xlink:href="urn:immetingen:MonsterType:id:10"/>
+			<immetingen:identification>
+				<immetingen:NEN3610ID>
+					<immetingen:namespace>SIKB</immetingen:namespace>
+					<immetingen:lokaalID>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</immetingen:lokaalID>
+				</immetingen:NEN3610ID>
+			</immetingen:identification>
+			<immetingen:name>MM1</immetingen:name>
+			<imsikb0101:inProject xlink:href="#_9e0c2e47-5019-4846-bf80-050c79a09ff2"/>
+		</imsikb0101:Sample>
+	</imsikb0101:featureMember>
             </imsikb0101:FeatureCollectionIMSIKB0101>
             </featureCollection>
         </SAD_O_DP>

@@ -176,7 +176,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
                </xs:element>
                <xs:element minOccurs="0"
                            maxOccurs="unbounded"
-                           name="Borehole"
+                           name="BoreHole"
                            nillable="false"
                            type="sadcom:BoreholePropertyType">
                   <xs:annotation>
@@ -185,7 +185,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
                </xs:element>
                <xs:element minOccurs="0"
                            maxOccurs="unbounded"
-                           name="MixedsampleAnalysis"
+                           name="MixedSampleAnalysis"
                            nillable="false"
                            type="sadcom:MixedSampleAnalysisPropertyType">
                   <xs:annotation>

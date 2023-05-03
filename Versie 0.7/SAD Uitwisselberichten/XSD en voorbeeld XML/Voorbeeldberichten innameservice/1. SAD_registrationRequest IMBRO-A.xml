@@ -159,6 +159,7 @@
                             <immetingen:name>Adviebureau Guru's BV</immetingen:name>
                             <!-- Adviesbureau -->
                             <immetingen:organisationType>urn:immetingen:RolBetrokkene:id:64</immetingen:organisationType>
+                            <immetingen:chamberOfCommerceNumber>27376655</immetingen:chamberOfCommerceNumber>
                         </immetingen:Organization>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -1392,7 +1393,9 @@
                             <om:procedure/>
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_0f9c0e6c-b093-4548-8ffe-2e481c6af3a7"/>
-                            <om:result/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:bodemsoort:id:6</immetingen:classifiedResult>
+                            </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
@@ -1504,6 +1507,12 @@
                                     <sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
                                 </sam:SamplingFeatureComplex>
                             </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+				<sam:SamplingFeatureComplex>
+					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+					<sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+				</sam:SamplingFeatureComplex>
+			</sam:relatedSamplingFeature>
                             <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
                             <spec:samplingTime>
                                 <gml:TimeInstant gml:id="_4627e079-edc3-4497-a382-844105937bc9">
@@ -1587,9 +1596,19 @@
                                     <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
                                     <sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
                                 </sam:SamplingFeatureComplex>
-                            </sam:relatedSamplingFeature>
+                                </sam:relatedSamplingFeature>
+                                <sam:relatedSamplingFeature>
+				<sam:SamplingFeatureComplex>
+					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+					<sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+				</sam:SamplingFeatureComplex>
+			</sam:relatedSamplingFeature>
                             <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
-                            <spec:samplingTime/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_a1cbe497-668b-497b-afd7-6f148615e6e8">
+                                    <gml:timePosition>2018-03-08T17:03:17</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
                             <spec:specimenType xlink:href="urn:immetingen:monstertype:id:1"/>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -1627,10 +1646,16 @@
                                     <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
                                     <sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
                                 </sam:SamplingFeatureComplex>
-                            </sam:relatedSamplingFeature>
+                                </sam:relatedSamplingFeature>
+                                <sam:relatedSamplingFeature>
+				<sam:SamplingFeatureComplex>
+					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+					<sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+				</sam:SamplingFeatureComplex>
+			</sam:relatedSamplingFeature>
                             <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
                             <spec:samplingTime>
-                                <gml:TimeInstant gml:id="_a1cbe497-668b-497b-afd7-6f148615e6e8">
+                                <gml:TimeInstant gml:id="_a2cbe497-668b-497b-afd7-6f148615e6e8">
                                     <gml:timePosition>2018-03-08T17:03:17</gml:timePosition>
                                 </gml:TimeInstant>
                             </spec:samplingTime>
@@ -2179,6 +2204,51 @@
                             <immetingen:samplingOperator xlink:href="#_9b4e21b3-3282-433f-b584-54471298e928"/>
                         </immetingen:SamplingProcess>
                     </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+		<imsikb0101:Sample gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
+			<sam:sampledFeature/>
+			<sam:relatedObservation xlink:href="#_850d533c-4087-4229-aa81-f916569428ed"/>
+			<!-- Deelmonster 1 -->
+			<sam:relatedSamplingFeature>
+				<sam:SamplingFeatureComplex>
+					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+					<sam:relatedSamplingFeature xlink:href="#_0571c066-806a-459e-a8a1-b099cb6814d0"/>
+				</sam:SamplingFeatureComplex>
+			</sam:relatedSamplingFeature>
+			<!-- /Deelmonster 1 -->
+			<!-- Deelmonster 2 -->
+			<sam:relatedSamplingFeature>
+				<sam:SamplingFeatureComplex>
+					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+					<sam:relatedSamplingFeature xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
+				</sam:SamplingFeatureComplex>
+			</sam:relatedSamplingFeature>
+			<!-- /Deelmonster 2 -->
+			<!-- Deelmonster 3-->
+			<sam:relatedSamplingFeature>
+				<sam:SamplingFeatureComplex>
+					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+					<sam:relatedSamplingFeature xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
+				</sam:SamplingFeatureComplex>
+			</sam:relatedSamplingFeature>
+			<!-- /Deelmonster 3 -->
+			<spec:materialClass xlink:href="urn:immetingen:Compartiment:id:1"/>
+			<spec:samplingTime>
+				<gml:TimeInstant gml:id="_89f63e1e-a156-461c-8d77-bbaf108b60a4">
+					<gml:timePosition>2013-04-12T11:00:00</gml:timePosition>
+				</gml:TimeInstant>
+			</spec:samplingTime>
+			<spec:specimenType xlink:href="urn:immetingen:MonsterType:id:10"/>
+			<immetingen:identification>
+				<immetingen:NEN3610ID>
+					<immetingen:namespace>SIKB</immetingen:namespace>
+					<immetingen:lokaalID>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</immetingen:lokaalID>
+				</immetingen:NEN3610ID>
+			</immetingen:identification>
+			<immetingen:name>MM1</immetingen:name>
+			<imsikb0101:inProject xlink:href="#_9e0c2e47-5019-4846-bf80-050c79a09ff2"/>
+		</imsikb0101:Sample>
+	</imsikb0101:featureMember>
                 </imsikb0101:FeatureCollectionIMSIKB0101>
             </featureCollection>
         </SAD_CompleteReport>
