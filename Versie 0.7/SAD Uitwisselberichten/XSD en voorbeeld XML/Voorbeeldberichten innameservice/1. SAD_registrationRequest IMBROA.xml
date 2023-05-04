@@ -15,7 +15,7 @@
     <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>
     <sourceDocument>
         <SAD_CompleteReport>
-            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">Onbekend</deliveryContext>
+            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>
             <reportDate>2023-09-02</reportDate>
             <featureCollection>
                 <!-- Hier tussen kan de volledige SIKB XML geplakt worden-->

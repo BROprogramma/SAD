@@ -23,7 +23,7 @@
             </sadcom:Organization></sadcom:deliveryAccountableParty>
             <sadcom:objectIdAccountableParty>PROJECTCODESIKB</sadcom:objectIdAccountableParty>
             <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>
-            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">Onbekend</deliveryContext>
+            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>
             <reportDate>2023-02-09</reportDate>
             <standardizedLocation>
                 <sadcom:location>
