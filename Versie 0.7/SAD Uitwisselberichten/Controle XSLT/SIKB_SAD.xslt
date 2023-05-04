@@ -8,12 +8,12 @@
     <xsl:template match="/">
         <ArrayOfLogRecord>
             <!-- file dataflow check -->
-						<xsl:if test="count(//imsikb0101:metaData/imsikb0101:dataflow) &lt; 1">			
-							<xsl:copy-of select="sikb:createRecord('WARNING','imsikb0101:metaData/imsikb0101:dataflow','Er zou een metadata/dataflow ingevuld moeten zijn.')"/>		
-						</xsl:if>
-						<xsl:if test="not(lower-case(//imsikb0101:metaData/imsikb0101:dataflow) = lower-case('urn:imsikb0101:DatastroomType:id:9') or lower-case(//imsikb0101:metaData/imsikb0101:dataflow) = lower-case('urn:imsikb0101:DatastroomType:id:4'))">			
-							<xsl:copy-of select="sikb:createRecord('WARNING','imsikb0101:metaData/imsikb0101:dataflow','Het veld metadata/dataflow zou ingevuld moeten zijn met: urn:imsikb0101:DatastroomType:id:9 of id:4. Als dit geen SAD of onderzoeks xml is, kan dit niet aangeleverd worden aan de BRO.')"/>		
-						</xsl:if>
+            <xsl:if test="count(//imsikb0101:metaData/imsikb0101:dataflow) &lt; 1">			
+                <xsl:copy-of select="sikb:createRecord('WARNING','imsikb0101:metaData/imsikb0101:dataflow','Er zou een metadata/dataflow ingevuld moeten zijn.')"/>		
+            </xsl:if>
+            <xsl:if test="not(lower-case(//imsikb0101:metaData/imsikb0101:dataflow) = lower-case('urn:imsikb0101:DatastroomType:id:9') or lower-case(//imsikb0101:metaData/imsikb0101:dataflow) = lower-case('urn:imsikb0101:DatastroomType:id:4'))">			
+                <xsl:copy-of select="sikb:createRecord('WARNING','imsikb0101:metaData/imsikb0101:dataflow','Het veld metadata/dataflow zou ingevuld moeten zijn met: urn:imsikb0101:DatastroomType:id:9 of id:4. Als dit geen SAD of onderzoeks xml is, kan dit niet aangeleverd worden aan de BRO.')"/>		
+            </xsl:if>
 
             <xsl:if test="not(//imsikb0101:Project)">
                 <!-- Check existence Project -->
@@ -23,7 +23,6 @@
             <xsl:apply-templates select="//imsikb0101:SoilLocation"/>
             <xsl:apply-templates select="//imsikb0101:Project"/>
             <xsl:apply-templates select="//imsikb0101:Filter"/>
-            <xsl:apply-templates select="//imsikb0101:Borehole" mode="een"/>
             <xsl:apply-templates select="//immetingen:MeasurementObject"/>
             <xsl:apply-templates select="//imsikb0101:Borehole" mode="twee"/>
             <xsl:apply-templates select="//imsikb0101:Layer"/>
@@ -152,6 +151,10 @@
 		<xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'measurementObjectType', 'MeetObjectSoort', 'ERROR')"/>
 		<xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
 	</xsl:template>
+	<xsl:template match="immetingen:MeasurementObject">
+		<xsl:variable name="prGUID" select="@gml:id"/>
+		<xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
+	</xsl:template>
 	<!-- Layers-->
 	<xsl:template match="imsikb0101:Layer">
 		<xsl:variable name="prGUID" select="@gml:id"/>
@@ -160,7 +163,17 @@
 		<xsl:copy-of select="sikb:checkExistence(., $prGUID, 'upperDepth', 'ERROR')"/>
 		<xsl:copy-of select="sikb:checkExistence(., $prGUID, 'lowerDepth', 'ERROR')"/>
 	</xsl:template>
-	
+	<xsl:template match="imsikb0101:Filter">
+		<xsl:variable name="prGUID" select="@gml:id"/>
+		<xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
+		<!-- check of het filter gekoppeld zit aan een meetpunt (zoekHRV)-->
+		<xsl:copy-of select="sikb:checkSamplingFeatureRelation(., $prGUID, 'role', '4', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/> 
+		<xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'WARNING')"/>
+		<xsl:copy-of select="sikb:checkExistence(., $prGUID, 'upperDepth', 'ERROR')"/>
+		<xsl:copy-of select="sikb:checkExistence(., $prGUID, 'lowerDepth', 'ERROR')"/>
+		<xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
+	</xsl:template>
 	<xsl:template match="imsikb0101:geometry">
 		<xsl:variable name="prGUID" select=".//@gml:id"/>
 		<xsl:copy-of select="sikb:checkCoordinates(., $prGUID, 'ERROR')"/>
@@ -450,16 +463,7 @@
 		<xsl:variable name="lookupCategory" select="lower-case(substring(substring-before(substring-after($lookupValue,$lookupType), ':id:'), 2))"/>
 		<xsl:variable name="lookupFile" select="sikb:getLookupFile($lookupType)"/>
 		<xsl:variable name="lookupRecord" select="document($lookupFile)//*[@categorie=$lookupItem]/*[ID|id=$lookupId]"/>
-		<xsl:variable name="checkLookupRecord">-->
-			<!--			<xsl:choose>
-				<xsl:when test="($lookupRecord != '' and $lookupRecord/@status = 'Vervallen')">
-					<xsl:copy-of select="'vervallen'"/>
-				</xsl:when>
-				<xsl:when test="not($lookupRecord != '') and count($context/*[local-name()=$field]) &gt;0">
-					<xsl:copy-of select="'niet gevonden'"/>
-				</xsl:when>
-			</xsl:choose>
--->
+		<xsl:variable name="checkLookupRecord">
 			<xsl:if test="($lookupRecord != '' and $lookupRecord/@status = 'Vervallen')">
 			  <xsl:copy-of select="'vervallen'"/>
 			</xsl:if>
