@@ -34,7 +34,7 @@
                     <!-- Optional: not present in dispatchDocument SAD_O -->
                     <brocom:deliveryResponsibleParty>27376655</brocom:deliveryResponsibleParty>
                     <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
-                    <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">Omgevingswet</deliveryContext>
+                    <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>
                     <reportDate>
                         <brocom:date>2023-04-25</brocom:date>
                     </reportDate>

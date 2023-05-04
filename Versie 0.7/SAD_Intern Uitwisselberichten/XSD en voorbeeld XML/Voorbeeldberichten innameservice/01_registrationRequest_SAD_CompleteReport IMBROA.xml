@@ -13,7 +13,7 @@
     <sourceDocument>
         <SAD_CompleteReport gml:id="_daa6c99f-4eee-44c6-b78e-6b1826057114">
             <objectIdAccountableParty>objectID_from_BIS</objectIdAccountableParty>
-            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">Omgevingswet</deliveryContext>
+            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>
             <reportDate>
                 <brocom:date>2023-04-25</brocom:date>
             </reportDate>
