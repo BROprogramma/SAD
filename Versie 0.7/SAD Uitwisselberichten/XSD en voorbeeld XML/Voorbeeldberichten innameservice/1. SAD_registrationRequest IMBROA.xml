@@ -16,7 +16,7 @@
     <sourceDocument>
         <SAD_CompleteReport>
             <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>
-            <reportDate>2023-09-02</reportDate>
+            <reportDate>2013-07-07</reportDate>
             <featureCollection>
                 <!-- Hier tussen kan de volledige SIKB XML geplakt worden-->
                 <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_9e0c2e47-5019-4846-bf80-050c79a09ff2"
