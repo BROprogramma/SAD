@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Milieuhygienisch bodemonderzoek SAD/20230126</p>
       <p>Imvertor: 2.0.0</p>
-      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-0.2-1-20230126-20230530-064652</p>
+      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-0.2-1-20230126-20230530-073358</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -5137,8 +5137,7 @@
                               <td>
                                  
                                  <p>Het in het laboratorium gemeten gehalte of de waargenomen waarde van de parameter.
-                                    Wanneer het limietsymbool aanwezig is, mag hier de rapportagegrens geregistreerd worden
-                                    in plaats van de gemeten waarde.</p>
+                                    Wanneer het limietsymbool aanwezig is, mag hier de <em>limietsymboolreferentie</em> geregistreerd worden in plaats van de gemeten waarde.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -5213,8 +5212,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Symbool dat aangeeft of de gemeten waarde kleiner is dan de rapportagegrens, ofwel
-                                    groter is dan de hoogtse grenswaarde die gerapporteerd wordt. </p>
+                                 <p>Symbool dat aangeeft of de gemeten waarde kleiner is dan de <em>limietsymboolreferentie</em>, ofwel groter is dan de hoogtse <em>limietsymboolreferentie</em>. </p>
                                  </td>
                            </tr>
                            <tr>
@@ -5243,7 +5241,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Het gegeven is alleen aanwezig wanneer bij het attribuut <em>analysemeetwaarde</em> niet de gemeten waarde is opgegeven maar in plaats daarvan de rapportagegrens.</p>
+                                 <p>Het gegeven is alleen aanwezig wanneer bij het attribuut <em>analysemeetwaarde</em> niet de gemeten waarde is opgegeven maar in plaats daarvan de <em>limietsymboolreferentie</em>.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -5263,8 +5261,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De grenswaarde waarop het limitSymbol van AnalyticResult betrekking
-                                    heeft.</p>
+                                 <p>De grenswaarde waarop het limietsymbool van de analyse betrekking heeft.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -5333,6 +5330,48 @@
                            </tr>
                         </tbody>
                      </table>
+                     </section><a class="anchor" id="detail_attribute_Model_Analyse_grootheid"></a><section id="detail_attribute_Model_Analyse_grootheid">
+                     <h4>  grootheid</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Analyse</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De gemeten eigenschap.</p>
+                                 </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>0..1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td><a class="link" href="#detail_class_Model_Grootheid">
+                                    Grootheid
+                                    </a></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Waardelijst uitbreidbaar</td>
+                           </tr>
+                        </tbody>
+                     </table>
                      </section><a class="anchor" id="detail_attribute_Model_Analyse_hoedanigheid"></a><section id="detail_attribute_Model_Analyse_hoedanigheid">
                      <h4>  hoedanigheid</h4>
                      
@@ -5383,48 +5422,6 @@
                                     in Stikstof' bij de parameter Nitraat (NO3). De waarde 'opgeloste fractie' of de korrelgroottefractie
                                     zijn voorbeelden van fracties van een parameter.</p>
                                  </td>
-                           </tr>
-                        </tbody>
-                     </table>
-                     </section><a class="anchor" id="detail_attribute_Model_Analyse_grootheid"></a><section id="detail_attribute_Model_Analyse_grootheid">
-                     <h4>  grootheid</h4>
-                     
-                     <table style="width: 100%;">
-                        <colgroup style="width: 30%;"></colgroup>
-                        <colgroup style="width: 70%;"></colgroup>
-                        <tbody>
-                           <tr>
-                              <th>Type gegeven</th>
-                              <td>Attribuut van Analyse</td>
-                           </tr>
-                           <tr>
-                              <th>Definitie</th>
-                              <td>
-                                 
-                                 <p>De gemeten eigenschap. Voorbeelden: massafractie en massaconcentratie.</p>
-                                 </td>
-                           </tr>
-                           <tr>
-                              <th>Juridische status</th>
-                              <td>Authentiek</td>
-                           </tr>
-                           <tr>
-                              <th>Kardinaliteit</th>
-                              <td>0..1</td>
-                           </tr>
-                           <tr>
-                              <th>Domein</th>
-                              <td></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam</th>
-                              <td><a class="link" href="#detail_class_Model_Grootheid">
-                                    Grootheid
-                                    </a></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Type</th>
-                              <td>Waardelijst uitbreidbaar</td>
                            </tr>
                         </tbody>
                      </table>
@@ -5507,7 +5504,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De identificatie die de analyseproces heeft binnen de informatieketen milieukwaliteit.</p>
+                                 <p>De identificatie die het analyseproces heeft binnen de informatieketen milieukwaliteit.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -5555,7 +5552,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>Aanduiding van het kwaliteitskenmerk volgens welke het laboratorium de component heeft
+                                 <p>Aanduiding van het kwaliteitskenmerk volgens welke het laboratorium de parameter heeft
                                     geanalyseerd.</p>
                                  </td>
                            </tr>
