@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<registrationRequest
-        xmlns="http://www.broservices.nl/xsd/issad/1.0"
-        xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.0 ../issad-messages.xsd">
+<registrationRequest xmlns="http://www.broservices.nl/xsd/issad/1.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.0 ../issad-messages.xsd">
     <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.7 van de SAD en valideert tegen de XSD van de innameservice.
         Het is niet gevalideerd door de innameservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
         xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.0 https://schema.broservices.nl/xsd/issad/1.0/issad-messages.xsd"/>
@@ -19,22 +15,7 @@
             <reportDate>2013-07-07</reportDate>
             <featureCollection>
                 <!-- Hier tussen kan de volledige SIKB XML geplakt worden-->
-                <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_9e0c2e47-5019-4846-bf80-050c79a09ff2"
-                                             xmlns:imsikb0101="http://www.sikb.nl/imsikb0101"
-                                             xmlns:gco="http://www.isotc211.org/2005/gco"
-                                             xmlns:gmd="http://www.isotc211.org/2005/gmd"
-                                             xmlns:gsr="http://www.isotc211.org/2005/gsr"
-                                             xmlns:gss="http://www.isotc211.org/2005/gss"
-                                             xmlns:gts="http://www.isotc211.org/2005/gts"
-                                             xmlns:gml="http://www.opengis.net/gml/3.2"
-                                             xmlns:om="http://www.opengis.net/om/2.0"
-                                             xmlns:sam="http://www.opengis.net/sampling/2.0"
-                                             xmlns:sams="http://www.opengis.net/samplingSpatial/2.0"
-                                             xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0"
-                                             xmlns:xlink="http://www.w3.org/1999/xlink"
-                                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                                             xmlns:immetingen="http://www.sikb.nl/immetingen"
-                                             xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v14.7.1.xsd">
+                <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_9e0c2e47-5019-4846-bf80-050c79a09ff2" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v14.7.1.xsd">
                     <imsikb0101:metaData>
                         <imsikb0101:application>urn:imsikb0101:Applicaties:id:23</imsikb0101:application>
                         <imsikb0101:date>2018-08-21</imsikb0101:date>
@@ -1508,11 +1489,11 @@
                                 </sam:SamplingFeatureComplex>
                             </sam:relatedSamplingFeature>
                             <sam:relatedSamplingFeature>
-				<sam:SamplingFeatureComplex>
-					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
-					<sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
-				</sam:SamplingFeatureComplex>
-			</sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
                             <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
                             <spec:samplingTime>
                                 <gml:TimeInstant gml:id="_4627e079-edc3-4497-a382-844105937bc9">
@@ -1596,13 +1577,13 @@
                                     <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
                                     <sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
                                 </sam:SamplingFeatureComplex>
-                                </sam:relatedSamplingFeature>
-                                <sam:relatedSamplingFeature>
-				<sam:SamplingFeatureComplex>
-					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
-					<sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
-				</sam:SamplingFeatureComplex>
-			</sam:relatedSamplingFeature>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
                             <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
                             <spec:samplingTime>
                                 <gml:TimeInstant gml:id="_a1cbe497-668b-497b-afd7-6f148615e6e8">
@@ -1646,13 +1627,13 @@
                                     <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
                                     <sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
                                 </sam:SamplingFeatureComplex>
-                                </sam:relatedSamplingFeature>
-                                <sam:relatedSamplingFeature>
-				<sam:SamplingFeatureComplex>
-					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
-					<sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
-				</sam:SamplingFeatureComplex>
-			</sam:relatedSamplingFeature>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
                             <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
                             <spec:samplingTime>
                                 <gml:TimeInstant gml:id="_a2cbe497-668b-497b-afd7-6f148615e6e8">
@@ -1995,31 +1976,6 @@
                         </immetingen:Analysis>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
-                        <immetingen:Analysis gml:id="_91f20243-443e-48de-94a3-baaeb0448cee">
-                            <om:phenomenonTime/>
-                            <om:resultTime/>
-                            <om:procedure/>
-                            <om:parameter/>
-                            <om:observedProperty/>
-                            <om:featureOfInterest xlink:href="#_ba54949b-99a5-4aca-bb8a-5fe9df74efe3"/>
-                            <om:result xsi:type="immetingen:MeasureResultType">
-                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:119">6.5</immetingen:numericValue>
-                            </om:result>
-                            <immetingen:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>91f20243-443e-48de-94a3-baaeb0448cee</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:physicalProperty>
-                                <immetingen:PhysicalProperty>
-                                    <immetingen:quantity>urn:immetingen:parameter:id:1398</immetingen:quantity>
-                                    <immetingen:condition/>
-                                </immetingen:PhysicalProperty>
-                            </immetingen:physicalProperty>
-                        </immetingen:Analysis>
-                    </imsikb0101:featureMember>
-                    <imsikb0101:featureMember>
                         <immetingen:Analysis gml:id="_73f20243-443e-48de-94a3-baaeb0448cee">
                             <om:phenomenonTime/>
                             <om:resultTime/>
@@ -2205,50 +2161,50 @@
                         </immetingen:SamplingProcess>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
-		<imsikb0101:Sample gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
-			<sam:sampledFeature/>
-			<sam:relatedObservation xlink:href="#_850d533c-4087-4229-aa81-f916569428ed"/>
-			<!-- Deelmonster 1 -->
-			<sam:relatedSamplingFeature>
-				<sam:SamplingFeatureComplex>
-					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
-					<sam:relatedSamplingFeature xlink:href="#_0571c066-806a-459e-a8a1-b099cb6814d0"/>
-				</sam:SamplingFeatureComplex>
-			</sam:relatedSamplingFeature>
-			<!-- /Deelmonster 1 -->
-			<!-- Deelmonster 2 -->
-			<sam:relatedSamplingFeature>
-				<sam:SamplingFeatureComplex>
-					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
-					<sam:relatedSamplingFeature xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
-				</sam:SamplingFeatureComplex>
-			</sam:relatedSamplingFeature>
-			<!-- /Deelmonster 2 -->
-			<!-- Deelmonster 3-->
-			<sam:relatedSamplingFeature>
-				<sam:SamplingFeatureComplex>
-					<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
-					<sam:relatedSamplingFeature xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
-				</sam:SamplingFeatureComplex>
-			</sam:relatedSamplingFeature>
-			<!-- /Deelmonster 3 -->
-			<spec:materialClass xlink:href="urn:immetingen:Compartiment:id:1"/>
-			<spec:samplingTime>
-				<gml:TimeInstant gml:id="_89f63e1e-a156-461c-8d77-bbaf108b60a4">
-					<gml:timePosition>2013-04-12T11:00:00</gml:timePosition>
-				</gml:TimeInstant>
-			</spec:samplingTime>
-			<spec:specimenType xlink:href="urn:immetingen:Monstertype:id:10"/>
-			<immetingen:identification>
-				<immetingen:NEN3610ID>
-					<immetingen:namespace>SIKB</immetingen:namespace>
-					<immetingen:lokaalID>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</immetingen:lokaalID>
-				</immetingen:NEN3610ID>
-			</immetingen:identification>
-			<immetingen:name>MM1</immetingen:name>
-			<imsikb0101:inProject xlink:href="#_9e0c2e47-5019-4846-bf80-050c79a09ff2"/>
-		</imsikb0101:Sample>
-	</imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_850d533c-4087-4229-aa81-f916569428ed"/>
+                            <!-- Deelmonster 1 -->
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_0571c066-806a-459e-a8a1-b099cb6814d0"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <!-- /Deelmonster 1 -->
+                            <!-- Deelmonster 2 -->
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <!-- /Deelmonster 2 -->
+                            <!-- Deelmonster 3-->
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <!-- /Deelmonster 3 -->
+                            <spec:materialClass xlink:href="urn:immetingen:Compartiment:id:1"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_89f63e1e-a156-461c-8d77-bbaf108b60a4">
+                                    <gml:timePosition>2013-04-12T11:00:00</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:specimenType xlink:href="urn:immetingen:Monstertype:id:10"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>MM1</immetingen:name>
+                            <imsikb0101:inProject xlink:href="#_9e0c2e47-5019-4846-bf80-050c79a09ff2"/>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
                 </imsikb0101:FeatureCollectionIMSIKB0101>
             </featureCollection>
         </SAD_CompleteReport>
