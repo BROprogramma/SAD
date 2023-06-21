@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Milieuhygienisch bodemonderzoek SAD/20230126</p>
       <p>Imvertor: 2.0.0</p>
-      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-0.2-1-20230126-20230621-130922</p>
+      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-0.2-1-20230126-20230621-134655</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -622,7 +622,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d96996e3564"></a><section id="detail_d96996e3564">
+                     </section><a class="anchor" id="detail_d97029e3564"></a><section id="detail_d97029e3564">
                      <h4>  registratiegeschiedenis</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -655,7 +655,7 @@
                            </tr>
                         </tbody>
                      </table>
-                  </section><a class="anchor" id="detail_d96996e3749"></a><section id="detail_d96996e3749">
+                  </section><a class="anchor" id="detail_d97029e3749"></a><section id="detail_d97029e3749">
                      <h4>  gestandaardiseerde locatie bodemonderzoek</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -698,7 +698,7 @@
                            </tr>
                         </tbody>
                      </table>
-                  </section><a class="anchor" id="detail_d96996e3983"></a><section id="detail_d96996e3983">
+                  </section><a class="anchor" id="detail_d97029e3983"></a><section id="detail_d97029e3983">
                      <h4>  rapport</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -2016,7 +2016,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d96996e9033"></a><section id="detail_d96996e9033">
+                     </section><a class="anchor" id="detail_d97029e9033"></a><section id="detail_d97029e9033">
                      <h4>  aangeleverde verticale positie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -2190,8 +2190,8 @@
                            <th>Definitie</th>
                            <td>
                               
-                              <p>De positie van het beginpunt van de boring (maaiveld) of peilbuis (bovenkant) in het
-                                 verticale vlak, zoals die is aangeleverd aan de basisregistratie ondergrond.</p>
+                              <p>De positie van het beginpunt van het meetpunt in het verticale vlak, zoals die is
+                                 aangeleverd aan de basisregistratie ondergrond.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -2237,13 +2237,23 @@
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
                            <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>Voor een boring heeft het lokaal vertikaal referentiepunt altijd de waarde 11 (t.o.v.
+                                    maaiveld)</p>
+                                 
+                                 <p>Voor een peilbuis kan het lokaal vertikaal referentiepunt de waarde 11 (t.o.v. maaiveld)
+                                    of 12 (t.o.v. NAP) hebben.</p>
+                                 </td>
+                           </tr>
+                           <tr>
                               <th>Toelichting</th>
                               <td>
                                  
                                  <p>Het domein bevat begrippen die naar een oppervlak verwijzen. Het lokaal verticaal
                                     referentiepunt geldt als het punt waar het onderzoek aan de ondergrond begonnen is.
-                                    Bij milieuhygiënisch onderzoek is dit voor boringen standaard het maaiveld, voor peilbuizen
-                                    is dit standaard de bovenkant van de peilbuis.</p>
+                                    </p>
                                  </td>
                            </tr>
                         </tbody>
@@ -2289,11 +2299,11 @@
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
                            <tr>
-                              <th>Regels</th>
+                              <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De waarde van het attribuut moet gelijk zijn aan NAP wanneer de locatie aan de landzijde
-                                    van de UNCLOS-basislijn ligt.</p>
+                                 <p>In het geval het vertikaal referentievlak is vastgelegd is dit altijd ten opzichte
+                                    van NAP.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -2346,9 +2356,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De waarde kan positief of negatief zijn. Als de waarde positief is, ligt het lokaal
-                                    verticaal referentiepunt boven het verticaal referentievlak. Met behulp van de verschuiving
-                                    kan een diepte omgerekend worden naar een positie ten opzichte van het verticaal referentievlak.
+                                 <p>De waarde kan positief of negatief zijn. Als de waarde positief is, ligt het <em>lokaal verticaal referentiepunt</em> boven het <em>verticaal referentievlak</em>. Met behulp van de <em>verschuiving</em> kan een diepte omgerekend worden naar een positie ten opzichte van het <em>verticaal referentievlak</em>.
                                     Dit gegeven wordt bij milieuhygiënisch bodemonderzoek veelal niet bepaald.</p>
                                  </td>
                            </tr>
@@ -2369,7 +2377,8 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De positie van het maaiveld ten opzichte van het lokaal verticaal referentiepunt.</p>
+                                 <p>De positie van het maaiveld ten opzichte van het lokaal verticaal referentiepunt van
+                                    de peilbuis.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -2395,15 +2404,26 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td>-1 tot 2</td>
+                              <td>-0.5 tot 1</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>Dit gegeven is alleen relevant voor het object peilbuis waarbij het <em>lokaal vertikaal referentiepunt</em>  ongelijk is aan 't.o.v. maaiveld'.</p>
+                                 </td>
                            </tr>
                            <tr>
                               <th>Toelichting</th>
                               <td>
                                  
+                                 <p>Dit is de positie van het maaiveld t.o.v. de bovenkant van de peilbuis. De waarde
+                                    kan positief of negatief zijn. Als de waarde positief is, bevindt de bovenkant van
+                                    de peilbuis zich boven het maaiveld. Is de waarde negatief, dan binvdt de bovenkant
+                                    van de peilbuis zich onder het maaivled.</p>
+                                 
                                  <p>De positie van het maaiveld is van belang om de metingen in de peilbuis in de juiste
-                                    ruimtelijke context te kunnen plaatsen. Dit gegeven is alleen relevant voor het object
-                                    peilbuis.</p>
+                                    ruimtelijke context te kunnen plaatsen. </p>
                                  </td>
                            </tr>
                         </tbody>
@@ -2425,7 +2445,7 @@
                            <th>Definitie</th>
                            <td>
                               
-                              <p>Het deel van het booronderzoek dat betrekking heeft op het beschrijven van de monsters
+                              <p>Het deel van het booronderzoek dat betrekking heeft op het beschrijven van de bodemlagen
                                  en het verwerken van de resultaten tot een samenvattende beschrijving van de opbouw
                                  van de ondergrond.</p>
                               </td>
@@ -2446,7 +2466,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De procedure die aangeeft onder welke afspraken de monsters zijn beschreven.</p>
+                                 <p>De procedure die aangeeft onder welke afspraken de bodemlagen zijn beschreven.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -2486,7 +2506,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>De procedure beschrijft volgens welk stelsel van afspraken de monsters beschreven
+                                 <p>De procedure beschrijft volgens welk stelsel van afspraken de bodemlagen beschreven
                                     zijn en welke aspecten worden beschreven. Procedures zijn in het algemeen vastgelegd
                                     in een norm, protocol of richtlijn. Dat kan overigens een richtlijn zijn die de uitvoerder
                                     voor zichzelf gebruikt. Het gegeven is opgenomen omdat het inzicht biedt in de kwaliteit
@@ -2886,7 +2906,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d96996e11798"></a><section id="detail_d96996e11798">
+                     </section><a class="anchor" id="detail_d97029e11876"></a><section id="detail_d97029e11876">
                      <h4>  grond</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -2919,7 +2939,7 @@
                            </tr>
                         </tbody>
                      </table>
-                  </section><a class="anchor" id="detail_d96996e11983"></a><section id="detail_d96996e11983">
+                  </section><a class="anchor" id="detail_d97029e12061"></a><section id="detail_d97029e12061">
                      <h4>  kleur</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -2952,7 +2972,7 @@
                            </tr>
                         </tbody>
                      </table>
-                  </section><a class="anchor" id="detail_d96996e12168"></a><section id="detail_d96996e12168">
+                  </section><a class="anchor" id="detail_d97029e12246"></a><section id="detail_d97029e12246">
                      <h4>  bijzonderheid</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -4327,7 +4347,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d96996e17470"></a><section id="detail_d96996e17470">
+                     </section><a class="anchor" id="detail_d97029e17548"></a><section id="detail_d97029e17548">
                      <h4>  aangeleverde verticale positie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -4737,7 +4757,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     </section><a class="anchor" id="detail_d96996e18934"></a><section id="detail_d96996e18934">
+                     </section><a class="anchor" id="detail_d97029e19012"></a><section id="detail_d97029e19012">
                      <h4>  kleur</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
