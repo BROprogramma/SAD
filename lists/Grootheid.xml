@@ -64,6 +64,13 @@
 		<IMBROA>v</IMBROA>
 	</Grootheid>
 	<Grootheid>
+		<Waarde>verzadigingsgraad</Waarde>
+		<SIKB0101ID>4712</SIKB0101ID>
+		<ToegestaneEenheid>1 (%)</ToegestaneEenheid>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Grootheid>
+	<Grootheid>
 		<Waarde>waterhoogte</Waarde>
 		<SIKB0101ID>4724</SIKB0101ID>
 		<ToegestaneEenheid>115 (m)</ToegestaneEenheid>
