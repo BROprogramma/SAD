@@ -1,0 +1,5464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<WaardebepalingsMethode>
+		<Waarde>nen5731:19942eontw.nl</Waarde>
+		<SIKB0101ID>1</SIKB0101ID>
+		<Omschrijving>NEN 5731:1994 2e Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5734:19952eontw.nl</Waarde>
+		<SIKB0101ID>2</SIKB0101ID>
+		<Omschrijving>NEN 5734:1995 2e Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5735:19942eontw.nl</Waarde>
+		<SIKB0101ID>3</SIKB0101ID>
+		<Omschrijving>NEN 5735:1994 2e Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn5729:2001ontw.nl</Waarde>
+		<SIKB0101ID>4</SIKB0101ID>
+		<Omschrijving>NVN 5729:2001 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso8165-1:1992en</Waarde>
+		<SIKB0101ID>7</SIKB0101ID>
+		<Omschrijving>ISO 8165-1:1992 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso15586:2003en</Waarde>
+		<SIKB0101ID>8</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 15586:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5483:1989nl</Waarde>
+		<SIKB0101ID>9</SIKB0101ID>
+		<Omschrijving>NEN 5483:1989 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5733:1997nl</Waarde>
+		<SIKB0101ID>10</SIKB0101ID>
+		<Omschrijving>NEN 5733:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5758:1990nl</Waarde>
+		<SIKB0101ID>11</SIKB0101ID>
+		<Omschrijving>NEN 5758:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5759:1990nl</Waarde>
+		<SIKB0101ID>12</SIKB0101ID>
+		<Omschrijving>NEN 5759:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5760:1991nl</Waarde>
+		<SIKB0101ID>13</SIKB0101ID>
+		<Omschrijving>NEN 5760:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5761:1990nl</Waarde>
+		<SIKB0101ID>14</SIKB0101ID>
+		<Omschrijving>NEN 5761:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5762:1991nl</Waarde>
+		<SIKB0101ID>15</SIKB0101ID>
+		<Omschrijving>NEN 5762:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5765:1991nl</Waarde>
+		<SIKB0101ID>16</SIKB0101ID>
+		<Omschrijving>NEN 5765:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5767:1991nl</Waarde>
+		<SIKB0101ID>17</SIKB0101ID>
+		<Omschrijving>NEN 5767:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6403:1998nl</Waarde>
+		<SIKB0101ID>18</SIKB0101ID>
+		<Omschrijving>NEN 6403:1998 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6408:1999nl</Waarde>
+		<SIKB0101ID>20</SIKB0101ID>
+		<Omschrijving>NEN 6408:1999 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6426:1995nl</Waarde>
+		<SIKB0101ID>21</SIKB0101ID>
+		<Omschrijving>NEN 6426:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6427:1999nl</Waarde>
+		<SIKB0101ID>22</SIKB0101ID>
+		<Omschrijving>NEN 6427:1999 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6429:1994nl</Waarde>
+		<SIKB0101ID>23</SIKB0101ID>
+		<Omschrijving>NEN 6429:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6430:1994nl</Waarde>
+		<SIKB0101ID>24</SIKB0101ID>
+		<Omschrijving>NEN 6430:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6432:1993nl</Waarde>
+		<SIKB0101ID>25</SIKB0101ID>
+		<Omschrijving>NEN 6432:1993 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6433:1993nl</Waarde>
+		<SIKB0101ID>26</SIKB0101ID>
+		<Omschrijving>NEN 6433:1993 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6434:1993nl</Waarde>
+		<SIKB0101ID>27</SIKB0101ID>
+		<Omschrijving>NEN 6434:1993 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6435:1997nl</Waarde>
+		<SIKB0101ID>28</SIKB0101ID>
+		<Omschrijving>NEN 6435:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6436:1997nl</Waarde>
+		<SIKB0101ID>29</SIKB0101ID>
+		<Omschrijving>NEN 6436:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6443:1977nl</Waarde>
+		<SIKB0101ID>30</SIKB0101ID>
+		<Omschrijving>NEN 6443:1977 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6444:1977nl</Waarde>
+		<SIKB0101ID>31</SIKB0101ID>
+		<Omschrijving>NEN 6444:1977 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6445:1997nl</Waarde>
+		<SIKB0101ID>32</SIKB0101ID>
+		<Omschrijving>NEN 6445:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6448:1981nl</Waarde>
+		<SIKB0101ID>33</SIKB0101ID>
+		<Omschrijving>NEN 6448:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6451:1980nl</Waarde>
+		<SIKB0101ID>34</SIKB0101ID>
+		<Omschrijving>NEN 6451:1980 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6452:1980nl</Waarde>
+		<SIKB0101ID>35</SIKB0101ID>
+		<Omschrijving>NEN 6452:1980 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6453:1980nl</Waarde>
+		<SIKB0101ID>36</SIKB0101ID>
+		<Omschrijving>NEN 6453:1980 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6454:1994nl</Waarde>
+		<SIKB0101ID>37</SIKB0101ID>
+		<Omschrijving>NEN 6454:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6458:1983nl</Waarde>
+		<SIKB0101ID>38</SIKB0101ID>
+		<Omschrijving>NEN 6458:1983 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6462:1982nl</Waarde>
+		<SIKB0101ID>39</SIKB0101ID>
+		<Omschrijving>NEN 6462:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6463:1997nl</Waarde>
+		<SIKB0101ID>40</SIKB0101ID>
+		<Omschrijving>NEN 6463:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6468:1994nl</Waarde>
+		<SIKB0101ID>41</SIKB0101ID>
+		<Omschrijving>NEN 6468:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6470:1997nl</Waarde>
+		<SIKB0101ID>42</SIKB0101ID>
+		<Omschrijving>NEN 6470:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6476:1981nl</Waarde>
+		<SIKB0101ID>43</SIKB0101ID>
+		<Omschrijving>NEN 6476:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6483:1982nl</Waarde>
+		<SIKB0101ID>44</SIKB0101ID>
+		<Omschrijving>NEN 6483:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6609:1997nl</Waarde>
+		<SIKB0101ID>45</SIKB0101ID>
+		<Omschrijving>NEN 6609:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6611:1997nl</Waarde>
+		<SIKB0101ID>46</SIKB0101ID>
+		<Omschrijving>NEN 6611:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6612:1997nl</Waarde>
+		<SIKB0101ID>47</SIKB0101ID>
+		<Omschrijving>NEN 6612:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6651:1992nl</Waarde>
+		<SIKB0101ID>48</SIKB0101ID>
+		<Omschrijving>NEN 6651:1992 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6655:1997nl</Waarde>
+		<SIKB0101ID>49</SIKB0101ID>
+		<Omschrijving>NEN 6655:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6670:2003nl</Waarde>
+		<SIKB0101ID>50</SIKB0101ID>
+		<Omschrijving>NEN 6670:2003 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en1233:1997en,nl</Waarde>
+		<SIKB0101ID>51</SIKB0101ID>
+		<Omschrijving>NEN-EN 1233:1997 en,nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en12338:1998en</Waarde>
+		<SIKB0101ID>52</SIKB0101ID>
+		<Omschrijving>NEN-EN 12338:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en12673:1999en</Waarde>
+		<SIKB0101ID>53</SIKB0101ID>
+		<Omschrijving>NEN-EN 12673:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en1483:2007en</Waarde>
+		<SIKB0101ID>54</SIKB0101ID>
+		<Omschrijving>NEN-EN 1483:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10301:1997en</Waarde>
+		<SIKB0101ID>55</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10301:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10304-1:2009en</Waarde>
+		<SIKB0101ID>56</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10304-1:2009 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10304-2:1996en</Waarde>
+		<SIKB0101ID>57</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10304-2:1996 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10304-3:1997en</Waarde>
+		<SIKB0101ID>58</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10304-3:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11369:1997en</Waarde>
+		<SIKB0101ID>59</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11369:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11969:1997nl</Waarde>
+		<SIKB0101ID>60</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11969:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso5961:1995nl</Waarde>
+		<SIKB0101ID>61</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 5961:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso6468:1997en</Waarde>
+		<SIKB0101ID>62</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 6468:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6409:1997nl</Waarde>
+		<SIKB0101ID>63</SIKB0101ID>
+		<Omschrijving>NVN 6409:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6678:1997nl</Waarde>
+		<SIKB0101ID>64</SIKB0101ID>
+		<Omschrijving>NVN 6678:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn7321:1997nl</Waarde>
+		<SIKB0101ID>65</SIKB0101ID>
+		<Omschrijving>NVN 7321:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn7322:1997nl</Waarde>
+		<SIKB0101ID>66</SIKB0101ID>
+		<Omschrijving>NVN 7322:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn7324:1997nl</Waarde>
+		<SIKB0101ID>67</SIKB0101ID>
+		<Omschrijving>NVN 7324:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6527:2000nl</Waarde>
+		<SIKB0101ID>70</SIKB0101ID>
+		<Omschrijving>NEN 6527:2000 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5779:1994nl</Waarde>
+		<SIKB0101ID>71</SIKB0101ID>
+		<Omschrijving>NEN 5779:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn5732:1999nl</Waarde>
+		<SIKB0101ID>72</SIKB0101ID>
+		<Omschrijving>NVN 5732:1999 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5742:2000ontw.nl</Waarde>
+		<SIKB0101ID>79</SIKB0101ID>
+		<Omschrijving>NEN 5742:2000 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso5667-11:1993en</Waarde>
+		<SIKB0101ID>80</SIKB0101ID>
+		<Omschrijving>ISO 5667-11:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso5667-4:1987en</Waarde>
+		<SIKB0101ID>81</SIKB0101ID>
+		<Omschrijving>ISO 5667-4:1987 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5742:1991nl</Waarde>
+		<SIKB0101ID>82</SIKB0101ID>
+		<Omschrijving>NEN 5742:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5743:1995nl</Waarde>
+		<SIKB0101ID>83</SIKB0101ID>
+		<Omschrijving>NEN 5743:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5744:2011nl</Waarde>
+		<SIKB0101ID>84</SIKB0101ID>
+		<Omschrijving>NEN 5744:2011 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso5667-3:2012en</Waarde>
+		<SIKB0101ID>87</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 5667-3:2012 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso5667-1:1994en</Waarde>
+		<SIKB0101ID>88</SIKB0101ID>
+		<Omschrijving>NEN-ISO 5667-1:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso5667-2:1993en</Waarde>
+		<SIKB0101ID>90</SIKB0101ID>
+		<Omschrijving>NEN-ISO 5667-2:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6600:1993nl</Waarde>
+		<SIKB0101ID>91</SIKB0101ID>
+		<Omschrijving>NPR 6600:1993 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6402:2010nl</Waarde>
+		<SIKB0101ID>95</SIKB0101ID>
+		<Omschrijving>NEN 6402:2010 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen3106:1986nl</Waarde>
+		<SIKB0101ID>101</SIKB0101ID>
+		<Omschrijving>NEN 3106:1986 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5768:1992nl</Waarde>
+		<SIKB0101ID>102</SIKB0101ID>
+		<Omschrijving>NEN 5768:1992 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6455:1981nl</Waarde>
+		<SIKB0101ID>106</SIKB0101ID>
+		<Omschrijving>NEN 6455:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6465:1992nl</Waarde>
+		<SIKB0101ID>107</SIKB0101ID>
+		<Omschrijving>NEN 6465:1992 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen7320:1997nl</Waarde>
+		<SIKB0101ID>108</SIKB0101ID>
+		<Omschrijving>NEN 7320:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn2507:1986nl</Waarde>
+		<SIKB0101ID>109</SIKB0101ID>
+		<Omschrijving>NVN 2507:1986 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn5770:1993nl</Waarde>
+		<SIKB0101ID>110</SIKB0101ID>
+		<Omschrijving>NVN 5770:1993 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn5730:1991nl</Waarde>
+		<SIKB0101ID>113</SIKB0101ID>
+		<Omschrijving>NVN 5730:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5751:1989nl</Waarde>
+		<SIKB0101ID>114</SIKB0101ID>
+		<Omschrijving>NEN 5751:1989 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6457:1994nl</Waarde>
+		<SIKB0101ID>116</SIKB0101ID>
+		<Omschrijving>NEN 6457:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din38414-4:1984-10</Waarde>
+		<SIKB0101ID>122</SIKB0101ID>
+		<Omschrijving>DIN 38414-4:1984-10</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5734:1999</Waarde>
+		<SIKB0101ID>125</SIKB0101ID>
+		<Omschrijving>NEN 5734:1999</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5735:1999nl</Waarde>
+		<SIKB0101ID>126</SIKB0101ID>
+		<Omschrijving>NEN 5735:1999 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5747:1990nl</Waarde>
+		<SIKB0101ID>128</SIKB0101ID>
+		<Omschrijving>NEN 5747:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5748:1990nl</Waarde>
+		<SIKB0101ID>130</SIKB0101ID>
+		<Omschrijving>NEN 5748:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5749:1991nl</Waarde>
+		<SIKB0101ID>131</SIKB0101ID>
+		<Omschrijving>NEN 5749:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5750:1989nl</Waarde>
+		<SIKB0101ID>132</SIKB0101ID>
+		<Omschrijving>NEN 5750:1989 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5752:1995nl</Waarde>
+		<SIKB0101ID>133</SIKB0101ID>
+		<Omschrijving>NEN 5752:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5753:2006+c1:2009nl</Waarde>
+		<SIKB0101ID>134</SIKB0101ID>
+		<Omschrijving>NEN 5753:2006+C1:2009 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5754:2005nl</Waarde>
+		<SIKB0101ID>135</SIKB0101ID>
+		<Omschrijving>NEN 5754:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5756:1995nl</Waarde>
+		<SIKB0101ID>137</SIKB0101ID>
+		<Omschrijving>NEN 5756:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5757:1991nl</Waarde>
+		<SIKB0101ID>138</SIKB0101ID>
+		<Omschrijving>NEN 5757:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5776:2006nl</Waarde>
+		<SIKB0101ID>139</SIKB0101ID>
+		<Omschrijving>NEN 5776:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5896:2003nl</Waarde>
+		<SIKB0101ID>140</SIKB0101ID>
+		<Omschrijving>NEN5896:2003 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6411:2006ontw.nl</Waarde>
+		<SIKB0101ID>141</SIKB0101ID>
+		<Omschrijving>NEN 6411:2006 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6415:1982nl</Waarde>
+		<SIKB0101ID>142</SIKB0101ID>
+		<Omschrijving>NEN 6415:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6441:1979nl</Waarde>
+		<SIKB0101ID>143</SIKB0101ID>
+		<Omschrijving>NEN 6441:1979 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6456:1981nl</Waarde>
+		<SIKB0101ID>144</SIKB0101ID>
+		<Omschrijving>NEN 6456:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6467:1982nl</Waarde>
+		<SIKB0101ID>145</SIKB0101ID>
+		<Omschrijving>NEN 6467:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6482:1982nl</Waarde>
+		<SIKB0101ID>146</SIKB0101ID>
+		<Omschrijving>NEN 6482:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6484:2007nl</Waarde>
+		<SIKB0101ID>147</SIKB0101ID>
+		<Omschrijving>NEN 6484:2007 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6485:1983nl</Waarde>
+		<SIKB0101ID>148</SIKB0101ID>
+		<Omschrijving>NEN 6485:1983 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6520:2006nl</Waarde>
+		<SIKB0101ID>149</SIKB0101ID>
+		<Omschrijving>NEN 6520:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6526:2006nl</Waarde>
+		<SIKB0101ID>150</SIKB0101ID>
+		<Omschrijving>NEN 6526:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6532:1986nl</Waarde>
+		<SIKB0101ID>151</SIKB0101ID>
+		<Omschrijving>NEN 6532:1986 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6533:1990nl</Waarde>
+		<SIKB0101ID>152</SIKB0101ID>
+		<Omschrijving>NEN 6533:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6541:1991nl</Waarde>
+		<SIKB0101ID>153</SIKB0101ID>
+		<Omschrijving>NEN 6541:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6620:1986nl</Waarde>
+		<SIKB0101ID>154</SIKB0101ID>
+		<Omschrijving>NEN 6620:1986 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6621:1988nl</Waarde>
+		<SIKB0101ID>155</SIKB0101ID>
+		<Omschrijving>NEN 6621:1988 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6623:2005nl</Waarde>
+		<SIKB0101ID>156</SIKB0101ID>
+		<Omschrijving>NEN 6623:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6633:1998nl</Waarde>
+		<SIKB0101ID>157</SIKB0101ID>
+		<Omschrijving>NEN 6633:1998 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6641:1983nl</Waarde>
+		<SIKB0101ID>158</SIKB0101ID>
+		<Omschrijving>NEN 6641:1983 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6642:1992nl</Waarde>
+		<SIKB0101ID>159</SIKB0101ID>
+		<Omschrijving>NEN 6642:1992 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6644:1983nl</Waarde>
+		<SIKB0101ID>160</SIKB0101ID>
+		<Omschrijving>NEN 6644:1983 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6646:2006nl</Waarde>
+		<SIKB0101ID>161</SIKB0101ID>
+		<Omschrijving>NEN 6646:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6663:1987nl</Waarde>
+		<SIKB0101ID>162</SIKB0101ID>
+		<Omschrijving>NEN 6663:1987 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6674:1981nl</Waarde>
+		<SIKB0101ID>163</SIKB0101ID>
+		<Omschrijving>NEN 6674:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6675:1989nl</Waarde>
+		<SIKB0101ID>164</SIKB0101ID>
+		<Omschrijving>NEN 6675:1989 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen7341:1995nl</Waarde>
+		<SIKB0101ID>165</SIKB0101ID>
+		<Omschrijving>NEN 7341:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen7343:1995nl</Waarde>
+		<SIKB0101ID>166</SIKB0101ID>
+		<Omschrijving>NEN 7343:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen7345:1995nl</Waarde>
+		<SIKB0101ID>167</SIKB0101ID>
+		<Omschrijving>NEN 7345:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen7349:1995nl</Waarde>
+		<SIKB0101ID>168</SIKB0101ID>
+		<Omschrijving>NEN 7349:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en1484:1997en,nl</Waarde>
+		<SIKB0101ID>171</SIKB0101ID>
+		<Omschrijving>NEN-EN 1484:1997 en,nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en1948-4:2010+a1:2013en</Waarde>
+		<SIKB0101ID>173</SIKB0101ID>
+		<Omschrijving>NEN-EN 1948-4:2010+A1:2013 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en872:2005en</Waarde>
+		<SIKB0101ID>174</SIKB0101ID>
+		<Omschrijving>NEN-EN 872:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso13395:1997nl</Waarde>
+		<SIKB0101ID>175</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 13395:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso14403:2002en</Waarde>
+		<SIKB0101ID>176</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 14403:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso7888:1994en</Waarde>
+		<SIKB0101ID>178</SIKB0101ID>
+		<Omschrijving>NEN-ISO 7888:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6546:1988nl</Waarde>
+		<SIKB0101ID>180</SIKB0101ID>
+		<Omschrijving>NPR 6546:1988 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn5731:1998nl</Waarde>
+		<SIKB0101ID>181</SIKB0101ID>
+		<Omschrijving>NVN 5731:1998 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn7312:1995nl</Waarde>
+		<SIKB0101ID>183</SIKB0101ID>
+		<Omschrijving>NVN 7312:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5707:2013ontw.nl</Waarde>
+		<SIKB0101ID>184</SIKB0101ID>
+		<Omschrijving>NEN 5707:2013 Ontw. Nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5769:1991nl</Waarde>
+		<SIKB0101ID>185</SIKB0101ID>
+		<Omschrijving>NEN 5769:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5897:2014ontw.nl</Waarde>
+		<SIKB0101ID>187</SIKB0101ID>
+		<Omschrijving>NEN 5897:2014 Ontw. Nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn7350:1995ontw.nl</Waarde>
+		<SIKB0101ID>188</SIKB0101ID>
+		<Omschrijving>NVN 7350:1995 Ontw. Nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>eigenmethode</Waarde>
+		<SIKB0101ID>199</SIKB0101ID>
+		<Omschrijving>Eigen methode</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9963-1:1996en</Waarde>
+		<SIKB0101ID>200</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9963-1:1996 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11423-1:1997en</Waarde>
+		<SIKB0101ID>207</SIKB0101ID>
+		<Omschrijving>ISO 11423-1:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso10390:2005en</Waarde>
+		<SIKB0101ID>208</SIKB0101ID>
+		<Omschrijving>NEN-ISO 10390:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7887:2012en</Waarde>
+		<SIKB0101ID>209</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7887:2012 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso14402:1999en</Waarde>
+		<SIKB0101ID>211</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 14402:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6961:2013ontw.nl</Waarde>
+		<SIKB0101ID>212</SIKB0101ID>
+		<Omschrijving>NEN 6961:2013 Ontw. Nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen7373:2004nl</Waarde>
+		<SIKB0101ID>214</SIKB0101ID>
+		<Omschrijving>NEN 7373:2004 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14385:2004en</Waarde>
+		<SIKB0101ID>215</SIKB0101ID>
+		<Omschrijving>NEN-EN 14385:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en13211:2001en</Waarde>
+		<SIKB0101ID>216</SIKB0101ID>
+		<Omschrijving>NEN-EN 13211:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso10382:2003en</Waarde>
+		<SIKB0101ID>219</SIKB0101ID>
+		<Omschrijving>NEN-ISO 10382:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en903:1994en</Waarde>
+		<SIKB0101ID>221</SIKB0101ID>
+		<Omschrijving>NEN-EN 903:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso7875-2:1984en</Waarde>
+		<SIKB0101ID>222</SIKB0101ID>
+		<Omschrijving>ISO 7875-2:1984 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din38409-23:2010-12</Waarde>
+		<SIKB0101ID>223</SIKB0101ID>
+		<Omschrijving>DIN 38409-23:2010-12</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso16772:2004en</Waarde>
+		<SIKB0101ID>225</SIKB0101ID>
+		<Omschrijving>NEN-ISO 16772:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso8467:1995en</Waarde>
+		<SIKB0101ID>226</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 8467:1995 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5709:2006nl</Waarde>
+		<SIKB0101ID>227</SIKB0101ID>
+		<Omschrijving>NEN 5709:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso10693:2004en</Waarde>
+		<SIKB0101ID>228</SIKB0101ID>
+		<Omschrijving>NEN-ISO 10693:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6414:2008nl</Waarde>
+		<SIKB0101ID>229</SIKB0101ID>
+		<Omschrijving>NEN 6414:2008 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6570:1982nl</Waarde>
+		<SIKB0101ID>230</SIKB0101ID>
+		<Omschrijving>NEN 6570:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6571:1982nl</Waarde>
+		<SIKB0101ID>231</SIKB0101ID>
+		<Omschrijving>NEN 6571:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso7027:1994en</Waarde>
+		<SIKB0101ID>232</SIKB0101ID>
+		<Omschrijving>NEN-ISO 7027:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/2/i/c.7september2015</Waarde>
+		<SIKB0101ID>233</SIKB0101ID>
+		<Omschrijving>CMA/2/I/C.7 september 2015</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso5814:1993en</Waarde>
+		<SIKB0101ID>234</SIKB0101ID>
+		<Omschrijving>NEN-ISO 5814:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn2795:2006nl</Waarde>
+		<SIKB0101ID>236</SIKB0101ID>
+		<Omschrijving>NVN 2795:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso18073:2004en</Waarde>
+		<SIKB0101ID>237</SIKB0101ID>
+		<Omschrijving>NEN-ISO 18073:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5707:2015nl</Waarde>
+		<SIKB0101ID>238</SIKB0101ID>
+		<Omschrijving>NEN 5707:2015 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6604:2007nl</Waarde>
+		<SIKB0101ID>239</SIKB0101ID>
+		<Omschrijving>NEN 6604:2007 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6633:2006/a1:2007nl</Waarde>
+		<SIKB0101ID>240</SIKB0101ID>
+		<Omschrijving>NEN 6633:2006/A1:2007 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6966:2005nl</Waarde>
+		<SIKB0101ID>242</SIKB0101ID>
+		<Omschrijving>NEN 6966:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6977:2008+c1:2010nl</Waarde>
+		<SIKB0101ID>244</SIKB0101ID>
+		<Omschrijving>NEN 6977:2008+C1:2010 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9377-2:2000en</Waarde>
+		<SIKB0101ID>246</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9377-2:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11885:1998en</Waarde>
+		<SIKB0101ID>250</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11885:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso10523:2008en</Waarde>
+		<SIKB0101ID>252</SIKB0101ID>
+		<Omschrijving>NEN-ISO 10523:2008 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso17380:2006en</Waarde>
+		<SIKB0101ID>253</SIKB0101ID>
+		<Omschrijving>NEN-ISO 17380:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6608:1996nl</Waarde>
+		<SIKB0101ID>259</SIKB0101ID>
+		<Omschrijving>NEN 6608:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5897:2015nl</Waarde>
+		<SIKB0101ID>261</SIKB0101ID>
+		<Omschrijving>NEN 5897:2015 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6671:1994nl</Waarde>
+		<SIKB0101ID>262</SIKB0101ID>
+		<Omschrijving>NEN 6671:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6672:1994nl</Waarde>
+		<SIKB0101ID>263</SIKB0101ID>
+		<Omschrijving>NEN 6672:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/2/ii/a.10september2012</Waarde>
+		<SIKB0101ID>266</SIKB0101ID>
+		<Omschrijving>CMA/2/II/A.10 september 2012</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11083:1994en</Waarde>
+		<SIKB0101ID>269</SIKB0101ID>
+		<Omschrijving>ISO 11083:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11261:1995en</Waarde>
+		<SIKB0101ID>270</SIKB0101ID>
+		<Omschrijving>ISO 11261:1995 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso5663:1993en</Waarde>
+		<SIKB0101ID>271</SIKB0101ID>
+		<Omschrijving>NEN-ISO 5663:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5739:1996nl</Waarde>
+		<SIKB0101ID>272</SIKB0101ID>
+		<Omschrijving>NEN 5739:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6265:2007nl</Waarde>
+		<SIKB0101ID>273</SIKB0101ID>
+		<Omschrijving>NEN 6265:2007 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso17294-2:2004en</Waarde>
+		<SIKB0101ID>277</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 17294-2:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso6222:1999en</Waarde>
+		<SIKB0101ID>278</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 6222:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7899-2:2000en</Waarde>
+		<SIKB0101ID>279</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7899-2:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso22155:2005en</Waarde>
+		<SIKB0101ID>280</SIKB0101ID>
+		<Omschrijving>NEN-ISO 22155:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nta8200:2002en</Waarde>
+		<SIKB0101ID>282</SIKB0101ID>
+		<Omschrijving>NTA 8200:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nta8204:2003nl</Waarde>
+		<SIKB0101ID>283</SIKB0101ID>
+		<Omschrijving>NTA 8204:2003 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din38404-6:1984-05</Waarde>
+		<SIKB0101ID>285</SIKB0101ID>
+		<Omschrijving>DIN 38404-6:1984-05</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din38405-26:1989-04</Waarde>
+		<SIKB0101ID>286</SIKB0101ID>
+		<Omschrijving>DIN 38405-26:1989-04</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din38405-27:1992-07</Waarde>
+		<SIKB0101ID>287</SIKB0101ID>
+		<Omschrijving>DIN 38405-27:1992-07</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din38406-29:1999-05</Waarde>
+		<SIKB0101ID>288</SIKB0101ID>
+		<Omschrijving>DIN 38406-29:1999-05</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din38412-16:1985-12</Waarde>
+		<SIKB0101ID>289</SIKB0101ID>
+		<Omschrijving>DIN 38412-16:1985-12</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din51577-1:1982-11</Waarde>
+		<SIKB0101ID>290</SIKB0101ID>
+		<Omschrijving>DIN 51577-1:1982-11</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso22478:2006en</Waarde>
+		<SIKB0101ID>292</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 22478:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>dinen1485:1996-11</Waarde>
+		<SIKB0101ID>293</SIKB0101ID>
+		<Omschrijving>DIN EN 1485:1996-11</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din38407-30:2007-12</Waarde>
+		<SIKB0101ID>295</SIKB0101ID>
+		<Omschrijving>DIN 38407-30:2007-12</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso15682:2001en</Waarde>
+		<SIKB0101ID>296</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 15682:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso15009:2002en</Waarde>
+		<SIKB0101ID>297</SIKB0101ID>
+		<Omschrijving>NEN-ISO 15009:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso15681-2:2005en</Waarde>
+		<SIKB0101ID>298</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 15681-2:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso6461-2:1993en</Waarde>
+		<SIKB0101ID>300</SIKB0101ID>
+		<Omschrijving>NEN-ISO 6461-2:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso18857-1:2006en</Waarde>
+		<SIKB0101ID>301</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 18857-1:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9308-1:2000en</Waarde>
+		<SIKB0101ID>302</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9308-1:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso17353:2005en</Waarde>
+		<SIKB0101ID>303</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 17353:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso6341:2012en</Waarde>
+		<SIKB0101ID>304</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 6341:2012 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn2946:1989nl</Waarde>
+		<SIKB0101ID>309</SIKB0101ID>
+		<Omschrijving>NVN 2946:1989 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nta5727:2004nl</Waarde>
+		<SIKB0101ID>313</SIKB0101ID>
+		<Omschrijving>NTA 5727:2004 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en15192:2006en</Waarde>
+		<SIKB0101ID>318</SIKB0101ID>
+		<Omschrijving>NEN-EN 15192:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen7383:2004nl</Waarde>
+		<SIKB0101ID>319</SIKB0101ID>
+		<Omschrijving>NEN 7383:2004 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din4030-2:2008-06</Waarde>
+		<SIKB0101ID>321</SIKB0101ID>
+		<Omschrijving>DIN 4030-2:2008-06</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>usEPAmethod8270d/8270c</Waarde>
+		<SIKB0101ID>322</SIKB0101ID>
+		<Omschrijving>US EPA Method 8270D/8270C</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/2/ii/a.4juni2013</Waarde>
+		<SIKB0101ID>323</SIKB0101ID>
+		<Omschrijving>CMA/2/II/A.4 juni 2013</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en15216:2007en</Waarde>
+		<SIKB0101ID>324</SIKB0101ID>
+		<Omschrijving>NEN-EN 15216:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>metAquo-kitBerekendOordeelofToetsresultaat</Waarde>
+		<SIKB0101ID>330</SIKB0101ID>
+		<Omschrijving>Met Aquo-kit berekend oordeel of toetsresultaat</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nietGenormaliseerdeAutomatischeWaardebepaling</Waarde>
+		<SIKB0101ID>331</SIKB0101ID>
+		<Omschrijving>Niet genormaliseerde automatische waardebepaling</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>blauwalgenProtocol2010</Waarde>
+		<SIKB0101ID>332</SIKB0101ID>
+		<Omschrijving>Blauwalgenprotocol 2010</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>blauwalgenProtocol2011</Waarde>
+		<SIKB0101ID>333</SIKB0101ID>
+		<Omschrijving>Blauwalgenprotocol 2011</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>blauwalgenProtocol2012</Waarde>
+		<SIKB0101ID>334</SIKB0101ID>
+		<Omschrijving>Blauwalgenprotocol 2012</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>bepalingklasse(1-5)VolgensCIW-methodiek</Waarde>
+		<SIKB0101ID>335</SIKB0101ID>
+		<Omschrijving>Bepaling klasse (1-5) volgens CIW-methodiek</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>bepalingklasseDoorDeskundige</Waarde>
+		<SIKB0101ID>336</SIKB0101ID>
+		<Omschrijving>Bepaling klasse door deskundige</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>bepalingwaarde/EBEO-klasse(1-5)VolgensEBEO-systematiek</Waarde>
+		<SIKB0101ID>337</SIKB0101ID>
+		<Omschrijving>Bepaling waarde / EBEO-klasse (1-5) volgens EBEO-systematiek</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>oordeeldeskundigeo.b.v.protocoltoetsengrondw.2013eu</Waarde>
+		<SIKB0101ID>338</SIKB0101ID>
+		<Omschrijving>Oordeel deskundige o.b.v. protocol toetsen grondw. 2013 EU</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>oordeeldeskundigeo.b.v.protocoltoetsengrondw.2013nl</Waarde>
+		<SIKB0101ID>339</SIKB0101ID>
+		<Omschrijving>Oordeel deskundige o.b.v. protocol toetsen grondw. 2013 NL</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>hh-10banalysevanzoöplanktonvoorebeo</Waarde>
+		<SIKB0101ID>340</SIKB0101ID>
+		<Omschrijving>HH-10B Analyse van zoöplankton voor EBeo</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>hh-11ainventarisatievanvegetatie</Waarde>
+		<SIKB0101ID>341</SIKB0101ID>
+		<Omschrijving>HH-11A Inventarisatie van vegetatie</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>hh-12banalysevanmacrofauna</Waarde>
+		<SIKB0101ID>342</SIKB0101ID>
+		<Omschrijving>HH-12B Analyse van macrofauna</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>hh-13abestandsopnamevanvisvoordekrw</Waarde>
+		<SIKB0101ID>343</SIKB0101ID>
+		<Omschrijving>HH-13A Bestandsopname van vis voor de KRW</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>hh-7banalysevanfytoplanktoninoppervlaktewater</Waarde>
+		<SIKB0101ID>344</SIKB0101ID>
+		<Omschrijving>HH-7B Analyse van fytoplankton in oppervlaktewater</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>hh-8banalysevansieralgeninopp.w.meteenomkeermicrosc.</Waarde>
+		<SIKB0101ID>345</SIKB0101ID>
+		<Omschrijving>HH-8B Analyse van sieralgen in opp.w. met een omkeermicrosc.</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>hh-8canalysevansieralgeninopp.w.metstaandemicrosc.</Waarde>
+		<SIKB0101ID>346</SIKB0101ID>
+		<Omschrijving>HH-8C Analyse van sieralgen in opp.w. met staande microsc.</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>hh-9banalysevankiezelwiereninoppervlaktewater</Waarde>
+		<SIKB0101ID>347</SIKB0101ID>
+		<Omschrijving>HH-9B Analyse van kiezelwieren in oppervlaktewater</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10048:1991en</Waarde>
+		<SIKB0101ID>348</SIKB0101ID>
+		<Omschrijving>ISO 10048:1991 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10229:1994en</Waarde>
+		<SIKB0101ID>349</SIKB0101ID>
+		<Omschrijving>ISO 10229:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10253:2006en</Waarde>
+		<SIKB0101ID>350</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10253:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10260:1992en</Waarde>
+		<SIKB0101ID>351</SIKB0101ID>
+		<Omschrijving>ISO 10260:1992 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10304-1:1995en</Waarde>
+		<SIKB0101ID>354</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10304-1:1995 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10304-4:1999en</Waarde>
+		<SIKB0101ID>357</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10304-4:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10359-1:1992en</Waarde>
+		<SIKB0101ID>358</SIKB0101ID>
+		<Omschrijving>ISO 10359-1:1992 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10359-2:1994en</Waarde>
+		<SIKB0101ID>359</SIKB0101ID>
+		<Omschrijving>ISO 10359-2:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10381-2:2002en</Waarde>
+		<SIKB0101ID>360</SIKB0101ID>
+		<Omschrijving>ISO 10381-2:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10382:2002en</Waarde>
+		<SIKB0101ID>361</SIKB0101ID>
+		<Omschrijving>ISO 10382:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10523:2012en</Waarde>
+		<SIKB0101ID>365</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10523:2012 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10523:1994en</Waarde>
+		<SIKB0101ID>366</SIKB0101ID>
+		<Omschrijving>ISO 10523:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10530:1992en</Waarde>
+		<SIKB0101ID>367</SIKB0101ID>
+		<Omschrijving>ISO 10530:1992 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10566:1994en</Waarde>
+		<SIKB0101ID>368</SIKB0101ID>
+		<Omschrijving>ISO 10566:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10694:1995en</Waarde>
+		<SIKB0101ID>370</SIKB0101ID>
+		<Omschrijving>ISO 10694:1995 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10695:2000en</Waarde>
+		<SIKB0101ID>371</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10695:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso10704:2012en</Waarde>
+		<SIKB0101ID>372</SIKB0101ID>
+		<Omschrijving>NEN-ISO 10704:2012 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10705-1:2001en</Waarde>
+		<SIKB0101ID>373</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10705-1:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10705-2:2001en</Waarde>
+		<SIKB0101ID>374</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10705-2:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso10706:2000en</Waarde>
+		<SIKB0101ID>375</SIKB0101ID>
+		<Omschrijving>NEN-ISO 10706:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10707:1997en</Waarde>
+		<SIKB0101ID>376</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10707:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso10708:1997en</Waarde>
+		<SIKB0101ID>377</SIKB0101ID>
+		<Omschrijving>ISO 10708:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10712:1996en</Waarde>
+		<SIKB0101ID>378</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10712:1996 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11047:1998en</Waarde>
+		<SIKB0101ID>379</SIKB0101ID>
+		<Omschrijving>ISO 11047:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11048:1995en</Waarde>
+		<SIKB0101ID>380</SIKB0101ID>
+		<Omschrijving>ISO 11048:1995 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso11083:2006en</Waarde>
+		<SIKB0101ID>381</SIKB0101ID>
+		<Omschrijving>NEN-ISO 11083:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11260:1994en</Waarde>
+		<SIKB0101ID>382</SIKB0101ID>
+		<Omschrijving>ISO 11260:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11262:2003en</Waarde>
+		<SIKB0101ID>384</SIKB0101ID>
+		<Omschrijving>ISO 11262:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11263:1994en</Waarde>
+		<SIKB0101ID>385</SIKB0101ID>
+		<Omschrijving>ISO 11263:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso11264:2007en</Waarde>
+		<SIKB0101ID>386</SIKB0101ID>
+		<Omschrijving>NEN-ISO 11264:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11265:1994en</Waarde>
+		<SIKB0101ID>387</SIKB0101ID>
+		<Omschrijving>ISO 11265:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11271:2002en</Waarde>
+		<SIKB0101ID>388</SIKB0101ID>
+		<Omschrijving>ISO 11271:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11272:1998en</Waarde>
+		<SIKB0101ID>389</SIKB0101ID>
+		<Omschrijving>ISO 11272:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11274:1998en</Waarde>
+		<SIKB0101ID>390</SIKB0101ID>
+		<Omschrijving>ISO 11274:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11277:1998en</Waarde>
+		<SIKB0101ID>391</SIKB0101ID>
+		<Omschrijving>ISO 11277:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11348-1:1999en</Waarde>
+		<SIKB0101ID>392</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11348-1:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11348-2:1999en</Waarde>
+		<SIKB0101ID>393</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11348-2:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11348-3:1999en</Waarde>
+		<SIKB0101ID>394</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11348-3:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11423-2:1997en</Waarde>
+		<SIKB0101ID>397</SIKB0101ID>
+		<Omschrijving>ISO 11423-2:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11461:2001en</Waarde>
+		<SIKB0101ID>398</SIKB0101ID>
+		<Omschrijving>ISO 11461:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso11465:2005en</Waarde>
+		<SIKB0101ID>399</SIKB0101ID>
+		<Omschrijving>NEN-ISO 11465:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11466:1995en</Waarde>
+		<SIKB0101ID>400</SIKB0101ID>
+		<Omschrijving>ISO 11466:1995 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11508:1998en</Waarde>
+		<SIKB0101ID>401</SIKB0101ID>
+		<Omschrijving>ISO 11508:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11731:1998en</Waarde>
+		<SIKB0101ID>402</SIKB0101ID>
+		<Omschrijving>ISO 11731:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11732:2005en</Waarde>
+		<SIKB0101ID>403</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11732:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11733:2004en</Waarde>
+		<SIKB0101ID>404</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11733:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11734:1998en</Waarde>
+		<SIKB0101ID>405</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11734:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11885:2007en</Waarde>
+		<SIKB0101ID>406</SIKB0101ID>
+		<Omschrijving>ISO 11885:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11905-1:1998nl</Waarde>
+		<SIKB0101ID>408</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11905-1:1998 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso11923:1997en</Waarde>
+		<SIKB0101ID>409</SIKB0101ID>
+		<Omschrijving>ISO 11923:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso12020:2000en</Waarde>
+		<SIKB0101ID>411</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 12020:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso12890:2000en</Waarde>
+		<SIKB0101ID>412</SIKB0101ID>
+		<Omschrijving>NEN-ISO 12890:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso13358:1997en</Waarde>
+		<SIKB0101ID>413</SIKB0101ID>
+		<Omschrijving>ISO 13358:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso13536:1995en</Waarde>
+		<SIKB0101ID>415</SIKB0101ID>
+		<Omschrijving>ISO 13536:1995 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso13641-1:2003en</Waarde>
+		<SIKB0101ID>416</SIKB0101ID>
+		<Omschrijving>NEN-ISO 13641-1:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso13641-2:2003en</Waarde>
+		<SIKB0101ID>417</SIKB0101ID>
+		<Omschrijving>NEN-ISO 13641-2:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso13829:2000en</Waarde>
+		<SIKB0101ID>418</SIKB0101ID>
+		<Omschrijving>NEN-ISO 13829:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso13877:1998en</Waarde>
+		<SIKB0101ID>419</SIKB0101ID>
+		<Omschrijving>ISO 13877:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso13878:1998en</Waarde>
+		<SIKB0101ID>420</SIKB0101ID>
+		<Omschrijving>ISO 13878:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso14154:2005en</Waarde>
+		<SIKB0101ID>421</SIKB0101ID>
+		<Omschrijving>NEN-ISO 14154:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso14235:1998en</Waarde>
+		<SIKB0101ID>422</SIKB0101ID>
+		<Omschrijving>ISO 14235:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso14254:2001en</Waarde>
+		<SIKB0101ID>423</SIKB0101ID>
+		<Omschrijving>ISO 14254:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso14255:2005en</Waarde>
+		<SIKB0101ID>424</SIKB0101ID>
+		<Omschrijving>NEN-ISO 14255:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso14256-2:2005en</Waarde>
+		<SIKB0101ID>425</SIKB0101ID>
+		<Omschrijving>ISO 14256-2:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso14442:2006en</Waarde>
+		<SIKB0101ID>428</SIKB0101ID>
+		<Omschrijving>NEN-ISO 14442:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso14592-1:2003en</Waarde>
+		<SIKB0101ID>429</SIKB0101ID>
+		<Omschrijving>NEN-ISO 14592-1:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso14592-2:2003en</Waarde>
+		<SIKB0101ID>430</SIKB0101ID>
+		<Omschrijving>NEN-ISO 14592-2:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso14593:2005en</Waarde>
+		<SIKB0101ID>431</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 14593:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso14669:1999en</Waarde>
+		<SIKB0101ID>432</SIKB0101ID>
+		<Omschrijving>ISO 14669:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso14869-1:2001en</Waarde>
+		<SIKB0101ID>433</SIKB0101ID>
+		<Omschrijving>ISO 14869-1:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso14869-2:2002en</Waarde>
+		<SIKB0101ID>434</SIKB0101ID>
+		<Omschrijving>ISO 14869-2:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso14870:2001en</Waarde>
+		<SIKB0101ID>435</SIKB0101ID>
+		<Omschrijving>ISO 14870:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso14911:1999en</Waarde>
+		<SIKB0101ID>436</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 14911:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso15061:2001en</Waarde>
+		<SIKB0101ID>438</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 15061:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso15088:2007en</Waarde>
+		<SIKB0101ID>439</SIKB0101ID>
+		<Omschrijving>ISO 15088:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso15089:2000en</Waarde>
+		<SIKB0101ID>440</SIKB0101ID>
+		<Omschrijving>ISO 15089:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso15178:2000en</Waarde>
+		<SIKB0101ID>441</SIKB0101ID>
+		<Omschrijving>ISO 15178:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso15522:1999en</Waarde>
+		<SIKB0101ID>442</SIKB0101ID>
+		<Omschrijving>NEN-ISO 15522:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso15553:2006en</Waarde>
+		<SIKB0101ID>443</SIKB0101ID>
+		<Omschrijving>NEN-ISO 15553:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso15587-1:2002en</Waarde>
+		<SIKB0101ID>445</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 15587-1:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso15587-2:2002en</Waarde>
+		<SIKB0101ID>446</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 15587-2:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso15680:2003en</Waarde>
+		<SIKB0101ID>447</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 15680:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso15681-1:2005en</Waarde>
+		<SIKB0101ID>448</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 15681-1:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso15705:2003en</Waarde>
+		<SIKB0101ID>451</SIKB0101ID>
+		<Omschrijving>NEN-ISO 15705:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso15913:2003en</Waarde>
+		<SIKB0101ID>452</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 15913:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso15923-1:2013en</Waarde>
+		<SIKB0101ID>453</SIKB0101ID>
+		<Omschrijving>NEN-ISO 15923-1:2013 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso16221:2001en</Waarde>
+		<SIKB0101ID>454</SIKB0101ID>
+		<Omschrijving>NEN-ISO 16221:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso16240:2005en</Waarde>
+		<SIKB0101ID>455</SIKB0101ID>
+		<Omschrijving>ISO 16240:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso16264:2002en</Waarde>
+		<SIKB0101ID>456</SIKB0101ID>
+		<Omschrijving>ISO 16264:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso16264:2004en</Waarde>
+		<SIKB0101ID>457</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 16264:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso16266:2006en</Waarde>
+		<SIKB0101ID>458</SIKB0101ID>
+		<Omschrijving>ISO 16266:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso16588:2003en</Waarde>
+		<SIKB0101ID>459</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 16588:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso16590:2000en</Waarde>
+		<SIKB0101ID>460</SIKB0101ID>
+		<Omschrijving>ISO 16590:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso16665:2005en</Waarde>
+		<SIKB0101ID>461</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 16665:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso16703:2004en</Waarde>
+		<SIKB0101ID>462</SIKB0101ID>
+		<Omschrijving>ISO 16703:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso16720:2007en</Waarde>
+		<SIKB0101ID>463</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 16720:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso17294-1:2006en</Waarde>
+		<SIKB0101ID>465</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 17294-1:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso17495:2003en</Waarde>
+		<SIKB0101ID>469</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 17495:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso17852:2006en</Waarde>
+		<SIKB0101ID>470</SIKB0101ID>
+		<Omschrijving>ISO 17852:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso17852:2008en</Waarde>
+		<SIKB0101ID>471</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 17852:2008 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso17858:2007en</Waarde>
+		<SIKB0101ID>472</SIKB0101ID>
+		<Omschrijving>ISO 17858:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso17993:2004en</Waarde>
+		<SIKB0101ID>473</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 17993:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso17994:2004en</Waarde>
+		<SIKB0101ID>474</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 17994:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso18287:2006en</Waarde>
+		<SIKB0101ID>476</SIKB0101ID>
+		<Omschrijving>NEN-ISO 18287:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso18412:2006en</Waarde>
+		<SIKB0101ID>477</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 18412:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso18749:2004en</Waarde>
+		<SIKB0101ID>478</SIKB0101ID>
+		<Omschrijving>NEN-ISO 18749:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso18856:2005en</Waarde>
+		<SIKB0101ID>479</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 18856:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso19250:2003ontw.en</Waarde>
+		<SIKB0101ID>481</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 19250:2003 Ontw. en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso19493:2007en</Waarde>
+		<SIKB0101ID>482</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 19493:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso20079:2006en</Waarde>
+		<SIKB0101ID>483</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 20079:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso20179:2005en</Waarde>
+		<SIKB0101ID>484</SIKB0101ID>
+		<Omschrijving>NEN-ISO 20179:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso20279:2005en</Waarde>
+		<SIKB0101ID>485</SIKB0101ID>
+		<Omschrijving>ISO 20279:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso20280:2007en</Waarde>
+		<SIKB0101ID>486</SIKB0101ID>
+		<Omschrijving>ISO 20280:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso21427-1:2006en</Waarde>
+		<SIKB0101ID>487</SIKB0101ID>
+		<Omschrijving>NEN-ISO 21427-1:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso21427-2:2006en</Waarde>
+		<SIKB0101ID>488</SIKB0101ID>
+		<Omschrijving>NEN-ISO 21427-2:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso22032:2006en</Waarde>
+		<SIKB0101ID>489</SIKB0101ID>
+		<Omschrijving>ISO 22032:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso22036:2008en</Waarde>
+		<SIKB0101ID>490</SIKB0101ID>
+		<Omschrijving>ISO 22036:2008 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso22155:2011en</Waarde>
+		<SIKB0101ID>492</SIKB0101ID>
+		<Omschrijving>NEN-ISO 22155:2011en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso22743:2006en</Waarde>
+		<SIKB0101ID>494</SIKB0101ID>
+		<Omschrijving>NEN-ISO 22743:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso23161:2009</Waarde>
+		<SIKB0101ID>495</SIKB0101ID>
+		<Omschrijving>ISO 23161:2009</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso23470:2007en</Waarde>
+		<SIKB0101ID>496</SIKB0101ID>
+		<Omschrijving>ISO 23470:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso23631:2006en</Waarde>
+		<SIKB0101ID>497</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 23631:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso23893-1:2007en</Waarde>
+		<SIKB0101ID>498</SIKB0101ID>
+		<Omschrijving>ISO 23893-1:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso23913:2006en</Waarde>
+		<SIKB0101ID>499</SIKB0101ID>
+		<Omschrijving>NEN-ISO 23913:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso4832:2006en</Waarde>
+		<SIKB0101ID>500</SIKB0101ID>
+		<Omschrijving>ISO 4832:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso5664:2004en</Waarde>
+		<SIKB0101ID>502</SIKB0101ID>
+		<Omschrijving>NEN-ISO 5664:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso5666:1999en</Waarde>
+		<SIKB0101ID>503</SIKB0101ID>
+		<Omschrijving>ISO 5666:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso5667-16:1998en</Waarde>
+		<SIKB0101ID>504</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 5667-16:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso5813:1993en</Waarde>
+		<SIKB0101ID>505</SIKB0101ID>
+		<Omschrijving>NEN-ISO 5813:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso5815-1:2003en</Waarde>
+		<SIKB0101ID>507</SIKB0101ID>
+		<Omschrijving>ISO 5815-1:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso5815-2:2003en</Waarde>
+		<SIKB0101ID>508</SIKB0101ID>
+		<Omschrijving>ISO 5815-2:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso6058:1984en</Waarde>
+		<SIKB0101ID>510</SIKB0101ID>
+		<Omschrijving>ISO 6058:1984 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso6059:2005en</Waarde>
+		<SIKB0101ID>511</SIKB0101ID>
+		<Omschrijving>NEN-ISO 6059:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso6060:1989en</Waarde>
+		<SIKB0101ID>512</SIKB0101ID>
+		<Omschrijving>ISO 6060:1989 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso6332:2004en</Waarde>
+		<SIKB0101ID>514</SIKB0101ID>
+		<Omschrijving>NEN-ISO 6332:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso6333:1988nl</Waarde>
+		<SIKB0101ID>515</SIKB0101ID>
+		<Omschrijving>NEN-ISO 6333:1988 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso6340:1993en</Waarde>
+		<SIKB0101ID>516</SIKB0101ID>
+		<Omschrijving>NEN-ISO 6340:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso6341:1996en</Waarde>
+		<SIKB0101ID>517</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 6341:1996 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso6439:1990en</Waarde>
+		<SIKB0101ID>518</SIKB0101ID>
+		<Omschrijving>ISO 6439:1990 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso6461-1:1993en</Waarde>
+		<SIKB0101ID>519</SIKB0101ID>
+		<Omschrijving>NEN-ISO 6461-1:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso6595:1993en</Waarde>
+		<SIKB0101ID>522</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 6595:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso6703-1:1984en</Waarde>
+		<SIKB0101ID>523</SIKB0101ID>
+		<Omschrijving>ISO 6703-1:1984 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso6703-2:1984en</Waarde>
+		<SIKB0101ID>524</SIKB0101ID>
+		<Omschrijving>ISO 6703-2:1984 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso6703-3:1984en</Waarde>
+		<SIKB0101ID>525</SIKB0101ID>
+		<Omschrijving>ISO 6703-3:1984 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso6777:1993en</Waarde>
+		<SIKB0101ID>526</SIKB0101ID>
+		<Omschrijving>NEN-ISO 6777:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso6778:1984en</Waarde>
+		<SIKB0101ID>527</SIKB0101ID>
+		<Omschrijving>ISO 6778:1984 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso6878:2004en</Waarde>
+		<SIKB0101ID>528</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 6878:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7027:2000en</Waarde>
+		<SIKB0101ID>529</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7027:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso7150-1:2002en</Waarde>
+		<SIKB0101ID>530</SIKB0101ID>
+		<Omschrijving>NEN-ISO 7150-1:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7346-1:1997en</Waarde>
+		<SIKB0101ID>531</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7346-1:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7346-2:1997en</Waarde>
+		<SIKB0101ID>532</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7346-2:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7346-3:1997en</Waarde>
+		<SIKB0101ID>533</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7346-3:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7393-1:2000en</Waarde>
+		<SIKB0101ID>534</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7393-1:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7393-2:2000en</Waarde>
+		<SIKB0101ID>535</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7393-2:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7393-3:2000en</Waarde>
+		<SIKB0101ID>536</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7393-3:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7827:1996en</Waarde>
+		<SIKB0101ID>537</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7827:1996 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso7828:1994en</Waarde>
+		<SIKB0101ID>538</SIKB0101ID>
+		<Omschrijving>NEN-ISO 7828:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso7875-1:1996en</Waarde>
+		<SIKB0101ID>539</SIKB0101ID>
+		<Omschrijving>ISO 7875-1:1996 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7887:1994en</Waarde>
+		<SIKB0101ID>542</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7887:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso7890-3:1999en</Waarde>
+		<SIKB0101ID>544</SIKB0101ID>
+		<Omschrijving>NEN-ISO 7890-3:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7899-1:1998en</Waarde>
+		<SIKB0101ID>545</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7899-1:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7980:2000en</Waarde>
+		<SIKB0101ID>547</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7980:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso7981-1:2005en</Waarde>
+		<SIKB0101ID>548</SIKB0101ID>
+		<Omschrijving>NEN-ISO 7981-1:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso7981-2:2005en</Waarde>
+		<SIKB0101ID>549</SIKB0101ID>
+		<Omschrijving>NEN-ISO 7981-2:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso8165-2:1999en</Waarde>
+		<SIKB0101ID>551</SIKB0101ID>
+		<Omschrijving>ISO 8165-2:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso8192:2007en</Waarde>
+		<SIKB0101ID>552</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 8192:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso8245:1999en</Waarde>
+		<SIKB0101ID>553</SIKB0101ID>
+		<Omschrijving>ISO 8245:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso8265:1994en</Waarde>
+		<SIKB0101ID>554</SIKB0101ID>
+		<Omschrijving>NEN-ISO 8265:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso8288:1986en</Waarde>
+		<SIKB0101ID>555</SIKB0101ID>
+		<Omschrijving>ISO 8288:1986 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso8689-1:2000en</Waarde>
+		<SIKB0101ID>557</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 8689-1:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso8689-2:2000en</Waarde>
+		<SIKB0101ID>558</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 8689-2:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso8692:2004en</Waarde>
+		<SIKB0101ID>559</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 8692:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9174:1998en</Waarde>
+		<SIKB0101ID>560</SIKB0101ID>
+		<Omschrijving>ISO 9174:1998 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9297:1989en</Waarde>
+		<SIKB0101ID>561</SIKB0101ID>
+		<Omschrijving>ISO 9297:1989 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9308-3:1999en</Waarde>
+		<SIKB0101ID>563</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9308-3:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9377-1:2000ontw.en</Waarde>
+		<SIKB0101ID>564</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9377-1:2000 Ontw. en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9377-4:1999ontw.en</Waarde>
+		<SIKB0101ID>566</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9377-4:1999 Ontw. en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9390:1990en</Waarde>
+		<SIKB0101ID>567</SIKB0101ID>
+		<Omschrijving>ISO 9390:1990 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9391:1995en</Waarde>
+		<SIKB0101ID>568</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9391:1995 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9408:1999en</Waarde>
+		<SIKB0101ID>569</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9408:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9439:2000en</Waarde>
+		<SIKB0101ID>570</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9439:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9509:2006en</Waarde>
+		<SIKB0101ID>571</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9509:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9562:2004en</Waarde>
+		<SIKB0101ID>572</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9562:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9697:1992en</Waarde>
+		<SIKB0101ID>573</SIKB0101ID>
+		<Omschrijving>ISO 9697:1992 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9698:1989en</Waarde>
+		<SIKB0101ID>574</SIKB0101ID>
+		<Omschrijving>ISO 9698:1989 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9887:1994en</Waarde>
+		<SIKB0101ID>575</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9887:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9888:1999en</Waarde>
+		<SIKB0101ID>576</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9888:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9963-1:1994en</Waarde>
+		<SIKB0101ID>577</SIKB0101ID>
+		<Omschrijving>ISO 9963-1:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9963-2:1994en</Waarde>
+		<SIKB0101ID>579</SIKB0101ID>
+		<Omschrijving>ISO 9963-2:1994 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9963-2:1996en</Waarde>
+		<SIKB0101ID>580</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9963-2:1996 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9964-1:1993en</Waarde>
+		<SIKB0101ID>581</SIKB0101ID>
+		<Omschrijving>ISO 9964-1:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9964-2:1993en</Waarde>
+		<SIKB0101ID>582</SIKB0101ID>
+		<Omschrijving>ISO 9964-2:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9964-3:1993en</Waarde>
+		<SIKB0101ID>583</SIKB0101ID>
+		<Omschrijving>ISO 9964-3:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso9965:1993en</Waarde>
+		<SIKB0101ID>584</SIKB0101ID>
+		<Omschrijving>ISO 9965:1993 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>bepalingAfgeleideWaardeVolgensKRW-methodiek</Waarde>
+		<SIKB0101ID>585</SIKB0101ID>
+		<Omschrijving>Bepaling afgeleide waarde volgens KRW-methodiek</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>waardeisBepaald/BerekendVolgensModel</Waarde>
+		<SIKB0101ID>586</SIKB0101ID>
+		<Omschrijving>Waarde is bepaald/berekend volgens model</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en12260:2003en</Waarde>
+		<SIKB0101ID>588</SIKB0101ID>
+		<Omschrijving>NEN-EN 12260:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en12780:2002en</Waarde>
+		<SIKB0101ID>596</SIKB0101ID>
+		<Omschrijving>NEN-EN 12780:2002 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en12880:2001en</Waarde>
+		<SIKB0101ID>598</SIKB0101ID>
+		<Omschrijving>NEN-EN 12880:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en12918:1999en</Waarde>
+		<SIKB0101ID>599</SIKB0101ID>
+		<Omschrijving>NEN-EN 12918:1999 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en13506:2001en</Waarde>
+		<SIKB0101ID>603</SIKB0101ID>
+		<Omschrijving>NEN-EN 13506:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en13577:2007en</Waarde>
+		<SIKB0101ID>604</SIKB0101ID>
+		<Omschrijving>NEN-EN 13577:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en13946:2003en</Waarde>
+		<SIKB0101ID>607</SIKB0101ID>
+		<Omschrijving>NEN-EN 13946:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14011:2003en</Waarde>
+		<SIKB0101ID>608</SIKB0101ID>
+		<Omschrijving>NEN-EN 14011:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14184:2003en</Waarde>
+		<SIKB0101ID>609</SIKB0101ID>
+		<Omschrijving>NEN-EN 14184:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14207:2003en</Waarde>
+		<SIKB0101ID>610</SIKB0101ID>
+		<Omschrijving>NEN-EN 14207:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14393:2002ontw.en</Waarde>
+		<SIKB0101ID>611</SIKB0101ID>
+		<Omschrijving>NEN-EN 14393:2002 Ontw. en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14407:2004en</Waarde>
+		<SIKB0101ID>612</SIKB0101ID>
+		<Omschrijving>NEN-EN 14407:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14486:2005en</Waarde>
+		<SIKB0101ID>613</SIKB0101ID>
+		<Omschrijving>NEN-EN 14486:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14614:2004en</Waarde>
+		<SIKB0101ID>614</SIKB0101ID>
+		<Omschrijving>NEN-EN 14614:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14757:2005en</Waarde>
+		<SIKB0101ID>623</SIKB0101ID>
+		<Omschrijving>NEN-EN 14757:2005 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14962:2006en</Waarde>
+		<SIKB0101ID>626</SIKB0101ID>
+		<Omschrijving>NEN-EN 14962:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en14996:2006en</Waarde>
+		<SIKB0101ID>627</SIKB0101ID>
+		<Omschrijving>NEN-EN 14996:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en15204:2006en</Waarde>
+		<SIKB0101ID>632</SIKB0101ID>
+		<Omschrijving>NEN-EN 15204:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en15309:2007en</Waarde>
+		<SIKB0101ID>635</SIKB0101ID>
+		<Omschrijving>NEN-EN 15309:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en15460:2007en</Waarde>
+		<SIKB0101ID>637</SIKB0101ID>
+		<Omschrijving>NEN-EN 15460:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en15708:2007ontw.en</Waarde>
+		<SIKB0101ID>638</SIKB0101ID>
+		<Omschrijving>NEN-EN 15708:2007 Ontw. en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en1622:2006en</Waarde>
+		<SIKB0101ID>639</SIKB0101ID>
+		<Omschrijving>NEN-EN 1622:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en1899-1:1998en,nl</Waarde>
+		<SIKB0101ID>640</SIKB0101ID>
+		<Omschrijving>NEN-EN 1899-1:1998 en,nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en1899-2:1998en,nl</Waarde>
+		<SIKB0101ID>641</SIKB0101ID>
+		<Omschrijving>NEN-EN 1899-2:1998 en,nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5110:2001nl</Waarde>
+		<SIKB0101ID>642</SIKB0101ID>
+		<Omschrijving>NEN 5110:2001 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5622:2006nl</Waarde>
+		<SIKB0101ID>643</SIKB0101ID>
+		<Omschrijving>NEN 5622: 2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5623:2002nl</Waarde>
+		<SIKB0101ID>644</SIKB0101ID>
+		<Omschrijving>NEN 5623:2002 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5627:2006nl</Waarde>
+		<SIKB0101ID>645</SIKB0101ID>
+		<Omschrijving>NEN 5627: 2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5694:2007+c1:2011nl</Waarde>
+		<SIKB0101ID>646</SIKB0101ID>
+		<Omschrijving>NEN 5694:2007+C1:2011 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5704:1996nl</Waarde>
+		<SIKB0101ID>647</SIKB0101ID>
+		<Omschrijving>NEN 5704:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5707:2003+c1:2006nl</Waarde>
+		<SIKB0101ID>648</SIKB0101ID>
+		<Omschrijving>NEN 5707:2003+C1:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5719:1999nl</Waarde>
+		<SIKB0101ID>650</SIKB0101ID>
+		<Omschrijving>NEN 5719:1999 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5727:2004</Waarde>
+		<SIKB0101ID>651</SIKB0101ID>
+		<Omschrijving>NEN 5727:2004</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5738:1996nl</Waarde>
+		<SIKB0101ID>655</SIKB0101ID>
+		<Omschrijving>NEN 5738:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5753:2006nl</Waarde>
+		<SIKB0101ID>663</SIKB0101ID>
+		<Omschrijving>NEN 5753:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5763:1991nl</Waarde>
+		<SIKB0101ID>672</SIKB0101ID>
+		<Omschrijving>NEN 5763:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5764:1989nl</Waarde>
+		<SIKB0101ID>673</SIKB0101ID>
+		<Omschrijving>NEN 5764:1989 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5766:2003nl</Waarde>
+		<SIKB0101ID>675</SIKB0101ID>
+		<Omschrijving>NEN 5766:2003 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5771:1999nl</Waarde>
+		<SIKB0101ID>679</SIKB0101ID>
+		<Omschrijving>NEN 5771:1999 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5773:1990nl</Waarde>
+		<SIKB0101ID>680</SIKB0101ID>
+		<Omschrijving>NEN 5773:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5774:1990nl</Waarde>
+		<SIKB0101ID>681</SIKB0101ID>
+		<Omschrijving>NEN 5774:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5777:1994nl</Waarde>
+		<SIKB0101ID>683</SIKB0101ID>
+		<Omschrijving>NEN 5777:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5780:1996nl</Waarde>
+		<SIKB0101ID>685</SIKB0101ID>
+		<Omschrijving>NEN 5780:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5781:1992nl</Waarde>
+		<SIKB0101ID>686</SIKB0101ID>
+		<Omschrijving>NEN 5781:1992 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5782:1991nl</Waarde>
+		<SIKB0101ID>687</SIKB0101ID>
+		<Omschrijving>NEN 5782:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5783:1991nl</Waarde>
+		<SIKB0101ID>688</SIKB0101ID>
+		<Omschrijving>NEN 5783:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5784:1991nl</Waarde>
+		<SIKB0101ID>689</SIKB0101ID>
+		<Omschrijving>NEN 5784:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5785:1991nl</Waarde>
+		<SIKB0101ID>690</SIKB0101ID>
+		<Omschrijving>NEN 5785:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5786:1991nl</Waarde>
+		<SIKB0101ID>691</SIKB0101ID>
+		<Omschrijving>NEN 5786:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5787:1994nl</Waarde>
+		<SIKB0101ID>692</SIKB0101ID>
+		<Omschrijving>NEN 5787:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5788:1994nl</Waarde>
+		<SIKB0101ID>693</SIKB0101ID>
+		<Omschrijving>NEN 5788:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5789:1991nl</Waarde>
+		<SIKB0101ID>694</SIKB0101ID>
+		<Omschrijving>NEN 5789:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5791:1995nl</Waarde>
+		<SIKB0101ID>695</SIKB0101ID>
+		<Omschrijving>NEN 5791:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6261:1990/a1:2002</Waarde>
+		<SIKB0101ID>696</SIKB0101ID>
+		<Omschrijving>NEN 6261:1990/A1:2002</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6263:1989nl</Waarde>
+		<SIKB0101ID>697</SIKB0101ID>
+		<Omschrijving>NEN 6263:1989 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6269:1996nl</Waarde>
+		<SIKB0101ID>699</SIKB0101ID>
+		<Omschrijving>NEN 6269:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6271:1995nl</Waarde>
+		<SIKB0101ID>700</SIKB0101ID>
+		<Omschrijving>NEN 6271:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6274:1995nl</Waarde>
+		<SIKB0101ID>701</SIKB0101ID>
+		<Omschrijving>NEN 6274:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6275:1996nl</Waarde>
+		<SIKB0101ID>702</SIKB0101ID>
+		<Omschrijving>NEN 6275:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6276:1995nl</Waarde>
+		<SIKB0101ID>703</SIKB0101ID>
+		<Omschrijving>NEN 6276:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6401:1991nl</Waarde>
+		<SIKB0101ID>704</SIKB0101ID>
+		<Omschrijving>NEN 6401:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6402:1991nl</Waarde>
+		<SIKB0101ID>705</SIKB0101ID>
+		<Omschrijving>NEN 6402:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6407:1997nl</Waarde>
+		<SIKB0101ID>707</SIKB0101ID>
+		<Omschrijving>NEN 6407:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6411:1981nl</Waarde>
+		<SIKB0101ID>709</SIKB0101ID>
+		<Omschrijving>NEN 6411:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6412:1979nl</Waarde>
+		<SIKB0101ID>710</SIKB0101ID>
+		<Omschrijving>NEN 6412:1979 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6414:2007ontw.nl</Waarde>
+		<SIKB0101ID>711</SIKB0101ID>
+		<Omschrijving>NEN 6414:2007 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6414:1988nl</Waarde>
+		<SIKB0101ID>713</SIKB0101ID>
+		<Omschrijving>NEN 6414:1988 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6420:1986nl</Waarde>
+		<SIKB0101ID>714</SIKB0101ID>
+		<Omschrijving>NEN 6420:1986 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6421:2006nl</Waarde>
+		<SIKB0101ID>715</SIKB0101ID>
+		<Omschrijving>NEN 6421:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6424:1988nl</Waarde>
+		<SIKB0101ID>716</SIKB0101ID>
+		<Omschrijving>NEN 6424:1988 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6437:1982nl</Waarde>
+		<SIKB0101ID>725</SIKB0101ID>
+		<Omschrijving>NEN 6437:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6442:1979nl</Waarde>
+		<SIKB0101ID>726</SIKB0101ID>
+		<Omschrijving>NEN 6442:1979 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6449:1981nl</Waarde>
+		<SIKB0101ID>730</SIKB0101ID>
+		<Omschrijving>NEN 6449:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6460:1981nl</Waarde>
+		<SIKB0101ID>739</SIKB0101ID>
+		<Omschrijving>NEN 6460:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6443:1981nl</Waarde>
+		<SIKB0101ID>740</SIKB0101ID>
+		<Omschrijving>NEN 6443:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6471:1981nl</Waarde>
+		<SIKB0101ID>745</SIKB0101ID>
+		<Omschrijving>NEN 6471:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6472:1983nl</Waarde>
+		<SIKB0101ID>746</SIKB0101ID>
+		<Omschrijving>NEN 6472:1983 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6480:1982nl</Waarde>
+		<SIKB0101ID>748</SIKB0101ID>
+		<Omschrijving>NEN 6480:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6481:1983nl</Waarde>
+		<SIKB0101ID>749</SIKB0101ID>
+		<Omschrijving>NEN 6481:1983 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6484:2006ontw.nl</Waarde>
+		<SIKB0101ID>751</SIKB0101ID>
+		<Omschrijving>NEN 6484:2006 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6484:1982nl</Waarde>
+		<SIKB0101ID>753</SIKB0101ID>
+		<Omschrijving>NEN 6484:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6486:1984nl</Waarde>
+		<SIKB0101ID>754</SIKB0101ID>
+		<Omschrijving>NEN 6486:1984 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6487:1997nl</Waarde>
+		<SIKB0101ID>755</SIKB0101ID>
+		<Omschrijving>NEN 6487:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6490:1982nl</Waarde>
+		<SIKB0101ID>756</SIKB0101ID>
+		<Omschrijving>NEN 6490:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6493:1987nl</Waarde>
+		<SIKB0101ID>757</SIKB0101ID>
+		<Omschrijving>NEN 6493:1987 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6494:1984nl</Waarde>
+		<SIKB0101ID>758</SIKB0101ID>
+		<Omschrijving>NEN 6494:1984 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6495:1984nl</Waarde>
+		<SIKB0101ID>759</SIKB0101ID>
+		<Omschrijving>NEN 6495:1984 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6499:2005nl</Waarde>
+		<SIKB0101ID>760</SIKB0101ID>
+		<Omschrijving>NEN 6499:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6499:2010nl</Waarde>
+		<SIKB0101ID>761</SIKB0101ID>
+		<Omschrijving>NEN 6499:2010 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6504:1980nl</Waarde>
+		<SIKB0101ID>762</SIKB0101ID>
+		<Omschrijving>NEN 6504:1980 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6521:1991nl</Waarde>
+		<SIKB0101ID>764</SIKB0101ID>
+		<Omschrijving>NEN 6521:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6523:1990nl</Waarde>
+		<SIKB0101ID>765</SIKB0101ID>
+		<Omschrijving>NEN 6523:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6524:1984nl</Waarde>
+		<SIKB0101ID>766</SIKB0101ID>
+		<Omschrijving>NEN 6524:1984 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6530:1986nl</Waarde>
+		<SIKB0101ID>769</SIKB0101ID>
+		<Omschrijving>NEN 6530:1986 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6531:1986nl</Waarde>
+		<SIKB0101ID>770</SIKB0101ID>
+		<Omschrijving>NEN 6531:1986 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6535:1986nl</Waarde>
+		<SIKB0101ID>773</SIKB0101ID>
+		<Omschrijving>NEN 6535:1986 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6536:1990nl</Waarde>
+		<SIKB0101ID>774</SIKB0101ID>
+		<Omschrijving>NEN 6536:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6539:1991nl</Waarde>
+		<SIKB0101ID>775</SIKB0101ID>
+		<Omschrijving>NEN 6539:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6542:1996nl</Waarde>
+		<SIKB0101ID>777</SIKB0101ID>
+		<Omschrijving>NEN 6542:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6544:1990nl</Waarde>
+		<SIKB0101ID>778</SIKB0101ID>
+		<Omschrijving>NEN 6544:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6545:1985nl</Waarde>
+		<SIKB0101ID>779</SIKB0101ID>
+		<Omschrijving>NEN 6545:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6547:1986nl</Waarde>
+		<SIKB0101ID>780</SIKB0101ID>
+		<Omschrijving>NEN 6547:1986 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6548:1988nl</Waarde>
+		<SIKB0101ID>781</SIKB0101ID>
+		<Omschrijving>NEN 6548:1988 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6549:1988nl</Waarde>
+		<SIKB0101ID>782</SIKB0101ID>
+		<Omschrijving>NEN 6549:1988 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6552:1981nl</Waarde>
+		<SIKB0101ID>783</SIKB0101ID>
+		<Omschrijving>NEN 6552:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6557:1981nl</Waarde>
+		<SIKB0101ID>784</SIKB0101ID>
+		<Omschrijving>NEN 6557:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6563:1982nl</Waarde>
+		<SIKB0101ID>785</SIKB0101ID>
+		<Omschrijving>NEN 6563:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6567:1985nl</Waarde>
+		<SIKB0101ID>786</SIKB0101ID>
+		<Omschrijving>NEN 6567:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6572:1982nl</Waarde>
+		<SIKB0101ID>789</SIKB0101ID>
+		<Omschrijving>NEN 6572:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6573:1987nl</Waarde>
+		<SIKB0101ID>790</SIKB0101ID>
+		<Omschrijving>NEN 6573:1987 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6576:1985nl</Waarde>
+		<SIKB0101ID>791</SIKB0101ID>
+		<Omschrijving>NEN 6576:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6577:1985nl</Waarde>
+		<SIKB0101ID>792</SIKB0101ID>
+		<Omschrijving>NEN 6577:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6578:1985nl</Waarde>
+		<SIKB0101ID>793</SIKB0101ID>
+		<Omschrijving>NEN 6578:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6579:1985nl</Waarde>
+		<SIKB0101ID>794</SIKB0101ID>
+		<Omschrijving>NEN 6579:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6580:1985nl</Waarde>
+		<SIKB0101ID>795</SIKB0101ID>
+		<Omschrijving>NEN 6580:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6581:1985nl</Waarde>
+		<SIKB0101ID>796</SIKB0101ID>
+		<Omschrijving>NEN 6581:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6582:1985nl</Waarde>
+		<SIKB0101ID>797</SIKB0101ID>
+		<Omschrijving>NEN 6582:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6587:1990nl</Waarde>
+		<SIKB0101ID>798</SIKB0101ID>
+		<Omschrijving>NEN 6587:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6589:2005nl</Waarde>
+		<SIKB0101ID>799</SIKB0101ID>
+		<Omschrijving>NEN 6589:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6591:1990nl</Waarde>
+		<SIKB0101ID>800</SIKB0101ID>
+		<Omschrijving>NEN 6591:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6594:1993nl</Waarde>
+		<SIKB0101ID>801</SIKB0101ID>
+		<Omschrijving>NEN 6594:1993 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6606:2007ontw.nl</Waarde>
+		<SIKB0101ID>803</SIKB0101ID>
+		<Omschrijving>NEN 6606:2007 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6606:2009nl</Waarde>
+		<SIKB0101ID>804</SIKB0101ID>
+		<Omschrijving>NEN 6606:2009 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6606:1992nl</Waarde>
+		<SIKB0101ID>805</SIKB0101ID>
+		<Omschrijving>NEN 6606:1992 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6619:1992nl</Waarde>
+		<SIKB0101ID>807</SIKB0101ID>
+		<Omschrijving>NEN 6619:1992 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6634:1991nl</Waarde>
+		<SIKB0101ID>814</SIKB0101ID>
+		<Omschrijving>NEN 6634:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6643:2003nl</Waarde>
+		<SIKB0101ID>816</SIKB0101ID>
+		<Omschrijving>NEN 6643:2003 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6645:2005nl</Waarde>
+		<SIKB0101ID>818</SIKB0101ID>
+		<Omschrijving>NEN 6645:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6652:1992nl</Waarde>
+		<SIKB0101ID>821</SIKB0101ID>
+		<Omschrijving>NEN 6652:1992 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6653:1992nl</Waarde>
+		<SIKB0101ID>822</SIKB0101ID>
+		<Omschrijving>NEN 6653:1992 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6654:2005nl</Waarde>
+		<SIKB0101ID>823</SIKB0101ID>
+		<Omschrijving>NEN 6654:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6655:1992ontw.nl</Waarde>
+		<SIKB0101ID>824</SIKB0101ID>
+		<Omschrijving>NEN 6655:1992 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6662:1985nl</Waarde>
+		<SIKB0101ID>826</SIKB0101ID>
+		<Omschrijving>NEN 6662:1985 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6669:1981nl</Waarde>
+		<SIKB0101ID>828</SIKB0101ID>
+		<Omschrijving>NEN 6669:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6676:1994nl</Waarde>
+		<SIKB0101ID>834</SIKB0101ID>
+		<Omschrijving>NEN 6676:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6950:2005nl</Waarde>
+		<SIKB0101ID>843</SIKB0101ID>
+		<Omschrijving>NEN 6950:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6953:2005nl</Waarde>
+		<SIKB0101ID>844</SIKB0101ID>
+		<Omschrijving>NEN 6953:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6961:2005nl</Waarde>
+		<SIKB0101ID>845</SIKB0101ID>
+		<Omschrijving>NEN 6961:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6963:2005nl</Waarde>
+		<SIKB0101ID>846</SIKB0101ID>
+		<Omschrijving>NEN 6963:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6964:2005+c1:2006nl</Waarde>
+		<SIKB0101ID>847</SIKB0101ID>
+		<Omschrijving>NEN 6964:2005+C1:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6964:2005nl</Waarde>
+		<SIKB0101ID>848</SIKB0101ID>
+		<Omschrijving>NEN 6964:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6965:2005+c1:2006nl</Waarde>
+		<SIKB0101ID>849</SIKB0101ID>
+		<Omschrijving>NEN 6965:2005+C1:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6965:2005nl</Waarde>
+		<SIKB0101ID>850</SIKB0101ID>
+		<Omschrijving>NEN 6965:2005 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6966:2005+c1:2006nl</Waarde>
+		<SIKB0101ID>851</SIKB0101ID>
+		<Omschrijving>NEN 6966:2005+C1:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6970:2008nl</Waarde>
+		<SIKB0101ID>853</SIKB0101ID>
+		<Omschrijving>NEN 6970:2008 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6971:2008+c1:2010nl</Waarde>
+		<SIKB0101ID>854</SIKB0101ID>
+		<Omschrijving>NEN 6971:2008+C1:2010 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6972:2008nl</Waarde>
+		<SIKB0101ID>855</SIKB0101ID>
+		<Omschrijving>NEN 6972:2008 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6973:2008nl</Waarde>
+		<SIKB0101ID>856</SIKB0101ID>
+		<Omschrijving>NEN 6973:2008 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6974:2008+c1:2010nl</Waarde>
+		<SIKB0101ID>857</SIKB0101ID>
+		<Omschrijving>NEN 6974:2008+C1:2010 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6975:2008nl</Waarde>
+		<SIKB0101ID>858</SIKB0101ID>
+		<Omschrijving>NEN 6975:2008 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6976:2008nl</Waarde>
+		<SIKB0101ID>859</SIKB0101ID>
+		<Omschrijving>NEN 6976:2008 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6978:2008nl</Waarde>
+		<SIKB0101ID>861</SIKB0101ID>
+		<Omschrijving>NEN 6978:2008 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6980:2008+c1:2010nl</Waarde>
+		<SIKB0101ID>862</SIKB0101ID>
+		<Omschrijving>NEN 6980:2008+C1:2010 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6981:2008</Waarde>
+		<SIKB0101ID>863</SIKB0101ID>
+		<Omschrijving>NEN 6981:2008</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>bepalingtoetsoordeel(+of-)met/volgensnotove-methodiek</Waarde>
+		<SIKB0101ID>866</SIKB0101ID>
+		<Omschrijving>Bepaling toetsoordeel (+ of -) met/volgens Notove-methodiek</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-1,25-6-2008(drogestof)</Waarde>
+		<SIKB0101ID>867</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-1, 25-6-2008 (droge stof)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-1,10-2-2011(drogestof)</Waarde>
+		<SIKB0101ID>868</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-1, 10-2-2011 (droge stof)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-2a,25-6-2008(organischestof)</Waarde>
+		<SIKB0101ID>869</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-2a, 25-6-2008 (organische stof)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-2a,10-2-2011(organischestof)</Waarde>
+		<SIKB0101ID>870</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-2a, 10-2-2011 (organische stof)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-2b,25-6-2008(gloeirest)</Waarde>
+		<SIKB0101ID>871</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-2b, 25-6-2008 (gloeirest)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-2b,10-2-2011(gloeirest)</Waarde>
+		<SIKB0101ID>872</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-2b, 10-2-2011 (gloeirest)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-3,25-6-2008(korrelgroottefractie)</Waarde>
+		<SIKB0101ID>873</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-3, 25-6-2008 (korrelgroottefractie)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-3,10-2-2011(korrelgroottefracti</Waarde>
+		<SIKB0101ID>874</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-3, 10-2-2011 (korrelgroottefracti</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-4,25-6-2008(metalen)</Waarde>
+		<SIKB0101ID>875</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-4, 25-6-2008 (metalen)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-4,10-2-2011(metalen)</Waarde>
+		<SIKB0101ID>876</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-4, 10-2-2011 (metalen)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-5,25-6-2008(pak)</Waarde>
+		<SIKB0101ID>877</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-5, 25-6-2008 (PAK)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-5,10-2-2011(pak)</Waarde>
+		<SIKB0101ID>878</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-5, 10-2-2011 (PAK)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-6,25-6-2008(mineraleolie)</Waarde>
+		<SIKB0101ID>879</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-6, 25-6-2008 (minerale olie)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-6,10-2-2011(mineraleolie)</Waarde>
+		<SIKB0101ID>880</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-6, 10-2-2011 (minerale olie)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-7,25-6-2008(pcb)</Waarde>
+		<SIKB0101ID>881</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-7, 25-6-2008 (PCB)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-7,10-2-2011(pcb)</Waarde>
+		<SIKB0101ID>882</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-7, 10-2-2011 (PCB)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3220-1,25-6-2008(ocb)</Waarde>
+		<SIKB0101ID>883</SIKB0101ID>
+		<Omschrijving>prestatieblad 3220-1, 25-6-2008 (OCB)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3220-1,10-2-2011(ocb)</Waarde>
+		<SIKB0101ID>884</SIKB0101ID>
+		<Omschrijving>prestatieblad 3220-1, 10-2-2011 (OCB)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3250-1,10-2-2011(elementen)</Waarde>
+		<SIKB0101ID>885</SIKB0101ID>
+		<Omschrijving>prestatieblad 3250-1, 10-2-2011 (elementen)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr5637:2006nl</Waarde>
+		<SIKB0101ID>886</SIKB0101ID>
+		<Omschrijving>NPR 5637:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr5638:2006nl</Waarde>
+		<SIKB0101ID>887</SIKB0101ID>
+		<Omschrijving>NPR 5638:2006 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr5792:1997nl</Waarde>
+		<SIKB0101ID>888</SIKB0101ID>
+		<Omschrijving>NPR 5792:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6264:1989nl</Waarde>
+		<SIKB0101ID>889</SIKB0101ID>
+		<Omschrijving>NPR 6264:1989 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6266:1991nl</Waarde>
+		<SIKB0101ID>890</SIKB0101ID>
+		<Omschrijving>NPR 6266:1991 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6267:2002nl</Waarde>
+		<SIKB0101ID>891</SIKB0101ID>
+		<Omschrijving>NPR 6267:2002 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6268:1995nl</Waarde>
+		<SIKB0101ID>892</SIKB0101ID>
+		<Omschrijving>NPR 6268:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6270:1996nl</Waarde>
+		<SIKB0101ID>893</SIKB0101ID>
+		<Omschrijving>NPR 6270:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6272:1995nl</Waarde>
+		<SIKB0101ID>894</SIKB0101ID>
+		<Omschrijving>NPR 6272:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6277:2002nl</Waarde>
+		<SIKB0101ID>895</SIKB0101ID>
+		<Omschrijving>NPR 6277:2002 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6400:1988nl</Waarde>
+		<SIKB0101ID>896</SIKB0101ID>
+		<Omschrijving>NPR 6400:1988 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6416:1995nl</Waarde>
+		<SIKB0101ID>897</SIKB0101ID>
+		<Omschrijving>NPR 6416:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6417:1997nl</Waarde>
+		<SIKB0101ID>898</SIKB0101ID>
+		<Omschrijving>NPR 6417:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6425:1995nl</Waarde>
+		<SIKB0101ID>899</SIKB0101ID>
+		<Omschrijving>NPR 6425:1995 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6505:1994nl</Waarde>
+		<SIKB0101ID>900</SIKB0101ID>
+		<Omschrijving>NPR 6505:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6537:1988nl</Waarde>
+		<SIKB0101ID>901</SIKB0101ID>
+		<Omschrijving>NPR 6537:1988 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6538:1990nl</Waarde>
+		<SIKB0101ID>902</SIKB0101ID>
+		<Omschrijving>NPR 6538:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6554:1981nl</Waarde>
+		<SIKB0101ID>904</SIKB0101ID>
+		<Omschrijving>NPR 6554:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6558:1981nl</Waarde>
+		<SIKB0101ID>905</SIKB0101ID>
+		<Omschrijving>NPR 6558:1981 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6574:1987nl</Waarde>
+		<SIKB0101ID>906</SIKB0101ID>
+		<Omschrijving>NPR 6574:1987 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6616:1982nl</Waarde>
+		<SIKB0101ID>907</SIKB0101ID>
+		<Omschrijving>NPR 6616:1982 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>rwsStandaardVoorInwinningHydrol.enmeteo.gegevens2010</Waarde>
+		<SIKB0101ID>908</SIKB0101ID>
+		<Omschrijving>RWS Standaard voor inwinning hydrol. en meteo. gegevens 2010</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>rwsv913.00.w006</Waarde>
+		<SIKB0101ID>909</SIKB0101ID>
+		<Omschrijving>RWSV 913.00.W006</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>rwsv913.00.w007</Waarde>
+		<SIKB0101ID>910</SIKB0101ID>
+		<Omschrijving>RWSV 913.00.W007</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>rwsv 913.00.w008</Waarde>
+		<SIKB0101ID>911</SIKB0101ID>
+		<Omschrijving>RWSV 913.00.W008</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>rwsv913.00.w009</Waarde>
+		<SIKB0101ID>912</SIKB0101ID>
+		<Omschrijving>RWSV 913.00.W009</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>rwsv913.00.w012</Waarde>
+		<SIKB0101ID>913</SIKB0101ID>
+		<Omschrijving>RWSV 913.00.W012</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso/ts11370:2000en</Waarde>
+		<SIKB0101ID>914</SIKB0101ID>
+		<Omschrijving>ISO/TS 11370:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso/tr11905-2:1997en</Waarde>
+		<SIKB0101ID>915</SIKB0101ID>
+		<Omschrijving>ISO/TR 11905-2:1997 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso/ts14256-1:2003en</Waarde>
+		<SIKB0101ID>916</SIKB0101ID>
+		<Omschrijving>ISO/TS 14256-1:2003 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-iso/tr15462:2006en</Waarde>
+		<SIKB0101ID>921</SIKB0101ID>
+		<Omschrijving>NPR-ISO/TR 15462:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso/ts17892-1:2004en</Waarde>
+		<SIKB0101ID>922</SIKB0101ID>
+		<Omschrijving>ISO/TS 17892-1:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-1:2006en</Waarde>
+		<SIKB0101ID>923</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-1:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-10:2004en</Waarde>
+		<SIKB0101ID>924</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-10:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-11:2004en</Waarde>
+		<SIKB0101ID>925</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-11:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-12:2004en</Waarde>
+		<SIKB0101ID>926</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-12:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-2:2004en</Waarde>
+		<SIKB0101ID>927</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-2:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-3:2004en</Waarde>
+		<SIKB0101ID>928</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-3:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-4:2004en</Waarde>
+		<SIKB0101ID>929</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-4:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-5:2004en</Waarde>
+		<SIKB0101ID>930</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-5:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-7:2004en</Waarde>
+		<SIKB0101ID>931</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-7:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-8:2004en</Waarde>
+		<SIKB0101ID>932</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-8:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr-cen-iso/ts17892-9:2004en</Waarde>
+		<SIKB0101ID>933</SIKB0101ID>
+		<Omschrijving>NPR-CEN-ISO/TS 17892-9:2004 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso/ts20281:2006en</Waarde>
+		<SIKB0101ID>934</SIKB0101ID>
+		<Omschrijving>ISO/TS 20281:2006 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso/ts23893-2:2007en</Waarde>
+		<SIKB0101ID>935</SIKB0101ID>
+		<Omschrijving>ISO/TS 23893-2:2007 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>bepalingwaterbodemklassevolgenstowabo-methodiek</Waarde>
+		<SIKB0101ID>936</SIKB0101ID>
+		<Omschrijving>Bepaling waterbodemklasse volgens Towabo-methodiek</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn-env-iso13843:2001en</Waarde>
+		<SIKB0101ID>937</SIKB0101ID>
+		<Omschrijving>NVN-ENV-ISO 13843:2001 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn5694:1996nl (vervallen)</Waarde>
+		<SIKB0101ID>938</SIKB0101ID>
+		<Omschrijving>NVN 5694:1996 nl (vervallen)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn5710:2003ontw.nl</Waarde>
+		<SIKB0101ID>939</SIKB0101ID>
+		<Omschrijving>NVN 5710:2003 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn5718:1994nl</Waarde>
+		<SIKB0101ID>940</SIKB0101ID>
+		<Omschrijving>NVN 5718:1994 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn5790:1996nl</Waarde>
+		<SIKB0101ID>944</SIKB0101ID>
+		<Omschrijving>NVN 5790:1996 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6404:2000nl</Waarde>
+		<SIKB0101ID>945</SIKB0101ID>
+		<Omschrijving>NVN 6404:2000 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6419:2006ontw.nl</Waarde>
+		<SIKB0101ID>946</SIKB0101ID>
+		<Omschrijving>NVN 6419:2006 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6517:2000nl</Waarde>
+		<SIKB0101ID>947</SIKB0101ID>
+		<Omschrijving>NVN 6517:2000 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6590:1990nl</Waarde>
+		<SIKB0101ID>948</SIKB0101ID>
+		<Omschrijving>NVN 6590:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6592:1990nl</Waarde>
+		<SIKB0101ID>949</SIKB0101ID>
+		<Omschrijving>NVN 6592:1990 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6982:2006ontw.nl</Waarde>
+		<SIKB0101ID>950</SIKB0101ID>
+		<Omschrijving>NVN 6982:2006 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6983:2006ontw.nl</Waarde>
+		<SIKB0101ID>951</SIKB0101ID>
+		<Omschrijving>NVN 6983:2006 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn6984:2006ontw.nl</Waarde>
+		<SIKB0101ID>952</SIKB0101ID>
+		<Omschrijving>NVN 6984:2006 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn7392:2005ontw.nl</Waarde>
+		<SIKB0101ID>954</SIKB0101ID>
+		<Omschrijving>NVN 7392:2005 Ontw. nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>voorlopigebepalingklassedoordeskundige</Waarde>
+		<SIKB0101ID>955</SIKB0101ID>
+		<Omschrijving>Voorlopige bepaling klasse door deskundige</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nietgenormaliseerdezintuiglijkewaardebepaling</Waarde>
+		<SIKB0101ID>956</SIKB0101ID>
+		<Omschrijving>Niet genormaliseerde zintuiglijke waardebepaling</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>bepalingwaarde/waterindex(0-100)volgensiwsr-methodiek</Waarde>
+		<SIKB0101ID>957</SIKB0101ID>
+		<Omschrijving>Bepaling waarde / waterindex (0-100) volgens iWSR-methodiek</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocolZwemmersjeuk2011-AdiagnoseAandoening</Waarde>
+		<SIKB0101ID>958</SIKB0101ID>
+		<Omschrijving>Protocol Zwemmersjeuk 2011 - A diagnose aandoening</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocolZwemmersjeuk2011-CslakkenmetTrichobilharzia</Waarde>
+		<SIKB0101ID>959</SIKB0101ID>
+		<Omschrijving>Protocol Zwemmersjeuk 2011 - C slakken met Trichobilharzia</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocolZwemmersjeuk2011-D-DNAtrichobilharziaInWater</Waarde>
+		<SIKB0101ID>960</SIKB0101ID>
+		<Omschrijving>Protocol Zwemmersjeuk 2011 - D DNA Trichobilharzia in water</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>leidraadvoorpassivesampling2012</Waarde>
+		<SIKB0101ID>962</SIKB0101ID>
+		<Omschrijving>Leidraad voor passive sampling 2012</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso13320:2009-12en</Waarde>
+		<SIKB0101ID>963</SIKB0101ID>
+		<Omschrijving>NEN-ISO 13320:2009-12 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso17380:2013</Waarde>
+		<SIKB0101ID>964</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 17380:2013</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3260-1,10-2-2011(pentachloorfenol)</Waarde>
+		<SIKB0101ID>965</SIKB0101ID>
+		<Omschrijving>prestatieblad 3260-1, 10-2-2011 (pentachloorfenol)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-1,03-10-2013(drogestof)</Waarde>
+		<SIKB0101ID>966</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-1, 03-10-2013 (droge stof)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-2,03-10-2013(organischestof)</Waarde>
+		<SIKB0101ID>967</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-2, 03-10-2013 (organische stof)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-3,03-10-2013(korrelgroottefractie)</Waarde>
+		<SIKB0101ID>968</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-3, 03-10-2013 (korrelgroottefractie)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-4,03-10-2013(metalen)</Waarde>
+		<SIKB0101ID>969</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-4, 03-10-2013 (metalen)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-5,03-10-2013(pak)</Waarde>
+		<SIKB0101ID>970</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-5, 03-10-2013 (PAK)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-6,03-10-2013(mineraleolie)</Waarde>
+		<SIKB0101ID>971</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-6, 03-10-2013 (minerale olie)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-7,03-10-2013(pcb)</Waarde>
+		<SIKB0101ID>972</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-7, 03-10-2013 (PCB)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3220-1,03-10-2013(ocb)</Waarde>
+		<SIKB0101ID>973</SIKB0101ID>
+		<Omschrijving>prestatieblad 3220-1, 03-10-2013 (OCB)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3220-2,03-10-2013(ocboverig)</Waarde>
+		<SIKB0101ID>974</SIKB0101ID>
+		<Omschrijving>prestatieblad 3220-2, 03-10-2013 (OCB overig)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3250-1,03-10-2013(metalen)</Waarde>
+		<SIKB0101ID>975</SIKB0101ID>
+		<Omschrijving>prestatieblad 3250-1, 03-10-2013 (metalen)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso5667-11:2009en</Waarde>
+		<SIKB0101ID>977</SIKB0101ID>
+		<Omschrijving>ISO 5667-11:2009 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>knmihandboekwaarnemingen,hoofdstuk5.wind,maart2001</Waarde>
+		<SIKB0101ID>976</SIKB0101ID>
+		<Omschrijving>KNMI Handboek Waarnemingen, Hoofdstuk 5. Wind, maart 2001</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5742:2001nl</Waarde>
+		<SIKB0101ID>978</SIKB0101ID>
+		<Omschrijving>NEN 5742:2001 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6961:2014nl</Waarde>
+		<SIKB0101ID>979</SIKB0101ID>
+		<Omschrijving>NEN 6961:2014 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nvn7350:1997nl</Waarde>
+		<SIKB0101ID>980</SIKB0101ID>
+		<Omschrijving>NVN 7350:1997 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5754:2014nl</Waarde>
+		<SIKB0101ID>996</SIKB0101ID>
+		<Omschrijving>NEN 5754:2014 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6499:2014nl</Waarde>
+		<SIKB0101ID>995</SIKB0101ID>
+		<Omschrijving>NEN 6499:2014 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6970:2016nl</Waarde>
+		<SIKB0101ID>992</SIKB0101ID>
+		<Omschrijving>NEN 6970:2016 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6975:2016nl</Waarde>
+		<SIKB0101ID>993</SIKB0101ID>
+		<Omschrijving>NEN 6975:2016 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6978:2016nl</Waarde>
+		<SIKB0101ID>994</SIKB0101ID>
+		<Omschrijving>NEN 6978:2016 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-1,23-06-2016(drogestof)</Waarde>
+		<SIKB0101ID>982</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-1, 23-06-2016 (droge stof)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-2,23-06-2016(organischestof)</Waarde>
+		<SIKB0101ID>983</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-2, 23-06-2016 (organische stof)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-3,23-06-2016(korrelgroottefractie)</Waarde>
+		<SIKB0101ID>984</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-3, 23-06-2016 (korrelgroottefractie)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-4,23-06-2016(metalen)</Waarde>
+		<SIKB0101ID>985</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-4, 23-06-2016 (metalen)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-5,23-06-2016(pak)</Waarde>
+		<SIKB0101ID>986</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-5, 23-06-2016 (PAK)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-6,23-06-2016(mineraleolie)</Waarde>
+		<SIKB0101ID>987</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-6, 23-06-2016 (minerale olie)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3210-7,23-06-2016(pcb)</Waarde>
+		<SIKB0101ID>988</SIKB0101ID>
+		<Omschrijving>prestatieblad 3210-7, 23-06-2016 (PCB)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3220-1,23-06-2016(ocb)</Waarde>
+		<SIKB0101ID>989</SIKB0101ID>
+		<Omschrijving>prestatieblad 3220-1, 23-06-2016 (OCB)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3220-2,23-06-2016(ocboverig)</Waarde>
+		<SIKB0101ID>990</SIKB0101ID>
+		<Omschrijving>prestatieblad 3220-2, 23-06-2016 (OCB overig)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>prestatieblad3250-1,23-06-2016(metalen)</Waarde>
+		<SIKB0101ID>991</SIKB0101ID>
+		<Omschrijving>prestatieblad 3250-1, 23-06-2016 (metalen)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso17294-2:2016en</Waarde>
+		<SIKB0101ID>1000</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 17294-2:2016 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7899-1:1998/c1:2000en</Waarde>
+		<SIKB0101ID>1003</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7899-1:1998/C1:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso9308-3:1999/c1:2000en</Waarde>
+		<SIKB0101ID>1004</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 9308-3:1999/C1:2000 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen5898+c1:2016nl</Waarde>
+		<SIKB0101ID>1006</SIKB0101ID>
+		<Omschrijving>NEN 5898+C1:2016 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6520:2006+c1:2011nl</Waarde>
+		<SIKB0101ID>999</SIKB0101ID>
+		<Omschrijving>NEN 6520:2006+C1:2011 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6646+c1:2015nl</Waarde>
+		<SIKB0101ID>1001</SIKB0101ID>
+		<Omschrijving>NEN 6646+C1:2015 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6646:2015nl</Waarde>
+		<SIKB0101ID>1005</SIKB0101ID>
+		<Omschrijving>NEN 6646:2015 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6671:2013nl</Waarde>
+		<SIKB0101ID>1002</SIKB0101ID>
+		<Omschrijving>NEN 6671:2013 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6953:2017nl</Waarde>
+		<SIKB0101ID>1007</SIKB0101ID>
+		<Omschrijving>NEN 6953:2017 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6972:2008/a1:2012nl</Waarde>
+		<SIKB0101ID>998</SIKB0101ID>
+		<Omschrijving>NEN 6972:2008/A1:2012 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6980:2008+c1:2010+c2:2011nl</Waarde>
+		<SIKB0101ID>997</SIKB0101ID>
+		<Omschrijving>NEN 6980:2008+C1:2010+C2:2011 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cwea/s-iii-2.1v2:2014</Waarde>
+		<SIKB0101ID>1008</SIKB0101ID>
+		<Omschrijving>CWEA/S-III-2.1V2:2014</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>din38407-42:2011-03</Waarde>
+		<SIKB0101ID>1011</SIKB0101ID>
+		<Omschrijving>DIN 38407-42:2011-03</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso12010:2014en</Waarde>
+		<SIKB0101ID>1010</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 12010:2014 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso12846:2012en</Waarde>
+		<SIKB0101ID>1013</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 12846:2012 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso25101:2009en</Waarde>
+		<SIKB0101ID>1012</SIKB0101ID>
+		<Omschrijving>ISO 25101:2009 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7027-1:2016en</Waarde>
+		<SIKB0101ID>1009</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7027-1:2016 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso14403-2:2009ontw.en</Waarde>
+		<SIKB0101ID>1015</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 14403-2:2009 Ontw. en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso14403-2:2012en</Waarde>
+		<SIKB0101ID>1014</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 14403-2:2012 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11731-2:2008en</Waarde>
+		<SIKB0101ID>1033</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11731-2:2008 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso11731:2017en</Waarde>
+		<SIKB0101ID>1032</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 11731:2017 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr6266:2014nl</Waarde>
+		<SIKB0101ID>1034</SIKB0101ID>
+		<Omschrijving>NPR 6266:2014 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso20236:2018en</Waarde>
+		<SIKB0101ID>1036</SIKB0101ID>
+		<Omschrijving>NEN-ISO 20236:2018 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>npr9060:2016nl</Waarde>
+		<SIKB0101ID>1035</SIKB0101ID>
+		<Omschrijving>NPR 9060:2016 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>accreditatieprogramma04-sg.viii_v12_20160623</Waarde>
+		<SIKB0101ID>1049</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma04-SG.VIII_v12_20160623</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>accreditatieprogramma04-sb.ii_v9_20160623</Waarde>
+		<SIKB0101ID>1050</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma04-SB.II_v9_20160623</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>accreditatieprogramma04-sb.iv_v9_20160623</Waarde>
+		<SIKB0101ID>1048</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma04-SB.IV_v9_20160623</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>accreditatieprogramma04-sb.v_v9_20160623</Waarde>
+		<SIKB0101ID>1052</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma04-SB.V_v9_20160623</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>accreditatieprogramma04-sb.xi_v9_20160623</Waarde>
+		<SIKB0101ID>1046</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma04-SB.XI_v9_20160623</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>accreditatieprogramma04-sg.i_v12_20160623</Waarde>
+		<SIKB0101ID>1045</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma04-SG.I_v12_20160623</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>accreditatieprogramma04-sg.x_v12_20160623</Waarde>
+		<SIKB0101ID>1047</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma04-SG.X_v12_20160623</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>accreditatieprogramma04-sg.xi_v12_20160623</Waarde>
+		<SIKB0101ID>1051</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma04-SG.XI_v12_20160623</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso10693:2014en</Waarde>
+		<SIKB0101ID>1044</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 10693:2014 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso28540:2011en</Waarde>
+		<SIKB0101ID>1043</SIKB0101ID>
+		<Omschrijving>ISO 28540:2011 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en16695:2015en</Waarde>
+		<SIKB0101ID>1055</SIKB0101ID>
+		<Omschrijving>NEN-EN 16695:2015 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocol3020-1/2/3,23-06-2016</Waarde>
+		<SIKB0101ID>1037</SIKB0101ID>
+		<Omschrijving>Protocol 3020-1/2/3, 23-06-2016</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocol3030-2,23-06-2016</Waarde>
+		<SIKB0101ID>1038</SIKB0101ID>
+		<Omschrijving>Protocol 3030-2, 23-06-2016</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocol3110-4,23-06-2016</Waarde>
+		<SIKB0101ID>1039</SIKB0101ID>
+		<Omschrijving>Protocol 3110-4, 23-06-2016</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocol3110-5,23-06-2016</Waarde>
+		<SIKB0101ID>1040</SIKB0101ID>
+		<Omschrijving>Protocol 3110-5, 23-06-2016</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocol3130-1,23-06-2016</Waarde>
+		<SIKB0101ID>1041</SIKB0101ID>
+		<Omschrijving>Protocol 3130-1, 23-06-2016</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocol3130-2,23-06-2016</Waarde>
+		<SIKB0101ID>1042</SIKB0101ID>
+		<Omschrijving>Protocol 3130-2, 23-06-2016</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocol3230-1,23-06-2016</Waarde>
+		<SIKB0101ID>1053</SIKB0101ID>
+		<Omschrijving>Protocol 3230-1, 23-06-2016</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>protocol3240-1,23-06-2016</Waarde>
+		<SIKB0101ID>1054</SIKB0101ID>
+		<Omschrijving>Protocol 3240-1, 23-06-2016</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso5815-1:2019en</Waarde>
+		<SIKB0101ID>1056</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 5815-1:2019 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>blauwalgenprotocol2020</Waarde>
+		<SIKB0101ID>1058</SIKB0101ID>
+		<Omschrijving>Blauwalgenprotocol 2020</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen14966:2019en</Waarde>
+		<SIKB0101ID>1059</SIKB0101ID>
+		<Omschrijving>NEN 14966:2019 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6950:2020nl</Waarde>
+		<SIKB0101ID>1057</SIKB0101ID>
+		<Omschrijving>NEN 6950:2020 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/2/iv/19september2001</Waarde>
+		<SIKB0101ID>1061</SIKB0101ID>
+		<Omschrijving>CMA/2/IV/19 september 2001</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/2/iv/c.13januari2005</Waarde>
+		<SIKB0101ID>1067</SIKB0101ID>
+		<Omschrijving>CMA/2/IV/C.13 januari 2005</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/3/woktober2020</Waarde>
+		<SIKB0101ID>1062</SIKB0101ID>
+		<Omschrijving>CMA/3/W oktober 2020</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/3/r.5september2015</Waarde>
+		<SIKB0101ID>1060</SIKB0101ID>
+		<Omschrijving>CMA/3/R.5 september 2015</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/3/eseptember2019</Waarde>
+		<SIKB0101ID>1063</SIKB0101ID>
+		<Omschrijving>CMA/3/E september 2019</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/3/xoktober2019</Waarde>
+		<SIKB0101ID>1064</SIKB0101ID>
+		<Omschrijving>CMA/3/X oktober 2019</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen7375:2004nl</Waarde>
+		<SIKB0101ID>1066</SIKB0101ID>
+		<Omschrijving>NEN 7375:2004 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>wac/iii/d/003januari2013</Waarde>
+		<SIKB0101ID>1065</SIKB0101ID>
+		<Omschrijving>WAC/III/D/003 januari 2013</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>accreditatieprogramma04-sg.xv_v13_20200423</Waarde>
+		<SIKB0101ID>1068</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma04-SG.XV_v13_20200423</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/2/ii/a.23december2013</Waarde>
+		<SIKB0101ID>1069</SIKB0101ID>
+		<Omschrijving>CMA/2/II/A.23 december 2013</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/3/caugustus2001</Waarde>
+		<SIKB0101ID>1070</SIKB0101ID>
+		<Omschrijving>CMA/3/C augustus 2001</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/3/dnovember2021</Waarde>
+		<SIKB0101ID>1071</SIKB0101ID>
+		<Omschrijving>CMA/3/D november 2021</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en16087-1:2020en</Waarde>
+		<SIKB0101ID>1073</SIKB0101ID>
+		<Omschrijving>NEN-EN 16087-1:2020 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen1056vi3:1966en</Waarde>
+		<SIKB0101ID>1072</SIKB0101ID>
+		<Omschrijving>NEN 1056VI3:1966 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>formulevanhazen</Waarde>
+		<SIKB0101ID>1074</SIKB0101ID>
+		<Omschrijving>formule van Hazen</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>formulevanseelheim</Waarde>
+		<SIKB0101ID>1075</SIKB0101ID>
+		<Omschrijving>formule van Seelheim</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>iso19040-3:2018en</Waarde>
+		<SIKB0101ID>1076</SIKB0101ID>
+		<Omschrijving>ISO 19040-3:2018 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso7027-2:2019en</Waarde>
+		<SIKB0101ID>1077</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 7027-2:2019 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>cma/7/a.4december2006</Waarde>
+		<SIKB0101ID>1078</SIKB0101ID>
+		<Omschrijving>CMA/7/A.4 december 2006</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen6961:2023nl</Waarde>
+		<SIKB0101ID>1079</SIKB0101ID>
+		<Omschrijving>NEN 6961:2023 nl</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>wac/iv/a/025januari2011</Waarde>
+		<SIKB0101ID>1080</SIKB0101ID>
+		<Omschrijving>WAC/IV/A/025 januari 2011</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso14189:2016en</Waarde>
+		<SIKB0101ID>1084</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 14189:2016 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-en-iso6888-1:2021en</Waarde>
+		<SIKB0101ID>1083</SIKB0101ID>
+		<Omschrijving>NEN-EN-ISO 6888-1:2021 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso18593:2018en</Waarde>
+		<SIKB0101ID>1085</SIKB0101ID>
+		<Omschrijving>NEN-ISO 18593:2018 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nen-iso21527-1:2008en</Waarde>
+		<SIKB0101ID>1082</SIKB0101ID>
+		<Omschrijving>NEN-ISO 21527-1:2008 en</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode>
+		<Waarde>nfnRichtlijnWaterbehandeling2020</Waarde>
+		<SIKB0101ID>1081</SIKB0101ID>
+		<Omschrijving>NFN richtlijn waterbehandeling 2020</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</WaardebepalingsMethode>
+	<WaardebepalingsMethode/>
+</domeintabel>

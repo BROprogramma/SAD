@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Kleursterkte>
+		<Waarde>zeerLicht</Waarde>
+		<SIKB0101ID>1</SIKB0101ID>
+		<Omschrijving>zeer licht</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Kleursterkte>
+	<Kleursterkte>
+		<Waarde>licht</Waarde>
+		<SIKB0101ID>2</SIKB0101ID>
+		<Omschrijving>licht</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Kleursterkte>
+	<Kleursterkte>
+		<Waarde>neutraal</Waarde>
+		<SIKB0101ID>3</SIKB0101ID>
+		<Omschrijving>neutraal</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Kleursterkte>
+	<Kleursterkte>
+		<Waarde>donker</Waarde>
+		<SIKB0101ID>4</SIKB0101ID>
+		<Omschrijving>donker</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Kleursterkte>
+	<Kleursterkte>
+		<Waarde>zeerDonker</Waarde>
+		<SIKB0101ID>5</SIKB0101ID>
+		<Omschrijving>zeer donker</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Kleursterkte>
+</domeintabel>

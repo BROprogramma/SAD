@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Certificering>
+		<Waarde>niet</Waarde>
+		<SIKB0101ID>1</SIKB0101ID>
+		<Omschrijving>De laboratoriumanalyse is niet onder een certificering uitgevoerd.</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Certificering>
+	<Certificering>
+		<Waarde>raadVoorAccreditatie</Waarde>
+		<SIKB0101ID>2</SIKB0101ID>
+		<Omschrijving>De laboratoriumanalyse is gekeurd door de nederlandse Raad voor Accreditatie</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Certificering>
+	<Certificering>
+		<Waarde>accreditatieProgramma04</Waarde>
+		<SIKB0101ID>3</SIKB0101ID>
+		<Omschrijving>Accreditatieprogramma Keuring van partijen grond, bouwstoffen en korrelvormige afvalstoffen</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Certificering>
+	<Certificering>
+		<Waarde>as3000</Waarde>
+		<SIKB0101ID>5</SIKB0101ID>
+		<Omschrijving>Accreditatieschema Laboratoriumanalyses voor grond-, waterbodem- en grondwateronderzoek</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</Certificering>
+</domeintabel>

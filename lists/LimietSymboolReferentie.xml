@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<LimietSymboolReferentie>
+		<Waarde>aantoonbaarheidsGrens</Waarde>
+		<SIKB0101ID>1</SIKB0101ID>
+		<Omschrijving>De door het laboratorium vastgestelde kleinste waarde van het gemeten gehalte of de waargenomen waarde van de parameter in een monster, waarvan de aanwezigheid nog met een bepaalde betrouwbaarheid kan worden vastgesteld. In de standaard wordt als grens hiervoor een relatieve standaardafwijking van 33% op dat meetniveau gehanteerd.</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</LimietSymboolReferentie>
+	<LimietSymboolReferentie>
+		<Waarde>bepalingsGrens</Waarde>
+		<SIKB0101ID>2</SIKB0101ID>
+		<Omschrijving>De door het laboratorium vastgestelde kleinste waarde van het gemeten gehalte of de waargenomen waarde van de parameter in een monster, waarvan de aanwezigheid nog met een bepaalde betrouwbaarheid kan worden vastgesteld. In de standaard wordt als grens hiervoor een relatieve standaardafwijking van 10% op dat meetniveau gehanteerd.</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</LimietSymboolReferentie>
+	<LimietSymboolReferentie>
+		<Waarde>rapportageGrens</Waarde>
+		<SIKB0101ID>3</SIKB0101ID>
+		<Omschrijving>De door het uitvoerende laboratorium met de opdrachtgever afgesproken kleinste waarde van het gemeten gehalte of de waargenomen waarde van de parameter in een monster, die wordt gerapporteerd aan de opdrachtgever.</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</LimietSymboolReferentie>
+</domeintabel>
