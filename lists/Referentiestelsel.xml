@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Referentiestelsel>
-		<Waarde>ETRS89</Waarde>
-		<Omschrijving>European Terrestrial Reference System 1989 (EPSG 4258).</Omschrijving>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-	</Referentiestelsel>
-	<Referentiestelsel>
-		<Waarde>RD</Waarde>
-		<Omschrijving>Rijks Driehoeksmeting – Amersfoort RD New (EPSG 28992).</Omschrijving>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-	</Referentiestelsel>
-	<Referentiestelsel>
-		<Waarde>WGS84</Waarde>
-		<Omschrijving>World Geodetic System 1984 (EPSG 4326).</Omschrijving>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-	</Referentiestelsel>
+    <Referentiestelsel>
+        <Waarde>ETRS89</Waarde>
+        <IMBRO/>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>European Terrestrial Reference System 1989 (EPSG 4258).</Omschrijving>
+    </Referentiestelsel>
+    <Referentiestelsel>
+        <Waarde>RD</Waarde>
+        <IMBRO/>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Rijks Driehoeksmeting – Amersfoort RD New (EPSG 28992).</Omschrijving>
+    </Referentiestelsel>
+    <Referentiestelsel>
+        <Waarde>WGS84</Waarde>
+        <IMBRO/>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>World Geodetic System 1984 (EPSG 4326).</Omschrijving>
+    </Referentiestelsel>
 </domeintabel>
