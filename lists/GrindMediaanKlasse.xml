@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GrindMediaanKlasse>
+		<Waarde>fijnNEN5104</Waarde>
+		<SIKB0101ID>2</SIKB0101ID>
+		<Omschrijving>De grindmediaan is gelijk aan of groter dan 2 mm en kleiner dan 5,6 mm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</GrindMediaanKlasse>
+	<GrindMediaanKlasse>
+		<Waarde>zeerGrofNEN5104</Waarde>
+		<SIKB0101ID>8</SIKB0101ID>
+		<Omschrijving>De grindmediaan is gelijk aan of groter dan 16 mm en kleiner dan 63 mm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</GrindMediaanKlasse>
+	<GrindMediaanKlasse>
+		<Waarde>matigGrofNEN5104</Waarde>
+		<SIKB0101ID>9</SIKB0101ID>
+		<Omschrijving>De grindmediaan is gelijk aan of groter dan 5,6 mm en kleiner dan 16 mm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</GrindMediaanKlasse>
+</domeintabel>

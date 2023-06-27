@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BijzonderBestanddeelGradatie>
+		<Waarde>zwak</Waarde>
+		<SIKB0101ID>1</SIKB0101ID>
+		<Omschrijving>zwak (&lt;5%)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>matig</Waarde>
+		<SIKB0101ID>4</SIKB0101ID>
+		<Omschrijving>matig (5%-15%)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>sterk</Waarde>
+		<SIKB0101ID>5</SIKB0101ID>
+		<Omschrijving>sterk (15%-50%)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>uiterst</Waarde>
+		<SIKB0101ID>6</SIKB0101ID>
+		<Omschrijving>uiterst (50%-80%</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>volledig</Waarde>
+		<SIKB0101ID>7</SIKB0101ID>
+		<Omschrijving>volledig (&gt;80%)</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>sporen</Waarde>
+		<SIKB0101ID>8</SIKB0101ID>
+		<Omschrijving>sporen</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>resten</Waarde>
+		<SIKB0101ID>9</SIKB0101ID>
+		<Omschrijving>resten</Omschrijving>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+	</BijzonderBestanddeelGradatie>
+</domeintabel>
