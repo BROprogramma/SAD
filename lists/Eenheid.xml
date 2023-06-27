@@ -120,13 +120,6 @@
 		<IMBROA>v</IMBROA>
 	</Eenheid>
 	<Eenheid>
-		<Waarde>literPerMinuut</Waarde>
-		<SIKB0101ID>214</SIKB0101ID>
-		<AquoCode>l/min</AquoCode>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-	</Eenheid>
-	<Eenheid>
 		<Waarde>millisiemensPerCentimeter</Waarde>
 		<SIKB0101ID>243</SIKB0101ID>
 		<AquoCode>mS/cm</AquoCode>
