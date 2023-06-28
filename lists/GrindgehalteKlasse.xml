@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <GrindGehalte>
+    <GrindgehalteKlasse>
         <Waarde>nietGrindig</Waarde>
         <SIKB0101ID>1</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>Grind is niet aanwezig.</Omschrijving>
-    </GrindGehalte>
-    <GrindGehalte>
+    </GrindgehalteKlasse>
+    <GrindgehalteKlasse>
         <Waarde>zwakGrindig</Waarde>
         <SIKB0101ID>2</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>Grind is aanwezig en maakt minder dan 5 % van de massa uit.</Omschrijving>
-    </GrindGehalte>
-    <GrindGehalte>
+    </GrindgehalteKlasse>
+    <GrindgehalteKlasse>
         <Waarde>matigGrindig</Waarde>
         <SIKB0101ID>3</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>Grind maakt tussen 5 en 15 % van de massa uit.</Omschrijving>
-    </GrindGehalte>
-    <GrindGehalte>
+    </GrindgehalteKlasse>
+    <GrindgehalteKlasse>
         <Waarde>sterkGrindig</Waarde>
         <SIKB0101ID>4</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>Grind maakt tussen 15 en 30 % van de massa uit.</Omschrijving>
-    </GrindGehalte>
+    </GrindgehalteKlasse>
 </domeintabel>
