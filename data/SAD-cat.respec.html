@@ -65,7 +65,8 @@
                   <td>
                      
                      <p>De gegevens die het miliieuhygiënisch bodemonderzoek identificeren en inzicht geven
-                        in de geschiedenis van het object voorafgaand aan opname in de registratie ondergrond.</p>
+                        in de totstandkoming en context van het object voorafgaand aan opname in de registratie
+                        ondergrond.</p>
                      </td>
                </tr>
                <tr>
@@ -383,7 +384,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -425,7 +426,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td>0..1</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -449,8 +450,12 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>registratiestatus</em> van de entiteit <em>Registratiegeschiedenis</em> gelijk is aan voltooid.
-                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>registratiestatus</em> van de entiteit <em>Registratiegeschiedenis</em> gelijk is aan voltooid. </p>
+                        
+                        <h1 id="regel-toevoegen-welke-datum-te-nemen-of-uitzondering-op-vorige-regel-maken-dat-voor-imbro-a-deze-verplichting-niet-geldt">REGEL toevoegen welke datum te nemen of uitzondering op vorige regel maken dat voor
+                           IMBRO/A deze verplichting niet geldt!!</h1>
+                        
+                        <p>Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                            De <em>rapportagedatum</em> onderzoek mag niet liggen na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.</p>
                         </td>
                   </tr>
@@ -465,7 +470,7 @@
                            het onderzoeksrapport wordt vastgelegd bij de gegevensgroep <em>Rapport</em> als <em>rapportdatum</em>.</p>
                         
                         <p>Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal
-                           onbekend, maar ook niet relevant.  #REGEL toevoegen welke datum te nemen!!</p>
+                           onbekend en niet relevant.</p>
                         </td>
                   </tr>
                </tbody>
@@ -606,7 +611,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -700,7 +705,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -873,7 +878,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d94846e4621"></a><section id="detail_d94846e4621">
+            </section><a class="anchor" id="detail_d95281e4631"></a><section id="detail_d95281e4631">
             <h4>  registratiegeschiedenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -918,7 +923,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d94846e4849"></a><section id="detail_d94846e4849">
+         </section><a class="anchor" id="detail_d95281e4859"></a><section id="detail_d95281e4859">
             <h4>  gestandaardiseerde locatie bodemonderzoek</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -961,7 +966,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d94846e5077"></a><section id="detail_d94846e5077">
+         </section><a class="anchor" id="detail_d95281e5087"></a><section id="detail_d95281e5087">
             <h4>  rapport</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -1202,7 +1207,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
@@ -1985,8 +1990,8 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_attribute_Model_Rapport_url"></a><section id="detail_attribute_Model_Rapport_url">
-            <h4>  url</h4>
+            </section><a class="anchor" id="detail_attribute_Model_Rapport_rapporturl"></a><section id="detail_attribute_Model_Rapport_rapporturl">
+            <h4>  rapporturl</h4>
             
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -2000,7 +2005,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>Het persistentie webadres waar het rapport op te vragen is.</p>
+                        <p>Het peristente webadres van het onderzoeksrapport.</p>
                         </td>
                   </tr>
                   <tr>
@@ -2017,7 +2022,15 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
-                     <td>Tekst </td>
+                     <td>Tekst 2083</td>
+                  </tr>
+                  <tr>
+                     <th>Toelichting</th>
+                     <td>
+                        
+                        <p>Betreft het internetadres waar het onderzoeksrapport te vinden is. Ieder rapport heeft
+                           zijn eigen URL.</p>
+                        </td>
                   </tr>
                </tbody>
             </table>
@@ -2232,7 +2245,7 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>Het betreft de diepte ten opzichte van het lokaal vertikaal referentiepunt.</p>
+                        <p>Het betreft de diepte ten opzichte van het lokaal verticaal referentiepunt.</p>
                         </td>
                   </tr>
                </tbody>
@@ -2290,7 +2303,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d94846e10361"></a><section id="detail_d94846e10361">
+            </section><a class="anchor" id="detail_d95281e10407"></a><section id="detail_d95281e10407">
             <h4>  aangeleverde verticale positie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -2524,16 +2537,16 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Regels</th>
                      <td>
                         
-                        <p>Voor een boring heeft het lokaal vertikaal referentiepunt altijd de waarde 't.o.v.
+                        <p>Voor een boring heeft het lokaal verticaal referentiepunt altijd de waarde 't.o.v.
                            maaiveld'</p>
                         
-                        <p>Voor een peilbuis kan het lokaal vertikaal referentiepunt de waarde 't.o.v. maaiveld
+                        <p>Voor een peilbuis kan het lokaal verticaal referentiepunt de waarde 't.o.v. maaiveld
                            of 't.o.v. peilbuis bovenkant' hebben.</p>
                         </td>
                   </tr>
@@ -2590,13 +2603,13 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>In het geval het vertikaal referentievlak is vastgelegd is dit altijd ten opzichte
+                        <p>In het geval het verticaal referentievlak is vastgelegd is dit altijd ten opzichte
                            van NAP.</p>
                         </td>
                   </tr>
@@ -2704,7 +2717,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Dit gegeven is alleen relevant voor het object peilbuis waarbij het <em>lokaal vertikaal referentiepunt</em>  ongelijk is aan 't.o.v. maaiveld'.</p>
+                        <p>Dit gegeven is alleen relevant voor het object peilbuis waarbij het <em>lokaal verticaal referentiepunt</em>  ongelijk is aan 't.o.v. maaiveld'.</p>
                         </td>
                   </tr>
                   <tr>
@@ -2713,8 +2726,8 @@
                         
                         <p>Dit is de positie van het maaiveld t.o.v. de bovenkant van de peilbuis. De waarde
                            kan positief of negatief zijn. Als de waarde positief is, bevindt de bovenkant van
-                           de peilbuis zich boven het maaiveld. Is de waarde negatief, dan binvdt de bovenkant
-                           van de peilbuis zich onder het maaivled.</p>
+                           de peilbuis zich boven het maaiveld. Is de waarde negatief, dan bevindt de bovenkant
+                           van de peilbuis zich onder het maaiveld.</p>
                         
                         <p>De positie van het maaiveld is van belang om de metingen in de peilbuis in de juiste
                            ruimtelijke context te kunnen plaatsen. </p>
@@ -2787,7 +2800,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Is afgeleid</th>
@@ -2916,7 +2929,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Is afgeleid</th>
@@ -3110,7 +3123,9 @@
                      <td>
                         
                         <p>De <em>bovengrens</em> van de bovenste bodemlaag moet gelijk zijn aan <em>0.</em>
-                           De <em>bovengrens</em> moet gelijk zijn aan de <em>ondergrens</em> van de direct bovenliggende bodemlaag</p>
+                           </p>
+                        
+                        <p>De lagen van een Boorprofiel moeten precies op elkaar aansluiten.</p>
                         </td>
                   </tr>
                   <tr>
@@ -3171,7 +3186,9 @@
                      <td>
                         
                         <p>De <em>ondergrens</em> moet groter zijn dan de <em>bovengrens</em> van dezelfde bodemlaag.<br clear="none">
-                           De <em>ondergrens</em> van de onderste laag mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boring</em> van het object <em>Boring</em>.</p>
+                           </p>
+                        
+                        <p>De <em>ondergrens</em> van de onderste laag mag niet groter zijn dan de waarde van het attribuut <em>einddiepte boring</em> van het object <em>Boring</em>.</p>
                         </td>
                   </tr>
                   <tr>
@@ -3227,11 +3244,11 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d94846e13385"></a><section id="detail_d94846e13385">
+            </section><a class="anchor" id="detail_d95281e13435"></a><section id="detail_d95281e13435">
             <h4>  grond</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3273,7 +3290,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d94846e13617"></a><section id="detail_d94846e13617">
+         </section><a class="anchor" id="detail_d95281e13667"></a><section id="detail_d95281e13667">
             <h4>  kleur</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3306,7 +3323,7 @@
                   </tr>
                </tbody>
             </table>
-         </section><a class="anchor" id="detail_d94846e13802"></a><section id="detail_d94846e13802">
+         </section><a class="anchor" id="detail_d95281e13852"></a><section id="detail_d95281e13852">
             <h4>  bijzonder bestanddeel</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3410,7 +3427,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
@@ -3456,7 +3473,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Regels</th>
@@ -3517,7 +3534,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Regels</th>
@@ -3578,7 +3595,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -3633,7 +3650,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -3709,7 +3726,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
@@ -3755,7 +3772,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
@@ -3801,7 +3818,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
@@ -3876,7 +3893,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
@@ -3922,7 +3939,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
@@ -3950,8 +3967,8 @@
                   <th>Toelichting</th>
                   <td>
                      
-                     <p>Miliieuhygiënisch bodemonderzoek wordt uitgevoerd door BRL SIKB 2000-gecertificeerde
-                        onderzoeksbureau's. Grondmonsternames worden uitgevoerd conform protocol 2001.</p>
+                     <p>Miliieuhygiënisch bodemonderzoek wordt veelal uitgevoerd door BRL SIKB 2000-gecertificeerde
+                        onderzoeksbureaus. Grondmonsternames worden uitgevoerd conform protocol 2001.</p>
                      </td>
                </tr>
             </tbody>
@@ -4093,8 +4110,7 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>De <em>begindiepte</em> wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt'zoals vastgelegd
-                           bij de <em>boring</em>. Deze heeft altijd de waarde 't.o.v. maaiveld'.</p>
+                        <p>De <em>begindiepte</em> wordt weergegeven ten opzichte van het <em>lokaal verticaal referentiepunt</em> zoals vastgelegd bij de <em>boring</em>. Deze heeft altijd de waarde 't.o.v. maaiveld'.</p>
                         </td>
                   </tr>
                </tbody>
@@ -4154,8 +4170,7 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>De <em>einddiepte</em> wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt'zoals vastgelegd
-                           bij de <em>boring</em>. Deze heeft altijd de waarde 't.o.v. maaiveld'.</p>
+                        <p>De <em>einddiepte</em> wordt weergegeven ten opzichte van het l<em>okaal verticaal referentiepunt</em> zoals vastgelegd bij de <em>boring</em>. Deze heeft altijd de waarde 't.o.v. maaiveld'.</p>
                         </td>
                   </tr>
                </tbody>
@@ -4782,8 +4797,7 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>De <em>begindiepte</em> wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt'zoals vastgelegd
-                           bij de <em>peilbuis</em>. Deze kan de waarde 't.o.v. maaiveld' of 't.o.v. peilbuis bovenkant' hebben.</p>
+                        <p>De <em>begindiepte</em> wordt weergegeven ten opzichte van het <em>lokaal verticaal referentiepunt</em> zoals vastgelegd bij de <em>peilbuis</em>. Deze kan de waarde 't.o.v. maaiveld' of 't.o.v. peilbuis bovenkant' hebben.</p>
                         </td>
                   </tr>
                </tbody>
@@ -4843,13 +4857,12 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>De <em>begindiepte</em> wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt'zoals vastgelegd
-                           bij de <em>peilbuis</em>. Deze kan de waarde 't.o.v. maaiveld' of 't.o.v. peilbuis bovenkant' hebben.</p>
+                        <p>De <em>begindiepte</em> wordt weergegeven ten opzichte van het <em>lokaal verticaal referentiepunt</em> zoals vastgelegd bij de <em>peilbuis</em>. Deze kan de waarde 't.o.v. maaiveld' of 't.o.v. peilbuis bovenkant' hebben.</p>
                         </td>
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d94846e19821"></a><section id="detail_d94846e19821">
+            </section><a class="anchor" id="detail_d95281e19879"></a><section id="detail_d95281e19879">
             <h4>  aangeleverde verticale positie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -4947,6 +4960,14 @@
                      
                      <p>Het deel van het milieuhygiënisch bodemonderzoek dat betrekking heeft op de monstername
                         van het grondwater.</p>
+                     </td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>
+                     
+                     <p>Miliieuhygiënisch bodemonderzoek wordt veelal uitgevoerd door BRL SIKB 2000-gecertificeerde
+                        onderzoeksbureaus. Grondwatermonsternames worden uitgevoerd conform protocol 2002.</p>
                      </td>
                </tr>
             </tbody>
@@ -5283,7 +5304,7 @@
                   </tr>
                </tbody>
             </table>
-            </section><a class="anchor" id="detail_d94846e21491"></a><section id="detail_d94846e21491">
+            </section><a class="anchor" id="detail_d95281e21576"></a><section id="detail_d95281e21576">
             <h4>  kleur</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -5387,7 +5408,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -5442,13 +5463,13 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>Het ID is het identificerend gegeven van de parameter en staat in de referentielijst
+                        <p>Het SIKB0101ID is het identificerend gegeven van de parameter en staat in de referentielijst
                            <em>Parameter</em>. ID's worden beheerd door SIKB en het Informatiehuis Water (IHW).</p>
                         </td>
                   </tr>
@@ -5497,7 +5518,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -5561,8 +5582,6 @@
                         <p>De veldmeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk
                            van de waarde van het attribuut <em>grootheid</em>. De aan te leveren meeteenheid is vastgelegd in de waardelijst <em>grootheid.</em> Alleen de prefix, het voorvoegsel van de eenheid in de waardelijst <em>grootheid</em> mag afwijken. Staat er bijvoorbeeld ug/l in de waardelijst, dan is mg/l ook toegestaan
                            of als mS/cm in de parameterlijst staat, is uS/m ook toegestaan.</p>
-                        
-                        <p>Een dimensieloze waarde heeft een meeteenheid 1 (cijfer 1).</p>
                         
                         <p>De veldmeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk
                            van de waarde van het attribuut <em>parameter</em> of <em>grootheid</em>. De aan te leveren meeteenheid is niet vastgelegd. in de waardelijst <em>Eeinheid</em> zijn de mogelijke eenheden opgenomen. Alleen de prefix, het voorvoegsel van de eenheid
@@ -5859,7 +5878,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -5914,14 +5933,14 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>Het ID is het identificerend gegeven van de parameter en staat in de referentielijst
-                           <em>Parameter</em>. ID's worden beheerd door SIKB en het Informatiehuis Water (IHW).</p>
+                        <p>Het SIKB0101ID is het identificerend gegeven van de parameter en staat in de referentielijst
+                           <em>Parameter</em>. Deze ID's worden beheerd door SIKB en het Informatiehuis Water (IHW).</p>
                         </td>
                   </tr>
                </tbody>
@@ -5976,7 +5995,8 @@
                         
                         <p>De analysemeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk
                            van de waarde van het attribuut <em>grootheid</em>. De aan te leveren meeteenheid is vastgelegd in de waardelijst <em>grootheid.</em> Alleen de prefix, het voorvoegsel van de eenheid in de waardelijst <em>grootheid</em> mag afwijken. Staat er bijvoorbeeld ug/l in de waardelijst, dan is mg/l ook toegestaan
-                           of als mS/cm in de parameterlijst staat, is uS/m ook toegestaan.</p>
+                           of als mS/cm in de parameterlijst staat, is uS/m ook toegestaan.
+                           Een dimensieloze waarde heeft de meeteenheid 'Dimensieloos' (waarde 119).</p>
                         </td>
                   </tr>
                </tbody>
@@ -6020,6 +6040,10 @@
                   <tr>
                      <th>&nbsp;&nbsp;Type</th>
                      <td>Waardelijst uitbreidbaar</td>
+                  </tr>
+                  <tr>
+                     <th>&nbsp;&nbsp;Identificerend gegeven</th>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -6072,7 +6096,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
@@ -6119,7 +6143,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                   <tr>
                      <th>Toelichting</th>
@@ -6299,7 +6323,7 @@
                   </tr>
                   <tr>
                      <th>&nbsp;&nbsp;Identificerend gegeven</th>
-                     <td>Waarde, SIKB0101ID, IMBRO, IMBROA, Omschrijving</td>
+                     <td>Waarde</td>
                   </tr>
                </tbody>
             </table>
@@ -6329,16 +6353,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -6497,16 +6521,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -6582,13 +6606,13 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -6639,13 +6663,13 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -6699,16 +6723,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -7457,16 +7481,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -7561,13 +7585,13 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de onderzoeksaanleiding. </li>
+                        <b>Omschrijving</b>: De omschrijving van de onderzoeksaanleiding. </li>
                      </ol>
                   
                   </td>
@@ -7638,16 +7662,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>AquoCode</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>AquoCode</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -7841,16 +7865,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -7924,16 +7948,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -8004,16 +8028,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -8348,16 +8372,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -8488,16 +8512,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -12106,16 +12130,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -12259,16 +12283,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -12328,6 +12352,71 @@
          </tbody>
       </table>
       </section>
+   <section id="detail_class_Model_LimietSymbool">
+      <h2>  LimietSymbool</h2>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  <p>De lijst van symbolen die aangeven of de gemeten waarde kleiner dan de laagste rapportagegrens
+                     of groter dan de hoogste rapportagegrens is.</p>
+                  
+                  
+                  
+                  <ol>
+                     
+                     <li>
+                        <b>Waarde</b> (identificerend): De waarde een leesbare tekst die de gebruiker informatie geeft
+                        over het gegeven. </li>
+                     
+                     <li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
+                     
+                     <li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                     
+                     <li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
+                     </ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup style="width: 25%;"></colgroup>
+         <colgroup style="width: 25%;"></colgroup>
+         <colgroup style="width: 25%;"></colgroup>
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <th>Waarde</th>
+               <th>IMBRO</th>
+               <th>IMBROA</th>
+               <th>Omschrijving</th>
+            </tr>
+            <tr>
+               <td>GT</td>
+               <td></td>
+               <td>v</td>
+               <td>De gemeten waarde is groter dan de hoogste rapportagegrens welke is ingevuld bij het
+                  attribuut waarde. </td>
+            </tr>
+            <tr>
+               <td>LT</td>
+               <td></td>
+               <td>v</td>
+               <td>De gemeten waarde is kleiner dan de laagste rapportagegrens welke is ingevuld bij
+                  het attribuut waarde.</td>
+            </tr>
+         </tbody>
+      </table>
+      </section>
    <section id="detail_class_Model_LimietSymboolReferentie">
       <h2>  LimietSymboolReferentie</h2>
       
@@ -12349,16 +12438,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -12433,16 +12522,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -12503,16 +12592,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -12594,16 +12683,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -12681,16 +12770,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -12699,6 +12788,7 @@
       </table>
       
       <table style="width: 100%;" class="list">
+         <colgroup style="width: 20%;"></colgroup>
          <colgroup style="width: 20%;"></colgroup>
          <colgroup style="width: 20%;"></colgroup>
          <colgroup style="width: 20%;"></colgroup>
@@ -42576,13 +42666,13 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de onderzoeksaanleiding. </li>
+                        <b>Omschrijving</b>: De omschrijving van de onderzoeksaanleiding. </li>
                      </ol>
                   
                   </td>
@@ -42644,13 +42734,13 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de onderzoeksaanleiding. </li>
+                        <b>Omschrijving</b>: De omschrijving van de onderzoeksaanleiding. </li>
                      </ol>
                   
                   </td>
@@ -42717,16 +42807,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -43012,16 +43102,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -43084,16 +43174,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -48599,16 +48689,16 @@
                         over het gegeven. </li>
                      
                      <li>
-                        <b>SIKB0101ID</b> (identificerend): Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
+                        <b>SIKB0101ID</b>: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</li>
                      
                      <li>
-                        <b>IMBRO</b> (identificerend): Geeft aan of de waarde onder IMBRO geldig is. </li>
+                        <b>IMBRO</b>: Geeft aan of de waarde onder IMBRO geldig is. </li>
                      
                      <li>
-                        <b>IMBROA</b> (identificerend): Geeft aan of de waarde onder IMBRO/A geldig is. </li>
+                        <b>IMBROA</b>: Geeft aan of de waarde onder IMBRO/A geldig is. </li>
                      
                      <li>
-                        <b>Omschrijving</b> (identificerend): De omschrijving van de domeinwaarde. </li>
+                        <b>Omschrijving</b>: De omschrijving van de domeinwaarde. </li>
                      </ol>
                   
                   </td>
@@ -48671,49 +48761,6 @@
                <td></td>
                <td>v</td>
                <td>De zandmediaan ligt tussen 210 en 300 µm. Een klasse onder de NEN 5104 procedure.</td>
-            </tr>
-         </tbody>
-      </table>
-      </section>
-   <section id="detail_class_Model_LimietSymbool">
-      <h2>  LimietSymbool</h2>
-      
-      <table style="width: 100%;" class="list">
-         <colgroup></colgroup>
-         <tbody>
-            <tr>
-               <td>
-                  
-                  <p>De lijst van symbolen die aangeven of de gemeten waarde kleiner dan de laagste rapportagegrens
-                     of groter dan de hoogste rapportagegrens is.</p>
-                  </td>
-            </tr>
-         </tbody>
-      </table>
-      
-      <table style="width: 100%;" class="list">
-         <colgroup style="width: 20%;"></colgroup>
-         <colgroup style="width: 5%;"></colgroup>
-         <colgroup style="width: 5%;"></colgroup>
-         <colgroup></colgroup>
-         <tbody>
-            <tr>
-               <th>Waarde</th>
-               <th>IMBRO</th>
-               <th>IMBRO/A</th>
-               <th>Omschrijving</th>
-            </tr>
-            <tr>
-               <td>LT</td>
-               <td></td>
-               <td>✔</td>
-               <td></td>
-            </tr>
-            <tr>
-               <td>GT</td>
-               <td></td>
-               <td>✔</td>
-               <td></td>
             </tr>
          </tbody>
       </table>
