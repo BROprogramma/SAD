@@ -2,8 +2,9 @@
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Parameter>
         <Waarde>1112T4ClC2a</Waarde>
-        <SIKB0101ID>3</SIKB0101ID>
-        <IMBROA/>
+        <SIKB0101ID>3</SIKB0101ID>        
+        <IMBRO/>
+        <IMBROA>v</IMBROA>
         <Omschrijving>1,1,1,2-tetrachloorethaan</Omschrijving>
     </Parameter>
     <Parameter>
@@ -28560,7 +28561,7 @@
         <Omschrijving>6:2/8:2 fluortelomerfosfaatdiester</Omschrijving>
     </Parameter>
     <Parameter>
-        <Waarde>sPFAS (OVAM)</Waarde>
+        <Waarde>sPFAS(OVAM)</Waarde>
         <SIKB0101ID>6723</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
