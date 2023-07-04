@@ -18,4 +18,16 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>De gegevens zijn getransformeerd van RD naar ETRS89, gebruikmakend van de transformatie RDNAPTRANS™, versie 2018. De positie van het aardoppervlak is onbekend, bij transformatie is uitgegaan van 0 m NAP. RDNAPTRANS™ is de officiële transformatie tussen RD/NAP en ETRS89 afkomstig van het Kadaster, Rijkswaterstaat en de Dienst der Hydrografie van de Koninklijke Marine in het samenwerkingsverband NSGI (Nederlandse Samenwerking Geodetische Infrastructuur).</Omschrijving>
 	</Referentiestelsel>
+	<Referentiestelsel>
+		<Waarde>7parameterTransformatie</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gegevens zijn getransformeerd van WGS84 naar ETRS89, gebruikmakend van de 7-parameter transformatie. De transformatieparameters zijn afkomstig van de Dienst der Hydrografie en zijn tijdsafhankelijk. Voor elk jaar is een parameterset beschikbaar voor de berekening van coördinaten in ETRS89 in Nederland, waarna een transformatieprocedure naar de juiste dag volgt.</Omschrijving>
+	</Referentiestelsel>
+	<Referentiestelsel>
+		<Waarde>7parameterTransformatie1989</Waarde>
+		<IMBRO></IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gegevens zijn getransformeerd van WGS84 naar ETRS89, gebruikmakend van de 7-parameter transformatie. De transformatieparameters zijn afkomstig van de Dienst der Hydrografie en zijn tijdsafhankelijk. Bij transformatie is gebruik gemaakt van de parameterset 1989.0.</Omschrijving>
+	</Referentiestelsel>
 </domeintabel>
