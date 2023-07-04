@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <AanleidingOnderzoek>
-        <Waarde>bestemmingswjiziging</Waarde>
+        <Waarde>bestemmingswijziging</Waarde>
         <SIKB0101ID>1</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
