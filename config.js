@@ -1,9 +1,9 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+  specStatus: "GN-CV",
   specType: "IM",
-  //subtitle: "SIKB en Geonovum informatiemodel",
+  subtitle: "Versie 0.9",
   //canonicalURI: "WV",
-  //publishDate: "2021-11-19",
+  publishDate: "2023-07-05",
   maxTocLevel: 4,
  logos: [{
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
