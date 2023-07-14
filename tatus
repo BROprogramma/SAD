@@ -1,0 +1,54 @@
+[1mdiff --git a/Versie 0.9/SAD_Intern Uitwisselberichten/XSD en voorbeeld XML/Voorbeeldberichten innameservice/01_registrationRequest_SAD_CompleteReport IMBROA.xml b/Versie 0.9/SAD_Intern Uitwisselberichten/XSD en voorbeeld XML/Voorbeeldberichten innameservice/01_registrationRequest_SAD_CompleteReport IMBROA.xml[m
+[1mindex 77faed8..e3ff200 100644[m
+[1m--- a/Versie 0.9/SAD_Intern Uitwisselberichten/XSD en voorbeeld XML/Voorbeeldberichten innameservice/01_registrationRequest_SAD_CompleteReport IMBROA.xml[m	
+[1m+++ b/Versie 0.9/SAD_Intern Uitwisselberichten/XSD en voorbeeld XML/Voorbeeldberichten innameservice/01_registrationRequest_SAD_CompleteReport IMBROA.xml[m	
+[36m@@ -17,7 +17,7 @@[m
+             <reportDate>[m
+                 <brocom:date>2023-04-25</brocom:date>[m
+             </reportDate>[m
+[31m-            <identification>daa6c99f-4eee-44c6-b789-6b1826057114</identification>[m
+[32m+[m[32m            <identification>daa6c99f-4eee-44c6-b789-6b1826057116</identification>[m
+             <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>[m
+             <!-- Optional -->[m
+             <projectType codeSpace="urn:bro:sad:ProjectType">7</projectType>[m
+[36m@@ -58,25 +58,27 @@[m
+             <report>[m
+                 <sadcom:reportNumber>123123</sadcom:reportNumber>[m
+                 <sadcom:reportDate>2013-07-07</sadcom:reportDate>[m
+[32m+[m[32m                <sadcom:reportAuthor>Subliem Voorbeeld Advies B.V.</sadcom:reportAuthor>[m
+[32m+[m[32m                <sadcom:documentLink>https://www.document.nl/voorbeeldrapport</sadcom:documentLink>[m
+             </report>[m
+             <borehole>[m
+                 <sadcom:Borehole gml:id="_d8401c1a-ec0c-446f-8e45-22d9514f8400">[m
+                     <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>[m
+[31m-                    <sadcom:boringName>PB01</sadcom:boringName>[m
+[32m+[m[32m                    <sadcom:boringName>PB01</sadcom:boringName>[m[41m                    [m
+                     <sadcom:boringDate>2018-03-08</sadcom:boringDate>[m
+[31m-                    <sadcom:finalDepthBoring uom="m">2</sadcom:finalDepthBoring>[m
+[32m+[m[32m                    <sadcom:finalDepthBoring uom="m">2</sadcom:finalDepthBoring>[m[41m                   [m
+                     <sadcom:deliveredLocation>[m
+                         <gml:Point gml:id="_d38ee87f-9552-464a-8125-e8409b01c5c1">[m
+                             <gml:pos>52.00410874694697 4.358954632907231</gml:pos>[m
+                         </gml:Point>[m
+[31m-                    </sadcom:deliveredLocation>[m
+[32m+[m[32m                    </sadcom:deliveredLocation>[m[41m                    [m
+                     <sadcom:deliveredVerticalPosition>[m
+                         <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcom:localVerticalReferencePoint>[m
+                         <!-- Maaiveld -->[m
+                         <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcom:verticalDatum>[m
+                         <!-- NAP -->[m
+                         <sadcom:offset uom="m">0.02</sadcom:offset>[m
+[31m-                    </sadcom:deliveredVerticalPosition>[m
+[32m+[m[32m                    </sadcom:deliveredVerticalPosition>[m[41m                    [m
+                     <sadcom:boreholeSampleDescription>[m
+                         <sadcom:BoreholeSampleDescription gml:id="_ff26ddf1-7a45-4a04-a416-994b4bbc8848">[m
+                             <sadcom:descriptionProcedure codeSpace="urn:bro:sad:DescriptionProcedure">nen5104_nen5706</sadcom:descriptionProcedure>[m
+[36m@@ -230,7 +232,7 @@[m
+                             <sadcom:endDepth uom="m">2.0</sadcom:endDepth>[m
+                             <sadcom:sampleTime>2018-03-08</sadcom:sampleTime>[m
+                         </sadcom:SoilSampling>[m
+[31m-                    </sadcom:soilSampling>[m
+[32m+[m[32m                    </sadcom:soilSampling>[m[41m                    [m
+                 </sadcom:Borehole>[m
+             </borehole>[m
+             <mixedSampleAnalysis>[m
