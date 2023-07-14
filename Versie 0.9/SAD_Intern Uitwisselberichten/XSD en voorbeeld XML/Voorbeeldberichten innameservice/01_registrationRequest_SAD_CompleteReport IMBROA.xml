@@ -58,25 +58,27 @@
             <report>
                 <sadcom:reportNumber>123123</sadcom:reportNumber>
                 <sadcom:reportDate>2013-07-07</sadcom:reportDate>
+                <sadcom:reportAuthor>Subliem Voorbeeld Advies B.V.</sadcom:reportAuthor>
+                <sadcom:documentLink>https://www.document.nl/voorbeeldrapport</sadcom:documentLink>
             </report>
             <borehole>
                 <sadcom:Borehole gml:id="_d8401c1a-ec0c-446f-8e45-22d9514f8400">
                     <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>
-                    <sadcom:boringName>PB01</sadcom:boringName>
+                    <sadcom:boringName>PB01</sadcom:boringName>                    
                     <sadcom:boringDate>2018-03-08</sadcom:boringDate>
-                    <sadcom:finalDepthBoring uom="m">2</sadcom:finalDepthBoring>
+                    <sadcom:finalDepthBoring uom="m">2</sadcom:finalDepthBoring>                   
                     <sadcom:deliveredLocation>
                         <gml:Point gml:id="_d38ee87f-9552-464a-8125-e8409b01c5c1">
                             <gml:pos>52.00410874694697 4.358954632907231</gml:pos>
                         </gml:Point>
-                    </sadcom:deliveredLocation>
+                    </sadcom:deliveredLocation>                    
                     <sadcom:deliveredVerticalPosition>
                         <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcom:localVerticalReferencePoint>
                         <!-- Maaiveld -->
                         <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcom:verticalDatum>
                         <!-- NAP -->
                         <sadcom:offset uom="m">0.02</sadcom:offset>
-                    </sadcom:deliveredVerticalPosition>
+                    </sadcom:deliveredVerticalPosition>                    
                     <sadcom:boreholeSampleDescription>
                         <sadcom:BoreholeSampleDescription gml:id="_ff26ddf1-7a45-4a04-a416-994b4bbc8848">
                             <sadcom:descriptionProcedure codeSpace="urn:bro:sad:DescriptionProcedure">nen5104_nen5706</sadcom:descriptionProcedure>
@@ -230,7 +232,7 @@
                             <sadcom:endDepth uom="m">2.0</sadcom:endDepth>
                             <sadcom:sampleTime>2018-03-08</sadcom:sampleTime>
                         </sadcom:SoilSampling>
-                    </sadcom:soilSampling>
+                    </sadcom:soilSampling>                    
                 </sadcom:Borehole>
             </borehole>
             <mixedSampleAnalysis>
