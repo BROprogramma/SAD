@@ -1334,7 +1334,7 @@ Domeintabel: BodemlaagType</documentation>
     </element>
     <complexType name="LocationInspectionType">
         <sequence>
-            <element name="inspectedSurface" type="gml:GeometryPropertyType" minOccurs="0">
+            <element name="inspectedSurface" type="gml:MeasureType" minOccurs="0">
                 <annotation>
                     <documentation>Het geïnspecteerde oppervlakte van een locatie voor asbestonderzoek</documentation>
                 </annotation>
@@ -1421,9 +1421,6 @@ Gebruikt Domeintabel: MaaiveldType</documentation>
                     <documentation>organisatie: De naam van de leverancier die het bestand heeft geleverd waarin de bodeminformatie is opgeslagen. Dit veld wordt niet gebruikt bij de updatesystematiek tijdens het uitwisselen van bodeminformatie tussen gegevensbeheerders. - organisatie</documentation>
                 </annotation>
             </element>
-            <element name="supplier" type="gml:CodeType" minOccurs="0"/>
-            <element name="version" type="string"/>
-            <element name="dataflow" type="gml:CodeType" minOccurs="0"/>
             <element name="remarks" type="string" minOccurs="0">
                 <annotation>
                     <documentation>opmerkingen: aanvullende informatie over het uitwisselbestand - opmerking</documentation>
@@ -1439,6 +1436,9 @@ Gebruikt Domeintabel: MaaiveldType</documentation>
                     <documentation>verzender: De identificatie van de partij die de bodeminformatie verzendt. Deze identificatie wordt gebruikt voor de updatesystematiek tijdens het uitwisselen vna bodeminformatie tussen gegevensbeheerders. - verzender - bronhouder_id</documentation>
                 </annotation>
             </element>
+            <element name="supplier" type="gml:CodeType" minOccurs="0"/>
+            <element name="version" type="string"/>
+            <element name="dataflow" type="gml:CodeType" minOccurs="0"/>
         </sequence>
     </complexType>
     <complexType name="MetaInformationPropertyType">
@@ -2467,11 +2467,6 @@ In terms of OM, each site is a sampled feature of its plots which are spatial sa
                             </complexContent>
                         </complexType>
                     </element>
-                    <element name="surfaceAreaSize" type="gml:MeasureType" minOccurs="0">
-                        <annotation>
-                            <documentation>Het totale oppervlakte van de ruimtelijke eenheid die gehanteerd is bij het nader asbestonderzoek</documentation>
-                        </annotation>
-                    </element>
                     <element name="position" type="gml:PointPropertyType" minOccurs="0">
                         <annotation>
                             <documentation>is a point coordinate providing the location on earth.</documentation>
@@ -2492,6 +2487,11 @@ In terms of OM, each site is a sampled feature of its plots which are spatial sa
                             <documentation>Het type ruimtelijke groepering of onderzoeks gebied waarmee 1 of meerdere meetpunten bij elkaar tot een groep, meetnet of gebied ingedeeld kunnen worden.
 
 Domeintabel: RuimtelijkOnderzoeksGebiedType</documentation>
+                        </annotation>
+                    </element>
+                    <element name="surfaceAreaSize" type="gml:MeasureType" minOccurs="0">
+                        <annotation>
+                            <documentation>Het totale oppervlakte van de ruimtelijke eenheid die gehanteerd is bij het nader asbestonderzoek</documentation>
                         </annotation>
                     </element>
                     <element name="samplingPlot" type="imsikb0101:PlotPropertyType" minOccurs="0" maxOccurs="unbounded">
