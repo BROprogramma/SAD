@@ -216,9 +216,13 @@
 					<xsl:copy-of select="sikb:createRecord('ERROR', 'immetingen:AnalysisProcess', string-join(('Analysis verwijst niet naar procedure van type: AnalysisProcess; Analysis gml:id =',  $arGUID), ' ') )"/>
 				</xsl:if>
 			</xsl:if>
-		<!-- <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'parameter', 'ERROR')" /> -->
+				</xsl:template>
+			<xsl:template match="immetingen:PhysicalProperty">
+		<xsl:copy-of select="sikb:checkExistence(., 'analyseResultaat', 'quantity', 'ERROR')" />
 		<!-- check nog aanpassen in verband met check op attribuut ipv element -->
-		<xsl:copy-of select="sikb:checkLookupId(., $arGUID, 'parameter', 'Parameter', 'WARNING')"/>
+		<xsl:copy-of select="sikb:checkLookupId(., 'analyseResultaat', 'quantity', 'Parameter', 'WARNING')"/>
+		<xsl:copy-of select="sikb:checkLookupId(., 'analyseResultaat', 'parameter', 'Parameter', 'WARNING')"/>
+		<xsl:copy-of select="sikb:checkLookupId(., 'analyseResultaat', 'condition', 'Hoedanigheid', 'WARNING')"/>
 		<!-- check nog aanpassen in verband met check op attribuut ipv element -->
 	</xsl:template>
 

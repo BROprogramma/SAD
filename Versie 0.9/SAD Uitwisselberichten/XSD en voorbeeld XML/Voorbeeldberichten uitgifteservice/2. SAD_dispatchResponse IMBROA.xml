@@ -45,14 +45,14 @@
                 <sadcom:reregistered>nee</sadcom:reregistered>
             </registrationHistory>
             <featureCollection>
-                                <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_9e0c2e47-5019-4846-bf80-050c79a09ff2" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v14.7.1.xsd">
+                <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_9e0c2e47-5019-4846-bf80-050c79a09ff2" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v14.7.1.xsd">
                     <imsikb0101:metaData>
                         <imsikb0101:application>urn:imsikb0101:Applicaties:id:23</imsikb0101:application>
                         <imsikb0101:date>2018-08-21</imsikb0101:date>
-                        <imsikb0101:organisation>I.T. Works BV</imsikb0101:organisation>
-                        <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:6</imsikb0101:supplier>
+                        <imsikb0101:organisation>BRO LV</imsikb0101:organisation>
+                        <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:26</imsikb0101:supplier>
                         <imsikb0101:version>14.8.0</imsikb0101:version>
-                        <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:4</imsikb0101:dataflow>
+                        <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:9</imsikb0101:dataflow>
                     </imsikb0101:metaData>
                     <imsikb0101:featureMember>
                         <imsikb0101:Project gml:id="_daa6c99f-4eee-44c6-b78e-6b1826057114">
@@ -2161,21 +2161,6 @@
                             </immetingen:identification>
                             <immetingen:name>PB01-Filter1-1</immetingen:name>
                             <immetingen:startTime>2018-03-08T00:00:00+01:00</immetingen:startTime>
-                            <immetingen:remarks>Afwijking: tijdens hagel genomen</immetingen:remarks>
-                            <immetingen:consistsOfPackages>
-                                <immetingen:Package>
-                                    <immetingen:name>1</immetingen:name>
-                                    <immetingen:barcode>1234567</immetingen:barcode>
-                                    <immetingen:packageType>urn:immetingen:MonsterVerpakking:id:1</immetingen:packageType>
-                                </immetingen:Package>
-                            </immetingen:consistsOfPackages>
-                            <immetingen:consistsOfPackages>
-                                <immetingen:Package>
-                                    <immetingen:name>2</immetingen:name>
-                                    <immetingen:barcode>98765431</immetingen:barcode>
-                                    <immetingen:packageType>urn:immetingen:MonsterVerpakking:id:1</immetingen:packageType>
-                                </immetingen:Package>
-                            </immetingen:consistsOfPackages>
                             <imsikb0101:inProject xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
                         </imsikb0101:Sample>
                     </imsikb0101:featureMember>
@@ -2239,20 +2224,13 @@
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
                         <immetingen:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
-                            <immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:12</immetingen:analyticalTechnique>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
                                     <immetingen:lokaalID>9911262c-d247-4aad-8fea-ae095f62b495</immetingen:lokaalID>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
-                            <immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
-                            <immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
-                            <immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:36</immetingen:sampleDestructionMethod>
-                            <immetingen:samplePretreatmentMethod>urn:iimsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
-                            <immetingen:samplePretreatmentDate>2013-07-09</immetingen:samplePretreatmentDate>
                             <immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
-                            <immetingen:analysisOperator xlink:href="#_4ca84d18-be8b-48f6-8fff-a9073da8db27"/>
                         </immetingen:AnalysisProcess>
                     </imsikb0101:featureMember>
                     <!-- Analysis -->
@@ -2276,7 +2254,7 @@
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>ae30a56d-438c-4486-bd82-68b4bb70e4da</immetingen:lokaalID>
+                                    <immetingen:lokaalID>4e2651fb-efa0-4d6a-a48a-001daba223b4</immetingen:lokaalID>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
                             <immetingen:physicalProperty>
@@ -2286,13 +2264,6 @@
                                     <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
-                            <immetingen:statusOfAnalysis>
-                                <immetingen:AnalysisStatus>
-                                    <immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
-                                    <immetingen:dateExpected>2013-10-28</immetingen:dateExpected>
-                                    <immetingen:versionNumber>115</immetingen:versionNumber>
-                                </immetingen:AnalysisStatus>
-                            </immetingen:statusOfAnalysis>
                         </immetingen:Analysis>
                     </imsikb0101:featureMember>
                     <!--Analyse met limietsymbool -->
@@ -2331,13 +2302,6 @@
                                     <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
-                            <immetingen:statusOfAnalysis>
-                                <immetingen:AnalysisStatus>
-                                    <immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
-                                    <immetingen:dateExpected>2013-10-28</immetingen:dateExpected>
-                                    <immetingen:versionNumber>115</immetingen:versionNumber>
-                                </immetingen:AnalysisStatus>
-                            </immetingen:statusOfAnalysis>
                         </immetingen:Analysis>
                     </imsikb0101:featureMember>
                     <!-- Grondwater Analysemonster-->
@@ -2354,16 +2318,12 @@
                             </sam:relatedSamplingFeature>
                             <!-- /Grondwater Veldmonster -->
                             <spec:materialClass xlink:href="urn:immetingen:Compartiment:id:2"/>
-                            <spec:samplingTime>
-                                <gml:TimeInstant gml:id="_89f63e1e-a156-461c-8d77-bbaf108b49a4">
-                                    <gml:timePosition>2013-04-12T11:00:00</gml:timePosition>
-                                </gml:TimeInstant>
-                            </spec:samplingTime>
+                            <spec:samplingTime/>
                             <spec:specimenType xlink:href="urn:immetingen:MonsterType:id:10"/>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</immetingen:lokaalID>
+                                    <immetingen:lokaalID>b1adf8f7-e0cd-4810-a93e-60284f34b3fa</immetingen:lokaalID>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
                             <immetingen:name>WA1</immetingen:name>
@@ -2375,14 +2335,13 @@
                     <imsikb0101:featureMember>
                         <immetingen:Analysis gml:id="_850d533c-4087-4229-aa81-f916569428ed">
                             <om:phenomenonTime/>
-                            <om:resultTime xlink:href="#_1645261c-381e-4af2-a7d5-78fc4e73aa78"/>
+                            <om:resultTime/>
                             <om:procedure xlink:href="#_e911262c-d247-4aad-8fea-ae095f62b495"/>
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_b1adf8f7-e0cd-4810-a93e-60284f34b3fa"/>
                             <om:result xsi:type="immetingen:AnalyticResultType">
                                 <immetingen:numericValue uom="urn:immetingen:Eenheid:id:59">633.2</immetingen:numericValue>
                                 <!-- mg/l -->
-                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
                                 <immetingen:limitSymbol><![CDATA[<]]></immetingen:limitSymbol>
                                 <immetingen:alphanumericValue>633,2 mg/l</immetingen:alphanumericValue>
                             </om:result>
@@ -2400,35 +2359,19 @@
                                     <!-- Zie Aquo parameterlijsten voor juiste combinaties voor Grondwater: www.aquo.nl -->
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
-                            <immetingen:statusOfAnalysis>
-                                <immetingen:AnalysisStatus>
-                                    <immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
-                                    <immetingen:dateExpected>2013-10-28</immetingen:dateExpected>
-                                    <immetingen:versionNumber>115</immetingen:versionNumber>
-                                </immetingen:AnalysisStatus>
-                            </immetingen:statusOfAnalysis>
                         </immetingen:Analysis>
                     </imsikb0101:featureMember>
                     <!-- /Grondwater Analysis-->
                     <!-- Grondwater AnalysisProcess -->
                     <imsikb0101:featureMember>
                         <immetingen:AnalysisProcess gml:id="_e911262c-d247-4aad-8fea-ae095f62b495">
-                            <immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:12</immetingen:analyticalTechnique>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
                                     <immetingen:lokaalID>e911262c-d247-4aad-8fea-ae095f62b495</immetingen:lokaalID>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
-                            <immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
-                            <immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
-                            <immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:36</immetingen:sampleDestructionMethod>
-                            <immetingen:samplePretreatmentMethod>urn:iimsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
-                            <immetingen:samplePretreatmentDate>2013-07-09</immetingen:samplePretreatmentDate>
                             <immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
-                            <immetingen:measurementOrganisation codeSpace="www.sikb.nl">urn:immetingen:Meetinstantie:id:7</immetingen:measurementOrganisation>
-                            <!-- synlab -->
-                            <immetingen:analysisOperator xlink:href="#_4ca84d18-be8b-48f6-8fff-a9073da8db27"/>
                         </immetingen:AnalysisProcess>
                     </imsikb0101:featureMember>
                     <!-- /Grondwater AnalysisProcess -->
