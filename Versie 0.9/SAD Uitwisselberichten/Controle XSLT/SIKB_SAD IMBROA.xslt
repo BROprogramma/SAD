@@ -200,6 +200,31 @@
          
 	</xsl:choose>
 </xsl:template>	
+<xsl:template match="immetingen:Analysis">
+		<xsl:variable name="arGUID" select="@gml:id"/>
+			<xsl:variable select="string(om:result/@*)" name="arType"/>			
+			<xsl:if test="not(contains($arType,'immetingen:AnalyticResultType'))">
+				<xsl:if test="not(contains($arType,'immetingen:MeasureResultType'))">
+					<xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:AnalyticResult', string-join(('Er moet een AnalyticResult of MeasureResult in Analysis aanwezig zijn; Analysis gml:id =',  $arGUID), ' ') )"/>
+				</xsl:if>
+			</xsl:if>
+			<!-- Check AnalysisProcess -->
+			<xsl:variable select="replace(om:procedure/@xlink:href, '#', '')" name="prLiGUID"/>
+			<xsl:variable select="om:procedure/*/@gml:id" name="prInGUID"/>
+			<xsl:if test="concat($prInGUID, '', $prLiGUID) != ''">
+				<xsl:if test="count(//immetingen:AnalysisProcess[@gml:id = concat($prInGUID, '', $prLiGUID)]) != 1">
+					<xsl:copy-of select="sikb:createRecord('ERROR', 'immetingen:AnalysisProcess', string-join(('Analysis verwijst niet naar procedure van type: AnalysisProcess; Analysis gml:id =',  $arGUID), ' ') )"/>
+				</xsl:if>
+			</xsl:if>
+				</xsl:template>
+			<xsl:template match="immetingen:PhysicalProperty">
+		<xsl:copy-of select="sikb:checkExistence(., 'analyseResultaat', 'quantity', 'ERROR')" />
+		<!-- check nog aanpassen in verband met check op attribuut ipv element -->
+		<xsl:copy-of select="sikb:checkLookupId(., 'analyseResultaat', 'quantity', 'Parameter', 'WARNING')"/>
+		<xsl:copy-of select="sikb:checkLookupId(., 'analyseResultaat', 'parameter', 'Parameter', 'WARNING')"/>
+		<xsl:copy-of select="sikb:checkLookupId(., 'analyseResultaat', 'condition', 'Hoedanigheid', 'WARNING')"/>
+		<!-- check nog aanpassen in verband met check op attribuut ipv element -->
+	</xsl:template>
 
 	<!-- FUNCTIONS -->
 	<xsl:function name="sikb:createRecord">
