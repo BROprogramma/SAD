@@ -23,7 +23,7 @@
             <projectType codeSpace="urn:bro:sad:ProjectType">7</projectType>
             <projectCode>PROJECT_1</projectCode>
             <!-- Optional -->
-            <asbestos codeSpace="urn:bro:sad:AsbestosPresence">4</asbestos>
+            <asbestos codeSpace="urn:bro:sad:AsbestosPresence">Nietonderzocht</asbestos>
             <geometry>
                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4258">
                     <!-- 1 or more repetitions -->
@@ -264,6 +264,23 @@
                     <sadcom:analysis>
                         <sadcom:Analysis gml:id="_ae30a56d-438c-4486-bd82-68b4bb70e4da">
                             <sadcom:identification>ae30a56d-438c-4486-bd82-68b4bb70e4da</sadcom:identification>
+                            <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
+                            <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">Pb</sadcom:parameter>
+                            <sadcom:analysisMeasurementValue uom="mg/kg">0.001</sadcom:analysisMeasurementValue>
+                            <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
+                            <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>
+                            <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
+                            <sadcom:analysisProcess>
+                                <sadcom:AnalysisProcess gml:id="_f91e8a3f-b8e9-47d8-ae3f-88e3a11e08c4">
+                                    <sadcom:identification>f91e8a3f-b8e9-47d8-ae3f-88e3a11e08c4</sadcom:identification>
+                                    <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">nen6483:1982nl</sadcom:certification>
+                                </sadcom:AnalysisProcess>
+                            </sadcom:analysisProcess>
+                        </sadcom:Analysis>
+                    </sadcom:analysis>
+                    <sadcom:analysis>
+                        <sadcom:Analysis gml:id="_4e2651fb-efa0-4d6a-a48a-001daba223b4">
+                            <sadcom:identification>4e2651fb-efa0-4d6a-a48a-001daba223b4</sadcom:identification>
                             <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
                             <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">crocdlt</sadcom:parameter>
                             <sadcom:analysisMeasurementValue uom="mg/kg">0.078</sadcom:analysisMeasurementValue>
