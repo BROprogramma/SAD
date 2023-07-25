@@ -2091,7 +2091,6 @@
                             <sam:relatedObservation xlink:href="#_825ce451-4cb3-4476-9dff-62150724a313"/>
                             <sam:relatedObservation xlink:href="#_1b0e4170-cd2e-46b9-8961-dc49d2b0ff3b"/>
                             <sam:relatedObservation xlink:href="#_80f20243-443e-48de-94a3-baaeb0448cee"/>
-                            <sam:relatedObservation xlink:href="#_91f20243-443e-48de-94a3-baaeb0448cee"/>
                             <sam:relatedObservation xlink:href="#_73f20243-443e-48de-94a3-baaeb0448cee"/>
                             <sam:relatedObservation xlink:href="#_62f20243-443e-48de-94a3-baaeb0448cee"/>
                             <sam:relatedObservation xlink:href="#_53f20243-443e-48de-94a3-baaeb0448cee"/>
@@ -2106,6 +2105,12 @@
                                 <sam:SamplingFeatureComplex>
                                     <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:7"/>
                                     <sam:relatedSamplingFeature xlink:href="#_9d0e6631-0268-4929-8303-c9e24f6145e5"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60284f34b3fa"/>
                                 </sam:SamplingFeatureComplex>
                             </sam:relatedSamplingFeature>
                             <spec:materialClass xlink:href="urn:immetingen:compartiment:id:2"/>
@@ -2319,7 +2324,7 @@
                             <sam:relatedSamplingFeature>
                                 <sam:SamplingFeatureComplex>
                                     <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
-                                    <sam:relatedSamplingFeature xlink:href="#_55fcfbe8-0e4c-4ddf-8a76-45975332ccfb"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_ba54949b-99a5-4aca-bb8a-5fe9df74efe3"/>
                                 </sam:SamplingFeatureComplex>
                             </sam:relatedSamplingFeature>
                             <!-- /Grondwater Veldmonster -->
