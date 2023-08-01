@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope 
         xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:dssad="http://www.broservices.nl/xsd/dssad-internal/0.9"        
+        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"                
+        xmlns:gml="http://www.opengis.net/gml/3.2"        
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
+        xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/ 
+                            http://www.broservices.nl/xsd/dssad-internal/0.9 ../dssad-internal-messages.xsd">
     <soap:Body>
-        <dispatchDataResponse
-                xmlns="http://www.broservices.nl/xsd/dssad-internal/0.9"
-                xmlns:gml="http://www.opengis.net/gml/3.2"
-                xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                xsi:schemaLocation="http://www.broservices.nl/xsd/dssad-internal/0.9 ../dssad-internal-messages.xsd">
+        <dssad:dispatchDataResponse>
             <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.2 van de SAD en valideert tegen de XSD van de uitgifteservice.
                 Het is niet gevalideerd door de uitgifteservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
                 xsi:schemaLocation="http://www.broservices.nl/xsd/dssad-internal/1.0 https://schema.broservices.nl/xsd/dssad-internal/1.0/dssad-internal-messages.xsd"/>
             -->
-            <brocom:responseType>dispatch</brocom:responseType>
+            <brocom:responseType>dispatch</brocom:responseType>            
             <brocom:requestReference>SAD uitgifte 1</brocom:requestReference>
             <!-- optional. Alleen aanwezig als responseType = rejection.
             <brocom:rejectionTime>2021-08-15T13:16:17+02:00</brocom:rejectionTime>
@@ -28,7 +27,7 @@
             <brocom:criterionError>... </brocom:criterionError>
             -->
             <!-- optional. Alleen aanwezig als responseType = dispatch. -->
-            <dispatchDocument>
+            <dssad:dispatchDocument>
                 <!-- Expect one of the following options
                 <BRO_DO gml:id="?">?</BRO_DO>
                 <SAD_O gml:id="?">?</SAD_O>
@@ -39,7 +38,7 @@
                     <brocom:deregistered>ja</brocom:deregistered>
                     <brocom:deregistrationTime>2023-01-13T13:15:57+01:00</brocom:deregistrationTime>
                 </brocom:BRO_DO>
-            </dispatchDocument>
-        </dispatchDataResponse>
+            </dssad:dispatchDocument>
+        </dssad:dispatchDataResponse>
     </soap:Body>
 </soap:Envelope>

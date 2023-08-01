@@ -359,9 +359,8 @@ Explanation: In de conclusie staat veelal of er verontreiniging is aangetroffen,
         </xs:sequence>
         <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
     </xs:complexType>
-    <xs:element name="DispatchDataResponse"
-                type="dssad:DispatchDataResponseType"
-                substitutionGroup="brocom:DispatchResponse">
+    <xs:element name="dispatchDataResponse"
+                type="dssad:DispatchDataResponseType">
         <xs:annotation>
             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht DispatchDataResponse is een specialisatie van de abstract klasse DispatchResponse uit de package brocommon, waaraan het een dispatchDocument toevoegt. Met dit bericht worden, als response op een DispatchDataRequest, de gegevens over een specifiek bodemonderzoek registratieobject verzonden naar de aanvrager.</xs:documentation>
         </xs:annotation>
@@ -383,13 +382,7 @@ Explanation: Het gegeven ontbreekt als de BRO geen registratieobject bevat met h
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
-    </xs:complexType>
-    <xs:complexType name="DispatchDataResponsePropertyType">
-        <xs:sequence minOccurs="0">
-            <xs:element ref="dssad:DispatchDataResponse"/>
-        </xs:sequence>
-        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-    </xs:complexType>
+    </xs:complexType>    
     <xs:element name="SAD_O"
                 type="dssad:SAD_OType"
                 substitutionGroup="dssad:SAD_O_DP">

@@ -25,7 +25,7 @@
                 <SAD_O gml:id="?">?</SAD_O>
                 <SAD_O_DP gml:id="?">?</SAD_O_DP>
                 -->
-                <SAD_O_DP gml:id="id_0001">
+                <SAD_O_DP gml:id="id_0001">                
                     <brocom:broId>SAD123456789012</brocom:broId>
                     <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>
                     <!-- Optional: not present in dispatchDocument SAD_O -->
