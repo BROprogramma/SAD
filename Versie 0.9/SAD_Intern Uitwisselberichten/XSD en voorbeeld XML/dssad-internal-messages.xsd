@@ -221,9 +221,8 @@ Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van a
         </xs:sequence>
         <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
     </xs:complexType>
-    <xs:element name="DispatchCharacteristicsResponse"
-                type="dssad:DispatchCharacteristicsResponseType"
-                substitutionGroup="brocom:DispatchResponse">
+    <xs:element name="dispatchCharacteristicsResponse"
+                type="dssad:DispatchCharacteristicsResponseType">
         <xs:annotation>
             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht DispatchCharacteristicsResponse is een specialisatie van DispatchResponse in de package brocommon, waaraan het een attribuut numberOfDocuments en een associatie relatie naar AbstractRegistrationObject in de package brocommon toevoegt.</xs:documentation>
         </xs:annotation>
@@ -248,12 +247,6 @@ Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van a
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
-    </xs:complexType>
-    <xs:complexType name="DispatchCharacteristicsResponsePropertyType">
-        <xs:sequence minOccurs="0">
-            <xs:element ref="dssad:DispatchCharacteristicsResponse"/>
-        </xs:sequence>
-        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
     </xs:complexType>
     <xs:element name="SAD_C"
                 type="dssad:SAD_CType"

@@ -28,6 +28,10 @@
     <wsdl:message name="registrationRequest">
         <wsdl:part element="msg:registrationRequest" name="request"/>
     </wsdl:message>
+    
+    <wsdl:message name="correctionRequest">
+        <wsdl:part element="msg:correctionRequest" name="request"/>
+    </wsdl:message>
 
     <wsdl:message name="intakeResponse">
         <wsdl:part element="msg:intakeResponse" name="response"/>
@@ -57,6 +61,19 @@
     <wsdl:binding name="issad_SOAP" type="tns:issad">
         <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
         <wsdl:operation name="register">
+            <soap:operation soapAction="" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="parseFault">
+                <soap:fault use="literal" name="parseFault"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="correct">
             <soap:operation soapAction="" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
