@@ -21,7 +21,7 @@
             <!--
             <xsd:import namespace="http://www.broservices.nl/xsd/dssad/0.9" schemaLocation="https://schema.broservices.nl/xsd/dssad/0.9/dssad-messages.xsd"/>
             -->
-            <xsd:import namespace="http://www.broservices.nl/xsd/dssad/0.9" schemaLocation="../schema/dssad-messages.xsd"/>
+            <xsd:import namespace="http://www.broservices.nl/xsd/dssad/0.9" schemaLocation="./dssad-messages.xsd"/>
             <!--
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
             -->
@@ -34,6 +34,14 @@
 
     <wsdl:message name="dispatchDataResponse">
         <wsdl:part element="msg:dispatchDataResponse" name="response"/>
+    </wsdl:message>
+    
+    <wsdl:message name="dispatchCharacteristicsRequest">
+        <wsdl:part element="msg:dispatchCharacteristicsRequest" name="request"/>
+    </wsdl:message>
+
+    <wsdl:message name="dispatchCharacteristicsResponse">
+        <wsdl:part element="msg:dispatchCharacteristicsResponse" name="response"/>
     </wsdl:message>
 
     <wsdl:message name="parseSoapFault">

@@ -10,7 +10,7 @@
                   targetNamespace="http://www.broservices.nl/wsdl/issad-internal/0.9">
 
     <wsdl:documentation>
-        This WSDL defines the webservice for the sad intake webservice (GroundwaterMonitoringNet)
+        This WSDL defines the webservice for the sad intake webservice (Site Assessment Data)
         in the context of the base registry subsurface (Basisregistratie Ondergrond).
         This is version 0.9.0
     </wsdl:documentation>
@@ -20,7 +20,7 @@
             <!--
             <xsd:import namespace="http://www.broservices.nl/xsd/issad-internal/0.9" schemaLocation="https://schema.broservices.nl/xsd/issad-internal/0.9/issad-internal-messages.xsd"/>
     -       -->
-            <xsd:import namespace="http://www.broservices.nl/xsd/issad-internal/0.9" schemaLocation="../schema/issad-internal-messages.xsd"/>
+            <xsd:import namespace="http://www.broservices.nl/xsd/issad-internal/0.9" schemaLocation="./issad-internal-messages.xsd"/>
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
         </xsd:schema>
     </wsdl:types>
@@ -46,6 +46,11 @@
             <wsdl:input message="tns:registrationRequest" wsam:Action="http://www.broservices.nl/wsdl/issad/1.0/registrationRequest"/>
             <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wsdl/issad/1.0/intakeResponse"/>
             <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/issad/parseSoapFault"/>
+        </wsdl:operation>
+        <wsdl:operation name="correct">
+            <wsdl:input message="tns:correctionRequest" wsam:Action="http://www.broservices.nl/wus/isbhr-gt/correctionRequest" />
+            <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/isbhr-gt/intakeResponse" />
+            <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/isbhr-gt/parseSoapFault" />
         </wsdl:operation>
     </wsdl:portType>
 
