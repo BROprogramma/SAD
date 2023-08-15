@@ -137,7 +137,7 @@ Explanation: De registratiegeschiedenis van een milieuhygiënisch bodemonderzoek
         <xs:complexContent>
             <xs:extension base="sadcom:AbstractCharacteristicsV2Type">
                 <xs:sequence>
-                    <xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1">
+                    <xs:element name="reportDate" type="sadcom:PartialDateType" minOccurs="0" maxOccurs="1">
                         <xs:annotation>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen.
 Explanation: Het gegeven is alleen aanwezig wanneer het bodemonderzoek (inclusief eventuele monitoring) is gerapporteerd en het onderzoek is afgesloten. Hier wordt overigens niet de datum van het onderzoeksrapport bedoeld. De datum van het onderzoeksrapport wordt vastgelegd bij de gegevensgroep Rapport als rapportdatum. Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal onbekend en niet relevant.</xs:documentation>
