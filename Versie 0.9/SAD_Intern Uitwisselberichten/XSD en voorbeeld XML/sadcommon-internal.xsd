@@ -59,7 +59,7 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
                         </xs:simpleType>
                     </xs:element>
                     <xs:element name="boringDate"
-                                type="xs:date"
+                                type="brocom:PartialDateType"
                                 minOccurs="1"
                                 maxOccurs="1">
                         <xs:annotation>
@@ -389,7 +389,7 @@ Explanation: De einddiepte wordt weergegeven ten opzichte van het lokaal vertica
                         </xs:complexType>
                     </xs:element>
                     <xs:element name="sampleTime"
-                                type="xs:date"
+                                type="brocom:PartialDateType"
                                 minOccurs="1"
                                 maxOccurs="1">
                         <xs:annotation>
@@ -658,7 +658,7 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
                         </xs:simpleType>
                     </xs:element>
                     <xs:element name="sampleTime"
-                                type="xs:date"
+                                type="brocom:PartialDateType"
                                 minOccurs="1"
                                 maxOccurs="1">
                         <xs:annotation>
@@ -1011,7 +1011,7 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
                 </xs:simpleType>
             </xs:element>
             <xs:element name="reportDate"
-                        type="xs:date"
+                        type="brocom:PartialDateType"
                         minOccurs="0"
                         maxOccurs="1">
                 <xs:annotation>

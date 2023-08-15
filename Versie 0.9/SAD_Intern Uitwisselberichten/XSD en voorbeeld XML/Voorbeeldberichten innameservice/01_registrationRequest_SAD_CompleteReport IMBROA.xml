@@ -56,7 +56,7 @@
             <!-- Optional -->
             <report>
                 <sadcom:reportNumber>123123</sadcom:reportNumber>
-                <sadcom:reportDate>2013-07-07</sadcom:reportDate>
+                <sadcom:reportDate><brocom:date>2013-07-07</brocom:date></sadcom:reportDate>
                 <sadcom:reportAuthor>Subliem Voorbeeld Advies B.V.</sadcom:reportAuthor>
                 <sadcom:documentLink>https://www.document.nl/voorbeeldrapport</sadcom:documentLink>
             </report>
@@ -64,7 +64,7 @@
                 <sadcom:Borehole gml:id="_d8401c1a-ec0c-446f-8e45-22d9514f8400">
                     <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>
                     <sadcom:boringName>PB01</sadcom:boringName>
-                    <sadcom:boringDate>2018-03-08</sadcom:boringDate>
+                    <sadcom:boringDate><brocom:date>2018-03-08</brocom:date></sadcom:boringDate>
                     <sadcom:finalDepthBoring uom="m">2</sadcom:finalDepthBoring>
                     <sadcom:deliveredLocation>
                         <gml:Point gml:id="_d38ee87f-9552-464a-8125-e8409b01c5c1" srsName="urn:ogc:def:crs:EPSG::4258">
@@ -174,7 +174,7 @@
                                 <sadcom:GroundwaterSampling gml:id="_ba54949b-99a5-4aca-bb8a-5fe9df74efe3">
                                     <sadcom:identification>ba54949b-99a5-4aca-bb8a-5fe9df74efe3</sadcom:identification>
                                     <sadcom:name>PB01-Filter1-1</sadcom:name>
-                                    <sadcom:sampleTime>2018-03-08</sadcom:sampleTime>
+                                    <sadcom:sampleTime><brocom:date>2018-03-08</brocom:date></sadcom:sampleTime>
                                     <sadcom:groundwatersampleAnalysis>
                                         <sadcom:GroundwaterAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60284f34b3fa">
                                             <sadcom:identification>b1adf8f7-e0cd-4810-a93e-60284f34b3fa</sadcom:identification>
@@ -233,7 +233,7 @@
                             <sadcom:sampleName>POT1</sadcom:sampleName>
                             <sadcom:beginDepth uom="m">0.0</sadcom:beginDepth>
                             <sadcom:endDepth uom="m">0.5</sadcom:endDepth>
-                            <sadcom:sampleTime>2018-03-08</sadcom:sampleTime>
+                            <sadcom:sampleTime><brocom:date>2018-03-08</brocom:date></sadcom:sampleTime>
                         </sadcom:SoilSampling>
                     </sadcom:soilSampling>
                     <sadcom:soilSampling>
@@ -242,7 +242,7 @@
                             <sadcom:sampleName>POT2</sadcom:sampleName>
                             <sadcom:beginDepth uom="m">0.5</sadcom:beginDepth>
                             <sadcom:endDepth uom="m">1.2</sadcom:endDepth>
-                            <sadcom:sampleTime>2018-03-08</sadcom:sampleTime>
+                            <sadcom:sampleTime><brocom:date>2018-03-08</brocom:date></sadcom:sampleTime>
                         </sadcom:SoilSampling>
                     </sadcom:soilSampling>
                     <sadcom:soilSampling>
@@ -251,7 +251,7 @@
                             <sadcom:sampleName>POT3</sadcom:sampleName>
                             <sadcom:beginDepth uom="m">1.2</sadcom:beginDepth>
                             <sadcom:endDepth uom="m">2.0</sadcom:endDepth>
-                            <sadcom:sampleTime>2018-03-08</sadcom:sampleTime>
+                            <sadcom:sampleTime><brocom:date>2018-03-08</brocom:date></sadcom:sampleTime>
                         </sadcom:SoilSampling>
                     </sadcom:soilSampling>
                 </sadcom:Borehole>
