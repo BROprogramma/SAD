@@ -170,7 +170,7 @@
                             </sadcom:deliveredVerticalPosition>
                             <sadcom:upperBoundary uom="m">1.20</sadcom:upperBoundary>
                             <sadcom:lowerBoundary uom="m">1.60</sadcom:lowerBoundary>
-                            <sadcom:Groundwatersampling>
+                            <sadcom:groundwaterSampling>
                                 <sadcom:GroundwaterSampling gml:id="_ba54949b-99a5-4aca-bb8a-5fe9df74efe3">
                                     <sadcom:identification>ba54949b-99a5-4aca-bb8a-5fe9df74efe3</sadcom:identification>
                                     <sadcom:name>PB01-Filter1-1</sadcom:name>
@@ -224,7 +224,7 @@
                                         </sadcom:FieldMeasurement>
                                     </sadcom:fieldMeasurement>
                                 </sadcom:GroundwaterSampling>
-                            </sadcom:Groundwatersampling>
+                            </sadcom:groundwaterSampling>
                         </sadcom:MonitoringTube>
                     </sadcom:monitoringTube>
                     <sadcom:soilSampling>

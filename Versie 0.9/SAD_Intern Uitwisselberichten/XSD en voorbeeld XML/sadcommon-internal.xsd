@@ -607,7 +607,7 @@ Explanation: De begindiepte wordt weergegeven ten opzichte van het lokaal vertic
                     </xs:element>
                     <xs:element minOccurs="0"
                                 maxOccurs="unbounded"
-                                name="Groundwatersampling"
+                                name="groundwaterSampling"
                                 nillable="false"
                                 type="sadcom:GroundwaterSamplingPropertyType">
                         <xs:annotation>
