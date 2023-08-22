@@ -173,10 +173,10 @@
                                 <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bopb</sadcom:localVerticalReferencePoint>
                                 <!-- BOPB -->
                                 <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">maaiveld</sadcom:verticalDatum>
-                                <sadcom:offset uom="m">0.22</sadcom:offset>
+                                <sadcom:offset uom="m">0.20</sadcom:offset>
                             </sadcom:deliveredVerticalPosition>
-                            <sadcom:upperBoundary uom="m">1.20</sadcom:upperBoundary>
-                            <sadcom:lowerBoundary uom="m">1.60</sadcom:lowerBoundary>
+                            <sadcom:upperBoundary uom="m">1.40</sadcom:upperBoundary>
+                            <sadcom:lowerBoundary uom="m">1.80</sadcom:lowerBoundary>
                             <sadcom:groundwaterSampling>
                                 <sadcom:GroundwaterSampling gml:id="_ba54949b-99a5-4aca-bb8a-5fe9df74efe3">
                                     <sadcom:identification>ba54949b-99a5-4aca-bb8a-5fe9df74efe3</sadcom:identification>
