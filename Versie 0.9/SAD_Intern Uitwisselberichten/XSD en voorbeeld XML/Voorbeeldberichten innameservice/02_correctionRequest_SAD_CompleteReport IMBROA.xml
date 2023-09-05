@@ -17,7 +17,7 @@
             <objectIdAccountableParty>objectID_from_BIS</objectIdAccountableParty>
             <deliveryContext codeSpace="urn:bro:sad:InvestigationReason">archiefoverdracht</deliveryContext>
             <reportDate>
-                <brocom:date>2023-04-25</brocom:date>
+                <brocom:date>2019-01-02</brocom:date>
             </reportDate>
             <identification>daa6c99f-4eee-44c6-b789-6b1826057114</identification>
             <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>
@@ -60,7 +60,7 @@
             <report>
                 <sadcom:reportNumber>123123</sadcom:reportNumber>
                 <sadcom:reportDate>
-                    <brocom:date>2013-07-07</brocom:date>
+                    <brocom:date>2019-01-02</brocom:date>
                 </sadcom:reportDate>
                 <sadcom:reportAuthor>Subliem Voorbeeld Advies B.V.</sadcom:reportAuthor>
                 <sadcom:documentLink>https://www.document.nl/voorbeeldrapport</sadcom:documentLink>
@@ -182,7 +182,7 @@
                                     <sadcom:identification>ba54949b-99a5-4aca-bb8a-5fe9df74efe3</sadcom:identification>
                                     <sadcom:name>PB01-Filter1-1</sadcom:name>
                                     <sadcom:sampleTime>
-                                        <brocom:date>2018-03-08</brocom:date>
+                                        <brocom:date>2018-04-09</brocom:date>
                                     </sadcom:sampleTime>
                                     <sadcom:groundwatersampleAnalysis>
                                         <sadcom:GroundwaterAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60284f34b3fa">
@@ -265,7 +265,7 @@
                             <sadcom:beginDepth uom="m">1.2</sadcom:beginDepth>
                             <sadcom:endDepth uom="m">2.0</sadcom:endDepth>
                             <sadcom:sampleTime>
-                                <brocom:date>2013-07-08</brocom:date>
+                                <brocom:date>2018-03-08</brocom:date>
                             </sadcom:sampleTime>
                         </sadcom:SoilSampling>
                     </sadcom:soilSampling>

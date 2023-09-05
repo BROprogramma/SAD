@@ -17,7 +17,7 @@
             <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>
             <deliveryContext codeSpace="urn:bro:sad:InvestigationReason">orienterendOnderzoek</deliveryContext>
             <reportDate>
-                <sadcom:date>2023-02-09</sadcom:date>
+                <sadcom:date>2019-01-02</sadcom:date>
             </reportDate>
             <standardizedLocation>
                 <sadcom:location>
@@ -85,7 +85,7 @@
                             <imsikb0101:projectCode>SIKB_PROT_2001_2002</imsikb0101:projectCode>
                             <imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:1</imsikb0101:projectType>
                             <imsikb0101:remarks>Opmerking bij het project</imsikb0101:remarks>
-                            <imsikb0101:reportDate>2013-07-07</imsikb0101:reportDate>
+                            <imsikb0101:reportDate>2019-01-02</imsikb0101:reportDate>
                             <imsikb0101:reportNumber>123123</imsikb0101:reportNumber>
                             <imsikb0101:stakeholders xlink:href="#_9b5e21b3-3282-433f-b584-54471298e928"/>
                             <imsikb0101:stakeholders xlink:href="#_8b2e21b3-3282-433f-b584-54471298e928"/>
@@ -2160,7 +2160,7 @@
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
                             <immetingen:name>PB01-Filter1-1</immetingen:name>
-                            <immetingen:startTime>2018-03-08T00:00:00+01:00</immetingen:startTime>
+                            <immetingen:startTime>2018-04-09T00:00:00+01:00</immetingen:startTime>
                             <imsikb0101:inProject xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
                         </imsikb0101:Sample>
                     </imsikb0101:featureMember>
@@ -2208,7 +2208,7 @@
                             <spec:materialClass xlink:href="urn:immetingen:Compartiment:id:1"/>
                             <spec:samplingTime>
                                 <gml:TimeInstant gml:id="_89f63e1e-a156-461c-8d77-bbaf108b60a4">
-                                    <gml:timePosition>2013-04-12T11:00:00+01:00</gml:timePosition>
+                                    <gml:timePosition>2018-03-09T11:00:00+01:00</gml:timePosition>
                                 </gml:TimeInstant>
                             </spec:samplingTime>
                             <spec:specimenType xlink:href="urn:immetingen:Monstertype:id:10"/>
@@ -2239,7 +2239,7 @@
                             <om:phenomenonTime/>
                             <om:resultTime>
                                 <gml:TimeInstant gml:id="_1645261c-381e-4af2-a7d5-78fc4e73aa78">
-                                    <gml:timePosition>2013-04-09T18:22:55</gml:timePosition>
+                                    <gml:timePosition>2018-04-12T18:22:55</gml:timePosition>
                                 </gml:TimeInstant>
                             </om:resultTime>
                             <om:procedure xlink:href="#_9911262c-d247-4aad-8fea-ae095f62b495"/>
@@ -2272,7 +2272,7 @@
                             <om:phenomenonTime/>
                             <om:resultTime>
                                 <gml:TimeInstant gml:id="_1645261c-381e-4af2-a7d5-78fc4e73aa34">
-                                    <gml:timePosition>2013-04-09T18:22:55</gml:timePosition>
+                                    <gml:timePosition>2018-04-12T18:22:55</gml:timePosition>
                                 </gml:TimeInstant>
                             </om:resultTime>
                             <om:procedure xlink:href="#_9911262c-d247-4aad-8fea-ae095f62b495"/>

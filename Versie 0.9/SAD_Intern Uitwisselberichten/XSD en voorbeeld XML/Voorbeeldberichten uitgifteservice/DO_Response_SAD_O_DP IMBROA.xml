@@ -35,7 +35,7 @@
                     <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
                     <deliveryContext codeSpace="urn:bro:sad:InvestigationReason">vermoedenVerontreiniging</deliveryContext>
                     <reportDate>
-                        <brocom:date>2013-07-07</brocom:date>
+                        <brocom:date>2019-01-02</brocom:date>
                     </reportDate>
                     <identification>ee056d3e-a634-11ed-afa1-0242ac120002</identification>
                     <name>Amersfoort-Vathorst-Kasteellaan-PFAS-onderzoek</name>
@@ -110,7 +110,7 @@
                     <!-- Optional -->
                     <report>
                         <sadcom:reportNumber>123123</sadcom:reportNumber>
-                        <sadcom:reportDate><brocom:date>2013-07-07</brocom:date></sadcom:reportDate>
+                        <sadcom:reportDate><brocom:date>2019-01-02</brocom:date></sadcom:reportDate>
                         <sadcom:reportAuthor>Subliem Voorbeeld Advies B.V.</sadcom:reportAuthor>
                         <sadcom:documentLink>https://www.document.nl/voorbeeldrapport</sadcom:documentLink>
                     </report>
@@ -228,7 +228,7 @@
                                         <sadcom:GroundwaterSampling gml:id="_ba54949b-99a5-4aca-bb8a-5fe9df74efe3">
                                             <sadcom:identification>ba54949b-99a5-4aca-bb8a-5fe9df74efe3</sadcom:identification>
                                             <sadcom:name>PB01-Filter1-1</sadcom:name>
-                                            <sadcom:sampleTime><brocom:date>2018-03-08</brocom:date></sadcom:sampleTime>
+                                            <sadcom:sampleTime><brocom:date>2018-04-09</brocom:date></sadcom:sampleTime>
                                             <sadcom:groundwatersampleAnalysis>
                                                 <sadcom:GroundwaterAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60284f34b3fa">
                                                     <sadcom:identification>b1adf8f7-e0cd-4810-a93e-60284f34b3fa</sadcom:identification>
@@ -305,7 +305,7 @@
                                     <sadcom:sampleName>POT3</sadcom:sampleName>
                                     <sadcom:beginDepth uom="m">1.2</sadcom:beginDepth>
                                     <sadcom:endDepth uom="m">2.0</sadcom:endDepth>
-                                    <sadcom:sampleTime><brocom:date>2013-07-08</brocom:date></sadcom:sampleTime>
+                                    <sadcom:sampleTime><brocom:date>2018-03-08</brocom:date></sadcom:sampleTime>
                                 </sadcom:SoilSampling>
                             </sadcom:soilSampling>
                         </sadcom:Borehole>
