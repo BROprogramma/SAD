@@ -36,6 +36,6 @@ var respecConfig = {
   shortName: "sad",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/SAD",
-//  previousPublishDate: "2021-11-19",
-//  previousStatus: "GN-VV",
+ previousPublishDate: "2023-07-05",
+  previousStatus: "GN-CV",
 };
