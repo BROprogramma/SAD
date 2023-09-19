@@ -3,7 +3,7 @@ var respecConfig = {
   specType: "IM",
   subtitle: "Versie 0.9",
   //canonicalURI: "WV",
-  publishDate: "2023-07-05",
+  //publishDate: "2023-07-05",
   maxTocLevel: 4,
  logos: [{
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
