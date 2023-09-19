@@ -3,7 +3,7 @@ let respecConfig = {
   useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
   title: "Basisregistratie Ondergrond Catalogus Milieuhygiënisch bodemonderzoek",
-  subtitle: "versie 0.99",
+  subtitle: "versie 0.9x",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie
@@ -30,7 +30,7 @@ let respecConfig = {
   shortName: "sad",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2023-09-30",
+  publishDate: "2023-09-19",
   //custom header lines  
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
   //publishVersion: "0.0.2",
@@ -67,7 +67,7 @@ let respecConfig = {
       }
      ],
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/BROprogramma/SLD",
+  github: "https://github.com/BROprogramma/SAD",
   // Create PDF and link to file in header (optional):
   //alternateFormats: [{label: "pdf", uri: "template.pdf",},],
 };
