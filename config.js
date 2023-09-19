@@ -1,7 +1,7 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+ // specStatus: "GN-WV",
   specType: "IM",
-  subtitle: "Versie 0.9",
+  //subtitle: "Versie 0.9",
   //canonicalURI: "WV",
   //publishDate: "2023-07-05",
   maxTocLevel: 4,
