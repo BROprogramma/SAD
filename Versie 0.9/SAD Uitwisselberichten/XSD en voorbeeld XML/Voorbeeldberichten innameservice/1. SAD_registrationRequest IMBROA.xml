@@ -2020,8 +2020,9 @@
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
                             <immetingen:physicalProperty>
-                                <immetingen:PhysicalProperty>
-                                    <immetingen:quantity>urn:immetingen:parameter:id:1701</immetingen:quantity>
+                                <immetingen:PhysicalProperty>                                
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2720</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1701</immetingen:parameter>
                                     <immetingen:condition/>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
