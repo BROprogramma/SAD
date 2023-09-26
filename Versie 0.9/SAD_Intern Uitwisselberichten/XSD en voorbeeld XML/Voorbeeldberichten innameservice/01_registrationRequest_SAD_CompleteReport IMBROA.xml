@@ -44,7 +44,7 @@
                 </gml:MultiSurface>
             </geometry>
             <!-- Optional -->
-            <investigationConclusion>xxxxxxxxxxx</investigationConclusion>
+            <investigationConclusion>Dit is de conclusie van het onderzoek.</investigationConclusion>
             <!-- Optional -->
             <researchOperator>
                 <!-- choice of:
@@ -146,7 +146,10 @@
                                             <sadcom:lowerBoundary uom="m">2.0</sadcom:lowerBoundary>
                                             <sadcom:oilWaterReaction codeSpace="urn:bro:sad:OilWaterReaction">geen</sadcom:oilWaterReaction>
                                             <sadcom:soilType>
-                                                <sadcom:soilNameNEN5104 codeSpace="urn:bro:sad:SoilTypeNEN5104">zwakSiltigeKlei</sadcom:soilNameNEN5104>
+                                                <sadcom:soilNameNEN5104 codeSpace="urn:bro:sad:SoilTypeNEN5104">zwakZandigGrind</sadcom:soilNameNEN5104>                                                
+                                                <sadcom:gravelMedianClass codeSpace="urn:bro:sad:GravelMedianClass">grof</sadcom:gravelMedianClass>
+                                                <sadcom:gravelContentClass codeSpace="urn:bro:sad:GravelContentClass">zwakGrindig</sadcom:gravelContentClass>
+                                                <sadcom:organicMatterContentClass codeSpace="urn:bro:sad:OrganicMatterContentClass">matigHumeus</sadcom:organicMatterContentClass>
                                             </sadcom:soilType>
                                             <sadcom:colour>
                                                 <sadcom:mainColour codeSpace="urn:bro:sad:ColourType">bruin</sadcom:mainColour>
@@ -221,6 +224,14 @@
                                             <sadcom:condition codeSpace="urn:bro:sad:Condition">NVT</sadcom:condition>
                                             <!-- Geleidendheid Eenheid wordt op dit moment niet als een apart veld meegegeven, er zijn nu nog maar 2 meetwaardes, Geleidendheid en PH. Ph is dimensieloos-->
                                             <sadcom:fieldMeasurementValue uom="dimensieloos">6.5</sadcom:fieldMeasurementValue>
+                                        </sadcom:FieldMeasurement>
+                                    </sadcom:fieldMeasurement>
+                                    <sadcom:fieldMeasurement>
+                                        <sadcom:FieldMeasurement gml:id="_72f20243-443e-48de-94a3-baaeb0448cee">
+                                            <sadcom:quantity codeSpace="urn:bro:sad:Quantity">verzadigingsgraad</sadcom:quantity>
+                                            <sadcom:condition codeSpace="urn:bro:sad:Condition">NVT</sadcom:condition>
+                                            <!-- Geleidendheid Eenheid wordt op dit moment niet als een apart veld meegegeven, er zijn nu nog maar 2 meetwaardes, Geleidendheid en PH. Ph is dimensieloos-->
+                                            <sadcom:fieldMeasurementValue uom="%">12</sadcom:fieldMeasurementValue>
                                         </sadcom:FieldMeasurement>
                                     </sadcom:fieldMeasurement>
                                 </sadcom:GroundwaterSampling>

@@ -29,7 +29,8 @@
                             <imsikb0101:asbestos>urn:imsikb0101:AsbestAanwezigheid:id:4</imsikb0101:asbestos>
                             <imsikb0101:assesorConclusion>xxxxxxxxxxx</imsikb0101:assesorConclusion>
                             <imsikb0101:assignmentCode>xxxxxxxxxxx</imsikb0101:assignmentCode>
-                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>
+                            <imsikb0101:investigationConclusion>Dit is de conclusie van het onderzoek.</imsikb0101:investigationConclusion>
+                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>                            
                             <imsikb0101:geometry>
                                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb">
                                     <gml:surfaceMember>
@@ -1376,7 +1377,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_0f9c0e6c-b093-4548-8ffe-2e481c6af3a7"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:bodemsoort:id:6</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:bodemsoort:id:21</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -1385,9 +1386,69 @@
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
                             <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:11</immetingen:indicator>
-                            <immetingen:remarks>Klei humeus sterk</immetingen:remarks>
+                            <immetingen:remarks>Grind zwak zandig</immetingen:remarks>
                         </immetingen:Characteristic>
                     </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_75780622-9e7d-4fe5-80b1-5c23038f93b0">
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_cc256d2b-c8af-454e-b249-91b2a38116e1"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemsoortMediaan:id:6</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>75780622-9e7d-4fe5-80b1-5c23038f93b0</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:12</immetingen:indicator>
+                            <immetingen:remarks>grof</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_95780622-9e7d-4fe5-80b1-5c23038f93b0">
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_cc256d2b-c8af-454e-b249-91b2a38116e1"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:GrindGehalte:id:2</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>95780622-9e7d-4fe5-80b1-5c23038f93b0</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:9</immetingen:indicator>
+                            <immetingen:remarks>grindgehalte: zwakGrindig</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_85780622-9e7d-4fe5-80b1-5c23038f93b0">
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_cc256d2b-c8af-454e-b249-91b2a38116e1"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:OrganischeStofGehalte:id:3</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>85780622-9e7d-4fe5-80b1-5c23038f93b0</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:10</immetingen:indicator>
+                            <immetingen:remarks>organishestofgehalte: matigHumeus</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>                    
                     <imsikb0101:featureMember>
                         <immetingen:Characteristic gml:id="_e428b99f-e7d7-4275-9142-2c861211bfb0">
                             <om:phenomenonTime/>
@@ -2022,6 +2083,32 @@
                             <immetingen:physicalProperty>
                                 <immetingen:PhysicalProperty>                                
                                     <immetingen:quantity>urn:immetingen:parameter:id:2720</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1701</immetingen:parameter>
+                                    <immetingen:condition/>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember> 
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_72f20243-443e-48de-94a3-baaeb0448cee">
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:parameter/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_ba54949b-99a5-4aca-bb8a-5fe9df74efe3"/>
+                            <om:result xsi:type="immetingen:MeasureResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:1">12</immetingen:numericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>72f20243-443e-48de-94a3-baaeb0448cee</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>                                
+                                    <immetingen:quantity>urn:immetingen:parameter:id:4712</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:1701</immetingen:parameter>
                                     <immetingen:condition/>
                                 </immetingen:PhysicalProperty>
