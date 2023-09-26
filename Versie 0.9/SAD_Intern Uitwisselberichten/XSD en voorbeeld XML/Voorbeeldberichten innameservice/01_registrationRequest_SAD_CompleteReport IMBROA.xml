@@ -270,8 +270,8 @@
                             <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>
                             <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
                             <sadcom:analysisProcess>
-                                <sadcom:AnalysisProcess gml:id="_f91e8a3f-b8e9-47d8-ae3f-88e3a11e08c4">
-                                    <sadcom:identification>f91e8a3f-b8e9-47d8-ae3f-88e3a11e08c4</sadcom:identification>
+                                <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
+                                    <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>
                                     <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">nen6483:1982nl</sadcom:certification>
                                 </sadcom:AnalysisProcess>
                             </sadcom:analysisProcess>
@@ -285,11 +285,7 @@
                             <sadcom:analysisMeasurementValue uom="mg/kg">0.078</sadcom:analysisMeasurementValue>
                             <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
                             <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
-                            <sadcom:analysisProcess>
-                                <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
-                                    <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>
-                                    <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">nen6483:1982nl</sadcom:certification>
-                                </sadcom:AnalysisProcess>
+                            <sadcom:analysisProcess xlink:href="#_9911262c-d247-4aad-8fea-ae095f62b495">                                
                             </sadcom:analysisProcess>
                         </sadcom:Analysis>
                     </sadcom:analysis>
