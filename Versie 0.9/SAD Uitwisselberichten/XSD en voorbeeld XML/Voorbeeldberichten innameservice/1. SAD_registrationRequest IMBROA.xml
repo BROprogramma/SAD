@@ -2355,7 +2355,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_b1adf8f7-e0cd-4810-a93e-60284f34b3fa"/>
                             <om:result xsi:type="immetingen:AnalyticResultType">
-                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:59">633.2</immetingen:numericValue>
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:60">633.2</immetingen:numericValue>
                                 <!-- mg/l -->
                                 <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
                                 <immetingen:limitSymbol><![CDATA[<]]></immetingen:limitSymbol>
