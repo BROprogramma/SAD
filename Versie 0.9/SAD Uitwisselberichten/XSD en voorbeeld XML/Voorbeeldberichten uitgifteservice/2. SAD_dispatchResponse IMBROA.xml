@@ -202,10 +202,10 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
                             <om:result xsi:type="immetingen:AnalyticResultType">
-                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">0.078</immetingen:numericValue>
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:19">0.078</immetingen:numericValue>
                                 <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
                                 <immetingen:limitSymbol><![CDATA[<]]></immetingen:limitSymbol>
-                                <immetingen:alphanumericValue>0.078 mg/kg ds</immetingen:alphanumericValue>
+                                <immetingen:alphanumericValue>0.078 cm</immetingen:alphanumericValue>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -2340,7 +2340,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_b1adf8f7-e0cd-4810-a93e-60284f34b3fa"/>
                             <om:result xsi:type="immetingen:AnalyticResultType">
-                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:59">633.2</immetingen:numericValue>
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:60">633.2</immetingen:numericValue>
                                 <!-- mg/l -->
                                 <immetingen:limitSymbol><![CDATA[<]]></immetingen:limitSymbol>
                                 <immetingen:alphanumericValue>633,2 mg/l</immetingen:alphanumericValue>
