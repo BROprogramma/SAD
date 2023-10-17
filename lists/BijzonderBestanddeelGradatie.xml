@@ -8,6 +8,20 @@
         <Omschrijving>zwak (&lt;5%)</Omschrijving>
     </BijzonderBestanddeelGradatie>
     <BijzonderBestanddeelGradatie>
+        <Waarde>lenzen</Waarde>
+        <SIKB0101ID>2</SIKB0101ID>
+        <IMBRO></IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>lenzen</Omschrijving>
+    </BijzonderBestanddeelGradatie>
+    <BijzonderBestanddeelGradatie>
+        <Waarde>insluitingen</Waarde>
+        <SIKB0101ID>3</SIKB0101ID>
+        <IMBRO></IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>insluitingen</Omschrijving>
+    </BijzonderBestanddeelGradatie>
+    <BijzonderBestanddeelGradatie>
         <Waarde>matig</Waarde>
         <SIKB0101ID>4</SIKB0101ID>
         <IMBRO/>
@@ -48,5 +62,19 @@
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>resten</Omschrijving>
+    </BijzonderBestanddeelGradatie>
+    <BijzonderBestanddeelGradatie>
+        <Waarde>brokken</Waarde>
+        <SIKB0101ID>10</SIKB0101ID>
+        <IMBRO></IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>brokken</Omschrijving>
+    </BijzonderBestanddeelGradatie>
+    <BijzonderBestanddeelGradatie>
+        <Waarde>laagjes</Waarde>
+        <SIKB0101ID>11</SIKB0101ID>
+        <IMBRO></IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>laagjes</Omschrijving>
     </BijzonderBestanddeelGradatie>
 </domeintabel>

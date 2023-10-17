@@ -22,21 +22,21 @@
         <Omschrijving>Een beperkt bodemonderzoek met als doel te onderzoeken of er sprake is van bodemverontreiniging</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>bodemsaneringBedrijvenBsb)</Waarde>
+        <Waarde>bodemSaneringBedrijven</Waarde>
         <SIKB0101ID>4</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>Een bodemonderzoek met als doel te onderzoeken of er sprake is van bodemverontreiniging in het kader van de algemene maatregel van bestuur: bodemsanering van in gebruik zijnde bedrijfsterreinen</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>verkennendOnderzoekNen 5740</Waarde>
+        <Waarde>verkennendOnderzoekNEN5740</Waarde>
         <SIKB0101ID>5</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>Een bodemonderzoek volgens norm NEN 5740 die beschrijft welke bodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de bodemkwaliteit op een locatie</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>verkennendOnderzoekNvn 5740</Waarde>
+        <Waarde>verkennendOnderzoekNVN5740</Waarde>
         <SIKB0101ID>6</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -85,7 +85,7 @@
         <Omschrijving>Een rapportage waarin wordt beschreven welke (na)zorgmaatregelen bij een bodemsanering zijn getroffen</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>briefrapport</Waarde>
+        <Waarde>briefRapport</Waarde>
         <SIKB0101ID>14</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -120,7 +120,7 @@
         <Omschrijving>Een rapport dat het onderzoek naar de kwaliteit van een bouwstof (inclusief grond) beschrijft, en is opgesteld in het kader van het voormalige Bouwstoffenbesluit</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>preHo</Waarde>
+        <Waarde>preHO</Waarde>
         <SIKB0101ID>19</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -134,7 +134,7 @@
         <Omschrijving>Een bodemonderzoek dat is verricht bij een ondergrondse tank in het kader van het Besluit Opslag Ondergrondse Tanks (BOOT)</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>asbOnderzoekNen 5707</Waarde>
+        <Waarde>asbestOnderzoekNEN5707</Waarde>
         <SIKB0101ID>21</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -162,14 +162,14 @@
         <Omschrijving>Een onderzoek dat is uitgevoerd volgens het onderzoeksprotocol voor een eerste evaluatie van bodemverontreiniging op voormalige stortplaatsen</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>versnellingsprotocolSpoedlocaties</Waarde>
+        <Waarde>versnellingsProtocolSpoedlocaties</Waarde>
         <SIKB0101ID>34</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>Onderzoek, uitgevoerd volgens de handreiking Identificatie Spoedlocaties ten behoeve van snelle schifting op potentieel spoed/geen spoed.</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>organisatiespecifiekOnderzoek</Waarde>
+        <Waarde>organisatieSpecifiekOnderzoek</Waarde>
         <SIKB0101ID>35</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -190,14 +190,14 @@
         <Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging c6nform NEN 5755, gecombineerd met een grondonderzoek naar asbest volgens norm NEN 5707.</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>naderEnWaterbodemonderzoek</Waarde>
+        <Waarde>naderLandEnWaterbodemonderzoek</Waarde>
         <SIKB0101ID>42</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging op landbodem conform NEN 5755, gecombineerd met een  Nader Onderzoek voor waterbodems conform  richtlijn AKWA 01.005, RIZA-nota 2001.052)</Omschrijving>
     </TypeOnderzoek>
     <TypeOnderzoek>
-        <Waarde>onderzoekNormNen5897</Waarde>
+        <Waarde>onderzoekNormNEN5897</Waarde>
         <SIKB0101ID>43</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>

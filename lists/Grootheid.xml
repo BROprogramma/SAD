@@ -5,83 +5,83 @@
         <SIKB0101ID>1118</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>1 (%)</ToegestaneEenheid>
+        <ToegestaneEenheid>procent (1)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>zuurgraad</Waarde>
         <SIKB0101ID>1398</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>119 (Dimensieloos)</ToegestaneEenheid>
+        <ToegestaneEenheid>dimensieloos (119)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>redoxpotentiaal</Waarde>
         <SIKB0101ID>1456</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>75 (Mv)</ToegestaneEenheid>
+        <ToegestaneEenheid>millivolt (75)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>temperatuur</Waarde>
         <SIKB0101ID>1522</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>8 (C)</ToegestaneEenheid>
+        <ToegestaneEenheid>celcius (8)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>troebelheid</Waarde>
         <SIKB0101ID>2031</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>258 (NTU)</ToegestaneEenheid>
+        <ToegestaneEenheid>nephelometric turbidity unit (258)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>massaConcentratie</Waarde>
         <SIKB0101ID>2720</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>14 (µg/l)</ToegestaneEenheid>
+        <ToegestaneEenheid>microgram per liter (14), procent (1) </ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>massaFractie</Waarde>
         <SIKB0101ID>2725</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>58 (mg/kg)</ToegestaneEenheid>
+        <ToegestaneEenheid>milligram per kilogram (58), procent (1)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>diepte</Waarde>
         <SIKB0101ID>3343</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>115 (m)</ToegestaneEenheid>
+        <ToegestaneEenheid>meter (115)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>geleidendheid</Waarde>
         <SIKB0101ID>3548</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>18 (µS/cm)</ToegestaneEenheid>
+        <ToegestaneEenheid>microsiemens per centimeter (18)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>verzadigingsgraad</Waarde>
         <SIKB0101ID>4712</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>1 (%)</ToegestaneEenheid>
+        <ToegestaneEenheid>procent (1)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>waterhoogte</Waarde>
         <SIKB0101ID>4724</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>115 (m)</ToegestaneEenheid>
+        <ToegestaneEenheid>meter (115)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>pidMeting</Waarde>
         <SIKB0101ID>5169</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>132 (ppm)</ToegestaneEenheid>
+        <ToegestaneEenheid>parts per million (132)</ToegestaneEenheid>
     </Grootheid>
 </domeintabel>
