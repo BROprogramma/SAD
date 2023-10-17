@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <dispatchDataResponse xmlns="http://www.broservices.nl/xsd/dssad-internal/0.9" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/dssad-internal/0.9 ../dssad-internal-messages.xsd">
+            <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.9 van de SAD en valideert tegen de XSD van de uitgifteservice.
+                Het is niet gevalideerd door de uitgifteservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
+            -->
+            <brocom:responseType>dispatch</brocom:responseType>
+            <brocom:requestReference>SAD uitgifte 1</brocom:requestReference>
+            <!-- optional. Alleen aanwezig als responseType = rejection.
+            <brocom:rejectionTime>2021-08-15T13:16:17+02:00</brocom:rejectionTime>
+            -->
+            <!-- optional. Alleen aanwezig als responseType = dispatch. -->
+            <brocom:dispatchTime>2023-01-14T10:55:00+01:00</brocom:dispatchTime>
+            <!-- optional. Alleen aanwezig als responseType = rejection.
+            <brocom:rejectionReason>...</brocom:rejectionReason>
+            -->
+            <!-- 0 or more repetitions: Alleen aanwezig als responseType = rejection.
+            <brocom:criterionError>... </brocom:criterionError>
+            -->
+            <!-- optional. Alleen aanwezig als responseType = dispatch. -->
+            <dispatchDocument>
+                <!-- Expect one of the following options
+                <BRO_DO gml:id="?">?</BRO_DO>
+                <SAD_O gml:id="?">?</SAD_O>
+                <SAD_O_DP gml:id="?">?</SAD_O_DP>
+                -->
+                <SAD_O_DP gml:id="id_0001">                
+                    <brocom:broId>SAD123456789012</brocom:broId>
+                    <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>
+                    <!-- Optional: not present in dispatchDocument SAD_O -->
+                    <brocom:objectIdAccountableParty>mijnUniekeIdVanDezeMijnbouwwetvergunning</brocom:objectIdAccountableParty>
+                    <!-- Optional: not present in dispatchDocument SAD_O -->
+                    <brocom:deliveryResponsibleParty>27376655</brocom:deliveryResponsibleParty>
+                    <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+                    <deliveryContext codeSpace="urn:bro:sad:InvestigationReason">vermoedenVerontreiniging</deliveryContext>
+                    <reportDate>
+                        <brocom:date>2019-01-02</brocom:date>
+                    </reportDate>
+                    <identification>ee056d3e-a634-11ed-afa1-0242ac120002</identification>
+                    <name>Amersfoort-Vathorst-Kasteellaan-PFAS-onderzoek</name>
+                    <!-- Optional -->
+                    <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType>
+                    <projectCode>PROJECT_CODE</projectCode>
+                    <!-- Optional -->
+                    <asbestos codeSpace="urn:bro:sad:AsbestosPresence">nietOnderzocht</asbestos>
+                    <geometry>
+                        <gml:MultiSurface gml:id="a8d0a8ef-fc04-4071-b009-26a611adad0f" srsName="urn:ogc:def:crs:EPSG::4258">
+                            <!-- 1 or more repetitions -->
+                            <gml:surfaceMember>
+                                <gml:Polygon gml:id="b08a25a3-69c7-478b-abb9-b71d7fbf58a5">
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList>
+                                        50.8748363 5.9284810
+                                        50.8757351 5.9284915
+                                        50.8766307 5.9292124
+                                        50.8757285 5.9299122
+                                        50.8748296 5.9299017
+                                        50.8748363 5.9284810
+                                    </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                        </gml:MultiSurface>
+                    </geometry>
+                    <!-- Optional -->
+                    <investigationConclusion>Geen waarneembare concentratie PFAS aangetroffen. Geen vervolgonderzoek nodig.</investigationConclusion>
+                    <!-- Optional -->
+                    <researchOperator>
+                        <!-- choice of:
+                <brocom:chamberOfCommerceNumber>?</brocom:chamberOfCommerceNumber>
+                <brocom:europeanCompanyRegistrationNumber>?</brocom:europeanCompanyRegistrationNumber>
+                -->
+                        <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                    </researchOperator>
+                    <registrationHistory>
+                        <brocom:objectRegistrationTime>2023-04-25T09:00:00</brocom:objectRegistrationTime>
+                        <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">Geregistreerd</brocom:registrationStatus>
+                        <brocom:corrected>nee</brocom:corrected>
+                        <brocom:underReview>nee</brocom:underReview>
+                        <brocom:deregistered>nee</brocom:deregistered>
+                        <brocom:reregistered>nee</brocom:reregistered>
+                    </registrationHistory>
+                    <standardizedLocation>
+                        <brocom:location>
+                            <gml:MultiSurface gml:id="a8d0a8ef-fc04-4071-b009-27a611adad0f" srsName="urn:ogc:def:crs:EPSG::4258">
+                                <!-- 1 or more repetitions -->
+                                <gml:surfaceMember>
+                                    <gml:Polygon gml:id="b08a25a3-59c7-478b-abb9-b71d7fbf58a5">
+                                        <gml:exterior>
+                                            <gml:LinearRing>
+                                                <gml:posList>
+                                        50.8748363 5.9284810
+                                        50.8757351 5.9284915
+                                        50.8766307 5.9292124
+                                        50.8757285 5.9299122
+                                        50.8748296 5.9299017
+                                        50.8748363 5.9284810
+                                    </gml:posList>
+                                            </gml:LinearRing>
+                                        </gml:exterior>
+                                    </gml:Polygon>
+                                </gml:surfaceMember>
+                            </gml:MultiSurface>
+                        </brocom:location>
+                        <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2018</brocom:coordinateTransformation>
+                    </standardizedLocation>
+                    <!-- Optional -->
+                    <report>
+                        <sadcom:reportNumber>123123</sadcom:reportNumber>
+                        <sadcom:reportDate><brocom:date>2019-01-02</brocom:date></sadcom:reportDate>
+                        <sadcom:reportAuthor>Subliem Voorbeeld Advies B.V.</sadcom:reportAuthor>
+                        <sadcom:documentLink>https://www.document.nl/voorbeeldrapport</sadcom:documentLink>
+                    </report>
+                    <borehole>
+                        <sadcom:Borehole gml:id="_d8401c1a-ec0c-446f-8e45-22d9514f8400">
+                            <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>
+                            <sadcom:boringName>PB01</sadcom:boringName>
+                            <sadcom:boringDate><brocom:date>2018-03-08</brocom:date></sadcom:boringDate>
+                            <sadcom:finalDepthBoring uom="m">2</sadcom:finalDepthBoring>
+                            <sadcom:deliveredLocation>
+                                <gml:Point gml:id="_d38ee87f-9552-464a-8125-e8409b01c5c1">
+                                    <gml:pos>52.00410874694697 4.358954632907231</gml:pos>
+                                </gml:Point>
+                            </sadcom:deliveredLocation>
+                            <sadcom:deliveredVerticalPosition>
+                                <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcom:localVerticalReferencePoint>
+                                <!-- Maaiveld -->
+                                <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcom:verticalDatum>
+                                <!-- NAP -->
+                                <sadcom:offset uom="m">0.02</sadcom:offset>
+                            </sadcom:deliveredVerticalPosition>
+                            <sadcom:boreholeSampleDescription>
+                                <sadcom:BoreholeSampleDescription gml:id="_ff26ddf1-7a45-4a04-a416-994b4bbc8848">
+                                    <sadcom:descriptionProcedure codeSpace="urn:bro:sad:DescriptionProcedure">nen5104_nen5706</sadcom:descriptionProcedure>
+                                    <!-- default value: 'NEN5104' -->
+                                    <sadcom:descriptiveBoreholeLog>
+                                        <sadcom:DescriptiveBoreholeLog gml:id="_a8eab264-cccb-48b1-b5b2-75f8e5e7b6f4">
+                                            <sadcom:describedMaterial codeSpace="urn:bro:sad:DescribedMaterial">grond</sadcom:describedMaterial>
+                                            <!-- default value: 'grond' -->
+                                            <sadcom:layer>
+                                                <sadcom:Layer gml:id="_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7">
+                                                    <sadcom:identification>cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7</sadcom:identification>
+                                                    <sadcom:upperBoundary uom="m">0</sadcom:upperBoundary>
+                                                    <sadcom:lowerBoundary uom="m">0.5</sadcom:lowerBoundary>
+                                                    <sadcom:oilWaterReaction codeSpace="urn:bro:sad:OilWaterReaction">geen</sadcom:oilWaterReaction>
+                                                    <sadcom:soilType>
+                                                        <sadcom:soilNameNEN5104 codeSpace="urn:bro:sad:SoilTypeNEN5104">sterkSiltigeKlei</sadcom:soilNameNEN5104>
+                                                        <!-- choose between sandMedianClass   or  gravelMedianClass if the soil type is sand/gravel
+                                                <sadcom:sandMedianClass codeSpace="urn:bro:sad:SandMedianClass">uiterstFijnNEN5104</sadcom:sandMedianClass>
+                                                <sadcom:gravelMedianClass codeSpace="urn:bro:sad:GravelMedianClass">fijnNEN5104</sadcom:gravelMedianClass>
+                                                end-->
+                                                        <!-- Only relevant for gravel / organic matter
+                                                <sadcom:gravelContentClass codeSpace="urn:bro:sad:GravelContentClass">nietGrindig</sadcom:gravelContentClass>
+                                                <sadcom:organicMatterContentClass codeSpace="urn:bro:sad:OrganicMatterContentClass">nietHumeus</sadcom:organicMatterContentClass>
+                                                -->
+                                                    </sadcom:soilType>
+                                                    <sadcom:colour>
+                                                        <sadcom:mainColour codeSpace="urn:bro:sad:ColourType">bruin</sadcom:mainColour>
+                                                        <sadcom:mainColourStrength codeSpace="urn:bro:sad:ColourStrength">licht</sadcom:mainColourStrength>
+                                                        <sadcom:subColour codeSpace="urn:bro:sad:ColourType">geel</sadcom:subColour>
+                                                    </sadcom:colour>
+                                                    <sadcom:soilCharacteristic>
+                                                        <sadcom:tertiaryConstituent codeSpace="urn:bro:sad:TypeCharacteristic">schelpen</sadcom:tertiaryConstituent>
+                                                        <sadcom:tertiaryConstituentGrade codeSpace="urn:bro:sad:GradeCharacteristic">matig</sadcom:tertiaryConstituentGrade>
+                                                    </sadcom:soilCharacteristic>
+                                                </sadcom:Layer>
+                                            </sadcom:layer>
+                                            <!--- Tweede laag -->
+                                            <sadcom:layer>
+                                                <sadcom:Layer gml:id="_cc256d2b-c8af-454e-b249-91b2a38116e1">
+                                                    <sadcom:identification>cc256d2b-c8af-454e-b249-91b2a38116e1</sadcom:identification>
+                                                    <sadcom:upperBoundary uom="m">0.5</sadcom:upperBoundary>
+                                                    <sadcom:lowerBoundary uom="m">1.2</sadcom:lowerBoundary>
+                                                    <sadcom:oilWaterReaction codeSpace="urn:bro:sad:OilWaterReaction">matig</sadcom:oilWaterReaction>
+                                                    <sadcom:soilType>
+                                                        <sadcom:soilNameNEN5104 codeSpace="urn:bro:sad:SoilTypeNEN5104">kleiigZand</sadcom:soilNameNEN5104>
+                                                        <sadcom:sandMedianClass codeSpace="urn:bro:sad:SandMedianClass">zeerFijnNEN5104</sadcom:sandMedianClass>
+                                                    </sadcom:soilType>
+                                                    <sadcom:colour>
+                                                        <sadcom:mainColour codeSpace="urn:bro:sad:ColourType">creme</sadcom:mainColour>
+                                                        <sadcom:subColour codeSpace="urn:bro:sad:ColourType">bruin</sadcom:subColour>
+                                                    </sadcom:colour>
+                                                    <sadcom:soilCharacteristic>
+                                                        <sadcom:tertiaryConstituent codeSpace="urn:bro:sad:TypeCharacteristic">schelpen</sadcom:tertiaryConstituent>
+                                                        <sadcom:tertiaryConstituentGrade codeSpace="urn:bro:sad:GradeCharacteristic">zwak</sadcom:tertiaryConstituentGrade>
+                                                    </sadcom:soilCharacteristic>
+                                                    <sadcom:soilCharacteristic>
+                                                        <sadcom:tertiaryConstituent codeSpace="urn:bro:sad:TypeCharacteristic">planten</sadcom:tertiaryConstituent>
+                                                        <sadcom:tertiaryConstituentGrade codeSpace="urn:bro:sad:GradeCharacteristic">matig</sadcom:tertiaryConstituentGrade>
+                                                    </sadcom:soilCharacteristic>
+                                                </sadcom:Layer>
+                                            </sadcom:layer>
+                                            <sadcom:layer>
+                                                <sadcom:Layer gml:id="_0f9c0e6c-b093-4548-8ffe-2e481c6af3a7">
+                                                    <sadcom:identification>0f9c0e6c-b093-4548-8ffe-2e481c6af3a7</sadcom:identification>
+                                                    <sadcom:upperBoundary uom="m">1.2</sadcom:upperBoundary>
+                                                    <sadcom:lowerBoundary uom="m">2.0</sadcom:lowerBoundary>
+                                                    <sadcom:oilWaterReaction codeSpace="urn:bro:sad:OilWaterReaction">geen</sadcom:oilWaterReaction>
+                                                    <sadcom:soilType>
+                                                        <sadcom:soilNameNEN5104 codeSpace="urn:bro:sad:SoilTypeNEN5104">zwakSiltigeKlei</sadcom:soilNameNEN5104>
+                                                    </sadcom:soilType>
+                                                    <sadcom:colour>
+                                                        <sadcom:mainColour codeSpace="urn:bro:sad:ColourType">bruin</sadcom:mainColour>
+                                                        <sadcom:subColour codeSpace="urn:bro:sad:ColourType">oranje</sadcom:subColour>
+                                                    </sadcom:colour>
+                                                </sadcom:Layer>
+                                            </sadcom:layer>
+                                        </sadcom:DescriptiveBoreholeLog>
+                                    </sadcom:descriptiveBoreholeLog>
+                                </sadcom:BoreholeSampleDescription>
+                            </sadcom:boreholeSampleDescription>
+                            <sadcom:monitoringTube>
+                                <sadcom:MonitoringTube gml:id="_9d0e6631-0268-4929-8303-c9e24f6145e5">
+                                    <sadcom:identification>9d0e6631-0268-4929-8303-c9e24f6145e5</sadcom:identification>
+                                    <sadcom:screenName>Filter1</sadcom:screenName>
+                                    <sadcom:deliveredVerticalPosition>
+                                        <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bopb</sadcom:localVerticalReferencePoint>
+                                        <!-- BOPB -->
+                                        <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">maaiveld</sadcom:verticalDatum>
+                                        <sadcom:offset uom="m">0.20</sadcom:offset>
+                                    </sadcom:deliveredVerticalPosition>
+                                    <sadcom:upperBoundary uom="m">1.40</sadcom:upperBoundary>
+                                    <sadcom:lowerBoundary uom="m">1.80</sadcom:lowerBoundary>
+                                    <sadcom:groundwaterSampling>
+                                        <sadcom:GroundwaterSampling gml:id="_ba54949b-99a5-4aca-bb8a-5fe9df74efe3">
+                                            <sadcom:identification>ba54949b-99a5-4aca-bb8a-5fe9df74efe3</sadcom:identification>
+                                            <sadcom:name>PB01-Filter1-1</sadcom:name>
+                                            <sadcom:sampleTime><brocom:date>2018-04-09</brocom:date></sadcom:sampleTime>
+                                            <sadcom:groundwatersampleAnalysis>
+                                                <sadcom:GroundwaterAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60284f34b3fa">
+                                                    <sadcom:identification>b1adf8f7-e0cd-4810-a93e-60284f34b3fa</sadcom:identification>
+                                                    <sadcom:name>WA1</sadcom:name>
+                                                    <sadcom:analysis>
+                                                        <sadcom:Analysis gml:id="_850d533c-4087-4229-aa81-f916569428ed">
+                                                            <sadcom:identification>850d533c-4087-4229-aa81-f916569428ed</sadcom:identification>
+                                                            <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaConcentratie</sadcom:quantity>
+                                                            <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">44DDE</sadcom:parameter>
+                                                            <sadcom:analysisMeasurementValue uom="mg/l">633.2</sadcom:analysisMeasurementValue>
+                                                            <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
+                                                            <sadcom:condition codeSpace="urn:bro:sad:Condition">opgelosteFractie</sadcom:condition>
+                                                            <sadcom:analysisProcess>
+                                                                <sadcom:AnalysisProcess gml:id="_e911262c-d247-4aad-8fea-ae095f62b495">
+                                                                    <sadcom:identification>e911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>
+                                                                    <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">nen6483:1982nl</sadcom:certification>
+                                                                </sadcom:AnalysisProcess>
+                                                            </sadcom:analysisProcess>
+                                                        </sadcom:Analysis>
+                                                    </sadcom:analysis>
+                                                </sadcom:GroundwaterAnalysis>
+                                            </sadcom:groundwatersampleAnalysis>
+                                            <sadcom:fieldObservation>
+                                                <sadcom:FieldObservation gml:id="_e4c34020-6b93-4705-801e-893bdb766114">
+                                                    <sadcom:aerated>ja</sadcom:aerated>
+                                                    <sadcom:colour>
+                                                        <sadcom:mainColour codeSpace="urn:bro:sad:ColourType">bruin</sadcom:mainColour>
+                                                        <sadcom:mainColourStrength codeSpace="urn:bro:sad:ColourStrength">donker</sadcom:mainColourStrength>
+                                                        <sadcom:subColour codeSpace="urn:bro:sad:ColourType">blauw</sadcom:subColour>
+                                                    </sadcom:colour>
+                                                </sadcom:FieldObservation>
+                                            </sadcom:fieldObservation>
+                                            <sadcom:fieldMeasurement>
+                                                <sadcom:FieldMeasurement gml:id="_1b0e4170-cd2e-46b9-8961-dc49d2b0ff3b">
+                                                    <sadcom:quantity codeSpace="urn:bro:sad:Quantity">GELDHD</sadcom:quantity>
+                                                    <sadcom:condition codeSpace="urn:bro:sad:Condition">NVT</sadcom:condition>
+                                                    <!-- Geleidendheid Eenheid wordt op dit moment niet als een apart veld meegegeven, er zijn nu nog maar 2 meetwaardes, Geleidendheid en PH. -->
+                                                    <sadcom:fieldMeasurementValue uom="µS/cm">88</sadcom:fieldMeasurementValue>
+                                                </sadcom:FieldMeasurement>
+                                            </sadcom:fieldMeasurement>
+                                            <sadcom:fieldMeasurement>
+                                                <sadcom:FieldMeasurement gml:id="_91f20243-443e-48de-94a3-baaeb0448cee">
+                                                    <sadcom:quantity codeSpace="urn:bro:sad:Quantity">pH</sadcom:quantity>
+                                                    <sadcom:condition codeSpace="urn:bro:sad:Condition">NVT</sadcom:condition>
+                                                    <!-- Geleidendheid Eenheid wordt op dit moment niet als een apart veld meegegeven, er zijn nu nog maar 2 meetwaardes, Geleidendheid en PH. Ph is dimensieloos-->
+                                                    <sadcom:fieldMeasurementValue uom="dimensieloos">6.5</sadcom:fieldMeasurementValue>
+                                                </sadcom:FieldMeasurement>
+                                            </sadcom:fieldMeasurement>
+                                        </sadcom:GroundwaterSampling>
+                                    </sadcom:groundwaterSampling>
+                                </sadcom:MonitoringTube>
+                            </sadcom:monitoringTube>
+                            <sadcom:soilSampling>
+                                <sadcom:SoilSampling gml:id="_0571c066-806a-459e-a8a1-b099cb6814d0">
+                                    <sadcom:identification>0571c066-806a-459e-a8a1-b099cb6814d0</sadcom:identification>
+                                    <sadcom:sampleName>POT1</sadcom:sampleName>
+                                    <sadcom:beginDepth uom="m">0.0</sadcom:beginDepth>
+                                    <sadcom:endDepth uom="m">0.5</sadcom:endDepth>
+                                    <sadcom:sampleTime><brocom:date>2018-03-08</brocom:date></sadcom:sampleTime>
+                                </sadcom:SoilSampling>
+                            </sadcom:soilSampling>
+                            <sadcom:soilSampling>
+                                <sadcom:SoilSampling gml:id="_869e4c44-dbe0-4bca-965a-45d2e5418fd3">
+                                    <sadcom:identification>869e4c44-dbe0-4bca-965a-45d2e5418fd3</sadcom:identification>
+                                    <sadcom:sampleName>POT2</sadcom:sampleName>
+                                    <sadcom:beginDepth uom="m">0.5</sadcom:beginDepth>
+                                    <sadcom:endDepth uom="m">1.2</sadcom:endDepth>
+                                    <sadcom:sampleTime><brocom:date>2018-03-08</brocom:date></sadcom:sampleTime>
+                                </sadcom:SoilSampling>
+                            </sadcom:soilSampling>
+                            <sadcom:soilSampling>
+                                <sadcom:SoilSampling gml:id="_0f921558-7f83-4a81-bf9d-82b138e82a6b">
+                                    <sadcom:identification>0f921558-7f83-4a81-bf9d-82b138e82a6b</sadcom:identification>
+                                    <sadcom:sampleName>POT3</sadcom:sampleName>
+                                    <sadcom:beginDepth uom="m">1.2</sadcom:beginDepth>
+                                    <sadcom:endDepth uom="m">2.0</sadcom:endDepth>
+                                    <sadcom:sampleTime><brocom:date>2018-03-08</brocom:date></sadcom:sampleTime>
+                                </sadcom:SoilSampling>
+                            </sadcom:soilSampling>
+                        </sadcom:Borehole>
+                    </borehole>
+                    <mixedSampleAnalysis>
+                        <sadcom:MixedSampleAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
+                            <sadcom:identification>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</sadcom:identification>
+                            <sadcom:mixedsampleName>MM01</sadcom:mixedsampleName>
+                            <sadcom:analysis>
+                                <sadcom:Analysis gml:id="_ae30a56d-438c-4486-bd82-68b4bb70e4da">
+                                    <sadcom:identification>ae30a56d-438c-4486-bd82-68b4bb70e4da</sadcom:identification>
+                                    <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
+                                    <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">Pb</sadcom:parameter>
+                                    <sadcom:analysisMeasurementValue uom="mg/kg">0.001</sadcom:analysisMeasurementValue>
+                                    <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
+                                    <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>
+                                    <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
+                                    <sadcom:analysisProcess>
+                                        <sadcom:AnalysisProcess gml:id="_f91e8a3f-b8e9-47d8-ae3f-88e3a11e08c4">
+                                            <sadcom:identification>f91e8a3f-b8e9-47d8-ae3f-88e3a11e08c4</sadcom:identification>
+                                            <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">nen6483:1982nl</sadcom:certification>
+                                        </sadcom:AnalysisProcess>
+                                    </sadcom:analysisProcess>
+                                </sadcom:Analysis>
+                            </sadcom:analysis>
+                            <sadcom:analysis>
+                                <sadcom:Analysis gml:id="_4e2651fb-efa0-4d6a-a48a-001daba223b4">
+                                    <sadcom:identification>4e2651fb-efa0-4d6a-a48a-001daba223b4</sadcom:identification>
+                                    <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
+                                    <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">crocdlt</sadcom:parameter>
+                                    <sadcom:analysisMeasurementValue uom="mg/kg">0.078</sadcom:analysisMeasurementValue>
+                                    <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
+                                    <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
+                                    <sadcom:analysisProcess>
+                                        <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
+                                            <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>
+                                            <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">nen6483:1982nl</sadcom:certification>
+                                        </sadcom:AnalysisProcess>
+                                    </sadcom:analysisProcess>
+                                </sadcom:Analysis>
+                            </sadcom:analysis>
+                            <sadcom:soilSampling xlink:href="#_0571c066-806a-459e-a8a1-b099cb6814d0"/>
+                            <sadcom:soilSampling xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
+                            <sadcom:soilSampling xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
+                        </sadcom:MixedSampleAnalysis>
+                    </mixedSampleAnalysis>
+                </SAD_O_DP>
+            </dispatchDocument>
+        </dispatchDataResponse>
+    </soap:Body>
+</soap:Envelope>

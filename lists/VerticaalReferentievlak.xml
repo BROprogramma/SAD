@@ -7,11 +7,4 @@
         <IMBROA>v</IMBROA>
         <Omschrijving>Het lokale referentievlak van deze verschuiving is weergegeven ten opzichte van het normaal amsterdams peil (NAP)</Omschrijving>
     </VerticaalReferentievlak>
-    <VerticaalReferentievlak>
-        <Waarde>maaiveld</Waarde>
-        <SIKB0101ID>11</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Het lokale referentievlak van deze verschuiving is weergegeven ten opzichte van de maaiveldhoogte van deze boring. </Omschrijving>
-    </VerticaalReferentievlak>
 </domeintabel>

@@ -1,9 +1,9 @@
 var respecConfig = {
-  specStatus: "GN-CV",
+  specStatus: "GN-WV",
   specType: "IM",
-  subtitle: "Versie 0.9",
+  //subtitle: "Versie 0.9",
   //canonicalURI: "WV",
-  publishDate: "2023-07-05",
+  //publishDate: "2023-07-05",
   maxTocLevel: 4,
  logos: [{
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
@@ -36,6 +36,6 @@ var respecConfig = {
   shortName: "sad",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/SAD",
-//  previousPublishDate: "2021-11-19",
-//  previousStatus: "GN-VV",
+ previousPublishDate: "2023-07-05",
+  previousStatus: "GN-CV",
 };
