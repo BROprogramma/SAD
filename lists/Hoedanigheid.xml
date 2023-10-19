@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF_8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema_instance">
     <Hoedanigheid>
         <Waarde>drooggewicht</Waarde>
         <SIKB0101ID>1</SIKB0101ID>
@@ -85,39 +85,39 @@
         <Omschrijving>fractie groter dan 16 mm</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie8-16mm</Waarde>
+        <Waarde>fractie8_16mm</Waarde>
         <SIKB0101ID>52</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 8 - 16 mm</Omschrijving>
+        <Omschrijving>fractie 8 _ 16 mm</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie4-8mm</Waarde>
+        <Waarde>fractie4_8mm</Waarde>
         <SIKB0101ID>53</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 4 - 8 mm</Omschrijving>
+        <Omschrijving>fractie 4 _ 8 mm</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie2-4mm</Waarde>
+        <Waarde>fractie2_4mm</Waarde>
         <SIKB0101ID>54</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 2 - 4 mm</Omschrijving>
+        <Omschrijving>fractie 2 _ 4 mm</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie1-2mm</Waarde>
+        <Waarde>fractie1_2mm</Waarde>
         <SIKB0101ID>55</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 1 - 2 mm</Omschrijving>
+        <Omschrijving>fractie 1 _ 2 mm</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie0,5-1mm</Waarde>
+        <Waarde>fractie0,5_1mm</Waarde>
         <SIKB0101ID>56</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 0,5 - 1 mm</Omschrijving>
+        <Omschrijving>fractie 0,5 _ 1 mm</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>fractieKleinerDan0,5mm</Waarde>
@@ -190,333 +190,333 @@
         <Omschrijving>uitgedrukt in koolstof</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C10</Waarde>
+        <Waarde>koolwaterstofFractieC6_C10</Waarde>
         <SIKB0101ID>82</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C10</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C10</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C10_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC6_C10_Drooggewicht</Waarde>
         <SIKB0101ID>83</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C10 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C10 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC8-C10_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC8_C10_Drooggewicht</Waarde>
         <SIKB0101ID>84</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C8-C10 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C8_C10 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C12</Waarde>
+        <Waarde>koolwaterstofFractieC10_C12</Waarde>
         <SIKB0101ID>85</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C12</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C12</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C12_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC10_C12_Drooggewicht</Waarde>
         <SIKB0101ID>86</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C12 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C12 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C16</Waarde>
+        <Waarde>koolwaterstofFractieC10_C16</Waarde>
         <SIKB0101ID>87</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C16</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C16</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C16_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC10_C16_Drooggewicht</Waarde>
         <SIKB0101ID>88</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C16 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C16 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C19_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC10_C19_Drooggewicht</Waarde>
         <SIKB0101ID>89</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C19 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C19 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C20</Waarde>
+        <Waarde>koolwaterstofFractieC10_C20</Waarde>
         <SIKB0101ID>90</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C20</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C20</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C20_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC10_C20_Drooggewicht</Waarde>
         <SIKB0101ID>91</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C20 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C20 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C40</Waarde>
+        <Waarde>koolwaterstofFractieC10_C40</Waarde>
         <SIKB0101ID>92</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC10_C40_Drooggewicht</Waarde>
         <SIKB0101ID>93</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC12-C14_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC12_C14_Drooggewicht</Waarde>
         <SIKB0101ID>94</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C12-C14 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C12_C14 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC12-C16</Waarde>
+        <Waarde>koolwaterstofFractieC12_C16</Waarde>
         <SIKB0101ID>95</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C12-C16</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C12_C16</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC12-C16_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC12_C16_Drooggewicht</Waarde>
         <SIKB0101ID>96</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C12-C16 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C12_C16 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC12-C20_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC12_C20_Drooggewicht</Waarde>
         <SIKB0101ID>97</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C12-C20 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C12_C20 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC12-C22</Waarde>
+        <Waarde>koolwaterstofFractieC12_C22</Waarde>
         <SIKB0101ID>98</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C12-C22</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C12_C22</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC12-C22_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC12_C22_Drooggewicht</Waarde>
         <SIKB0101ID>99</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C12-C22 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C12_C22 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC14-C20_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC14_C20_Drooggewicht</Waarde>
         <SIKB0101ID>100</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C14-C20 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C14_C20 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC16-C20</Waarde>
+        <Waarde>koolwaterstofFractieC16_C20</Waarde>
         <SIKB0101ID>101</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C16-C20</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C16_C20</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC16-C20_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC16_C20_Drooggewicht</Waarde>
         <SIKB0101ID>102</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C16-C20 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C16_C20 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC16-C21_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC16_C21_Drooggewicht</Waarde>
         <SIKB0101ID>103</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C16-C21 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C16_C21 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC16-C22</Waarde>
+        <Waarde>koolwaterstofFractieC16_C22</Waarde>
         <SIKB0101ID>104</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C16-C22</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C16_C22</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC16-C22_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC16_C22_Drooggewicht</Waarde>
         <SIKB0101ID>105</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C16-C22 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C16_C22 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C24</Waarde>
+        <Waarde>koolwaterstofFractieC20_C24</Waarde>
         <SIKB0101ID>106</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C24</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C24</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C24_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC20_C24_Drooggewicht</Waarde>
         <SIKB0101ID>107</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C24 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C24 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C26_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC20_C26_Drooggewicht</Waarde>
         <SIKB0101ID>108</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C26 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C26 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C29_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC20_C29_Drooggewicht</Waarde>
         <SIKB0101ID>109</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C29 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C29 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C40</Waarde>
+        <Waarde>koolwaterstofFractieC20_C40</Waarde>
         <SIKB0101ID>110</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC20_C40_Drooggewicht</Waarde>
         <SIKB0101ID>111</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC21-C30_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC21_C30_Drooggewicht</Waarde>
         <SIKB0101ID>112</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C21-C30 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C21_C30 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC22-C30</Waarde>
+        <Waarde>koolwaterstofFractieC22_C30</Waarde>
         <SIKB0101ID>113</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C22-C30</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C22_C30</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC22-C30_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC22_C30_Drooggewicht</Waarde>
         <SIKB0101ID>114</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C22-C30 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C22_C30 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC24-C28</Waarde>
+        <Waarde>koolwaterstofFractieC24_C28</Waarde>
         <SIKB0101ID>115</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C24-C28</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C24_C28</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC24-C28_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC24_C28_Drooggewicht</Waarde>
         <SIKB0101ID>116</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C24-C28 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C24_C28 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC26-C34_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC26_C34_Drooggewicht</Waarde>
         <SIKB0101ID>117</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C26-C34 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C26_C34 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC28-C32</Waarde>
+        <Waarde>koolwaterstofFractieC28_C32</Waarde>
         <SIKB0101ID>118</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C28-C32</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C28_C32</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC28-C32_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC28_C32_Drooggewicht</Waarde>
         <SIKB0101ID>119</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C28-C32 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C28_C32 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC30-C35_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC30_C35_Drooggewicht</Waarde>
         <SIKB0101ID>120</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C30-C35 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C30_C35 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC30-C40</Waarde>
+        <Waarde>koolwaterstofFractieC30_C40</Waarde>
         <SIKB0101ID>121</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C30-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C30_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC30-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC30_C40_Drooggewicht</Waarde>
         <SIKB0101ID>122</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C30-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C30_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC32-C36</Waarde>
+        <Waarde>koolwaterstofFractieC32_C36</Waarde>
         <SIKB0101ID>123</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C32-C36</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C32_C36</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC32-C36_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC32_C36_Drooggewicht</Waarde>
         <SIKB0101ID>124</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C32-C36 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C32_C36 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC34-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC34_C40_Drooggewicht</Waarde>
         <SIKB0101ID>125</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C34-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C34_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC35-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC35_C40_Drooggewicht</Waarde>
         <SIKB0101ID>126</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C35-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C35_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC36-C40</Waarde>
+        <Waarde>koolwaterstofFractieC36_C40</Waarde>
         <SIKB0101ID>127</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C36-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C36_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC36-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC36_C40_Drooggewicht</Waarde>
         <SIKB0101ID>128</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C36-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C36_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>uitgedruktInCalciumchloride_Drooggewicht</Waarde>
@@ -1128,18 +1128,18 @@
         <Omschrijving>uitgedrukt in tritium</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>uitgedruktInI-TEQ</Waarde>
+        <Waarde>uitgedruktInI_TEQ</Waarde>
         <SIKB0101ID>298</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>uitgedrukt in I-TEQ</Omschrijving>
+        <Omschrijving>uitgedrukt in I_TEQ</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>uitgedruktInI-TEQ_Drooggewicht</Waarde>
+        <Waarde>uitgedruktInI_TEQ_Drooggewicht</Waarde>
         <SIKB0101ID>299</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>uitgedrukt in I-TEQ / drooggewicht</Omschrijving>
+        <Omschrijving>uitgedrukt in I_TEQ / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>uitgedruktInKaliumoxide_Drooggewicht</Waarde>
@@ -1296,11 +1296,11 @@
         <Omschrijving>uitgedrukt in fosfor na decanteren</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>uitgedruktInOlsen-P(Fosfor)_Drooggewicht</Waarde>
+        <Waarde>uitgedruktInOlsen_P(Fosfor)_Drooggewicht</Waarde>
         <SIKB0101ID>394</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>uitgedrukt in Olsen-P (fosfor) / drooggewicht</Omschrijving>
+        <Omschrijving>uitgedrukt in Olsen_P (fosfor) / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>uitgedruktInFosfor_organischestof</Waarde>
@@ -1401,46 +1401,46 @@
         <Omschrijving>uitgedrukt in kaliumoxide</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C6</Waarde>
+        <Waarde>koolwaterstofFractieC5_C6</Waarde>
         <SIKB0101ID>442</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C6</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C6</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C16</Waarde>
+        <Waarde>koolwaterstofFractieC6_C16</Waarde>
         <SIKB0101ID>443</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C16</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C16</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C27</Waarde>
+        <Waarde>koolwaterstofFractieC20_C27</Waarde>
         <SIKB0101ID>444</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C27</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C27</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>uitgedruktInOlsen-P(Fosfor)_natgewicht</Waarde>
+        <Waarde>uitgedruktInOlsen_P(Fosfor)_natgewicht</Waarde>
         <SIKB0101ID>445</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>uitgedrukt in Olsen-P (fosfor) / natgewicht</Omschrijving>
+        <Omschrijving>uitgedrukt in Olsen_P (fosfor) / natgewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>ls-Waardecumulatief10.0±0.1ml_g_Drooggewicht</Waarde>
+        <Waarde>ls_Waardecumulatief10_0+_0_1ml_g_Drooggewicht</Waarde>
         <SIKB0101ID>453</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>LS-waarde cumulatief 10.0 ± 0.1 ml/g / drooggewicht</Omschrijving>
+        <Omschrijving>LS_waarde cumulatief 10.0 ± 0.1 ml/g / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>ls-Waardecumulatief10.0±0.1ml_g_OpgelosteFractie</Waarde>
+        <Waarde>ls_Waardecumulatief10_0+_0_1ml_g_OpgelosteFractie</Waarde>
         <SIKB0101ID>454</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>LS-waarde cumulatief 10.0 ±0.1 ml/g / opgeloste fractie</Omschrijving>
+        <Omschrijving>LS_waarde cumulatief 10.0 ±0.1 ml/g / opgeloste fractie</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>uitgedruktInFosfaat_Drooggewicht</Waarde>
@@ -1457,74 +1457,74 @@
         <Omschrijving>uitgedrukt in sulfaat / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC14-C20</Waarde>
+        <Waarde>koolwaterstofFractieC14_C20</Waarde>
         <SIKB0101ID>457</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C14-C20</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C14_C20</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C26</Waarde>
+        <Waarde>koolwaterstofFractieC20_C26</Waarde>
         <SIKB0101ID>458</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C26</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C26</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC26-C34</Waarde>
+        <Waarde>koolwaterstofFractieC26_C34</Waarde>
         <SIKB0101ID>459</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C26-C34</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C26_C34</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC34-C40</Waarde>
+        <Waarde>koolwaterstofFractieC34_C40</Waarde>
         <SIKB0101ID>460</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C34-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C34_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC8-C10</Waarde>
+        <Waarde>koolwaterstofFractieC8_C10</Waarde>
         <SIKB0101ID>461</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C8-C10</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C8_C10</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC16-C21</Waarde>
+        <Waarde>koolwaterstofFractieC16_C21</Waarde>
         <SIKB0101ID>462</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C16-C21</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C16_C21</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC21-C30</Waarde>
+        <Waarde>koolwaterstofFractieC21_C30</Waarde>
         <SIKB0101ID>463</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C21-C30</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C21_C30</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC30-C35</Waarde>
+        <Waarde>koolwaterstofFractieC30_C35</Waarde>
         <SIKB0101ID>464</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C30-C35</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C30_C35</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC35-C40</Waarde>
+        <Waarde>koolwaterstofFractieC35_C40</Waarde>
         <SIKB0101ID>465</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C35-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C35_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC12-C14</Waarde>
+        <Waarde>koolwaterstofFractieC12_C14</Waarde>
         <SIKB0101ID>466</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C12-C14</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C12_C14</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>uitgedruktInAmmonium</Waarde>
@@ -1548,18 +1548,18 @@
         <Omschrijving>uitgedrukt in magnesiumoxide</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C25</Waarde>
+        <Waarde>koolwaterstofFractieC10_C25</Waarde>
         <SIKB0101ID>470</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C25</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C25</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C25_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC10_C25_Drooggewicht</Waarde>
         <SIKB0101ID>471</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C25 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C25 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>koolwaterstofFractieC17</Waarde>
@@ -1576,67 +1576,67 @@
         <Omschrijving>koolwaterstoffractie C17 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C30</Waarde>
+        <Waarde>koolwaterstofFractieC20_C30</Waarde>
         <SIKB0101ID>474</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C30</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C30</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C30_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC20_C30_Drooggewicht</Waarde>
         <SIKB0101ID>475</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C30 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C30 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C8</Waarde>
+        <Waarde>koolwaterstofFractieC5_C8</Waarde>
         <SIKB0101ID>476</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C8</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C8</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C8_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC5_C8_Drooggewicht</Waarde>
         <SIKB0101ID>477</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C8 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C8 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C16_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC6_C16_Drooggewicht</Waarde>
         <SIKB0101ID>478</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C16 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C16 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C40</Waarde>
+        <Waarde>koolwaterstofFractieC6_C40</Waarde>
         <SIKB0101ID>479</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC6_C40_Drooggewicht</Waarde>
         <SIKB0101ID>480</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C8</Waarde>
+        <Waarde>koolwaterstofFractieC6_C8</Waarde>
         <SIKB0101ID>481</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C8</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C8</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C8_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC6_C8_Drooggewicht</Waarde>
         <SIKB0101ID>482</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C8 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C8 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>uitgedruktInNitraat</Waarde>
@@ -1681,81 +1681,81 @@
         <Omschrijving>uitgedrukt in cyanide / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC12-C20</Waarde>
+        <Waarde>koolwaterstofFractieC12_C20</Waarde>
         <SIKB0101ID>489</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C12-C20</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C12_C20</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC21-C35</Waarde>
+        <Waarde>koolwaterstofFractieC21_C35</Waarde>
         <SIKB0101ID>490</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C21-C35</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C21_C35</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC21-C35_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC21_C35_Drooggewicht</Waarde>
         <SIKB0101ID>491</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C21-C35 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C21_C35 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C10</Waarde>
+        <Waarde>koolwaterstofFractieC5_C10</Waarde>
         <SIKB0101ID>493</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C10</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C10</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C10_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC5_C10_Drooggewicht</Waarde>
         <SIKB0101ID>494</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C10 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C10 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C7</Waarde>
+        <Waarde>koolwaterstofFractieC6_C7</Waarde>
         <SIKB0101ID>495</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C7</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C7</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C7_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC6_C7_Drooggewicht</Waarde>
         <SIKB0101ID>496</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C7 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C7 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC7-C8</Waarde>
+        <Waarde>koolwaterstofFractieC7_C8</Waarde>
         <SIKB0101ID>497</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C7-C8</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C7_C8</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC7-C8_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC7_C8_Drooggewicht</Waarde>
         <SIKB0101ID>498</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C7-C8 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C7_C8 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C35</Waarde>
+        <Waarde>koolwaterstofFractieC6_C35</Waarde>
         <SIKB0101ID>499</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C35</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C35</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C35_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC6_C35_Drooggewicht</Waarde>
         <SIKB0101ID>500</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C35 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C35 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>uitgedruktInP2O5</Waarde>
@@ -1828,11 +1828,11 @@
         <Omschrijving>uitgedrukt in dihydrotestosterone equivalenten /drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>uitgedruktIn17b-EstradiolEquivalenten_Drooggewicht</Waarde>
+        <Waarde>uitgedruktIn17b_EstradiolEquivalenten_Drooggewicht</Waarde>
         <SIKB0101ID>600</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>uitgedrukt in 17b-estradiol equivalenten / drooggewicht</Omschrijving>
+        <Omschrijving>uitgedrukt in 17b_estradiol equivalenten / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>uitgedruktInDexamethasonEquivalenten_Drooggewicht</Waarde>
@@ -1891,21 +1891,21 @@
         <Omschrijving>uitgedrukt in rosiglitazon equivalenten / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C6_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC5_C6_Drooggewicht</Waarde>
         <SIKB0101ID>674</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C6 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C6 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C35_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC10_C35_Drooggewicht</Waarde>
         <SIKB0101ID>675</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C35 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C35 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.01En1um</Waarde>
+        <Waarde>diameterTussen0_01En1um</Waarde>
         <SIKB0101ID>625</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -1989,7 +1989,7 @@
         <Omschrijving>diameter tussen 88 en 105 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen1En1.19mm</Waarde>
+        <Waarde>diameterTussen1En1_19mm</Waarde>
         <SIKB0101ID>648</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -2003,7 +2003,7 @@
         <Omschrijving>diameter tussen 105 en 125 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen1.19En1.41mm</Waarde>
+        <Waarde>diameterTussen1_19En1_41mm</Waarde>
         <SIKB0101ID>649</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -2017,7 +2017,7 @@
         <Omschrijving>diameter tussen 125 en 150 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen1.41En1.68mm</Waarde>
+        <Waarde>diameterTussen1_41En1_68mm</Waarde>
         <SIKB0101ID>650</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -2031,7 +2031,7 @@
         <Omschrijving>diameter tussen 150 en 177 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen1.68En2mm</Waarde>
+        <Waarde>diameterTussen1_68En2mm</Waarde>
         <SIKB0101ID>651</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -2367,18 +2367,18 @@
         <Omschrijving>diameter kleiner dan 200 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C20_OpgelosteFractie</Waarde>
+        <Waarde>koolwaterstofFractieC10_C20_OpgelosteFractie</Waarde>
         <SIKB0101ID>747</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C20 / opgeloste fractie</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C20 / opgeloste fractie</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC20-C40_OpgelosteFractie</Waarde>
+        <Waarde>koolwaterstofFractieC20_C40_OpgelosteFractie</Waarde>
         <SIKB0101ID>748</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C20-C40 / opgeloste fractie</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C20_C40 / opgeloste fractie</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>diameterTussen2En8um</Waarde>
@@ -2626,11 +2626,11 @@
         <Omschrijving>diameter kleiner dan 30 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC5_C40_Drooggewicht</Waarde>
         <SIKB0101ID>761</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>diameterTussen2En8um_Drooggewicht</Waarde>
@@ -2934,53 +2934,53 @@
         <Omschrijving>diameter kleiner dan 8000 um / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C35</Waarde>
+        <Waarde>koolwaterstofFractieC5_C35</Waarde>
         <SIKB0101ID>833</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C35</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C35</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C35_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC5_C35_Drooggewicht</Waarde>
         <SIKB0101ID>834</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C35 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C35 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C40</Waarde>
+        <Waarde>koolwaterstofFractieC5_C40</Waarde>
         <SIKB0101ID>835</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>ls-waardeCumulatief2.0±0.1ml_g_Drooggewicht</Waarde>
+        <Waarde>ls_waardeCumulatief2_0+_0_1ml_g_Drooggewicht</Waarde>
         <SIKB0101ID>805</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>LS-waarde cumulatief 2.0 ± 0.1 ml/g / drooggewicht</Omschrijving>
+        <Omschrijving>LS_waarde cumulatief 2.0 ± 0.1 ml/g / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>ls-waardeCumulatief2.0±0.1ml_g_OpgelosteFractie</Waarde>
+        <Waarde>ls_waardeCumulatief2_0+_0_1ml_g_OpgelosteFractie</Waarde>
         <SIKB0101ID>806</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>LS-waarde cumulatief 2.0 ± 0.1 ml/g / opgeloste fractie</Omschrijving>
+        <Omschrijving>LS_waarde cumulatief 2.0 ± 0.1 ml/g / opgeloste fractie</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>ls-waardeCumulatief8.0±0.1ml_g_Drooggewicht</Waarde>
+        <Waarde>ls_waardeCumulatief8_0+_0_1ml_g_Drooggewicht</Waarde>
         <SIKB0101ID>808</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>LS-waarde cumulatief 8.0 ± 0.1 ml/g / drooggewicht</Omschrijving>
+        <Omschrijving>LS_waarde cumulatief 8.0 ± 0.1 ml/g / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>ls-waardeCumulatief8.0±0.1ml_g_OpgelosteFractie</Waarde>
+        <Waarde>ls_waardeCumulatief8_0+_0_1ml_g_OpgelosteFractie</Waarde>
         <SIKB0101ID>809</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>LS-waarde cumulatief 8.0 ± 0.1 ml/g / opgeloste fractie</Omschrijving>
+        <Omschrijving>LS_waarde cumulatief 8.0 ± 0.1 ml/g / opgeloste fractie</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>uitgedruktInCcetaatkoolstof_UitgedruktInSpirillum</Waarde>
@@ -3004,11 +3004,11 @@
         <Omschrijving>antropogeen / opgeloste fractie</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>uitgedruktInBiopolymeer-CeninFlavobacteriumjohnsoniae</Waarde>
+        <Waarde>uitgedruktInBiopolymeer_CeninFlavobacteriumjohnsoniae</Waarde>
         <SIKB0101ID>828</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>uitgedrukt in biopolymeer-C en in Flavobacterium johnsoniae</Omschrijving>
+        <Omschrijving>uitgedrukt in biopolymeer_C en in Flavobacterium johnsoniae</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>opgelosteFractie_NaDestructie</Waarde>
@@ -3025,137 +3025,137 @@
         <Omschrijving>diameter groter dan 0,5 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.03En0.05um</Waarde>
+        <Waarde>diameterTussen0_03En0_05um</Waarde>
         <SIKB0101ID>862</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.03 en 0.05 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.05En0.06um</Waarde>
+        <Waarde>diameterTussen0_05En0_06um</Waarde>
         <SIKB0101ID>863</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.05 en 0.06 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.06En0.07um</Waarde>
+        <Waarde>diameterTussen0_06En0_07um</Waarde>
         <SIKB0101ID>864</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.06 en 0.07 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.07En0.08um</Waarde>
+        <Waarde>diameterTussen0_07En0_08um</Waarde>
         <SIKB0101ID>865</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.07 en 0.08 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.08En0.09um</Waarde>
+        <Waarde>diameterTussen0_08En0_09um</Waarde>
         <SIKB0101ID>866</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.08 en 0.09 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.09En0.1um</Waarde>
+        <Waarde>diameterTussen0_09En0_1um</Waarde>
         <SIKB0101ID>867</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.09 en 0.1 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.1En0.12um</Waarde>
+        <Waarde>diameterTussen0_1En0_12um</Waarde>
         <SIKB0101ID>868</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.1 en 0.12 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.12En0.14um</Waarde>
+        <Waarde>diameterTussen0_12En0_14um</Waarde>
         <SIKB0101ID>869</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.12 en 0.14 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.14En0.16um</Waarde>
+        <Waarde>diameterTussen0_14En0_16um</Waarde>
         <SIKB0101ID>870</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.14 en 0.16 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.16En0.18um</Waarde>
+        <Waarde>diameterTussen0_16En0_18um</Waarde>
         <SIKB0101ID>871</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.16 en 0.18 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.18En0.2um</Waarde>
+        <Waarde>diameterTussen0_18En0_2um</Waarde>
         <SIKB0101ID>872</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.18 en 0.2 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.2En0.3um</Waarde>
+        <Waarde>diameterTussen0_2En0_3um</Waarde>
         <SIKB0101ID>873</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.2 en 0.3 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.3En0.4um</Waarde>
+        <Waarde>diameterTussen0_3En0_4um</Waarde>
         <SIKB0101ID>874</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.3 en 0.4 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen0.4En0.5um</Waarde>
+        <Waarde>diameterTussen0_4En0_5um</Waarde>
         <SIKB0101ID>875</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>diameter tussen 0.4 en 0.5 um</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie0,5-1mm_Drooggewicht</Waarde>
+        <Waarde>fractie0,5_1mm_Drooggewicht</Waarde>
         <SIKB0101ID>877</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 0,5 - 1 mm / drooggewicht</Omschrijving>
+        <Omschrijving>fractie 0,5 _ 1 mm / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie1-2mm_Drooggewicht</Waarde>
+        <Waarde>fractie1_2mm_Drooggewicht</Waarde>
         <SIKB0101ID>878</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 1 - 2 mm / drooggewicht</Omschrijving>
+        <Omschrijving>fractie 1 _ 2 mm / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie2-4mm_Drooggewicht</Waarde>
+        <Waarde>fractie2_4mm_Drooggewicht</Waarde>
         <SIKB0101ID>879</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 2 - 4 mm / drooggewicht</Omschrijving>
+        <Omschrijving>fractie 2 _ 4 mm / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie4-8mm_Drooggewicht</Waarde>
+        <Waarde>fractie4_8mm_Drooggewicht</Waarde>
         <SIKB0101ID>880</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 4 - 8 mm / drooggewicht</Omschrijving>
+        <Omschrijving>fractie 4 _ 8 mm / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>fractie8-16mm_Drooggewicht</Waarde>
+        <Waarde>fractie8_16mm_Drooggewicht</Waarde>
         <SIKB0101ID>881</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>fractie 8 - 16 mm / drooggewicht</Omschrijving>
+        <Omschrijving>fractie 8 _ 16 mm / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>fractieGroterDan16mm_Drooggewicht</Waarde>
@@ -3186,179 +3186,179 @@
         <Omschrijving>koolwaterstoffractie C10 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C14</Waarde>
+        <Waarde>koolwaterstofFractieC10_C14</Waarde>
         <SIKB0101ID>844</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C14</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C14</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C14_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC10_C14_Drooggewicht</Waarde>
         <SIKB0101ID>845</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C14 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C14 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C15</Waarde>
+        <Waarde>koolwaterstofFractieC10_C15</Waarde>
         <SIKB0101ID>846</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C15</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C15</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C15_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC10_C15_Drooggewicht</Waarde>
         <SIKB0101ID>847</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C15 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C15 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC11-C12</Waarde>
+        <Waarde>koolwaterstofFractieC11_C12</Waarde>
         <SIKB0101ID>892</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C11-C12</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C11_C12</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC15-C20</Waarde>
+        <Waarde>koolwaterstofFractieC15_C20</Waarde>
         <SIKB0101ID>848</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C15-C20</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C15_C20</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC15-C20_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC15_C20_Drooggewicht</Waarde>
         <SIKB0101ID>849</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C15-C20 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C15_C20 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC2-C6</Waarde>
+        <Waarde>koolwaterstofFractieC2_C6</Waarde>
         <SIKB0101ID>836</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C2-C6</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C2_C6</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC2-C6_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC2_C6_Drooggewicht</Waarde>
         <SIKB0101ID>837</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C2-C6 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C2_C6 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC21-C40</Waarde>
+        <Waarde>koolwaterstofFractieC21_C40</Waarde>
         <SIKB0101ID>850</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C21-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C21_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC21-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC21_C40_Drooggewicht</Waarde>
         <SIKB0101ID>851</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C21-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C21_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC25-C35</Waarde>
+        <Waarde>koolwaterstofFractieC25_C35</Waarde>
         <SIKB0101ID>852</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C25-C35</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C25_C35</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC25-C35_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC25_C35_Drooggewicht</Waarde>
         <SIKB0101ID>853</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C25-C35 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C25_C35 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC25-C40</Waarde>
+        <Waarde>koolwaterstofFractieC25_C40</Waarde>
         <SIKB0101ID>854</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C25-C40</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C25_C40</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC25-C40_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC25_C40_Drooggewicht</Waarde>
         <SIKB0101ID>855</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C25-C40 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C25_C40 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC30-C36</Waarde>
+        <Waarde>koolwaterstofFractieC30_C36</Waarde>
         <SIKB0101ID>856</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C30-C36</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C30_C36</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC30-C36_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC30_C36_Drooggewicht</Waarde>
         <SIKB0101ID>857</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C30-C36 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C30_C36 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C7</Waarde>
+        <Waarde>koolwaterstofFractieC5_C7</Waarde>
         <SIKB0101ID>838</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C7</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C7</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C7_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC5_C7_Drooggewicht</Waarde>
         <SIKB0101ID>839</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C7 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C7 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C9</Waarde>
+        <Waarde>koolwaterstofFractieC5_C9</Waarde>
         <SIKB0101ID>840</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C9</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C9</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC5-C9_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC5_C9_Drooggewicht</Waarde>
         <SIKB0101ID>841</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C5-C9 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C5_C9 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C12</Waarde>
+        <Waarde>koolwaterstofFractieC6_C12</Waarde>
         <SIKB0101ID>842</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C12</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C12</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC6-C12_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC6_C12_Drooggewicht</Waarde>
         <SIKB0101ID>843</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C6-C12 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C6_C12 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC7-C10</Waarde>
+        <Waarde>koolwaterstofFractieC7_C10</Waarde>
         <SIKB0101ID>890</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C7-C10</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C7_C10</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC7-C10_Drooggewicht</Waarde>
+        <Waarde>koolwaterstofFractieC7_C10_Drooggewicht</Waarde>
         <SIKB0101ID>891</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C7-C10 / drooggewicht</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C7_C10 / drooggewicht</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>koolwaterstofFractieC9</Waarde>
@@ -3431,18 +3431,18 @@
         <Omschrijving>fractie afkomstig van toxische blauwalgen / in situ gemeten</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C19</Waarde>
+        <Waarde>koolwaterstofFractieC10_C19</Waarde>
         <SIKB0101ID>894</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C19</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C19</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>koolwaterstofFractieC10-C35</Waarde>
+        <Waarde>koolwaterstofFractieC10_C35</Waarde>
         <SIKB0101ID>893</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>koolwaterstoffractie C10-C35</Omschrijving>
+        <Omschrijving>koolwaterstoffractie C10_C35</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
         <Waarde>diameterTussen16En32mm</Waarde>
@@ -3452,7 +3452,7 @@
         <Omschrijving>diameter tussen 16 en 32 mm</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterTussen3.90625En62.5um</Waarde>
+        <Waarde>diameterTussen3_90625En62_5um</Waarde>
         <SIKB0101ID>906</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -3480,7 +3480,7 @@
         <Omschrijving>diameter tussen 8 en 16 mm</Omschrijving>
     </Hoedanigheid>
     <Hoedanigheid>
-        <Waarde>diameterKleinerDan31.5mm_Drooggewicht</Waarde>
+        <Waarde>diameterKleinerDan31_5mm_Drooggewicht</Waarde>
         <SIKB0101ID>910</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>

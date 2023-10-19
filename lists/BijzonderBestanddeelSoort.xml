@@ -509,7 +509,7 @@
         <SIKB0101ID>131</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>penetratie-achtig</Omschrijving>
+        <Omschrijving>penetratie_achtig</Omschrijving>
     </BijzonderBestanddeelSoort>
     <BijzonderBestanddeelSoort>
         <Waarde>penetratielaag</Waarde>
