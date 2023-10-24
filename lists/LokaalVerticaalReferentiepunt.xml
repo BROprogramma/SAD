@@ -8,7 +8,7 @@
         <Omschrijving>De dieptes van dit element zijn weergegeven ten opzichte van de maaiveldhoogte van deze boring. </Omschrijving>
     </LokaalVerticaalReferentiepunt>
     <LokaalVerticaalReferentiepunt>
-        <Waarde>bopb</Waarde>
+        <Waarde>bovenkantPeilbuis</Waarde>
         <SIKB0101ID>14</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>

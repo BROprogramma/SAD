@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <BijzonderBestanddeelSoort>
+        <Waarde>kleibrokjes</Waarde>
+        <SIKB0101ID>1</SIKB0101ID>
+        <IMBRO/>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>kleibrokjes</Omschrijving>
+    </BijzonderBestanddeelSoort>
+    <BijzonderBestanddeelSoort>
+        <Waarde>veenbrokjes</Waarde>
+        <SIKB0101ID>2</SIKB0101ID>
+        <IMBRO/>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>veenbrokjes</Omschrijving>
+    </BijzonderBestanddeelSoort>
+    <BijzonderBestanddeelSoort>
         <Waarde>schelpen</Waarde>
         <SIKB0101ID>3</SIKB0101ID>
         <IMBRO/>
