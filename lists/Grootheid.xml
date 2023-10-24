@@ -77,11 +77,4 @@
         <IMBROA>v</IMBROA>
         <ToegestaneEenheid>meter (115)</ToegestaneEenheid>
     </Grootheid>
-    <Grootheid>
-        <Waarde>pidMeting</Waarde>
-        <SIKB0101ID>5169</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>parts per million (132)</ToegestaneEenheid>
-    </Grootheid>
 </domeintabel>
