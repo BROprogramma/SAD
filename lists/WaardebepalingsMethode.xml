@@ -991,12 +991,6 @@
         <Omschrijving>NEN-ISO 7027:1994 en</Omschrijving>
     </WaardebepalingsMethode>
     <WaardebepalingsMethode>
-        <SIKB0101ID>233</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>CMA/2/I/C.7 september 2015</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
         <SIKB0101ID>234</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -1313,18 +1307,6 @@
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>NEN-EN 15216:2007 en</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>330</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Met Aquo-kit berekend oordeel of toetsresultaat</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>331</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Niet genormaliseerde automatische waardebepaling</Omschrijving>
     </WaardebepalingsMethode>
     <WaardebepalingsMethode>
         <SIKB0101ID>348</SIKB0101ID>
@@ -2491,18 +2473,6 @@
         <Omschrijving>ISO 9965:1993 en</Omschrijving>
     </WaardebepalingsMethode>
     <WaardebepalingsMethode>
-        <SIKB0101ID>585</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Bepaling afgeleide waarde volgens KRW-methodiek</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>586</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Waarde is bepaald/berekend volgens model</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
         <SIKB0101ID>588</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -3427,12 +3397,6 @@
         <Omschrijving>NEN 6981:2008</Omschrijving>
     </WaardebepalingsMethode>
     <WaardebepalingsMethode>
-        <SIKB0101ID>866</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Bepaling toetsoordeel (+ of -) met/volgens Notove-methodiek</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
         <SIKB0101ID>867</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -3673,42 +3637,6 @@
         <Omschrijving>NPR 6616:1982 nl</Omschrijving>
     </WaardebepalingsMethode>
     <WaardebepalingsMethode>
-        <SIKB0101ID>908</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>RWS Standaard voor inwinning hydrol. en meteo. gegevens 2010</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>909</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>RWSV 913.00.W006</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>910</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>RWSV 913.00.W007</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>911</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>RWSV 913.00.W008</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>912</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>RWSV 913.00.W009</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>913</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>RWSV 913.00.W012</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
         <SIKB0101ID>914</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -3817,12 +3745,6 @@
         <Omschrijving>ISO/TS 23893-2:2007 en</Omschrijving>
     </WaardebepalingsMethode>
     <WaardebepalingsMethode>
-        <SIKB0101ID>936</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Bepaling waterbodemklasse volgens Towabo-methodiek</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
         <SIKB0101ID>937</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -3905,48 +3827,6 @@
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>NVN 7392:2005 Ontw. nl</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>955</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Voorlopige bepaling klasse door deskundige</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>956</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Niet genormaliseerde zintuiglijke waardebepaling</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>957</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Bepaling waarde / waterindex (0-100) volgens iWSR-methodiek</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>958</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Protocol Zwemmersjeuk 2011 - A diagnose aandoening</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>959</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Protocol Zwemmersjeuk 2011 - C slakken met Trichobilharzia</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>960</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Protocol Zwemmersjeuk 2011 - D DNA Trichobilharzia in water</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>962</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Leidraad voor passive sampling 2012</Omschrijving>
     </WaardebepalingsMethode>
     <WaardebepalingsMethode>
         <SIKB0101ID>963</SIKB0101ID>
@@ -4507,18 +4387,6 @@
         <Omschrijving>NEN 1056VI3:1966 en</Omschrijving>
     </WaardebepalingsMethode>
     <WaardebepalingsMethode>
-        <SIKB0101ID>1074</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>formule van Hazen</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>1075</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>formule van Seelheim</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
         <SIKB0101ID>1076</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -4571,11 +4439,5 @@
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>NEN-ISO 21527-1:2008 en</Omschrijving>
-    </WaardebepalingsMethode>
-    <WaardebepalingsMethode>
-        <SIKB0101ID>1081</SIKB0101ID>
-        <IMBRO/>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>NFN richtlijn waterbehandeling 2020</Omschrijving>
     </WaardebepalingsMethode>
 </domeintabel>
