@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Milieuhygienisch bodemonderzoek SAD/20230706</p>
       <p>Imvertor: Nightly-build.11</p>
-      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-0.2-1-20230706-20231024-145107</p>
+      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-0.2-1-20230706-20231031-081725</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -905,7 +905,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d97645e4611">
+                  <section id="detail_d97563e4611">
                      <h4>  registratiegeschiedenis</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -952,7 +952,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d97645e4839">
+                  <section id="detail_d97563e4839">
                      <h4>  gestandaardiseerde locatie bodemonderzoek</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -997,7 +997,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d97645e5067">
+                  <section id="detail_d97563e5067">
                      <h4>  rapport</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1972,10 +1972,6 @@
                                  </td>
                            </tr>
                            <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
-                           </tr>
-                           <tr>
                               <th>&nbsp;&nbsp;Waardebereik</th>
                               <td>1 januari 1980 tot heden</td>
                            </tr>
@@ -2230,7 +2226,7 @@
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
-                              <td>1</td>
+                              <td>0..1</td>
                            </tr>
                            <tr>
                               <th>Domein</th>
@@ -2241,10 +2237,6 @@
                               <td>
                                  Datum
                                  </td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
                            </tr>
                            <tr>
                               <th>Regels</th>
@@ -2408,7 +2400,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d97645e10517">
+                  <section id="detail_d97563e10498">
                      <h4>  aangeleverde verticale positie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3379,7 +3371,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d97645e13627">
+                  <section id="detail_d97563e13608">
                      <h4>  grond</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3422,7 +3414,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d97645e13859">
+                  <section id="detail_d97563e13840">
                      <h4>  kleurwaarneming</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3456,7 +3448,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d97645e14044">
+                  <section id="detail_d97563e14025">
                      <h4>  bijzonder bestanddeel</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -4341,10 +4333,6 @@
                                  </td>
                            </tr>
                            <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
-                           </tr>
-                           <tr>
                               <th>Regels</th>
                               <td>
                                  
@@ -5165,7 +5153,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d97645e20571">
+                  <section id="detail_d97563e20543">
                      <h4>  aangeleverde verticale positie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -5414,10 +5402,6 @@
                                  </td>
                            </tr>
                            <tr>
-                              <th>&nbsp;&nbsp;Naam IMBRO/A</th>
-                              <td>OnvolledigeDatum</td>
-                           </tr>
-                           <tr>
                               <th>Regels</th>
                               <td>
                                  
@@ -5631,7 +5615,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d97645e22318">
+                  <section id="detail_d97563e22281">
                      <h4>  kleurwaarneming</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -6283,8 +6267,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Indien de grootheid "massaFractie" of "massaConcentratie" moet het attribuut parameter
-                                    een waarde bevatten.</p>
+                                 <p>Indien de grootheid binnen een analyse entiteit de waarde "massaFractie" of "massaConcentratie"
+                                    heeft, moet het attribuut <em>parameter</em> een waarde bevatten.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -6479,7 +6463,7 @@
                            </tr>
                            <tr>
                               <th>Kardinaliteit</th>
-                              <td>0..1</td>
+                              <td>1</td>
                            </tr>
                            <tr>
                               <th>Domein</th>
@@ -8609,7 +8593,7 @@
                         
                         <p>De lijst met grootheden. In de kolom toegestane eenheid wordt aangegeven welke eenheid
                            / eenheden bij deze grootheid hoort. 
-                           De domeintabel bevat een selectie van de waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/3aa60dac-a881-4856-9081-8e31da1da802" shape="rect">Parameter</a> van SIKB0101, en dan specifiek de groep "Grootheid" binnen deze tabel.
+                           De domeintabel bevat een selectie van de waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/0eafa483-2875-4c94-890d-66258a6b4d88" shape="rect">Parameter</a> van SIKB0101, en dan specifiek de groep "Grootheid" binnen deze tabel.
                            Het nummer tussen de haakjes verwijst naar het SIKB0101ID van de eenheid die te vinden
                            is in de waardelijst <a href="https://codes.sikb.nl/tablet/domain-table-details/04f4f467-021b-4218-baa8-9742ed977c61" shape="rect">Eenheid</a>.</p>
                         
@@ -12946,7 +12930,7 @@
                         
                         <p>De lijst met parameters en andere eigenschappen die bij een milieukundig bodemonderzoek
                            op het laboratorium bepaald worden. 
-                           De domeintabel bevat een selectie van de waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/3aa60dac-a881-4856-9081-8e31da1da802" shape="rect">Parameter</a> van SIKB0101.</p>
+                           De domeintabel bevat een selectie van de waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/0eafa483-2875-4c94-890d-66258a6b4d88" shape="rect">Parameter</a> van SIKB0101.</p>
                         
                         
                         
