@@ -1212,7 +1212,7 @@ Explanation: Het attribute uom moet aanwezig zijn als een gegeven met dit dataty
 				<xs:attribute name="codeSpace"
                           type="xs:anyURI"
                           use="required"
-                          fixed="urn:bro:sad:AanleidingOnderzoek"/>
+                          fixed="urn:bro:sad:InvestigationReason"/>
 			</xs:restriction>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -1222,7 +1222,7 @@ Explanation: Het attribute uom moet aanwezig zijn als een gegeven met dit dataty
 				<xs:attribute name="codeSpace"
                           type="xs:anyURI"
                           use="required"
-                          fixed="urn:bro:sad:AsbestAanwezigheid"/>
+                          fixed="urn:bro:sad:AsbestosPresence"/>
 			</xs:restriction>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -1232,7 +1232,7 @@ Explanation: Het attribute uom moet aanwezig zijn als een gegeven met dit dataty
 				<xs:attribute name="codeSpace"
                           type="xs:anyURI"
                           use="required"
-                          fixed="urn:bro:sad:TypeOnderzoek"/>
+                          fixed="urn:bro:sad:ProjectType"/>
 			</xs:restriction>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -1242,7 +1242,7 @@ Explanation: Het attribute uom moet aanwezig zijn als een gegeven met dit dataty
 				<xs:attribute name="codeSpace"
                           type="xs:anyURI"
                           use="required"
-                          fixed="urn:bro:sad:KaderAanlevering"/>
+                          fixed="urn:bro:sad:DeliveryContext"/>
 			</xs:restriction>
 		</xs:simpleContent>
 	</xs:complexType>

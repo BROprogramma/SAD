@@ -24,7 +24,7 @@
    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0"
               schemaLocation="./brocommon.xsd"/>
    <xs:import namespace="http://www.opengis.net/gml/3.2"
-              schemaLocation="./gml-profile.xsd"/>   
+              schemaLocation="./gml-profile.xsd"/>
    <xs:element name="RegistrationObject"
                type="sadcom:RegistrationObjectType"
                substitutionGroup="gml:AbstractFeature">
@@ -154,19 +154,27 @@ Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven
                   </xs:annotation>
                </xs:element>
                <xs:element name="asbestos"
-                           type="sadcom:AsbestosPresencePropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:AsbestosPresenceType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>AsbestosPresence</CodeListName>
+                        <CodeListURI>urn:bro:sad:AsbestosPresence</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding of binnen het onderzoek de aanwezigheid van asbest is onderzocht.
 Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="deliveryContext"
-                           type="sadcom:DeliveryContextPropertyType"
                            minOccurs="1"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:DeliveryContextType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>DeliveryContext</CodeListName>
+                        <CodeListURI>urn:bro:sad:DeliveryContext</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een aanduiding van de rechtsgrond waarop het brondocument is gebaseerd of, bij afwezigheid daarvan, de activiteit naar aanleiding waarvan het is opgemaakt
 Explanation: De wetgever heeft bepaald dat het gegeven moet zijn vastgelegd om inzicht te geven in de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke betekenis van de informatie.</xs:documentation>
                   </xs:annotation>
@@ -203,10 +211,14 @@ Explanation: In de conclusie staat veelal of er verontreiniging is aangetroffen,
                   </xs:simpleType>
                </xs:element>
                <xs:element name="investigationReason"
-                           type="sadcom:InvestigationReasonPropertyType"
                            minOccurs="1"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:InvestigationReasonType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>InvestigationReason</CodeListName>
+                        <CodeListURI>urn:bro:sad:InvestigationReason</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanleiding voor het uitvoeren van het onderzoek.</xs:documentation>
                   </xs:annotation>
                </xs:element>
@@ -222,10 +234,14 @@ Explanation: De naam die door de bronhouder is toegekend aan het onderzoek.</xs:
                   </xs:simpleType>
                </xs:element>
                <xs:element name="projectType"
-                           type="sadcom:ProjectTypePropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:ProjectTypeType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>ProjectType</CodeListName>
+                        <CodeListURI>urn:bro:sad:ProjectType</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type onderzoek dat is uitgevoerd.
 Explanation: Het type onderzoek geeft informatie over het soort onderzoek dat is uitgevoerd, maar ook over de wijze waarop gerapporteerd is. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
                   </xs:annotation>
@@ -354,10 +370,14 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
                   </xs:simpleType>
                </xs:element>
                <xs:element name="measurementPointType"
-                           type="sadcom:MeasurementPointTypePropertyType"
                            minOccurs="1"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:MeasurementPointTypeType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>MeasurementPointType</CodeListName>
+                        <CodeListURI>urn:bro:sad:MeasurementPointType</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type meetpunt dat beschreven is.
 Explanation: Het type meetpunt is meestal een boring of peilbuis maar kan ook een inspectiegat, sleuf, putwand of putbodem zijn.</xs:documentation>
                   </xs:annotation>
@@ -409,10 +429,14 @@ Explanation: Het type meetpunt is meestal een boring of peilbuis maar kan ook ee
          <xs:extension base="gml:AbstractFeatureType">
             <xs:sequence>
                <xs:element name="descriptionProcedure"
-                           type="sadcom:DescriptionProcedurePropertyType"
                            minOccurs="1"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:DescriptionProcedureType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>DescriptionProcedure</CodeListName>
+                        <CodeListURI>urn:bro:sad:DescriptionProcedure</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De procedure die aangeeft volgens welke methode de bodemopbouw is beschreven.
 Explanation: De procedure beschrijft volgens welk stelsel van afspraken de bodemopbouw is beschreven en welke aspecten worden beschreven. Procedures zijn in het algemeen vastgelegd in een norm, protocol of richtlijn. Het gegeven staat niet in een brondocument. Dit attribuut wordt standaard gevuld met de waarde 'nen5104_nen5706'.</xs:documentation>
                   </xs:annotation>
@@ -444,10 +468,14 @@ Explanation: De procedure beschrijft volgens welk stelsel van afspraken de bodem
          <xs:extension base="gml:AbstractFeatureType">
             <xs:sequence>
                <xs:element name="describedMaterial"
-                           type="sadcom:DescribedMaterialPropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:DescribedMaterialType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>DescribedMaterial</CodeListName>
+                        <CodeListURI>urn:bro:sad:DescribedMaterial</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van het materiaal dat is beschreven in het profiel.
 Explanation: Het gegeven staat niet in een brondocument. De basisregistratie ondergrond bepaalt de waarde aan de hand van de opgenomen grondsoort van de eerste bodemlaag. Voor het domein milieukwaliteit is gekozen om de waarde grond als standaardwaarde te gebruiken.</xs:documentation>
                   </xs:annotation>
@@ -513,10 +541,14 @@ Explanation: De ondergrens wordt uitgedrukt ten opzichte van het lokaal verticaa
                   </xs:complexType>
                </xs:element>
                <xs:element name="oilWaterReaction"
-                           type="sadcom:OilWaterReactionPropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:OilWaterReactionType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>OilWaterReaction</CodeListName>
+                        <CodeListURI>urn:bro:sad:OilWaterReaction</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Semi-kwantitatieve veldanalyse van het gehalte minerale olie/olie-achtige of oppervlakte-actieve stoffen in de bodemlaag.</xs:documentation>
                   </xs:annotation>
                </xs:element>
@@ -980,28 +1012,40 @@ Explanation: De veldmeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenhe
                   </xs:complexType>
                </xs:element>
                <xs:element name="localVerticalReferencePoint"
-                           type="sadcom:LocalVerticalReferencePointPropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:LocalVerticalReferencePointType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>LocalVerticalReferencePoint</CodeListName>
+                        <CodeListURI>urn:bro:sad:LocalVerticalReferencePoint</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het punt dat bij een grondwaterstandsmeting gebruikt wordt als nulpunt voor de hoogte.
 Explanation: Het domein bevat begrippen die naar een oppervlak verwijzen. Het lokaal verticaal referentiepunt geldt als het punt waar de meting van de grondwaterstand begonnen is.</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="parameter"
-                           type="sadcom:ParameterPropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:ParameterType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>Parameter</CodeListName>
+                        <CodeListURI>urn:bro:sad:Parameter</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De in het veld gemeten parameter.
 Explanation: Het SIKB0101ID is het identificerend gegeven van de parameter en staat in de referentielijst Parameter. ID's worden beheerd door SIKB en het Informatiehuis Water (IHW).</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="quantity"
-                           type="sadcom:QuantityPropertyType"
                            minOccurs="1"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:QuantityType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>Quantity</CodeListName>
+                        <CodeListURI>urn:bro:sad:Quantity</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gemeten eigenschap.
 Explanation: Elk begrip dat een kwalitatieve uitspraak over een kenmerk van een entiteit bevat dat op een numerieke schaal geordend en gemeten kan worden. Voorbeelden: concentratie, zuurgraad, geleidendheid, temperatuur</xs:documentation>
                   </xs:annotation>
@@ -1089,10 +1133,14 @@ Explanation: De analysemeetwaarde wordt uitgedrukt in een meeteenheid. De meetee
                   </xs:complexType>
                </xs:element>
                <xs:element name="condition"
-                           type="sadcom:ConditionPropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:ConditionType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>Condition</CodeListName>
+                        <CodeListURI>urn:bro:sad:Condition</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De vorm waarin de eenheid behorend bij een meetwaarde wordt uitgedrukt of de fractie van de parameter waarop de meetwaarde betrekking heeft.
 Explanation: De vorm van de eenheid kan een equivalent zijn waarin de meetwaarde wordt uitgedrukt, als ware het een andere vergelijkbare parameter. Voorbeeld hiervan is 'uitgedrukt in Stikstof' bij de parameter Nitraat (NO3). De waarde 'opgeloste fractie' of de korrelgroottefractie zijn voorbeelden van fracties van een parameter.</xs:documentation>
                   </xs:annotation>
@@ -1109,36 +1157,52 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
                   </xs:simpleType>
                </xs:element>
                <xs:element name="limitSymbol"
-                           type="sadcom:LimitSymbolPropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:LimitSymbolType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>LimitSymbol</CodeListName>
+                        <CodeListURI>urn:bro:sad:LimitSymbol</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Symbool dat aangeeft of de gemeten waarde kleiner is dan de limietsymboolreferentie, ofwel groter is dan de hoogtse limietsymboolreferentie.
 Explanation: Het gegeven is alleen aanwezig wanneer bij het attribuut analysemeetwaarde niet de gemeten waarde is opgegeven maar in plaats daarvan de limietsymboolreferentie.</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="limitSymbolReference"
-                           type="sadcom:LimitSymbolReferencePropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:LimitSymbolReferenceType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>LimitSymbolReference</CodeListName>
+                        <CodeListURI>urn:bro:sad:LimietSymboolReferentie</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De grenswaarde waarop het limietsymbool van de analyse betrekking heeft.</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="parameter"
-                           type="sadcom:ParameterPropertyType"
                            minOccurs="0"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:ParameterType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>Parameter</CodeListName>
+                        <CodeListURI>urn:bro:sad:Parameter</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het ID van de, in het laboratorium bepaalde parameter.
 Explanation: Het SIKB0101ID is het identificerend gegeven van de parameter en staat in de referentielijst Parameter.</xs:documentation>
                   </xs:annotation>
                </xs:element>
                <xs:element name="quantity"
-                           type="sadcom:QuantityPropertyType"
                            minOccurs="1"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:QuantityType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>Quantity</CodeListName>
+                        <CodeListURI>urn:bro:sad:Quantity</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gemeten eigenschap.
 Explanation: Elk begrip dat een kwalitatieve uitspraak over een kenmerk van een entiteit bevat dat op een numerieke schaal geordend en gemeten kan worden. Voorbeelden: concentratie, massafractie.</xs:documentation>
                   </xs:annotation>
@@ -1170,10 +1234,14 @@ Explanation: Elk begrip dat een kwalitatieve uitspraak over een kenmerk van een 
          <xs:extension base="gml:AbstractFeatureType">
             <xs:sequence>
                <xs:element name="certification"
-                           type="sadcom:ValuationMethodPropertyType"
                            minOccurs="1"
-                           maxOccurs="1">
+                           maxOccurs="1"
+                           type="sadcom:ValuationMethodType">
                   <xs:annotation>
+                     <xs:appinfo>
+                        <CodeListName>ValuationMethod</CodeListName>
+                        <CodeListURI>urn:bro:sad:ValuationMethod</CodeListURI>
+                     </xs:appinfo>
                      <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding van het kwaliteitskenmerk volgens welke het laboratorium de parameter heeft geanalyseerd.</xs:documentation>
                   </xs:annotation>
                </xs:element>
@@ -1260,10 +1328,14 @@ Explanation: Het gegeven is alleen aanwezig als alle aan te leveren gegevens zij
             </xs:annotation>
          </xs:element>
          <xs:element name="registrationStatus"
-                     type="sadcom:RegistrationStatusPropertyType"
                      minOccurs="1"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:RegistrationStatusType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>RegistrationStatus</CodeListName>
+                  <CodeListURI>urn:bro:sad:RegistrationStatus</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De actuele fase van registratie waarin het registratieobject zich bevindt.</xs:documentation>
             </xs:annotation>
          </xs:element>
@@ -1359,10 +1431,14 @@ Explanation: Dit is de positie van het maaiveld t.o.v. de bovenkant van de peilb
             </xs:complexType>
          </xs:element>
          <xs:element name="localVerticalReferencePoint"
-                     type="sadcom:LocalVerticalReferencePointPropertyType"
                      minOccurs="1"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:LocalVerticalReferencePointType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>LocalVerticalReferencePoint</CodeListName>
+                  <CodeListURI>urn:bro:sad:LocalVerticalReferencePoint</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het punt dat in het milieuhygiënisch bodemonderzoek is gebruikt als nulpunt voor de hoogte.
 Explanation: Het domein bevat begrippen die naar een oppervlak verwijzen. Het lokaal verticaal referentiepunt geldt als het punt waar het onderzoek aan de ondergrond begonnen is.</xs:documentation>
             </xs:annotation>
@@ -1381,10 +1457,14 @@ Explanation: De waarde kan positief of negatief zijn. Als de waarde positief is,
             </xs:complexType>
          </xs:element>
          <xs:element name="verticalDatum"
-                     type="sadcom:VerticalDatumPropertyType"
                      minOccurs="0"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:VerticalDatumType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>VerticalDatum</CodeListName>
+                  <CodeListURI>urn:bro:sad:VerticalDatum</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.
 Explanation: In het geval het verticaal referentievlak is vastgelegd is dit altijd ten opzichte van NAP.</xs:documentation>
             </xs:annotation>
@@ -1394,46 +1474,66 @@ Explanation: In het geval het verticaal referentievlak is vastgelegd is dit alti
    <xs:complexType name="SoilTypeType">
       <xs:sequence>
          <xs:element name="gravelContentClass"
-                     type="sadcom:GravelContentClassPropertyType"
                      minOccurs="0"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:GravelContentClassType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>GravelContentClass</CodeListName>
+                  <CodeListURI>urn:bro:sad:GravelContentClass</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte aan grind uitgedrukt in een klasse.
 Explanation: In de NEN 5104 classificatie wordt het gehalte aan grind altijd geschat. Het gegeven wordt apart vastgelegd wanneer het gehalte minder is dan 30 %. Daarboven bepaalt het gehalte de naam van de grondsoort.</xs:documentation>
             </xs:annotation>
          </xs:element>
          <xs:element name="gravelMedianClass"
-                     type="sadcom:GravelMedianClassPropertyType"
                      minOccurs="0"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:GravelMedianClassType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>GravelMedianClass</CodeListName>
+                  <CodeListURI>urn:bro:sad:GravelMedianClass</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mediaan van de grindfractie uitgedrukt in een klasse.
 Explanation: Betreft de korrelgrootte waarbij de grindfractie van een mengsel in twee massadelen van 50 % is verdeeld. Hierbij wordt de indeling uit de NEN 5104 gehanteerd.</xs:documentation>
             </xs:annotation>
          </xs:element>
          <xs:element name="organicMatterContentClass"
-                     type="sadcom:OrganicMatterContentClassPropertyType"
                      minOccurs="0"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:OrganicMatterContentClassType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>OrganicMatterContentClass</CodeListName>
+                  <CodeListURI>urn:bro:sad:OrganicMatterContentClass</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte organische stof uitgedrukt in een klasse.
 Explanation: In de NEN 5104 classificatie wordt het gehalte aan organische stof altijd geschat. Het gegeven wordt apart vastgelegd wanneer het gehalte een lagere waarde heeft dan 15%. Daarboven bepaalt het gehalte de naam van de grondsoort.</xs:documentation>
             </xs:annotation>
          </xs:element>
          <xs:element name="sandMedianClass"
-                     type="sadcom:SandMedianClassPropertyType"
                      minOccurs="0"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:SandMedianClassType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>SandMedianClass</CodeListName>
+                  <CodeListURI>urn:bro:sad:SandMedianClass</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mediaan van de zandfractie uitgedrukt in een klasse.
 Explanation: Betreft de korrelgrootte waarbij de zandfractie van een mengsel in twee massadelen van 50 % is verdeeld. Hierbij wordt de indeling uit de NEN 5104 gehanteerd.</xs:documentation>
             </xs:annotation>
          </xs:element>
          <xs:element name="soilName"
-                     type="sadcom:SoilNamePropertyType"
                      minOccurs="1"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:SoilNameType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>SoilName</CodeListName>
+                  <CodeListURI>urn:bro:sad:SoilName</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van de grondsoort volgens de systematiek die voornamelijk gebaseerd is op NEN 5104.</xs:documentation>
             </xs:annotation>
          </xs:element>
@@ -1442,26 +1542,38 @@ Explanation: Betreft de korrelgrootte waarbij de zandfractie van een mengsel in 
    <xs:complexType name="ColourObservationType">
       <xs:sequence>
          <xs:element name="mainColour"
-                     type="sadcom:ColourTypePropertyType"
                      minOccurs="1"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:ColourTypeType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>ColourType</CodeListName>
+                  <CodeListURI>urn:bro:sad:ColourType</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De primaire kleur.</xs:documentation>
             </xs:annotation>
          </xs:element>
          <xs:element name="mainColourStrength"
-                     type="sadcom:ColourStrengthPropertyType"
                      minOccurs="0"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:ColourStrengthType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>ColourStrength</CodeListName>
+                  <CodeListURI>urn:bro:sad:ColourStrength</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De sterkte van de (hoofd-)kleur.</xs:documentation>
             </xs:annotation>
          </xs:element>
          <xs:element name="subColour"
-                     type="sadcom:ColourTypePropertyType"
                      minOccurs="0"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:ColourTypeType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>ColourType</CodeListName>
+                  <CodeListURI>urn:bro:sad:ColourType</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De secundaire ofwel bijkleur.</xs:documentation>
             </xs:annotation>
          </xs:element>
@@ -1470,1075 +1582,309 @@ Explanation: Betreft de korrelgrootte waarbij de zandfractie van een mengsel in 
    <xs:complexType name="ParticularConstituentType">
       <xs:sequence>
          <xs:element name="constituentGrade"
-                     type="sadcom:ConstituentGradePropertyType"
                      minOccurs="0"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:ConstituentGradeType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>ConstituentGrade</CodeListName>
+                  <CodeListURI>urn:bro:sad:ConstituentGrade</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De hoeveelheid van het bijzondere bestandsdeel dat in de bodemlaag is aangetroffen</xs:documentation>
             </xs:annotation>
          </xs:element>
          <xs:element name="constituentType"
-                     type="sadcom:ConstituentTypePropertyType"
                      minOccurs="1"
-                     maxOccurs="1">
+                     maxOccurs="1"
+                     type="sadcom:ConstituentTypeType">
             <xs:annotation>
+               <xs:appinfo>
+                  <CodeListName>ConstituentType</CodeListName>
+                  <CodeListURI>urn:bro:sad:ConstituentType</CodeListURI>
+               </xs:appinfo>
                <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het soort bijzonder bestandsdeel dat in de bodemlaag is aangetroffen.</xs:documentation>
             </xs:annotation>
          </xs:element>
       </xs:sequence>
    </xs:complexType>
-   <xs:element name="InvestigationReason"
-               type="sadcom:InvestigationReasonType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de aanleiding waarvoor het onderzoek is uitgevoerd. De domeintabel bevat een selectie van de waarden uit de domeintabel AanleidingOnderzoek van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="InvestigationReasonType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:InvestigationReason"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="InvestigationReasonPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:InvestigationReason"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="AsbestosPresence" type="sadcom:AsbestosPresenceType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met waarden voor het veld 'Asbest aanwezigheid' De domeintabel bevat een selectie van de waarden uit de domeintabel AsbestAanwezigheid van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="AsbestosPresenceType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:AsbestosPresence"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="AsbestosPresencePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:AsbestosPresence"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="DescribedMaterial" type="sadcom:DescribedMaterialType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de materialen waaruit de lagen in een boorprofiel bestaan.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="DescribedMaterialType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:DescribedMaterial"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="DescribedMaterialPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:DescribedMaterial"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="DescriptionProcedure"
-               type="sadcom:DescriptionProcedureType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de procedures voor de boorbeschrijvingen uitgevoerd in het kader van milieukwaliteit. De domeintabel bevat een selectie van de waarden uit de domeintabel BeschrijfProcedure van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="DescriptionProcedureType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:DescriptionProcedure"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="DescriptionProcedurePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:DescriptionProcedure"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="ConstituentType" type="sadcom:ConstituentTypeType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met bijzondere bestanddelen. De domeintabel bevat een selectie van de waarden uit de domeintabel BodemlaagBodemkenmerken van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="ConstituentTypeType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:ConstituentType"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="ConstituentTypePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:ConstituentType"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="ConstituentGrade" type="sadcom:ConstituentGradeType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met gradaties voor bijzondere bestanddelen. De domeintabel bevat een selectie van de waarden uit de domeintabel BodemlaagBodemkenmerkenGradatie van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="ConstituentGradeType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:ConstituentGrade"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="ConstituentGradePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:ConstituentGrade"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="CoordinateTransformation"
-               type="sadcom:CoordinateTransformationType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de methoden waarmee de coördinaten zijn omgezet.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="CoordinateTransformationType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de onderzoeksaanleiding.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:CoordinateTransformation"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="CoordinateTransformationPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:CoordinateTransformation"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="GravelContentClass" type="sadcom:GravelContentClassType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst voor de classificatie van het aandeel grind in grindarme grond volgens NEN 5104. De domeintabel bevat een selectie van de waarden uit de domeintabel GrindGehalte van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="GravelContentClassType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:GravelContentClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="GravelContentClassPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:GravelContentClass"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="GravelMedianClass" type="sadcom:GravelMedianClassType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst voor de classificatie van de mediaan van de grindfractie. De domeintabel bevat een selectie van de waarden uit de domeintabel BodemsoortMediaan van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="GravelMedianClassType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:GravelMedianClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="GravelMedianClassPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:GravelMedianClass"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="SoilName" type="sadcom:SoilNameType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst voor de classificatie van de grondsoort voornamelijk gebaseerd op de systematiek van NEN 5104. De domeintabel bevat een selectie van de waarden uit de domeintabel Bodemsoort van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="SoilNameType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:SoilName"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="SoilNamePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:SoilName"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="Quantity" type="sadcom:QuantityType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met grootheden. In de kolom toegestane eenheid wordt aangegeven welke eenheid / eenheden bij deze grootheid hoort. De domeintabel bevat een selectie van de waarden uit de domeintabel Parameter van SIKB0101, en dan specifiek de groep "Grootheid" binnen deze tabel. Het nummer tussen de haakjes verwijst naar het SIKB0101ID van de eenheid die te vinden is in de waardelijst Eenheid.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="QuantityType">
-      <xs:sequence>
-         <xs:element name="AllowedUnit" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De toegestane eenheid (inclusief het bijbehorende SIKB0101ID).</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:Quantity"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="QuantityPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:Quantity"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="Condition" type="sadcom:ConditionType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met hoedanigheden waarin de eenheid behorend bij een meetwaarde wordt uitgedrukt of de fractie van de parameter waarop de meetwaarde betrekking heeft. De domeintabel bevat een selectie van de waarden uit de domeintabel Hoedanigheid van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="ConditionType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:Condition"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="ConditionPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:Condition"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="DeliveryContext" type="sadcom:DeliveryContextType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de redenen waarom het registratieobject aan de basisregistratie ondergrond is aangeleverd.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="DeliveryContextType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:DeliveryContext"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="DeliveryContextPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:DeliveryContext"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="ColourType" type="sadcom:ColourTypeType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met kleuren. De domeintabel bevat een selectie van de waarden uit de domeintabel Kleur van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="ColourTypeType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:ColourType"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="ColourTypePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:ColourType"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="ColourStrength" type="sadcom:ColourStrengthType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met kleursterktes. De domeintabel bevat een selectie van de waarden uit de domeintabel Kleursterkte van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="ColourStrengthType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:ColourStrength"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="ColourStrengthPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:ColourStrength"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="LimitSymbol" type="sadcom:LimitSymbolType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst van symbolen die aangeven of de gemeten waarde kleiner dan de laagste grenswaarde of groter dan de hoogste grenswaarde is.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="LimitSymbolType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:LimitSymbol"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="LimitSymbolPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:LimitSymbol"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="LimitSymbolReference"
-               type="sadcom:LimitSymbolReferenceType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst van referenties waarop de limietsymbolen betrekking hebben. De domeintabel bevat een selectie van de waarden uit de domeintabel LimietsymboolReferentie van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="LimitSymbolReferenceType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:LimietSymboolReferentie"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="LimitSymbolReferencePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:LimitSymbolReference"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="LocalVerticalReferencePoint"
-               type="sadcom:LocalVerticalReferencePointType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de referentiepunten voor de verticale positie. De domeintabel bevat een selectie van de waarden uit de domeintabel Hoedanigheid van SIKB0101, en dan specifiek de groep "ReferentieVlak" binnen deze tabel.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="LocalVerticalReferencePointType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:LocalVerticalReferencePoint"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="LocalVerticalReferencePointPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:LocalVerticalReferencePoint"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="MeasurementPointType"
-               type="sadcom:MeasurementPointTypeType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met meetpunttypes. De domeintabel bevat een selectie van de waarden uit de domeintabel MeetObjectSoort van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="MeasurementPointTypeType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:MeasurementPointType"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="MeasurementPointTypePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:MeasurementPointType"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="OilWaterReaction" type="sadcom:OilWaterReactionType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met waarden voor oliewaterreactiemate. De domeintabel bevat een selectie van de waarden uit de domeintabel OliewaterReactieMate van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="OilWaterReactionType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:OilWaterReaction"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="OilWaterReactionPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:OilWaterReaction"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="ProjectType" type="sadcom:ProjectTypeType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de typen onderzoek. De domeintabel bevat een selectie van de waarden uit de domeintabel OnderzoekType van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="ProjectTypeType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:ProjectType"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="ProjectTypePropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:ProjectType"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="OrganicMatterContentClass"
-               type="sadcom:OrganicMatterContentClassType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst voor de classificatie van het aandeel organische stof in grond volgens NEN 5104. De domeintabel bevat een selectie van de waarden uit de domeintabel OrganischeStofGehalte van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="OrganicMatterContentClassType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:OrganicMatterContentClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="OrganicMatterContentClassPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:OrganicMatterContentClass"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="Parameter" type="sadcom:ParameterType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met parameters en andere eigenschappen die bij een milieukundig bodemonderzoek op het laboratorium bepaald worden. De domeintabel bevat een selectie van de waarden uit de domeintabel Parameter van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="ParameterType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:Parameter"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="ParameterPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:Parameter"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="CRS" type="sadcom:CRSType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de referentiestelsels waarin de coördinaten zijn gedefinieerd.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="CRSType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de onderzoeksaanleiding.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:CRS"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="CRSPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:CRS"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="RegistrationStatus" type="sadcom:RegistrationStatusType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de statussen waarin het registratieobject zich bevindt.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="RegistrationStatusType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de onderzoeksaanleiding.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:RegistrationStatus"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="RegistrationStatusPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:RegistrationStatus"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="VerticalDatum" type="sadcom:VerticalDatumType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met de referentievlakken waarin de verticale positie is gedefinieerd. De domeintabel bevat een selectie van de waarden uit de domeintabel Hoedanigheid van SIKB0101, en dan specifiek de groep "ReferentieVlak" binnen deze tabel.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="VerticalDatumType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:VerticalDatum"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="VerticalDatumPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:VerticalDatum"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="ValuationMethod" type="sadcom:ValuationMethodType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst met normen en voorschriften die beschrijven hoe het laboratoriumonderzoek is uitgevoerd. De domeintabel bevat een selectie van de waarden uit de domeintabel Waardebepalingsmethode van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="ValuationMethodType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:ValuationMethod"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
-   <xs:complexType name="ValuationMethodPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:ValuationMethod"/>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:element name="SandMedianClass" type="sadcom:SandMedianClassType">
-      <xs:annotation>
-         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De lijst voor de classificatie van de mediaan van de zandfractie. De domeintabel bevat een selectie van de waarden uit de domeintabel BodemsoortMediaan van SIKB0101.</xs:documentation>
-      </xs:annotation>
-   </xs:element>
    <xs:complexType name="SandMedianClassType">
-      <xs:sequence>
-         <xs:element name="Description" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van de domeinwaarde.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBRO" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="IMBROA" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Geeft aan of de waarde onder IMBRO/A geldig is.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="SIKBID" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het unieke ID van deze waarde in de SIKB0101 domeinwaarde lijst</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-         <xs:element name="Value" minOccurs="1" maxOccurs="1" type="xs:string">
-            <xs:annotation>
-               <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De waarde in leesbare tekst die de gebruiker informatie geeft over het gegeven.</xs:documentation>
-            </xs:annotation>
-         </xs:element>
-      </xs:sequence>
-   </xs:complexType>
-   <xs:complexType name="SandMedianClassPropertyType">
-      <xs:sequence minOccurs="0">
-         <xs:element ref="sadcom:SandMedianClass"/>
-      </xs:sequence>
+      <xs:simpleContent>
+         <xs:restriction base="gml:CodeWithAuthorityType">
+            <xs:attribute name="codeSpace"
+                          type="xs:anyURI"
+                          use="required"
+                          fixed="urn:bro:sad:SandMedianClass"/>
+         </xs:restriction>
+      </xs:simpleContent>
    </xs:complexType>
 </xs:schema>
