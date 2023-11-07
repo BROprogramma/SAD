@@ -5,13 +5,13 @@
         <SIKB0101ID>11</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>De dieptes van dit element zijn weergegeven ten opzichte van de maaiveldhoogte van deze boring. </Omschrijving>
+        <Omschrijving>De dieptes van dit element zijn weergegeven ten opzichte van de maaiveldhoogte van dit meetpunt.</Omschrijving>
     </LokaalVerticaalReferentiepunt>
     <LokaalVerticaalReferentiepunt>
-        <Waarde>bopb</Waarde>
+        <Waarde>bovenkantPeilbuis</Waarde>
         <SIKB0101ID>14</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <Omschrijving>De dieptes van dit element zijn weergegeven ten opzichte van de bovenkant van de peilbuis</Omschrijving>
+        <Omschrijving>De dieptes van dit element zijn weergegeven ten opzichte van de bovenkant van de peilbuis.</Omschrijving>
     </LokaalVerticaalReferentiepunt>
 </domeintabel>
