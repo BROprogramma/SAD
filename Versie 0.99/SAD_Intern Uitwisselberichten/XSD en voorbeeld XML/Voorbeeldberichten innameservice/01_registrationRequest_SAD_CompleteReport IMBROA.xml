@@ -13,7 +13,7 @@
         <SAD_CompleteReport gml:id="_daa6c99f-4eee-44c6-b78e-6b1826057114">
             <!-- Optional -->
             <asbestos codeSpace="urn:bro:sad:AsbestosPresence">nietOnderzocht</asbestos>
-            <deliveryContext codeSpace="urn:bro:sad:InvestigationReason">archiefoverdracht</deliveryContext>
+            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>
             <geometry>
                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4258">
                     <!-- 1 or more repetitions -->
@@ -38,36 +38,80 @@
              <!-- Optional -->
             <investigationConclusion>Dit is de conclusie van het onderzoek.</investigationConclusion>
             <investigationReason codeSpace="urn:bro:sad:InvestigationReason">orienterendBodemonderzoek></investigationReason>
-            
-            <objectIdAccountableParty>objectID_from_BIS</objectIdAccountableParty>           
-            <reportDate>
-                <brocom:date>2023-04-25</brocom:date>
-            </reportDate>
-            
             <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>
             <!-- Optional -->
             <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType>
-            <projectCode>PROJECT_1</projectCode>
             
-            
-           
+            <registrationHistory>
+                <sadcom:corrected>nee</sadcom:corrected>
+                <sadcom:deregistered>nee</sadcom:deregistered>
+                <sadcom:objectRegistrationTime>2023-11-07T19:12:00+01:00</sadcom:objectRegistrationTime>
+                <sadcom:registrationStatus codeSpace="urn:bro:sad:RegistrationStatus"></sadcom:registrationStatus>
+                <sadcom:reregistered>nee</sadcom:reregistered>
+                <sadcom:underReview>nee</sadcom:underReview>
+            </registrationHistory>
             <!-- Optional -->
+            <report>
+                <sadcom:author>Subliem Voorbeeld Advies B.V.</sadcom:author>
+                <sadcom:date>2019-01-02</sadcom:date>
+                <sadcom:documentLink>https://www.document.nl/voorbeeldrapport</sadcom:documentLink>                
+                <sadcom:number>123123</sadcom:number>
+            </report>      
+            <reportDate>2023-04-25</reportDate>
+             <!-- Optional -->
             <researchOperator>
                 <!-- choice of:
                 <brocom:chamberOfCommerceNumber>?</brocom:chamberOfCommerceNumber>
                 <brocom:europeanCompanyRegistrationNumber>?</brocom:europeanCompanyRegistrationNumber>
                 -->
                 <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-            </researchOperator>            
-            <!-- Optional -->
-            <report>
-                <sadcom:reportNumber>123123</sadcom:reportNumber>
-                <sadcom:reportDate><brocom:date>2019-01-02</brocom:date></sadcom:reportDate>
-                <sadcom:reportAuthor>Subliem Voorbeeld Advies B.V.</sadcom:reportAuthor>
-                <sadcom:documentLink>https://www.document.nl/voorbeeldrapport</sadcom:documentLink>
-            </report>            
+            </researchOperator> 
+            <standardizedLocation>
+                <brocom:location>
+                    <gml:MultiSurface gml:id=""></gml:MultiSurface>
+                </brocom:location>
+                <brocom:coordinateTransformation codeSpace=""></brocom:coordinateTransformation>
+            </standardizedLocation>
+            <mixedSampleAnalysis>
+                <sadcom:MixedSampleAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
+                    <sadcom:identification>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</sadcom:identification>
+                    <sadcom:mixedsampleName>MM01</sadcom:mixedsampleName>
+                    <sadcom:analysis>
+                        <sadcom:Analysis gml:id="_ae30a56d-438c-4486-bd82-68b4bb70e4da">
+                            <sadcom:identification>ae30a56d-438c-4486-bd82-68b4bb70e4da</sadcom:identification>
+                            <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
+                            <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">Pb</sadcom:parameter>
+                            <sadcom:analysisMeasurementValue uom="mg/kg">0.001</sadcom:analysisMeasurementValue>
+                            <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
+                            <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>
+                            <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
+                            <sadcom:analysisProcess>
+                                <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
+                                    <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>
+                                    <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">nen6483:1982nl</sadcom:certification>
+                                </sadcom:AnalysisProcess>
+                            </sadcom:analysisProcess>
+                        </sadcom:Analysis>
+                    </sadcom:analysis>
+                    <sadcom:analysis>
+                        <sadcom:Analysis gml:id="_4e2651fb-efa0-4d6a-a48a-001daba223b4">
+                            <sadcom:identification>4e2651fb-efa0-4d6a-a48a-001daba223b4</sadcom:identification>
+                            <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
+                            <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">crocdlt</sadcom:parameter>
+                            <sadcom:analysisMeasurementValue uom="mg/kg">0.078</sadcom:analysisMeasurementValue>
+                            <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
+                            <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
+                            <sadcom:analysisProcess xlink:href="#_9911262c-d247-4aad-8fea-ae095f62b495"/>
+                        </sadcom:Analysis>
+                    </sadcom:analysis>
+                    <sadcom:soilSampling xlink:href="#_0571c066-806a-459e-a8a1-b099cb6814d0"/>
+                    <sadcom:soilSampling xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
+                    <sadcom:soilSampling xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
+                </sadcom:MixedSampleAnalysis>
+            </mixedSampleAnalysis>            
             <borehole>
                 <sadcom:Borehole gml:id="_d8401c1a-ec0c-446f-8e45-22d9514f8400">
+                
                     <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>
                     <sadcom:boringName>PB01</sadcom:boringName>
                     <sadcom:boringDate><brocom:date>2018-03-08</brocom:date></sadcom:boringDate>
@@ -305,44 +349,7 @@
                         </sadcom:SoilSampling>
                     </sadcom:soilSampling>
                 </sadcom:Borehole>
-            </borehole>            
-            <mixedSampleAnalysis>
-                <sadcom:MixedSampleAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
-                    <sadcom:identification>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</sadcom:identification>
-                    <sadcom:mixedsampleName>MM01</sadcom:mixedsampleName>
-                    <sadcom:analysis>
-                        <sadcom:Analysis gml:id="_ae30a56d-438c-4486-bd82-68b4bb70e4da">
-                            <sadcom:identification>ae30a56d-438c-4486-bd82-68b4bb70e4da</sadcom:identification>
-                            <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
-                            <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">Pb</sadcom:parameter>
-                            <sadcom:analysisMeasurementValue uom="mg/kg">0.001</sadcom:analysisMeasurementValue>
-                            <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
-                            <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>
-                            <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
-                            <sadcom:analysisProcess>
-                                <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
-                                    <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>
-                                    <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">nen6483:1982nl</sadcom:certification>
-                                </sadcom:AnalysisProcess>
-                            </sadcom:analysisProcess>
-                        </sadcom:Analysis>
-                    </sadcom:analysis>
-                    <sadcom:analysis>
-                        <sadcom:Analysis gml:id="_4e2651fb-efa0-4d6a-a48a-001daba223b4">
-                            <sadcom:identification>4e2651fb-efa0-4d6a-a48a-001daba223b4</sadcom:identification>
-                            <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
-                            <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">crocdlt</sadcom:parameter>
-                            <sadcom:analysisMeasurementValue uom="mg/kg">0.078</sadcom:analysisMeasurementValue>
-                            <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
-                            <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
-                            <sadcom:analysisProcess xlink:href="#_9911262c-d247-4aad-8fea-ae095f62b495"/>
-                        </sadcom:Analysis>
-                    </sadcom:analysis>
-                    <sadcom:soilSampling xlink:href="#_0571c066-806a-459e-a8a1-b099cb6814d0"/>
-                    <sadcom:soilSampling xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
-                    <sadcom:soilSampling xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
-                </sadcom:MixedSampleAnalysis>
-            </mixedSampleAnalysis>            
+            </borehole>     
         </SAD_CompleteReport>
     </sourceDocument>
 </registrationRequest>
