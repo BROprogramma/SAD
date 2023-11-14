@@ -81,7 +81,7 @@
                            maxOccurs="1"
                            name="sourceDocument"
                            nillable="false"
-                           type="issad:SAD_CompleteReportType">
+                           type="issad:SAD_CompleteReportPropertyType">
 						<xs:annotation>
 							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die de in de BRO geregistreerde gegevens zullen vervangen en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het correctieverzoek.</xs:documentation>
 						</xs:annotation>

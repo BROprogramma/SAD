@@ -248,12 +248,12 @@
                                             <sadcom:lowerBoundary uom="m">1.2</sadcom:lowerBoundary>
                                             <sadcom:oilWaterReaction codeSpace="urn:bro:sad:OilWaterReaction">matig</sadcom:oilWaterReaction>
                                             <sadcom:particularConstituent>
-                                                <sadcom:constituentGrade codeSpace="urn:bro:sad:ConstituentGrade">zwak</sadcom:constituentGrade>
-                                                <sadcom:constituentType codeSpace="urn:bro:sad:ConstituentType">schelpen</sadcom:constituentType>                                                
+                                                <sadcom:grade codeSpace="urn:bro:sad:ConstituentGrade">zwak</sadcom:grade>
+                                                <sadcom:type codeSpace="urn:bro:sad:ConstituentType">schelpen</sadcom:type>                                                
                                             </sadcom:particularConstituent> 
                                             <sadcom:particularConstituent>
-                                                <sadcom:constituentGrade codeSpace="urn:bro:sad:ConstituentGrade">matig</sadcom:constituentGrade>
-                                                <sadcom:constituentType codeSpace="urn:bro:sad:ConstituentType">planten</sadcom:constituentType>                                                
+                                                <sadcom:grade codeSpace="urn:bro:sad:ConstituentGrade">matig</sadcom:grade>
+                                                <sadcom:type codeSpace="urn:bro:sad:ConstituentType">planten</sadcom:type>                                                
                                             </sadcom:particularConstituent>                                                                                                                                  
                                             <sadcom:soilType>
                                                 <sadcom:sandMedianClass codeSpace="urn:bro:sad:SandMedianClass">zeerFijnNEN5104</sadcom:sandMedianClass>
