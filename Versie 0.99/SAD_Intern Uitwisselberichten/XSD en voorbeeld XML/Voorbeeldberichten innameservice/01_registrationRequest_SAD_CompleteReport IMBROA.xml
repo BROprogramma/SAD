@@ -68,27 +68,29 @@
             </researchOperator> 
             <standardizedLocation>
                 <brocom:location>
-                    <gml:MultiSurface gml:id=""></gml:MultiSurface>
+                    <gml:MultiSurface gml:id="todo"></gml:MultiSurface>
                 </brocom:location>
-                <brocom:coordinateTransformation codeSpace=""></brocom:coordinateTransformation>
+                <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">nietGetransformeerd</brocom:coordinateTransformation>
             </standardizedLocation>
             <mixedSampleAnalysis>
                 <sadcom:MixedSampleAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
+                    <sadcom:beginDepth uom="m">0.3</sadcom:beginDepth>
+                    <sadcom:endDepth uom="m">0.5</sadcom:endDepth>
                     <sadcom:identification>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</sadcom:identification>
-                    <sadcom:mixedsampleName>MM01</sadcom:mixedsampleName>
+                    <sadcom:name>MM01</sadcom:name>
                     <sadcom:analysis>
                         <sadcom:Analysis gml:id="_ae30a56d-438c-4486-bd82-68b4bb70e4da">
-                            <sadcom:identification>ae30a56d-438c-4486-bd82-68b4bb70e4da</sadcom:identification>
-                            <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
-                            <sadcom:parameter codeSpace="urn:bro:sad:ParameterList">Pb</sadcom:parameter>
                             <sadcom:analysisMeasurementValue uom="mg/kg">0.001</sadcom:analysisMeasurementValue>
+                            <sadcom:condition codeSpace="urn:bro:sad:Condition">1</sadcom:condition>
+                            <sadcom:identification>ae30a56d-438c-4486-bd82-68b4bb70e4da</sadcom:identification>
                             <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
-                            <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>
-                            <sadcom:condition codeSpace="urn:bro:sad:Condition">drooggewicht</sadcom:condition>
+                            <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportagegrens</sadcom:limitSymbolReference>
+                            <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1116</sadcom:parameter>
+                            <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
                             <sadcom:analysisProcess>
                                 <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
-                                    <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>
-                                    <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">nen6483:1982nl</sadcom:certification>
+                                    <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">44</sadcom:certification>
+                                    <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>                                    
                                 </sadcom:AnalysisProcess>
                             </sadcom:analysisProcess>
                         </sadcom:Analysis>
