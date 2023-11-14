@@ -62,6 +62,39 @@
                             <imsikb0101:Addresses xlink:href="#_d5d40f94-cb06-4802-8f6e-450a0bad2698"/>
                         </imsikb0101:Project>
                     </imsikb0101:featureMember>
+                    
+                    
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Project gml:id="_dba6c99f-4eee-44c6-b78e-6b1826057114">
+                            <imsikb0101:asbestos>urn:imsikb0101:AsbestAanwezigheid:id:4</imsikb0101:asbestos>
+                            <imsikb0101:assesorConclusion>xxxxxxxxxxx</imsikb0101:assesorConclusion>
+                            <imsikb0101:assignmentCode>xxxxxxxxxxx</imsikb0101:assignmentCode>
+                            <imsikb0101:investigationConclusion>Dit is de conclusie van het onderzoek.</imsikb0101:investigationConclusion>
+                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>                            
+                            <imsikb0101:geometry/>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>dba6c99f-4eee-44c6-b78e-6b1826057114</immetingen:lokaalID>
+                                    <immetingen:versie>2018-03-22T09:08:13.2670000+01:00</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:name>SIKB Voorbeeld project Protocol 2001 en 2002</imsikb0101:name>
+                            <imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:5</imsikb0101:phase>
+                            <imsikb0101:projectCode>SIKB_PROT_2001_2002</imsikb0101:projectCode>
+                            <imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:1</imsikb0101:projectType>
+                            <imsikb0101:remarks>Opmerking bij het project</imsikb0101:remarks>
+                            <imsikb0101:reportDate>2018-12-07</imsikb0101:reportDate>
+                            <imsikb0101:reportNumber>123123</imsikb0101:reportNumber>
+                            <imsikb0101:stakeholders xlink:href="#_9b5e21b3-3282-433f-b584-54471298e928"/>
+                            <imsikb0101:stakeholders xlink:href="#_8b2e21b3-3282-433f-b584-54471298e928"/>
+                            <imsikb0101:measurementObjects xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
+                            <imsikb0101:dossiers xlink:href="#_ecda0f38-782a-48e7-8622-e9d6dda7b0c0"/>
+                            <imsikb0101:Addresses xlink:href="#_d5d40f94-cb06-4802-8f6e-450a0bad2698"/>
+                        </imsikb0101:Project>
+                    </imsikb0101:featureMember>
+                    
+                    
                     <imsikb0101:featureMember>
                         <imsikb0101:SoilManagementDossier gml:id="_ecda0f38-782a-48e7-8622-e9d6dda7b0c0">
                             <imsikb0101:identification>
@@ -2514,7 +2547,7 @@
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</immetingen:lokaalID>
+                                    <immetingen:lokaalID>c1adf8f7-e0cd-4810-a93e-60580f34b3fa</immetingen:lokaalID>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
                             <immetingen:name>PB01-POT3</immetingen:name>
@@ -2558,7 +2591,7 @@
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>4e2651fb-efa0-4d6a-a48a-001daba223b4</immetingen:lokaalID>
+                                    <immetingen:lokaalID>5e2651fb-efa0-4d6a-a48a-001daba223b4</immetingen:lokaalID>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
                             <immetingen:physicalProperty>
@@ -2603,7 +2636,7 @@
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>ae30a56d-438c-4486-bd82-68b4bb70e4da</immetingen:lokaalID>
+                                    <immetingen:lokaalID>be30a56d-438c-4486-bd82-68b4bb70e4da</immetingen:lokaalID>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
                             <immetingen:physicalProperty>

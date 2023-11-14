@@ -14,9 +14,9 @@
             <xsl:if test="not(lower-case(//imsikb0101:metaData/imsikb0101:dataflow) = lower-case('urn:imsikb0101:DatastroomType:id:9') or lower-case(//imsikb0101:metaData/imsikb0101:dataflow) = lower-case('urn:imsikb0101:DatastroomType:id:4'))">
                 <xsl:copy-of select="sikb:createRecord('WARNING','imsikb0101:metaData/imsikb0101:dataflow','Het veld metadata/dataflow zou ingevuld moeten zijn met: urn:imsikb0101:DatastroomType:id:9 of id:4. Als dit geen SAD of onderzoeks xml is, kan dit niet aangeleverd worden aan de BRO.')"/>
             </xsl:if>
-            <xsl:if test="not(//imsikb0101:Project)">
+            <xsl:if test="not(//imsikb0101:Project) or not(count(//imsikb0101:Project) = 1)">
                 <!-- Check existence Project -->
-                <xsl:variable name="message" select="'In het xml-bestand moet een Project zijn opgenomen.'"/>
+                <xsl:variable name="message" select="'In het xml-bestand moet minimaal en maximaal 1 Project zijn opgenomen.'"/>
                 <xsl:copy-of select="sikb:createRecord('ERROR', 'xml-bestand', $message)"/>
             </xsl:if>
             <xsl:apply-templates select="//imsikb0101:SoilLocation"/>
@@ -59,13 +59,13 @@
         <!-- Check sub elementen-->
         <xsl:copy-of select="sikb:checkDependancyProjectSubElements(., $prGUID, 'projectType', '|3|5|6|7|8|12|', 'measurementObjects', 'WARNING')"/>
         <xsl:if test="not(./*[local-name()='measurementObjects']) and contains('|3|5|6|7|8|12|', concat('|', substring-after(./*[local-name()='projectType'], ':id:'), '|'))">
-            <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet een measurementObject zijn opgevoerd.'), ' '), '  ', ' ')"/>
-            <xsl:copy-of select="sikb:createRecord('ERROR', string(./name()), $message)"/>
+            <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet een measurementObject zijn opgevoerd, tenzij er vanuit Archief alleen mengmonsters bekend zijn.'), ' '), '  ', ' ')"/>
+            <xsl:copy-of select="sikb:createRecord('WARNING', string(./name()), $message)"/>
         </xsl:if>
         <!-- Check existence sample with @xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:6' -->
         <xsl:if test="not(//@xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:6') and contains('|3|5|6|7|8|', concat('|', substring-after(.//imsikb0101:projectType, ':id:'), '|'))">
-            <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet een Sample met role urn:immetingen:RelatedSamplingFeatureRollen:id:6 zijn opgevoerd.'), ' '), '  ', ' ')"/>
-            <xsl:copy-of select="sikb:createRecord('ERROR', 'xml-bestand', $message)"/>
+            <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet een Sample met role urn:immetingen:RelatedSamplingFeatureRollen:id:6 zijn opgevoerd, tenzij er vanuit Archief geen meetpunten bekend zijn..'), ' '), '  ', ' ')"/>
+            <xsl:copy-of select="sikb:createRecord('WARNING', 'xml-bestand', $message)"/>
         </xsl:if>
         <!-- Check existence Analysis -->
         <xsl:if test="not(//immetingen:Analysis) and contains('|3|5|6|7|8|', concat('|', substring-after(//imsikb0101:projectType, ':id:'), '|'))">
@@ -132,7 +132,8 @@
         <xsl:variable name="prGUID" select="@gml:id"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'measurementObjectType', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>        
+        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
         <!-- Depth is required, except when it a measurement location or point -->
         <xsl:if test="not(lower-case(./immetingen:measurementObjectType) = lower-case('urn:immetingen:MeetObjectSoort:id:7') or lower-case(./immetingen:measurementObjectType) = lower-case('urn:immetingen:MeetObjectSoort:id:8'))">
             <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'depth', 'ERROR')"/>

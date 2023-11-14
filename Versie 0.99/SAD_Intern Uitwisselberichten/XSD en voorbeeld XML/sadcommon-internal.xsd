@@ -223,7 +223,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
 Explanation: De gestandaardiseerde locatie wordt door de basisregistratie ondergrond berekend ten behoeve van afnemers. Het gegeven staat niet in een brondocument, maar wordt automatisch vanuit de basisregistratie ondergrond gegenereerd.</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-                    <xs:element name="measurementPoint" type="sadcom:BoreholePropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="measurementPoint" type="sadcom:MeasurementPointPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
                     <xs:element name="mixedsampleAnalysis" type="sadcom:MixedSampleAnalysisPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
                 </xs:sequence>
             </xs:extension>
@@ -235,13 +235,13 @@ Explanation: De gestandaardiseerde locatie wordt door de basisregistratie onderg
         </xs:sequence>
         <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
     </xs:complexType>
-    <xs:element name="Borehole" type="sadcom:BoreholeType" substitutionGroup="gml:AbstractFeature">
+    <xs:element name="MeasurementPoint" type="sadcom:MeasurementPointType" substitutionGroup="gml:AbstractFeature">
         <xs:annotation>
             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om vervolgens de bodemlagen te beschrijven, monsters uit de ondergrond te nemen en/of metingen/zintuigelijke waarnemingen aan de ondergrond te doen.
 Explanation: Milieuhygiënisch bodemonderzoek wordt veelal uitgevoerd door BRL SIKB 2000-gecertificeerde onderzoeksbureaus. Het boren of graven van meetpunten wordt dan uitgevoerd conform SIKB protocol 2001.</xs:documentation>
         </xs:annotation>
     </xs:element>
-    <xs:complexType name="BoreholeType">
+    <xs:complexType name="MeasurementPointType">
         <xs:complexContent>
             <xs:extension base="gml:AbstractFeatureType">
                 <xs:sequence>
@@ -284,7 +284,7 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
                             </xs:restriction>
                         </xs:simpleType>
                     </xs:element>
-                    <xs:element name="measurementPointType" type="sadcom:MeasurementPointTypeType" minOccurs="1" maxOccurs="1">
+                    <xs:element name="type" type="sadcom:MeasurementPointTypeType" minOccurs="1" maxOccurs="1">
                         <xs:annotation>
                             <xs:appinfo>
                                 <CodeListName>MeasurementPointType</CodeListName>
@@ -311,9 +311,9 @@ Explanation: Het type meetpunt is meestal een boring of peilbuis maar kan ook ee
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
-    <xs:complexType name="BoreholePropertyType">
+    <xs:complexType name="MeasurementPointPropertyType">
         <xs:sequence minOccurs="0">
-            <xs:element ref="sadcom:Borehole"/>
+            <xs:element ref="sadcom:MeasurementPoint"/>
         </xs:sequence>
         <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
     </xs:complexType>
@@ -356,7 +356,7 @@ Explanation: De procedure beschrijft volgens welk stelsel van afspraken de bodem
         <xs:complexContent>
             <xs:extension base="gml:AbstractFeatureType">
                 <xs:sequence>
-                    <xs:element name="describedMaterial" type="sadcom:DescribedMaterialType" minOccurs="0" maxOccurs="1">
+                    <xs:element name="describedMaterial" type="sadcom:DescribedMaterialType" maxOccurs="1">
                         <xs:annotation>
                             <xs:appinfo>
                                 <CodeListName>DescribedMaterial</CodeListName>

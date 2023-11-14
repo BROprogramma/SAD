@@ -120,8 +120,8 @@
                     <sadcom:soilSampling xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
                 </sadcom:MixedSampleAnalysis>
             </mixedSampleAnalysis>            
-            <borehole>
-                <sadcom:Borehole gml:id="_d8401c1a-ec0c-446f-8e45-22d9514f8400">
+            <measurementPoint>
+                <sadcom:MeasurementPoint gml:id="_d8401c1a-ec0c-446f-8e45-22d9514f8400">
                     <sadcom:date>2018-03-08</sadcom:date>
                     <sadcom:deliveredLocation>
                         <gml:Point gml:id="_d38ee87f-9552-464a-8125-e8409b01c5c1" srsName="urn:ogc:def:crs:EPSG::4258">
@@ -137,7 +137,7 @@
                     <sadcom:finalDepth uom="m">2</sadcom:finalDepth>
                     <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>
                     <!-- Boring met Peilbuis-->
-                    <sadcom:measurementPointType codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:measurementPointType>
+                    <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>
                     <sadcom:name>PB01</sadcom:name>
                     <sadcom:soilSampling>
                         <sadcom:SoilSampling gml:id="_0571c066-806a-459e-a8a1-b099cb6814d0">
@@ -205,8 +205,8 @@
                             <!-- default value: 'NEN5104' -->
                             <sadcom:descriptiveBoreholeLog>
                                 <sadcom:DescriptiveBoreholeLog gml:id="_a8eab264-cccb-48b1-b5b2-75f8e5e7b6f4">
+                                    <!-- default value: 'grond' -->                                    
                                     <sadcom:describedMaterial codeSpace="urn:bro:sad:DescribedMaterial">grond</sadcom:describedMaterial>
-                                    <!-- default value: 'grond' -->
                                     <sadcom:layer>
                                         <sadcom:Layer gml:id="_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7">
                                             <sadcom:colourObservation>
@@ -352,8 +352,8 @@
                             </sadcom:groundwaterSampling>
                         </sadcom:Filter>
                     </sadcom:filter>    
-                </sadcom:Borehole>
-            </borehole>     
+                </sadcom:MeasurementPoint>
+            </measurementPoint>     
         </SAD_CompleteReport>
     </sourceDocument>
 </registrationRequest>
