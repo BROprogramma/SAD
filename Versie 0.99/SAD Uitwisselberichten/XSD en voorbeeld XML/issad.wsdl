@@ -4,26 +4,26 @@
                   xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
                   xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
                   xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-                  xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/0.99"
+                  xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0"
                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                  xmlns:msg="http://www.broservices.nl/xsd/issad/0.99"
-                  xmlns:tns="http://www.broservices.nl/wsdl/issad/0.99"
-                  targetNamespace="http://www.broservices.nl/wsdl/issad/0.99">
+                  xmlns:msg="http://www.broservices.nl/xsd/issad/1.0"
+                  xmlns:tns="http://www.broservices.nl/wsdl/issad/1.0"
+                  targetNamespace="http://www.broservices.nl/wsdl/issad/1.0">
 
     <wsdl:documentation>
         This WSDL defines the webservice for the sad intake webservice (SiteAssessmentData)
         in the context of the base registry subsurface (Basisregistratie Ondergrond).
-        This is version 0.99.0
-        Changes compared to Version:0.99.0:
+        This is version 1.0.0
+        Changes compared to Version:1.0.0:
         -
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issad/0.99" targetNamespace="http://www.broservices.nl/wsdl/issad/0.99">
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issad/1.0" targetNamespace="http://www.broservices.nl/wsdl/issad/1.0">
             <!--
-            <xsd:import namespace="http://www.broservices.nl/xsd/issad/0.99" schemaLocation="https://schema.broservices.nl/xsd/issad/0.9/issad-messages.xsd"/>
+            <xsd:import namespace="http://www.broservices.nl/xsd/issad/1.0" schemaLocation="https://schema.broservices.nl/xsd/issad/0.9/issad-messages.xsd"/>
     -       -->
-            <xsd:import namespace="http://www.broservices.nl/xsd/issad/0.99" schemaLocation="./issad-messages.xsd"/>
+            <xsd:import namespace="http://www.broservices.nl/xsd/issad/1.0" schemaLocation="./issad-messages.xsd"/>
             <!--
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
             -->

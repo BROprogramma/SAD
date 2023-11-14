@@ -12,8 +12,8 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:dssadinternal="http://www.broservices.nl/xsd/dssad-internal/0.99" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/0.99" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/dssad-internal/0.99" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.99">
-    <xs:import namespace="http://www.broservices.nl/xsd/sadcommon-internal/0.99" schemaLocation="./sadcommon-internal.xsd"/>
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:dssadinternal="http://www.broservices.nl/xsd/dssad-internal/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/dssad-internal/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
+    <xs:import namespace="http://www.broservices.nl/xsd/sadcommon-internal/1.0" schemaLocation="./sadcommon-internal.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml-profile.xsd"/>
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="./brocommon.xsd"/>
     <xs:element name="parseFault" type="brocom:ParseFaultType"/>

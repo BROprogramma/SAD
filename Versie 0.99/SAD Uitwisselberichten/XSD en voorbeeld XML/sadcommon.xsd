@@ -14,12 +14,12 @@
 -->
 <xs:schema xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/0.99"
+           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.broservices.nl/xsd/sadcommon/0.99"
+           targetNamespace="http://www.broservices.nl/xsd/sadcommon/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.99">   
+           version="1.0.0">   
 	<xs:import namespace="http://www.opengis.net/gml/3.2"
               schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
 	<xs:element name="AbstractRegistrationObject"

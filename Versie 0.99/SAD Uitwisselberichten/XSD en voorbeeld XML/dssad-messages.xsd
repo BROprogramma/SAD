@@ -13,17 +13,17 @@
 
 -->
 <xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:dssad="http://www.broservices.nl/xsd/dssad/0.99"
+           xmlns:dssad="http://www.broservices.nl/xsd/dssad/1.0"
            xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
            xmlns:imsikb0101="http://www.sikb.nl/imsikb0101"
-           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/0.99"
+           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.broservices.nl/xsd/dssad/0.99"
+           targetNamespace="http://www.broservices.nl/xsd/dssad/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="0.99">   
-	<xs:import namespace="http://www.broservices.nl/xsd/sadcommon/0.99"
+           version="1.0.0">   
+	<xs:import namespace="http://www.broservices.nl/xsd/sadcommon/1.0"
               schemaLocation="./sadcommon.xsd"/>
 	<xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0"
               schemaLocation="./brocommon.xsd"/>

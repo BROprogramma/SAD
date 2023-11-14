@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<correctionRequest xmlns="http://www.broservices.nl/xsd/issad-internal/0.99" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/0.99" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/issad-internal/0.99 ../issad-internal-messages.xsd">
+<correctionRequest xmlns="http://www.broservices.nl/xsd/issad-internal/1.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/issad-internal/1.0 ../issad-internal-messages.xsd">
     <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.2 van de SAD en valideert tegen de XSD van de innameservice.
         Het is niet gevalideerd door de innameservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
        

@@ -38,19 +38,17 @@
         <!--> Check of alle entiteiten aanwezig zijn-->
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'reportNumber', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'projectCode', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>
         <!--> Check of alle entiteiten gevuld zijn-->
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'projectCode', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'reportNumber', 'WARNING')"/>
         <!--> Lengte checks voor bepaalde velden-->
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'reportNumber', 40, 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'investigationConclusion', 4000, 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'assesorConclusion', 4000, 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 255, 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'assignmentCode', 40, 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkLength(., $prGUID, 'projectCode', 25, 'ERROR')"/>
         <!--> Check of de geometrie klopt-->
         <xsl:copy-of select="sikb:checkGeometryElements(.,$prGUID,'gml:Polygon','gml:MultiSurface','ERROR')"/>
         <xsl:copy-of select="sikb:checkGeometryElement(.,$prGUID,'gml:MultiSurface','ERROR')"/>
@@ -64,7 +62,7 @@
         </xsl:if>
         <!-- Check existence sample with @xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:6' -->
         <xsl:if test="not(//@xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:6') and contains('|3|5|6|7|8|', concat('|', substring-after(.//imsikb0101:projectType, ':id:'), '|'))">
-            <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet een Sample met role urn:immetingen:RelatedSamplingFeatureRollen:id:6 zijn opgevoerd, tenzij er vanuit Archief geen meetpunten bekend zijn..'), ' '), '  ', ' ')"/>
+            <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet een Sample met role urn:immetingen:RelatedSamplingFeatureRollen:id:6 zijn opgevoerd, tenzij er vanuit Archief geen meetpunten bekend zijn.'), ' '), '  ', ' ')"/>
             <xsl:copy-of select="sikb:createRecord('WARNING', 'xml-bestand', $message)"/>
         </xsl:if>
         <!-- Check existence Analysis -->
@@ -103,6 +101,7 @@
 		</xsl:for-each>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'specimenType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'samplingTime', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'specimenType', 'MonsterType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'materialClass', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'materialClass', 'Compartiment', 'ERROR')"/>

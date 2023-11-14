@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
     <soap:Body>
-        <dispatchDataResponse xmlns="http://www.broservices.nl/xsd/dssad-internal/0.99" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/0.99" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/dssad-internal/0.99 ../dssad-internal-messages.xsd">
+        <dispatchDataResponse xmlns="http://www.broservices.nl/xsd/dssad-internal/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/dssad-internal/1.0 ../dssad-internal-messages.xsd">
             <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.9 van de SAD en valideert tegen de XSD van de uitgifteservice.
                 Het is niet gevalideerd door de uitgifteservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
             -->
