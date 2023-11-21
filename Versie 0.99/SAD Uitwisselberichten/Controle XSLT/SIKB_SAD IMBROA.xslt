@@ -19,8 +19,19 @@
                 <xsl:variable name="message" select="'In het xml-bestand moet minimaal en maximaal 1 Project zijn opgenomen.'"/>
                 <xsl:copy-of select="sikb:createRecord('ERROR', 'xml-bestand', $message)"/>
             </xsl:if>
+            <xsl:if test="not(//imsikb0101:Project) or not(count(//imsikb0101:Project) = 1)">
+                <!-- Check existence Project -->
+                <xsl:variable name="message" select="'In het xml-bestand moet minimaal en maximaal 1 Project zijn opgenomen.'"/>
+                <xsl:copy-of select="sikb:createRecord('ERROR', 'xml-bestand', $message)"/>
+            </xsl:if>
+            <xsl:if test="not(//immetingen:Organization[contains('|64|', concat('|', substring-after(immetingen:organisationType, ':id:'), '|'))]) or not(count(//imsikb0101:Project) = 1)">
+                <!-- Check existence Adviesbureau -->
+                <xsl:variable name="message" select="'In het xml-bestand moet minimaal een Adviesbureau organisatie zijn opgenomen.'"/>
+                <xsl:copy-of select="sikb:createRecord('ERROR', 'xml-bestand', $message)"/>
+            </xsl:if>
             <xsl:apply-templates select="//imsikb0101:SoilLocation"/>
-            <xsl:apply-templates select="//imsikb0101:Project"/>
+            <xsl:apply-templates select="//imsikb0101:Project"/>           
+			<xsl:apply-templates select="//immetingen:Organization"/>
             <xsl:apply-templates select="//imsikb0101:Filter"/>
             <xsl:apply-templates select="//immetingen:MeasurementObject"/>
             <xsl:apply-templates select="//imsikb0101:Borehole" mode="twee"/>
@@ -43,6 +54,7 @@
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'reportNumber', 'WARNING')"/>
+        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'investigationReason', 'WARNING')"/>
         <!--> Lengte checks voor bepaalde velden-->
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'reportNumber', 40, 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'investigationConclusion', 4000, 'ERROR')"/>
@@ -74,6 +86,7 @@
             <xsl:variable name="message" select="'In het xml-bestand moet een Analysis zijn opgenomen.'"/>
             <xsl:copy-of select="sikb:createRecord('ERROR', 'xml-bestand', $message)"/>
         </xsl:if>
+        
     </xsl:template>
     <!--> Check of er een locatie is meegeleverd -->
     <xsl:template match="imsikb0101:SoilLocation">
@@ -82,6 +95,21 @@
         <xsl:copy-of select="sikb:checkGeometryElements(.,$prGUID,'gml:Polygon','gml:MultiSurface','ERROR')"/>
         <xsl:copy-of select="sikb:checkGeometryElement(.,$prGUID,'gml:MultiSurface','ERROR')"/>
     </xsl:template>
+    <!-- check organizations -->
+    <xsl:template match="immetingen:Organization">
+		<xsl:variable name="prGUID" select="@gml:id"/>
+		<!-- Check adviesbureau -->
+        <xsl:if test="contains('|64|', concat('|', substring-after(immetingen:organisationType, ':id:'), '|'))">
+            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'WARNING')"/>
+            <xsl:if test="(not(immetingen:chamberOfCommerceNumber) and not(immetingen:chamberOfCommerceNumber))">
+                <xsl:variable name="message" select="'In het xml-bestand moet een Adviesbureau (id:64) met een chamberOfCommerceNumber of europeanCompanyRegistryNumber zijn opgenomen.'"/>
+                <xsl:copy-of select="sikb:createRecord('WARNING', 'xml-bestand', $message)"/>
+            </xsl:if>    
+            <xsl:copy-of select="sikb:checkLength(., $prGUID,'name', 40, 'WARNING')"/>
+            <xsl:copy-of select="sikb:checkLength(., $prGUID, 'chamberOfCommerceNumber', 40, 'ERROR')"/>
+            <xsl:copy-of select="sikb:checkLength(., $prGUID, 'europeanCompanyRegistryNumber', 40, 'ERROR')"/>
+        </xsl:if>        		
+	</xsl:template>
     <!-- Sample -->
     <xsl:template match="immetingen:Sample" mode="een">
         <xsl:variable name="prGUID" select="@gml:id"/>
@@ -98,7 +126,7 @@
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
         <xsl:for-each select=".//immetingen:Analysis">
 			
-		</xsl:for-each>
+		</xsl:for-each>		
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'specimenType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'samplingTime', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'WARNING')"/>
@@ -106,6 +134,14 @@
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'materialClass', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'materialClass', 'Compartiment', 'ERROR')"/>
         <!-- check nog aanpassen in verband met check op attribuut ipv element -->
+        <!-- veldmonsters (niet grond)-->
+		 <xsl:if test="spec:specimenType/@xlink:href = 'urn:immetingen:MonsterType:id:1' and not(spec:materialClass/@xlink:href = 'urn:immetingen:compartiment:id:1')">
+            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'relatedObservation', 'WARNING')"/>            
+        </xsl:if>
+        <!-- analysemonsters-->
+		 <xsl:if test="spec:specimenType/@xlink:href = 'urn:immetingen:MonsterType:id:10'">
+            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'relatedObservation', 'WARNING')"/>
+        </xsl:if>
     </xsl:template>
     <!-- Analysis-->
     <xsl:template match="immetingen:Analysis">
