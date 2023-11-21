@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 
+<!--
 
     Copyright TNO Geologische Dienst Nederland
 
@@ -11,19 +11,22 @@
     en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
     terzake tussen de partijen gesloten overeenkomst.
 
- -->
-<schema xmlns="http://www.w3.org/2001/XMLSchema" 
-        xmlns:gml="http://www.opengis.net/gml/3.2" 
-        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
-        targetNamespace="http://www.broservices.nl/xsd/brocommon/3.0" 
-        elementFormDefault="qualified" 
-        version="3.0.7">
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:gml="http://www.opengis.net/gml/3.2"
+        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+        targetNamespace="http://www.broservices.nl/xsd/brocommon/3.0"
+        elementFormDefault="qualified"
+        version="3.0.8">
+
     <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
     <!--
     <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
     -->
+
     <annotation>
-        <documentation> This XSD describes the complex types, simple types common to the entire BRO. 
+        <documentation>
+            This XSD describes the complex types, simple types common to the entire BRO. 
             Version:2.5.6 Changes compared to Version:2.5.5: 
                 - Added CorrectionTypeType and CorrectionRequestType. 
                 - Definitions grouped by simpleTypes and complexTypes. 
@@ -54,21 +57,29 @@
                 - support for (Multi)Polygon in standardized geometry 
                 - Added Surface and MultiSurface to DeliveredGeometryType 
                 - Added Surface and MultiSurface to StandardizedGeometryType 
-                - Added DeliveredGeometry and StandardizedGeometry element and propertyType </documentation>
+                - Added DeliveredGeometry and StandardizedGeometry element and propertyType
+            Version:3.0.8
+                - changed layout
+                - changed StandardizedGeometryType: added gml:MultiGeometry
+        </documentation>
     </annotation>
-    <!--  simpleTypes  -->
+
+    <!-- simpleTypes -->
     <simpleType name="ChamberOfCommerceNumberType">
         <restriction base="string"/>
     </simpleType>
+
     <simpleType name="EuropeanCompanyRegistrationNumberType">
         <restriction base="string"/>
     </simpleType>
+
     <simpleType name="IndicationYesNoEnumeration">
         <restriction base="string">
             <enumeration value="ja"/>
             <enumeration value="nee"/>
         </restriction>
     </simpleType>
+
     <simpleType name="IndicationYesNoUnknownEnumeration">
         <restriction base="string">
             <enumeration value="ja"/>
@@ -76,15 +87,18 @@
             <enumeration value="onbekend"/>
         </restriction>
     </simpleType>
+
     <simpleType name="QualityRegimeEnumeration">
         <restriction base="string">
             <enumeration value="IMBRO"/>
             <enumeration value="IMBRO/A"/>
         </restriction>
     </simpleType>
+
     <simpleType name="RegistrationObjectCodeType">
         <restriction base="string"/>
     </simpleType>
+
     <simpleType name="IntakeResponseTypeEnumeration">
         <restriction base="string">
             <enumeration value="completion"/>
@@ -92,17 +106,20 @@
             <enumeration value="rejection"/>
         </restriction>
     </simpleType>
+
     <simpleType name="DispatchResponseTypeEnumeration">
         <restriction base="string">
             <enumeration value="dispatch"/>
             <enumeration value="rejection"/>
         </restriction>
     </simpleType>
+
     <simpleType name="VoidReasonEnumeration">
         <restriction base="string">
             <enumeration value="onbekend"/>
         </restriction>
     </simpleType>
+
     <simpleType name="IndicationYesNoType">
         <restriction base="brocom:IndicationYesNoEnumeration"/>
     </simpleType>
@@ -121,7 +138,8 @@
     <simpleType name="VoidReasonType">
         <restriction base="brocom:VoidReasonEnumeration"/>
     </simpleType>
-    <!--  complexTypes  -->
+
+    <!-- complexTypes -->
     <element name="AbstractRegistrationObject" type="brocom:AbstractRegistrationObjectType" substitutionGroup="gml:AbstractFeature"/>
     <complexType name="AbstractRegistrationObjectType">
         <complexContent>
@@ -138,18 +156,21 @@
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
     </complexType>
+
     <complexType name="AbortReasonType">
         <sequence>
             <element name="sequenceNumber" type="integer" minOccurs="1" maxOccurs="1"/>
             <element name="specification" type="string" minOccurs="1" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <complexType name="AreaType">
         <choice minOccurs="1" maxOccurs="1">
             <element name="enclosingCircle" type="brocom:CircleType"/>
             <element name="boundingBox" type="gml:EnvelopeType"/>
         </choice>
     </complexType>
+
     <complexType name="CharacteristicsType">
         <annotation>
             <appinfo>deprecated; use root element AbstractCharacteristics and complexType AbstractCharacteristicsType to derive RO-specific Characteristics instead.</appinfo>
@@ -186,6 +207,7 @@
             <element name="deliveredLocation" type="brocom:DeliveredGeometryType" minOccurs="0" maxOccurs="1"/>
         </sequence>
     </group>
+
     <element name="AbstractCharacteristics" type="brocom:AbstractCharacteristicsType" abstract="true" substitutionGroup="brocom:AbstractRegistrationObject">
         <annotation>
             <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De entiteit AbstractCharacteristics bevat de registratieobject onafhankelijke kengegevens van een registratieobject dat niet uit registratie is genomen.</documentation>
@@ -200,6 +222,7 @@
             </extension>
         </complexContent>
     </complexType>
+
     <element name="AbstractCharacteristicsV2" type="brocom:AbstractCharacteristicsV2Type" abstract="true" substitutionGroup="brocom:AbstractRegistrationObject">
         <annotation>
             <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De entiteit AbstractCharacteristicsV2 bevat de registratieobject onafhankelijke kengegevens van een registratieobject dat niet uit registratie is genomen.</documentation>
@@ -214,6 +237,7 @@
             </extension>
         </complexContent>
     </complexType>
+
     <complexType name="CircleType">
         <sequence>
             <element name="center" type="gml:DirectPositionType" minOccurs="1" maxOccurs="1"/>
@@ -221,6 +245,7 @@
         </sequence>
         <attribute name="srsName" type="anyURI" use="required"/>
     </complexType>
+
     <complexType name="CorrectionRequestType">
         <sequence>
             <element name="requestReference" type="string" minOccurs="1" maxOccurs="1"/>
@@ -230,12 +255,14 @@
             <element name="underPrivilege" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <complexType name="CriterionErrorType">
         <sequence>
             <element name="sequenceNumber" type="integer" minOccurs="1" maxOccurs="1"/>
             <element name="specification" type="string" minOccurs="1" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <complexType name="CriteriaSetType">
         <sequence>
             <element name="deliveryAccountableParty" type="brocom:ChamberOfCommerceNumberType" minOccurs="0" maxOccurs="1"/>
@@ -246,12 +273,14 @@
             <element name="area" type="brocom:AreaType" minOccurs="1" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <complexType name="DatePeriodType">
         <sequence>
             <element name="beginDate" type="date" minOccurs="1" maxOccurs="1"/>
             <element name="endDate" type="date" minOccurs="1" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <element name="BRO_DO" type="brocom:DeregisteredObjectType" substitutionGroup="brocom:AbstractRegistrationObject"/>
     <complexType name="DeregisteredObjectType">
         <complexContent>
@@ -263,11 +292,13 @@
             </extension>
         </complexContent>
     </complexType>
+
     <complexType name="AbstractDispatchCharacteristicsRequestType" abstract="true">
         <sequence>
             <element name="requestReference" type="string" minOccurs="1" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <complexType name="DispatchCharacteristicsRequestType">
         <complexContent>
             <extension base="brocom:AbstractDispatchCharacteristicsRequestType">
@@ -277,12 +308,14 @@
             </extension>
         </complexContent>
     </complexType>
+
     <complexType name="DispatchDataRequestType">
         <sequence>
             <element name="requestReference" type="string" minOccurs="1" maxOccurs="1"/>
             <element name="broId" type="brocom:RegistrationObjectCodeType" minOccurs="1" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <element name="DispatchResponse" type="brocom:DispatchResponseType"/>
     <complexType name="DispatchResponseType">
         <sequence>
@@ -294,6 +327,7 @@
             <element name="criterionError" type="brocom:CriterionErrorType" minOccurs="0" maxOccurs="unbounded"/>
         </sequence>
     </complexType>
+
     <complexType name="CoordinateTransformationType">
         <simpleContent>
             <restriction base="gml:CodeWithAuthorityType">
@@ -301,6 +335,7 @@
             </restriction>
         </simpleContent>
     </complexType>
+
     <complexType name="IntakeResponseType">
         <sequence>
             <element name="responseType" type="brocom:IntakeResponseTypeEnumeration" minOccurs="1" maxOccurs="1"/>
@@ -315,12 +350,14 @@
             <element name="sourceDocumentError" type="brocom:SourceDocumentErrorType" minOccurs="0" maxOccurs="unbounded"/>
         </sequence>
     </complexType>
+
     <complexType name="OrganizationType">
         <choice>
             <element name="chamberOfCommerceNumber" type="brocom:ChamberOfCommerceNumberType"/>
             <element name="europeanCompanyRegistrationNumber" type="brocom:EuropeanCompanyRegistrationNumberType"/>
         </choice>
     </complexType>
+
     <element name="parseFault" type="brocom:ParseFaultType"/>
     <complexType name="ParseFaultType">
         <sequence>
@@ -330,6 +367,7 @@
             <element name="abortReason" type="brocom:AbortReasonType" minOccurs="1" maxOccurs="unbounded"/>
         </sequence>
     </complexType>
+
     <complexType name="PartialDateType">
         <choice>
             <element name="date" type="date"/>
@@ -338,6 +376,7 @@
             <element name="voidReason" type="brocom:VoidReasonEnumeration"/>
         </choice>
     </complexType>
+
     <complexType name="RadiusType">
         <simpleContent>
             <restriction base="gml:MeasureType">
@@ -345,6 +384,7 @@
             </restriction>
         </simpleContent>
     </complexType>
+
     <complexType name="RegistrationHistoryType">
         <sequence>
             <element name="objectRegistrationTime" type="dateTime" minOccurs="1" maxOccurs="1"/>
@@ -361,6 +401,7 @@
             <element name="reregistrationTime" type="dateTime" minOccurs="0" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <element name="RegistrationObject" type="brocom:RegistrationObjectType" substitutionGroup="brocom:AbstractRegistrationObject"/>
     <complexType name="RegistrationObjectType">
         <complexContent>
@@ -374,6 +415,7 @@
             </extension>
         </complexContent>
     </complexType>
+
     <complexType name="RegistrationRequestType">
         <sequence>
             <element name="requestReference" type="string" minOccurs="1" maxOccurs="1"/>
@@ -383,6 +425,7 @@
             <element name="underPrivilege" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <complexType name="RegistrationStatusType">
         <simpleContent>
             <restriction base="gml:CodeWithAuthorityType">
@@ -390,24 +433,28 @@
             </restriction>
         </simpleContent>
     </complexType>
+
     <complexType name="SourceDocumentErrorType">
         <sequence>
             <element name="sequenceNumber" type="integer" minOccurs="1" maxOccurs="1"/>
             <element name="specification" type="string" minOccurs="1" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <complexType name="StandardizedLocationType">
         <sequence>
             <element name="location" type="gml:PointType" minOccurs="1" maxOccurs="1"/>
             <element name="coordinateTransformation" type="brocom:CoordinateTransformationType" minOccurs="1" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <complexType name="StandardizedLocationV2Type">
         <sequence>
             <element name="location" type="brocom:StandardizedGeometryType" minOccurs="1" maxOccurs="1"/>
             <element name="coordinateTransformation" type="brocom:CoordinateTransformationType" minOccurs="1" maxOccurs="1"/>
         </sequence>
     </complexType>
+
     <element name="StandardizedGeometry" type="brocom:StandardizedGeometryType">
         <annotation>
             <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: ToDo: zie inleiding catalogus</documentation>
@@ -416,9 +463,10 @@
     <complexType name="StandardizedGeometryType">
         <choice minOccurs="1" maxOccurs="1">
             <element ref="gml:Point"/>
-            <element ref="gml:Curve"/>
+            <element ref="gml:MultiPoint"/>
             <element ref="gml:Surface"/>
-            <element ref="gml:AbstractGeometricAggregate"/>
+            <element ref="gml:MultiSurface"/>
+            <element ref="gml:MultiGeometry"/>
         </choice>
     </complexType>
     <complexType name="StandardizedGeometryPropertyType">
@@ -426,6 +474,7 @@
             <element ref="brocom:StandardizedGeometry"/>
         </sequence>
     </complexType>
+
     <element name="DeliveredGeometry" type="brocom:DeliveredGeometryType">
         <annotation>
             <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: ToDo: zie inleiding catalogus</documentation>
@@ -436,7 +485,7 @@
             <element ref="gml:Point"/>
             <element ref="gml:Curve"/>
             <element ref="gml:Surface"/>
-            <element ref="gml:MultiGeometry"/>
+            <element ref="gml:MultiSurface"/>
         </choice>
     </complexType>
     <complexType name="DeliveredGeometryPropertyType">
@@ -444,10 +493,13 @@
             <element ref="brocom:DeliveredGeometry"/>
         </sequence>
     </complexType>
+
     <element name="deliveryResponsibleParty" type="brocom:ChamberOfCommerceNumberType"/>
+
     <complexType name="MeasureNillableType">
         <annotation>
-            <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Datatype voor een meetwaarde die mogelijk geen waarde heeft. Explanation: Het attribute uom moet aanwezig zijn als een gegeven met dit datatype een waarde heeft. Het attribute uom mag niet aanwezig zijn als een gegeven met dit datatype geen waarde heeft en wel een attribuut nil="true".</documentation>
+            <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Datatype voor een meetwaarde die mogelijk geen waarde heeft.
+Explanation: Het attribute uom moet aanwezig zijn als een gegeven met dit datatype een waarde heeft. Het attribute uom mag niet aanwezig zijn als een gegeven met dit datatype geen waarde heeft en wel een attribuut nil="true".</documentation>
         </annotation>
         <simpleContent>
             <extension base="double">
@@ -455,4 +507,5 @@
             </extension>
         </simpleContent>
     </complexType>
+
 </schema>

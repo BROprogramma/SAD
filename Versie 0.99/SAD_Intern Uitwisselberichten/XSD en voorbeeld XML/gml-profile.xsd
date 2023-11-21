@@ -12,12 +12,7 @@
     terzake tussen de partijen gesloten overeenkomst.
 
  -->
-<schema xmlns="http://www.w3.org/2001/XMLSchema" 
-        xmlns:xlink="http://www.w3.org/1999/xlink" 
-        xmlns:gml="http://www.opengis.net/gml/3.2" 
-        targetNamespace="http://www.opengis.net/gml/3.2" 
-        elementFormDefault="qualified" 
-        version="0.0.4-3.2.1">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" targetNamespace="http://www.opengis.net/gml/3.2" elementFormDefault="qualified" version="0.0.4-3.2.1">
     <!-- 
 	This schema is provided by BRO as a local copy, as a convenience to the user. This schema may itself reference a local copy of the schema originally referenced by URI. The local reference takes the form of a relative path, and is introduced by BRO.
 	 -->
@@ -25,14 +20,12 @@
         <documentation>GML 3.2.1 profile for BRO. 0.0.1-3.2.1: Based on gml:AbstractFeature, gml:ReferenceType, gml:PointPropertyType, gml:EnvelopeType, gml:MeasureType, gml:TimeInstantPropertyType, (gml:CodeWithAuthorityType) </documentation>
         <documentation>GML 3.2.1 profile for BRO. 0.0.2-3.2.1:anyURI toegevoegd aan TimePositionUnion</documentation>
         <documentation>GML 3.2.1 profile for BRO. 0.0.3-3.2.1: June 2021: Added gml:BoundingShapeType, CurvePropertyType, MultiPointPropertyType, MultiSuMultiSurfacePropertyTyperface; Adjusted SurfaceType</documentation>
-        <documentation>GML 3.2.1 profile for BRO. 0.0.4-3.2.1: November 2023: Added gml:MultiGeometry, MultiGeometryType, MultiGeometryPropertyType and GeometryPropertyType</documentation>
+        <documentation>GML 3.2.1 profile for BRO. 0.0.4-3.2.1: November 2023: Added GeometryPropertyType, Solid, MultiCurve, MultiSolid and MultiGeometry</documentation>
     </annotation>
-
-    <import namespace="http://www.w3.org/1999/xlink" schemaLocation="https://schema.broservices.nl/profile/xlink/1.0/xlink-profile.xsd"/>
+    <import namespace="http://www.w3.org/1999/xlink" schemaLocation="xlink-profile.xsd"/>
     <!--
     <import namespace="http://www.w3.org/1999/xlink" schemaLocation="https://schema.broservices.nl/profile/xlink/1.0/xlink-profile.xsd"/>
     -->
-
     <!--  =================================================  -->
     <!-- Types: codeList -->
     <!--  =================================================  -->
@@ -50,7 +43,6 @@
             </restriction>
         </simpleContent>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: Measure -->
     <!--  =================================================  -->
@@ -74,7 +66,6 @@
             <pattern value="([a-zA-Z][a-zA-Z0-9\-\+\.]*:|\.\./|\./|#).*"/>
         </restriction>
     </simpleType>
-
     <!--  =================================================  -->
     <!-- Types: AbstractObject -->
     <!--  =================================================  -->
@@ -108,18 +99,17 @@
     <complexType name="ReferenceType">
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: AbstractGML -->
     <!--  =================================================  -->
     <element name="AbstractGML" type="gml:AbstractGMLType" abstract="true" substitutionGroup="gml:AbstractObject"/>
     <complexType name="AbstractGMLType" abstract="true">
+        <attribute ref="gml:id" use="required"/>
         <!--  Not used in BRO profile
         <sequence>
             <group ref="gml:StandardObjectProperties"/>
         </sequence>
          -->
-        <attribute ref="gml:id" use="required"/>
     </complexType>
     <!--  Not used in BRO profile
          gml:identifier might be used in the future, but its usage is currently not foreseen.
@@ -136,7 +126,6 @@
     <element name="identifier" type="gml:CodeWithAuthorityType"/>
     <element name="name" type="gml:CodeType"/>
      -->
-
     <!--  =================================================  -->
     <!-- Types: time related types-->
     <!--  =================================================  -->
@@ -169,25 +158,24 @@
     </complexType>
     <!--  =================================================  -->
     <simpleType name="TimePositionUnion">
+        <union memberTypes="gml:CalDate time dateTime anyURI"/>
         <!--  decimal Not used in BRO profile
         <union memberTypes="gml:CalDate time dateTime anyURI decimal"/>
         -->
-        <union memberTypes="gml:CalDate time dateTime anyURI "/>
     </simpleType>
     <simpleType name="CalDate">
         <union memberTypes="date gYearMonth gYear"/>
     </simpleType>
     <simpleType name="TimeIndeterminateValueType">
         <restriction base="string">
+            <enumeration value="unknown"/>
             <!--  Not used in BRO profile
             <enumeration value="after"/>
             <enumeration value="before"/>
             <enumeration value="now"/>
              -->
-            <enumeration value="unknown"/>
         </restriction>
     </simpleType>
-
     <!--  =================================================  -->
     <!-- Types: timePosition -->
     <!--  =================================================  -->
@@ -196,14 +184,13 @@
         <simpleContent>
             <extension base="gml:TimePositionUnion">
                 <attribute name="frame" type="anyURI" default="#ISO-8601"/>
-                <!--  Not used in BRO profile
-                <attribute name="calendarEraName" type="string"/>
-                 -->
                 <attribute name="indeterminatePosition" type="gml:TimeIndeterminateValueType"/>
             </extension>
+            <!--  Not used in BRO profile
+                <attribute name="calendarEraName" type="string"/>
+                 -->
         </simpleContent>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: TimeInstant -->
     <!--  =================================================  -->
@@ -223,7 +210,6 @@
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: TimePeriod -->
     <!--  =================================================  -->
@@ -243,7 +229,6 @@
             <element ref="gml:TimePeriod"/>
         </sequence>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: geometry related types -->
     <!--  =================================================  -->
@@ -263,7 +248,6 @@
         </simpleContent>
     </complexType>
     <element name="pos" type="gml:DirectPositionType"/>
-
     <!--  =================================================  -->
     <!-- Types: Envelope and BoundingShape -->
     <!--  =================================================  -->
@@ -286,7 +270,6 @@
         </sequence>
         <!-- attribute name="nilReason" type="gml:NilReasonType"/ -->
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: Feature -->
     <!--  =================================================  -->
@@ -302,7 +285,6 @@
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: Geometry -->
     <!--  =================================================  -->
@@ -314,20 +296,19 @@
             </extension>
         </complexContent>
     </complexType>
-	<complexType name="GeometryPropertyType">
-		<annotation>
-			<documentation>A geometric property may either be any geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same or another document). Note that either the reference or the contained element shall be given, but not both or none.
+    <complexType name="GeometryPropertyType">
+        <annotation>
+            <documentation>A geometric property may either be any geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same or another document). Note that either the reference or the contained element shall be given, but not both or none.
 If a feature has a property that takes a geometry element as its value, this is called a geometry property. A generic type for such a geometry property is GeometryPropertyType.</documentation>
-		</annotation>
-		<sequence minOccurs="0">
-			<element ref="gml:AbstractGeometry"/>
-		</sequence>
-		<attributeGroup ref="gml:AssociationAttributeGroup"/>
+        </annotation>
+        <sequence minOccurs="0">
+            <element ref="gml:AbstractGeometry"/>
+        </sequence>
+        <attributeGroup ref="gml:AssociationAttributeGroup"/>
         <!--  Not used in BRO profile
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
         -->
-	</complexType>
-
+    </complexType>
     <!--  =================================================  -->
     <!-- Types: GeometricPrimitive as a parent for all primitive geometries (currently Point, Curve, LineString, Surface, Polygon and Solid)-->
     <!--  =================================================  -->
@@ -337,7 +318,6 @@ If a feature has a property that takes a geometry element as its value, this is 
             <extension base="gml:AbstractGeometryType"/>
         </complexContent>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: Point -->
     <!--  =================================================  -->
@@ -356,7 +336,6 @@ If a feature has a property that takes a geometry element as its value, this is 
             <element ref="gml:Point"/>
         </sequence>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: AbstractCurve as a parent for all curve types (currently only LineString and Curve) -->
     <!--  =================================================  -->
@@ -366,7 +345,6 @@ If a feature has a property that takes a geometry element as its value, this is 
             <extension base="gml:AbstractGeometricPrimitiveType"/>
         </complexContent>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: supporting types for line, curve, polygon and surface -->
     <!--  =================================================  -->
@@ -376,7 +354,6 @@ If a feature has a property that takes a geometry element as its value, this is 
         </simpleContent>
     </complexType>
     <element name="posList" type="gml:DirectPositionListType"/>
-
     <!--  =================================================  -->
     <!-- Types: LineString -->
     <!--  =================================================  -->
@@ -390,7 +367,6 @@ If a feature has a property that takes a geometry element as its value, this is 
             </extension>
         </complexContent>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: supporting types for Curve -->
     <!--  =================================================  -->
@@ -400,10 +376,10 @@ If a feature has a property that takes a geometry element as its value, this is 
         </annotation>
         <restriction base="string">
             <enumeration value="linear"/>
+            <enumeration value="circularArc3Points"/>
             <!-- Not used in BRO profile
             <enumeration value="geodesic"/>
             -->
-            <enumeration value="circularArc3Points"/>
             <!-- Not used in BRO profile
             <enumeration value="circularArc2PointWithBulge"/>
 			<enumeration value="circularArcCenterPointWithRadius"/>
@@ -434,12 +410,6 @@ If a feature has a property that takes a geometry element as its value, this is 
             <element ref="gml:AbstractCurveSegment"/>
         </sequence>
     </complexType>
-    <element name="segments" type="gml:CurveSegmentArrayPropertyType">
-        <annotation>
-            <documentation>This property element contains a list of curve segments. The order of the elements is significant and shall be preserved when processing the array.</documentation>
-        </annotation>
-    </element>
-
     <!--  =================================================  -->
     <!-- Types: Curve with segments (currently only LineStringSegment or ArcString segments) -->
     <!--  =================================================  -->
@@ -453,6 +423,11 @@ If a feature has a property that takes a geometry element as its value, this is 
             </extension>
         </complexContent>
     </complexType>
+    <element name="segments" type="gml:CurveSegmentArrayPropertyType">
+        <annotation>
+            <documentation>This property element contains a list of curve segments. The order of the elements is significant and shall be preserved when processing the array.</documentation>
+        </annotation>
+    </element>
     <complexType name="CurvePropertyType">
         <annotation>
             <documentation> A property that has a curve as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none. </documentation>
@@ -514,7 +489,6 @@ If a feature has a property that takes a geometry element as its value, this is 
             </extension>
         </complexContent>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: AbstractSurface as a parent for all surface types (currently only Polygon and Surface) -->
     <!--  =================================================  -->
@@ -533,7 +507,6 @@ If a feature has a property that takes a geometry element as its value, this is 
         <attributeGroup ref="gml:OwnershipAttributeGroup"/>
         -->
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: Polygon with exterior and interior ring -->
     <!--  =================================================  -->
@@ -569,7 +542,6 @@ If a feature has a property that takes a geometry element as its value, this is 
             </extension>
         </complexContent>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: Surface with surface patches (currently only polygon patches) -->
     <!--  =================================================  -->
@@ -623,16 +595,15 @@ If a feature has a property that takes a geometry element as its value, this is 
             </extension>
         </complexContent>
     </complexType>
-    <!--  =================================================  -->
     <simpleType name="SurfaceInterpolationType">
         <annotation>
             <documentation>gml:SurfaceInterpolationType is a list of codes that may be used to identify the interpolation mechanisms specified by an application schema.</documentation>
         </annotation>
         <restriction base="string">
+            <enumeration value="planar"/>
             <!-- Not used in BRO profile
 			<enumeration value="none"/>
 			 -->
-            <enumeration value="planar"/>
             <!-- Not used in BRO profile
 			<enumeration value="spherical"/>
 			<enumeration value="elliptical"/>
@@ -645,7 +616,6 @@ If a feature has a property that takes a geometry element as its value, this is 
 			 -->
         </restriction>
     </simpleType>
-
     <!--  =================================================  -->
     <!-- Types: AbstractSolid as a parent for all solid types (currently only Solid) -->
     <!--  =================================================  -->
@@ -662,7 +632,6 @@ If a feature has a property that takes a geometry element as its value, this is 
             <extension base="gml:AbstractGeometricPrimitiveType"/>
         </complexContent>
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: Solid with with exterior and interior shells -->
     <!--  =================================================  -->
@@ -730,9 +699,8 @@ If provided, the aggregationType attribute shall have the value "set".
             <element ref="gml:Shell"/>
         </sequence>
     </complexType>
-
     <!--  =================================================  -->
-    <!-- Types: AbstractGeometricAggregate as a parent for all aggregates (currently only MultiGeometry) -->
+    <!-- Types: AbstractGeometricAggregate as a parent for all aggregates (currently MultiPoint, MultiCurve, MultiSurface, MultiSolid and MultiGeometry) -->
     <!--  =================================================  -->
     <element name="AbstractGeometricAggregate" type="gml:AbstractGeometricAggregateType" abstract="true" substitutionGroup="gml:AbstractGeometry">
         <annotation>
@@ -763,46 +731,6 @@ If provided, the aggregationType attribute shall have the value "set".
 			<enumeration value="table"/> -->
         </restriction>
     </simpleType>
-
-    <!--  =================================================  -->
-    <!-- Types: MultiGeometry as a parent for all multi-primitives (currently MultiPoint, MultiCurve, MultiSurface and MultiSolid) -->
-    <!--  =================================================  -->
-    <element name="MultiGeometry" type="gml:MultiGeometryType" substitutionGroup="gml:AbstractGeometricAggregate">
-        <annotation>
-            <documentation>gml:MultiGeometry is a collection of one or more GML geometry objects of arbitrary type. 
-The members of the geometric aggregate may be specified either using the "standard" property (gml:geometryMember) or the array property (gml:geometryMembers). It is also valid to use both the "standard" and the array properties in the same collection.</documentation>
-        </annotation>
-    </element>
-    <complexType name="MultiGeometryType">
-        <complexContent>
-            <extension base="gml:AbstractGeometricAggregateType">
-                <sequence>
-                    <element ref="gml:geometryMember" minOccurs="0" maxOccurs="unbounded"/>
-                    <!-- Not used in BRO profile
-                    <element ref="gml:geometryMembers" minOccurs="0"/>
-                    -->
-                </sequence>
-            </extension>
-        </complexContent>
-    </complexType>
-    <element name="geometryMember" type="gml:GeometryPropertyType">
-        <annotation>
-            <documentation>This property element either references a geometry element via the XLink-attributes or contains the geometry element.</documentation>
-        </annotation>
-    </element>
-    <complexType name="MultiGeometryPropertyType">
-        <annotation>
-            <documentation>A property that has a geometric aggregate as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none.</documentation>
-        </annotation>
-        <sequence minOccurs="0">
-            <element ref="gml:AbstractGeometricAggregate"/>
-        </sequence>
-        <attributeGroup ref="gml:AssociationAttributeGroup"/>
-        <!-- Not used in BRO profile
-        <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-        -->
-    </complexType>
-
     <!--  =================================================  -->
     <!-- Types: MultiPoint -->
     <!--  =================================================  -->
@@ -840,47 +768,45 @@ The members of the geometric aggregate may be specified either using the "standa
         <attributeGroup ref="gml:OwnershipAttributeGroup"/>
         -->
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: MultiCurve -->
     <!--  =================================================  -->
-	<element name="MultiCurve" type="gml:MultiCurveType" substitutionGroup="gml:AbstractGeometricAggregate">
-		<annotation>
-			<documentation>A gml:MultiCurve is defined by one or more gml:AbstractCurves.</documentation>
-		</annotation>
-	</element>
-	<complexType name="MultiCurveType">
-		<complexContent>
-			<extension base="gml:AbstractGeometricAggregateType">
-				<sequence>
-					<element ref="gml:curveMember" minOccurs="0" maxOccurs="unbounded"/>
+    <element name="MultiCurve" type="gml:MultiCurveType" substitutionGroup="gml:AbstractGeometricAggregate">
+        <annotation>
+            <documentation>A gml:MultiCurve is defined by one or more gml:AbstractCurves.</documentation>
+        </annotation>
+    </element>
+    <complexType name="MultiCurveType">
+        <complexContent>
+            <extension base="gml:AbstractGeometricAggregateType">
+                <sequence>
+                    <element ref="gml:curveMember" minOccurs="0" maxOccurs="unbounded"/>
                     <!-- Not used in BRO profile
 					<element ref="gml:curveMembers" minOccurs="0"/>
                     -->
-				</sequence>
-			</extension>
-		</complexContent>
-	</complexType>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
     <element name="curveMember" type="gml:CurvePropertyType"/>
-	<complexType name="MultiCurvePropertyType">
-		<annotation>
-			<documentation>A property that has a collection of curves as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none.</documentation>
-		</annotation>
-		<sequence minOccurs="0">
-			<element ref="gml:MultiCurve"/>
-		</sequence>
-		<attributeGroup ref="gml:AssociationAttributeGroup"/>
+    <complexType name="MultiCurvePropertyType">
+        <annotation>
+            <documentation>A property that has a collection of curves as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none.</documentation>
+        </annotation>
+        <sequence minOccurs="0">
+            <element ref="gml:MultiCurve"/>
+        </sequence>
+        <attributeGroup ref="gml:AssociationAttributeGroup"/>
         <!-- Not used in BRO profile
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
         -->
-	</complexType>
-
+    </complexType>
     <!--  =================================================  -->
     <!-- Types: MultiSurface -->
     <!--  =================================================  -->
     <element name="MultiSurface" type="gml:MultiSurfaceType" substitutionGroup="gml:AbstractGeometricAggregate">
         <annotation>
-            <documentation>A gml:MultiSurface is defined by one or more gml:AbstractSurfaces. The members of the geometric aggregate may be specified either using the "standard" property (gml:surfaceMember) or the array property (gml:surfaceMembers). It is also valid to use both the "standard" and the array properties in the same collection.</documentation>
+            <documentation>A gml:MultiSurface is defined by one or more gml:AbstractSurfaces.</documentation>
         </annotation>
     </element>
     <complexType name="MultiSurfaceType">
@@ -907,42 +833,78 @@ The members of the geometric aggregate may be specified either using the "standa
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 		 -->
     </complexType>
-
     <!--  =================================================  -->
     <!-- Types: MultiSolid -->
     <!--  =================================================  -->
-	<element name="MultiSolid" type="gml:MultiSolidType" substitutionGroup="gml:AbstractGeometricAggregate">
-		<annotation>
-			<documentation>A gml:MultiSolid is defined by one or more gml:AbstractSolids.</documentation>
-		</annotation>
-	</element>
-	<complexType name="MultiSolidType">
-		<complexContent>
-			<extension base="gml:AbstractGeometricAggregateType">
-				<sequence>
-					<element ref="gml:solidMember" minOccurs="0" maxOccurs="unbounded"/>
+    <element name="MultiSolid" type="gml:MultiSolidType" substitutionGroup="gml:AbstractGeometricAggregate">
+        <annotation>
+            <documentation>A gml:MultiSolid is defined by one or more gml:AbstractSolids.</documentation>
+        </annotation>
+    </element>
+    <complexType name="MultiSolidType">
+        <complexContent>
+            <extension base="gml:AbstractGeometricAggregateType">
+                <sequence>
+                    <element ref="gml:solidMember" minOccurs="0" maxOccurs="unbounded"/>
                     <!-- Not used in BRO profile
 					<element ref="gml:solidMembers" minOccurs="0"/>
                      -->
-				</sequence>
-			</extension>
-		</complexContent>
-	</complexType>
-	<element name="solidMember" type="gml:SolidPropertyType">
-		<annotation>
-			<documentation>This property element either references a solid via the XLink-attributes or contains the solid element. A solid element is any element, which is substitutable for gml:AbstractSolid.</documentation>
-		</annotation>
-	</element>
-	<complexType name="MultiSolidPropertyType">
-		<annotation>
-			<documentation>A property that has a collection of solids as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none.</documentation>
-		</annotation>
-		<sequence minOccurs="0">
-			<element ref="gml:MultiSolid"/>
-		</sequence>
-		<attributeGroup ref="gml:AssociationAttributeGroup"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    <element name="solidMember" type="gml:SolidPropertyType">
+        <annotation>
+            <documentation>This property element either references a solid via the XLink-attributes or contains the solid element. A solid element is any element, which is substitutable for gml:AbstractSolid.</documentation>
+        </annotation>
+    </element>
+    <complexType name="MultiSolidPropertyType">
+        <annotation>
+            <documentation>A property that has a collection of solids as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none.</documentation>
+        </annotation>
+        <sequence minOccurs="0">
+            <element ref="gml:MultiSolid"/>
+        </sequence>
+        <attributeGroup ref="gml:AssociationAttributeGroup"/>
         <!-- Not used in BRO profile
 		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
 		 -->
-	</complexType>
+    </complexType>
+    <!--  =================================================  -->
+    <!-- Types: MultiGeometry as a collection of primitives and/or aggregates -->
+    <!--  =================================================  -->
+    <element name="MultiGeometry" type="gml:MultiGeometryType" substitutionGroup="gml:AbstractGeometricAggregate">
+        <annotation>
+            <documentation>gml:MultiGeometry is a collection of one or more GML geometry objects of arbitrary type.</documentation>
+        </annotation>
+    </element>
+    <complexType name="MultiGeometryType">
+        <complexContent>
+            <extension base="gml:AbstractGeometricAggregateType">
+                <sequence>
+                    <element ref="gml:geometryMember" minOccurs="0" maxOccurs="unbounded"/>
+                    <!-- Not used in BRO profile
+                    <element ref="gml:geometryMembers" minOccurs="0"/>
+                    -->
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+    <element name="geometryMember" type="gml:GeometryPropertyType">
+        <annotation>
+            <documentation>This property element either references a geometry element via the XLink-attributes or contains the geometry element.</documentation>
+        </annotation>
+    </element>
+    <complexType name="MultiGeometryPropertyType">
+        <annotation>
+            <documentation>A property that has a geometric aggregate as its value domain may either be an appropriate geometry element encapsulated in an element of this type or an XLink reference to a remote geometry element (where remote includes geometry elements located elsewhere in the same document). Either the reference or the contained element shall be given, but neither both nor none.</documentation>
+        </annotation>
+        <sequence minOccurs="0">
+            <element ref="gml:AbstractGeometricAggregate"/>
+        </sequence>
+        <attributeGroup ref="gml:AssociationAttributeGroup"/>
+        <!-- Not used in BRO profile
+        <attributeGroup ref="gml:OwnershipAttributeGroup"/>
+		 -->
+    </complexType>
 </schema>

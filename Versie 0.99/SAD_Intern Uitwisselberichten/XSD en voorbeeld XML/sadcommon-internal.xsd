@@ -520,7 +520,7 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
                             </xs:restriction>
                         </xs:simpleType>
                     </xs:element>
-                    <xs:element name="soilsampleAnalysis" type="sadcom:SoilSampleAnalysisPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="soilSampleAnalysis" type="sadcom:SoilSampleAnalysisPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>

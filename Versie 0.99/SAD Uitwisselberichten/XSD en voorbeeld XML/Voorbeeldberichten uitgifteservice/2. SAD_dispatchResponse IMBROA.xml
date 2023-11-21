@@ -27,13 +27,20 @@
             <reportDate>2023-01-14</reportDate>
             <standardizedLocation>
                 <brocom:location>
-                    <gml:MultiSurface>
+                     <gml:MultiSurface gml:id="a8d0a8ef-fc04-4071-b009-27a611adad0f" srsName="urn:ogc:def:crs:EPSG::4258">
+                        <!-- 1 or more repetitions -->
                         <gml:surfaceMember>
-                            <!-- moet getransformeerd worden van RD naar ETRS89 -->
-                            <gml:Polygon srsName="urn:ogc:def:crs:EPSG::4326">
+                            <gml:Polygon gml:id="b08a25a3-59c7-478b-abb9-b71d7fbf58a5">
                                 <gml:exterior>
                                     <gml:LinearRing>
-                                        <gml:posList srsDimension="2">52.00439274920983 4.358917081981024 52.00402618781154 4.358289445071539 52.003560551436216 4.358455742030462 52.003874278604464 4.359217489390692 52.00439274920983 4.358917081981024</gml:posList>
+                                        <gml:posList>
+                                            50.8748363 5.9284810
+                                            50.8757351 5.9284915
+                                            50.8766307 5.9292124
+                                            50.8757285 5.9299122
+                                            50.8748296 5.9299017
+                                            50.8748363 5.9284810
+                                        </gml:posList>
                                     </gml:LinearRing>
                                 </gml:exterior>
                             </gml:Polygon>
@@ -59,9 +66,9 @@
                             <imsikb0101:assignmentCode>xxxxxxxxxxx</imsikb0101:assignmentCode>
                             <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>
                             <imsikb0101:geometry>
-                                <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb">
+                                <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4326">
                                     <gml:surfaceMember>
-                                        <gml:Polygon gml:id="_d604d147-bb50-469c-bd5c-60cef435f9db" srsName="urn:ogc:def:crs:EPSG::4326">
+                                        <gml:Polygon gml:id="_d604d147-bb50-469c-bd5c-60cef435f9db">
                                             <gml:exterior>
                                                 <gml:LinearRing>
                                                     <gml:posList srsDimension="2">52.00439274920983 4.358917081981024 52.00402618781154 4.358289445071539 52.003560551436216 4.358455742030462 52.003874278604464 4.359217489390692 52.00439274920983 4.358917081981024</gml:posList>

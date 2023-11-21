@@ -31,9 +31,9 @@
                             <imsikb0101:investigationConclusion>Dit is de conclusie van het onderzoek.</imsikb0101:investigationConclusion>
                             <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>                            
                             <imsikb0101:geometry>
-                                <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb">
+                                <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4326">
                                     <gml:surfaceMember>
-                                        <gml:Polygon gml:id="_d604d147-bb50-469c-bd5c-60cef435f9db" srsName="urn:ogc:def:crs:EPSG::4326">
+                                        <gml:Polygon gml:id="_d604d147-bb50-469c-bd5c-60cef435f9db">
                                             <gml:exterior>
                                                 <gml:LinearRing>
                                                     <gml:posList srsDimension="2">52.00439274920983 4.358917081981024 52.00402618781154 4.358289445071539 52.003560551436216 4.358455742030462 52.003874278604464 4.359217489390692 52.00439274920983 4.358917081981024</gml:posList>

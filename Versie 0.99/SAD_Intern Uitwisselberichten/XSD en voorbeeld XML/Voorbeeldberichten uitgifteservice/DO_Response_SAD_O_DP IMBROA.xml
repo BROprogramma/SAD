@@ -185,7 +185,7 @@
                                     <sadcom:endDepth uom="m">2.0</sadcom:endDepth>
                                     <sadcom:identification>0f921558-7f83-4a81-bf9d-82b138e82a6b</sadcom:identification>
                                     <sadcom:name>POT3</sadcom:name>                            
-                                    <sadcom:soilsampleAnalysis>
+                                    <sadcom:soilSampleAnalysis>
                                         <sadcom:SoilSampleAnalysis gml:id="_c1adf8f7-e0cd-4810-a93e-60580f34b3fa">
                                             <sadcom:identification>c1adf8f7-e0cd-4810-a93e-60580f34b3fa</sadcom:identification>
                                             <sadcom:name>PB01-POT3</sadcom:name>            
@@ -217,7 +217,7 @@
                                                 </sadcom:Analysis>
                                             </sadcom:analysis>
                                         </sadcom:SoilSampleAnalysis>
-                                    </sadcom:soilsampleAnalysis>
+                                    </sadcom:soilSampleAnalysis>
                                 </sadcom:SoilSampling>
                             </sadcom:soilSampling>                    
                             <sadcom:boreholeSampleDescription>
