@@ -41,6 +41,25 @@
 		<xs:complexContent>
 			<xs:extension base="gml:AbstractFeatureType">
 				<xs:sequence>
+                    <xs:element name="deliveryContext"
+                               minOccurs="1"
+                               maxOccurs="1"
+                               type="sadcom:DeliveryContextType">
+                      <xs:annotation>
+                         <xs:appinfo>
+                            <CodeListName>DeliveryContext</CodeListName>
+                            <CodeListURI>urn:bro:sad:DeliveryContext</CodeListURI>
+                         </xs:appinfo>
+                         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een aanduiding van de rechtsgrond waarop het brondocument is gebaseerd of, bij afwezigheid daarvan, de activiteit naar aanleiding waarvan het is opgemaakt
+    Explanation: De wetgever heeft bepaald dat het gegeven moet zijn vastgelegd om inzicht te geven in de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke betekenis van de informatie.</xs:documentation>
+                      </xs:annotation>
+                   </xs:element>
+                   <xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1">
+                      <xs:annotation>
+                         <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen.
+    Explanation: Het gegeven is alleen aanwezig wanneer het bodemonderzoek (inclusief eventuele monitoring) is gerapporteerd en het onderzoek is afgesloten. Hier wordt overigens niet de datum van het onderzoeksrapport bedoeld. De datum van het onderzoeksrapport wordt vastgelegd bij de gegevensgroep Rapport als rapportdatum. Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal onbekend en niet relevant.</xs:documentation>
+                      </xs:annotation>
+                   </xs:element>
 					<xs:element minOccurs="1"
                            maxOccurs="1"
                            name="featureCollection"
