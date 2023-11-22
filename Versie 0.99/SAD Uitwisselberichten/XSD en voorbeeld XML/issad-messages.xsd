@@ -12,115 +12,103 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:gml="http://www.opengis.net/gml/3.2"
-           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           xmlns:imsikb0101="http://www.sikb.nl/imsikb0101"
-           xmlns:issad="http://www.broservices.nl/xsd/issad/1.0"
-           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0"           
-           targetNamespace="http://www.broservices.nl/xsd/issad/1.0"
-           elementFormDefault="qualified"
-           attributeFormDefault="unqualified"
-           version="1.0.0">   
-	<xs:import namespace="http://www.sikb.nl/imsikb0101"
-              schemaLocation="./imsikb0101_v14.8.0.xsd"/>
-	<xs:import namespace="http://www.opengis.net/gml/3.2"
-              schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
-	<xs:import namespace="http://www.broservices.nl/xsd/sadcommon/1.0"
-              schemaLocation="./sadcommon.xsd"/>
-	<xs:element name="intakeResponse" type="sadcom:IntakeResponseType" />
-	<xs:element name="parseFault" type="sadcom:ParseFaultType" />
-	<xs:element name="SAD_CompleteReport"
-               type="issad:SAD_CompleteReportType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument wordt aangeboden wanneer het Milieuhygiënisch bodemonderzoek in een keer volledig wordt aangeleverd. De registratie is met dit brondocument direct voltooid.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="SAD_CompleteReportType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="featureCollection"
-                           nillable="false"
-                           type="imsikb0101:FeatureCollectionIMSIKB0101PropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="SAD_CompleteReportPropertyType">
-		<xs:sequence minOccurs="1">
-			<xs:element ref="issad:SAD_CompleteReport"/>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:element name="correctionRequest"
-               type="issad:CorrectionRequestType">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht correctionRequest (correctieverzoek) is een specialisatie van de abstract klasse CorrectionRequest uit de package brocommon, waaraan het een correctionReason en een sourceDocument toevoegt. Met dit bericht kan een bronhouder en/of dataleverancier in de BRO opgenomen gegevens vervangen (corrigeren). De eenheid van vervangen is een brondocument, dat eerder met een registrationRequest (registratieverzoek) is aangeboden bij de BRO. Het is niet mogelijk de waarde van een individueel attribuut te corrigeren.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="CorrectionRequestType">
-		<xs:complexContent>
-			<xs:extension base="sadcom:CorrectionRequestType">
-				<xs:sequence>
-					<xs:element name="correctionReason"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="issad:CorrectionReasonType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>CorrectionReason</CodeListName>
-								<CodeListURI>urn:bro:sad:CorrectionReason</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Reden waarom de geregistreerde gegevens worden gecorrigeerd.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="sourceDocument"
-                           nillable="false"
-                           type="issad:SAD_CompleteReportPropertyType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die de in de BRO geregistreerde gegevens zullen vervangen en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het correctieverzoek.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>	
-	<xs:element name="registrationRequest"
-               type="issad:RegistrationRequestType">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht RegistrationRequest is een specialisatie van de abstract klasse RegistrationRequest uit de package brocommon, waaraan het een sourceDocument toevoegt. Met dit bericht kan een nog niet geregistreerd Milieuhygienisch bodemonderzoek in de BRO worden opgenomen.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="RegistrationRequestType">
-		<xs:complexContent>
-			<xs:extension base="sadcom:RegistrationRequestType">
-				<xs:sequence>
-					<xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="sourceDocument"
-                           nillable="false"
-                           type="issad:SAD_CompleteReportPropertyType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die in het BRO-systeem geregistreerd zullen worden en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het registratieverzoek.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>	
-	<xs:complexType name="CorrectionReasonType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:CorrectionReason"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
+<xs:schema xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:issad="http://www.broservices.nl/xsd/issad/1.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/issad/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
+    <xs:import namespace="http://www.broservices.nl/xsd/sadcommon/1.0" schemaLocation="./sadcommon.xsd"/>
+    <xs:import namespace="http://www.sikb.nl/imsikb0101" schemaLocation="./imsikb0101_v14.8.0.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+    <xs:element name="intakeResponse" type="sadcom:IntakeResponseType"/>
+    <xs:element name="parseFault" type="sadcom:ParseFaultType"/>
+    <xs:element name="SAD_CompleteReport" type="issad:SAD_CompleteReportType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het brondocument wordt aangeboden wanneer het Milieuhygiënisch bodemonderzoek in een keer volledig wordt aangeleverd. De registratie is met dit brondocument direct voltooid.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="SAD_CompleteReportType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="deliveryContext" minOccurs="1" maxOccurs="1" type="sadcom:DeliveryContextType">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>DeliveryContext</CodeListName>
+                                <CodeListURI>urn:bro:sad:DeliveryContext</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een aanduiding van de rechtsgrond waarop het brondocument is gebaseerd of, bij afwezigheid daarvan, de activiteit naar aanleiding waarvan het is opgemaakt
+Explanation: De wetgever heeft bepaald dat het gegeven moet zijn vastgelegd om inzicht te geven in de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke betekenis van de informatie.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="objectIdAccountableParty" minOccurs="0" maxOccurs="1" type="xs:string">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden, voordat het was geregistreerd in de basisregistratie ondergrond.
+Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen.
+Explanation: Het gegeven is alleen aanwezig wanneer het bodemonderzoek (inclusief eventuele monitoring) is gerapporteerd en het onderzoek is afgesloten. Hier wordt overigens niet de datum van het onderzoeksrapport bedoeld. De datum van het onderzoeksrapport wordt vastgelegd bij de gegevensgroep Rapport als rapportdatum. Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal onbekend en niet relevant.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="1" maxOccurs="1" name="featureCollection" nillable="false" type="imsikb0101:FeatureCollectionIMSIKB0101PropertyType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SAD_CompleteReportPropertyType">
+        <xs:sequence minOccurs="1">
+            <xs:element ref="issad:SAD_CompleteReport"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="correctionRequest" type="issad:CorrectionRequestType">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht correctionRequest (correctieverzoek) is een specialisatie van de abstract klasse CorrectionRequest uit de package brocommon, waaraan het een correctionReason en een sourceDocument toevoegt. Met dit bericht kan een bronhouder en/of dataleverancier in de BRO opgenomen gegevens vervangen (corrigeren). De eenheid van vervangen is een brondocument, dat eerder met een registrationRequest (registratieverzoek) is aangeboden bij de BRO. Het is niet mogelijk de waarde van een individueel attribuut te corrigeren.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="CorrectionRequestType">
+        <xs:complexContent>
+            <xs:extension base="sadcom:CorrectionRequestType">
+                <xs:sequence>
+                    <xs:element name="correctionReason" minOccurs="1" maxOccurs="1" type="issad:CorrectionReasonType">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>CorrectionReason</CodeListName>
+                                <CodeListURI>urn:bro:sad:CorrectionReason</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Reden waarom de geregistreerde gegevens worden gecorrigeerd.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element minOccurs="1" maxOccurs="1" name="sourceDocument" nillable="false" type="issad:SAD_CompleteReportPropertyType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die in het BRO-systeem geregistreerd zullen worden en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het registratieverzoek.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="registrationRequest" type="issad:RegistrationRequestType">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht RegistrationRequest is een specialisatie van de abstract klasse RegistrationRequest uit de package brocommon, waaraan het een sourceDocument toevoegt. Met dit bericht kan een nog niet geregistreerd Milieuhygienisch bodemonderzoek in de BRO worden opgenomen.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="RegistrationRequestType">
+        <xs:complexContent>
+            <xs:extension base="sadcom:RegistrationRequestType">
+                <xs:sequence>
+                    <xs:element minOccurs="1" maxOccurs="1" name="sourceDocument" nillable="false" type="issad:SAD_CompleteReportPropertyType">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element sourceDocument bevat gegevens die in het BRO-systeem geregistreerd zullen worden en die in de catalogus van het registratieobject zijn gespecificeerd, met uitzondering van de gegevens die door het BRO-systeem worden gegenereerd of afgeleid uit het registratieverzoek.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="CorrectionReasonType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:CorrectionReason"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
 </xs:schema>

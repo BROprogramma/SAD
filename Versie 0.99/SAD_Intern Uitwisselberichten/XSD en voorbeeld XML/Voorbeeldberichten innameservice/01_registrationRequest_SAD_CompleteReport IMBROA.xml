@@ -7,10 +7,10 @@
          * SAD object volgens intern formaat.
     -->
     <brocom:requestReference>verzoek_1</brocom:requestReference>
-    <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>
-    <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+    <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>    
+    <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>    
     <sourceDocument>    
-        <SAD_CompleteReport gml:id="_daa6c99f-4eee-44c6-b78e-6b1826057114">
+        <SAD_CompleteReport gml:id="_daa6c99f-4eee-44c6-b78e-6b1826057114">                
             <!-- Optional -->
             <asbestos codeSpace="urn:bro:sad:AsbestosPresence">nietOnderzocht</asbestos>
             <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>
@@ -40,15 +40,7 @@
             <investigationReason codeSpace="urn:bro:sad:InvestigationReason">omgevingsvergunning</investigationReason>
             <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>
             <!-- Optional -->
-            <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType>            
-            <registrationHistory>
-                <sadcom:corrected>nee</sadcom:corrected>
-                <sadcom:deregistered>nee</sadcom:deregistered>
-                <sadcom:objectRegistrationTime>2023-11-07T19:12:00+01:00</sadcom:objectRegistrationTime>
-                <sadcom:registrationStatus codeSpace="urn:bro:sad:RegistrationStatus">geregistreerd</sadcom:registrationStatus>
-                <sadcom:reregistered>nee</sadcom:reregistered>
-                <sadcom:underReview>nee</sadcom:underReview>
-            </registrationHistory>
+            <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType>      
             <!-- Optional -->
             <report>
                 <sadcom:author>Subliem Voorbeeld Advies B.V.</sadcom:author>
@@ -56,31 +48,15 @@
                 <sadcom:documentLink>https://www.document.nl/voorbeeldrapport</sadcom:documentLink>                
                 <sadcom:number>123123</sadcom:number>
             </report>      
-            <reportDate>2023-04-25</reportDate>
-             <!-- Optional -->
+            <reportDate>2023-04-25</reportDate>                              
+            <!-- Optional -->
             <researchOperator>
                 <!-- choice of:
                 <brocom:chamberOfCommerceNumber>?</brocom:chamberOfCommerceNumber>
                 <brocom:europeanCompanyRegistrationNumber>?</brocom:europeanCompanyRegistrationNumber>
                 -->
                 <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-            </researchOperator> 
-            <standardizedLocation>
-                <brocom:location>
-                    <gml:MultiSurface gml:id="_e704d147-bb50-469c-bd5c-60cef435f9cb">
-                        <gml:surfaceMember>
-                            <gml:Polygon gml:id="_d704d147-bb50-469c-bd5c-60cef435f9db" srsName="urn:ogc:def:crs:EPSG::28992">
-                                <gml:exterior>
-                                    <gml:LinearRing>
-                                        <gml:posList>200000 350000 210000 350000 210000 370000 200000 370000 200000 350000</gml:posList>
-                                    </gml:LinearRing>
-                                </gml:exterior>
-                            </gml:Polygon>
-                        </gml:surfaceMember>
-                    </gml:MultiSurface>
-                </brocom:location>
-                <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">nietGetransformeerd</brocom:coordinateTransformation>
-            </standardizedLocation>
+            </researchOperator>                                                              
             <mixedSampleAnalysis>
                 <sadcom:MixedSampleAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
                     <sadcom:beginDepth uom="m">0.3</sadcom:beginDepth>
@@ -119,7 +95,7 @@
                     <sadcom:soilSampling xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
                     <sadcom:soilSampling xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
                 </sadcom:MixedSampleAnalysis>
-            </mixedSampleAnalysis>            
+            </mixedSampleAnalysis> 
             <measurementPoint>
                 <sadcom:MeasurementPoint gml:id="_d8401c1a-ec0c-446f-8e45-22d9514f8400">
                     <sadcom:date>2018-03-08</sadcom:date>
@@ -136,9 +112,9 @@
                     </sadcom:deliveredVerticalPosition>
                     <sadcom:finalDepth uom="m">2</sadcom:finalDepth>
                     <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>
+                    <sadcom:name>PB01</sadcom:name>                    
                     <!-- Boring met Peilbuis-->
-                    <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>
-                    <sadcom:name>PB01</sadcom:name>
+                    <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>                    
                     <sadcom:soilSampling>
                         <sadcom:SoilSampling gml:id="_0571c066-806a-459e-a8a1-b099cb6814d0">
                             <sadcom:beginDepth uom="m">0.0</sadcom:beginDepth>
@@ -164,7 +140,7 @@
                             <sadcom:endDepth uom="m">2.0</sadcom:endDepth>
                             <sadcom:identification>0f921558-7f83-4a81-bf9d-82b138e82a6b</sadcom:identification>
                             <sadcom:name>POT3</sadcom:name>                            
-                            <sadcom:soilsampleAnalysis>
+                            <sadcom:soilSampleAnalysis>
                                 <sadcom:SoilSampleAnalysis gml:id="_c1adf8f7-e0cd-4810-a93e-60580f34b3fa">
                                     <sadcom:identification>c1adf8f7-e0cd-4810-a93e-60580f34b3fa</sadcom:identification>
                                     <sadcom:name>PB01-POT3</sadcom:name>            
@@ -196,7 +172,7 @@
                                         </sadcom:Analysis>
                                     </sadcom:analysis>
                                 </sadcom:SoilSampleAnalysis>
-                            </sadcom:soilsampleAnalysis>
+                            </sadcom:soilSampleAnalysis>
                         </sadcom:SoilSampling>
                     </sadcom:soilSampling>                    
                     <sadcom:boreholeSampleDescription>
@@ -353,7 +329,7 @@
                         </sadcom:Filter>
                     </sadcom:filter>    
                 </sadcom:MeasurementPoint>
-            </measurementPoint>     
+            </measurementPoint>                             
         </SAD_CompleteReport>
     </sourceDocument>
 </registrationRequest>

@@ -29,7 +29,7 @@
                     <brocom:broId>SAD123456789012</brocom:broId>     
                     <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>
                     <!-- Optional: not present in dispatchDocument SAD_O -->
-                    <brocom:objectIdAccountableParty>mijnUniekeIdVanDezeVergunning</brocom:objectIdAccountableParty>
+                    <brocom:objectIdAccountableParty>mijnUniekeIdVanDezeSADUpload</brocom:objectIdAccountableParty>
                     <!-- Optional: not present in dispatchDocument SAD_O -->
                     <brocom:deliveryResponsibleParty>27376655</brocom:deliveryResponsibleParty>
                     <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
@@ -88,9 +88,9 @@
                     </researchOperator> 
                     <standardizedLocation>
                         <brocom:location>
-                            <gml:MultiSurface gml:id="_e704d147-bb50-469c-bd5c-60cef435f9cb">
+                            <gml:MultiSurface gml:id="_e704d147-bb50-469c-bd5c-60cef435f9cb"  srsName="urn:ogc:def:crs:EPSG::28992">
                                 <gml:surfaceMember>
-                                    <gml:Polygon gml:id="_d704d147-bb50-469c-bd5c-60cef435f9db" srsName="urn:ogc:def:crs:EPSG::28992">
+                                    <gml:Polygon gml:id="_d704d147-bb50-469c-bd5c-60cef435f9db">
                                         <gml:exterior>
                                             <gml:LinearRing>
                                                 <gml:posList>200000 350000 210000 350000 210000 370000 200000 370000 200000 350000</gml:posList>
@@ -158,8 +158,8 @@
                             <sadcom:finalDepth uom="m">2</sadcom:finalDepth>
                             <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>
                             <!-- Boring met Peilbuis-->
-                            <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>
                             <sadcom:name>PB01</sadcom:name>
+                            <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>
                             <sadcom:soilSampling>
                                 <sadcom:SoilSampling gml:id="_0571c066-806a-459e-a8a1-b099cb6814d0">
                                     <sadcom:beginDepth uom="m">0.0</sadcom:beginDepth>
@@ -185,7 +185,7 @@
                                     <sadcom:endDepth uom="m">2.0</sadcom:endDepth>
                                     <sadcom:identification>0f921558-7f83-4a81-bf9d-82b138e82a6b</sadcom:identification>
                                     <sadcom:name>POT3</sadcom:name>                            
-                                    <sadcom:soilsampleAnalysis>
+                                    <sadcom:soilSampleAnalysis>
                                         <sadcom:SoilSampleAnalysis gml:id="_c1adf8f7-e0cd-4810-a93e-60580f34b3fa">
                                             <sadcom:identification>c1adf8f7-e0cd-4810-a93e-60580f34b3fa</sadcom:identification>
                                             <sadcom:name>PB01-POT3</sadcom:name>            
@@ -217,7 +217,7 @@
                                                 </sadcom:Analysis>
                                             </sadcom:analysis>
                                         </sadcom:SoilSampleAnalysis>
-                                    </sadcom:soilsampleAnalysis>
+                                    </sadcom:soilSampleAnalysis>
                                 </sadcom:SoilSampling>
                             </sadcom:soilSampling>                    
                             <sadcom:boreholeSampleDescription>
