@@ -43,15 +43,7 @@
             <investigationReason codeSpace="urn:bro:sad:InvestigationReason">omgevingsvergunning</investigationReason>
             <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>
             <!-- Optional -->
-            <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType>            
-            <registrationHistory>
-                <sadcom:corrected>nee</sadcom:corrected>
-                <sadcom:deregistered>nee</sadcom:deregistered>
-                <sadcom:objectRegistrationTime>2023-11-07T19:12:00+01:00</sadcom:objectRegistrationTime>
-                <sadcom:registrationStatus codeSpace="urn:bro:sad:RegistrationStatus">geregistreerd</sadcom:registrationStatus>
-                <sadcom:reregistered>nee</sadcom:reregistered>
-                <sadcom:underReview>nee</sadcom:underReview>
-            </registrationHistory>
+            <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType>                        
             <!-- Optional -->
             <report>
                 <sadcom:author>Subliem Voorbeeld Advies B.V.</sadcom:author>
@@ -67,23 +59,7 @@
                 <brocom:europeanCompanyRegistrationNumber>?</brocom:europeanCompanyRegistrationNumber>
                 -->
                 <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-            </researchOperator> 
-            <standardizedLocation>
-                <brocom:location>
-                    <gml:MultiSurface gml:id="_e704d147-bb50-469c-bd5c-60cef435f9cb">
-                        <gml:surfaceMember>
-                            <gml:Polygon gml:id="_d704d147-bb50-469c-bd5c-60cef435f9db" srsName="urn:ogc:def:crs:EPSG::28992">
-                                <gml:exterior>
-                                    <gml:LinearRing>
-                                        <gml:posList>200000 350000 210000 350000 210000 370000 200000 370000 200000 350000</gml:posList>
-                                    </gml:LinearRing>
-                                </gml:exterior>
-                            </gml:Polygon>
-                        </gml:surfaceMember>
-                    </gml:MultiSurface>
-                </brocom:location>
-                <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">nietGetransformeerd</brocom:coordinateTransformation>
-            </standardizedLocation>
+            </researchOperator>             
             <mixedSampleAnalysis>
                 <sadcom:MixedSampleAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
                     <sadcom:beginDepth uom="m">0.3</sadcom:beginDepth>
@@ -140,8 +116,8 @@
                     <sadcom:finalDepth uom="m">2</sadcom:finalDepth>
                     <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>
                     <!-- Boring met Peilbuis-->
-                    <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>
                     <sadcom:name>PB01</sadcom:name>
+                    <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>                    
                     <sadcom:soilSampling>
                         <sadcom:SoilSampling gml:id="_0571c066-806a-459e-a8a1-b099cb6814d0">
                             <sadcom:beginDepth uom="m">0.0</sadcom:beginDepth>

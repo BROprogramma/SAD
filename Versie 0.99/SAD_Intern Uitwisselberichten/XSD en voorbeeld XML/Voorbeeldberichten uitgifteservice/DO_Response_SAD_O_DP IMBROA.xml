@@ -29,7 +29,7 @@
                     <brocom:broId>SAD123456789012</brocom:broId>     
                     <brocom:deliveryAccountableParty>27376655</brocom:deliveryAccountableParty>
                     <!-- Optional: not present in dispatchDocument SAD_O -->
-                    <brocom:objectIdAccountableParty>mijnUniekeIdVanDezeVergunning</brocom:objectIdAccountableParty>
+                    <brocom:objectIdAccountableParty>mijnUniekeIdVanDezeSADUpload</brocom:objectIdAccountableParty>
                     <!-- Optional: not present in dispatchDocument SAD_O -->
                     <brocom:deliveryResponsibleParty>27376655</brocom:deliveryResponsibleParty>
                     <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
@@ -158,8 +158,8 @@
                             <sadcom:finalDepth uom="m">2</sadcom:finalDepth>
                             <sadcom:identification>d8401c1a-ec0c-446f-8e45-22d9514f8400</sadcom:identification>
                             <!-- Boring met Peilbuis-->
-                            <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>
                             <sadcom:name>PB01</sadcom:name>
+                            <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>
                             <sadcom:soilSampling>
                                 <sadcom:SoilSampling gml:id="_0571c066-806a-459e-a8a1-b099cb6814d0">
                                     <sadcom:beginDepth uom="m">0.0</sadcom:beginDepth>
