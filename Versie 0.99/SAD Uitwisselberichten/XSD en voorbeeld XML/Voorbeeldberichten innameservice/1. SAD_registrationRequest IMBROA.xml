@@ -54,7 +54,7 @@
                             <imsikb0101:name>SIKB Voorbeeld project Protocol 2001 en 2002</imsikb0101:name>
                             <imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:5</imsikb0101:phase>
                             <imsikb0101:projectCode>SIKB_PROT_2001_2002</imsikb0101:projectCode>
-                            <imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:1</imsikb0101:projectType>
+                            <imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:3</imsikb0101:projectType>
                             <imsikb0101:remarks>Opmerking bij het project</imsikb0101:remarks>
                             <imsikb0101:reportDate>2018-12-07</imsikb0101:reportDate>
                             <imsikb0101:reportNumber>123123</imsikb0101:reportNumber>
@@ -526,7 +526,7 @@
                                 </immetingen:Height>
                             </imsikb0101:heightTopFiltertube>
                             <imsikb0101:filtertubeDiameter uom="urn:immetingen:Eenheid:id:19">82</imsikb0101:filtertubeDiameter>
-                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">0</imsikb0101:filtertubeLength>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
                             <imsikb0101:filtertubeMaterial>PVC</imsikb0101:filtertubeMaterial>
                         </imsikb0101:Filter>
                     </imsikb0101:featureMember>
