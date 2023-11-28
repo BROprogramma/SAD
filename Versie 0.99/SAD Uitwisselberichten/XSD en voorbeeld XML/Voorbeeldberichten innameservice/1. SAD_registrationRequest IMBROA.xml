@@ -526,7 +526,7 @@
                                 </immetingen:Height>
                             </imsikb0101:heightTopFiltertube>
                             <imsikb0101:filtertubeDiameter uom="urn:immetingen:Eenheid:id:19">82</imsikb0101:filtertubeDiameter>
-                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">0</imsikb0101:filtertubeLength>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
                             <imsikb0101:filtertubeMaterial>PVC</imsikb0101:filtertubeMaterial>
                         </imsikb0101:Filter>
                     </imsikb0101:featureMember>

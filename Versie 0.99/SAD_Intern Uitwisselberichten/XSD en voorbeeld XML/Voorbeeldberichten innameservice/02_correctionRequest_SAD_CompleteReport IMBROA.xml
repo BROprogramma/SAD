@@ -263,13 +263,13 @@
                     <sadcom:filter>
                         <sadcom:Filter gml:id="_9d0e6631-0268-4929-8303-c9e24f6145e5">
                             <sadcom:deliveredVerticalPosition>
-                                <!-- optioneel indien bopb tov maaiveld is aangeleverd en niet tov NAP-->
-                                <sadcom:groundLevelPosition uom="m">0.02</sadcom:groundLevelPosition>
+                                <!-- optioneel bovenkant peilbuis tov maaiveld> -->
+                                <sadcom:groundLevelPosition uom="m">0.20</sadcom:groundLevelPosition>
                                 <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcom:localVerticalReferencePoint>
-                                <!-- bovenkantPeilbuis hoogte -->                                
-                                <sadcom:offset uom="m">0.22</sadcom:offset>                                
-                                <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcom:verticalDatum>                                
-                            </sadcom:deliveredVerticalPosition>                                                    
+                                <!-- maaiveld hoogte tov nap -->                                
+                                <sadcom:offset uom="m">0.02</sadcom:offset>                                
+                                <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">maaiveld</sadcom:verticalDatum>                                                               
+                            </sadcom:deliveredVerticalPosition>                                                        
                             <sadcom:identification>9d0e6631-0268-4929-8303-c9e24f6145e5</sadcom:identification>
                             <sadcom:lowerBoundary uom="m">1.80</sadcom:lowerBoundary>
                             <sadcom:name>Filter1</sadcom:name>                            
