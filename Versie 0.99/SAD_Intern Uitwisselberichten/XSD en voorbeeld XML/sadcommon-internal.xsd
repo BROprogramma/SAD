@@ -1417,7 +1417,7 @@ Explanation: Betreft het internetadres waar het onderzoeksrapport te vinden is. 
 	</xs:complexType>
 	<xs:complexType name="GroundLevelType">
 		<xs:sequence>
-			<xs:element name="groundlevelPosition" minOccurs="0" maxOccurs="1">
+			<xs:element name="groundLevelPosition" minOccurs="0" maxOccurs="1">
 				<xs:annotation>
 					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De positie van het maaiveld ten opzichte van het lokaal verticaal referentiepunt van de peilbuis.
 Explanation: Dit is de positie van het maaiveld t.o.v. de bovenkant van de peilbuis. De waarde kan positief of negatief zijn. Als de waarde positief is, bevindt de bovenkant van de peilbuis zich boven het maaiveld. Is de waarde negatief, dan bevindt de bovenkant van de peilbuis zich onder het maaiveld. De positie van het maaiveld is van belang om de metingen in de peilbuis in de juiste ruimtelijke context te kunnen plaatsen.</xs:documentation>

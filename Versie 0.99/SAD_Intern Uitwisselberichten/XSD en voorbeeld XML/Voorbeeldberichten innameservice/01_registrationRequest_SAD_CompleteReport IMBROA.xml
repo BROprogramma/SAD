@@ -261,7 +261,7 @@
                         <sadcom:Filter gml:id="_9d0e6631-0268-4929-8303-c9e24f6145e5">
                             <sadcom:deliveredVerticalPosition>
                                 <!-- optioneel indien bopb tov maaiveld is aangeleverd en niet tov NAP-->
-                                <sadcom:groundlevelPosition uom="m">0.02</sadcom:groundlevelPosition>
+                                <sadcom:groundLevelPosition uom="m">0.02</sadcom:groundLevelPosition>
                                 <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcom:localVerticalReferencePoint>
                                 <!-- bovenkantPeilbuis hoogte -->                                
                                 <sadcom:offset uom="m">0.22</sadcom:offset>                                
