@@ -28,28 +28,15 @@
               schemaLocation="./gml-profile.xsd"/>
 	<xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0"
               schemaLocation="./brocommon.xsd"/>
-	<xs:element name="SAD_CompleteReport"
-               type="issad:SAD_CompleteReportType"
-               substitutionGroup="gml:AbstractFeature"/>			  
 	<xs:element name="intakeResponse" type="brocom:IntakeResponseType" />
 	<xs:element name="parseFault" type="brocom:ParseFaultType" />
+	<xs:element name="SAD_CompleteReport"
+               type="issad:SAD_CompleteReportType"
+               substitutionGroup="gml:AbstractFeature"/>
 	<xs:complexType name="SAD_CompleteReportType">
 		<xs:complexContent>
 			<xs:extension base="gml:AbstractFeatureType">
 				<xs:sequence>
-					<xs:element name="asbestos"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcom:AsbestosPresenceType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>AsbestosPresence</CodeListName>
-								<CodeListURI>urn:bro:sad:AsbestosPresence</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding of binnen het onderzoek de aanwezigheid van asbest is onderzocht.
-Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
-						</xs:annotation>
-					</xs:element>
 					<xs:element name="deliveryContext"
                            minOccurs="1"
                            maxOccurs="1"
@@ -63,13 +50,10 @@ Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van a
 Explanation: De wetgever heeft bepaald dat het gegeven moet zijn vastgelegd om inzicht te geven in de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke betekenis van de informatie.</xs:documentation>
 						</xs:annotation>
 					</xs:element>
-					<xs:element name="geometry"
-                           type="gml:MultiSurfacePropertyType"
-                           minOccurs="1"
-                           maxOccurs="1">
+					<xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1">
 						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begrenzing van het onderzoeksgebied op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.
-Explanation: De aangeleverde begrenzing is vastgelegd als een mulitvlak (multi surface).</xs:documentation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen.
+Explanation: Het gegeven is alleen aanwezig wanneer het bodemonderzoek (inclusief eventuele monitoring) is gerapporteerd en het onderzoek is afgesloten. Hier wordt overigens niet de datum van het onderzoeksrapport bedoeld. De datum van het onderzoeksrapport wordt vastgelegd bij de gegevensgroep Rapport als rapportdatum. Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal onbekend en niet relevant.</xs:documentation>
 						</xs:annotation>
 					</xs:element>
 					<xs:element name="identification" minOccurs="1" maxOccurs="1">
@@ -82,29 +66,6 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
 								<xs:maxLength value="50"/>
 							</xs:restriction>
 						</xs:simpleType>
-					</xs:element>
-					<xs:element name="investigationConclusion" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De conclusie van het bodemonderzoek volgens de uitvoerder van het onderzoek.
-Explanation: In de conclusie staat veelal of er verontreiniging is aangetroffen, wat de eventuele aard en omvang is en/of welke vervolgacties nodig zijn. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd. Dit veld is de conclusie van de rapportauteur en niet de conclusie van de bronhouder (veelal bevoegd gezag).</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="4000"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="investigationReason"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="sadcom:InvestigationReasonType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>InvestigationReason</CodeListName>
-								<CodeListURI>urn:bro:sad:InvestigationReason</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanleiding voor het uitvoeren van het onderzoek.</xs:documentation>
-						</xs:annotation>
 					</xs:element>
 					<xs:element name="name" minOccurs="1" maxOccurs="1">
 						<xs:annotation>
@@ -139,21 +100,50 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
 Explanation: Het type onderzoek geeft informatie over het soort onderzoek dat is uitgevoerd, maar ook over de wijze waarop gerapporteerd is. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
 						</xs:annotation>
 					</xs:element>
-					<xs:element minOccurs="0"
+					<xs:element name="asbestos"
+                           minOccurs="0"
                            maxOccurs="1"
-                           name="report"
-                           nillable="false"
-                           type="sadcom:ReportType">
+                           type="sadcom:AsbestosPresenceType">
 						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Eigenschappen van het rapport waarin de resultaten van het bodemonderzoek zijn opgenomen.
-Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd.</xs:documentation>
+							<xs:appinfo>
+								<CodeListName>AsbestosPresence</CodeListName>
+								<CodeListURI>urn:bro:sad:AsbestosPresence</CodeListURI>
+							</xs:appinfo>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding of binnen het onderzoek de aanwezigheid van asbest is onderzocht.
+Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
 						</xs:annotation>
 					</xs:element>
-					<xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1">
+					<xs:element name="investigationReason"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sadcom:InvestigationReasonType">
 						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen.
-Explanation: Het gegeven is alleen aanwezig wanneer het bodemonderzoek (inclusief eventuele monitoring) is gerapporteerd en het onderzoek is afgesloten. Hier wordt overigens niet de datum van het onderzoeksrapport bedoeld. De datum van het onderzoeksrapport wordt vastgelegd bij de gegevensgroep Rapport als rapportdatum. Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal onbekend en niet relevant.</xs:documentation>
+							<xs:appinfo>
+								<CodeListName>InvestigationReason</CodeListName>
+								<CodeListURI>urn:bro:sad:InvestigationReason</CodeListURI>
+							</xs:appinfo>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanleiding voor het uitvoeren van het onderzoek.</xs:documentation>
 						</xs:annotation>
+					</xs:element>
+					<xs:element name="geometry"
+                           type="gml:MultiSurfacePropertyType"
+                           minOccurs="1"
+                           maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begrenzing van het onderzoeksgebied op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.
+Explanation: De aangeleverde begrenzing is vastgelegd als een mulitvlak (multi surface).</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="investigationConclusion" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De conclusie van het bodemonderzoek volgens de uitvoerder van het onderzoek.
+Explanation: In de conclusie staat veelal of er verontreiniging is aangetroffen, wat de eventuele aard en omvang is en/of welke vervolgacties nodig zijn. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd. Dit veld is de conclusie van de rapportauteur en niet de conclusie van de bronhouder (veelal bevoegd gezag).</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="4000"/>
+							</xs:restriction>
+						</xs:simpleType>
 					</xs:element>
 					<xs:element name="researchOperator"
                            minOccurs="0"
@@ -165,12 +155,13 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
 						</xs:annotation>
 					</xs:element>
 					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
-                           name="mixedSampleAnalysis"
+                           maxOccurs="1"
+                           name="report"
                            nillable="false"
-                           type="sadcom:MixedSampleAnalysisPropertyType">
+                           type="sadcom:ReportType">
 						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mengmonsters die zijn samengesteld als onderdeel van het bodemonderzoek.</xs:documentation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Eigenschappen van het rapport waarin de resultaten van het bodemonderzoek zijn opgenomen.
+Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd.</xs:documentation>
 						</xs:annotation>
 					</xs:element>
 					<xs:element minOccurs="0"
@@ -180,6 +171,15 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
                            type="sadcom:MeasurementPointPropertyType">
 						<xs:annotation>
 							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De boring die is uitgevoerd als onderdeel van het bodemonderzoek.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="mixedSampleAnalysis"
+                           nillable="false"
+                           type="sadcom:MixedSampleAnalysisPropertyType">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mengmonsters die zijn samengesteld als onderdeel van het bodemonderzoek.</xs:documentation>
 						</xs:annotation>
 					</xs:element>
 				</xs:sequence>
@@ -248,7 +248,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
 				</xs:sequence>
 			</xs:extension>
 		</xs:complexContent>
-	</xs:complexType>
+	</xs:complexType>	
 	<xs:complexType name="CorrectionReasonType">
 		<xs:simpleContent>
 			<xs:restriction base="gml:CodeWithAuthorityType">
