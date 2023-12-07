@@ -925,7 +925,7 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
 					</xs:element>
 					<xs:element minOccurs="0"
                            maxOccurs="1"
-                           name="groundwatersampleAnalysis"
+                           name="groundwaterSampleAnalysis"
                            nillable="false"
                            type="sadcominternal:GroundwaterSampleAnalysisPropertyType"/>
 					<xs:element minOccurs="0"

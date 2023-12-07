@@ -178,7 +178,7 @@
                                     <sadcom:identification>ba54949b-99a5-4aca-bb8a-5fe9df74efe3</sadcom:identification>
                                     <sadcom:name>PB01-Filter1-1</sadcom:name>
                                     <sadcom:date>2018-04-09</sadcom:date> 
-                                    <sadcom:groundwatersampleAnalysis>
+                                    <sadcom:groundwaterSampleAnalysis>
                                         <sadcom:GroundwaterSampleAnalysis gml:id="_b1adf8f7-e0cd-4810-a93e-60284f34b3fa">
                                             <sadcom:identification>b1adf8f7-e0cd-4810-a93e-60284f34b3fa</sadcom:identification>
                                             <sadcom:name>WA1</sadcom:name>
@@ -199,7 +199,7 @@
                                                 </sadcom:Analysis>
                                             </sadcom:analysis>
                                         </sadcom:GroundwaterSampleAnalysis>
-                                    </sadcom:groundwatersampleAnalysis>  
+                                    </sadcom:groundwaterSampleAnalysis>  
                                      <sadcom:fieldObservation>
                                         <sadcom:FieldObservation gml:id="_e4c34020-6b93-4705-801e-893bdb766114">                                            
                                             <sadcom:filterAerated>ja</sadcom:filterAerated>                                            

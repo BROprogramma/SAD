@@ -196,20 +196,20 @@ Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van a
 					</xs:element>
 					<xs:element minOccurs="0"
                            maxOccurs="unbounded"
-                           name="mixedSampleAnalysis"
-                           nillable="false"
-                           type="sadcom:MixedSampleAnalysisPropertyType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mengmonsters die zijn samengesteld als onderdeel van het bodemonderzoek.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
                            name="measurementPoint"
                            nillable="false"
                            type="sadcom:MeasurementPointPropertyType">
 						<xs:annotation>
 							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De boring die is uitgevoerd als onderdeel van het bodemonderzoek.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="mixedSampleAnalysis"
+                           nillable="false"
+                           type="sadcom:MixedSampleAnalysisPropertyType">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mengmonsters die zijn samengesteld als onderdeel van het bodemonderzoek.</xs:documentation>
 						</xs:annotation>
 					</xs:element>
 				</xs:sequence>
