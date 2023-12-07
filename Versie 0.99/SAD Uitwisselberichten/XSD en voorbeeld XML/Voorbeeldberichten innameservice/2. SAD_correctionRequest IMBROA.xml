@@ -3,20 +3,19 @@
     <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.99 van de SAD en valideert tegen de XSD van de innameservice.
         Het is niet gevalideerd door de innameservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
 -->
-    
-    <sadcom:broId>SAD00000001</sadcom:broId>    
+    <sadcom:requestReference>Verzoek1</sadcom:requestReference>
     <!--KVK nummer van de aanleverende partij-->
-    <sadcom:deliveryAccountableParty>1234567</sadcom:deliveryAccountableParty>
+    <sadcom:deliveryAccountableParty>1234567</sadcom:deliveryAccountableParty>    
+    <sadcom:broId>SAD00000001</sadcom:broId>    
     <!-- Kwaliteitsregime, voor nu alleen nog IMRBO/A-->
     <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>
-    <sadcom:requestReference>Verzoek1</sadcom:requestReference>
     <sadcom:underPrivilege>nee</sadcom:underPrivilege>
     <correctionReason codeSpace="urn:bro:sad:CorrectionReason">eigenCorrectie</correctionReason>        
     <sourceDocument>        
         <SAD_CompleteReport>                      
+            <reportDate>2018-12-08</reportDate>                 
             <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>            
-            <objectIdAccountableParty>MijnSADreferentie</objectIdAccountableParty>                        
-            <reportDate>2018-12-08</reportDate>                        
+            <objectIdAccountableParty>MijnSADreferentie</objectIdAccountableParty>                                                       
             <featureCollection>
                 <!-- Hier tussen kan de volledige SIKB XML geplakt worden-->
                 <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_9e0c2e47-5019-4846-bf80-050c79a09ff2" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v14.8.0.xsd">

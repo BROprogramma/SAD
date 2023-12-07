@@ -4,9 +4,9 @@
             Het is niet gevalideerd door de uitgifteservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
             xsi:schemaLocation="http://www.broservices.nl/xsd/dssad/1.0 https://schema.broservices.nl/xsd/dssad/1.0/dssad-messages.xsd"/>
         -->
-    <sadcom:dispatchTime>2023-02-09T10:54:01+01:00</sadcom:dispatchTime>
-    <sadcom:requestReference>uitgifte_1</sadcom:requestReference>
     <sadcom:responseType>dispatch</sadcom:responseType>
+    <sadcom:requestReference>uitgifte_1</sadcom:requestReference>
+    <sadcom:dispatchTime>2023-02-09T10:54:01+01:00</sadcom:dispatchTime>
     <dispatchDocument>
         <SAD_O_DP>
             <!--BRO-ID van het opgevraagde document -->
@@ -14,19 +14,10 @@
             <!--Kvk nummber van de bronhouder van het opgevraagde document, maar wodt niet uitgegeven -->
             <sadcom:deliveryAccountableParty/>
             <sadcom:objectIdAccountableParty>PROJECTCODESIKB</sadcom:objectIdAccountableParty>
-            <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>
-            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>     
-            <registrationHistory>
-                <sadcom:corrected>nee</sadcom:corrected>                
-                <sadcom:deregistered>nee</sadcom:deregistered>
-                <sadcom:objectRegistrationTime>2023-02-09T00:00:00+01:00</sadcom:objectRegistrationTime>
-                <sadcom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</sadcom:registrationStatus>
-                <sadcom:reregistered>nee</sadcom:reregistered>
-                <sadcom:underReview>nee</sadcom:underReview>
-            </registrationHistory>       
+            <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>            
             <reportDate>2023-01-14</reportDate>
-            <standardizedLocation>
-                <sadcom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2008</sadcom:coordinateTransformation>
+            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>     
+            <standardizedLocation>                
                 <sadcom:location>
                     <sadcom:StandardizedGeometry>
                         <gml:MultiSurface gml:id="a8d0a8ef-fc04-4071-b009-27a611adad0f" srsName="urn:ogc:def:crs:EPSG::4258">
@@ -49,8 +40,17 @@
                             </gml:surfaceMember>
                         </gml:MultiSurface>
                     </sadcom:StandardizedGeometry>                     
-                </sadcom:location>              
+                </sadcom:location>     
+                <sadcom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2008</sadcom:coordinateTransformation>         
             </standardizedLocation>            
+            <registrationHistory>
+                <sadcom:objectRegistrationTime>2023-02-09T00:00:00+01:00</sadcom:objectRegistrationTime>
+                <sadcom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</sadcom:registrationStatus>
+                <sadcom:corrected>nee</sadcom:corrected>  
+                <sadcom:underReview>nee</sadcom:underReview>              
+                <sadcom:deregistered>nee</sadcom:deregistered>
+                <sadcom:reregistered>nee</sadcom:reregistered>
+            </registrationHistory>       
             <featureCollection>
                 <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_9e0c2e47-5019-4846-bf80-050c79a09ff2" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v14.8.0.xsd">
                     <imsikb0101:metaData>

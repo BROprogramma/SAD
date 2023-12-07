@@ -4,6 +4,14 @@
             Het is niet gevalideerd door de uitgifteservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
             xsi:schemaLocation="http://www.broservices.nl/xsd/dssad/1.0 https://schema.broservices.nl/xsd/dssad/1.0/dssad-messages.xsd"/>
         -->                    
+    <sadcom:responseType>rejection</sadcom:responseType>       
+    <sadcom:requestReference>SAD uitgifte_1</sadcom:requestReference>         
+    <!-- optional. Alleen aanwezig als responseType = rejection. -->
+    <sadcom:rejectionTime>2023-08-15T13:16:17+02:00</sadcom:rejectionTime>
+    <!-- optional. Alleen aanwezig als responseType = dispatch. 
+    <sadcom:dispatchTime>2023-02-09T10:54:01+01:00</sadcom:dispatchTime> -->    
+    <!-- optional. Alleen aanwezig als responseType = rejection. -->
+    <sadcom:rejectionReason>Dit registratieobject bestaat niet.</sadcom:rejectionReason> 
     <!-- 0 or more repetitions: Optioneel alleen aanwezig als responseType = rejection.-->
     <sadcom:criterionError>
       <sadcom:sequenceNumber>1</sadcom:sequenceNumber>
@@ -12,15 +20,7 @@
     <sadcom:criterionError>
         <sadcom:sequenceNumber>2</sadcom:sequenceNumber>
         <sadcom:specification>Vestibulum eget ultrices metus, eu interdum urna.</sadcom:specification>
-    </sadcom:criterionError>                
-    <!-- optional. Alleen aanwezig als responseType = dispatch. 
-    <sadcom:dispatchTime>2023-02-09T10:54:01+01:00</sadcom:dispatchTime> -->    
-    <!-- optional. Alleen aanwezig als responseType = rejection. -->
-    <sadcom:rejectionReason>Dit registratieobject bestaat niet.</sadcom:rejectionReason>        
-    <!-- optional. Alleen aanwezig als responseType = rejection. -->
-    <sadcom:rejectionTime>2023-08-15T13:16:17+02:00</sadcom:rejectionTime>
-    <sadcom:requestReference>SAD uitgifte_1</sadcom:requestReference>
-    <sadcom:responseType>rejection</sadcom:responseType>                    
+    </sadcom:criterionError>     
     <!-- optional. Alleen aanwezig als responseType = dispatch.                 
     <dispatchDocument>
          Expect one of the following options
