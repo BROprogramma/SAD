@@ -34,7 +34,8 @@
             <sadcom:objectRegistrationTime>2023-01-13T13:15:57+01:00</sadcom:objectRegistrationTime>
             <sadcom:underReview>nee</sadcom:underReview>
             <identification>daa6c99f-4eee-44c6-b78e-6b1826057114</identification>                             
-            <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>
+            <investigationReason codeSpace="urn:bro:sad:InvestigationReason">boot</investigationReason>
+            <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>            
         </SAD_C>
     </dispatchDocument>
 </dispatchDataResponse>

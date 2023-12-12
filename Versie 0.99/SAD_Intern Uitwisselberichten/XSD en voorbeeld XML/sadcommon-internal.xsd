@@ -1283,7 +1283,7 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
 				<xs:annotation>
 					<xs:appinfo>
 						<CodeListName>RegistrationStatus</CodeListName>
-						<CodeListURI>urn:bro:sad:RegistrationStatus</CodeListURI>
+						<CodeListURI>urn:bro:RegistrationStatus</CodeListURI>
 					</xs:appinfo>
 					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De actuele fase van registratie waarin het registratieobject zich bevindt.</xs:documentation>
 				</xs:annotation>
@@ -1853,7 +1853,7 @@ Explanation: In de NEN 5104 classificatie wordt het gehalte aan organische stof 
 				<xs:attribute name="codeSpace"
                           type="xs:anyURI"
                           use="required"
-                          fixed="urn:bro:sad:RegistrationStatus"/>
+                          fixed="urn:bro:RegistrationStatus"/>
 			</xs:restriction>
 		</xs:simpleContent>
 	</xs:complexType>

@@ -2300,8 +2300,20 @@
                                     <immetingen:lokaalID>b1adf8f7-e0cd-4810-a93e-60580f34b3fa</immetingen:lokaalID>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
-                            <immetingen:name>MM1</immetingen:name>
+                            <immetingen:name>MM01</immetingen:name>
                             <immetingen:startTime>2018-03-09T11:00:00+01:00</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">30</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>    
                             <imsikb0101:inProject xlink:href="#_9e0c2e47-5019-4846-bf80-050c79a09ff2"/>
                         </imsikb0101:Sample>
                     </imsikb0101:featureMember>

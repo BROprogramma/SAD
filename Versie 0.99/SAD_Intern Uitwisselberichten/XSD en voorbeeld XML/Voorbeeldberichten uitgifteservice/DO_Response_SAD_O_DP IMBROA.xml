@@ -73,7 +73,7 @@
                     </researchOperator> 
                     <registrationHistory>
                         <sadcom:objectRegistrationTime>2023-11-07T19:12:00+01:00</sadcom:objectRegistrationTime>
-                        <sadcom:registrationStatus codeSpace="urn:bro:sad:RegistrationStatus">geregistreerd</sadcom:registrationStatus>
+                        <sadcom:registrationStatus codeSpace="urn:bro:RegistrationStatus">geregistreerd</sadcom:registrationStatus>
                         <sadcom:corrected>nee</sadcom:corrected>
                         <sadcom:underReview>nee</sadcom:underReview>
                         <sadcom:deregistered>nee</sadcom:deregistered>
