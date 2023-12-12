@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <WaardebewerkingsMethode>
+        <SIKB0101ID>15</SIKB0101ID>
+        <IMBRO>v</IMBRO>/>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>5-Percentiel</Omschrijving>
+    </WaardebewerkingsMethode>
+    <WaardebewerkingsMethode>
         <SIKB0101ID>16</SIKB0101ID>
         <IMBRO>v</IMBRO>/>
         <IMBROA>v</IMBROA>
@@ -11,5 +17,11 @@
         <IMBRO>v</IMBRO>/>
         <IMBROA>v</IMBROA>
         <Omschrijving>90-Percentiel</Omschrijving>
+    </WaardebewerkingsMethode>
+    <WaardebewerkingsMethode>
+        <SIKB0101ID>34</SIKB0101ID>
+        <IMBRO>v</IMBRO>/>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>95-Percentiel</Omschrijving>
     </WaardebewerkingsMethode>
 </domeintabel>
