@@ -1,164 +1,164 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Eenheid>
-        <Waarde>procent</Waarde>
+        <Waarde>%</Waarde>
         <SIKB0101ID>1</SIKB0101ID>
+        <Omschrijving>procent</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>%</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>graadCelsius</Waarde>
+        <Waarde>Cel</Waarde>
         <SIKB0101ID>8</SIKB0101ID>
+        <Omschrijving>graadCelsius</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>oC</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>microgramPerLiter</Waarde>
+        <Waarde>ug/l</Waarde>
         <SIKB0101ID>14</SIKB0101ID>
+        <Omschrijving>microgramPerLiter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>ug/l</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>microsiemensPerCentimeter</Waarde>
+        <Waarde>uS/cm</Waarde>
         <SIKB0101ID>18</SIKB0101ID>
+        <Omschrijving>microsiemensPerCentimeter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>uS/cm</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>gram</Waarde>
+        <Waarde>g</Waarde>
         <SIKB0101ID>27</SIKB0101ID>
+        <Omschrijving>gram</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>g</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>gramPerKilogram</Waarde>
+        <Waarde>g/kg</Waarde>
         <SIKB0101ID>30</SIKB0101ID>
+        <Omschrijving>gramPerKilogram</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>g/kg</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>gramPerLiter</Waarde>
+        <Waarde>g/l</Waarde>
         <SIKB0101ID>33</SIKB0101ID>
+        <Omschrijving>gramPerLiter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>g/l</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>liter</Waarde>
+        <Waarde>l</Waarde>
         <SIKB0101ID>44</SIKB0101ID>
+        <Omschrijving>liter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>l</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>milligramPerKilogram</Waarde>
+        <Waarde>mg/kg</Waarde>
         <SIKB0101ID>58</SIKB0101ID>
+        <Omschrijving>milligramPerKilogram</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>mg/kg</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>milligramPerLiter</Waarde>
+        <Waarde>mg/l</Waarde>
         <SIKB0101ID>60</SIKB0101ID>
+        <Omschrijving>milligramPerLiter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>mg/l</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>millisiemensPerMeter</Waarde>
+        <Waarde>mS/m</Waarde>
         <SIKB0101ID>74</SIKB0101ID>
+        <Omschrijving>millisiemensPerMeter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>mS/m</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>millivolt</Waarde>
+        <Waarde>mV</Waarde>
         <SIKB0101ID>75</SIKB0101ID>
+        <Omschrijving>millivolt</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>mV</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>nanogramPerKilogram</Waarde>
+        <Waarde>ng/kg</Waarde>
         <SIKB0101ID>77</SIKB0101ID>
+        <Omschrijving>nanogramPerKilogram</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>ng/kg</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>nanogramPerLiter</Waarde>
+        <Waarde>ng/l</Waarde>
         <SIKB0101ID>79</SIKB0101ID>
+        <Omschrijving>nanogramPerLiter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>ng/l</AquoCode>
     </Eenheid>
     <Eenheid>
         <Waarde>dimensieloos</Waarde>
         <SIKB0101ID>119</SIKB0101ID>
+        <Omschrijving>dimensieloos</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>DIMSLS</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>microgramPerKilogram</Waarde>
+        <Waarde>ug/kg</Waarde>
         <SIKB0101ID>131</SIKB0101ID>
+        <Omschrijving>microgramPerKilogram</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>ug/kg</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>partsPerMillion</Waarde>
+        <Waarde>ppm</Waarde>
         <SIKB0101ID>132</SIKB0101ID>
+        <Omschrijving>partsPerMillion</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>ppm</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>millisiemensPerCentimeter</Waarde>
+        <Waarde>mS/cm</Waarde>
         <SIKB0101ID>243</SIKB0101ID>
+        <Omschrijving>millisiemensPerCentimeter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>mS/cm</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>NephelometricTurbidityUnit</Waarde>
+        <Waarde>NTU</Waarde>
         <SIKB0101ID>258</SIKB0101ID>
+        <Omschrijving>NephelometricTurbidityUnit</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>NTU</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>picogramPerLiter</Waarde>
+        <Waarde>pg/l</Waarde>
         <SIKB0101ID>295</SIKB0101ID>
+        <Omschrijving>picogramPerLiter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>pg/l</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>kilogram</Waarde>
+        <Waarde>kg</Waarde>
         <SIKB0101ID>37</SIKB0101ID>
+        <Omschrijving>kilogram</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>kg</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>meter</Waarde>
+        <Waarde>m</Waarde>
         <SIKB0101ID>115</SIKB0101ID>
+        <Omschrijving>meter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>m</AquoCode>
     </Eenheid>
     <Eenheid>
-        <Waarde>centimeter</Waarde>
+        <Waarde>cm</Waarde>
         <SIKB0101ID>19</SIKB0101ID>
+        <Omschrijving>centimeter</Omschrijving>
         <IMBRO/>
         <IMBROA>v</IMBROA>
-        <AquoCode>cm</AquoCode>
-    </Eenheid>   	    
+    </Eenheid>
 </domeintabel>
