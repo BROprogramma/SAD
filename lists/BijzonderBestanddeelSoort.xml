@@ -519,7 +519,7 @@
         <Omschrijving>onbekend</Omschrijving>
     </BijzonderBestanddeelSoort>
     <BijzonderBestanddeelSoort>
-        <Waarde>penetratie-achtig</Waarde>
+        <Waarde>penetratie_achtig</Waarde>
         <SIKB0101ID>131</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
@@ -603,14 +603,14 @@
         <Omschrijving>vast gesteente</Omschrijving>
     </BijzonderBestanddeelSoort>
     <BijzonderBestanddeelSoort>
-        <Waarde>verbrand bot</Waarde>
+        <Waarde>verbrandBot</Waarde>
         <SIKB0101ID>161</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
         <Omschrijving>verbrand bot</Omschrijving>
     </BijzonderBestanddeelSoort>
     <BijzonderBestanddeelSoort>
-        <Waarde>verbrande klei</Waarde>
+        <Waarde>verbrandeKlei</Waarde>
         <SIKB0101ID>162</SIKB0101ID>
         <IMBRO/>
         <IMBROA>v</IMBROA>
