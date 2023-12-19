@@ -3,7 +3,7 @@
     <AanleidingOnderzoek>
         <Waarde>bestemmingswijzigingVinexLocatieontwikkeling</Waarde>
         <SIKB0101ID>1</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>De bestemming van de locatie gaat wijzigen en / of de locatie wordt ontwikkeld. Hierdoor moet de milieuhygiënische kwaliteit van de bodem onderzocht worden om te kijken of de kwaliteit van de grond bij het toekomstige gebruik past. </Omschrijving>
     </AanleidingOnderzoek>
@@ -17,21 +17,21 @@
     <AanleidingOnderzoek>
         <Waarde>bouwvergunning</Waarde>
         <SIKB0101ID>3</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>De milieuhygiënische kwaliteit is onderzocht in verband met de aanvraag van een bouwvergunning.</Omschrijving>
     </AanleidingOnderzoek>
     <AanleidingOnderzoek>
         <Waarde>civieltechnisch</Waarde>
         <SIKB0101ID>4</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>In verband met geplande civieltechnische werkzaamheden moet de milieuhygiënische kwaliteit van de bodem onderzocht worden.</Omschrijving>
     </AanleidingOnderzoek>
     <AanleidingOnderzoek>
         <Waarde>calamiteit</Waarde>
         <SIKB0101ID>5</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Een calamiteit heeft de milieuhygiënische situatie (mogelijk) veranderd, waardoor er onderzoek nodig is.</Omschrijving>
     </AanleidingOnderzoek>
@@ -45,28 +45,28 @@
     <AanleidingOnderzoek>
         <Waarde>nulsituatie</Waarde>
         <SIKB0101ID>7</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>In verband met het starten van een nieuwe activiteit moet de nulsituatie van de bodem bepaald worden, zodat bij beindiging van de activiteit getoetst kan worden of de activiteit de milieuhygiënische situatie heeft verslechterd. </Omschrijving>
     </AanleidingOnderzoek>
     <AanleidingOnderzoek>
         <Waarde>transactie</Waarde>
         <SIKB0101ID>8</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>In verband met een onroerende zaaktransactie (verwerven, ingebruikgeven (erfpacht/huur) of vervreemden) wordt de milieuhygiënische kwaliteit van de bodem in kaart gebracht. </Omschrijving>
     </AanleidingOnderzoek>
     <AanleidingOnderzoek>
         <Waarde>vermoedenVerontreiniging</Waarde>
         <SIKB0101ID>9</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Door een gemelde bodem verontreiniging of een sterk vermoeden van een bodemverontreiniging moet de milieuhygiënische kwaliteit van de bodem onderzocht worden. </Omschrijving>
     </AanleidingOnderzoek>
     <AanleidingOnderzoek>
         <Waarde>voorgaand</Waarde>
         <SIKB0101ID>10</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>De uitkomsten van voorgaande onderzoeken hebben aanleiding gegeven tot dit vervolgonderzoek. </Omschrijving>
     </AanleidingOnderzoek>
@@ -87,14 +87,14 @@
     <AanleidingOnderzoek>
         <Waarde>omgevingsvergunning</Waarde>
         <SIKB0101ID>13</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>In verband met het verstrekken van een omgevingsvergunning moet de milieuhygiënische kwaliteit van de bodem onderzocht worden. </Omschrijving>
     </AanleidingOnderzoek>
     <AanleidingOnderzoek>
         <Waarde>eindsituatie</Waarde>
         <SIKB0101ID>14</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>In verband met het beëindigen van een activiteit moet de milieuhygiënische kwaliteit van de bodem onderzocht worden om te controleren of de activiteit de kwaliteit van de bodem heeft aangetast. </Omschrijving>
     </AanleidingOnderzoek>
