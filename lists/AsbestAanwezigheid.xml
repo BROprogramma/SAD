@@ -3,28 +3,28 @@
     <AsbestAanwezigheid>
         <Waarde>aanwezig</Waarde>
         <SIKB0101ID>1</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Onderzoek uitgevoerd conform NEN 5707/NEN 5897. Asbest aangetoond boven het detectielimiet.</Omschrijving>
     </AsbestAanwezigheid>
     <AsbestAanwezigheid>
         <Waarde>afwezig</Waarde>
         <SIKB0101ID>2</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Onderzoek uitgevoerd conform NEN 5707/NEN 5897. Geen asbest aangetoond boven het detectielimiet.</Omschrijving>
     </AsbestAanwezigheid>
     <AsbestAanwezigheid>
         <Waarde>onbekend</Waarde>
         <SIKB0101ID>3</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Vooronderzoek uitgevoerd conform NEN5725. Onvoldoende informatie beschikbaar om vast te stellen of asbest in of op de bodem aanwezig is. Vervolgonderzoek conform NEN 5707/NEN 5897 noodzakelijk.</Omschrijving>
     </AsbestAanwezigheid>
     <AsbestAanwezigheid>
         <Waarde>nietOnderzocht</Waarde>
         <SIKB0101ID>4</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Geen onderzoek uitgevoerd naar het mogelijk voorkomen van asbest in of op de bodem.</Omschrijving>
     </AsbestAanwezigheid>
