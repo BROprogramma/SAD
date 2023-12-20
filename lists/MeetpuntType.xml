@@ -3,42 +3,42 @@
     <MeetpuntType>
         <Waarde>grondboring</Waarde>
         <SIKB0101ID>1</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>grondboring</Omschrijving>
     </MeetpuntType>
     <MeetpuntType>
         <Waarde>peilbuis</Waarde>
         <SIKB0101ID>6</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>peilbuis</Omschrijving>
     </MeetpuntType>
     <MeetpuntType>
         <Waarde>inspectiegat</Waarde>
         <SIKB0101ID>12</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>inspectiegat</Omschrijving>
     </MeetpuntType>
     <MeetpuntType>
         <Waarde>putbodem</Waarde>
         <SIKB0101ID>16</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>putbodem</Omschrijving>
     </MeetpuntType>
     <MeetpuntType>
         <Waarde>sleuf</Waarde>
         <SIKB0101ID>18</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>sleuf</Omschrijving>
     </MeetpuntType>
     <MeetpuntType>
         <Waarde>putwand</Waarde>
         <SIKB0101ID>21</SIKB0101ID>
-        <IMBRO/>
+        <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>putwand</Omschrijving>
     </MeetpuntType>
