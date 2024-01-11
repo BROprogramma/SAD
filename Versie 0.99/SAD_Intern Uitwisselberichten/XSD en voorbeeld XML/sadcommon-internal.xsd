@@ -12,1879 +12,1490 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-           xmlns:gml="http://www.opengis.net/gml/3.2"
-           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           xmlns:sadcominternal="http://www.broservices.nl/xsd/sadcommon-internal/1.0"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.broservices.nl/xsd/sadcommon-internal/1.0"
-           elementFormDefault="qualified"
-           attributeFormDefault="unqualified"
-           version="1.0.0">
-	<xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0"
-              schemaLocation="./brocommon.xsd"/>
-	<xs:import namespace="http://www.opengis.net/gml/3.2"
-              schemaLocation="./gml-profile.xsd"/>
-	<xs:element name="RegistrationObject"
-               type="sadcominternal:RegistrationObjectType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Name: Milieuhygiënisch bodemonderzoek
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:sadcominternal="http://www.broservices.nl/xsd/sadcommon-internal/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/sadcommon-internal/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="./brocommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml-profile.xsd"/>
+    <xs:element name="RegistrationObject" type="sadcominternal:RegistrationObjectType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Name: Milieuhygiënisch bodemonderzoek
 Definition: Het geheel van gegevens dat betrekking heeft op een bodemonderzoek dat vanuit een bepaalde opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland archiefonderzoek en/of veldonderzoek uit te voeren. Waarbij in het veldonderzoek de volgende handelingen uitgevoerd kunnen worden: één of meer boringen uitvoeren, de onderscheiden bodemlagen beschrijven en de monsters die daarmee uit de ondergrond zijn verkregen in het laboratorium onderzoeken en/of één of meer peilbuizen plaatsen om waarnemingen aan het grondwater uit te voeren en/of grondwatermonsters nemen voor onderzoek in het laboratorium en het onderzoeken ervan.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="RegistrationObjectType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="broId"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="brocom:RegistrationObjectCodeType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van een bodemonderzoek in de registratie ondergrond.
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="RegistrationObjectType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="broId" type="brocom:RegistrationObjectCodeType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van een bodemonderzoek in de registratie ondergrond.
 Explanation: De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan het object toe.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="deliveryAccountableParty"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="brocom:ChamberOfCommerceNumberType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de maatschappelijke activiteit van de publiekrechtelijke rechtspersoon die bronhouder is van de gegevens in de basisregistratie ondergrond.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="deliveryAccountableParty" type="brocom:ChamberOfCommerceNumberType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de maatschappelijke activiteit van de publiekrechtelijke rechtspersoon die bronhouder is van de gegevens in de basisregistratie ondergrond.
 Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven in het geval de dataleverancier niet de bronhouder is.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="objectIdAccountableParty" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="objectIdAccountableParty" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden.
 Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="200"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="deliveryResponsibleParty"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="brocom:ChamberOfCommerceNumberType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="200"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="deliveryResponsibleParty" type="brocom:ChamberOfCommerceNumberType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
 Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="qualityRegime"
-                           type="brocom:QualityRegimeType"
-                           minOccurs="1"
-                           maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="qualityRegime" type="brocom:QualityRegimeType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.
 Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="RegistrationObjectPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:RegistrationObject"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="SoilResearch"
-               type="sadcominternal:SoilResearchType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die het milieuhygiënisch bodemonderzoek identificeren en inzicht geven in de totstandkoming en context van het object voorafgaand aan opname in de registratie ondergrond.
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="RegistrationObjectPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:RegistrationObject"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="SoilResearch" type="sadcominternal:SoilResearchType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die het milieuhygiënisch bodemonderzoek identificeren en inzicht geven in de totstandkoming en context van het object voorafgaand aan opname in de registratie ondergrond.
 Explanation: De gegevens die alle registratieobjecten gemeenschappelijk hebben zijn in het domeinmodel gegroepeerd in de entiteit Registratieobject</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="SoilResearchType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="broId"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="brocom:RegistrationObjectCodeType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van een bodemonderzoek in de registratie ondergrond.
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="SoilResearchType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="broId" type="brocom:RegistrationObjectCodeType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie van een bodemonderzoek in de registratie ondergrond.
 Explanation: De basisregistratie ondergrond kent bij registratie automatisch de juiste waarde aan het object toe.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="deliveryAccountableParty"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="brocom:ChamberOfCommerceNumberType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de maatschappelijke activiteit van de publiekrechtelijke rechtspersoon die bronhouder is van de gegevens in de basisregistratie ondergrond.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="deliveryAccountableParty" type="brocom:ChamberOfCommerceNumberType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de maatschappelijke activiteit van de publiekrechtelijke rechtspersoon die bronhouder is van de gegevens in de basisregistratie ondergrond.
 Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven in het geval de dataleverancier niet de bronhouder is.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="objectIdAccountableParty" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="objectIdAccountableParty" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die door of voor de bronhouder is gebruikt om het object in de eigen administratie te kunnen vinden.
 Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Het is in de registratie opgenomen om de communicatie tussen de registerbeheerder en de bronhouder of dataleverancier te vergemakkelijken.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="200"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="deliveryResponsibleParty"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="brocom:ChamberOfCommerceNumberType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="200"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="deliveryResponsibleParty" type="brocom:ChamberOfCommerceNumberType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
 Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="qualityRegime"
-                           type="brocom:QualityRegimeType"
-                           minOccurs="1"
-                           maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="qualityRegime" type="brocom:QualityRegimeType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding van de kwaliteitseis waaraan de gegevens van het object voldoen.
 Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="deliveryContext"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="sadcominternal:DeliveryContextType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>DeliveryContext</CodeListName>
-								<CodeListURI>urn:bro:sad:DeliveryContext</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een aanduiding van de rechtsgrond waarop het brondocument is gebaseerd of, bij afwezigheid daarvan, de activiteit naar aanleiding waarvan het is opgemaakt
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="deliveryContext" type="sadcominternal:DeliveryContextType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>DeliveryContext</CodeListName>
+                                <CodeListURI>urn:bro:sad:DeliveryContext</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een aanduiding van de rechtsgrond waarop het brondocument is gebaseerd of, bij afwezigheid daarvan, de activiteit naar aanleiding waarvan het is opgemaakt
 Explanation: De wetgever heeft bepaald dat het gegeven moet zijn vastgelegd om inzicht te geven in de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke betekenis van de informatie.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen.
 Explanation: Het gegeven is alleen aanwezig wanneer het bodemonderzoek (inclusief eventuele monitoring) is gerapporteerd en het onderzoek is afgesloten. Hier wordt overigens niet de datum van het onderzoeksrapport bedoeld. De datum van het onderzoeksrapport wordt vastgelegd bij de gegevensgroep Rapport als rapportdatum. Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal onbekend en niet relevant.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het bodemonderzoek heeft binnen de informatieketen milieukwaliteit.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het bodemonderzoek heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="name" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het onderzoek.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="name" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het onderzoek.
 Explanation: De naam die door de bronhouder is toegekend aan het onderzoek.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="255"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="projectType"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:ProjectTypeType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>ProjectType</CodeListName>
-								<CodeListURI>urn:bro:sad:ProjectType</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type onderzoek dat is uitgevoerd.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="255"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="projectType" type="sadcominternal:ProjectTypeType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>ProjectType</CodeListName>
+                                <CodeListURI>urn:bro:sad:ProjectType</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type onderzoek dat is uitgevoerd.
 Explanation: Het type onderzoek geeft informatie over het soort onderzoek dat is uitgevoerd, maar ook over de wijze waarop gerapporteerd is. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="asbestos"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:AsbestosPresenceType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>AsbestosPresence</CodeListName>
-								<CodeListURI>urn:bro:sad:AsbestosPresence</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding of binnen het onderzoek de aanwezigheid van asbest is onderzocht.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="asbestos" type="sadcominternal:AsbestosPresenceType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>AsbestosPresence</CodeListName>
+                                <CodeListURI>urn:bro:sad:AsbestosPresence</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding of binnen het onderzoek de aanwezigheid van asbest is onderzocht.
 Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="investigationReason"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="sadcominternal:InvestigationReasonType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>InvestigationReason</CodeListName>
-								<CodeListURI>urn:bro:sad:InvestigationReason</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanleiding voor het uitvoeren van het onderzoek.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="geometry"
-                           type="gml:MultiSurfacePropertyType"
-                           minOccurs="1"
-                           maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begrenzing van het onderzoeksgebied op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="investigationReason" type="sadcominternal:InvestigationReasonType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>InvestigationReason</CodeListName>
+                                <CodeListURI>urn:bro:sad:InvestigationReason</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanleiding voor het uitvoeren van het onderzoek.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="geometry" type="gml:MultiSurfacePropertyType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begrenzing van het onderzoeksgebied op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.
 Explanation: De aangeleverde begrenzing is vastgelegd als een mulitvlak (multi surface).</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="investigationConclusion" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De conclusie van het bodemonderzoek volgens de uitvoerder van het onderzoek.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="investigationConclusion" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De conclusie van het bodemonderzoek volgens de uitvoerder van het onderzoek.
 Explanation: In de conclusie staat veelal of er verontreiniging is aangetroffen, wat de eventuele aard en omvang is en/of welke vervolgacties nodig zijn. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd. Dit veld is de conclusie van de rapportauteur en niet de conclusie van de bronhouder (veelal bevoegd gezag).</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="4000"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="researchOperator"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="brocom:OrganizationType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het milieuhygiënisch bodemonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="4000"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="researchOperator" type="brocom:OrganizationType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het milieuhygiënisch bodemonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
 Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven veelal niet vastgelegd</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="registrationHistory"
-                           nillable="false"
-                           type="sadcominternal:RegistrationHistoryType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die de geschiedenis van het milieuhygiënisch bodemonderzoek in de registratie ondergrond markeren.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="registrationHistory" type="sadcominternal:RegistrationHistoryType" nillable="false" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die de geschiedenis van het milieuhygiënisch bodemonderzoek in de registratie ondergrond markeren.
 Explanation: De registratiegeschiedenis van een milieuhygiënisch bodemonderzoek geeft de essentie van de geschiedenis van het object in de registratie ondergrond, de zgn. formele geschiedenis weer. De registratiegeschiedenis vertelt bijvoorbeeld wanneer voor het eerst gegevens van het object zijn geregistreerd en of er na registratie correcties zijn doorgevoerd. Het gegeven staat niet in een brondocument, maar wordt automatisch vanuit de basisregistratie ondergrond gegenereerd.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="standardizedLocation"
-                           nillable="false"
-                           type="brocom:StandardizedLocationV2Type">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begrenzing van het bodemonderzoek op het aardoppervlak zoals die door de basisregistratie ondergrond is getransformeerd.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="standardizedLocation" type="brocom:StandardizedLocationV2Type" nillable="false" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begrenzing van het bodemonderzoek op het aardoppervlak zoals die door de basisregistratie ondergrond is getransformeerd.
 Explanation: De gestandaardiseerde locatie wordt door de basisregistratie ondergrond berekend ten behoeve van afnemers. Het gegeven staat niet in een brondocument, maar wordt automatisch vanuit de basisregistratie ondergrond gegenereerd.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="1"
-                           name="report"
-                           nillable="false"
-                           type="sadcominternal:ReportType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Eigenschappen van het rapport waarin de resultaten van het bodemonderzoek zijn opgenomen.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="report" type="sadcominternal:ReportType" nillable="false" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Eigenschappen van het rapport waarin de resultaten van het bodemonderzoek zijn opgenomen.
 Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
-                           name="measurementPoint"
-                           nillable="false"
-                           type="sadcominternal:MeasurementPointPropertyType"/>
-					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
-                           name="mixedsampleAnalysis"
-                           nillable="false"
-                           type="sadcominternal:MixedSampleAnalysisPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="SoilResearchPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:SoilResearch"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="MeasurementPoint"
-               type="sadcominternal:MeasurementPointType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om vervolgens de bodemlagen te beschrijven, monsters uit de ondergrond te nemen en/of metingen/zintuigelijke waarnemingen aan de ondergrond te doen.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="measurementPoint" type="sadcominternal:MeasurementPointPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="mixedsampleAnalysis" type="sadcominternal:MixedSampleAnalysisPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SoilResearchPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:SoilResearch"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="MeasurementPoint" type="sadcominternal:MeasurementPointType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om vervolgens de bodemlagen te beschrijven, monsters uit de ondergrond te nemen en/of metingen/zintuigelijke waarnemingen aan de ondergrond te doen.
 Explanation: Milieuhygiënisch bodemonderzoek wordt veelal uitgevoerd door BRL SIKB 2000-gecertificeerde onderzoeksbureaus. Het boren of graven van meetpunten wordt dan uitgevoerd conform SIKB protocol 2001.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="MeasurementPointType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het meetpunt heeft binnen de informatieketen milieukwaliteit.
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="MeasurementPointType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het meetpunt heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="name" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het meetpunt.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="24"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="date" type="xs:date" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het plaatsen van het meetpunt is begonnen.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="finalDepth" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop het boren is geëindigd.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="name" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het meetpunt.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="24"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="date" type="xs:date" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het plaatsen van het meetpunt is begonnen.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="finalDepth" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop het boren is geëindigd.
 Explanation: Het betreft de diepte ten opzichte van het lokaal verticaal referentiepunt.</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="deliveredLocation"
-                           type="gml:PointPropertyType"
-                           minOccurs="1"
-                           maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De plaats van het meetpunt op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="type"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="sadcominternal:MeasurementPointTypeType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>MeasurementPointType</CodeListName>
-								<CodeListURI>urn:bro:sad:MeasurementPointType</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type meetpunt dat beschreven is.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="deliveredLocation" type="gml:PointPropertyType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De plaats van het meetpunt op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="type" type="sadcominternal:MeasurementPointTypeType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>MeasurementPointType</CodeListName>
+                                <CodeListURI>urn:bro:sad:MeasurementPointType</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type meetpunt dat beschreven is.
 Explanation: Het type meetpunt is meestal een boring of peilbuis maar kan ook een inspectiegat, sleuf, putwand of putbodem zijn.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="deliveredVerticalPosition"
-                           nillable="false"
-                           type="sadcominternal:GroundLevelType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De positie van het beginpunt van het meetpunt in het verticale vlak, zoals die is aangeleverd aan de basisregistratie ondergrond.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="1"
-                           name="boreholeSampleDescription"
-                           nillable="false"
-                           type="sadcominternal:BoreholeSampleDescriptionPropertyType"/>
-					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
-                           name="filter"
-                           nillable="false"
-                           type="sadcominternal:FilterPropertyType"/>
-					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
-                           name="soilSampling"
-                           nillable="false"
-                           type="sadcominternal:SoilSamplingPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="MeasurementPointPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:MeasurementPoint"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="BoreholeSampleDescription"
-               type="sadcominternal:BoreholeSampleDescriptionType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het bodemonderzoek dat betrekking heeft op het beschrijven van de bodemlagen en het verwerken van de resultaten tot een samenvattende beschrijving van de opbouw van de ondergrond.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="BoreholeSampleDescriptionType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="descriptionProcedure"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="sadcominternal:DescriptionProcedureType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>DescriptionProcedure</CodeListName>
-								<CodeListURI>urn:bro:sad:DescriptionProcedure</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De procedure die aangeeft volgens welke methode de bodemopbouw is beschreven.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="deliveredVerticalPosition" type="sadcominternal:GroundLevelType" nillable="false" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De positie van het beginpunt van het meetpunt in het verticale vlak, zoals die is aangeleverd aan de basisregistratie ondergrond.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="boreholeSampleDescription" type="sadcominternal:BoreholeSampleDescriptionPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="filter" type="sadcominternal:FilterPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="soilSampling" type="sadcominternal:SoilSamplingPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="MeasurementPointPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:MeasurementPoint"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="BoreholeSampleDescription" type="sadcominternal:BoreholeSampleDescriptionType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het bodemonderzoek dat betrekking heeft op het beschrijven van de bodemlagen en het verwerken van de resultaten tot een samenvattende beschrijving van de opbouw van de ondergrond.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="BoreholeSampleDescriptionType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="descriptionProcedure" type="sadcominternal:DescriptionProcedureType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>DescriptionProcedure</CodeListName>
+                                <CodeListURI>urn:bro:sad:DescriptionProcedure</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De procedure die aangeeft volgens welke methode de bodemopbouw is beschreven.
 Explanation: De procedure beschrijft volgens welk stelsel van afspraken de bodemopbouw is beschreven en welke aspecten worden beschreven. Procedures zijn in het algemeen vastgelegd in een norm, protocol of richtlijn. Het gegeven staat niet in een brondocument. Dit attribuut wordt standaard gevuld met de waarde 'nen5104_nen5706'.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="descriptiveBoreholeLog"
-                           nillable="false"
-                           type="sadcominternal:DescriptiveBoreholeLogPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="BoreholeSampleDescriptionPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:BoreholeSampleDescription"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="DescriptiveBoreholeLog"
-               type="sadcominternal:DescriptiveBoreholeLogType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De beschreven opbouw van de ondergrond.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="DescriptiveBoreholeLogType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="describedMaterial"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:DescribedMaterialType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>DescribedMaterial</CodeListName>
-								<CodeListURI>urn:bro:sad:DescribedMaterial</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van het materiaal dat is beschreven in het profiel.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="descriptiveBoreholeLog" type="sadcominternal:DescriptiveBoreholeLogPropertyType" nillable="false" minOccurs="1" maxOccurs="1"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="BoreholeSampleDescriptionPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:BoreholeSampleDescription"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="DescriptiveBoreholeLog" type="sadcominternal:DescriptiveBoreholeLogType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De beschreven opbouw van de ondergrond.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="DescriptiveBoreholeLogType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="describedMaterial" type="sadcominternal:DescribedMaterialType" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>DescribedMaterial</CodeListName>
+                                <CodeListURI>urn:bro:sad:DescribedMaterial</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van het materiaal dat is beschreven in het profiel.
 Explanation: Het gegeven staat niet in een brondocument. De basisregistratie ondergrond bepaalt de waarde aan de hand van de opgenomen grondsoort van de eerste bodemlaag. Voor het domein milieukwaliteit is gekozen om de waarde grond als standaardwaarde te gebruiken.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="unbounded"
-                           name="layer"
-                           nillable="false"
-                           type="sadcominternal:LayerPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="DescriptiveBoreholeLogPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:DescriptiveBoreholeLog"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="Layer"
-               type="sadcominternal:LayerType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Verticale uitsnede van de bodem ter plaatse van het meetpunt met uniforme kenmerken en met een begin- en einddiepte.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="layer" type="sadcominternal:LayerPropertyType" nillable="false" minOccurs="1" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="DescriptiveBoreholeLogPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:DescriptiveBoreholeLog"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="Layer" type="sadcominternal:LayerType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Verticale uitsnede van de bodem ter plaatse van het meetpunt met uniforme kenmerken en met een begin- en einddiepte.
 Explanation: De kenmerken zijn beschreven conform de protocollen voor milieuhygiënisch onderzoek</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="LayerType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die de bodemlaag heeft binnen de informatieketen milieukwaliteit.
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="LayerType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die de bodemlaag heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="upperBoundary" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de bovenkant van de bodemlaag.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="upperBoundary" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de bovenkant van de bodemlaag.
 Explanation: De bovengrens wordt uitgedrukt ten opzichte van het lokaal verticaal referentiepunt vastgelegd bij de entiteit meetpunt.</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="lowerBoundary" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de onderkant van de laag.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="lowerBoundary" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de onderkant van de laag.
 Explanation: De ondergrens wordt uitgedrukt ten opzichte van het lokaal verticaal referentiepunt vastgelegd bij de entiteit meetpunt.</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="oilWaterReaction"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:OilWaterReactionType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>OilWaterReaction</CodeListName>
-								<CodeListURI>urn:bro:sad:OilWaterReaction</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Semi-kwantitatieve veldanalyse van het gehalte minerale olie/olie-achtige of oppervlakte-actieve stoffen in de bodemlaag.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="1"
-                           name="soilType"
-                           nillable="false"
-                           type="sadcominternal:SoilTypeType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over de grond waar de laag uit bestaat.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="oilWaterReaction" type="sadcominternal:OilWaterReactionType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>OilWaterReaction</CodeListName>
+                                <CodeListURI>urn:bro:sad:OilWaterReaction</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Semi-kwantitatieve veldanalyse van het gehalte minerale olie/olie-achtige of oppervlakte-actieve stoffen in de bodemlaag.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="soilType" type="sadcominternal:SoilTypeType" nillable="false" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens over de grond waar de laag uit bestaat.
 Explanation: In het geval geen sprake is van grond (denk aan harde lagen bestaande uit bijvoorbeeld klinkers of stelconplaten) mag dit gegeven leeg gelaten worden. Dergelijke informatie dient bij het onderdeel bijzonder bestanddeel te worden vastgelegd.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="1"
-                           name="colourObservation"
-                           nillable="false"
-                           type="sadcominternal:ColourObservationType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kleur van de bodemlaag.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
-                           name="particularConstituent"
-                           nillable="false"
-                           type="sadcominternal:ParticularConstituentType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De bijzondere bestandsdelen die zijn aangetroffen in de bodemlaag.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="LayerPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:Layer"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="SoilSampling"
-               type="sadcominternal:SoilSamplingType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het onderzoek dat betrekking heeft op het bemonsteren van de grond.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="SoilSamplingType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het grondmonster heeft binnen de informatieketen milieukwaliteit.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="colourObservation" type="sadcominternal:ColourObservationType" nillable="false" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kleur van de bodemlaag.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="particularConstituent" type="sadcominternal:ParticularConstituentType" nillable="false" minOccurs="0" maxOccurs="unbounded">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De bijzondere bestandsdelen die zijn aangetroffen in de bodemlaag.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="LayerPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:Layer"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="SoilSampling" type="sadcominternal:SoilSamplingType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het onderzoek dat betrekking heeft op het bemonsteren van de grond.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="SoilSamplingType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het grondmonster heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="name" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het grondmonster.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="24"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="beginDepth" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de bovenkant van het monstertraject.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="name" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het grondmonster.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="24"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="beginDepth" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de bovenkant van het monstertraject.
 Explanation: De begindiepte wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt zoals vastgelegd bij het meetpunt. Deze heeft altijd de waarde 't.o.v. maaiveld'.</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="endDepth" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de onderkant van het monstertraject.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="endDepth" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de onderkant van het monstertraject.
 Explanation: De einddiepte wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt zoals vastgelegd bij het meetpunt. Deze heeft altijd de waarde 't.o.v. maaiveld'.</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="date" type="xs:date" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het veldonderzoek is uitgevoerd en het grondmonster is genomen.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="1"
-                           name="soilSampleAnalysis"
-                           nillable="false"
-                           type="sadcominternal:SoilSampleAnalysisPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="SoilSamplingPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:SoilSampling"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="SoilSampleAnalysis"
-               type="sadcominternal:SoilSampleAnalysisType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het grondmonster dat is geanalyseerd op het laboratorium.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="SoilSampleAnalysisType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het grondanalysemonster heeft binnen de informatieketen milieukwaliteit.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="date" type="xs:date" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het veldonderzoek is uitgevoerd en het grondmonster is genomen.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="soilSampleAnalysis" type="sadcominternal:SoilSampleAnalysisPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SoilSamplingPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:SoilSampling"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="SoilSampleAnalysis" type="sadcominternal:SoilSampleAnalysisType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het grondmonster dat is geanalyseerd op het laboratorium.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="SoilSampleAnalysisType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het grondanalysemonster heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="name" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het grond analysemonster.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="name" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het grond analysemonster.
 Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="24"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="unbounded"
-                           name="analysis"
-                           nillable="false"
-                           type="sadcominternal:AnalysisPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="SoilSampleAnalysisPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:SoilSampleAnalysis"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="MixedSampleAnalysis"
-               type="sadcominternal:MixedSampleAnalysisType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een samengesteld grondmonster dat wordt verkregen door (deel)monsters, die op twee of meer plaatsen uit eenzelfde bodemlaag zijn genomen, te mengen.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="MixedSampleAnalysisType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het mengmonster heeft binnen de informatieketen milieukwaliteit.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="24"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="analysis" type="sadcominternal:AnalysisPropertyType" nillable="false" minOccurs="1" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="SoilSampleAnalysisPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:SoilSampleAnalysis"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="MixedSampleAnalysis" type="sadcominternal:MixedSampleAnalysisType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een samengesteld grondmonster dat wordt verkregen door (deel)monsters, die op twee of meer plaatsen uit eenzelfde bodemlaag zijn genomen, te mengen.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="MixedSampleAnalysisType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het mengmonster heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="name" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het mengmonster.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="name" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het mengmonster.
 Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="24"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="beginDepth" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de bovenkant van het analysemonstertraject.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="24"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="beginDepth" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de bovenkant van het analysemonstertraject.
 Explanation: De begindiepte wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt zoals vastgelegd bij het meetpunt. Deze heeft altijd de waarde 't.o.v. maaiveld'. Voor historische gegevens kan het voorkomen dat er geen meetpunt gekoppeld is aan het analysemonster.</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="endDepth" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de onderkant van het analysemonstertraject.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="endDepth" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de onderkant van het analysemonstertraject.
 Explanation: De einddiepte wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt zoals vastgelegd bij het meetpunt. Deze heeft altijd de waarde 't.o.v. maaiveld'. Voor historische gegevens kan het voorkomen dat er geen meetpunt gekoppeld is aan het analysemonster.</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="unbounded"
-                           name="analysis"
-                           nillable="false"
-                           type="sadcominternal:AnalysisPropertyType"/>
-					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
-                           name="soilSampling"
-                           nillable="false"
-                           type="sadcominternal:SoilSamplingPropertyType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="MixedSampleAnalysisPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:MixedSampleAnalysis"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="Filter"
-               type="sadcominternal:FilterType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een filter binnen een peilbuis die is aangebracht om het grondwater uit een specifiek deel van de ondergrond te ontsluiten ten behoeve van waarnemingen, metingen of analyses op het grondwater.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="analysis" type="sadcominternal:AnalysisPropertyType" nillable="false" minOccurs="1" maxOccurs="unbounded"/>
+                    <xs:element name="soilSampling" type="sadcominternal:SoilSamplingPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="MixedSampleAnalysisPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:MixedSampleAnalysis"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="Filter" type="sadcominternal:FilterType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een filter binnen een peilbuis die is aangebracht om het grondwater uit een specifiek deel van de ondergrond te ontsluiten ten behoeve van waarnemingen, metingen of analyses op het grondwater.
 Explanation: Milieuhygiënisch bodemonderzoek wordt veelal uitgevoerd door BRL SIKB 2000-gecertificeerde onderzoeksbureaus. Peilbuizen worden dan geplaatst en bemonsterd conform SIKB protocol 2002.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="FilterType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die de filter heeft binnen de informatieketen milieukwaliteit.
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="FilterType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die de filter heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="name" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van de filter.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="24"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="1"
-                           name="deliveredVerticalPosition"
-                           nillable="false"
-                           type="sadcominternal:GroundLevelType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De positie van het beginpunt van de filter in het verticale vlak, zoals die is aangeleverd aan de basisregistratie ondergrond.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="upperBoundary" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de bovenkant van het filter.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="name" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van de filter.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="24"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="deliveredVerticalPosition" type="sadcominternal:GroundLevelType" nillable="false" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De positie van het beginpunt van de filter in het verticale vlak, zoals die is aangeleverd aan de basisregistratie ondergrond.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="upperBoundary" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de bovenkant van het filter.
 Explanation: De begindiepte wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt zoals vastgelegd bij de filter. Deze kan de waarde 't.o.v. maaiveld' of 't.o.v. peilbuis bovenkant' hebben.</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="lowerBoundary" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de onderkant van het filter.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="lowerBoundary" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte van de onderkant van het filter.
 Explanation: De einddiepte wordt weergegeven ten opzichte van het lokaal verticaal referentiepunt zoals vastgelegd bij de filter. Deze kan de waarde 't.o.v. maaiveld' of 't.o.v. peilbuis bovenkant' hebben.</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
-                           name="groundwaterSampling"
-                           nillable="false"
-                           type="sadcominternal:GroundwaterSamplingPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="FilterPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:Filter"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="GroundwaterSampling"
-               type="sadcominternal:GroundwaterSamplingType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het milieuhygiënisch bodemonderzoek dat betrekking heeft op de monstername van het grondwater.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="GroundwaterSamplingType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het grondwatermonster heeft binnen de informatieketen milieukwaliteit.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="groundwaterSampling" type="sadcominternal:GroundwaterSamplingPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="FilterPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:Filter"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="GroundwaterSampling" type="sadcominternal:GroundwaterSamplingType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het milieuhygiënisch bodemonderzoek dat betrekking heeft op de monstername van het grondwater.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="GroundwaterSamplingType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het grondwatermonster heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="name" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het grondwatermonster.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="24"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="date" type="xs:date" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het veldonderzoek is uitgevoerd en het grondwatermonster is genomen.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="1"
-                           name="groundwaterSampleAnalysis"
-                           nillable="false"
-                           type="sadcominternal:GroundwaterSampleAnalysisPropertyType"/>
-					<xs:element minOccurs="0"
-                           maxOccurs="1"
-                           name="fieldObservation"
-                           nillable="false"
-                           type="sadcominternal:FieldObservationPropertyType"/>
-					<xs:element minOccurs="0"
-                           maxOccurs="unbounded"
-                           name="fieldMeasurement"
-                           nillable="false"
-                           type="sadcominternal:FieldMeasurementPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="GroundwaterSamplingPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:GroundwaterSampling"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="FieldObservation"
-               type="sadcominternal:FieldObservationType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De uitkomsten van de waarnemingen, niet zijnde metingen, die in het veld aan of in het bemonsterde grondwater zijn uitgevoerd.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="FieldObservationType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="filterAerated"
-                           type="brocom:IndicationYesNoType"
-                           minOccurs="0"
-                           maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Daling van de grondwaterstand tot onder de bovenkant van het filter tijdens de monstername.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="1"
-                           name="colourObservation"
-                           nillable="false"
-                           type="sadcominternal:ColourObservationType">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kleur van het grondwater.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="FieldObservationPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:FieldObservation"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="FieldMeasurement"
-               type="sadcominternal:FieldMeasurementType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De uitkomsten van de metingen die in het veld aan of in het grondwater zijn uitgevoerd.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="name" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het grondwatermonster.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="24"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="date" type="xs:date" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop het veldonderzoek is uitgevoerd en het grondwatermonster is genomen.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="groundwaterSampleAnalysis" type="sadcominternal:GroundwaterSampleAnalysisPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="fieldObservation" type="sadcominternal:FieldObservationPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="fieldMeasurement" type="sadcominternal:FieldMeasurementPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="GroundwaterSamplingPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:GroundwaterSampling"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="FieldObservation" type="sadcominternal:FieldObservationType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De uitkomsten van de waarnemingen, niet zijnde metingen, die in het veld aan of in het bemonsterde grondwater zijn uitgevoerd.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="FieldObservationType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="filterAerated" type="brocom:IndicationYesNoType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Daling van de grondwaterstand tot onder de bovenkant van het filter tijdens de monstername.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="colourObservation" type="sadcominternal:ColourObservationType" nillable="false" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kleur van het grondwater.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="FieldObservationPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:FieldObservation"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="FieldMeasurement" type="sadcominternal:FieldMeasurementType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De uitkomsten van de metingen die in het veld aan of in het grondwater zijn uitgevoerd.
 Explanation: Elk begrip dat een kwalitatieve uitspraak over een kenmerk van een entiteit bevat dat op een numerieke schaal geordend en gemeten kan worden.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="FieldMeasurementType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="quantity"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="sadcominternal:QuantityType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>Quantity</CodeListName>
-								<CodeListURI>urn:bro:sad:Quantity</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gemeten eigenschap.
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="FieldMeasurementType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="quantity" type="sadcominternal:QuantityType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>Quantity</CodeListName>
+                                <CodeListURI>urn:bro:sad:Quantity</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gemeten eigenschap.
 Explanation: Elk begrip dat een kwalitatieve uitspraak over een kenmerk van een entiteit bevat dat op een numerieke schaal geordend en gemeten kan worden. Voorbeelden: concentratie, zuurgraad, geleidendheid, temperatuur</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="parameter"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:ParameterType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>Parameter</CodeListName>
-								<CodeListURI>urn:bro:sad:Parameter</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De in het veld gemeten parameter.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="parameter" type="sadcominternal:ParameterType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>Parameter</CodeListName>
+                                <CodeListURI>urn:bro:sad:Parameter</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De in het veld gemeten parameter.
 Explanation: Het SIKB0101ID is het identificerend gegeven van de parameter en staat in de referentielijst Parameter. ID's worden beheerd door SIKB en het Informatiehuis Water (IHW).</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="fieldMeasurementValue" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De uitkomsten van de metingen die in het veld aan het grondwater zijn uitgevoerd.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="fieldMeasurementValue" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De uitkomsten van de metingen die in het veld aan het grondwater zijn uitgevoerd.
 Explanation: De veldmeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut grootheid. De aan te leveren meeteenheid is vastgelegd in de waardelijst grootheid. Alleen de prefix, het voorvoegsel van de eenheid in de waardelijst grootheid mag afwijken. Staat er bijvoorbeeld ug/l in de waardelijst, dan is mg/l ook toegestaan of als mS/cm in de parameterlijst staat, is uS/m ook toegestaan. De veldmeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut grootheid. van de aan te leveren eenheid mag alleen de prefix, het voorvoegsel van de eenheid afwijken. Staat er bijvoorbeeld ug/l in de groothedenlijst, dan is mg/l ook toegestaan of als mS/m in de eenhedenlijst staat, is uS/cm ook toegestaan. Een dimensieloze waarde heeft de meeteenheid 'Dimensieloos' (SIKB0101 ID: 119).</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="localVerticalReferencePoint"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:LocalVerticalReferencePointType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>LocalVerticalReferencePoint</CodeListName>
-								<CodeListURI>urn:bro:sad:LocalVerticalReferencePoint</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het punt dat bij een grondwaterstandsmeting gebruikt wordt als nulpunt voor de hoogte.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="localVerticalReferencePoint" type="sadcominternal:LocalVerticalReferencePointType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>LocalVerticalReferencePoint</CodeListName>
+                                <CodeListURI>urn:bro:sad:LocalVerticalReferencePoint</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het punt dat bij een grondwaterstandsmeting gebruikt wordt als nulpunt voor de hoogte.
 Explanation: Het domein bevat begrippen die naar een oppervlak verwijzen. Het lokaal verticaal referentiepunt geldt als het punt waar de meting van de grondwaterstand begonnen is.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="FieldMeasurementPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:FieldMeasurement"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="GroundwaterSampleAnalysis"
-               type="sadcominternal:GroundwaterSampleAnalysisType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het grondwatermonster dat is geanalyseerd op het laboratorium.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="GroundwaterSampleAnalysisType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het grondwateranalysemonster heeft binnen de informatieketen milieukwaliteit.
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="FieldMeasurementPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:FieldMeasurement"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="GroundwaterSampleAnalysis" type="sadcominternal:GroundwaterSampleAnalysisType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het grondwatermonster dat is geanalyseerd op het laboratorium.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="GroundwaterSampleAnalysisType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het grondwateranalysemonster heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="name" minOccurs="0" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het grondwater analysemonster .
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="name" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het grondwater analysemonster .
 Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="24"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element minOccurs="1"
-                           maxOccurs="unbounded"
-                           name="analysis"
-                           nillable="false"
-                           type="sadcominternal:AnalysisPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="GroundwaterSampleAnalysisPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:GroundwaterSampleAnalysis"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="Analysis"
-               type="sadcominternal:AnalysisType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De uitkomsten van het analytisch onderzoek zoals dat in het laboratorium op het analysemonster is uitgevoerd.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="AnalysisType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die de analyse heeft binnen de informatieketen milieukwaliteit.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="24"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="analysis" type="sadcominternal:AnalysisPropertyType" nillable="false" minOccurs="1" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="GroundwaterSampleAnalysisPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:GroundwaterSampleAnalysis"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="Analysis" type="sadcominternal:AnalysisType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De uitkomsten van het analytisch onderzoek zoals dat in het laboratorium op het analysemonster is uitgevoerd.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="AnalysisType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die de analyse heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="quantity"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="sadcominternal:QuantityType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>Quantity</CodeListName>
-								<CodeListURI>urn:bro:sad:Quantity</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gemeten eigenschap.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="quantity" type="sadcominternal:QuantityType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>Quantity</CodeListName>
+                                <CodeListURI>urn:bro:sad:Quantity</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gemeten eigenschap.
 Explanation: Elk begrip dat een kwalitatieve uitspraak over een kenmerk van een entiteit bevat dat op een numerieke schaal geordend en gemeten kan worden. Voorbeelden: concentratie, massafractie.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="parameter"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:ParameterType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>Parameter</CodeListName>
-								<CodeListURI>urn:bro:sad:Parameter</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het ID van de, in het laboratorium bepaalde parameter.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="parameter" type="sadcominternal:ParameterType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>Parameter</CodeListName>
+                                <CodeListURI>urn:bro:sad:Parameter</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het ID van de, in het laboratorium bepaalde parameter.
 Explanation: Het SIKB0101ID is het identificerend gegeven van de parameter en staat in de referentielijst Parameter.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="analysisMeasurementValue" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het in het laboratorium gemeten gehalte of de waargenomen waarde van de parameter. Wanneer het limietsymbool aanwezig is, mag hier de waarde van de limietsymboolreferentie geregistreerd worden in plaats van de gemeten waarde.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="analysisMeasurementValue" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het in het laboratorium gemeten gehalte of de waargenomen waarde van de parameter. Wanneer het limietsymbool aanwezig is, mag hier de waarde van de limietsymboolreferentie geregistreerd worden in plaats van de gemeten waarde.
 Explanation: De analysemeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenheid is afhankelijk van de waarde van het attribuut grootheid. De aan te leveren meeteenheid is vastgelegd in de waardelijst grootheid. Alleen de prefix, het voorvoegsel van de eenheid in de waardelijst grootheid mag afwijken. Staat er bijvoorbeeld ug/l in de waardelijst, dan is mg/l ook toegestaan of als mS/cm in de parameterlijst staat, is uS/m ook toegestaan. Een dimensieloze waarde heeft de meeteenheid 'Dimensieloos' (Zie de domeinwaardelijst voor 'Grootheid' voor de toegestane eenheden).</xs:documentation>
-						</xs:annotation>
-						<xs:complexType>
-							<xs:simpleContent>
-								<xs:restriction base="gml:MeasureType">
-									<xs:attribute name="uom" type="gml:UomIdentifier" use="required"/>
-								</xs:restriction>
-							</xs:simpleContent>
-						</xs:complexType>
-					</xs:element>
-					<xs:element name="limitSymbol"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:LimitSymbolType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>LimitSymbol</CodeListName>
-								<CodeListURI>urn:bro:sad:LimitSymbol</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Symbool dat aangeeft of de gemeten waarde kleiner is dan de limietsymboolreferentie, ofwel groter is dan de hoogtse limietsymboolreferentie.
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="limitSymbol" type="sadcominternal:LimitSymbolType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>LimitSymbol</CodeListName>
+                                <CodeListURI>urn:bro:sad:LimitSymbol</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Symbool dat aangeeft of de gemeten waarde kleiner is dan de limietsymboolreferentie, ofwel groter is dan de hoogtse limietsymboolreferentie.
 Explanation: Het gegeven is alleen aanwezig wanneer bij het attribuut analysemeetwaarde niet de gemeten waarde is opgegeven maar in plaats daarvan de limietsymboolreferentie.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="limitSymbolReference"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:LimitSymbolReferenceType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>LimitSymbolReference</CodeListName>
-								<CodeListURI>urn:bro:sad:LimitSymbolReference</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De grenswaarde waarop het limietsymbool van de analyse betrekking heeft.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element name="condition"
-                           minOccurs="0"
-                           maxOccurs="1"
-                           type="sadcominternal:ConditionType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>Condition</CodeListName>
-								<CodeListURI>urn:bro:sad:Condition</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De vorm waarin de eenheid behorend bij een meetwaarde wordt uitgedrukt of de fractie van de parameter waarop de meetwaarde betrekking heeft.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="limitSymbolReference" type="sadcominternal:LimitSymbolReferenceType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>LimitSymbolReference</CodeListName>
+                                <CodeListURI>urn:bro:sad:LimitSymbolReference</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De grenswaarde waarop het limietsymbool van de analyse betrekking heeft.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="condition" type="sadcominternal:ConditionType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>Condition</CodeListName>
+                                <CodeListURI>urn:bro:sad:Condition</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De vorm waarin de eenheid behorend bij een meetwaarde wordt uitgedrukt of de fractie van de parameter waarop de meetwaarde betrekking heeft.
 Explanation: De vorm van de eenheid kan een equivalent zijn waarin de meetwaarde wordt uitgedrukt, als ware het een andere vergelijkbare parameter. Voorbeeld hiervan is 'uitgedrukt in Stikstof' bij de parameter Nitraat (NO3). De waarde 'opgeloste fractie' of de korrelgroottefractie zijn voorbeelden van fracties van een parameter.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-					<xs:element minOccurs="0"
-                           maxOccurs="1"
-                           name="analysisProcess"
-                           nillable="false"
-                           type="sadcominternal:AnalysisProcessPropertyType"/>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="AnalysisPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:Analysis"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:element name="AnalysisProcess"
-               type="sadcominternal:AnalysisProcessType"
-               substitutionGroup="gml:AbstractFeature">
-		<xs:annotation>
-			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kenmerken van de in het laboratorium uitgevoerde activiteiten ten behoeve van de bepaling van de waarde van parameters in het analysemonster.</xs:documentation>
-		</xs:annotation>
-	</xs:element>
-	<xs:complexType name="AnalysisProcessType">
-		<xs:complexContent>
-			<xs:extension base="gml:AbstractFeatureType">
-				<xs:sequence>
-					<xs:element name="identification" minOccurs="1" maxOccurs="1">
-						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het analyseproces heeft binnen de informatieketen milieukwaliteit.
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="analysisProcess" type="sadcominternal:AnalysisProcessPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="AnalysisPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:Analysis"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="AnalysisProcess" type="sadcominternal:AnalysisProcessType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De kenmerken van de in het laboratorium uitgevoerde activiteiten ten behoeve van de bepaling van de waarde van parameters in het analysemonster.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="AnalysisProcessType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het analyseproces heeft binnen de informatieketen milieukwaliteit.
 Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
-						</xs:annotation>
-						<xs:simpleType>
-							<xs:restriction base="xs:string">
-								<xs:maxLength value="50"/>
-							</xs:restriction>
-						</xs:simpleType>
-					</xs:element>
-					<xs:element name="certification"
-                           minOccurs="1"
-                           maxOccurs="1"
-                           type="sadcominternal:ValuationMethodType">
-						<xs:annotation>
-							<xs:appinfo>
-								<CodeListName>ValuationMethod</CodeListName>
-								<CodeListURI>urn:bro:sad:ValuationMethod</CodeListURI>
-							</xs:appinfo>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding van het kwaliteitskenmerk volgens welke het laboratorium de parameter heeft geanalyseerd.</xs:documentation>
-						</xs:annotation>
-					</xs:element>
-				</xs:sequence>
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-	<xs:complexType name="AnalysisProcessPropertyType">
-		<xs:sequence minOccurs="0">
-			<xs:element ref="sadcominternal:AnalysisProcess"/>
-		</xs:sequence>
-		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
-	</xs:complexType>
-	<xs:complexType name="RegistrationHistoryType">
-		<xs:sequence>
-			<xs:element name="objectRegistrationTime"
-                     type="xs:dateTime"
-                     minOccurs="1"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie ondergrond zijn opgenomen.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="registrationStatus"
-                     minOccurs="1"
-                     maxOccurs="1"
-                     type="sadcominternal:RegistrationStatusType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>RegistrationStatus</CodeListName>
-						<CodeListURI>urn:bro:RegistrationStatus</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De actuele fase van registratie waarin het registratieobject zich bevindt.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="latestAdditionTime"
-                     type="xs:dateTime"
-                     minOccurs="0"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop de laatste aanvulling op de gegevens in de registratie ondergrond is doorgevoerd.
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="certification" type="sadcominternal:ValuationMethodType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>ValuationMethod</CodeListName>
+                                <CodeListURI>urn:bro:sad:ValuationMethod</CodeListURI>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding van het kwaliteitskenmerk volgens welke het laboratorium de parameter heeft geanalyseerd.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="AnalysisProcessPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:AnalysisProcess"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:complexType name="RegistrationHistoryType">
+        <xs:sequence>
+            <xs:element name="objectRegistrationTime" type="xs:dateTime" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop er voor het eerst gegevens van het object in de registratie ondergrond zijn opgenomen.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="registrationStatus" type="sadcominternal:RegistrationStatusType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>RegistrationStatus</CodeListName>
+                        <CodeListURI>urn:bro:RegistrationStatus</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De actuele fase van registratie waarin het registratieobject zich bevindt.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="latestAdditionTime" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop de laatste aanvulling op de gegevens in de registratie ondergrond is doorgevoerd.
 Explanation: De gegevens van een bodemonderzoek worden altijd in een keer aangeleverd.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="registrationCompletionTime"
-                     type="xs:dateTime"
-                     minOccurs="0"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond zijn opgenomen.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="registrationCompletionTime" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop alle gegevens van het object in de registratie ondergrond zijn opgenomen.
 Explanation: Het gegeven is alleen aanwezig als alle aan te leveren gegevens zijn geregistreerd. Na dit tijdstip kunnen geen nieuwe gegevens meer ter registratie worden aangeboden. Wel kunnen fouten in de registratie worden verbeterd.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="corrected"
-                     type="brocom:IndicationYesNoType"
-                     minOccurs="1"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of er een verbetering in de gegevens van het object in de registratie ondergrond heeft plaatsgevonden.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="latestCorrectionTime"
-                     type="xs:dateTime"
-                     minOccurs="0"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop de laatste correctie in de gegevens van het registratieobject is doorgevoerd.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="underReview"
-                     type="brocom:IndicationYesNoType"
-                     minOccurs="1"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het registratieobject door de registerbeheerder in onderzoek is genomen.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="corrected" type="brocom:IndicationYesNoType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of er een verbetering in de gegevens van het object in de registratie ondergrond heeft plaatsgevonden.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="latestCorrectionTime" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop de laatste correctie in de gegevens van het registratieobject is doorgevoerd.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="underReview" type="brocom:IndicationYesNoType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het registratieobject door de registerbeheerder in onderzoek is genomen.
 Explanation: Wanneer een registratieobject in onderzoek is genomen betekent dit dat er bij de registerbeheerder gerede twijfel bestaat over de juistheid van de geregistreerde gegevens en dat er een onderzoek is gestart om vast te stellen wat de juiste gegevens zijn. Normaliter gaat hieraan een melding van derden vooraf.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="underReviewTime"
-                     type="xs:dateTime"
-                     minOccurs="0"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop de registerbeheerder het registratieobject in onderzoek heeft genomen.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="deregistered"
-                     type="brocom:IndicationYesNoType"
-                     minOccurs="1"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de gegevens van het registratieobject door de registerbeheerder uit registratie zijn genomen.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="underReviewTime" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop de registerbeheerder het registratieobject in onderzoek heeft genomen.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="deregistered" type="brocom:IndicationYesNoType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de gegevens van het registratieobject door de registerbeheerder uit registratie zijn genomen.
 Explanation: Wanneer de registerbeheerder een registratieobject uit registratie heeft genomen, zijn de gegevens niet langer beschikbaar voor andere afnemers dan bronhouder en dataleverancier. De registerbeheerder zal een registratieobject alleen bij hoge uitzondering uit registratie nemen en alleen na akkoord van de bronhouder. Aan de beslissing gaat een proces van zorgvuldige afweging vooraf en dat komt tot uitdrukking in de regel dat een registratieobject slechts een keer uit registratie kan worden genomen.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="deregistrationTime"
-                     type="xs:dateTime"
-                     minOccurs="0"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop het registratieobject uit registratie is genomen.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="reregistered"
-                     type="brocom:IndicationYesNoType"
-                     minOccurs="1"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen, nadat het eerder uit registratie was genomen.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="deregistrationTime" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop het registratieobject uit registratie is genomen.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="reregistered" type="brocom:IndicationYesNoType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het object in de registratie ondergrond is opgenomen, nadat het eerder uit registratie was genomen.
 Explanation: De registerbeheerder kan een registratieobject eenmalig uit registratie nemen, en die actie kan hij eenmalig ongedaan maken. Ook hiervoor geldt dat akkoord van de bronhouder vereist is.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="reregistrationTime"
-                     type="xs:dateTime"
-                     minOccurs="0"
-                     maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het uit registratie was genomen.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="ReportType">
-		<xs:sequence>
-			<xs:element name="number" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het nummer of kenmerk van het rapport waarin de resultaten van het bodemonderzoek zijn vastgelegd.</xs:documentation>
-				</xs:annotation>
-				<xs:simpleType>
-					<xs:restriction base="xs:string">
-						<xs:maxLength value="40"/>
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:element>
-			<xs:element name="date" type="xs:date" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum van het rapport waarin de resultaten van het bodemonderzoek zijn vastgelegd.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="author" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van het onderzoeksbureau dat het rapport heeft opgesteld.</xs:documentation>
-				</xs:annotation>
-				<xs:simpleType>
-					<xs:restriction base="xs:string">
-						<xs:maxLength value="40"/>
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:element>
-			<xs:element name="documentLink" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het peristente webadres naar het onderzoeksrapport.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="reregistrationTime" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum en het tijdstip waarop het object in de registratie ondergrond is opgenomen, nadat het uit registratie was genomen.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ReportType">
+        <xs:sequence>
+            <xs:element name="number" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het nummer of kenmerk van het rapport waarin de resultaten van het bodemonderzoek zijn vastgelegd.</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="40"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="date" type="xs:date" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum van het rapport waarin de resultaten van het bodemonderzoek zijn vastgelegd.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="author" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van het onderzoeksbureau dat het rapport heeft opgesteld.</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="40"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="documentLink" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het peristente webadres naar het onderzoeksrapport.
 Explanation: Betreft het internetadres waar het onderzoeksrapport te vinden is. Ieder rapport heeft zijn eigen URL. Deze URL dient alleen te worden aangeleverd indien deze niet meer wijzigt in de toekomst (persistent) en publiek benaderbaar is.</xs:documentation>
-				</xs:annotation>
-				<xs:simpleType>
-					<xs:restriction base="xs:string">
-						<xs:maxLength value="2083"/>
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="GroundLevelType">
-		<xs:sequence>
-			<xs:element name="localVerticalReferencePoint"
-                     minOccurs="1"
-                     maxOccurs="1"
-                     type="sadcominternal:LocalVerticalReferencePointType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>LocalVerticalReferencePoint</CodeListName>
-						<CodeListURI>urn:bro:sad:LocalVerticalReferencePoint</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het punt dat in het milieuhygiënisch bodemonderzoek is gebruikt als nulpunt voor de hoogte.
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:maxLength value="2083"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="GroundLevelType">
+        <xs:sequence>
+            <xs:element name="localVerticalReferencePoint" type="sadcominternal:LocalVerticalReferencePointType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>LocalVerticalReferencePoint</CodeListName>
+                        <CodeListURI>urn:bro:sad:LocalVerticalReferencePoint</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het punt dat in het milieuhygiënisch bodemonderzoek is gebruikt als nulpunt voor de hoogte.
 Explanation: Het domein bevat begrippen die naar een oppervlak verwijzen. Het lokaal verticaal referentiepunt geldt als het punt waar het onderzoek aan de ondergrond begonnen is.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="verticalDatum"
-                     minOccurs="0"
-                     maxOccurs="1"
-                     type="sadcominternal:VerticalDatumType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>VerticalDatum</CodeListName>
-						<CodeListURI>urn:bro:sad:VerticalDatum</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="verticalDatum" type="sadcominternal:VerticalDatumType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>VerticalDatum</CodeListName>
+                        <CodeListURI>urn:bro:sad:VerticalDatum</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het referentieniveau voor de verticale positie van het lokaal verticaal referentiepunt.
 Explanation: In het geval het verticaal referentievlak is vastgelegd is dit altijd ten opzichte van NAP.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="offset" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="offset" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De verticale positie van het lokaal verticaal referentiepunt t.o.v. het verticaal referentievlak.
 Explanation: De waarde kan positief of negatief zijn. Als de waarde positief is, ligt het lokaal verticaal referentiepunt boven het verticaal referentievlak. Met behulp van de verschuiving kan een diepte omgerekend worden naar een positie ten opzichte van het verticaal referentievlak. Dit gegeven wordt bij milieuhygiënisch bodemonderzoek veelal niet bepaald.</xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:restriction base="gml:MeasureType">
-							<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-						</xs:restriction>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
-			<xs:element name="groundLevelPosition" minOccurs="0" maxOccurs="1">
-				<xs:annotation>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De positie van het maaiveld ten opzichte van het lokaal verticaal referentiepunt van de peilbuis.
+                </xs:annotation>
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                            <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                        </xs:restriction>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="groundLevelPosition" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De positie van het maaiveld ten opzichte van het lokaal verticaal referentiepunt van de peilbuis.
 Explanation: Dit is de positie van het maaiveld t.o.v. de bovenkant van de peilbuis. De waarde kan positief of negatief zijn. Als de waarde positief is, bevindt de bovenkant van de peilbuis zich boven het maaiveld. Is de waarde negatief, dan bevindt de bovenkant van de peilbuis zich onder het maaiveld. De positie van het maaiveld is van belang om de metingen in de peilbuis in de juiste ruimtelijke context te kunnen plaatsen.</xs:documentation>
-				</xs:annotation>
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:restriction base="gml:MeasureType">
-							<xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
-						</xs:restriction>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="SoilTypeType">
-		<xs:sequence>
-			<xs:element name="soilName"
-                     minOccurs="1"
-                     maxOccurs="1"
-                     type="sadcominternal:SoilNameType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>SoilName</CodeListName>
-						<CodeListURI>urn:bro:sad:SoilName</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van de grondsoort volgens de systematiek die voornamelijk gebaseerd is op NEN 5104.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="sandMedianClass"
-                     minOccurs="0"
-                     maxOccurs="1"
-                     type="sadcominternal:SandMedianClassType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>SandMedianClass</CodeListName>
-						<CodeListURI>urn:bro:sad:SandMedianClass</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mediaan van de zandfractie uitgedrukt in een klasse.
+                </xs:annotation>
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:restriction base="gml:MeasureType">
+                            <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                        </xs:restriction>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="SoilTypeType">
+        <xs:sequence>
+            <xs:element name="soilName" type="sadcominternal:SoilNameType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>SoilName</CodeListName>
+                        <CodeListURI>urn:bro:sad:SoilName</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De naam van de grondsoort volgens de systematiek die voornamelijk gebaseerd is op NEN 5104.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="sandMedianClass" type="sadcominternal:SandMedianClassType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>SandMedianClass</CodeListName>
+                        <CodeListURI>urn:bro:sad:SandMedianClass</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mediaan van de zandfractie uitgedrukt in een klasse.
 Explanation: Betreft de korrelgrootte waarbij de zandfractie van een mengsel in twee massadelen van 50 % is verdeeld. Hierbij wordt de indeling uit de NEN 5104 gehanteerd.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="gravelMedianClass"
-                     minOccurs="0"
-                     maxOccurs="1"
-                     type="sadcominternal:GravelMedianClassType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>GravelMedianClass</CodeListName>
-						<CodeListURI>urn:bro:sad:GravelMedianClass</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mediaan van de grindfractie uitgedrukt in een klasse.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="gravelMedianClass" type="sadcominternal:GravelMedianClassType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>GravelMedianClass</CodeListName>
+                        <CodeListURI>urn:bro:sad:GravelMedianClass</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mediaan van de grindfractie uitgedrukt in een klasse.
 Explanation: Betreft de korrelgrootte waarbij de grindfractie van een mengsel in twee massadelen van 50 % is verdeeld. Hierbij wordt de indeling uit de NEN 5104 gehanteerd.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="gravelContentClass"
-                     minOccurs="0"
-                     maxOccurs="1"
-                     type="sadcominternal:GravelContentClassType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>GravelContentClass</CodeListName>
-						<CodeListURI>urn:bro:sad:GravelContentClass</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte aan grind uitgedrukt in een klasse.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="gravelContentClass" type="sadcominternal:GravelContentClassType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>GravelContentClass</CodeListName>
+                        <CodeListURI>urn:bro:sad:GravelContentClass</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte aan grind uitgedrukt in een klasse.
 Explanation: In de NEN 5104 classificatie wordt het gehalte aan grind altijd geschat. Het gegeven wordt apart vastgelegd wanneer het gehalte minder is dan 30 %. Daarboven bepaalt het gehalte de naam van de grondsoort.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="organicMatterContentClass"
-                     minOccurs="0"
-                     maxOccurs="1"
-                     type="sadcominternal:OrganicMatterContentClassType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>OrganicMatterContentClass</CodeListName>
-						<CodeListURI>urn:bro:sad:OrganicMatterContentClass</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte organische stof uitgedrukt in een klasse.
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="organicMatterContentClass" type="sadcominternal:OrganicMatterContentClassType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>OrganicMatterContentClass</CodeListName>
+                        <CodeListURI>urn:bro:sad:OrganicMatterContentClass</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het gehalte organische stof uitgedrukt in een klasse.
 Explanation: In de NEN 5104 classificatie wordt het gehalte aan organische stof altijd geschat. Het gegeven wordt apart vastgelegd wanneer het gehalte een lagere waarde heeft dan 15%. Daarboven bepaalt het gehalte de naam van de grondsoort.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="ColourObservationType">
-		<xs:sequence>
-			<xs:element name="mainColour"
-                     minOccurs="1"
-                     maxOccurs="1"
-                     type="sadcominternal:ColourTypeType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>ColourType</CodeListName>
-						<CodeListURI>urn:bro:sad:ColourType</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De primaire kleur.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="mainColourStrength"
-                     minOccurs="0"
-                     maxOccurs="1"
-                     type="sadcominternal:ColourStrengthType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>ColourStrength</CodeListName>
-						<CodeListURI>urn:bro:sad:ColourStrength</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De sterkte van de (hoofd-)kleur.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="subColour"
-                     minOccurs="0"
-                     maxOccurs="1"
-                     type="sadcominternal:ColourTypeType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>ColourType</CodeListName>
-						<CodeListURI>urn:bro:sad:ColourType</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De secundaire ofwel bijkleur.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="ParticularConstituentType">
-		<xs:sequence>
-			<xs:element name="type"
-                     minOccurs="1"
-                     maxOccurs="1"
-                     type="sadcominternal:ConstituentTypeType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>ConstituentType</CodeListName>
-						<CodeListURI>urn:bro:sad:ConstituentType</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het soort bijzonder bestandsdeel dat in de bodemlaag is aangetroffen.</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-			<xs:element name="grade"
-                     minOccurs="0"
-                     maxOccurs="1"
-                     type="sadcominternal:ConstituentGradeType">
-				<xs:annotation>
-					<xs:appinfo>
-						<CodeListName>ConstituentGrade</CodeListName>
-						<CodeListURI>urn:bro:sad:ConstituentGrade</CodeListURI>
-					</xs:appinfo>
-					<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De hoeveelheid van het bijzondere bestandsdeel dat in de bodemlaag is aangetroffen</xs:documentation>
-				</xs:annotation>
-			</xs:element>
-		</xs:sequence>
-	</xs:complexType>
-	<xs:complexType name="InvestigationReasonType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:InvestigationReason"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="AsbestosPresenceType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:AsbestosPresence"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="DescribedMaterialType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:DescribedMaterial"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="DescriptionProcedureType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:DescriptionProcedure"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="ConstituentTypeType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:ConstituentType"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="ConstituentGradeType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:ConstituentGrade"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="CoordinateTransformationType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:CoordinateTransformation"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="GravelContentClassType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:GravelContentClass"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="GravelMedianClassType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:GravelMedianClass"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="SoilNameType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:SoilName"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="QuantityType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:Quantity"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="ConditionType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:Condition"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="DeliveryContextType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:DeliveryContext"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="ColourTypeType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:ColourType"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="ColourStrengthType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:ColourStrength"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="LimitSymbolType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:LimitSymbol"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="LimitSymbolReferenceType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:LimitSymbolReference"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="LocalVerticalReferencePointType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:LocalVerticalReferencePoint"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="MeasurementPointTypeType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:MeasurementPointType"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="OilWaterReactionType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:OilWaterReaction"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="ProjectTypeType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:ProjectType"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="OrganicMatterContentClassType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:OrganicMatterContentClass"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="ParameterType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:Parameter"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="CRSType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:CRS"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="RegistrationStatusType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:RegistrationStatus"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="VerticalDatumType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:VerticalDatum"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="ValuationMethodType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:ValuationMethod"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:complexType name="SandMedianClassType">
-		<xs:simpleContent>
-			<xs:restriction base="gml:CodeWithAuthorityType">
-				<xs:attribute name="codeSpace"
-                          type="xs:anyURI"
-                          use="required"
-                          fixed="urn:bro:sad:SandMedianClass"/>
-			</xs:restriction>
-		</xs:simpleContent>
-	</xs:complexType>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ColourObservationType">
+        <xs:sequence>
+            <xs:element name="mainColour" type="sadcominternal:ColourTypeType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>ColourType</CodeListName>
+                        <CodeListURI>urn:bro:sad:ColourType</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De primaire kleur.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="mainColourStrength" type="sadcominternal:ColourStrengthType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>ColourStrength</CodeListName>
+                        <CodeListURI>urn:bro:sad:ColourStrength</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De sterkte van de (hoofd-)kleur.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="subColour" type="sadcominternal:ColourTypeType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>ColourType</CodeListName>
+                        <CodeListURI>urn:bro:sad:ColourType</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De secundaire ofwel bijkleur.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="ParticularConstituentType">
+        <xs:sequence>
+            <xs:element name="type" type="sadcominternal:ConstituentTypeType" minOccurs="1" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>ConstituentType</CodeListName>
+                        <CodeListURI>urn:bro:sad:ConstituentType</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het soort bijzonder bestandsdeel dat in de bodemlaag is aangetroffen.</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="grade" type="sadcominternal:ConstituentGradeType" minOccurs="0" maxOccurs="1">
+                <xs:annotation>
+                    <xs:appinfo>
+                        <CodeListName>ConstituentGrade</CodeListName>
+                        <CodeListURI>urn:bro:sad:ConstituentGrade</CodeListURI>
+                    </xs:appinfo>
+                    <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De hoeveelheid van het bijzondere bestandsdeel dat in de bodemlaag is aangetroffen</xs:documentation>
+                </xs:annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="InvestigationReasonType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:InvestigationReason"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="AsbestosPresenceType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:AsbestosPresence"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="DescribedMaterialType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:DescribedMaterial"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="DescriptionProcedureType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:DescriptionProcedure"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ConstituentTypeType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:ConstituentType"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ConstituentGradeType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:ConstituentGrade"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="CoordinateTransformationType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:CoordinateTransformation"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="GravelContentClassType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:GravelContentClass"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="GravelMedianClassType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:GravelMedianClass"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="SoilNameType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:SoilName"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="QuantityType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:Quantity"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ConditionType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:Condition"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="DeliveryContextType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:DeliveryContext"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ColourTypeType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:ColourType"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ColourStrengthType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:ColourStrength"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="LimitSymbolType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:LimitSymbol"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="LimitSymbolReferenceType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:LimitSymbolReference"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="LocalVerticalReferencePointType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:LocalVerticalReferencePoint"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="MeasurementPointTypeType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:MeasurementPointType"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="OilWaterReactionType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:OilWaterReaction"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ProjectTypeType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:ProjectType"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="OrganicMatterContentClassType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:OrganicMatterContentClass"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ParameterType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:Parameter"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="CRSType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:CRS"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="RegistrationStatusType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:RegistrationStatus"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="VerticalDatumType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:VerticalDatum"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ValuationMethodType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:ValuationMethod"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="SandMedianClassType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:SandMedianClass"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
 </xs:schema>

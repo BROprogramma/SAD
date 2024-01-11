@@ -14,8 +14,8 @@
             <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>      
             <reportDate>2023-04-25</reportDate>   
             <identification>daa6c99f-4eee-44c6-b789-6b1826057114</identification>
-            <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>           
-            <objectIdAccountableParty>MijnReferentieSADUpload</objectIdAccountableParty>           
+            <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>              
+            <objectIdAccountableParty>MijnReferentieSADUpload</objectIdAccountableParty>        
              <!-- Optional -->
             <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType> 
             <!-- Optional -->
