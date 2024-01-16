@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Milieuhygienisch bodemonderzoek SAD/20231205</p>
       <p>Imvertor: Nightly-build.13</p>
-      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-0.99-1-20231205-20240109-151640</p>
+      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-0.99-1-20231205-20240116-090255</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -490,6 +490,9 @@
                                  <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>registratiestatus</em> van de entiteit <em>Registratiegeschiedenis</em> gelijk is aan voltooid.<br clear="none">
                                     Het attribuut mag niet aanwezig zijn in alle andere gevallen.<br clear="none">
                                     De <em>rapportagedatum</em> onderzoek mag niet liggen na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.</p>
+                                 
+                                 <p>Regels IMBRO/A:
+                                    Voor IMBRO/A-gegevens mag het attribuut ontbreken</p>
                                  </td>
                            </tr>
                            <tr>
@@ -925,7 +928,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107499e4870">
+                  <section id="detail_d107565e4879">
                      <h4>  registratiegeschiedenis</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -972,7 +975,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d107499e5098">
+                  <section id="detail_d107565e5107">
                      <h4>  gestandaardiseerde locatie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1017,7 +1020,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d107499e5326">
+                  <section id="detail_d107565e5335">
                      <h4>  rapport</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -2466,7 +2469,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107499e10790">
+                  <section id="detail_d107565e10799">
                      <h4>  aangeleverde verticale positie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3437,7 +3440,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107499e14228">
+                  <section id="detail_d107565e14237">
                      <h4>  grond</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3480,7 +3483,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d107499e14460">
+                  <section id="detail_d107565e14469">
                      <h4>  kleurwaarneming</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3514,7 +3517,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d107499e14645">
+                  <section id="detail_d107565e14654">
                      <h4>  bijzonder bestanddeel</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -5265,7 +5268,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107499e21208">
+                  <section id="detail_d107565e21217">
                      <h4>  aangeleverde verticale positie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -5682,6 +5685,13 @@
                                  het bemonsterde grondwater zijn uitgevoerd.</p>
                               </td>
                         </tr>
+                        <tr>
+                           <th>Regels</th>
+                           <td>
+                              
+                              <p>Tenminste één van de volgende gegevens moet aanwezig zijn: filter belucht of kleurwaarneming.</p>
+                              </td>
+                        </tr>
                      </tbody>
                   </table>
                   <section id="detail_attribute_Model_Veldwaarneming_filterbelucht">
@@ -5727,7 +5737,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107499e22973">
+                  <section id="detail_d107565e22995">
                      <h4>  kleurwaarneming</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -6605,6 +6615,13 @@
                            <tr>
                               <th>&nbsp;&nbsp;Identificerend gegeven</th>
                               <td>SIKB0101ID</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>Het attribuut <em>limietsymboolreferentie</em> mag alleen een waarde hebben wanneer het attribuut <em>limietsymbool</em> een waarde heeft.</p>
+                                 </td>
                            </tr>
                         </tbody>
                      </table>
@@ -13271,7 +13288,7 @@
                   <tr>
                      <td>aantoonbaarheidsgrens</td>
                      <td>1</td>
-                     <td></td>
+                     <td>v</td>
                      <td>v</td>
                      <td>De door het laboratorium vastgestelde kleinste waarde van het gemeten gehalte of de
                         waargenomen waarde van de parameter in een monster, waarvan de aanwezigheid nog met
@@ -13281,7 +13298,7 @@
                   <tr>
                      <td>bepalingsgrens</td>
                      <td>2</td>
-                     <td></td>
+                     <td>v</td>
                      <td>v</td>
                      <td>De door het laboratorium vastgestelde kleinste waarde van het gemeten gehalte of de
                         waargenomen waarde van de parameter in een monster, waarvan de aanwezigheid nog met
@@ -13291,7 +13308,7 @@
                   <tr>
                      <td>rapportagegrens</td>
                      <td>3</td>
-                     <td></td>
+                     <td>v</td>
                      <td>v</td>
                      <td>De door het uitvoerende laboratorium met de opdrachtgever afgesproken kleinste waarde
                         van het gemeten gehalte of de waargenomen waarde van de parameter in een monster,
@@ -13731,6 +13748,7 @@
                   <tr>
                      <td>fax</td>
                      <td>16</td>
+                     <td>v</td>
                      <td>v</td>
                      <td>Verkorte rapportage van een bodemonderzoek per fax</td>
                   </tr>
