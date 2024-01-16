@@ -101,6 +101,7 @@
 	<OnderzoekType>
 		<Waarde>fax</Waarde>
 		<SIKB0101ID>16</SIKB0101ID>
+		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Verkorte rapportage van een bodemonderzoek per fax</Omschrijving>
 	</OnderzoekType>
