@@ -5,13 +5,13 @@
         <SIKB0101ID>208</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Röntgenfluorescentie </Omschrijving>
+        <Omschrijving>Röntgenfluorescentie</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
         <Waarde>PID</Waarde>
         <SIKB0101ID>209</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Photo Ionisatie Detector</Omschrijving>
+        <Omschrijving>Foto-ionisatiedetectie</Omschrijving>
     </WaardebepalingsTechniek>
 </domeintabel>
