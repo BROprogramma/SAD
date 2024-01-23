@@ -12,7 +12,7 @@ Hiermee is ook het onderscheid vastgelegd tussen de registratieobjecten die betr
 ### Bodemonderzoek
 Deze entiteit draagt de naam van het registratieobject zelf en bevat een vijftal algemene gegevens van het registratieobject, die voor ieder registratieobject van toepassing zijn. De algemene gegevens hebben betrekking op het registratieobject zelf; de unieke identificatie (BRO-ID), de bronhouder, de dataleverancier en het van toepassing zijnde <i>kwaliteitsregime</i> (IMBRO/A of IMBRO) van aanlevering.
 
-Daarnaast bevat de entiteit enkele gegevens van het bodemonderzoek zoals de aanleiding van het onderzoek, het type onderzoek, de contour van de onderzoekslocatie, de rapportgegevens en de belangrijkste conclusies van het onderzoeksbureau. De conclusie van het onderzoeksbureau wordt gezien als informatief en dus niet-authentiek. Tevens bevat deze entiteit het zogenaamde ‘SIKB-ID’ (unieke SIKB0101 Identificatie in de vorm van een GUID), waaronder het onderzoek in de ketensystemen is vastgelegd.
+Daarnaast bevat de entiteit enkele gegevens van het bodemonderzoek zoals de aanleiding van het onderzoek, het type onderzoek, de contour van de onderzoekslocatie, de rapportgegevens en de belangrijkste conclusies van het onderzoeksbureau. De conclusie van het onderzoeksbureau wordt gezien als informatief en dus niet-authentiek. Tevens bevat deze entiteit het zogenaamde ‘SIKB-ID’ (unieke SIKB0101 Identificatie in de vorm van een GUID), waaronder het onderzoek in de ketensystemen is vastgelegd.  
 Het bodemonderzoek bevat een drietal zogenaamde gegevensgroepen; de <i>Gestandaardiseerde locatie</i> (BRO generiek), de <i>Registratiegeschiedenis</i> (BRO generiek) en de rapportgegevens.
 
 <figure>
@@ -32,7 +32,7 @@ De geometrie van het milieuhygiënisch bodemonderzoek kan worden aangeleverd ten
 Binnen deze gegevensgroep is een viertal kenmerken van het rapport vastgelegd. Een rapportnummer, een rapportdatum, een rapporteur en de URL waar rapport te downloaden is. Onder de rapporteur wordt verstaan de naam van het onderzoeksbureau zoals op het rapport vermeld. Aangezien deze gegevens niet gestandaardiseerd beschikbaar zijn kan dit gegeven worden aangeleverd als vrije tekst. Dit betekent dat deze gegevens dus informatief en niet-authentiek zijn.
 			
 ### Meetpunt
-Deze entiteit bevat de gegevens die het meetpunt identificeren inclusief de belangrijkste administratieve gegevens en de informatie over de geometrie van de meetpunt(en) die zijn geplaatst in het kader van het onderzoek. Diepten van het meetpunt worden standaard gerefereerd aan het maaiveld. Indien de hoogte van het maaiveld bekend is kan dit worden gerefereerd aan een vast referentievlak. Binnen dit registratieobject is dat NAP.
+Deze entiteit bevat de gegevens die het meetpunt identificeren inclusief de belangrijkste administratieve gegevens en de informatie over de geometrie van de meetpunt(en) die zijn geplaatst in het kader van het onderzoek. Diepten van het meetpunt worden standaard gerefereerd aan het maaiveld. Indien de hoogte van het maaiveld bekend is kan dit worden gerefereerd aan een vast referentievlak. Binnen dit registratieobject is dat NAP.  
 Het meetpunt bevat vervolgens een boorbeschrijving, een boorprofiel en een beschrijving van de bodemlagen en bijzonderheden. Deze onderdelen zijn in het model ondergebracht in aparte entiteiten.
 			
 ### Grondmonstername, grondmonsteranalyse en mengmonsteranalyse
