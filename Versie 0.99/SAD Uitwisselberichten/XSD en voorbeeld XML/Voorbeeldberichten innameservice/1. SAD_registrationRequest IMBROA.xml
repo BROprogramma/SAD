@@ -1697,6 +1697,12 @@
                                     <sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
                                 </sam:SamplingFeatureComplex>
                             </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_c1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
                             <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
                             <spec:samplingTime>
                                 <gml:TimeInstant gml:id="_a2cbe497-668b-497b-afd7-6f148615e6e8">
@@ -2358,7 +2364,7 @@
                             <immetingen:physicalProperty>
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
-                                    <immetingen:parameter>urn:immetingen:parameter:id:311</immetingen:parameter>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1116</immetingen:parameter>
                                     <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
@@ -2403,7 +2409,7 @@
                             <immetingen:physicalProperty>
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
-                                    <immetingen:parameter>urn:immetingen:parameter:id:311</immetingen:parameter>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1097</immetingen:parameter>
                                     <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
@@ -2582,7 +2588,7 @@
                             <immetingen:physicalProperty>
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
-                                    <immetingen:parameter>urn:immetingen:parameter:id:311</immetingen:parameter>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1116</immetingen:parameter>
                                     <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
@@ -2627,7 +2633,7 @@
                             <immetingen:physicalProperty>
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
-                                    <immetingen:parameter>urn:immetingen:parameter:id:311</immetingen:parameter>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1097</immetingen:parameter>
                                     <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>

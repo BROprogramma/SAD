@@ -1672,6 +1672,12 @@
                                     <sam:relatedSamplingFeature xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
                                 </sam:SamplingFeatureComplex>
                             </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_c1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
                             <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
                             <spec:samplingTime>
                                 <gml:TimeInstant gml:id="_a2cbe497-668b-497b-afd7-6f148615e6e8">
@@ -2280,7 +2286,7 @@
                             <immetingen:physicalProperty>
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
-                                    <immetingen:parameter>urn:immetingen:parameter:id:311</immetingen:parameter>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1116</immetingen:parameter>
                                     <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
@@ -2318,7 +2324,7 @@
                             <immetingen:physicalProperty>
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
-                                    <immetingen:parameter>urn:immetingen:parameter:id:311</immetingen:parameter>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1097</immetingen:parameter>
                                     <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
@@ -2395,6 +2401,139 @@
                         </immetingen:AnalysisProcess>
                     </imsikb0101:featureMember>
                     <!-- /Grondwater AnalysisProcess -->
+                    <!-- Individueel Grondmonster -->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_c1adf8f7-e0cd-4810-a93e-60580f34b3fa">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_be30a56d-438c-4486-bd82-68b4bb70e4da"/>
+                            <sam:relatedObservation xlink:href="#_5e2651fb-efa0-4d6a-a48a-001daba223b4"/>                            
+                            <!-- Deelmonster 1-->
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <!-- /Deelmonster 1 -->
+                            <spec:materialClass xlink:href="urn:immetingen:Compartiment:id:1"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_99f63e1e-a156-461c-8d77-bbaf108b60a4">
+                                    <gml:timePosition>2018-03-19T11:00:00+01:00</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:specimenType xlink:href="urn:immetingen:Monstertype:id:10"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>c1adf8f7-e0cd-4810-a93e-60580f34b3fa</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>PB01-POT3</immetingen:name>
+                            <immetingen:startTime>2018-03-19T11:00:00+01:00</immetingen:startTime>
+                            <imsikb0101:inProject xlink:href="#_9e0c2e47-5019-4846-bf80-050c79a09ff2"/>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:AnalysisProcess gml:id="_a911262c-d247-4aad-8fea-ae095f62b495">
+                            <immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:12</immetingen:analyticalTechnique>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>a911262c-d247-4aad-8fea-ae095f62b495</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
+                            <immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
+                            <immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:36</immetingen:sampleDestructionMethod>
+                            <immetingen:samplePretreatmentMethod>urn:iimsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
+                            <immetingen:samplePretreatmentDate>2018-03-19</immetingen:samplePretreatmentDate>
+                            <immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
+                        </immetingen:AnalysisProcess>
+                    </imsikb0101:featureMember>
+                    <!-- Analysis -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_5e2651fb-efa0-4d6a-a48a-001daba223b4">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant gml:id="_2645261c-381e-4af2-a7d5-78fc4e73aa78">
+                                    <gml:timePosition>2018-04-19T18:22:55</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure xlink:href="#_a911262c-d247-4aad-8fea-ae095f62b495"/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">0.080</immetingen:numericValue>
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:alphanumericValue>0.080 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>5e2651fb-efa0-4d6a-a48a-001daba223b4</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1116</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                            <immetingen:statusOfAnalysis>
+                                <immetingen:AnalysisStatus>
+                                    <immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
+                                    <immetingen:dateExpected>2018-04-20</immetingen:dateExpected>
+                                    <immetingen:versionNumber>115</immetingen:versionNumber>
+                                </immetingen:AnalysisStatus>
+                            </immetingen:statusOfAnalysis>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!--Analyse met limietsymbool -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_be30a56d-438c-4486-bd82-68b4bb70e4da">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant gml:id="_3645261c-381e-4af2-a7d5-78fc4e73aa34">
+                                    <gml:timePosition>2018-04-19T18:22:55</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure xlink:href="#_9911262c-d247-4aad-8fea-ae095f62b495"/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_b1adf8f7-e0cd-4810-a93e-60580f34b3fa"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">0.002</immetingen:numericValue>
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol><![CDATA[<]]></immetingen:limitSymbol>
+                                <immetingen:alphanumericValue>&lt; 0.002 mg/kg ds</immetingen:alphanumericValue>
+                                <immetingen:limits>
+                                    <immetingen:DeterminationLimits>
+                                        <immetingen:limitSymbolReferenceCode>urn:immetingen:LimietSymboolReferentie:id:3</immetingen:limitSymbolReferenceCode>
+                                    </immetingen:DeterminationLimits>
+                                </immetingen:limits>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>be30a56d-438c-4486-bd82-68b4bb70e4da</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1097</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                            <immetingen:statusOfAnalysis>
+                                <immetingen:AnalysisStatus>
+                                    <immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
+                                    <immetingen:dateExpected>2018-04-20</immetingen:dateExpected>
+                                    <immetingen:versionNumber>115</immetingen:versionNumber>
+                                </immetingen:AnalysisStatus>
+                            </immetingen:statusOfAnalysis>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
                 </imsikb0101:FeatureCollectionIMSIKB0101>
             </featureCollection>
         </SAD_O_DP>

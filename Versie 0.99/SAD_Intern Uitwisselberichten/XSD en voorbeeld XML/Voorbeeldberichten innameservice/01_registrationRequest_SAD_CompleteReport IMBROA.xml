@@ -264,7 +264,7 @@
                                         <sadcom:Analysis gml:id="_be30a56d-438c-4486-bd82-68b4bb70e4da">
                                             <sadcom:identification>be30a56d-438c-4486-bd82-68b4bb70e4da</sadcom:identification>
                                             <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>    
-                                            <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1116</sadcom:parameter>                                                                                                                                                                            
+                                            <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1097</sadcom:parameter>                                                                                                                                                                            
                                             <sadcom:analysisMeasurementValue uom="mg/kg">0.002</sadcom:analysisMeasurementValue>
                                             <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
                                             <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>                                            
@@ -281,7 +281,7 @@
                                         <sadcom:Analysis gml:id="_5e2651fb-efa0-4d6a-a48a-001daba223b4">
                                             <sadcom:identification>5e2651fb-efa0-4d6a-a48a-001daba223b4</sadcom:identification>                                         
                                             <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
-                                            <sadcom:parameter codeSpace="urn:bro:sad:Parameter">808</sadcom:parameter> 
+                                            <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1116</sadcom:parameter> 
                                             <sadcom:analysisMeasurementValue uom="mg/kg">0.080</sadcom:analysisMeasurementValue>
                                             <sadcom:condition codeSpace="urn:bro:sad:Condition">1</sadcom:condition>  
                                             <sadcom:analysisProcess xlink:href="#_a911262c-d247-4aad-8fea-ae095f62b495"/>
@@ -303,7 +303,7 @@
                         <sadcom:Analysis gml:id="_ae30a56d-438c-4486-bd82-68b4bb70e4da">
                             <sadcom:identification>ae30a56d-438c-4486-bd82-68b4bb70e4da</sadcom:identification>
                             <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
-                            <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1116</sadcom:parameter>
+                            <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1097</sadcom:parameter>
                             <sadcom:analysisMeasurementValue uom="mg/kg">0.001</sadcom:analysisMeasurementValue>
                             <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
                             <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportagegrens</sadcom:limitSymbolReference>
@@ -320,7 +320,7 @@
                         <sadcom:Analysis gml:id="_4e2651fb-efa0-4d6a-a48a-001daba223b4">
                             <sadcom:identification>4e2651fb-efa0-4d6a-a48a-001daba223b4</sadcom:identification>
                             <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
-                            <sadcom:parameter codeSpace="urn:bro:sad:Parameter">808</sadcom:parameter>     
+                            <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1116</sadcom:parameter>     
                             <sadcom:analysisMeasurementValue uom="mg/kg">0.078</sadcom:analysisMeasurementValue>
                             <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>   
                             <sadcom:condition codeSpace="urn:bro:sad:Condition">1</sadcom:condition>                    
