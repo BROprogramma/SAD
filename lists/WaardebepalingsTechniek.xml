@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <WaardebepalingsTechniek>
+        <Waarde>potentiometrie</Waarde>
+        <SIKB0101ID>31</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Potentiometrie.</Omschrijving>
+    </WaardebepalingsTechniek>
+    <WaardebepalingsTechniek>
+        <Waarde>conductometrie</Waarde>
+        <SIKB0101ID>40</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Conductometrie.</Omschrijving>
+    </WaardebepalingsTechniek>
+    <WaardebepalingsTechniek>
+        <Waarde>luminescentie</Waarde>
+        <SIKB0101ID>186</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Luminescentie</Omschrijving>
+    </WaardebepalingsTechniek>
+    <WaardebepalingsTechniek>
+        <Waarde>thermometrie</Waarde>
+        <SIKB0101ID>200</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Thermometrie</Omschrijving>
+    </WaardebepalingsTechniek>
+    <WaardebepalingsTechniek>
         <Waarde>XRF</Waarde>
         <SIKB0101ID>220</SIKB0101ID>
         <IMBRO>v</IMBRO>
