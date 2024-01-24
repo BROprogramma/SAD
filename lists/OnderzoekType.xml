@@ -45,7 +45,7 @@
 	<OnderzoekType>
 		<Waarde>orienterendBodemonderzoek</Waarde>
 		<SIKB0101ID>7</SIKB0101ID>
-		<<IMBRO/>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een algemeen onderzoek waarin gekeken wordt of op een locatie bodemverontreiniging voorkomt. In veel onderzoeken wordt een onderzoeksstrategie gehanteerd uit de NEN 5740</Omschrijving>
 	</OnderzoekType>
