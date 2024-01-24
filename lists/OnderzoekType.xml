@@ -3,7 +3,7 @@
 	<OnderzoekType>
 		<Waarde>bijzonderInventariserendOnderzoek</Waarde>
 		<SIKB0101ID>1</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een inventariserend onderzoek in een speciaal kader</Omschrijving>
 	</OnderzoekType>
@@ -17,14 +17,14 @@
 	<OnderzoekType>
 		<Waarde>indicatiefOnderzoek</Waarde>
 		<SIKB0101ID>3</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een beperkt bodemonderzoek met als doel te onderzoeken of er sprake is van bodemverontreiniging</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>bodemSaneringBedrijven</Waarde>
 		<SIKB0101ID>4</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een bodemonderzoek met als doel te onderzoeken of er sprake is van bodemverontreiniging in het kader van de algemene maatregel van bestuur: bodemsanering van in gebruik zijnde bedrijfsterreinen</Omschrijving>
 	</OnderzoekType>
@@ -38,14 +38,14 @@
 	<OnderzoekType>
 		<Waarde>verkennendOnderzoekNVN5740</Waarde>
 		<SIKB0101ID>6</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een bodemonderzoek volgens norm NVN 5740 ie beschrijft welke bodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de bodemkwaliteit op een locatie. De NEN 5740 is de opvolger van deze norm</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>orienterendBodemonderzoek</Waarde>
 		<SIKB0101ID>7</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een algemeen onderzoek waarin gekeken wordt of op een locatie bodemverontreiniging voorkomt. In veel onderzoeken wordt een onderzoeksstrategie gehanteerd uit de NEN 5740</Omschrijving>
 	</OnderzoekType>
@@ -55,13 +55,6 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging</Omschrijving>
-	</OnderzoekType>
-	<OnderzoekType>
-		<Waarde>saneringsOnderzoek</Waarde>
-		<SIKB0101ID>9</SIKB0101ID>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een onderzoek waarin verschillende mogelijke varianten worden beschreven om een vastgestelde verontreiniging te saneren</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>saneringsEvaluatie</Waarde>
@@ -87,21 +80,21 @@
 	<OnderzoekType>
 		<Waarde>briefRapport</Waarde>
 		<SIKB0101ID>14</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een verkorte rapportage van een bodemonderzoek in briefvorm</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>aanvullendRapport</Waarde>
 		<SIKB0101ID>15</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een rapport van een bodemonderzoek ter aanvulling op een of meer eerder opgestelde rapporten</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>fax</Waarde>
 		<SIKB0101ID>16</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Verkorte rapportage van een bodemonderzoek per fax</Omschrijving>
 	</OnderzoekType>
@@ -115,20 +108,21 @@
 	<OnderzoekType>
 		<Waarde>bouwstoffenBesluit</Waarde>
 		<SIKB0101ID>18</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een rapport dat het onderzoek naar de kwaliteit van een bouwstof (inclusief grond) beschrijft, en is opgesteld in het kader van het voormalige Bouwstoffenbesluit</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>preHO</Waarde>
 		<SIKB0101ID>19</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een onderzoek dat is verricht voorafgaand aan een historisch onderzoek, bijvoorbeeld een archiefinventarisatie</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>boot</Waarde>
 		<SIKB0101ID>20</SIKB0101ID>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een bodemonderzoek dat is verricht bij een ondergrondse tank in het kader van het Besluit Opslag Ondergrondse Tanks (BOOT)</Omschrijving>
 	</OnderzoekType>
@@ -149,28 +143,28 @@
 	<OnderzoekType>
 		<Waarde>meldingsformulierBusEvaluatieverslag</Waarde>
 		<SIKB0101ID>24</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een melding van een evaluatieverslag van een uitgevoerde sanering in het kader van het Besluit Uniforme Saneringen</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>verkennendOnderzoekStortplaatsen</Waarde>
 		<SIKB0101ID>33</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een onderzoek dat is uitgevoerd volgens het onderzoeksprotocol voor een eerste evaluatie van bodemverontreiniging op voormalige stortplaatsen</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>versnellingsProtocolSpoedlocaties</Waarde>
 		<SIKB0101ID>34</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Onderzoek, uitgevoerd volgens de handreiking Identificatie Spoedlocaties ten behoeve van snelle schifting op potentieel spoed/geen spoed.</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>organisatieSpecifiekOnderzoek</Waarde>
 		<SIKB0101ID>35</SIKB0101ID>
-		<IMBRO>v</IMBRO>
+		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Onderzoek dat volgens een organisatiespecifieke richtlijn is uitgevoerd. Geef in de entiteit Opmerking behorende bij de entiteit Onderzoek aan om welke organisatie en richtlijn het gaat.</Omschrijving>
 	</OnderzoekType>
