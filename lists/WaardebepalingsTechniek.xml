@@ -29,17 +29,17 @@
         <Omschrijving>Thermometrie</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
-        <Waarde>XRF</Waarde>
-        <SIKB0101ID>220</SIKB0101ID>
+        <Waarde>röntgenfluorescentie</Waarde>
+        <SIKB0101ID>ntb</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Röntgenfluorescentie</Omschrijving>
+        <Omschrijving>Röntgenfluorescentie (XRF)</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
-        <Waarde>PID</Waarde>
+        <Waarde>fotoIonisatiedetectie</Waarde>
         <SIKB0101ID>221</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Foto-ionisatiedetectie</Omschrijving>
+        <Omschrijving>Foto-ionisatiedetectie (PID)</Omschrijving>
     </WaardebepalingsTechniek>
 </domeintabel>
