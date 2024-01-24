@@ -6,4 +6,10 @@
         <IMBROA>v</IMBROA>
         <Omschrijving>De gegevens zijn aangeleverd in het kader van archiefoverdracht.</Omschrijving>
     </KaderAanlevering>
+    <KaderAanlevering>
+        <Waarde>omgevingsrecht</Waarde>
+        <IMBRO>v</IMBRO>
+        <IMBROA/>
+        <Omschrijving>De gegevens zijn aangeleverd in het kader van het omgevingsrecht.</Omschrijving>
+    </KaderAanlevering>
 </domeintabel>
