@@ -78,7 +78,7 @@
         <ToegestaneEenheid>meter (115)</ToegestaneEenheid>
     </Grootheid>
         <Grootheid>
-        <Waarde>PID</Waarde>
+        <Waarde>pid</Waarde>
         <SIKB0101ID>5169</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
