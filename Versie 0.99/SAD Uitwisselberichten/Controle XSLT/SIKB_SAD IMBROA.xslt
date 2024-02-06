@@ -26,8 +26,8 @@
             </xsl:if>
             <xsl:if test="not(//immetingen:Organization[contains('|64|', concat('|', substring-after(immetingen:organisationType, ':id:'), '|'))]) or not(count(//imsikb0101:Project) = 1)">
                 <!-- Check existence Adviesbureau -->
-                <xsl:variable name="message" select="'In het xml-bestand moet minimaal een Adviesbureau organisatie zijn opgenomen.'"/>
-                <xsl:copy-of select="sikb:createRecord('ERROR', 'xml-bestand', $message)"/>
+                <xsl:variable name="message" select="'In het xml-bestand mag een Adviesbureau organisatie als Rapport auteur zijn opgenomen.'"/>
+                <xsl:copy-of select="sikb:createRecord('WARNING', 'xml-bestand', $message)"/>
             </xsl:if>
             <xsl:apply-templates select="//imsikb0101:SoilLocation"/>
             <xsl:apply-templates select="//imsikb0101:Project"/>           
