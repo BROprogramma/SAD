@@ -26,15 +26,18 @@ Het bodemonderzoek bevat een drietal zogenaamde gegevensgroepen; de <i>Gestandaa
 De registratiegeschiedenis van een milieuhygiënisch bodemonderzoek geeft de essentie van de geschiedenis van het object in de registratie ondergrond, de zgn. formele geschiedenis. De registratiegeschiedenis vertelt bijvoorbeeld wanneer een object is geregistreerd en of er na registratie correcties zijn doorgevoerd. Deze gegevensgroep wordt niet aangeleverd maar intern binnen de registratie ondergrond vastgelegd.
 			
 ### Gestandaardiseerde locatie
-De geometrie van het milieuhygiënisch bodemonderzoek kan worden aangeleverd ten opzichte van drie referentiestelsels (RD, ETRS89 en WGS84). Binnen de basisregistratie ondergrond worden gegevens die aangeleverd zijn volgens RD of WGS84 volgens een gedefinieerde methodiek omgezet naar ETRS89. Deze bewerking vindt plaats binnen de BRO zodat aan de uitgifte kant altijd kan worden uitgeleverd in ETRS89 én het oorspronkelijk aangeleverde referentiestelsel. De gestandaardiseerde locatie wordt vastgelegd, evenals de methode waarop de transformatie is uitgevoerd. Deze gegevensgroep heeft geen invloed op de aanlevering.
+De geometrie van het milieuhygiënisch bodemonderzoek kan worden aangeleverd ten opzichte van drie referentiestelsels (RD, ETRS89 en WGS84). Binnen de basisregistratie ondergrond worden gegevens die aangeleverd zijn volgens RD of WGS84 volgens een gedefinieerde methodiek omgezet naar ETRS89. Deze bewerking vindt plaats binnen de BRO zodat aan de uitgifte kant altijd kan worden uitgeleverd in ETRS89 én het oorspronkelijk aangeleverde referentiestelsel. De gestandaardiseerde locatie wordt op basis van de aanlevering automatisch vastgelegd.
 
 ### Rapport
 Binnen deze gegevensgroep is een viertal kenmerken van het rapport vastgelegd. Een rapportnummer, een rapportdatum, een rapporteur en de URL waar rapport te downloaden is. Onder de rapporteur wordt verstaan de naam van het onderzoeksbureau zoals op het rapport vermeld. Aangezien deze gegevens niet gestandaardiseerd beschikbaar zijn kan dit gegeven worden aangeleverd als vrije tekst. Dit betekent dat deze gegevens dus informatief en niet-authentiek zijn.
 			
 ### Meetpunt
 Deze entiteit bevat de gegevens die het meetpunt identificeren inclusief de belangrijkste administratieve gegevens en de informatie over de geometrie van de meetpunt(en) die zijn geplaatst in het kader van het onderzoek. Diepten van het meetpunt worden standaard gerefereerd aan het maaiveld. Indien de hoogte van het maaiveld bekend is kan dit worden gerefereerd aan een vast referentievlak. Binnen dit registratieobject is dat NAP.  
-Het meetpunt bevat vervolgens een boorbeschrijving, een boorprofiel en een beschrijving van de bodemlagen en bijzonderheden. Deze onderdelen zijn in het model ondergebracht in aparte entiteiten.
-			
+Het meetpunt kan vervolgens een boorbeschrijving, een boorprofiel en een beschrijving van de bodemlagen en bijzonderheden bevatten. Deze onderdelen zijn in het model ondergebracht in aparte entiteiten.
+
+### Asbest, deelgebied en asbestresultaat
+De entiteit bevat informatie over eventueel tijdens het onderzoek aangetroffen asbest. Het voorkomen van asbest wordt bepaald per deelgebied of per meetpunt waarbij tevens de diepte is aangegeven waarop mogelijk asbest is aangetroffen. Het resultaat wordt uitgedrukt in een gewogen gehalte. Er kan worden aangegeven of ook asbest(plaat-)materiaal is aangetroffen. 
+
 ### Grondmonstername, grondmonsteranalyse en mengmonsteranalyse
 Deze entiteiten bevatten de gegevens van de grondmonstername en de grondmonsters die worden genomen tijdens het plaatsen van het meetpunt. Grondmonsters kunnen binnen een milieuhygiënisch bodemonderzoek worden samengesteld tot een mengmonster. De (meng-)monsters worden vervolgens ter analyse aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses.
 
@@ -43,7 +46,10 @@ Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belan
 
 ### Grondwatermonstername en grondwateranalyse
 Deze entiteiten bevatten de gegevens van de grondwatermonstername uit de filter en de grondwatermonsters die vervolgens ter analyse worden aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses. Tevens kan vanuit de grondwatermonstername een koppeling worden gelegd met de veldwaarnemingen en veldmetingen.
-			
+
+### Velwaarnemingen en veldmeting
+Deze entiteiten bevatten de waarnemingen en resultaten van metingen zoals die zijn gedaan tijdens de monstername. De veldmetingen kunnen betrekking hebben op zowel grond als grondwater.
+   
 ### Analyse
 Deze entiteit bevat de resultaten van de analyses die door een laboratorium worden uitgevoerd op de aangeleverde grondmonsters, mengmonsters van grondmonsters of grondwatermonsters.
 
@@ -51,4 +57,4 @@ Deze entiteit bevat de resultaten van de analyses die door een laboratorium word
 Deze entiteit bevat de gegevens over de analysemethode die op het laboratorium is gebruikt.
 
 ## INSPIRE
-Het doel van de Europese kaderrichtlijn INSPIRE is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject milieuhygiënisch bodemonderzoek valt niet onder een bestaand INSPIRE-thema. Mogelijk zal hier op een later tijdstip invulling aan worden gegeven.
+Het doel van de Europese kaderrichtlijn INSPIRE is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject milieuhygiënisch bodemonderzoek valt onder een bestaand INSPIRE-thema. Hier zal op een later tijdstip invulling aan worden gegeven.
