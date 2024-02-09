@@ -74,7 +74,7 @@ In de BRO zijn vier registratieobjecten opgenomen die een samenhang hebben met g
 	- Grondwaterkwaliteitsonderzoek (GAR)
 	- Grondwatermonitoringnet (GMN)
 	
-Er is gekozen om een strikte scheiding aan te brengen tussen dat ontstaan in het milieudomein en andersoortige data. De wijze waarop deze registratieobjecten worden aangeleverd en zijn gemodelleerd verschillen dusdanig van het milieudomein dat dit het beheer te complex zou maken. In de praktijk zijn deze werkvelden ook gescheiden.
+Er is gekozen om een strikte scheiding aan te brengen tussen data ontstaan in het milieudomein en andersoortige data. De wijze waarop deze registratieobjecten worden aangeleverd en zijn gemodelleerd verschillen dusdanig van het milieudomein dat dit het beheer te complex zou maken. In de praktijk zijn deze werkvelden ook gescheiden.
 
 Waar mogelijk zijn de standaarden van genoemde registratieobjecten wel gebruikt als basis bij het vaststellen van de standaarden voor de registratieobjecten binnen het domein milieukwaliteit.
 
