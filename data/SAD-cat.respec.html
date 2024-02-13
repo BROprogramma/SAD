@@ -454,29 +454,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>registratiestatus</em> van de entiteit <em>Registratiegeschiedenis</em> gelijk is aan voltooid.<br clear="none">
-                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.<br clear="none">
+                        <p>Het atrribuut <em>rapportagedatum</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
                            De <em>rapportagedatum</em> onderzoek mag niet liggen na het <em>tijdstip voltooiing registratie</em> van de entiteit <em>Registratiegeschiedenis</em>.<br clear="none">
                            </p>
-                        </td>
-                  </tr>
-                  <tr>
-                     <th>Regels IMBRO/A</th>
-                     <td>
-                        
-                        <p>Voor gegevens aangeleverd onder IMBRO/A mag het attribuut ontbreken.</p>
-                        </td>
-                  </tr>
-                  <tr>
-                     <th>Toelichting</th>
-                     <td>
-                        
-                        <p>Het gegeven is alleen aanwezig wanneer het bodemonderzoek is gerapporteerd en het
-                           onderzoek is afgesloten.<br clear="none">
-                           Hier wordt niet de datum van het onderzoeksrapport bedoeld. De datum van het onderzoeksrapport
-                           wordt vastgelegd bij de gegevensgroep <em>Rapport</em> als <em>rapportdatum</em>.<br clear="none">
-                           Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal
-                           onbekend.</p>
                         </td>
                   </tr>
                </tbody>
@@ -758,8 +738,9 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>asbest onderzocht</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
-                           </p>
+                        <p>Het attribuut <em>asbest onderzocht</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                           De entiteit <em>Deelgebied</em> of de gegevensgroep <em>Asbest</em> bij de entiteit <em>Bodemlaag</em> moet aanwezig zijn wanneer <em>asbest onderzoch</em>t <em>* de waarde</em>aanwezig<em>of</em>afwezig * heeft voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                           De entiteit <em>Deelgebied</em> en de gegevensgroep <em>Asbest</em> bij de entiteit <em>Bodemlaag</em> mogen niet aanwezig zijn wanneer <em>asbest onderzoch</em>t <em>* de waarde</em>onbekend<em>of</em>nietOnderzocht* heeft voor gegevens aangeleverd onder IMBRO-regime.</p>
                         </td>
                   </tr>
                   <tr>
@@ -767,7 +748,10 @@
                      <td>
                         
                         <p>Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht
-                           is het gegeven niet altijd vastgelegd.</p>
+                           is het gegeven niet altijd vastgelegd.
+                           Afhankelijk van de gehanteerde onderzoeksmethode kunnen de asbestresultaten betrekking
+                           hebben op een (dieptetraject binnen) een deelgebied of op de bodemlaag van een individueel
+                           meetpunt.</p>
                         </td>
                   </tr>
                </tbody>
@@ -933,7 +917,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d104941e5024">
+         <section id="detail_d104896e4984">
             <h4>  registratiegeschiedenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -981,7 +965,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d104941e5252">
+         <section id="detail_d104896e5212">
             <h4>  gestandaardiseerde locatie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -1026,7 +1010,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d104941e5480">
+         <section id="detail_d104896e5440">
             <h4>  rapport</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -1969,8 +1953,9 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Tenminste één van de volgende attributen moet aanwezig zijn: nummer, datum, auteur
-                        of URL.</p>
+                     <p>De entiteit <em>Rapport</em> moet aanwezig voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                        Voor gegevens aangeleverd onder IMBRO/A-regime moet tenminste één van de volgende
+                        attributen aanwezig zijn: nummer, datum, auteur of URL.</p>
                      </td>
                </tr>
             </tbody>
@@ -2499,7 +2484,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d104941e11037">
+         <section id="detail_d104896e11004">
             <h4>  aangeleverde verticale positie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3455,7 +3440,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d104941e14147">
+         <section id="detail_d104896e14114">
             <h4>  grond</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3498,7 +3483,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d104941e14379">
+         <section id="detail_d104896e14346">
             <h4>  kleurwaarneming</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3532,7 +3517,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d104941e14564">
+         <section id="detail_d104896e14531">
             <h4>  bijzonder bestanddeel</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3566,7 +3551,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d104941e14749">
+         <section id="detail_d104896e14716">
             <h4>  asbest</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -5461,7 +5446,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d104941e22147">
+         <section id="detail_d104896e22114">
             <h4>  aangeleverde verticale positie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -5930,7 +5915,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d104941e23964">
+         <section id="detail_d104896e23931">
             <h4>  kleurwaarneming</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -7475,7 +7460,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d104941e29717">
+         <section id="detail_d104896e29684">
             <h4>  asbest</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -12714,7 +12699,7 @@
                <th>Omschrijving</th>
             </tr>
             <tr>
-               <td>OW</td>
+               <td>omgevingswet</td>
                <td>v</td>
                <td></td>
                <td>De gegevens zijn tot stand gekomen onder het regime van de Omgevingswet.</td>
