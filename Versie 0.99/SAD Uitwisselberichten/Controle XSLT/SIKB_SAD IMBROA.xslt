@@ -79,14 +79,9 @@
         </xsl:if>
         <!-- Check existence Analysis for Watersamples or AnalysisSamples-->
         <xsl:if test="not(//immetingen:Analysis)">
-            <xsl:variable name="message" select="'In het xml-bestand moet een Analysis zijn opgenomen.'"/>
-            <xsl:copy-of select="sikb:createRecord('ERROR', 'xml-bestand', $message)"/>
-        </xsl:if>
-        <xsl:if test="not(//immetingen:Analysis)">
-            <xsl:variable name="message" select="'In het xml-bestand moet een Analysis zijn opgenomen.'"/>
-            <xsl:copy-of select="sikb:createRecord('ERROR', 'xml-bestand', $message)"/>
-        </xsl:if>
-        
+            <xsl:variable name="message" select="'In het xml-bestand is geen Analysis gevonden, klopt dat?'"/>
+            <xsl:copy-of select="sikb:createRecord('WARING', 'xml-bestand', $message)"/>
+        </xsl:if>        
     </xsl:template>
     <!--> Check of er een locatie is meegeleverd -->
     <xsl:template match="imsikb0101:SoilLocation">
