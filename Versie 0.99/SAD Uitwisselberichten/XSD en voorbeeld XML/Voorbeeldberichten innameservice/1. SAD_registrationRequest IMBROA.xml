@@ -955,13 +955,13 @@
                             <sams:shape/>
                             <imsikb0101:upperDepth>
                                 <immetingen:Depth>
-                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0.0</immetingen:value>
                                     <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
                                 </immetingen:Depth>
                             </imsikb0101:upperDepth>
                             <imsikb0101:lowerDepth>
                                 <immetingen:Depth>
-                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50.0</immetingen:value>
                                     <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
                                 </immetingen:Depth>
                             </imsikb0101:lowerDepth>

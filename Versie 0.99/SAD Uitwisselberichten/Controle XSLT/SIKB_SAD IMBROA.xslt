@@ -994,13 +994,13 @@
             <!-- Iterate over the sorted layers -->
             <xsl:for-each select="$sortedLayers/imsikb0101:Layer">
                 <xsl:variable name="currentLayer" select="."/>
-                <xsl:variable name="currentUpperDepth" select="xsi:integer(imsikb0101:upperDepth/immetingen:Depth/immetingen:value)"/>
-                <xsl:variable name="currentLowerDepth" select="xsi:integer(imsikb0101:lowerDepth/immetingen:Depth/immetingen:value)"/>
+                <xsl:variable name="currentUpperDepth" select="xsi:decimal(imsikb0101:upperDepth/immetingen:Depth/immetingen:value)"/>
+                <xsl:variable name="currentLowerDepth" select="xsi:decimal(imsikb0101:lowerDepth/immetingen:Depth/immetingen:value)"/>
                 <!-- Check if there's a next layer -->
                 <xsl:if test="following-sibling::imsikb0101:Layer">
                     <xsl:variable name="nextLayer" select="following-sibling::imsikb0101:Layer[1]"/>
-                    <xsl:variable name="nextUpperDepth" select="xsi:integer($nextLayer/imsikb0101:upperDepth/immetingen:Depth/immetingen:value)"/>
-                    <xsl:variable name="nextLowerDepth" select="xsi:integer($nextLayer/imsikb0101:lowerDepth/immetingen:Depth/immetingen:value)"/>
+                    <xsl:variable name="nextUpperDepth" select="xsi:decimal($nextLayer/imsikb0101:upperDepth/immetingen:Depth/immetingen:value)"/>
+                    <xsl:variable name="nextLowerDepth" select="xsi:decimal($nextLayer/imsikb0101:lowerDepth/immetingen:Depth/immetingen:value)"/>
                     <!-- Check for non-overlapping depths -->
                     <xsl:if test="$currentLowerDepth &gt; $nextUpperDepth">
                         <xsl:copy-of select="sikb:createRecord('ERROR', 'Layers', string-join(('Meetpunt', $measurementObjectId, 'heeft lagen die overlappen'), ' '))"/>
