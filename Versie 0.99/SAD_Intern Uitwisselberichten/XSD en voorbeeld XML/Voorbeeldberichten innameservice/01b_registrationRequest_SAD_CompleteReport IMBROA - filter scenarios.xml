@@ -33,7 +33,7 @@
                     <sadcommon:identification>57a42f2f-e8e4-41ea-9312-e16009188398</sadcommon:identification>
                     <sadcommon:name>Scenario1_a2</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_34a2a154-e63c-44e5-b051-4e2bd5a1e7f4">
                             <gml:pos>52.15252383793896 5.372112036721821</gml:pos>
@@ -89,7 +89,7 @@
                     <sadcommon:identification>56d6fb94-c978-4d19-9a1b-1b879a3e71a3</sadcommon:identification>
                     <sadcommon:name>Scenario1_a1</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_1532cab2-c3e7-484a-afd2-75162996cac7">
                             <gml:pos>52.15252383793896 5.372112036721821</gml:pos>
@@ -118,7 +118,7 @@
                     <sadcommon:identification>e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2</sadcommon:identification>
                     <sadcommon:name>Scenario2_a1</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_6d874727-569f-45b0-863e-77719928f22b">
                             <gml:pos>52.15252383793896 5.372112036721821</gml:pos>
@@ -147,7 +147,7 @@
                     <sadcommon:identification>db40bdb9-66db-424b-a56a-df7026a280fa</sadcommon:identification>
                     <sadcommon:name>Scenario1_b1</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_78cf2788-d6b9-402b-a94b-466a7667e2a9">
                             <gml:pos>52.15252383793896 5.372112036721821</gml:pos>
@@ -177,7 +177,7 @@
                     <sadcommon:identification>10304cfb-9018-4d7e-a760-67ea1e4407b8</sadcommon:identification>
                     <sadcommon:name>Scenario1_b2</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_48f2f896-2508-4045-8a55-ce21b01dee09">
                             <gml:pos>52.15252383793896 5.372112036721821</gml:pos>
@@ -210,7 +210,7 @@
                     <sadcommon:identification>6a1d5af2-6d9e-47c7-b885-4ae33384cead</sadcommon:identification>
                     <sadcommon:name>Scenario2_a2</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_a2ec45e7-cea3-435c-a602-b3350b4df155">
                             <gml:pos>52.15252383793896 5.372112036721821</gml:pos>
@@ -243,7 +243,7 @@
                     <sadcommon:identification>849b1e91-a0b3-44fe-bf07-860cb18af1d7</sadcommon:identification>
                     <sadcommon:name>Scenario2_b1</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_5794120d-2245-401a-a3c5-9f4af701832e">
                             <gml:pos>52.15252383793896 5.372112036721821</gml:pos>
@@ -271,7 +271,7 @@
                     <sadcommon:identification>7a361816-5ee5-4263-8f97-40d2b60b754e</sadcommon:identification>
                     <sadcommon:name>Scenario2_b2</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_9ba429ee-9adc-4dcb-80cb-be7b6db1aacf">
                             <gml:pos>52.15252383793896 5.372112036721821</gml:pos>
@@ -303,7 +303,7 @@
                     <sadcommon:identification>2d883aeb-9eae-4322-a97a-33a026f41391</sadcommon:identification>
                     <sadcommon:name>Scenario3_a1</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_38cbc247-8920-4d23-aaf3-d8c341d286cf">
                             <gml:pos>52.152523874078796 5.372112011172489</gml:pos>
@@ -333,7 +333,7 @@
                     <sadcommon:identification>794f4626-2057-48cc-a566-fdafa8b56bc1</sadcommon:identification>
                     <sadcommon:name>Scenario3_a2</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_fa645a8c-5257-4b8b-b382-de325807c53c">
                             <gml:pos>52.152523874078796 5.372112011172489</gml:pos>
@@ -366,7 +366,7 @@
                     <sadcommon:identification>c08edd04-deea-4d54-9741-e623fdc17900</sadcommon:identification>
                     <sadcommon:name>Scenario3_a3</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_f44bb091-ee89-4052-9749-c087f3da6208">
                             <gml:pos>52.152523874078796 5.372112011172489</gml:pos>
@@ -398,7 +398,7 @@
                     <sadcommon:identification>fb088735-5248-4625-a0ea-5c8db8dc49f9</sadcommon:identification>
                     <sadcommon:name>Scenario3_b1</sadcommon:name>
                     <sadcommon:date>2024-02-20</sadcommon:date>
-                    <sadcommon:finalDepth uom="m">1.80</sadcommon:finalDepth>
+                    <sadcommon:finalDepth uom="m">2.50</sadcommon:finalDepth>
                     <sadcommon:deliveredLocation>
                         <gml:Point srsName="urn:ogc:def:crs:EPSG::4326" gml:id="_2d9df6ef-e7c1-4140-b079-02421ffc4e91">
                             <gml:pos>52.152523874078796 5.372112011172489</gml:pos>

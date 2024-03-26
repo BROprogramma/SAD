@@ -3,1180 +3,1180 @@
     <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 0.99 van de SAD en valideert tegen de XSD van de innameservice.
         Het is niet gevalideerd door de innameservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
     -->
-    <sadcom:requestReference>Verzoek1</sadcom:requestReference>    
+    <sadcom:requestReference>Verzoek1</sadcom:requestReference>
     <!--KVK nummer van de aanleverende partij-->
     <sadcom:deliveryAccountableParty>27376655</sadcom:deliveryAccountableParty>
     <!-- Kwaliteitsregime, voor nu alleen nog IMRBO/A-->
-    <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>    
-    <sourceDocument>    
-        <SAD_CompleteReport>               
-            <reportDate>2018-12-08</reportDate>            
+    <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>
+    <sourceDocument>
+        <SAD_CompleteReport>
+            <reportDate>2018-12-08</reportDate>
             <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>
             <objectIdAccountableParty>MijnReferentieSADUpload</objectIdAccountableParty>
             <featureCollection>
                 <!-- Hier tussen kan de volledige SIKB XML geplakt worden-->
                 <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_e4f73e14-ff2d-4b5a-a2a1-9f9842d1e290" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/w005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 imsikb0101_v14.8.0.xsd">
-    <imsikb0101:metaData>
-        <imsikb0101:application>urn:imsikb0101:Applicaties:id:23</imsikb0101:application>
-        <imsikb0101:date>2024-02-20</imsikb0101:date>
-        <imsikb0101:organisation>TerraIndex BV</imsikb0101:organisation>
-        <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:6</imsikb0101:supplier>
-        <imsikb0101:version>14.8.0</imsikb0101:version>
-        <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:4</imsikb0101:dataflow>
-    </imsikb0101:metaData>
-    <imsikb0101:featureMember>
-        <imsikb0101:Project gml:id="_6e8f6b95-b282-4e14-9dea-fb8ed9785330">
-            <imsikb0101:assesorConclusion>Onbekend</imsikb0101:assesorConclusion>
-            <imsikb0101:assignmentCode>Onbekend</imsikb0101:assignmentCode>
-            <imsikb0101:investigationReason/>
-            <imsikb0101:geometry>
-                <gml:MultiSurface gml:id="_19bf06a5-8fb6-4b0f-8edb-e5cfbcebe5d0">
-                    <gml:surfaceMember>
-                        <gml:Polygon gml:id="_f1d3bc77-1c8a-492e-93e9-95a6e9feddaf" srsName="urn:ogc:def:crs:EPSG::4326">
-                            <gml:exterior>
-                                <gml:LinearRing>
-                                    <gml:posList srsDimension="2">52.15259789439512 5.371275187509174 52.15260118579031 5.3706314573456 52.15167629416802 5.370577813165302 52.15168946001986 5.371586323754902 52.151643379521346 5.3717418918777655 52.151439308168854 5.372171045320149 52.152288502160445 5.373195649163837 52.152380661774345 5.373227835672015 52.15268347059105 5.373201013581867 52.152643973905676 5.3729435215164365 52.152611059974426 5.372509003656024 52.15260776857997 5.372289062516804 52.152594602999685 5.371757985131856 52.15259789439512 5.371275187509174</gml:posList>
-                                </gml:LinearRing>
-                            </gml:exterior>
-                        </gml:Polygon>
-                    </gml:surfaceMember>
-                </gml:MultiSurface>
-            </imsikb0101:geometry>
-            <imsikb0101:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>6e8f6b95-b282-4e14-9dea-fb8ed9785330</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T09:39:18.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </imsikb0101:identification>
-            <imsikb0101:name>VB van filterstellingen</imsikb0101:name>
-            <imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:4</imsikb0101:phase>
-            <imsikb0101:projectCode>BRO_FILTERSTELLING</imsikb0101:projectCode>
-            <imsikb0101:projectType/>
-            <imsikb0101:reportNumber>Onbekend</imsikb0101:reportNumber>
-            <imsikb0101:measurementObjects xlink:href="#_57a42f2f-e8e4-41ea-9312-e16009188398"/>
-            <imsikb0101:measurementObjects xlink:href="#_56d6fb94-c978-4d19-9a1b-1b879a3e71a3"/>
-            <imsikb0101:measurementObjects xlink:href="#_e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2"/>
-            <imsikb0101:measurementObjects xlink:href="#_db40bdb9-66db-424b-a56a-df7026a280fa"/>
-            <imsikb0101:measurementObjects xlink:href="#_10304cfb-9018-4d7e-a760-67ea1e4407b8"/>
-            <imsikb0101:measurementObjects xlink:href="#_6a1d5af2-6d9e-47c7-b885-4ae33384cead"/>
-            <imsikb0101:measurementObjects xlink:href="#_849b1e91-a0b3-44fe-bf07-860cb18af1d7"/>
-            <imsikb0101:measurementObjects xlink:href="#_7a361816-5ee5-4263-8f97-40d2b60b754e"/>
-            <imsikb0101:measurementObjects xlink:href="#_2d883aeb-9eae-4322-a97a-33a026f41391"/>
-            <imsikb0101:measurementObjects xlink:href="#_794f4626-2057-48cc-a566-fdafa8b56bc1"/>
-            <imsikb0101:measurementObjects xlink:href="#_c08edd04-deea-4d54-9741-e623fdc17900"/>
-            <imsikb0101:measurementObjects xlink:href="#_fb088735-5248-4625-a0ea-5c8db8dc49f9"/>
-            <imsikb0101:dossiers xlink:href="#_b2ef734f-db62-4db1-9494-7e4ee19b8fef"/>
-        </imsikb0101:Project>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:SoilManagementDossier gml:id="_b2ef734f-db62-4db1-9494-7e4ee19b8fef">
-            <imsikb0101:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>b2ef734f-db62-4db1-9494-7e4ee19b8fef</immetingen:lokaalID>
-                </immetingen:NEN3610ID>
-            </imsikb0101:identification>
-            <imsikb0101:projects xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:soilLocation/>
-        </imsikb0101:SoilManagementDossier>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_124f6dce-d907-4bc2-9f9d-2431faed507f">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_57a42f2f-e8e4-41ea-9312-e16009188398"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:1"/>
-                    <sam:relatedSamplingFeature xlink:href="#_182129e3-6902-48c7-a6e8-df58b227d257"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>124f6dce-d907-4bc2-9f9d-2431faed507f</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T09:30:20.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:heightTopFiltertube>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:heightTopFiltertube>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_57a42f2f-e8e4-41ea-9312-e16009188398">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_124f6dce-d907-4bc2-9f9d-2431faed507f"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario1_a2</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>57a42f2f-e8e4-41ea-9312-e16009188398</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T13:49:51.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_34a2a154-e63c-44e5-b051-4e2bd5a1e7f4" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevel>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">3.00</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:groundLevel>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_ace7436a-def2-48d1-ba7e-b4c0dce17c1c">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_56d6fb94-c978-4d19-9a1b-1b879a3e71a3"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>ace7436a-def2-48d1-ba7e-b4c0dce17c1c</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T09:45:10.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:heightTopFiltertube>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:heightTopFiltertube>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_56d6fb94-c978-4d19-9a1b-1b879a3e71a3">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_ace7436a-def2-48d1-ba7e-b4c0dce17c1c"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario1_a1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>56d6fb94-c978-4d19-9a1b-1b879a3e71a3</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T13:49:40.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_1532cab2-c3e7-484a-afd2-75162996cac7" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_2d870351-dff1-4deb-bfb6-dd97ed646c1b">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>2d870351-dff1-4deb-bfb6-dd97ed646c1b</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:07:42.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">100</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">220</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:heightTopFiltertube>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:heightTopFiltertube>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_2d870351-dff1-4deb-bfb6-dd97ed646c1b"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario2_a1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T13:50:55.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_6d874727-569f-45b0-863e-77719928f22b" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_59df00be-e90f-498f-b558-bbd246e2156d">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_db40bdb9-66db-424b-a56a-df7026a280fa"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>59df00be-e90f-498f-b558-bbd246e2156d</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:05:58.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:heightTopFiltertube>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">23.00</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:heightTopFiltertube>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_db40bdb9-66db-424b-a56a-df7026a280fa">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_59df00be-e90f-498f-b558-bbd246e2156d"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario1_b1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>db40bdb9-66db-424b-a56a-df7026a280fa</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:06:23.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_78cf2788-d6b9-402b-a94b-466a7667e2a9" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_474992ca-ffcd-4f7c-ad84-7450250f9407">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_10304cfb-9018-4d7e-a760-67ea1e4407b8"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>474992ca-ffcd-4f7c-ad84-7450250f9407</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:06:12.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:heightTopFiltertube>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">23.00</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:heightTopFiltertube>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_10304cfb-9018-4d7e-a760-67ea1e4407b8">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_474992ca-ffcd-4f7c-ad84-7450250f9407"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario1_b2</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>10304cfb-9018-4d7e-a760-67ea1e4407b8</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:06:13.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_48f2f896-2508-4045-8a55-ce21b01dee09" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevel>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">3.00</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:groundLevel>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_0310506f-f26d-4441-8925-fa31f161cf96">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_6a1d5af2-6d9e-47c7-b885-4ae33384cead"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>0310506f-f26d-4441-8925-fa31f161cf96</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:07:59.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">100</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">220</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:heightTopFiltertube>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:heightTopFiltertube>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_6a1d5af2-6d9e-47c7-b885-4ae33384cead">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_0310506f-f26d-4441-8925-fa31f161cf96"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario2_a2</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>6a1d5af2-6d9e-47c7-b885-4ae33384cead</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:08:10.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_a2ec45e7-cea3-435c-a602-b3350b4df155" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevel>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">3.00</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:groundLevel>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_b87ea218-09ef-4f03-924e-f8ea63265f94">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_849b1e91-a0b3-44fe-bf07-860cb18af1d7"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>b87ea218-09ef-4f03-924e-f8ea63265f94</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:37:45.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">100</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">220</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_849b1e91-a0b3-44fe-bf07-860cb18af1d7">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_b87ea218-09ef-4f03-924e-f8ea63265f94"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario2_b1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>849b1e91-a0b3-44fe-bf07-860cb18af1d7</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:38:19.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_5794120d-2245-401a-a3c5-9f4af701832e" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_77a7922b-57db-41cf-897b-79d1b5441548">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_7a361816-5ee5-4263-8f97-40d2b60b754e"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>77a7922b-57db-41cf-897b-79d1b5441548</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:38:09.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">100</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">220</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_7a361816-5ee5-4263-8f97-40d2b60b754e">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_77a7922b-57db-41cf-897b-79d1b5441548"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario2_b2</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>7a361816-5ee5-4263-8f97-40d2b60b754e</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T14:38:10.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_9ba429ee-9adc-4dcb-80cb-be7b6db1aacf" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevel>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">3.00</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:groundLevel>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_a3777864-1aab-4f4d-aab9-2bcd39329a87">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_2d883aeb-9eae-4322-a97a-33a026f41391"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>a3777864-1aab-4f4d-aab9-2bcd39329a87</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T15:45:15.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">90</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">210</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:heightTopFiltertube>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">30.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:heightTopFiltertube>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_2d883aeb-9eae-4322-a97a-33a026f41391">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_a3777864-1aab-4f4d-aab9-2bcd39329a87"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario3_a1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>2d883aeb-9eae-4322-a97a-33a026f41391</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T15:45:51.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_38cbc247-8920-4d23-aaf3-d8c341d286cf" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.152523874078796 5.372112011172489</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_cea829e2-4a85-4b13-afe4-1ff791287531">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_794f4626-2057-48cc-a566-fdafa8b56bc1"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>cea829e2-4a85-4b13-afe4-1ff791287531</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T15:45:40.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">90</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">210</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:heightTopFiltertube>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">30.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:heightTopFiltertube>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_794f4626-2057-48cc-a566-fdafa8b56bc1">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_cea829e2-4a85-4b13-afe4-1ff791287531"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario3_a2</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>794f4626-2057-48cc-a566-fdafa8b56bc1</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T15:45:40.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_fa645a8c-5257-4b8b-b382-de325807c53c" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.152523874078796 5.372112011172489</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevel>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:groundLevel>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_c0795e07-e200-4b8c-a2fe-3ff69b4a75a0">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_c08edd04-deea-4d54-9741-e623fdc17900"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>c0795e07-e200-4b8c-a2fe-3ff69b4a75a0</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T15:55:45.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">90</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">210</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_c08edd04-deea-4d54-9741-e623fdc17900">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_c0795e07-e200-4b8c-a2fe-3ff69b4a75a0"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario3_a3</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>c08edd04-deea-4d54-9741-e623fdc17900</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T15:55:41.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_f44bb091-ee89-4052-9749-c087f3da6208" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.152523874078796 5.372112011172489</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevel>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:groundLevel>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Filter gml:id="_f5fa196a-385f-45c0-8c69-5232a95b351e">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-                    <sam:relatedSamplingFeature xlink:href="#_fb088735-5248-4625-a0ea-5c8db8dc49f9"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>f5fa196a-385f-45c0-8c69-5232a95b351e</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T15:56:49.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">90</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:upperDepth>
-            <imsikb0101:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">210</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:lowerDepth>
-            <imsikb0101:heightTopFiltertube>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:heightTopFiltertube>
-            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
-        </imsikb0101:Filter>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Borehole gml:id="_fb088735-5248-4625-a0ea-5c8db8dc49f9">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
-                    <sam:relatedSamplingFeature xlink:href="#_f5fa196a-385f-45c0-8c69-5232a95b351e"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sams:shape/>
-            <immetingen:name>Scenario3_b1</immetingen:name>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>fb088735-5248-4625-a0ea-5c8db8dc49f9</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T15:56:32.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:remarks/>
-            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
-            <immetingen:geometry>
-                <gml:Point gml:id="_2d9df6ef-e7c1-4140-b079-02421ffc4e91" srsName="urn:ogc:def:crs:EPSG::4326">
-                    <gml:pos srsDimension="2">52.152523874078796 5.372112011172489</gml:pos>
-                </gml:Point>
-            </immetingen:geometry>
-            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
-            <imsikb0101:depth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">180</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </imsikb0101:depth>
-            <imsikb0101:groundLevel>
-                <immetingen:Height>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">10.0</immetingen:value>
-                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
-                </immetingen:Height>
-            </imsikb0101:groundLevel>
-            <imsikb0101:groundLevelType/>
-        </imsikb0101:Borehole>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Sample gml:id="_182129e3-6902-48c7-a6e8-df58b227d257">
-            <sam:sampledFeature/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
-                    <sam:relatedSamplingFeature xlink:href="#_57a42f2f-e8e4-41ea-9312-e16009188398"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:7"/>
-                    <sam:relatedSamplingFeature xlink:href="#_124f6dce-d907-4bc2-9f9d-2431faed507f"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
-                    <sam:relatedSamplingFeature xlink:href="#_ce881a58-2ef0-40c9-99cf-c3b5e9d0e1e0"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:2"/>
-            <spec:samplingTime>
-                <gml:TimeInstant gml:id="_4f2938a7-cce9-4282-9602-930684b4b661">
-                    <gml:timePosition>2024-02-20T09:35:17.0000000</gml:timePosition>
-                </gml:TimeInstant>
-            </spec:samplingTime>
-            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:1"/>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>182129e3-6902-48c7-a6e8-df58b227d257</immetingen:lokaalID>
-                    <immetingen:versie>2024-02-20T13:50:01.0000000</immetingen:versie>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:name>Scenario1_a2-1-1</immetingen:name>
-            <immetingen:startTime>2024-02-20T09:35:17.0000000</immetingen:startTime>
-            <immetingen:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </immetingen:lowerDepth>
-            <immetingen:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </immetingen:upperDepth>
-            <imsikb0101:inProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-        </imsikb0101:Sample>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <imsikb0101:Sample gml:id="_ce881a58-2ef0-40c9-99cf-c3b5e9d0e1e0">
-            <sam:sampledFeature/>
-            <sam:relatedObservation xlink:href="#_cfe0589f-ef61-42fc-a40a-d77ab632831c"/>
-            <sam:relatedSamplingFeature>
-                <sam:SamplingFeatureComplex>
-                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
-                    <sam:relatedSamplingFeature xlink:href="#_182129e3-6902-48c7-a6e8-df58b227d257"/>
-                </sam:SamplingFeatureComplex>
-            </sam:relatedSamplingFeature>
-            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:2"/>
-            <spec:samplingTime>
-                <gml:TimeInstant gml:id="_c15e2cfe-dda0-4cd3-ae13-94fee87007a9">
-                    <gml:timePosition>2024-02-20T09:35:17.0000000</gml:timePosition>
-                </gml:TimeInstant>
-            </spec:samplingTime>
-            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:10"/>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>ce881a58-2ef0-40c9-99cf-c3b5e9d0e1e0</immetingen:lokaalID>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:name>Scenario1_a2-1-1</immetingen:name>
-            <immetingen:startTime>2024-02-20T09:35:17.0000000</immetingen:startTime>
-            <immetingen:lowerDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </immetingen:lowerDepth>
-            <immetingen:upperDepth>
-                <immetingen:Depth>
-                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-                </immetingen:Depth>
-            </immetingen:upperDepth>
-            <imsikb0101:inProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-        </imsikb0101:Sample>
-    </imsikb0101:featureMember>
-    <imsikb0101:featureMember>
-        <immetingen:Analysis gml:id="_cfe0589f-ef61-42fc-a40a-d77ab632831c">
-            <om:phenomenonTime/>
-            <om:resultTime>
-                <gml:TimeInstant gml:id="_8b95b026-9589-4295-b7bf-003bb2e6990f">
-                    <gml:timePosition>2024-02-19T23:00:00.0000000</gml:timePosition>
-                </gml:TimeInstant>
-            </om:resultTime>
-            <om:procedure/>
-            <om:observedProperty/>
-            <om:featureOfInterest xlink:href="#_ce881a58-2ef0-40c9-99cf-c3b5e9d0e1e0"/>
-            <om:result xsi:type="immetingen:AnalyticResultType">
-                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:60">3</immetingen:numericValue>
-                <immetingen:valueProcessingMethod codeSpace="www.sikb.nl">urn:immetingen:waardebewerkingsmethode:id:5</immetingen:valueProcessingMethod>
-                <immetingen:limitSymbol/>
-                <immetingen:alphanumericValue>3 mg/l</immetingen:alphanumericValue>
-                <immetingen:limits>
-                    <immetingen:DeterminationLimits>
-                        <immetingen:limitSymbolReferenceCode>urn:immetingen:LimietsymboolReferentie:id:2</immetingen:limitSymbolReferenceCode>
-                    </immetingen:DeterminationLimits>
-                </immetingen:limits>
-            </om:result>
-            <immetingen:identification>
-                <immetingen:NEN3610ID>
-                    <immetingen:namespace>SIKB</immetingen:namespace>
-                    <immetingen:lokaalID>cfe0589f-ef61-42fc-a40a-d77ab632831c</immetingen:lokaalID>
-                </immetingen:NEN3610ID>
-            </immetingen:identification>
-            <immetingen:physicalProperty>
-                <immetingen:PhysicalProperty>
-                    <immetingen:quantity>urn:immetingen:parameter:id:2720</immetingen:quantity>
-                    <immetingen:parameter>urn:immetingen:parameter:id:1200</immetingen:parameter>
-                    <immetingen:condition>urn:immetingen:hoedanigheid:id:92</immetingen:condition>
-                </immetingen:PhysicalProperty>
-            </immetingen:physicalProperty>
-        </immetingen:Analysis>
-    </imsikb0101:featureMember>
-</imsikb0101:FeatureCollectionIMSIKB0101>
+                    <imsikb0101:metaData>
+                        <imsikb0101:application>urn:imsikb0101:Applicaties:id:23</imsikb0101:application>
+                        <imsikb0101:date>2024-02-20</imsikb0101:date>
+                        <imsikb0101:organisation>TerraIndex BV</imsikb0101:organisation>
+                        <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:6</imsikb0101:supplier>
+                        <imsikb0101:version>14.8.0</imsikb0101:version>
+                        <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:4</imsikb0101:dataflow>
+                    </imsikb0101:metaData>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Project gml:id="_6e8f6b95-b282-4e14-9dea-fb8ed9785330">
+                            <imsikb0101:assesorConclusion>Onbekend</imsikb0101:assesorConclusion>
+                            <imsikb0101:assignmentCode>Onbekend</imsikb0101:assignmentCode>
+                            <imsikb0101:investigationReason/>
+                            <imsikb0101:geometry>
+                                <gml:MultiSurface gml:id="_19bf06a5-8fb6-4b0f-8edb-e5cfbcebe5d0">
+                                    <gml:surfaceMember>
+                                        <gml:Polygon gml:id="_f1d3bc77-1c8a-492e-93e9-95a6e9feddaf" srsName="urn:ogc:def:crs:EPSG::4326">
+                                            <gml:exterior>
+                                                <gml:LinearRing>
+                                                    <gml:posList srsDimension="2">52.15259789439512 5.371275187509174 52.15260118579031 5.3706314573456 52.15167629416802 5.370577813165302 52.15168946001986 5.371586323754902 52.151643379521346 5.3717418918777655 52.151439308168854 5.372171045320149 52.152288502160445 5.373195649163837 52.152380661774345 5.373227835672015 52.15268347059105 5.373201013581867 52.152643973905676 5.3729435215164365 52.152611059974426 5.372509003656024 52.15260776857997 5.372289062516804 52.152594602999685 5.371757985131856 52.15259789439512 5.371275187509174</gml:posList>
+                                                </gml:LinearRing>
+                                            </gml:exterior>
+                                        </gml:Polygon>
+                                    </gml:surfaceMember>
+                                </gml:MultiSurface>
+                            </imsikb0101:geometry>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>6e8f6b95-b282-4e14-9dea-fb8ed9785330</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T09:39:18.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:name>VB van filterstellingen</imsikb0101:name>
+                            <imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:4</imsikb0101:phase>
+                            <imsikb0101:projectCode>BRO_FILTERSTELLING</imsikb0101:projectCode>
+                            <imsikb0101:projectType/>
+                            <imsikb0101:reportNumber>Onbekend</imsikb0101:reportNumber>
+                            <imsikb0101:measurementObjects xlink:href="#_57a42f2f-e8e4-41ea-9312-e16009188398"/>
+                            <imsikb0101:measurementObjects xlink:href="#_56d6fb94-c978-4d19-9a1b-1b879a3e71a3"/>
+                            <imsikb0101:measurementObjects xlink:href="#_e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2"/>
+                            <imsikb0101:measurementObjects xlink:href="#_db40bdb9-66db-424b-a56a-df7026a280fa"/>
+                            <imsikb0101:measurementObjects xlink:href="#_10304cfb-9018-4d7e-a760-67ea1e4407b8"/>
+                            <imsikb0101:measurementObjects xlink:href="#_6a1d5af2-6d9e-47c7-b885-4ae33384cead"/>
+                            <imsikb0101:measurementObjects xlink:href="#_849b1e91-a0b3-44fe-bf07-860cb18af1d7"/>
+                            <imsikb0101:measurementObjects xlink:href="#_7a361816-5ee5-4263-8f97-40d2b60b754e"/>
+                            <imsikb0101:measurementObjects xlink:href="#_2d883aeb-9eae-4322-a97a-33a026f41391"/>
+                            <imsikb0101:measurementObjects xlink:href="#_794f4626-2057-48cc-a566-fdafa8b56bc1"/>
+                            <imsikb0101:measurementObjects xlink:href="#_c08edd04-deea-4d54-9741-e623fdc17900"/>
+                            <imsikb0101:measurementObjects xlink:href="#_fb088735-5248-4625-a0ea-5c8db8dc49f9"/>
+                            <imsikb0101:dossiers xlink:href="#_b2ef734f-db62-4db1-9494-7e4ee19b8fef"/>
+                        </imsikb0101:Project>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:SoilManagementDossier gml:id="_b2ef734f-db62-4db1-9494-7e4ee19b8fef">
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>b2ef734f-db62-4db1-9494-7e4ee19b8fef</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:projects xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:soilLocation/>
+                        </imsikb0101:SoilManagementDossier>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_124f6dce-d907-4bc2-9f9d-2431faed507f">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_57a42f2f-e8e4-41ea-9312-e16009188398"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:1"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_182129e3-6902-48c7-a6e8-df58b227d257"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>124f6dce-d907-4bc2-9f9d-2431faed507f</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T09:30:20.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:heightTopFiltertube>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:heightTopFiltertube>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_57a42f2f-e8e4-41ea-9312-e16009188398">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_124f6dce-d907-4bc2-9f9d-2431faed507f"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario1_a2</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>57a42f2f-e8e4-41ea-9312-e16009188398</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T13:49:51.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_34a2a154-e63c-44e5-b051-4e2bd5a1e7f4" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevel>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">3.00</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:groundLevel>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_ace7436a-def2-48d1-ba7e-b4c0dce17c1c">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_56d6fb94-c978-4d19-9a1b-1b879a3e71a3"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>ace7436a-def2-48d1-ba7e-b4c0dce17c1c</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T09:45:10.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:heightTopFiltertube>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:heightTopFiltertube>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_56d6fb94-c978-4d19-9a1b-1b879a3e71a3">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_ace7436a-def2-48d1-ba7e-b4c0dce17c1c"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario1_a1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>56d6fb94-c978-4d19-9a1b-1b879a3e71a3</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T13:49:40.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_1532cab2-c3e7-484a-afd2-75162996cac7" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_2d870351-dff1-4deb-bfb6-dd97ed646c1b">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>2d870351-dff1-4deb-bfb6-dd97ed646c1b</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:07:42.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">100</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">220</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:heightTopFiltertube>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:heightTopFiltertube>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_2d870351-dff1-4deb-bfb6-dd97ed646c1b"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario2_a1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T13:50:55.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_6d874727-569f-45b0-863e-77719928f22b" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_59df00be-e90f-498f-b558-bbd246e2156d">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_db40bdb9-66db-424b-a56a-df7026a280fa"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>59df00be-e90f-498f-b558-bbd246e2156d</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:05:58.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:heightTopFiltertube>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">23.00</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:heightTopFiltertube>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_db40bdb9-66db-424b-a56a-df7026a280fa">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_59df00be-e90f-498f-b558-bbd246e2156d"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario1_b1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>db40bdb9-66db-424b-a56a-df7026a280fa</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:06:23.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_78cf2788-d6b9-402b-a94b-466a7667e2a9" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_474992ca-ffcd-4f7c-ad84-7450250f9407">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_10304cfb-9018-4d7e-a760-67ea1e4407b8"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>474992ca-ffcd-4f7c-ad84-7450250f9407</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:06:12.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:14</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:heightTopFiltertube>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">23.00</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:heightTopFiltertube>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_10304cfb-9018-4d7e-a760-67ea1e4407b8">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_474992ca-ffcd-4f7c-ad84-7450250f9407"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario1_b2</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>10304cfb-9018-4d7e-a760-67ea1e4407b8</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:06:13.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_48f2f896-2508-4045-8a55-ce21b01dee09" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevel>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">3.00</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:groundLevel>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_0310506f-f26d-4441-8925-fa31f161cf96">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_6a1d5af2-6d9e-47c7-b885-4ae33384cead"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>0310506f-f26d-4441-8925-fa31f161cf96</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:07:59.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">100</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">220</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:heightTopFiltertube>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:heightTopFiltertube>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_6a1d5af2-6d9e-47c7-b885-4ae33384cead">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_0310506f-f26d-4441-8925-fa31f161cf96"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario2_a2</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>6a1d5af2-6d9e-47c7-b885-4ae33384cead</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:08:10.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_a2ec45e7-cea3-435c-a602-b3350b4df155" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevel>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">3.00</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:groundLevel>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_b87ea218-09ef-4f03-924e-f8ea63265f94">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_849b1e91-a0b3-44fe-bf07-860cb18af1d7"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>b87ea218-09ef-4f03-924e-f8ea63265f94</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:37:45.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">100</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">220</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_849b1e91-a0b3-44fe-bf07-860cb18af1d7">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_b87ea218-09ef-4f03-924e-f8ea63265f94"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario2_b1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>849b1e91-a0b3-44fe-bf07-860cb18af1d7</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:38:19.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_5794120d-2245-401a-a3c5-9f4af701832e" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_77a7922b-57db-41cf-897b-79d1b5441548">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_7a361816-5ee5-4263-8f97-40d2b60b754e"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>77a7922b-57db-41cf-897b-79d1b5441548</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:38:09.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">100</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">220</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_7a361816-5ee5-4263-8f97-40d2b60b754e">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_77a7922b-57db-41cf-897b-79d1b5441548"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario2_b2</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>7a361816-5ee5-4263-8f97-40d2b60b754e</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T14:38:10.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_9ba429ee-9adc-4dcb-80cb-be7b6db1aacf" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.15252383793896 5.372112036721821</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevel>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">3.00</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:groundLevel>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_a3777864-1aab-4f4d-aab9-2bcd39329a87">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_2d883aeb-9eae-4322-a97a-33a026f41391"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>a3777864-1aab-4f4d-aab9-2bcd39329a87</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T15:45:15.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">90</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">210</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:heightTopFiltertube>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">30.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:heightTopFiltertube>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_2d883aeb-9eae-4322-a97a-33a026f41391">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_a3777864-1aab-4f4d-aab9-2bcd39329a87"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario3_a1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>2d883aeb-9eae-4322-a97a-33a026f41391</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T15:45:51.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_38cbc247-8920-4d23-aaf3-d8c341d286cf" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.152523874078796 5.372112011172489</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_cea829e2-4a85-4b13-afe4-1ff791287531">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_794f4626-2057-48cc-a566-fdafa8b56bc1"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>cea829e2-4a85-4b13-afe4-1ff791287531</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T15:45:40.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">90</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">210</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:heightTopFiltertube>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">30.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:heightTopFiltertube>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_794f4626-2057-48cc-a566-fdafa8b56bc1">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_cea829e2-4a85-4b13-afe4-1ff791287531"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario3_a2</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>794f4626-2057-48cc-a566-fdafa8b56bc1</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T15:45:40.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_fa645a8c-5257-4b8b-b382-de325807c53c" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.152523874078796 5.372112011172489</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevel>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:groundLevel>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_c0795e07-e200-4b8c-a2fe-3ff69b4a75a0">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_c08edd04-deea-4d54-9741-e623fdc17900"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>c0795e07-e200-4b8c-a2fe-3ff69b4a75a0</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T15:55:45.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">90</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">210</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_c08edd04-deea-4d54-9741-e623fdc17900">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_c0795e07-e200-4b8c-a2fe-3ff69b4a75a0"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario3_a3</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>c08edd04-deea-4d54-9741-e623fdc17900</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T15:55:41.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_f44bb091-ee89-4052-9749-c087f3da6208" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.152523874078796 5.372112011172489</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevel>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:groundLevel>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Filter gml:id="_f5fa196a-385f-45c0-8c69-5232a95b351e">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_fb088735-5248-4625-a0ea-5c8db8dc49f9"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>f5fa196a-385f-45c0-8c69-5232a95b351e</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T15:56:49.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">90</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">210</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:heightTopFiltertube>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">20.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:heightTopFiltertube>
+                            <imsikb0101:filtertubeLength uom="urn:immetingen:Eenheid:id:19">200</imsikb0101:filtertubeLength>
+                        </imsikb0101:Filter>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Borehole gml:id="_fb088735-5248-4625-a0ea-5c8db8dc49f9">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:5"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_f5fa196a-385f-45c0-8c69-5232a95b351e"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Scenario3_b1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>fb088735-5248-4625-a0ea-5c8db8dc49f9</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T15:56:32.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_2d9df6ef-e7c1-4140-b079-02421ffc4e91" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.152523874078796 5.372112011172489</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevel>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">10.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:groundLevel>
+                            <imsikb0101:groundLevelType/>
+                        </imsikb0101:Borehole>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_182129e3-6902-48c7-a6e8-df58b227d257">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_57a42f2f-e8e4-41ea-9312-e16009188398"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:7"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_124f6dce-d907-4bc2-9f9d-2431faed507f"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_ce881a58-2ef0-40c9-99cf-c3b5e9d0e1e0"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:2"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_4f2938a7-cce9-4282-9602-930684b4b661">
+                                    <gml:timePosition>2024-02-20T09:35:17.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:1"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>182129e3-6902-48c7-a6e8-df58b227d257</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-20T13:50:01.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>Scenario1_a2-1-1</immetingen:name>
+                            <immetingen:startTime>2024-02-20T09:35:17.0000000</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>
+                            <imsikb0101:inProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_ce881a58-2ef0-40c9-99cf-c3b5e9d0e1e0">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_cfe0589f-ef61-42fc-a40a-d77ab632831c"/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_182129e3-6902-48c7-a6e8-df58b227d257"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:2"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_c15e2cfe-dda0-4cd3-ae13-94fee87007a9">
+                                    <gml:timePosition>2024-02-20T09:35:17.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:10"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>ce881a58-2ef0-40c9-99cf-c3b5e9d0e1e0</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>Scenario1_a2-1-1</immetingen:name>
+                            <immetingen:startTime>2024-02-20T09:35:17.0000000</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">240</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>
+                            <imsikb0101:inProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_cfe0589f-ef61-42fc-a40a-d77ab632831c">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant gml:id="_8b95b026-9589-4295-b7bf-003bb2e6990f">
+                                    <gml:timePosition>2024-02-19T23:00:00.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_ce881a58-2ef0-40c9-99cf-c3b5e9d0e1e0"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:60">3</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod codeSpace="www.sikb.nl">urn:immetingen:waardebewerkingsmethode:id:5</immetingen:valueProcessingMethod>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>3 mg/l</immetingen:alphanumericValue>
+                                <immetingen:limits>
+                                    <immetingen:DeterminationLimits>
+                                        <immetingen:limitSymbolReferenceCode>urn:immetingen:LimietsymboolReferentie:id:2</immetingen:limitSymbolReferenceCode>
+                                    </immetingen:DeterminationLimits>
+                                </immetingen:limits>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>cfe0589f-ef61-42fc-a40a-d77ab632831c</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2720</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1200</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:92</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                </imsikb0101:FeatureCollectionIMSIKB0101>
             </featureCollection>
         </SAD_CompleteReport>
     </sourceDocument>
