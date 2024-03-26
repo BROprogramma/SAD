@@ -353,7 +353,7 @@
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcommon:localVerticalReferencePoint>
                                 <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.30</sadcommon:offset>
-                                <sadcommon:groundLevelPosition uom="m">0.20</sadcommon:groundLevelPosition>
+                                <sadcommon:groundLevelPosition uom="m">0.10</sadcommon:groundLevelPosition>
                             </sadcommon:deliveredVerticalPosition>
                             <sadcommon:upperBoundary uom="m">1.20</sadcommon:upperBoundary>
                             <sadcommon:lowerBoundary uom="m">2.40</sadcommon:lowerBoundary>
