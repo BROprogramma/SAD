@@ -98,34 +98,46 @@
 	</xsl:template>
     <!-- Sample -->
     <xsl:template match="immetingen:Sample" mode="een">
-        <xsl:variable name="prGUID" select="@gml:id"/>
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
+        <xsl:variable name="prGUID" select="@gml:id"/>                 
+        <xsl:choose>
+          <xsl:when test="count(spec:specimenType[fn:lower-case(@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')]) = 1">    
+            <!-- VELDMONSTER -->
+            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'WARNING')"/>
+          </xsl:otherwise>
+        </xsl:choose>  
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
     </xsl:template>
     <xsl:template match="imsikb0101:Sample" mode="twee">
-        <xsl:variable name="prGUID" select="@gml:id"/>
-        <!-- HRV -->
-        <xsl:if test="not(count(spec:specimenType[@xlink:href = 'urn:immetingen:MonsterType:id:1']) = 0)">
-            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'relatedSamplingFeature', 'ERROR')"/>
-        </xsl:if>
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
-        <xsl:for-each select=".//immetingen:Analysis">
-			
-		</xsl:for-each>		
+        <xsl:variable name="prGUID" select="@gml:id"/>        
+        
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'specimenType', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'samplingTime', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'specimenType', 'MonsterType', 'ERROR')"/>
+        <xsl:choose>
+          <xsl:when test="count(spec:specimenType[fn:lower-case(@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')]) = 1">
+              <!-- VELDMONSTER -->
+            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'relatedSamplingFeature', 'ERROR')"/>
+            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'WARNING')"/>
+          </xsl:otherwise>
+        </xsl:choose>                
+        <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>	
+        
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'samplingTime', 'WARNING')"/>
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'WARNING')"/>        
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'materialClass', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'materialClass', 'Compartiment', 'ERROR')"/>
         <!-- check nog aanpassen in verband met check op attribuut ipv element -->
         <!-- veldmonsters (niet grond)-->
-		 <xsl:if test="spec:specimenType/@xlink:href = 'urn:immetingen:MonsterType:id:1' and not(spec:materialClass/@xlink:href = 'urn:immetingen:compartiment:id:1')">
+		 <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
             <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'relatedObservation', 'WARNING')"/>            
         </xsl:if>
         <!-- analysemonsters-->
-		 <xsl:if test="spec:specimenType/@xlink:href = 'urn:immetingen:MonsterType:id:10'">
+		 <xsl:if test="fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')">
             <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'relatedObservation', 'WARNING')"/>
         </xsl:if>
     </xsl:template>
