@@ -12,7 +12,14 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<schema xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/0.9" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/sadcommon/0.9" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.9">
+<schema xmlns:gml="http://www.opengis.net/gml/3.2" 
+        xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" 
+        xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/0.9" 
+        xmlns="http://www.w3.org/2001/XMLSchema" 
+        targetNamespace="http://www.broservices.nl/xsd/sadcommon/0.9" 
+        elementFormDefault="qualified" 
+        attributeFormDefault="unqualified" 
+        version="0.9.1">
     <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
     <simpleType name="ChamberOfCommerceNumberType">
         <restriction base="string"/>
@@ -384,6 +391,7 @@ Definition: De entiteit AbstractCharacteristicsV2 bevat de registratieobject ona
             <element ref="gml:MultiPoint"/>
             <element ref="gml:Surface"/>
             <element ref="gml:MultiSurface"/>
+            <element ref="gml:MultiGeometry"/>
         </choice>
     </complexType>
     <complexType name="StandardizedGeometryPropertyType">
