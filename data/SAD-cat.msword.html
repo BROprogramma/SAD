@@ -15,7 +15,7 @@
    <body>
       <p>Conceptual model/Milieuhygienisch bodemonderzoek SAD/20231205</p>
       <p>Imvertor: Nightly-build.14</p>
-      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-1.09-1-20231205-20240507-102938</p>
+      <p>Model release: Conceptualmodel-MilieuhygienischbodemonderzoekSAD-1.09-1-20231205-20240507-112032</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -1979,7 +1979,9 @@
                               
                               <p>De entiteit <em>Rapport</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
                                  Voor gegevens aangeleverd onder IMBRO/A-regime moet tenminste één van de volgende
-                                 attributen aanwezig zijn: nummer, datum, auteur of URL.</p>
+                                 attributen aanwezig zijn: nummer, datum, auteur of URL.<br clear="none">
+                                 De combinatie van de attributen <em>nummer</em> en <em>datum</em> moet, mits aangeleverd, uniek zijn binnen de set Milieuhygiënische bodemonderzoek
+                                 in de registratie ondergrond.</p>
                               </td>
                         </tr>
                      </tbody>
@@ -2345,9 +2347,8 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut <em>datum</em> moet aanwezig  zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
-                                    De <em>datum</em> mag niet liggen na de <em>rapportagedatum onderzoek</em> van de entiteit <em>Bodemonderzoek</em>.<br clear="none">
-                                    </p>
+                                 <p>Het attribuut <em>datum</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                                    De <em>datum</em> mag niet liggen na de datum van de entiteit <em>Rapport</em>.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -2513,7 +2514,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107175e10993">
+                  <section id="detail_d107175e10996">
                      <h4>  aangeleverde verticale positie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -2902,7 +2903,7 @@
                               <th>Definitie</th>
                               <td>
                                  
-                                 <p>De positie van het maaiveld ten opzichte van bovenkant van de peilbuis.</p>
+                                 <p>De positie van de bovenkant van de peilbuis ten opzichte van het maaiveld.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -3469,7 +3470,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107175e14103">
+                  <section id="detail_d107175e14106">
                      <h4>  grond</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3512,7 +3513,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d107175e14335">
+                  <section id="detail_d107175e14338">
                      <h4>  kleurwaarneming</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3546,7 +3547,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d107175e14520">
+                  <section id="detail_d107175e14523">
                      <h4>  bijzonder bestanddeel</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3580,7 +3581,7 @@
                         </tbody>
                      </table>
                   </section>
-                  <section id="detail_d107175e14705">
+                  <section id="detail_d107175e14708">
                      <h4>  asbest</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -3742,7 +3743,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort</em> niet gelijk is aan <em>zand</em> (SIKB0101ID: 1, 2, 3, 4, 5).</p>
+                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort</em> niet gelijk is aan <em>zand</em>  of <em>zandig</em> (SIKB0101ID: 1, 2, 3, 4, 5, 10, 11, 12, 13, 14, 18, 19, 21, 22, 23, 24, 31, 32, 33).</p>
                                  </td>
                            </tr>
                            <tr>
@@ -3802,7 +3803,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort</em> niet gelijk is aan <em>grind</em> (SIKB0101ID: 20, 21, 22, 23, 24).</p>
+                                 <p>Het attribuut mag alleen aanwezig zijn wanneer de waarde van het attribuut <em>grondsoort</em> gelijk is aan <em>grind</em> (SIKB0101ID: 20, 21, 22, 23, 24) of het attribuut <em>grindgehalteklasse</em> een waarde heeft.</p>
                                  </td>
                            </tr>
                            <tr>
@@ -4601,7 +4602,7 @@
                               <td>
                                  
                                  <p>Het attribuut <em>datum</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
-                                    De datum mag niet liggen na de <em>rapportagedatum onderzoek</em> van de entiteit <em>Bodemonderzoek</em>. </p>
+                                    De <em>datum</em> mag niet liggen na de datum van de entiteit <em>Rapport</em>.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -5486,7 +5487,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107175e22190">
+                  <section id="detail_d107175e22197">
                      <h4>  aangeleverde verticale positie</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -5742,7 +5743,7 @@
                               <td>
                                  
                                  <p>Het attribuut <em>datum</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
-                                    De datum mag niet liggen na de <em>rapportagedatum onderzoek</em> van de entiteit <em>Bodemonderzoek</em>.</p>
+                                    De <em>datum</em> mag niet liggen na de datum van de entiteit <em>Rapport</em>.</p>
                                  </td>
                            </tr>
                         </tbody>
@@ -5959,7 +5960,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107175e24025">
+                  <section id="detail_d107175e24032">
                      <h4>  kleurwaarneming</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -7504,7 +7505,7 @@
                         </tbody>
                      </table>
                      </section>
-                  <section id="detail_d107175e29809">
+                  <section id="detail_d107175e29816">
                      <h4>  asbest</h4>
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -8718,7 +8719,7 @@
                         
                         
                         <p>De lijst met gradaties voor bijzondere bestanddelen.
-                           De domeintabel bevat een selectie van waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/5e041a6f-9e94-454f-92e0-531e66729089" shape="rect">BodemlaagBodemkenmerkenGradatie</a> van SIKB0101.</p>
+                           De domeintabel bevat de waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/5e041a6f-9e94-454f-92e0-531e66729089" shape="rect">BodemlaagBodemkenmerkenGradatie</a> van SIKB0101.</p>
                         
                         
                         
@@ -8948,7 +8949,7 @@
                         
                         <p>De lijst voor de classificatie van het aandeel grind in grindarme grond volgens NEN
                            5104.
-                           De domeintabel bevat een selectie van waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/076ab1ab-5eca-4f2d-b1ad-2c3e25f6c0bf" shape="rect">GrindGehalte</a> van SIKB0101.</p>
+                           De domeintabel bevat de waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/076ab1ab-5eca-4f2d-b1ad-2c3e25f6c0bf" shape="rect">GrindGehalte</a> van SIKB0101.</p>
                         
                         
                         
@@ -13724,7 +13725,7 @@
                         
                         <p>De lijst voor de classificatie van het aandeel organische stof in grond volgens NEN
                            5104.
-                           De domeintabel bevat een selectie van waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/7000e590-d5ca-417d-b591-486427d4234a" shape="rect">OrganischeStofGehalte</a> van SIKB0101.</p>
+                           De domeintabel bevat de waarden uit de domeintabel <a href="https://codes.sikb.nl/tablet/domain-table-details/7000e590-d5ca-417d-b591-486427d4234a" shape="rect">OrganischeStofGehalte</a> van SIKB0101.</p>
                         
                         
                         
