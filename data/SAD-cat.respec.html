@@ -26,8 +26,7 @@
                      worden: één of meer boringen uitvoeren, de onderscheiden bodemlagen  beschrijven en
                      de monsters die daarmee uit de ondergrond zijn verkregen in het laboratorium  onderzoeken
                      en/of één of meer peilbuizen plaatsen om waarnemingen aan het grondwater uit te voeren
-                     en/of grondwatermonsters nemen voor onderzoek in het laboratorium en het onderzoeken
-                     ervan.</p>
+                     en/of grondwatermonsters nemen voor analyse in het laboratorium.</p>
                   </td>
             </tr>
             <tr>
@@ -624,7 +623,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>type onderzoek</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                        <p>Het attribuut <em>type onderzoek</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
                            </p>
                         </td>
                   </tr>
@@ -666,7 +665,7 @@
                   </tr>
                   <tr>
                      <th>Kardinaliteit</th>
-                     <td>1</td>
+                     <td>0..1</td>
                   </tr>
                   <tr>
                      <th>Domein</th>
@@ -688,8 +687,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>aanleiding onderzoek</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
-                           </p>
+                        <p>Het attribuut <em>aanleiding onderzoek</em> moet aanwezig  zijn voor gegevens aangeleverd onder IMBRO-regime.</p>
                         </td>
                   </tr>
                </tbody>
@@ -919,7 +917,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d107043e4957">
+         <section id="detail_d107175e4955">
             <h4>  registratiegeschiedenis</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -967,7 +965,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d107043e5185">
+         <section id="detail_d107175e5183">
             <h4>  gestandaardiseerde locatie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -1012,7 +1010,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d107043e5413">
+         <section id="detail_d107175e5411">
             <h4>  rapport</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -1955,7 +1953,7 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit <em>Rapport</em> moet aanwezig voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                     <p>De entiteit <em>Rapport</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
                         Voor gegevens aangeleverd onder IMBRO/A-regime moet tenminste één van de volgende
                         attributen aanwezig zijn: nummer, datum, auteur of URL.</p>
                      </td>
@@ -2001,7 +1999,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>nummer</em> moet aanwezig voor gegevens aangeleverd onder IMBRO-regime.</p>
+                        <p>Het attribuut <em>nummer</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.</p>
                         </td>
                   </tr>
                </tbody>
@@ -2051,7 +2049,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>datum</em> moet aanwezig voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                        <p>Het attribuut <em>datum</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
                            De datum mag niet liggen na de <em>rapportagedatum onderzoek</em> van de entiteit <em>Bodemonderzoek</em>.</p>
                         </td>
                   </tr>
@@ -2133,9 +2131,10 @@
                      <th>Toelichting</th>
                      <td>
                         
-                        <p>Betreft het internetadres waar het onderzoeksrapport te vinden is. Ieder rapport heeft
-                           zijn eigen URL. Deze URL dient alleen te worden aangeleverd indien deze niet meer
-                           wijzigt in de toekomst (persistent) en publiek benaderbaar is.</p>
+                        <p>Betreft het internetadres waar het onderzoeksrapport te vinden is. Ieder rapport dat
+                           is geupload naar een webomgeving heeft zijn eigen URL. Deze URL dient alleen te worden
+                           aangeleverd indien deze niet meer wijzigt in de toekomst (persistent) en openbaar
+                           toegankelijk is.</p>
                         </td>
                   </tr>
                </tbody>
@@ -2293,7 +2292,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>De datum waarop het borenof graven is begonnen.</p>
+                        <p>De datum waarop het boren of graven is begonnen.</p>
                         </td>
                   </tr>
                   <tr>
@@ -2315,10 +2314,14 @@
                         </td>
                   </tr>
                   <tr>
+                     <th>&nbsp;&nbsp;Waardebereik</th>
+                     <td>1 januari 1980 tot heden</td>
+                  </tr>
+                  <tr>
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>datum</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                        <p>Het attribuut <em>datum</em> moet aanwezig  zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
                            De <em>datum</em> mag niet liggen na de <em>rapportagedatum onderzoek</em> van de entiteit <em>Bodemonderzoek</em>.<br clear="none">
                            </p>
                         </td>
@@ -2341,7 +2344,7 @@
                      <th>Definitie</th>
                      <td>
                         
-                        <p>De diepte waarop het borenof graven is geëindigd. </p>
+                        <p>De diepte waarop het boren of graven is geëindigd. </p>
                         </td>
                   </tr>
                   <tr>
@@ -2373,7 +2376,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>einddiepte</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.</p>
+                        <p>Het attribuut <em>einddiepte</em> moet aanwezig  zijn voor gegevens aangeleverd onder IMBRO-regime.</p>
                         </td>
                   </tr>
                   <tr>
@@ -2486,7 +2489,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d107043e10977">
+         <section id="detail_d107175e10993">
             <h4>  aangeleverde verticale positie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3442,7 +3445,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d107043e14087">
+         <section id="detail_d107175e14103">
             <h4>  grond</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3485,7 +3488,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d107043e14319">
+         <section id="detail_d107175e14335">
             <h4>  kleurwaarneming</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3519,7 +3522,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d107043e14504">
+         <section id="detail_d107175e14520">
             <h4>  bijzonder bestanddeel</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -3553,7 +3556,7 @@
                </tbody>
             </table>
          </section>
-         <section id="detail_d107043e14689">
+         <section id="detail_d107175e14705">
             <h4>  asbest</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -4173,7 +4176,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>hoeveelheid</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.</p>
+                        <p>Het attribuut <em>hoeveelheid</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.</p>
                         </td>
                   </tr>
                </tbody>
@@ -4566,10 +4569,14 @@
                         </td>
                   </tr>
                   <tr>
+                     <th>&nbsp;&nbsp;Waardebereik</th>
+                     <td>1 januari 1980 tot heden</td>
+                  </tr>
+                  <tr>
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>datum</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                        <p>Het attribuut <em>datum</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
                            De datum mag niet liggen na de <em>rapportagedatum onderzoek</em> van de entiteit <em>Bodemonderzoek</em>. </p>
                         </td>
                   </tr>
@@ -4787,7 +4794,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>naam</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.</p>
+                        <p>Het attribuut <em>naam</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.</p>
                         </td>
                   </tr>
                   <tr>
@@ -4972,7 +4979,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>naam</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.</p>
+                        <p>Het attribuut <em>naam</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.</p>
                         </td>
                   </tr>
                   <tr>
@@ -5455,7 +5462,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d107043e22156">
+         <section id="detail_d107175e22190">
             <h4>  aangeleverde verticale positie</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -5703,10 +5710,14 @@
                         </td>
                   </tr>
                   <tr>
+                     <th>&nbsp;&nbsp;Waardebereik</th>
+                     <td>1 januari 1980 tot heden</td>
+                  </tr>
+                  <tr>
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>datum</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
+                        <p>Het attribuut <em>datum</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.<br clear="none">
                            De datum mag niet liggen na de <em>rapportagedatum onderzoek</em> van de entiteit <em>Bodemonderzoek</em>.</p>
                         </td>
                   </tr>
@@ -5924,7 +5935,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d107043e23973">
+         <section id="detail_d107175e24025">
             <h4>  kleurwaarneming</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -6381,7 +6392,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut <em>naam</em> moet aanwezig  voor gegevens aangeleverd onder IMBRO-regime.</p>
+                        <p>Het attribuut <em>naam</em> moet aanwezig zijn voor gegevens aangeleverd onder IMBRO-regime.</p>
                         </td>
                   </tr>
                   <tr>
@@ -7469,7 +7480,7 @@
                </tbody>
             </table>
             </section>
-         <section id="detail_d107043e29757">
+         <section id="detail_d107175e29809">
             <h4>  asbest</h4>
             <table style="width: 100%;">
                <colgroup style="width: 30%;"></colgroup>
@@ -7567,66 +7578,64 @@
                <td>1</td>
                <td>v</td>
                <td>v</td>
-               <td>De bestemming van de locatie gaat wijzigen en / of de locatie wordt ontwikkeld. Hierdoor
-                  moet de milieuhygiënische kwaliteit van de bodem onderzocht worden om te kijken of
-                  de kwaliteit van de grond bij het toekomstige gebruik past. </td>
+               <td>De aanleiding van het onderzoek is dat de bestemming van de locatie gaat wijzigen
+                  en / of de locatie wordt ontwikkeld. Er moet onderzocht worden of de kwaliteit van
+                  de grond bij het toekomstige gebruik past.</td>
             </tr>
             <tr>
                <td>civieltechnisch</td>
                <td>4</td>
                <td>v</td>
                <td>v</td>
-               <td>In verband met geplande civieltechnische werkzaamheden moet de milieuhygiënische kwaliteit
-                  van de bodem onderzocht worden.</td>
+               <td>In verband met geplande civieltechnische werkzaamheden is de milieuhygiënische kwaliteit
+                  van de bodem onderzocht.</td>
             </tr>
             <tr>
                <td>calamiteit</td>
                <td>5</td>
                <td>v</td>
                <td>v</td>
-               <td>Een calamiteit heeft de milieuhygiënische situatie (mogelijk) veranderd, waardoor
-                  er onderzoek nodig is.</td>
+               <td>De aanleiding van het onderzoek is dat een calamiteit de milieuhygiënische situatie
+                  (mogelijk) heeft veranderd.</td>
             </tr>
             <tr>
                <td>nulsituatie</td>
                <td>7</td>
                <td>v</td>
                <td>v</td>
-               <td>In verband met het starten van een nieuwe activiteit moet de nulsituatie van de bodem
-                  bepaald worden, zodat bij beëindiging van de activiteit getoetst kan worden of de
-                  activiteit de milieuhygiënische situatie heeft verslechterd. </td>
+               <td>De aanleiding van het onderzoek is het starten van een nieuwe activiteit waardoor
+                  de nulsituatie van de bodem moet worden vastgelegd, zodat bij beindiging van de activiteit
+                  getoetst kan worden of de activiteit de milieuhygiënische situatie heeft verslechterd.</td>
             </tr>
             <tr>
                <td>transactie</td>
                <td>8</td>
                <td>v</td>
                <td>v</td>
-               <td>In verband met een onroerende zaaktransactie (verwerven, ingebruikgeven (erfpacht/huur)
-                  of vervreemden) wordt de milieuhygiënische kwaliteit van de bodem in kaart gebracht.
-                  </td>
+               <td>De aanleiding van het onderzoek is dat door een transactie (verkoop van een perceel)
+                  de milieuhygiënische kwaliteit in kaart moet worden gebracht.</td>
             </tr>
             <tr>
                <td>vermoedenVerontreiniging</td>
                <td>9</td>
                <td>v</td>
                <td>v</td>
-               <td>Door een gemelde bodem verontreiniging of een sterk vermoeden van een bodemverontreiniging
-                  moet de milieuhygiënische kwaliteit van de bodem onderzocht worden. </td>
+               <td>De aanleiding van het onderzoek is een gemelde bodemverontreiniging of een sterk vermoeden
+                  van een bodemverontreiniging.</td>
             </tr>
             <tr>
                <td>voorgaand</td>
                <td>10</td>
                <td>v</td>
                <td>v</td>
-               <td>De uitkomsten van voorgaande onderzoeken hebben aanleiding gegeven tot dit vervolgonderzoek.
-                  </td>
+               <td>De uitkomsten van voorgaande onderzoeken hebben aanleiding gegeven tot dit vervolgonderzoek.</td>
             </tr>
             <tr>
                <td>omgevingsvergunning</td>
                <td>13</td>
                <td>v</td>
                <td>v</td>
-               <td>In verband met activiteiten in het kader van de Omgevingswet moet de milieuhygiënische
+               <td>In verband met het verstrekken van een omgevingsvergunning moet de milieuhygiënische
                   kwaliteit van de bodem onderzocht worden.</td>
             </tr>
             <tr>
@@ -7636,30 +7645,31 @@
                <td>v</td>
                <td>In verband met het beëindigen van een activiteit moet de milieuhygiënische kwaliteit
                   van de bodem onderzocht worden om te controleren of de activiteit de kwaliteit van
-                  de bodem heeft aangetast. </td>
+                  de bodem heeft aangetast.</td>
             </tr>
             <tr>
                <td>boot</td>
                <td>2</td>
                <td></td>
                <td>v</td>
-               <td>Door de aanwezigheid van een ondergrondse tank moet de milieukwaliteit in beeld gebracht
-                  worden in kader van het besluit opslag ondergrondse tanks (BOOT) </td>
+               <td>De aanleiding van het onderzoek is het in beeld brengen van de milieukwaliteit van
+                  de grond in verband met de aanwezigheid van een ondergrondse tank, conform het besluit
+                  opslag ondergrondse tanks (BOOT).</td>
             </tr>
             <tr>
                <td>bouwvergunning</td>
                <td>3</td>
                <td></td>
                <td>v</td>
-               <td>De milieuhygiënische kwaliteit is onderzocht in verband met de aanvraag van een bouwvergunning.</td>
+               <td>De aanleiding van het onderzoek is de aanvraag van een bouwvergunning.</td>
             </tr>
             <tr>
                <td>landsdekkendBeeld</td>
                <td>6</td>
                <td></td>
                <td>v</td>
-               <td>Een onderzoek dat uitgevoerd is ten behoeve van een landsdekkend onderzoek, om vervolgens
-                  een kwaliteitskaart van de bodem te kunnen maken.</td>
+               <td>De aanleiding van het onderzoek is een breder onderzoek om te komen tot een landsdekkend
+                  beeld van verontreinigde locaties.</td>
             </tr>
             <tr>
                <td>isvProgrammering</td>
@@ -7667,7 +7677,7 @@
                <td></td>
                <td>v</td>
                <td>De milieuhygiënische kwaliteit van de bodem is onderzocht in het kader van het Investeringsbudget
-                  voor Stedelijke Vernieuwing (ISV). </td>
+                  voor Stedelijke Vernieuwing (ISV).</td>
             </tr>
             <tr>
                <td>onbekend</td>
