@@ -85,13 +85,6 @@
 		<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging op landbodem conform NEN 5755, gecombineerd met een Nader Onderzoek voor waterbodems conform  richtlijn AKWA 01.005, RIZA-nota 2001.052).</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
-		<Waarde>onderzoekNormNEN5897</Waarde>
-		<SIKB0101ID>43</SIKB0101ID>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een grondonderzoek naar asbest in puin volgens norm NEN 5897 die beschrijft welke strategie in bepaalde situaties gevolgd moet worden.</Omschrijving>
-	</OnderzoekType>
-		<OnderzoekType>
 		<Waarde>evaluatieverslagGravenOw</Waarde>
 		<SIKB0101ID>volgt</SIKB0101ID>
 		<IMBRO>v</IMBRO>
