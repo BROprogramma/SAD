@@ -42,19 +42,19 @@ De entiteit bevat informatie over eventueel tijdens het onderzoek aangetroffen a
 Deze entiteiten bevatten de gegevens van de grondmonstername en de grondmonsters die worden genomen tijdens het plaatsen van het meetpunt. Grondmonsters kunnen binnen een milieuhygiënisch bodemonderzoek worden samengesteld tot een mengmonster. De (meng-)monsters worden vervolgens ter analyse aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses.
 
 ### Filter
-Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belangrijkste administratieve gegevens en de informatie over de ligging van de filter(s) die zijn geplaatst in het kader van het onderzoek. De diepte van een peilfilter wordt gerefereerd aan de bovenkant van de peilbuis of aan het maaiveld. Indien een verticaal referentievlak beschikbaar is kan deze vervolgens worden gerefereerd aan NAP.
+Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belangrijkste administratieve gegevens en de informatie over de ligging van de filters die zijn geplaatst in het kader van het onderzoek. De diepte van een peilfilter wordt gerefereerd aan de bovenkant van de peilbuis of aan het maaiveld. Indien een verticaal referentievlak beschikbaar is kan deze vervolgens worden gerefereerd aan NAP.
 
 ### Grondwatermonstername en grondwateranalyse
 Deze entiteiten bevatten de gegevens van de grondwatermonstername uit de filter en de grondwatermonsters die vervolgens ter analyse worden aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses. Tevens kan vanuit de grondwatermonstername een koppeling worden gelegd met de veldwaarnemingen en veldmetingen.
 
-### Velwaarnemingen en veldmeting
+### Veldwaarnemingen en veldmeting
 Deze entiteiten bevatten de waarnemingen en resultaten van metingen zoals die zijn gedaan tijdens de monstername. De veldmetingen kunnen betrekking hebben op zowel grond als grondwater.
    
 ### Analyse
 Deze entiteit bevat de resultaten van de analyses die door een laboratorium worden uitgevoerd op de aangeleverde grondmonsters, mengmonsters van grondmonsters of grondwatermonsters.
 
 ### Analysemethode
-Deze entiteit bevat de gegevens over de analysemethode die op het laboratorium is gebruikt.
+Deze entiteit bevat de gegevens over de analysemethode die door het laboratorium is gebruikt.
 
 ## INSPIRE
 Het doel van de Europese kaderrichtlijn INSPIRE is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject milieuhygiënisch bodemonderzoek valt onder een bestaand INSPIRE-thema. Hier zal op een later tijdstip invulling aan worden gegeven.
