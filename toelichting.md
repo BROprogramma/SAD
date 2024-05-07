@@ -1,7 +1,8 @@
+
 # Milieuhygiënisch bodemonderzoek
 
 ## Inleiding
-De catalogus voor het milieuhygiënisch bodemonderzoek beschrijft de gegevens die in de registratie ondergrond zijn opgenomen van een bodemonderzoek dat vanuit het vakgebied milieukwaliteit is uitgevoerd. Het vakgebied milieukwaliteit is het vakgebied waar gekeken wordt naar het voorkomen van verontreinigende stoffen in de bodem. Bodem is in de scope van BRO milieukwaliteit gedefinieerd als de landbodem (incl. droge oevergebieden) bestaande uit zowel grond, als grondwater.
+De catalogus voor het milieuhygiënisch bodemonderzoek beschrijft de gegevens die in de registratie ondergrond zijn opgenomen van een bodemonderzoek dat vanuit het vakgebied milieukwaliteit is uitgevoerd. Het vakgebied milieukwaliteit is het vakgebied waar gekeken wordt naar het voorkomen van verontreinigende stoffen in de bodem. Bodem is in de scope van BRO milieukwaliteit gedefinieerd als de landbodem (incl. drogere oevergebieden) bestaande uit zowel grond, als grondwater.
 
 Een milieuhygiënisch bodemonderzoek bestaat uit het geheel van gegevens uit archiefonderzoek en/of veldonderzoek zoals boringen, peilbuizen, de beschrijving van bodemlagen, veldwaarnemingen, de resultaten van analyses op grond en/of grondwater en een aantal gegevens uit het samenvattende onderzoeksrapport. De locatie van het bodemonderzoek is vastgelegd in de contour van de onderzoekslocatie.
 
@@ -29,7 +30,7 @@ De registratiegeschiedenis van een milieuhygiënisch bodemonderzoek geeft de ess
 De geometrie van het milieuhygiënisch bodemonderzoek kan worden aangeleverd ten opzichte van drie referentiestelsels (RD, ETRS89 en WGS84). Binnen de basisregistratie ondergrond worden gegevens die aangeleverd zijn volgens RD of WGS84 volgens een gedefinieerde methodiek omgezet naar ETRS89. Deze bewerking vindt plaats binnen de BRO zodat aan de uitgifte kant altijd kan worden uitgeleverd in ETRS89 én het oorspronkelijk aangeleverde referentiestelsel. De gestandaardiseerde locatie wordt op basis van de aanlevering automatisch vastgelegd.
 
 ### Rapport
-Binnen deze gegevensgroep is een viertal kenmerken van het rapport vastgelegd. Een rapportnummer, een rapportdatum, een rapporteur en de URL waar rapport te downloaden is. Onder de rapporteur wordt verstaan de naam van het onderzoeksbureau zoals op het rapport vermeld. Aangezien deze gegevens niet gestandaardiseerd beschikbaar zijn kan dit gegeven worden aangeleverd als vrije tekst. Dit betekent dat deze gegevens dus informatief en niet-authentiek zijn.
+Binnen deze gegevensgroep is een viertal kenmerken van het rapport vastgelegd. Een rapportnummer, een rapportdatum, een rapportauteur en de URL waar het rapport te downloaden is. Onder de rapportauteur wordt verstaan de naam van het onderzoeksbureau zoals op het rapport vermeld is. Aangezien deze gegevens niet gestandaardiseerd beschikbaar zijn kan dit gegeven worden aangeleverd als vrije tekst. Dit betekent dat deze gegevens dus informatief en niet-authentiek zijn.
 			
 ### Meetpunt
 Deze entiteit bevat de gegevens die het meetpunt identificeren inclusief de belangrijkste administratieve gegevens en de informatie over de geometrie van de meetpunt(en) die zijn geplaatst in het kader van het onderzoek. Diepten van het meetpunt worden standaard gerefereerd aan het maaiveld. Indien de hoogte van het maaiveld bekend is kan dit worden gerefereerd aan een vast referentievlak. Binnen dit registratieobject is dat NAP.  
@@ -42,19 +43,19 @@ De entiteit bevat informatie over eventueel tijdens het onderzoek aangetroffen a
 Deze entiteiten bevatten de gegevens van de grondmonstername en de grondmonsters die worden genomen tijdens het plaatsen van het meetpunt. Grondmonsters kunnen binnen een milieuhygiënisch bodemonderzoek worden samengesteld tot een mengmonster. De (meng-)monsters worden vervolgens ter analyse aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses.
 
 ### Filter
-Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belangrijkste administratieve gegevens en de informatie over de ligging van de filter(s) die zijn geplaatst in het kader van het onderzoek. De diepte van een peilfilter wordt gerefereerd aan de bovenkant van de peilbuis of aan het maaiveld. Indien een verticaal referentievlak beschikbaar is kan deze vervolgens worden gerefereerd aan NAP.
+Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belangrijkste administratieve gegevens en de informatie over de ligging van de filters die zijn geplaatst in het kader van het onderzoek. De diepte van een peilfilter wordt gerefereerd aan de bovenkant van de peilbuis of aan het maaiveld. Indien een verticaal referentievlak beschikbaar is kan deze vervolgens worden gerefereerd aan NAP.
 
 ### Grondwatermonstername en grondwateranalyse
 Deze entiteiten bevatten de gegevens van de grondwatermonstername uit de filter en de grondwatermonsters die vervolgens ter analyse worden aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses. Tevens kan vanuit de grondwatermonstername een koppeling worden gelegd met de veldwaarnemingen en veldmetingen.
 
-### Velwaarnemingen en veldmeting
+### Veldwaarnemingen en veldmeting
 Deze entiteiten bevatten de waarnemingen en resultaten van metingen zoals die zijn gedaan tijdens de monstername. De veldmetingen kunnen betrekking hebben op zowel grond als grondwater.
    
 ### Analyse
 Deze entiteit bevat de resultaten van de analyses die door een laboratorium worden uitgevoerd op de aangeleverde grondmonsters, mengmonsters van grondmonsters of grondwatermonsters.
 
 ### Analysemethode
-Deze entiteit bevat de gegevens over de analysemethode die op het laboratorium is gebruikt.
+Deze entiteit bevat de gegevens over de analysemethode die door het laboratorium is gebruikt.
 
 ## INSPIRE
 Het doel van de Europese kaderrichtlijn INSPIRE is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject milieuhygiënisch bodemonderzoek valt onder een bestaand INSPIRE-thema. Hier zal op een later tijdstip invulling aan worden gegeven.
