@@ -26,13 +26,13 @@
         <SIKB0101ID>4</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>olievlekken met een dekkingsgraad van 30 - 75%.</Omschrijving>
+        <Omschrijving>Olievlekken met een dekkingsgraad van 30 - 75%.</Omschrijving>
     </OlieWaterReactieMate>
     <OlieWaterReactieMate>
         <Waarde>uiterst</Waarde>
         <SIKB0101ID>5</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>olievlekken met een dekkingsgraad van 75 - 100%.</Omschrijving>
+        <Omschrijving>Olievlekken met een dekkingsgraad van 75 - 100%.</Omschrijving>
     </OlieWaterReactieMate>
 </domeintabel>
