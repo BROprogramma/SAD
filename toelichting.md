@@ -35,7 +35,7 @@ Binnen deze gegevensgroep is een viertal kenmerken van het rapport vastgelegd. E
 Deze entiteit bevat de gegevens die het meetpunt identificeren inclusief de belangrijkste administratieve gegevens en de informatie over de geometrie van de meetpunt(en) die zijn geplaatst in het kader van het onderzoek. Diepten van het meetpunt worden standaard gerefereerd aan het maaiveld. Indien de hoogte van het maaiveld bekend is kan dit worden gerefereerd aan een vast referentievlak. Binnen dit registratieobject is dat NAP.
 
 <figure>
-	<img src="./media/BRO_Cat_Fig_Meetpunt.png" alt="Meetpunt" width="350"/>
+	<img src="./media/BRO_Cat_Fig_Meetpunt1.png" alt="Meetpunt" width="350"/>
 	<figcaption>
 		Verticaal referentievlak meetpunt.
 	</figcaption>
