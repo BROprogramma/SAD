@@ -173,69 +173,69 @@
 		<SIKB0101ID>25</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem (slib) met een zwakke toevoeging (5-55%) van Lutumdeeltjes</Omschrijving>
+		<Omschrijving>Slib met een zwakke toevoeging van lutumdeeltjes.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>sterkKleiigSlib</Waarde>
 		<SIKB0101ID>26</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem (slib) met een sterke toevoeging (7-70%) van Lutumdeeltjes</Omschrijving>
+		<Omschrijving>Slib met een sterke toevoeging van lutumdeeltjes.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>zwakSiltigSlib</Waarde>
 		<SIKB0101ID>27</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem (slib) met een zwakke toevoeging (&lt;10%) van siltdeeltjes</Omschrijving>
+		<Omschrijving>Slib met een zwakke toevoeging van siltdeeltjes.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>matigSiltigSlib</Waarde>
 		<SIKB0101ID>28</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem (slib) met een matige toevoeging (10-17,5%) van siltdeeltjes</Omschrijving>
+		<Omschrijving>Slib met een matige toevoeging van siltdeeltjes.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>sterkSiltigSlib</Waarde>
 		<SIKB0101ID>29</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem (slib) met een sterke toevoeging (17,5-32,5%) van siltdeeltjes</Omschrijving>
+		<Omschrijving>Slib met een sterke toevoeging van siltdeeltjes.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>uiterstSiltigSlib</Waarde>
 		<SIKB0101ID>30</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem (slib) met een uiterst sterke toevoeging (32,5-50%) van siltdeeltjes</Omschrijving>
+		<Omschrijving>Slib met een uiterst sterke toevoeging van siltdeeltjes.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>zwakZandigSlib</Waarde>
 		<SIKB0101ID>31</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem (slib) met een zwakke toevoeging (&lt;10%) van zanddeeltjes</Omschrijving>
+		<Omschrijving>Slib met een zwakke toevoeging van zanddeeltjes.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>matigZandigSlib</Waarde>
 		<SIKB0101ID>32</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem (slib) met een matige toevoeging (10-30%) van zanddeeltjes</Omschrijving>
+		<Omschrijving>Slib met een matige toevoeging van zanddeeltjes.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>sterkZandigSlib</Waarde>
 		<SIKB0101ID>33</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem (slib) met een sterke toevoeging (30-50%) van zanddeeltjes.</Omschrijving>
+		<Omschrijving>Slib met een sterke toevoeging van zanddeeltjes.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>slib</Waarde>
 		<SIKB0101ID>34</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Waterbodem die bestaat uit veelal door stromend water in zwevende toestand meegevoerd fijn materiaal (fractie &lt; 0,063 mm) dat na afzetting nog veel water bevat en een slappe consistentie heeft </Omschrijving>
+		<Omschrijving>Door water afgezette sedimentdeeltjes met een grootte tussen 4 en 62 micrometer.</Omschrijving>
 	</GrondSoort>
 </domeintabel>
