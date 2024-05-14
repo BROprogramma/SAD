@@ -5,41 +5,41 @@
         <SIKB0101ID>31</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Potentiometrie.</Omschrijving>
+        <Omschrijving>Meettechniek waarmee met behulp van potentiaalverschillen de pH in een vloeistof wordt bepaald.</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
         <Waarde>conductometrie</Waarde>
         <SIKB0101ID>40</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Conductometrie.</Omschrijving>
+        <Omschrijving>Meettechniek waarmee met behulp van een elektroanalyse de elektrische geleidbaarheid in een vloeistof wordt bepaald.</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
         <Waarde>luminescentie</Waarde>
         <SIKB0101ID>186</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Luminescentie</Omschrijving>
+        <Omschrijving>Meettechniek waarmee met behulp van licht het gehalte zuurstof wordt bepaald.</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
         <Waarde>thermometrie</Waarde>
         <SIKB0101ID>200</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Thermometrie</Omschrijving>
+        <Omschrijving>Meettechniek waarmee de temperatuur wordt bepaald</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
         <Waarde>röntgenfluorescentie</Waarde>
         <SIKB0101ID>volgt</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Röntgenfluorescentie (XRF)</Omschrijving>
+        <Omschrijving>Meettechniek waarmee met behulp van röntgenstraling het gehalte aan (zware) metalen in grond wordt bepaald.</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
         <Waarde>fotoIonisatiedetectie</Waarde>
         <SIKB0101ID>volgt</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Foto-ionisatiedetectie (PID)</Omschrijving>
+        <Omschrijving>Meettechniek waarmee met behulp van fotoionisatie het gehalte vluchtige organische componenten wordt bepaald.</Omschrijving>
     </WaardebepalingsTechniek>
 </domeintabel>
