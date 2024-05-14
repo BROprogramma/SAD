@@ -5,14 +5,14 @@
         <SIKB0101ID>1</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Onderzoek uitgevoerd conform NEN 5707/NEN 5897. Asbest aangetoond boven het detectielimiet.</Omschrijving>
+        <Omschrijving>Onderzoek uitgevoerd conform NEN 5707/NEN 5897. Asbest aangetoond boven de detectielimiet.</Omschrijving>
     </AsbestAanwezigheid>
     <AsbestAanwezigheid>
         <Waarde>afwezig</Waarde>
         <SIKB0101ID>2</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Onderzoek uitgevoerd conform NEN 5707/NEN 5897. Geen asbest aangetoond boven het detectielimiet.</Omschrijving>
+        <Omschrijving>Onderzoek uitgevoerd conform NEN 5707/NEN 5897. Geen asbest aangetoond boven de detectielimiet.</Omschrijving>
     </AsbestAanwezigheid>
     <AsbestAanwezigheid>
         <Waarde>onbekend</Waarde>
