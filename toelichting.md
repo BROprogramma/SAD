@@ -41,6 +41,7 @@ Deze entiteit bevat de gegevens die het meetpunt identificeren inclusief de bela
 	</figcaption>
 </figure>
 
+
 Het meetpunt kan vervolgens een boorbeschrijving, een boorprofiel en een beschrijving van de bodemlagen en bijzonderheden bevatten. Deze onderdelen zijn in het model ondergebracht in aparte entiteiten.
 
 ### Asbest, deelgebied en asbestresultaat
