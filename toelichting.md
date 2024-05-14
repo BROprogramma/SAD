@@ -32,7 +32,15 @@ De geometrie van het milieuhygiënisch bodemonderzoek kan worden aangeleverd ten
 Binnen deze gegevensgroep is een viertal kenmerken van het rapport vastgelegd. Een rapportnummer, een rapportdatum, een rapportauteur en de URL waar het rapport te downloaden is. Onder de rapportauteur wordt verstaan de naam van het onderzoeksbureau zoals op het rapport vermeld is. Aangezien deze gegevens niet gestandaardiseerd beschikbaar zijn kan dit gegeven worden aangeleverd als vrije tekst. Dit betekent dat deze gegevens dus informatief en niet-authentiek zijn.
 			
 ### Meetpunt
-Deze entiteit bevat de gegevens die het meetpunt identificeren inclusief de belangrijkste administratieve gegevens en de informatie over de geometrie van de meetpunt(en) die zijn geplaatst in het kader van het onderzoek. Diepten van het meetpunt worden standaard gerefereerd aan het maaiveld. Indien de hoogte van het maaiveld bekend is kan dit worden gerefereerd aan een vast referentievlak. Binnen dit registratieobject is dat NAP.  
+Deze entiteit bevat de gegevens die het meetpunt identificeren inclusief de belangrijkste administratieve gegevens en de informatie over de geometrie van de meetpunt(en) die zijn geplaatst in het kader van het onderzoek. Diepten van het meetpunt worden standaard gerefereerd aan het maaiveld. Indien de hoogte van het maaiveld bekend is kan dit worden gerefereerd aan een vast referentievlak. Binnen dit registratieobject is dat NAP.
+
+<figure>
+	<img src="./media/BRO_Cat_Fig_Meetpunt.png" alt="Meetpunt" width="350"/>
+	<figcaption>
+		Verticaal referentievlak meetpunt.
+	</figcaption>
+</figure>
+
 Het meetpunt kan vervolgens een boorbeschrijving, een boorprofiel en een beschrijving van de bodemlagen en bijzonderheden bevatten. Deze onderdelen zijn in het model ondergebracht in aparte entiteiten.
 
 ### Asbest, deelgebied en asbestresultaat
