@@ -51,7 +51,21 @@ De entiteit bevat informatie over eventueel tijdens het onderzoek aangetroffen a
 Deze entiteiten bevatten de gegevens van de grondmonstername en de grondmonsters die worden genomen tijdens het plaatsen van het meetpunt. Grondmonsters kunnen binnen een milieuhygiënisch bodemonderzoek worden samengesteld tot een mengmonster. De (meng-)monsters worden vervolgens ter analyse aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses.
 
 ### Filter
-Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belangrijkste administratieve gegevens en de informatie over de ligging van de filters die zijn geplaatst in het kader van het onderzoek. De diepte van een peilfilter wordt gerefereerd aan de bovenkant van de peilbuis of aan het maaiveld. Indien een verticaal referentievlak beschikbaar is kan deze vervolgens worden gerefereerd aan NAP.
+Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belangrijkste administratieve gegevens en de informatie over de ligging van de filters die zijn geplaatst in het kader van het onderzoek. De diepte van een peilfilter wordt gerefereerd aan de bovenkant van de peilbuis of aan het maaiveld. Indien een verticaal referentievlak beschikbaar is kan deze vervolgens worden gerefereerd aan NAP. De hoogte ten opzichte van NAP wordt vastgelegd middels het gegeven 'Verschuiving'.  
+
+<figure>
+	<img src="./media/BRO_Cat_Fig_FilterBOBPB.png" alt="Filter" width="350"/>
+	<figcaption>
+		Referentie bovenkant van de peilbuis.
+	</figcaption>
+</figure>  
+
+<figure>
+	<img src="./media/BRO_Cat_Fig_FilterMV.png" alt="Filter" width="350"/>
+	<figcaption>
+		Referentie maaiveld.
+	</figcaption>
+</figure>  
 
 ### Grondwatermonstername en grondwateranalyse
 Deze entiteiten bevatten de gegevens van de grondwatermonstername uit de filter en de grondwatermonsters die vervolgens ter analyse worden aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses. Tevens kan vanuit de grondwatermonstername een koppeling worden gelegd met de veldwaarnemingen en veldmetingen.
