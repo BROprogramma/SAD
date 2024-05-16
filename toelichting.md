@@ -80,4 +80,4 @@ Deze entiteit bevat de resultaten van de analyses die door een laboratorium word
 Deze entiteit bevat de gegevens over de analysemethode die door het laboratorium is gebruikt.
 
 ## INSPIRE
-Het doel van de Europese kaderrichtlijn INSPIRE is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject milieuhygiënisch bodemonderzoek valt onder een bestaand INSPIRE-thema. Hier zal op een later tijdstip invulling aan worden gegeven.
+Het doel van de Europese kaderrichtlijn INSPIRE is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject milieuhygiënisch bodemonderzoek valt onder het INSPIRE-thema Geology, en om die reden moeten de gegevens in het registratieobject geschikt gemaakt worden voor uitwisseling volgens de INSPIRE-standaard. Dit wordt geïmplementeerd middels een mapping van het gegevensmodel van het milieuhygiënisch bodemonderzoek op het gegevensmodel van het INSPIRE-thema. De inhoud van deze mapping is geen onderdeel van deze catalogus.
