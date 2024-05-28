@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <WaardebepalingsTechniek>
+        <Waarde>potentiometrie</Waarde>
+        <SIKB0101ID>31</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Meettechniek waarmee met behulp van potentiaalverschillen de pH in een vloeistof wordt bepaald.</Omschrijving>
+    </WaardebepalingsTechniek>
+    <WaardebepalingsTechniek>
+        <Waarde>conductometrie</Waarde>
+        <SIKB0101ID>40</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Meettechniek waarmee met behulp van een elektroanalyse de elektrische geleidbaarheid in een vloeistof wordt bepaald.</Omschrijving>
+    </WaardebepalingsTechniek>
+    <WaardebepalingsTechniek>
+        <Waarde>luminescentie</Waarde>
+        <SIKB0101ID>186</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Meettechniek waarmee met behulp van licht het gehalte zuurstof wordt bepaald.</Omschrijving>
+    </WaardebepalingsTechniek>
+    <WaardebepalingsTechniek>
+        <Waarde>thermometrie</Waarde>
+        <SIKB0101ID>200</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Meettechniek waarmee de temperatuur wordt bepaald</Omschrijving>
+    </WaardebepalingsTechniek>
+    <WaardebepalingsTechniek>
+        <Waarde>röntgenfluorescentie</Waarde>
+        <SIKB0101ID>volgt</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Meettechniek waarmee met behulp van röntgenstraling het gehalte aan (zware) metalen in grond wordt bepaald.</Omschrijving>
+    </WaardebepalingsTechniek>
+    <WaardebepalingsTechniek>
+        <Waarde>fotoIonisatiedetectie</Waarde>
+        <SIKB0101ID>volgt</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Meettechniek waarmee met behulp van fotoionisatie het gehalte vluchtige organische componenten wordt bepaald.</Omschrijving>
+    </WaardebepalingsTechniek>
+</domeintabel>

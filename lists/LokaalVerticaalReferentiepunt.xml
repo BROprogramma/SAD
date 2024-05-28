@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <LokaalVerticaalReferentiepunt>
+        <Waarde>maaiveld</Waarde>
+        <SIKB0101ID>11</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>De dieptes van dit element zijn weergegeven ten opzichte van de maaiveldhoogte van dit meetpunt.</Omschrijving>
+    </LokaalVerticaalReferentiepunt>
+    <LokaalVerticaalReferentiepunt>
+        <Waarde>bovenkantPeilbuis</Waarde>
+        <SIKB0101ID>14</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>De dieptes van dit element zijn weergegeven ten opzichte van de bovenkant van de peilbuis.</Omschrijving>
+    </LokaalVerticaalReferentiepunt>
+</domeintabel>

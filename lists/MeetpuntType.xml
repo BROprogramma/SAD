@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <MeetpuntType>
+        <Waarde>grondboring</Waarde>
+        <SIKB0101ID>1</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek.</Omschrijving>
+    </MeetpuntType>
+    <MeetpuntType>
+        <Waarde>peilbuis</Waarde>
+        <SIKB0101ID>6</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>grondboring afgewerkt met een peilbuis waarmee men de grondwaterstand meet of waarin men monsters neemt van het grondwater.</Omschrijving>
+    </MeetpuntType>
+    <MeetpuntType>
+        <Waarde>inspectiegat</Waarde>
+        <SIKB0101ID>12</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>gegraven gat ten behoeve van (asbest-)bemonstering.</Omschrijving>
+    </MeetpuntType>
+    <MeetpuntType>
+        <Waarde>putbodem</Waarde>
+        <SIKB0101ID>16</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>de bodem van een ontgravingsput.</Omschrijving>
+    </MeetpuntType>
+    <MeetpuntType>
+        <Waarde>sleuf</Waarde>
+        <SIKB0101ID>18</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>gegraven sleuf ten behoeve van (asbest-)bemonstering</Omschrijving>
+    </MeetpuntType>
+    <MeetpuntType>
+        <Waarde>putwand</Waarde>
+        <SIKB0101ID>21</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>de wand van een ontgravingsput.</Omschrijving>
+    </MeetpuntType>
+</domeintabel>
