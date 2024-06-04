@@ -22,11 +22,11 @@
 		<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
-		<Waarde>saneringsEvaluatie</Waarde>
+		<Waarde>evaluatieverslagSaneren</Waarde>
 		<SIKB0101ID>11</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een evaluatie van de uitgevoerde bodemsanering</Omschrijving>
+		<Omschrijving>Een evaluatieverslag van de uitgevoerde bodemsanering onder de Wet Bodembescherming (Wbb) of de Omgevingswet (Bal artikel 4.1246)</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>monitoringsRapportage</Waarde>
@@ -85,18 +85,11 @@
 		<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging op landbodem conform NEN 5755, gecombineerd met een Nader Onderzoek voor waterbodems conform  richtlijn AKWA 01.005, RIZA-nota 2001.052).</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
-		<Waarde>evaluatieverslagGravenOw</Waarde>
+		<Waarde>evaluatieverslagGraven</Waarde>
 		<SIKB0101ID>volgt</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Evaluatieverslag van de milieukundige processturing bij milieukundige begeleiding tijdens MBA graven conform Eis 6.267 in SIKB BRL protocol 6005 (Bal artikel 4.1234).</Omschrijving>
-	</OnderzoekType>
-		<OnderzoekType>
-		<Waarde>evaluatieverslagSanerenOw</Waarde>
-		<SIKB0101ID>volgt</SIKB0101ID>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Evaluatieverslag van de milieukundige processturing en sanering onder de SIKB BRL6000, SIKB BRL6001 en SIKB BRL6005 conform eis 6.28a/6.28b  van milieukundige begeleiding tijdens saneren (Artikel Bal 4.1246).</Omschrijving>
+		<Omschrijving>Evaluatieverslag van de milieukundige processturing bij milieukundige begeleiding tijdens MBA graven conform  (Bal artikel 4.1234).</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>bijzonderInventariserendOnderzoek</Waarde>
