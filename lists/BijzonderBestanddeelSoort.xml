@@ -722,114 +722,133 @@
 		<Omschrijving>geëxpandeerd polystyreen (piepschuim)</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>opgebracht</Waarde>
 		<SIKB0101ID>7</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>opgebracht</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>huisvuil</Waarde>
 		<SIKB0101ID>9</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>huisvuil</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>verbranding</Waarde>
 		<SIKB0101ID>10</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>verbranding</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>roest</Waarde>
 		<SIKB0101ID>11</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>roest</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>boringGestaakt</Waarde>
 		<SIKB0101ID>18</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>br gestaakt</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>cyanide</Waarde>
 		<SIKB0101ID>25</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>cyanide</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>oliefilm</Waarde>
 		<SIKB0101ID>26</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>oliefilm</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>olieplaatjes</Waarde>
 		<SIKB0101ID>27</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>olieplaatjes</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>industrieelAfval</Waarde>
 		<SIKB0101ID>41</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>industrieel afval</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>avislak</Waarde>
 		<SIKB0101ID>48</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>AVIslak</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>blokken</Waarde>
 		<SIKB0101ID>55</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>blokken</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>kolengruis</Waarde>
 		<SIKB0101ID>104</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>kolengruis</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>verharding</Waarde>
 		<SIKB0101ID>163</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>verharding</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>vuursteen</Waarde>
 		<SIKB0101ID>165</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>vuursteen</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>waterbodem</Waarde>
 		<SIKB0101ID>169</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>waterbodem</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>lucht</Waarde>
 		<SIKB0101ID>181</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>lucht</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>puin_zand</Waarde>
 		<SIKB0101ID>191</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Puin/zand</Omschrijving>
+		<Omschrijving>puin/zand</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>steen</Waarde>
 		<SIKB0101ID>193</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Steen</Omschrijving>
+		<Omschrijving>steen</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>betonstraatstenen</Waarde>
 		<SIKB0101ID>226</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
