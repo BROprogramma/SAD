@@ -26122,43 +26122,43 @@
 		<SIKB0101ID>315</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Asbest @lt; 0,5 mm</Omschrijving>
+		<Omschrijving>Asbest &lt; 0,5 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>316</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Asbest @lt; 0,5 mm</Omschrijving>
+		<Omschrijving>Asbest &lt; 0,5 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>317</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Asbest @lt; 1 mm</Omschrijving>
+		<Omschrijving>Asbest &lt; 1 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>318</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Asbest @lt; 2 mm</Omschrijving>
+		<Omschrijving>Asbest &lt; 2 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>319</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Asbest @lt; 4 mm</Omschrijving>
+		<Omschrijving>Asbest &lt; 4 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>320</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Asbest @lt; 8 mm</Omschrijving>
+		<Omschrijving>Asbest &lt; 8 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>321</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Asbest @lt; 16 mm</Omschrijving>
+		<Omschrijving>Asbest &lt; 16 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>322</SIKB0101ID>
@@ -27250,25 +27250,25 @@
 		<SIKB0101ID>820</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Gehalte @lt;2 µm van de korrelfractie @lt;2 mm</Omschrijving>
+		<Omschrijving>Gehalte &lt;2 µm van de korrelfractie &lt;2 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>821</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Gehalte @lt;20 µm van de korrelfractie @lt;2 mm</Omschrijving>
+		<Omschrijving>Gehalte &lt;20 µm van de korrelfractie &lt;2 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>822</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Gehalte @lt;63 µm van de korrelfractie @lt;2 mm</Omschrijving>
+		<Omschrijving>Gehalte &lt;63 µm van de korrelfractie &lt;2 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>823</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Gehalte CaCO3 van de korrelfractie @lt;2 mm</Omschrijving>
+		<Omschrijving>Gehalte CaCO3 van de korrelfractie &lt;2 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>830</SIKB0101ID>
@@ -27610,151 +27610,151 @@
 		<SIKB0101ID>973</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 10 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 10 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>974</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 100 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 100 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>976</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 106 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 106 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>977</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 11,2 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 11,2 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>979</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 1400 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 1400 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>981</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 16 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 16 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>985</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 20 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 20 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>989</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 22,4 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 22,4 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>991</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 25 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 25 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>993</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 2800 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 2800 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>994</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 300 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 300 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>995</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 31,5 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 31,5 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>999</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 38 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 38 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1000</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 4 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 4 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1002</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 45 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 45 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1004</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 48 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 48 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1005</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 5,6 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 5,6 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1008</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 53 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 53 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1010</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 600 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 600 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1012</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 63 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 63 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1013</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 710 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 710 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1015</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 8 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 8 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1016</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 90 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 90 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1017</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 90 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 90 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1018</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; C 8</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; C 8</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1019</SIKB0101ID>
@@ -27808,169 +27808,169 @@
 		<SIKB0101ID>1028</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 10 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 10 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1029</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 1000 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 1000 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1030</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 108 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 108 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1031</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 11,2 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 11,2 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1032</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 125 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 125 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1033</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 1400 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 1400 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1034</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 16 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 16 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1035</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 180 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 180 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1037</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 20 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 20 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1039</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 22,4 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 22,4 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1040</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 25 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 25 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1042</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 2800 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 2800 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1043</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 31,5 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 31,5 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1044</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 355 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 355 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1045</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 4 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 4 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1046</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 4000 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 4000 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1047</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 45 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 45 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1048</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 45 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 45 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1049</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 5,6 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 5,6 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1050</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 50 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 50 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1051</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 500 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 500 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1052</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 53 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 53 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1054</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 63 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 63 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1055</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 710 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 710 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1056</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 8 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 8 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1057</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 8000 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 8000 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1058</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 90 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 90 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1059</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @gt; 90 mm</Omschrijving>
+		<Omschrijving>Korrelfractie &gt; 90 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1062</SIKB0101ID>
@@ -28348,7 +28348,7 @@
 		<SIKB0101ID>1202</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Minerale olie @gt; C15</Omschrijving>
+		<Omschrijving>Minerale olie &gt; C15</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1203</SIKB0101ID>
@@ -28570,7 +28570,7 @@
 		<SIKB0101ID>1239</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Minerale olie IR @lt; C25</Omschrijving>
+		<Omschrijving>Minerale olie IR &lt; C25</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1241</SIKB0101ID>
@@ -29890,7 +29890,7 @@
 		<SIKB0101ID>1771</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Asbest @gt; 32 mm</Omschrijving>
+		<Omschrijving>Asbest &gt; 32 mm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>1772</SIKB0101ID>
@@ -31318,13 +31318,13 @@
 		<SIKB0101ID>2079</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Cyanide (complex pH@lt;5)</Omschrijving>
+		<Omschrijving>Cyanide (complex pH&lt;5)</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>2080</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Cyanide (complex pH@gt;=5)</Omschrijving>
+		<Omschrijving>Cyanide (complex pH&gt;=5)</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>2082</SIKB0101ID>
@@ -31744,7 +31744,7 @@
 		<SIKB0101ID>2165</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt;200 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt;200 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>2166</SIKB0101ID>
@@ -32764,13 +32764,13 @@
 		<SIKB0101ID>2459</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Minerale olie @gt;C10-C12</Omschrijving>
+		<Omschrijving>Minerale olie &gt;C10-C12</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>2460</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Minerale olie @gt;C12-C14</Omschrijving>
+		<Omschrijving>Minerale olie &gt;C12-C14</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>2487</SIKB0101ID>
@@ -33616,7 +33616,7 @@
 		<SIKB0101ID>2660</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Korrelfractie @lt; 160 µm</Omschrijving>
+		<Omschrijving>Korrelfractie &lt; 160 µm</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>2661</SIKB0101ID>
@@ -33958,7 +33958,7 @@
 		<SIKB0101ID>4788</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>tetramethylpenteen @gt;@gt; ID2019</Omschrijving>
+		<Omschrijving>tetramethylpenteen &gt;&gt; ID2019</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>4939</SIKB0101ID>
@@ -33994,13 +33994,13 @@
 		<SIKB0101ID>5121</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>diaminomethylideenureum @gt;@gt; gebruik voortaan ID 5279</Omschrijving>
+		<Omschrijving>diaminomethylideenureum &gt;&gt; gebruik voortaan ID 5279</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>5832</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>10,11-transdiol carbamazepine @gt;@gt; gebruik voortaan ID 6069</Omschrijving>
+		<Omschrijving>10,11-transdiol carbamazepine &gt;&gt; gebruik voortaan ID 6069</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>6964</SIKB0101ID>
