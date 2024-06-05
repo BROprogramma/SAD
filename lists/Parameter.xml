@@ -29629,12 +29629,6 @@
 		<Omschrijving>Zandrest</Omschrijving>
 	</Parameter>
 	<Parameter>
-		<SIKB0101ID>1694</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Zintuiglijke waarnemingen</Omschrijving>
-	</Parameter>
-	<Parameter>
 		<SIKB0101ID>1696</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
@@ -33901,100 +33895,10 @@
 		<Omschrijving>2-butoxyacetaat</Omschrijving>
 	</Parameter>
 	<Parameter>
-		<SIKB0101ID>2917</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Aanmaakconcentratie</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>2928</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Aanwezigheid campylobacter vastgesteld</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>2937</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Aanwezigheid toxische blauwalg vastgesteld</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>2988</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Activiteitsconcentratie massiek</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3058</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Activiteitsconcentratie volumiek</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3109</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Alfa activiteit</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3113</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Asvrij droge stof</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3137</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Bemonsteringstraject</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3142</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Beta activiteit</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3143</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Beta activiteit van kalium 40</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3173</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Beta activiteit van tritium</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3176</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Biomassa per oppervlakte eenheid</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3180</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Biomassa per volume</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3182</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Biovolume</Omschrijving>
-	</Parameter>
-	<Parameter>
 		<SIKB0101ID>3202</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>methyl-4-broomacetoacetaat- gebruik voortaan C1y4Bractact</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3212</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Biovolume per volume eenheid</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>3307</SIKB0101ID>
@@ -34009,106 +33913,10 @@
 		<Omschrijving>octylfenol</Omschrijving>
 	</Parameter>
 	<Parameter>
-		<SIKB0101ID>3413</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Destructie metalen uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3414</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Destructie uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3547</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Gamma activiteit</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3590</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Extractie na inweeg</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3592</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Extractie op gewichtbasis</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3595</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Extractie op volumebasis</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3609</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Filtratie glasvezelfilter uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3610</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Filtratie papierfilter uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3619</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Golfenergiedichtheid</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3704</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>overige gamma stralers (NW4)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3791</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Identificatie draadvormers in actief slib uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
 		<SIKB0101ID>3841</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>foraat-sulfoxide</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3863</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Instraling - gebruik voortaan FOTNSDHD</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3866</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Inweeg</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3867</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Inzet op gewichtbasis</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3868</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Inzet op volumebasis</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3870</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Indamprest</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>3933</SIKB0101ID>
@@ -34117,64 +33925,10 @@
 		<Omschrijving>perfluor-1-octaansulfonaat (lineair)</Omschrijving>
 	</Parameter>
 	<Parameter>
-		<SIKB0101ID>3943</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Loogbindend vermogen - gebruik voortaan aciditeit</Omschrijving>
-	</Parameter>
-	<Parameter>
 		<SIKB0101ID>3956</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>hexa(methoxymethyl)melamine</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>3963</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>L/S-verhouding cumulatief</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4002</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Microscopisch onderzoek actief slib uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4003</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Microcystines</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4005</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Microtoxiciteitstest</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4019</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Monstername bacteriologische analyses uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4020</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Monstername fysisch-chemische analyses uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4028</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Monstername hydrobiologische analyses uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4102</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Rest beta activiteit</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>4155</SIKB0101ID>
@@ -34189,94 +33943,16 @@
 		<Omschrijving>milbemectin</Omschrijving>
 	</Parameter>
 	<Parameter>
-		<SIKB0101ID>4177</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Phormidium @gt;@gt; gebruik voortaan ID5994</Omschrijving>
-	</Parameter>
-	<Parameter>
 		<SIKB0101ID>4308</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>som C7-C10-aromaten</Omschrijving>
 	</Parameter>
 	<Parameter>
-		<SIKB0101ID>4327</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Screening niet-vluchtige stoffen uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4331</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Screening samenstelling vetzuren uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4332</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Screening vluchtige stoffen uitgevoerd</Omschrijving>
-	</Parameter>
-	<Parameter>
 		<SIKB0101ID>4538</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>som methyleenblauwactieve stoffen anionactief</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4581</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Solid Phase Extractie</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4658</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>De golfenergie in de frequentieband van 500-1000 mHz</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4662</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Gemiddelde golfperiode uit hoogste 1/3 deel van de golven</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4672</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Totaal resultaat toetsing</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4674</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Toxische blauwalgen @gt;@gt; gebruik voortaan ID 6022</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4678</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Treklengte</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4679</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Trekrichting</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4687</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Verhouding organische stof/water</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>4714</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Voorbewerking headspace</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>4788</SIKB0101ID>
@@ -34321,268 +33997,10 @@
 		<Omschrijving>diaminomethylideenureum @gt;@gt; gebruik voortaan ID 5279</Omschrijving>
 	</Parameter>
 	<Parameter>
-		<SIKB0101ID>5358</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Benthos Geaggregeerde indicatoren</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5359</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vissen Visserijdruk</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5360</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vissen Biomassa Paaibestanden</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5361</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vissen Grootteverdeling Visbestanden</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5362</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vissen Geaggregeerde indicatoren</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5363</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vissen Discards Visserij</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5364</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vogels Geaggregeerde indicatoren</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5365</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Zeezoogdieren Geaggregeerde indicatoren</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5366</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Demografische kenmerken</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5367</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Voedselweb Lengte-Frequentieverdeling bodemvissen</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5368</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Voedselweb Indicatoren toppredatoren</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5369</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Voedselweb Voedselrelatie sleutelsoorten</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5370</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Zeebodemintegriteit Verspreiding en omvang habitats</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5371</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Zeebodemintegriteit Niet verstoord zeebodemareaal</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5372</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Zeebodemintegriteit Samenstelling bodemleefgemeenschappen</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5373</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Zeebodemintegriteit Kwaliteit habitats</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5374</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Exoten Aantal exoten</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5375</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Exoten Aantal nieuwe exoten</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5376</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Exoten Ratio inheems/exoot</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5377</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Eutrofiering Nutriëntenniveaus</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5378</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Eutrofiering Directe effecten</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5379</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Eutrofiering Indirecte effecten</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5380</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vervuilende stoffen Concentr. vervuilende polaire stoffen</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5381</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vervuilende stoffen Concentr. vervuilende apolaire stoffen</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5382</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vervuilende stoffen Imposex en intersex</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5383</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vervuilende stoffen Percentage besmeurde vogels</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5384</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vervuilende stoffen Overschrijdingen limieten visserijprod.</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5385</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vervuilende stoffen Gehalten visserijproducten</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5386</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vervuilende stoffen Aantal overschrijdende stoffen</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5387</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Vervuilende stoffen Bron vervuiling</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5388</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Zwerfvuil Trends zwerfvuil stranden</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5389</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Zwerfvuil Trends zwerfvuil mariene organismen</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5395</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Plastic fles of verpakking voor voedsel (SA0610 of SA0620)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5410</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Plastic beker (SA0211 of SA0212)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5421</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Kunststof touwtjes en koord (diameter @lt; 1 cm) (SA0321/2)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5422</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Kunststof verstrengelde netten, touw of koord (SA0331/2)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5423</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Kunststof viskist (SA0341 of SA0342)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5435</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Stuk plastic of polystyreen 2,5 - 50 cm (SA0461 of SA0462)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5436</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Stuk plastic of polystyreen @gt; 50 cm (SA0471 of SA0472)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5484</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Wattenstaafje (SA0981 of SA0982)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5501</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Stukjes plastic of polystyreen 0-2,5 cm (SA1171 of SA1172)</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>5758</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>SACFOR schaal</Omschrijving>
-	</Parameter>
-	<Parameter>
 		<SIKB0101ID>5832</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>10,11-transdiol carbamazepine @gt;@gt; gebruik voortaan ID 6069</Omschrijving>
-	</Parameter>
-	<Parameter>
-		<SIKB0101ID>6050</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Humuszuur</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>6964</SIKB0101ID>
