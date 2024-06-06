@@ -30,14 +30,14 @@
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
         <Waarde>röntgenfluorescentie</Waarde>
-        <SIKB0101ID>volgt</SIKB0101ID>
+        <SIKB0101ID>223</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Meettechniek waarmee met behulp van röntgenstraling het gehalte aan (zware) metalen in grond wordt bepaald.</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
         <Waarde>fotoIonisatiedetectie</Waarde>
-        <SIKB0101ID>volgt</SIKB0101ID>
+        <SIKB0101ID>224</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Meettechniek waarmee met behulp van fotoionisatie het gehalte vluchtige organische componenten wordt bepaald.</Omschrijving>
