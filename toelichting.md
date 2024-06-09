@@ -30,15 +30,15 @@ De registratiegeschiedenis van een milieuhygiënisch bodemonderzoek geeft de ess
 De geometrie van het milieuhygiënisch bodemonderzoek kan worden aangeleverd ten opzichte van drie referentiestelsels (RD, ETRS89 en WGS84). Binnen de basisregistratie ondergrond worden gegevens die aangeleverd zijn volgens RD of WGS84 volgens een gedefinieerde methodiek omgezet naar ETRS89. Deze bewerking vindt plaats binnen de BRO zodat aan de uitgiftekant altijd kan worden uitgeleverd in ETRS89 én het oorspronkelijk aangeleverde referentiestelsel. De gestandaardiseerde locatie wordt op basis van de aanlevering automatisch vastgelegd.
 
 ### Rapport
-Binnen deze gegevensgroep is een viertal kenmerken van het rapport met de resultaten van het bodemonderzoek vastgelegd. Een rapportnummer, een rapportdatum, een rapportauteur en de URL waar het rapport te downloaden is. Onder de rapportauteur wordt verstaan de naam van het onderzoeksbureau zoals op het rapport vermeld is. Aangezien deze gegevens niet gestandaardiseerd beschikbaar zijn kan dit gegeven worden aangeleverd als vrije tekst. Dit betekent dat deze gegevens dus informatief en niet-authentiek zijn.
+Binnen deze gegevensgroep is een viertal kenmerken van het rapport met de resultaten van het bodemonderzoek vastgelegd. Een rapportnummer, een rapportdatum, een rapportauteur en de URL waar het rapport te downloaden is. Onder de rapportauteur wordt verstaan de naam van het onderzoeksbureau zoals op het rapport vermeld is. Aangezien dit gegeven niet gestandaardiseerd beschikbaar is het worden aangeleverd als vrije tekst. Dit betekent dat dit gegeven dus informatief en niet-authentiek is.
 			
 ### Meetpunt
-Deze entiteit bevat de gegevens die het meetpunt identificeren inclusief de belangrijkste administratieve gegevens en de informatie over de geometrie van de meetpunt(en) die zijn geplaatst in het kader van het onderzoek. Diepten van het meetpunt worden standaard gerefereerd aan het maaiveld. Indien de hoogte van het maaiveld bekend is kan dit worden gerefereerd aan een vast referentievlak. Binnen dit registratieobject is dat NAP. De hoogte ten opzichte van NAP wordt vastgelegd middels het gegeven 'Verschuiving'. 
+Deze entiteit bevat de gegevens die het meetpunt (bijvoorbeeld boring of peilbuis) identificeren inclusief de belangrijkste administratieve gegevens en de informatie over de geometrie van de meetpunten die zijn geplaatst in het kader van het onderzoek. Diepten van een meetpunt worden standaard gerefereerd aan het maaiveld. Indien de hoogte van het maaiveld bekend is, kan worden gerefereerd aan een vast referentievlak. Binnen dit registratieobject is dat NAP. De hoogte ten opzichte van NAP wordt vastgelegd middels het gegeven 'verschuiving'. 
 
 <figure>
 	<img src="./media/BRO_Cat_Fig_Meetpunt.png" alt="Meetpunt" width="350"/>
 	<figcaption>
-		Vertikaal referentievlak meetpunt.
+		Verticale positie van een meetpunt.
 	</figcaption>
 </figure>
 
