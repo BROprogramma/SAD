@@ -45,13 +45,13 @@ Deze entiteit bevat de gegevens die het meetpunt (bijvoorbeeld boring of peilbui
 Het meetpunt kan vervolgens een boorbeschrijving, een boorprofiel en een beschrijving van de bodemlagen en bijzonderheden bevatten. Deze onderdelen zijn in het model ondergebracht in aparte entiteiten.
 
 ### Asbestresultaat
-Deze entiteit bevat informatie over eventueel tijdens het onderzoek aangetroffen asbest. Het voorkomen van asbest wordt bepaald per meetpunt of een verzameling meetpunten waarbij tevens de diepte is aangegeven waarop mogelijk asbest is aangetroffen. Het resultaat wordt uitgedrukt in een gewogen gehalte. Er kan worden aangegeven of ook asbest(plaat-)materiaal is aangetroffen. 
+Deze entiteit bevat informatie over eventueel tijdens het onderzoek aangetroffen asbest. Het voorkomen van asbest wordt bepaald per meetpunt of een verzameling meetpunten waarbij tevens de diepte is aangegeven waarop mogelijk asbest is aangetroffen. Het resultaat wordt uitgedrukt in een gewogen gehalte. Er kan worden aangegeven of tijdens de veldwerkzaamheen asbestdeeltjes zijn aangetroffen. 
 
 ### Grondmonstername, grondmonsteranalyse en mengmonsteranalyse
-Deze entiteiten bevatten de gegevens van de grondmonstername en de grondmonsters die worden genomen tijdens het plaatsen van het meetpunt. Grondmonsters kunnen binnen een milieuhygiënisch bodemonderzoek worden samengesteld tot een mengmonster. De (meng-)monsters worden vervolgens ter analyse aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses.
+Deze entiteiten bevatten de gegevens van de grondmonstername en de grondmonsters die worden genomen tijdens het plaatsen van het meetpunt. Grondmonsters kunnen binnen een milieuhygiënisch bodemonderzoek worden samengesteld tot een mengmonster. De (meng)monsters worden vervolgens ter analyse aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses.
 
 ### Filter
-Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belangrijkste administratieve gegevens en de informatie over de ligging van de filters die zijn geplaatst in het kader van het onderzoek. De diepte van een peilfilter wordt bij voorkeur gerefereerd aan de bovenkant van de peilbuis. Deze kan zich boven of onder het maaiveld bevinden. Deze situatie is opgenomen in figuur 6 (met situatie bovenkant peilbuis boven het maaiveld). De hoogte van de bovenkant peilbuis ten opzichte van het maaiveld wordt vastgelegd in het gegeven ‘Maaiveldpositie’. Deze kan positief (boven maaiveld) of negatief zijn (onder maaiveld).
+Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belangrijkste administratieve gegevens en de informatie over de ligging van de filters die zijn geplaatst in het kader van het onderzoek. De diepte van een peilfilter wordt bij voorkeur gerefereerd aan de bovenkant van de peilbuis. Deze kan zich boven of onder het maaiveld bevinden. Deze situatie is opgenomen in figuur 6 (met situatie bovenkant peilbuis boven het maaiveld). De hoogte van de bovenkant peilbuis ten opzichte van het maaiveld wordt vastgelegd in het gegeven ‘maaiveldpositie’. Deze kan positief (boven maaiveld) of negatief zijn (onder maaiveld).
 
 <figure>
 	<img src="./media/BRO_Cat_Fig_FilterBOBPB.png" alt="Filter" width="350"/>
@@ -60,7 +60,7 @@ Deze entiteit bevat de gegevens die de filters identificeren, inclusief de belan
 	</figcaption>
 </figure>  
 
-In sommige gevallen (met name oude data) kan het zijn dat de filterdiepte (net als de bodemlagen) is gerefereerd aan het maaiveld. Deze situatie is opgenomen in figuur 7. Omdat de bovenkant peilbuis als gegeven ontbreekt, ontbreekt ook de ‘Maaiveldpositie’. 
+In sommige gevallen (met name oude data) kan het zijn dat de filterdiepte (net als de bodemlagen) is gerefereerd aan het maaiveld. Deze situatie is opgenomen in figuur 7. Omdat de bovenkant peilbuis als gegeven ontbreekt, ontbreekt ook de ‘maaiveldpositie’. 
 
 <figure>
 	<img src="./media/BRO_Cat_Fig_FilterMV.png" alt="Filter" width="350"/>
@@ -69,7 +69,7 @@ In sommige gevallen (met name oude data) kan het zijn dat de filterdiepte (net a
 	</figcaption>
 </figure>  
 
-De bovenkant van de peilbuis of, in de tweede situatie, het maaiveld kunnen gerefereerd worden aan een verticaal referentievlak (NAP). Dit wordt vastgelegd middels het gegeven 'Verschuiving'.
+De bovenkant van de peilbuis of, in de tweede situatie, het maaiveld kunnen gerefereerd worden aan een verticaal referentievlak (NAP). Dit wordt vastgelegd middels het gegeven 'verschuiving'.
 
 ### Grondwatermonstername en grondwateranalyse
 Deze entiteiten bevatten de gegevens van de grondwatermonstername uit de filter en de grondwatermonsters die vervolgens ter analyse worden aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses. Tevens kan vanuit de grondwatermonstername een koppeling worden gelegd met de veldwaarnemingen en veldmetingen.
@@ -80,7 +80,7 @@ Deze entiteiten bevatten de waarnemingen en resultaten van metingen zoals die zi
 ### Analyse
 Deze entiteit bevat de resultaten van de analyses die door een laboratorium worden uitgevoerd op de aangeleverde grondmonsters, mengmonsters van grondmonsters of grondwatermonsters.
 
-### Analysemethode
+### Analyseproces
 Deze entiteit bevat de gegevens over de analysemethode die door het laboratorium is gebruikt.
 
 ## INSPIRE
