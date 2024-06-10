@@ -45,7 +45,7 @@ Deze entiteit bevat de gegevens die het meetpunt (bijvoorbeeld boring of peilbui
 Het meetpunt kan vervolgens een boorbeschrijving, een boorprofiel en een beschrijving van de bodemlagen en bijzonderheden bevatten. Deze onderdelen zijn in het model ondergebracht in aparte entiteiten.
 
 ### Asbestresultaat
-Deze entiteit bevat informatie over eventueel tijdens het onderzoek aangetroffen asbest. Het voorkomen van asbest wordt bepaald per meetpunt of een verzameling meetpunten waarbij tevens de diepte is aangegeven waarop mogelijk asbest is aangetroffen. Het resultaat wordt uitgedrukt in een gewogen gehalte. Er kan worden aangegeven of tijdens de veldwerkzaamheen asbestdeeltjes zijn aangetroffen. 
+Deze entiteit bevat informatie over eventueel tijdens het onderzoek aangetroffen asbest. Het voorkomen van asbest wordt bepaald per meetpunt of een verzameling meetpunten waarbij tevens de diepte is aangegeven waarop mogelijk asbest is aangetroffen. Het resultaat wordt uitgedrukt in een gewogen gehalte. Er kan worden aangegeven of tijdens de veldwerkzaamheen asbestdeeltjes (bijvoorbeeld brokjes of plaatmateriaal) zijn aangetroffen. 
 
 ### Grondmonstername, grondmonsteranalyse en mengmonsteranalyse
 Deze entiteiten bevatten de gegevens van de grondmonstername en de grondmonsters die worden genomen tijdens het plaatsen van het meetpunt. Grondmonsters kunnen binnen een milieuhygiënisch bodemonderzoek worden samengesteld tot een mengmonster. De (meng)monsters worden vervolgens ter analyse aangeboden aan het laboratorium. Deze entiteiten zijn nodig om een goede koppeling te maken met de resultaten van de uitgevoerde analyses.
