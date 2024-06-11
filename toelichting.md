@@ -8,6 +8,8 @@ Een milieuhygiënisch bodemonderzoek bestaat uit het geheel van gegevens uit arc
 
 Hiermee is ook het onderscheid vastgelegd tussen de registratieobjecten die betrekking hebben op de domeinen <i>bodem- en grondonderzoek</i> en <i>grondwatermonitoring</i>. Binnen deze domeinen is de registratie van de gegevens georganiseerd in losse registratieobjecten zoals <i>booronderzoek</i>, <i>grondwatermonitoringput</i>, <i>grondwatersamenstellingsonderzoek</i>. Het <i>milieuhygiënisch bodemonderzoek</i> wordt altijd als een geïntegreerd geheel geregistreerd en heeft als doel het onderzoek naar het voorkomen van verontreinigende stoffen.
 
+Het registratieobject <i>milieuhygiënisch bodemonderzoek</i> wordt in zijn geheel in één keer aangeleverd en kent geen mogelijkheid tot aanvullingen  nadat het brondocument is aangeleverd (geen materiële geschiedenis). Fouten in de registratie kunnen worden gecorrigeerd door middel van een correctiebericht.
+
 ## Belangrijkste entiteiten
 
 ### Bodemonderzoek
