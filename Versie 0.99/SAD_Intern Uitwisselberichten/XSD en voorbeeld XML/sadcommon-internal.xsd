@@ -173,7 +173,7 @@ Explanation: Het type onderzoek geeft informatie over het soort onderzoek dat is
 Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-                    <xs:element name="investigationReason" type="sadcominternal:InvestigationReasonType" minOccurs="1" maxOccurs="1">
+                    <xs:element name="investigationReason" type="sadcominternal:InvestigationReasonType" minOccurs="0" maxOccurs="1">
                         <xs:annotation>
                             <xs:appinfo>
                                 <CodeListName>InvestigationReason</CodeListName>
@@ -569,6 +569,7 @@ Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van a
     </xs:complexType>
     <xs:complexType name="SoilSampleAnalysisPropertyType">
         <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:SoilSampleAnalysis"/>
             <xs:element ref="sadcominternal:SoilSampleAnalysis"/>
         </xs:sequence>
         <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
@@ -1129,7 +1130,7 @@ Explanation: De registerbeheerder kan een registratieobject eenmalig uit registr
                 </xs:annotation>
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
-                        <xs:maxLength value="40"/>
+                        <xs:maxLength value="200"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
