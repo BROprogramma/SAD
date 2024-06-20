@@ -570,7 +570,6 @@ Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van a
     <xs:complexType name="SoilSampleAnalysisPropertyType">
         <xs:sequence minOccurs="0">
             <xs:element ref="sadcominternal:SoilSampleAnalysis"/>
-            <xs:element ref="sadcominternal:SoilSampleAnalysis"/>
         </xs:sequence>
         <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
     </xs:complexType>
