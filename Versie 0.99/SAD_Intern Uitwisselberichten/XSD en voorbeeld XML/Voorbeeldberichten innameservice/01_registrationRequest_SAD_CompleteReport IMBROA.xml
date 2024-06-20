@@ -255,7 +255,7 @@
                             <sadcom:name>POT3</sadcom:name>  
                             <sadcom:beginDepth uom="m">1.2</sadcom:beginDepth>
                             <sadcom:endDepth uom="m">2.0</sadcom:endDepth>
-                            <sadcom:date>2018-03-08</sadcom:date>                                                      
+                            <sadcom:date>2018-03-08</sadcom:date>                                                     
                             <sadcom:soilSampleAnalysis>
                                 <sadcom:SoilSampleAnalysis gml:id="_c1adf8f7-e0cd-4810-a93e-60580f34b3fa">
                                     <sadcom:identification>c1adf8f7-e0cd-4810-a93e-60580f34b3fa</sadcom:identification>

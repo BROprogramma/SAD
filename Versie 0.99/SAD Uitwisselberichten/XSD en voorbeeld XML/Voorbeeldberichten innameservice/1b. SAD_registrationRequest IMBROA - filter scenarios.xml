@@ -10,7 +10,7 @@
     <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>
     <sourceDocument>
         <SAD_CompleteReport>
-            <reportDate>2018-12-08</reportDate>
+            <reportDate>2024-05-30</reportDate>
             <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>
             <objectIdAccountableParty>MijnReferentieSADUpload</objectIdAccountableParty>
             <featureCollection>
