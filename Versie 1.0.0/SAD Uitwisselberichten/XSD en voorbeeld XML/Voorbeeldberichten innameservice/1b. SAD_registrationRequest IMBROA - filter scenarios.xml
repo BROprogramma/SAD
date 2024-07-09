@@ -19,7 +19,7 @@
                     <imsikb0101:metaData>
                         <imsikb0101:application>urn:imsikb0101:Applicaties:id:23</imsikb0101:application>
                         <imsikb0101:date>2024-02-20</imsikb0101:date>
-                        <imsikb0101:organisation>TerraIndex BV</imsikb0101:organisation>
+                        <imsikb0101:organisation>Voorbeeld Bedrijfsnaam BV</imsikb0101:organisation>
                         <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:6</imsikb0101:supplier>
                         <imsikb0101:version>14.8.0</imsikb0101:version>
                         <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:4</imsikb0101:dataflow>

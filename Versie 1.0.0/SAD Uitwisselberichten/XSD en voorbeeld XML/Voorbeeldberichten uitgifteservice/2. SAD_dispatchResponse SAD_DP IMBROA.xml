@@ -135,7 +135,7 @@
                                     <immetingen:relatedSubject xlink:href="#_9b4e21b3-3282-433f-b584-54471298e928"/>
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
-                            <immetingen:name>Veldwerk bazen BV</immetingen:name>
+                            <immetingen:name>Veldwerk Bedrijfsnaam BV</immetingen:name>
                             <!-- Veldwerkbureau -->
                             <immetingen:organisationType>urn:immetingen:RolBetrokkene:id:65</immetingen:organisationType>
                         </immetingen:Organization>
@@ -156,8 +156,8 @@
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
                             <!-- boormeester -->
-                            <immetingen:firstName>Robin</immetingen:firstName>
-                            <immetingen:lastName>Huisman</immetingen:lastName>
+                            <immetingen:firstName>Voornaam</immetingen:firstName>
+                            <immetingen:lastName>Achternaam</immetingen:lastName>
                         </immetingen:Person>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -175,7 +175,7 @@
                                     <immetingen:relatedSubject xlink:href="#_8b3e21b3-3282-433f-b584-54471298e928"/>
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
-                            <immetingen:name>Adviebureau Guru's BV</immetingen:name>
+                            <immetingen:name>Adviebureau Bedrijfsnaam BV</immetingen:name>
                             <!-- Adviesbureau -->
                             <immetingen:organisationType>urn:immetingen:RolBetrokkene:id:64</immetingen:organisationType>
                             <immetingen:chamberOfCommerceNumber>27376655</immetingen:chamberOfCommerceNumber>
@@ -197,8 +197,8 @@
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
                             <!-- projectleider -->
-                            <immetingen:firstName>Herry</immetingen:firstName>
-                            <immetingen:lastName>Bruinings</immetingen:lastName>
+                            <immetingen:firstName>Voornaam</immetingen:firstName>
+                            <immetingen:lastName>Achternaam</immetingen:lastName>
                         </immetingen:Person>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -1603,8 +1603,8 @@
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
                             <!-- monsternemer -->
-                            <immetingen:firstName>Nico</immetingen:firstName>
-                            <immetingen:lastName>Lemaire</immetingen:lastName>
+                            <immetingen:firstName>Voornaam</immetingen:firstName>
+                            <immetingen:lastName>Achternaam</immetingen:lastName>
                         </immetingen:Person>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
