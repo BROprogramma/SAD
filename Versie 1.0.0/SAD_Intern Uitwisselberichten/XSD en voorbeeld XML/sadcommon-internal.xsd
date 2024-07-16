@@ -12,7 +12,7 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:sadcominternal="http://www.broservices.nl/xsd/sadcommon-internal/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/sadcommon-internal/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:sadcominternal="http://www.broservices.nl/xsd/sadcommon-internal/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/sadcommon-internal/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.1">
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="./brocommon.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml-profile.xsd"/>
     <xs:element name="RegistrationObject" type="sadcominternal:RegistrationObjectType" substitutionGroup="gml:AbstractFeature">
