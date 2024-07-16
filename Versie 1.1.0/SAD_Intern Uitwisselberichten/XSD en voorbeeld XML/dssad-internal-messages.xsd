@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright 2012-2024 TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+           xmlns:dssad="http://www.broservices.nl/xsd/dssad-internal/1.1"
+           xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/1.1"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.broservices.nl/xsd/dssad-internal/1.1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.1.0">
+	<xs:import namespace="http://www.broservices.nl/xsd/sadcommon-internal/1.1"
+              schemaLocation="./sadcommon-internal.xsd"/>
+	<xs:import namespace="http://www.opengis.net/gml/3.2"
+              schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+	<xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0"
+              schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+	<xs:element name="parseFault" type="brocom:ParseFaultType" />
+	<xs:element name="dispatchDataRequest" type="brocom:DispatchDataRequestType"/>
+	<xs:element name="dispatchCharacteristicsRequest"
+               type="dssad:DispatchCharacteristicsRequestType">
+		<xs:annotation>
+			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht dispatchCharacteristicsRequest is een specialisatie van AbstractDispatchCharacteristicsRequest in de package brocommon, waaraan het een registratieobject afhankelijk element criteria toevoegt.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="DispatchCharacteristicsRequestType">
+		<xs:complexContent>
+			<xs:extension base="brocom:AbstractDispatchCharacteristicsRequestType">
+				<xs:sequence>
+					<xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="criteria"
+                           nillable="false"
+                           type="dssad:SAD_CriteriaSetType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="SAD_O_DP"
+               type="dssad:SAD_O_DPType"
+               substitutionGroup="brocom:RegistrationObject"/>
+	<xs:complexType name="SAD_O_DPType">
+		<xs:complexContent>
+			<xs:extension base="brocom:RegistrationObjectType">
+				<xs:sequence>
+					<xs:element name="deliveryContext"
+                           minOccurs="1"
+                           maxOccurs="1"
+                           type="sadcom:DeliveryContextType">
+						<xs:annotation>
+							<xs:appinfo>
+								<CodeListName>DeliveryContext</CodeListName>
+								<CodeListURI>urn:brocom:sad:DeliveryContext</CodeListURI>
+							</xs:appinfo>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Een aanduiding van de rechtsgrond waarop het brondocument is gebaseerd of, bij afwezigheid daarvan, de activiteit naar aanleiding waarvan het is opgemaakt
+Explanation: De wetgever heeft bepaald dat het gegeven moet zijn vastgelegd om inzicht te geven in de relatie met de taken van een bestuursorgaan. Het gegeven geeft inzicht in de maatschappelijke betekenis van de informatie.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen.
+Explanation: Het gegeven is alleen aanwezig wanneer het bodemonderzoek (inclusief eventuele monitoring) is gerapporteerd en het onderzoek is afgesloten. Hier wordt overigens niet de datum van het onderzoeksrapport bedoeld. De datum van het onderzoeksrapport wordt vastgelegd bij de gegevensgroep Rapport als rapportdatum. Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal onbekend en niet relevant.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="identification" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het bodemonderzoek heeft binnen de informatieketen milieukwaliteit.
+Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="50"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="name" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het onderzoek.
+Explanation: De naam die door de bronhouder is toegekend aan het onderzoek.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="255"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="projectType"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sadcom:ProjectTypeType">
+						<xs:annotation>
+							<xs:appinfo>
+								<CodeListName>ProjectType</CodeListName>
+								<CodeListURI>urn:brocom:sad:ProjectType</CodeListURI>
+							</xs:appinfo>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type onderzoek dat is uitgevoerd.
+Explanation: Het type onderzoek geeft informatie over het soort onderzoek dat is uitgevoerd, maar ook over de wijze waarop gerapporteerd is. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="asbestos"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sadcom:AsbestosPresenceType">
+						<xs:annotation>
+							<xs:appinfo>
+								<CodeListName>AsbestosPresence</CodeListName>
+								<CodeListURI>urn:brocom:sad:AsbestosPresence</CodeListURI>
+							</xs:appinfo>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding of binnen het onderzoek de aanwezigheid van asbest is onderzocht.
+Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="investigationReason"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sadcom:InvestigationReasonType">
+						<xs:annotation>
+							<xs:appinfo>
+								<CodeListName>InvestigationReason</CodeListName>
+								<CodeListURI>urn:brocom:sad:InvestigationReason</CodeListURI>
+							</xs:appinfo>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanleiding voor het uitvoeren van het onderzoek.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="geometry"
+                           type="gml:MultiSurfacePropertyType"
+                           minOccurs="1"
+                           maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begrenzing van het onderzoeksgebied op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.
+Explanation: De aangeleverde begrenzing is vastgelegd als een mulitvlak (multi surface).</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="investigationConclusion" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De conclusie van het bodemonderzoek volgens de uitvoerder van het onderzoek.
+Explanation: In de conclusie staat veelal of er verontreiniging is aangetroffen, wat de eventuele aard en omvang is en/of welke vervolgacties nodig zijn. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd. Dit veld is de conclusie van de rapportauteur en niet de conclusie van de bronhouder (veelal bevoegd gezag).</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="4000"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="researchOperator"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="brocom:OrganizationType">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het milieuhygiënisch bodemonderzoek, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
+Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven veelal niet vastgelegd</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="registrationHistory"
+                           nillable="false"
+                           type="sadcom:RegistrationHistoryType">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die de geschiedenis van het milieuhygiënisch bodemonderzoek in de registratie ondergrond markeren.
+Explanation: De registratiegeschiedenis van een milieuhygiënisch bodemonderzoek geeft de essentie van de geschiedenis van het object in de registratie ondergrond, de zgn. formele geschiedenis weer. De registratiegeschiedenis vertelt bijvoorbeeld wanneer voor het eerst gegevens van het object zijn geregistreerd en of er na registratie correcties zijn doorgevoerd. Het gegeven staat niet in een brondocument, maar wordt automatisch vanuit de basisregistratie ondergrond gegenereerd.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element minOccurs="1"
+                           maxOccurs="1"
+                           name="standardizedLocation"
+                           nillable="false"
+                           type="brocom:StandardizedLocationV2Type">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De begrenzing van het bodemonderzoek op het aardoppervlak zoals die door de basisregistratie ondergrond is getransformeerd.
+Explanation: De gestandaardiseerde locatie wordt door de basisregistratie ondergrond berekend ten behoeve van afnemers. Het gegeven staat niet in een brondocument, maar wordt automatisch vanuit de basisregistratie ondergrond gegenereerd.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="report"
+                           nillable="false"
+                           type="sadcom:ReportType">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Eigenschappen van het rapport waarin de resultaten van het bodemonderzoek zijn opgenomen.
+Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="measurementPoint"
+                           nillable="false"
+                           type="sadcom:MeasurementPointPropertyType">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De boring die is uitgevoerd als onderdeel van het bodemonderzoek.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="mixedSampleAnalysis"
+                           nillable="false"
+                           type="sadcom:MixedSampleAnalysisPropertyType">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De mengmonsters die zijn samengesteld als onderdeel van het bodemonderzoek.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+                    <xs:element minOccurs="0"
+                               maxOccurs="unbounded"
+                               name="asbestosResult"
+                               nillable="false"
+                               type="sadcom:AsbestosResultPropertyType">
+                               <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">De gegevens die betrekking hebben op de resultaten van het asbestonderzoek.</xs:documentation>
+                        </xs:annotation>
+                     </xs:element>             
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SAD_O_DPPropertyType">
+		<xs:sequence minOccurs="1">
+			<xs:element ref="dssad:SAD_O_DP"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="dispatchCharacteristicsResponse"
+               type="dssad:DispatchCharacteristicsResponseType">
+		<xs:annotation>
+			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht DispatchCharacteristicsResponse is een specialisatie van DispatchResponse in de package brocommon, waaraan het een attribuut numberOfDocuments en een associatie relatie naar AbstractRegistrationObject in de package brocommon toevoegt.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="DispatchCharacteristicsResponseType">
+		<xs:complexContent>
+			<xs:extension base="brocom:DispatchResponseType">
+				<xs:sequence>
+					<xs:element name="numberOfDocuments"
+                           type="xs:integer"
+                           minOccurs="0"
+                           maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding welke gegevens over het registratieobject worden opgevraagd: alleen de actuele gegevens (present object data) of de actuele gegevens en de volledige materiële geschiedenis (past and present object data).</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element minOccurs="0"
+                           maxOccurs="unbounded"
+                           name="dispatchDocument"
+                           nillable="false"
+                           type="brocom:AbstractRegistrationObjectPropertyType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="SAD_C"
+               type="dssad:SAD_CType"
+               substitutionGroup="brocom:AbstractCharacteristicsV2">
+		<xs:annotation>
+			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De entiteit SAD_C bevat de kengegevens van een bodemonderzoek, dat niet uit registratie is genomen.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="SAD_CType">
+		<xs:complexContent>
+			<xs:extension base="brocom:AbstractCharacteristicsV2Type">
+				<xs:sequence>
+					<xs:element name="reportDate" type="xs:date" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen.
+Explanation: Het gegeven is alleen aanwezig wanneer het bodemonderzoek (inclusief eventuele monitoring) is gerapporteerd en het onderzoek is afgesloten. Hier wordt overigens niet de datum van het onderzoeksrapport bedoeld. De datum van het onderzoeksrapport wordt vastgelegd bij de gegevensgroep Rapport als rapportdatum. Voor bestaande gegevens die onder IMBRO/A worden aangeleverd is deze datum veelal onbekend en niet relevant.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="identification" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het bodemonderzoek heeft binnen de informatieketen milieukwaliteit.
+Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="50"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="investigationReason"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sadcom:InvestigationReasonType">
+						<xs:annotation>
+							<xs:appinfo>
+								<CodeListName>InvestigationReason</CodeListName>
+								<CodeListURI>urn:brocom:sad:InvestigationReason</CodeListURI>
+							</xs:appinfo>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanleiding voor het uitvoeren van het onderzoek.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="projectType"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sadcom:ProjectTypeType">
+						<xs:annotation>
+							<xs:appinfo>
+								<CodeListName>ProjectType</CodeListName>
+								<CodeListURI>urn:brocom:sad:ProjectType</CodeListURI>
+							</xs:appinfo>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het type onderzoek dat is uitgevoerd.
+Explanation: Het type onderzoek geeft informatie over het soort onderzoek dat is uitgevoerd, maar ook over de wijze waarop gerapporteerd is. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="reportNumber" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het nummer of kenmerk van het rapport waarin de resultaten van het bodemonderzoek zijn vastgelegd.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="40"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="asbestos"
+                           minOccurs="0"
+                           maxOccurs="1"
+                           type="sadcom:AsbestosPresenceType">
+						<xs:annotation>
+							<xs:appinfo>
+								<CodeListName>AsbestosPresence</CodeListName>
+								<CodeListURI>urn:brocom:sad:AsbestosPresence</CodeListURI>
+							</xs:appinfo>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding of binnen het onderzoek de aanwezigheid van asbest is onderzocht.
+Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="name" minOccurs="1" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het onderzoek.
+Explanation: De naam die door de bronhouder is toegekend aan het onderzoek.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="255"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SAD_CPropertyType">
+		<xs:sequence minOccurs="0">
+			<xs:element ref="dssad:SAD_C"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+	</xs:complexType>
+	<xs:element name="dispatchDataResponse"
+               type="dssad:DispatchDataResponseType">
+		<xs:annotation>
+			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het bericht DispatchDataResponse is een specialisatie van de abstract klasse DispatchResponse uit de package brocommon, waaraan het een dispatchDocument toevoegt. Met dit bericht worden, als response op een DispatchDataRequest, de gegevens over een specifiek bodemonderzoek registratieobject verzonden naar de aanvrager.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="DispatchDataResponseType">
+		<xs:complexContent>
+			<xs:extension base="brocom:DispatchResponseType">
+				<xs:sequence>
+					<xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="dispatchDocument"
+                           nillable="false"
+                           type="brocom:AbstractRegistrationObjectPropertyType">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het element dispatchDocument bevat de gegevens van een bodemonderzoek registratieobject. Vanwege het polymorfe karakter is het type óf een BRODO uit de package brocom, óf een SADODP, óf een SADO uit de package dssad. Deze drie types hebben allen als gemeenschappelijke vader het type AbstractRegistrationObject uit de package brocom.
+Explanation: Het gegeven ontbreekt als de BRO geen registratieobject bevat met het in het dispatchDataRequest opgegegeven broId. Het gegeven is aanwezig en van het type BROD_DO als het registratieobject met de opgegeven broId uit registratie is genomen. Het gegeven is aanwezig en van het type SADODP als het registratieobject met de opgegeven broId niet uit registratie is genomen en de afnemer tevens bronhouder en/of dataleverancier is van het registratieobject. Het gegeven is aanwezig en van het type SAD_O als het registratieobject met de opgegeven broId niet uit registratie is genomen en de afnemer niet bronhouder of dataleverancier is van het registratieobject.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:element name="SAD_O"
+               type="dssad:SAD_OType"
+               substitutionGroup="dssad:SAD_O_DP">
+		<xs:annotation>
+			<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het uitgiftedocument met de geregistreerde gegevens van een bodemonderzoek, dat wordt uitgeleverd als de afnemer niet de bronhouder of dataleverancier is van het registratieobject en het registratieobject niet uit registratie is genomen.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:complexType name="SAD_OType">
+		<xs:complexContent>
+			<xs:extension base="dssad:SAD_O_DPType"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SAD_OPropertyType">
+		<xs:sequence minOccurs="1">
+			<xs:element ref="dssad:SAD_O"/>
+		</xs:sequence>		
+	</xs:complexType>
+	<xs:complexType name="SAD_CriteriaSetType">
+		<xs:complexContent>
+			<xs:extension base="brocom:CriteriaSetType">
+				<xs:sequence>
+					<xs:element minOccurs="0"
+                           maxOccurs="1"
+                           name="reportPeriod"
+                           nillable="false"
+                           type="brocom:DatePeriodType">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De periode waarbinnen de datum moet liggen waarop de uitvoerder van het bodemonderzoek alle gegevens van het bodemonderzoek aan de bronhouder heeft overgedragen of in het geval van historische gegevens de datum waarop alle gegevens zijn vastgesteld.
+Explanation: De datum van het rapport wordt vastgelegd bij het Rapport als rapportdatum.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="reportNumber" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het nummer of kenmerk van het rapport waarin de resultaten van het bodemonderzoek zijn vastgelegd.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="40"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="identification" minOccurs="0" maxOccurs="1">
+						<xs:annotation>
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het bodemonderzoek heeft binnen de informatieketen milieukwaliteit.
+Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="50"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

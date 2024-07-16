@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Copyright 2012-2023 TNO Geologische Dienst Nederland
+    Copyright 2012-2024 TNO Geologische Dienst Nederland
 
     Alle rechten voorbehouden.
     Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
@@ -12,9 +12,9 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:sadcominternal="http://www.broservices.nl/xsd/sadcommon-internal/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/sadcommon-internal/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
-    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="./brocommon.xsd"/>
-    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml-profile.xsd"/>
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:sadcominternal="http://www.broservices.nl/xsd/sadcommon-internal/1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/sadcommon-internal/1.1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.1.0">
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
     <xs:element name="RegistrationObject" type="sadcominternal:RegistrationObjectType" substitutionGroup="gml:AbstractFeature">
         <xs:annotation>
             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Name: Milieuhygiënisch bodemonderzoek
@@ -48,7 +48,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
                             </xs:restriction>
                         </xs:simpleType>
                     </xs:element>
-                    <xs:element name="deliveryResponsibleParty" type="brocom:ChamberOfCommerceNumberType" minOccurs="1" maxOccurs="1">
+                    <xs:element name="deliveryResponsibleParty" type="brocom:OrganizationType" minOccurs="1" maxOccurs="1">
                         <xs:annotation>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
 Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
@@ -103,7 +103,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
                             </xs:restriction>
                         </xs:simpleType>
                     </xs:element>
-                    <xs:element name="deliveryResponsibleParty" type="brocom:ChamberOfCommerceNumberType" minOccurs="1" maxOccurs="1">
+                    <xs:element name="deliveryResponsibleParty" type="brocom:OrganizationType" minOccurs="1" maxOccurs="1">
                         <xs:annotation>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
 Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
@@ -225,6 +225,11 @@ Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van a
                     </xs:element>
                     <xs:element name="measurementPoint" type="sadcominternal:MeasurementPointPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
                     <xs:element name="mixedsampleAnalysis" type="sadcominternal:MixedSampleAnalysisPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="asbestosResult" type="sadcominternal:AsbestosResultPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">De gegevens die betrekking hebben op de resultaten van het asbestonderzoek.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
@@ -521,6 +526,7 @@ Explanation: De einddiepte wordt weergegeven ten opzichte van het lokaal vertica
                         </xs:annotation>
                     </xs:element>
                     <xs:element name="soilSampleAnalysis" type="sadcominternal:SoilSampleAnalysisPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
+                    <xs:element name="fieldMeasurement" type="sadcominternal:FieldMeasurementPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
@@ -849,6 +855,15 @@ Explanation: De veldmeetwaarde wordt uitgedrukt in een meeteenheid. De meeteenhe
 Explanation: Het domein bevat begrippen die naar een oppervlak verwijzen. Het lokaal verticaal referentiepunt geldt als het punt waar de meting van de grondwaterstand begonnen is.</xs:documentation>
                         </xs:annotation>
                     </xs:element>
+                    <xs:element name="valuationTechnique" type="sadcominternal:ValuationTechniqueType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>ValuationTechnique</CodeListName>
+                                <CodeListURI/>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding van de techniek waarmee een meting is uitgevoerd.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
@@ -983,6 +998,16 @@ Explanation: Het gegeven is alleen aanwezig wanneer bij het attribuut analysemee
 Explanation: De vorm van de eenheid kan een equivalent zijn waarin de meetwaarde wordt uitgedrukt, als ware het een andere vergelijkbare parameter. Voorbeeld hiervan is 'uitgedrukt in Stikstof' bij de parameter Nitraat (NO3). De waarde 'opgeloste fractie' of de korrelgroottefractie zijn voorbeelden van fracties van een parameter.</xs:documentation>
                         </xs:annotation>
                     </xs:element>
+                    <xs:element name="valueProcessingMethod" type="sadcominternal:ValueProcessingMethodType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo>
+                                <CodeListName>ValueProcessingMethod</CodeListName>
+                                <CodeListURI/>
+                            </xs:appinfo>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Aanduiding van de manier waarop een reeks meetwaarden (rekenkundig) bewerkt zijn.
+                    Explanation: De waardebewerkingsmethode wordt gebruikt voor de uitwisseling van de onder- en bovengrenswaarden voor asbestparameters.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
                     <xs:element name="analysisProcess" type="sadcominternal:AnalysisProcessPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
                 </xs:sequence>
             </xs:extension>
@@ -1030,6 +1055,86 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
     <xs:complexType name="AnalysisProcessPropertyType">
         <xs:sequence minOccurs="0">
             <xs:element ref="sadcominternal:AnalysisProcess"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
+    </xs:complexType>
+    <xs:element name="AsbestosResult" type="sadcominternal:AsbestosResultType" substitutionGroup="gml:AbstractFeature">
+        <xs:annotation>
+            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De gegevens die betrekking hebben op de resultaten van het asbestonderzoek.</xs:documentation>
+        </xs:annotation>
+    </xs:element>
+    <xs:complexType name="AsbestosResultType">
+        <xs:complexContent>
+            <xs:extension base="gml:AbstractFeatureType">
+                <xs:sequence>
+                    <xs:element name="identification" type="xs:string" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De identificatie die het onderzochte interval heeft binnen de informatieketen milieukwaliteit.
+Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en heeft de vorm van een GUID (Globally Unique Identifier). De opbouw bestaat uit 32 letters en cijfers, ingedeeld in vijf groepen gescheiden door koppeltekens: 8-4-4-4-12.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="name" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De herkenbare naam van het asbestresultaat.</xs:documentation>
+                        </xs:annotation>
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:length value="24"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="beginDepth" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop het interval dat is onderzocht begint.
+Explanation: De begindiepte wordt weergegeven ten opzichte van het maaiveld.</xs:documentation>
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="endDepth" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop het interval dat is onderzocht eindigt.
+Explanation: De einddiepte wordt weergegeven ten opzichte van het maaiveld.</xs:documentation>
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="asbestosParticlesFound" type="brocom:IndicationYesNoUnknownType" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of stukjes asbesthoudend materiaal zijn aangetroffen.</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="weightedAsbestosContent" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het berekende gewogen totaalgehalte asbest.
+Explanation: De totaalgehalten asbest (amfibool en serpentijn) worden berekend conform de rekenregels uit de NEN5707. Het gewogen gehalte wordt vervolgens bepaald door het serpentijngehalte vermeerderd met tienmaal het amfiboolgehalte.</xs:documentation>
+                        </xs:annotation>
+                        <xs:complexType>
+                            <xs:simpleContent>
+                                <xs:restriction base="gml:MeasureType">
+                                    <xs:attribute name="uom" type="gml:UomIdentifier" use="required" fixed="mg/kg"/>
+                                </xs:restriction>
+                            </xs:simpleContent>
+                        </xs:complexType>
+                    </xs:element>
+                    <xs:element name="measurementPoint" type="sadcominternal:MeasurementPointPropertyType" nillable="false" minOccurs="1" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="AsbestosResultPropertyType">
+        <xs:sequence minOccurs="0">
+            <xs:element ref="sadcominternal:AsbestosResult"/>
         </xs:sequence>
         <xs:attributeGroup ref="gml:AssociationAttributeGroup"/>
     </xs:complexType>
@@ -1474,6 +1579,20 @@ Explanation: In de NEN 5104 classificatie wordt het gehalte aan organische stof 
         <xs:simpleContent>
             <xs:restriction base="gml:CodeWithAuthorityType">
                 <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:RegistrationStatus"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ValuationTechniqueType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:ValuationTechnique"/>
+            </xs:restriction>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="ValueProcessingMethodType">
+        <xs:simpleContent>
+            <xs:restriction base="gml:CodeWithAuthorityType">
+                <xs:attribute name="codeSpace" type="xs:anyURI" use="required" fixed="urn:bro:sad:ValueProcessingMethod"/>
             </xs:restriction>
         </xs:simpleContent>
     </xs:complexType>
