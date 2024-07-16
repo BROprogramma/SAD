@@ -64,13 +64,14 @@
                     <sadcom:name>PB01</sadcom:name>   
                     <sadcom:date>2018-03-08</sadcom:date>
                     <sadcom:finalDepth uom="m">2</sadcom:finalDepth>
+                    <!-- Optioneel voor IMBRO/A -->
                     <sadcom:deliveredLocation>
                         <gml:Point gml:id="_d38ee87f-9552-464a-8125-e8409b01c5c1" srsName="urn:ogc:def:crs:EPSG::4258">
                             <gml:pos>52.00410874694697 4.358954632907231</gml:pos>
                         </gml:Point>
                     </sadcom:deliveredLocation>
                     <!-- Boring met Peilbuis-->
-                    <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>                    
+                    <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>                                        
                     <sadcom:deliveredVerticalPosition>
                         <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcom:localVerticalReferencePoint>
                         <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcom:verticalDatum>                                                

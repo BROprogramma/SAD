@@ -284,7 +284,7 @@ Explanation: Het betreft de diepte ten opzichte van het lokaal verticaal referen
                             </xs:simpleContent>
                         </xs:complexType>
                     </xs:element>
-                    <xs:element name="deliveredLocation" type="gml:PointPropertyType" minOccurs="1" maxOccurs="1">
+                    <xs:element name="deliveredLocation" type="gml:PointPropertyType" minOccurs="0" maxOccurs="1">
                         <xs:annotation>
                             <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De plaats van het meetpunt op het aardoppervlak, zoals die is aangeleverd aan de basisregistratie ondergrond.</xs:documentation>
                         </xs:annotation>
