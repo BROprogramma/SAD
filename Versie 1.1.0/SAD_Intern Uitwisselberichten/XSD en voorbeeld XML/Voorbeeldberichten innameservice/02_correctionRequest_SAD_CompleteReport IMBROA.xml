@@ -23,6 +23,7 @@
             <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType> 
             <!-- Optional -->
             <asbestos codeSpace="urn:bro:sad:AsbestosPresence">nietOnderzocht</asbestos>
+            <!-- Optional -->
             <investigationReason codeSpace="urn:bro:sad:InvestigationReason">omgevingsvergunning</investigationReason>
             <geometry>
                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4258">
@@ -76,7 +77,7 @@
                     <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>                    
                     <sadcom:deliveredVerticalPosition>
                         <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcom:localVerticalReferencePoint>
-                        <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcom:verticalDatum>                                                
+                        <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcom:verticalDatum>                                                
                         <!-- Maaiveld hoogte tov NAP -->
                         <sadcom:offset uom="m">0.02</sadcom:offset>                        
                     </sadcom:deliveredVerticalPosition>
@@ -241,7 +242,21 @@
                             <sadcom:name>POT1</sadcom:name>               
                             <sadcom:beginDepth uom="m">0.0</sadcom:beginDepth>
                             <sadcom:endDepth uom="m">0.5</sadcom:endDepth>     
-                            <sadcom:date>2018-03-08</sadcom:date>                                                             
+                            <sadcom:date>2018-03-08</sadcom:date>     
+                            <sadcom:fieldMeasurement>
+                                <sadcom:FieldMeasurement gml:id="_52ce804f-b64b-4a00-915f-737782c6d722">
+                                    <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
+                                    <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1116</sadcom:parameter>                                         
+                                    <sadcom:fieldMeasurementValue uom="mg/kg">0.078</sadcom:fieldMeasurementValue>
+                                    <sadcom:valuationTechnique codeSpace="urn:bro:sad:ValuationTechnique">röntgenfluorescentie</sadcom:valuationTechnique>                                                                                                                     
+                                </sadcom:FieldMeasurement>                                
+                            </sadcom:fieldMeasurement>                                               
+                            <sadcom:fieldMeasurement>
+                                <sadcom:FieldMeasurement gml:id="_14a83444-450e-422e-8b2e-c29a7cd5133e">
+                                    <sadcom:quantity codeSpace="urn:bro:sad:Quantity">pid</sadcom:quantity>                                         
+                                    <sadcom:fieldMeasurementValue uom="ppm">123</sadcom:fieldMeasurementValue>
+                                </sadcom:FieldMeasurement>                                
+                            </sadcom:fieldMeasurement>                                                        
                         </sadcom:SoilSampling>
                     </sadcom:soilSampling>
                     <sadcom:soilSampling>
@@ -311,10 +326,12 @@
                             <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
                             <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportagegrens</sadcom:limitSymbolReference>
                             <sadcom:condition codeSpace="urn:bro:sad:Condition">1</sadcom:condition>
+                            <!-- optioneel, alleen voor Asbest resultaten ondergrens en bovengrens -->
+                            <!--<sadcom:valueProcessingMethod codeSpace="urn:bro:sad:ValueProcessingMethod">5percentiel</sadcom:valueProcessingMethod>-->
                             <sadcom:analysisProcess>
-                                <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
-                                    <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>          
-                                    <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">44</sadcom:certification>                          
+                                <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">                                
+                                    <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>                                              
+                                    <sadcom:certification codeSpace="urn:bro:sad:ValuationMethod">44</sadcom:certification>                                                              
                                 </sadcom:AnalysisProcess>
                             </sadcom:analysisProcess>
                         </sadcom:Analysis>
@@ -334,7 +351,17 @@
                     <sadcom:soilSampling xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
                     <sadcom:soilSampling xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
                 </sadcom:MixedSampleAnalysis>
-            </mixedSampleAnalysis>                      
+            </mixedSampleAnalysis>  
+            <asbestosResult>
+                <sadcom:AsbestosResult gml:id="_4ad85b64-20b4-40ef-a3ad-d5151344700f">
+                    <sadcom:identification>4ad85b64-20b4-40ef-a3ad-d5151344700f</sadcom:identification>
+                    <sadcom:beginDepth uom="m">0.5</sadcom:beginDepth>
+                    <sadcom:endDepth uom="m">1.0</sadcom:endDepth>
+                    <sadcom:asbestosParticlesFound>ja</sadcom:asbestosParticlesFound>
+                    <sadcom:weightedAsbestosContent uom="mg/kg">105</sadcom:weightedAsbestosContent>
+                    <sadcom:measurementPoint xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
+                </sadcom:AsbestosResult>
+            </asbestosResult>                    
         </SAD_CompleteReport>
      </sourceDocument>
 </correctionRequest>

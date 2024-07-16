@@ -14,12 +14,12 @@
 -->
 <xs:schema xmlns:gml="http://www.opengis.net/gml/3.2"
            xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
-           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0"
+           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.1"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="http://www.broservices.nl/xsd/sadcommon/1.0"
+           targetNamespace="http://www.broservices.nl/xsd/sadcommon/1.1"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="1.0.0">
+           version="1.1.0">
 	<xs:import namespace="http://www.opengis.net/gml/3.2"
               schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
 	<xs:element name="AbstractRegistrationObject"
@@ -123,7 +123,7 @@ Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de b
                            minOccurs="0"
                            maxOccurs="1">
 						<xs:annotation>
-							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: TODO
+							<xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die het object aan de basisregistratie ondergrond heeft aangeleverd, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
 Explanation: Het gegeven is door de dataleverancier bij de overdracht meegegeven. Het wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</xs:documentation>
 						</xs:annotation>
 					</xs:element>

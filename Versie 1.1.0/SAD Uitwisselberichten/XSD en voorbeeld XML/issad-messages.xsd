@@ -12,8 +12,8 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<xs:schema xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:issad="http://www.broservices.nl/xsd/issad/1.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/issad/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
-    <xs:import namespace="http://www.broservices.nl/xsd/sadcommon/1.0" schemaLocation="./sadcommon.xsd"/>
+<xs:schema xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:issad="http://www.broservices.nl/xsd/issad/1.1" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/issad/1.1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.1.0">
+    <xs:import namespace="http://www.broservices.nl/xsd/sadcommon/1.1" schemaLocation="./sadcommon.xsd"/>
     <xs:import namespace="http://www.sikb.nl/imsikb0101" schemaLocation="./imsikb0101_v14.8.0.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
     <xs:element name="intakeResponse" type="sadcom:IntakeResponseType"/>

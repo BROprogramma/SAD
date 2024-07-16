@@ -12,8 +12,8 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<xs:schema xmlns:dssad="http://www.broservices.nl/xsd/dssad/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/dssad/1.0" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
-    <xs:import namespace="http://www.broservices.nl/xsd/sadcommon/1.0" schemaLocation="./sadcommon.xsd"/>
+<xs:schema xmlns:dssad="http://www.broservices.nl/xsd/dssad/1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/dssad/1.1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.1.0">
+    <xs:import namespace="http://www.broservices.nl/xsd/sadcommon/1.1" schemaLocation="./sadcommon.xsd"/>
     <xs:import namespace="http://www.sikb.nl/imsikb0101" schemaLocation="./imsikb0101_v14.8.0.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
     <xs:element name="parseFault" type="sadcom:ParseFaultType"/>
@@ -162,7 +162,7 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
 Explanation: Het type onderzoek geeft informatie over het soort onderzoek dat is uitgevoerd, maar ook over de wijze waarop gerapporteerd is. Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-                    <xs:element name="investigationReason" type="sadcom:InvestigationReasonType" maxOccurs="1">
+                    <xs:element name="investigationReason" type="sadcom:InvestigationReasonType" minOccurs="0" maxOccurs="1">
                         <xs:annotation>
                             <xs:appinfo>
                                 <CodeListName>InvestigationReason</CodeListName>

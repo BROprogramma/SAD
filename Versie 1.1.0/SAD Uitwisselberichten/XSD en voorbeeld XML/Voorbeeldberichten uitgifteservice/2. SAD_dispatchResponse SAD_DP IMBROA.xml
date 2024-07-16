@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dispatchDataResponse xmlns="http://www.broservices.nl/xsd/dssad/1.0" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xsi:schemaLocation="http://www.broservices.nl/xsd/dssad/1.0 ../dssad-messages.xsd">
-    <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 1.0.0 van de SAD en valideert tegen de XSD van de uitgifteservice.
-            Het is niet gevalideerd door de uitgifteservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
-            xsi:schemaLocation="http://www.broservices.nl/xsd/dssad/1.0 https://schema.broservices.nl/xsd/dssad/1.0/dssad-messages.xsd"/>
-        -->
+<dispatchDataResponse xmlns="http://www.broservices.nl/xsd/dssad/1.1" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xsi:schemaLocation="http://www.broservices.nl/xsd/dssad/1.1 ../dssad-messages.xsd">
+    <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 1.1.0 van de SAD en valideert tegen de XSD van de uitgifteservice.
+            Het is niet gevalideerd door de uitgifteservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.   -->
     <sadcom:responseType>dispatch</sadcom:responseType>
     <sadcom:requestReference>uitgifte_1</sadcom:requestReference>
     <sadcom:dispatchTime>2023-02-09T10:54:01+01:00</sadcom:dispatchTime>
@@ -14,6 +12,8 @@
             <!--Kvk nummber van de bronhouder van het opgevraagde document, maar wodt niet uitgegeven -->
             <sadcom:deliveryAccountableParty/>
             <sadcom:objectIdAccountableParty>PROJECTCODESIKB</sadcom:objectIdAccountableParty>
+            <!-- Optional -->
+            <!--<sadcom:deliveryResponsibleParty></sadcom:deliveryResponsibleParty>-->
             <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>            
             <reportDate>2023-01-14</reportDate>
             <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>     
@@ -135,7 +135,7 @@
                                     <immetingen:relatedSubject xlink:href="#_9b4e21b3-3282-433f-b584-54471298e928"/>
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
-                            <immetingen:name>Veldwerk bazen BV</immetingen:name>
+                            <immetingen:name>Veldwerk Bedrijfsnaam BV</immetingen:name>
                             <!-- Veldwerkbureau -->
                             <immetingen:organisationType>urn:immetingen:RolBetrokkene:id:65</immetingen:organisationType>
                         </immetingen:Organization>
@@ -156,8 +156,8 @@
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
                             <!-- boormeester -->
-                            <immetingen:firstName>Robin</immetingen:firstName>
-                            <immetingen:lastName>Huisman</immetingen:lastName>
+                            <immetingen:firstName>Voornaam</immetingen:firstName>
+                            <immetingen:lastName>Achternaam</immetingen:lastName>
                         </immetingen:Person>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -175,7 +175,7 @@
                                     <immetingen:relatedSubject xlink:href="#_8b3e21b3-3282-433f-b584-54471298e928"/>
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
-                            <immetingen:name>Adviebureau Guru's BV</immetingen:name>
+                            <immetingen:name>Adviebureau Bedrijfsnaam BV</immetingen:name>
                             <!-- Adviesbureau -->
                             <immetingen:organisationType>urn:immetingen:RolBetrokkene:id:64</immetingen:organisationType>
                             <immetingen:chamberOfCommerceNumber>27376655</immetingen:chamberOfCommerceNumber>
@@ -197,8 +197,8 @@
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
                             <!-- projectleider -->
-                            <immetingen:firstName>Herry</immetingen:firstName>
-                            <immetingen:lastName>Bruinings</immetingen:lastName>
+                            <immetingen:firstName>Voornaam</immetingen:firstName>
+                            <immetingen:lastName>Achternaam</immetingen:lastName>
                         </immetingen:Person>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -1603,8 +1603,8 @@
                                 </immetingen:SubjectFeatureComplex>
                             </immetingen:relatedSubject>
                             <!-- monsternemer -->
-                            <immetingen:firstName>Nico</immetingen:firstName>
-                            <immetingen:lastName>Lemaire</immetingen:lastName>
+                            <immetingen:firstName>Voornaam</immetingen:firstName>
+                            <immetingen:lastName>Achternaam</immetingen:lastName>
                         </immetingen:Person>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -2532,6 +2532,67 @@
                                     <immetingen:versionNumber>115</immetingen:versionNumber>
                                 </immetingen:AnalysisStatus>
                             </immetingen:statusOfAnalysis>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_e65956fc-8d78-48c9-b3b8-bd6a0a3b5591">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_46e34fc6-8d84-4f7b-9b63-2a0b8d17608e"/> <!-- Som asbest totaal -->
+                            <!-- Analysemonster-->
+                            <!-- will not be available -->
+                            <!-- /Analysemonster -->
+                            <!-- Meetpunt -->
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:25"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <!-- /meetpunt -->
+                            <spec:materialClass xlink:href="urn:immetingen:Compartiment:id:1"/>
+                            <spec:samplingTime/>
+                            <spec:specimenType xlink:href="urn:immetingen:Monstertype:id:12"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>e65956fc-8d78-48c9-b3b8-bd6a0a3b5591</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>Gat1-Asbest</immetingen:name>
+                            <immetingen:startTime>2018-03-20T11:00:00+01:00</immetingen:startTime>
+                            <imsikb0101:inProject xlink:href="#_9e0c2e47-5019-4846-bf80-050c79a09ff2"/>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <!-- Analysis Asbest totaal-->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_46e34fc6-8d84-4f7b-9b63-2a0b8d17608e">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant gml:id="_5645261c-381e-4af2-a7d5-78fc4e73aa78">
+                                    <gml:timePosition>2018-04-20T18:22:55</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e65956fc-8d78-48c9-b3b8-bd6a0a3b5591"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">300</immetingen:numericValue>
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:alphanumericValue>300 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>46e34fc6-8d84-4f7b-9b63-2a0b8d17608e</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:2578</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>                            
                         </immetingen:Analysis>
                     </imsikb0101:featureMember>
                 </imsikb0101:FeatureCollectionIMSIKB0101>

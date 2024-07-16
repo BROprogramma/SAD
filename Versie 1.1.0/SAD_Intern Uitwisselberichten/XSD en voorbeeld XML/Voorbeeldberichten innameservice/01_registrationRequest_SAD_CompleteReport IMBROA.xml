@@ -20,6 +20,7 @@
             <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType> 
             <!-- Optional -->
             <asbestos codeSpace="urn:bro:sad:AsbestosPresence">nietOnderzocht</asbestos>
+            <!-- Optional -->
             <investigationReason codeSpace="urn:bro:sad:InvestigationReason">omgevingsvergunning</investigationReason>
             <geometry>
                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4258">
@@ -64,6 +65,7 @@
                     <sadcom:name>PB01</sadcom:name>   
                     <sadcom:date>2018-03-08</sadcom:date>
                     <sadcom:finalDepth uom="m">2</sadcom:finalDepth>
+                    <!-- Optional voor IMBRO/A -->
                     <sadcom:deliveredLocation>
                         <gml:Point gml:id="_d38ee87f-9552-464a-8125-e8409b01c5c1" srsName="urn:ogc:def:crs:EPSG::4258">
                             <gml:pos>52.00410874694697 4.358954632907231</gml:pos>
@@ -73,7 +75,7 @@
                     <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>                    
                     <sadcom:deliveredVerticalPosition>
                         <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcom:localVerticalReferencePoint>
-                        <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcom:verticalDatum>                                                
+                        <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcom:verticalDatum>                                                
                         <!-- Maaiveld hoogte tov NAP -->
                         <sadcom:offset uom="m">0.02</sadcom:offset>                        
                     </sadcom:deliveredVerticalPosition>
@@ -238,7 +240,21 @@
                             <sadcom:name>POT1</sadcom:name>               
                             <sadcom:beginDepth uom="m">0.0</sadcom:beginDepth>
                             <sadcom:endDepth uom="m">0.5</sadcom:endDepth>     
-                            <sadcom:date>2018-03-08</sadcom:date>                                                             
+                            <sadcom:date>2018-03-08</sadcom:date>              
+                            <sadcom:fieldMeasurement>
+                                <sadcom:FieldMeasurement gml:id="_52ce804f-b64b-4a00-915f-737782c6d722">
+                                    <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
+                                    <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1116</sadcom:parameter>                                         
+                                    <sadcom:fieldMeasurementValue uom="mg/kg">0.078</sadcom:fieldMeasurementValue>
+                                    <sadcom:valuationTechnique codeSpace="urn:bro:sad:ValuationTechnique">röntgenfluorescentie</sadcom:valuationTechnique>                                                                                                                     
+                                </sadcom:FieldMeasurement>                                
+                            </sadcom:fieldMeasurement>                                               
+                            <sadcom:fieldMeasurement>
+                                <sadcom:FieldMeasurement gml:id="_14a83444-450e-422e-8b2e-c29a7cd5133e">
+                                    <sadcom:quantity codeSpace="urn:bro:sad:Quantity">pid</sadcom:quantity>                                         
+                                    <sadcom:fieldMeasurementValue uom="ppm">123</sadcom:fieldMeasurementValue>
+                                </sadcom:FieldMeasurement>                                
+                            </sadcom:fieldMeasurement>
                         </sadcom:SoilSampling>
                     </sadcom:soilSampling>
                     <sadcom:soilSampling>
@@ -308,6 +324,8 @@
                             <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
                             <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportagegrens</sadcom:limitSymbolReference>
                             <sadcom:condition codeSpace="urn:bro:sad:Condition">1</sadcom:condition>
+                            <!-- optioneel, alleen voor Asbest resultaten ondergrens en bovengrens -->
+                            <!--<sadcom:valueProcessingMethod codeSpace="urn:bro:sad:ValueProcessingMethod">5percentiel</sadcom:valueProcessingMethod>-->
                             <sadcom:analysisProcess>
                                 <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
                                     <sadcom:identification>9911262c-d247-4aad-8fea-ae095f62b495</sadcom:identification>          

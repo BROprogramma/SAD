@@ -14,8 +14,8 @@
 -->
 <xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:issad="http://www.broservices.nl/xsd/issad-internal/1.1" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/issad-internal/1.1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.1.0">
     <xs:import namespace="http://www.broservices.nl/xsd/sadcommon-internal/1.1" schemaLocation="./sadcommon-internal.xsd"/>
-    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="./gml-profile.xsd"/>
-    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="./brocommon.xsd"/>
+    <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+    <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
     <xs:element name="intakeResponse" type="brocom:IntakeResponseType"/>
     <xs:element name="parseFault" type="brocom:ParseFaultType"/>
     <xs:element name="SAD_CompleteReport" type="issad:SAD_CompleteReportType" substitutionGroup="gml:AbstractFeature"/>
@@ -87,7 +87,7 @@ Explanation: Het type onderzoek geeft informatie over het soort onderzoek dat is
 Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-                    <xs:element name="investigationReason" type="sadcom:InvestigationReasonType" minOccurs="1" maxOccurs="1">
+                    <xs:element name="investigationReason" type="sadcom:InvestigationReasonType" minOccurs="0" maxOccurs="1">
                         <xs:annotation>
                             <xs:appinfo>
                                 <CodeListName>InvestigationReason</CodeListName>
@@ -139,7 +139,11 @@ Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van a
                                maxOccurs="unbounded"
                                name="asbestosResult"
                                nillable="false"
-                               type="sadcom:AsbestosResultPropertyType"/>
+                               type="sadcom:AsbestosResultPropertyType">
+                               <xs:annotation>
+                            <xs:documentation source="http://www.imvertor.org/model-info/technical-documentation">De gegevens die betrekking hebben op de resultaten van het asbestonderzoek.</xs:documentation>
+                        </xs:annotation>
+                     </xs:element>                           
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>

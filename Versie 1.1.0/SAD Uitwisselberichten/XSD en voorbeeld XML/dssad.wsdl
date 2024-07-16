@@ -4,27 +4,21 @@
                   xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
                   xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata"
                   xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-                  xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.0"
+                  xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.1"
                   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-                  xmlns:msg="http://www.broservices.nl/xsd/dssad/1.0"
-                  xmlns:tns="http://www.broservices.nl/wsdl/dssad/1.0"
-                  targetNamespace="http://www.broservices.nl/wsdl/dssad/1.0">
+                  xmlns:msg="http://www.broservices.nl/xsd/dssad/1.1"
+                  xmlns:tns="http://www.broservices.nl/wsdl/dssad/1.1"
+                  targetNamespace="http://www.broservices.nl/wsdl/dssad/1.1">
 
     <wsdl:documentation>
         This WSDL defines the webservice for the sad intake webservice (SiteAssessmentData)
         in the context of the base registry subsurface (Basisregistratie Ondergrond).
-        This is version 1.0.0
+        This is version 1.1.0
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dssad/1.0" targetNamespace="http://www.broservices.nl/wsdl/dssad/1.0">
-            <!--
-            <xsd:import namespace="http://www.broservices.nl/xsd/dssad/0.9" schemaLocation="https://schema.broservices.nl/xsd/dssad/0.9/dssad-messages.xsd"/>
-            -->
-            <xsd:import namespace="http://www.broservices.nl/xsd/dssad/1.0" schemaLocation="./dssad-messages.xsd"/>
-            <!--
-            <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-            -->
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dssad/1.1" targetNamespace="http://www.broservices.nl/wsdl/dssad/1.1">            
+            <xsd:import namespace="http://www.broservices.nl/xsd/dssad/1.1" schemaLocation="./dssad-messages.xsd"/>            
         </xsd:schema>
     </wsdl:types>
 
