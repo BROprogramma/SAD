@@ -1,0 +1,2074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registrationRequest xmlns="http://www.broservices.nl/xsd/issad/1.1" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.1 ../issad-messages.xsd">
+    <!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 1.1.0 van de SAD en valideert tegen de XSD van de innameservice.
+        Het is niet gevalideerd door de innameservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
+    -->
+    <sadcom:requestReference>Verzoek2</sadcom:requestReference>    
+    <!--KVK nummer van de aanleverende partij-->
+    <sadcom:deliveryAccountableParty>1234567</sadcom:deliveryAccountableParty>
+    <!-- Kwaliteitsregime, voor nu alleen nog IMRBO/A-->
+    <sadcom:qualityRegime>IMBRO</sadcom:qualityRegime>    
+    <sourceDocument>    
+        <SAD_CompleteReport>               
+            <reportDate>2024-07-17</reportDate>            
+            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">omgevingswet</deliveryContext>            
+            <objectIdAccountableParty>MijnReferentieSADUpload</objectIdAccountableParty>                       
+            <featureCollection>
+                <!-- Hier tussen kan de volledige SIKB XML geplakt worden-->
+                <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_9e0c2e47-5019-4846-bf80-050c79a09ff2" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 file:///C:/dev/SIKB0101_Protocol/XSDs%2014.9.0/imsikb0101_v14.9.0.xsd">
+                    <imsikb0101:metaData>
+                        <imsikb0101:application>urn:imsikb0101:Applicaties:id:23</imsikb0101:application>
+                        <imsikb0101:date>2024-07-17</imsikb0101:date>
+                        <imsikb0101:organisation>Organisatienaam</imsikb0101:organisation>
+                        <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:6</imsikb0101:supplier>
+                        <imsikb0101:version>14.8.0</imsikb0101:version>
+                        <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:4</imsikb0101:dataflow>
+                    </imsikb0101:metaData>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Project gml:id="_ed4b2294-db2e-446f-9e38-7b895c95a244">
+                            <imsikb0101:assesorConclusion>Onbekend</imsikb0101:assesorConclusion>
+                            <imsikb0101:assignmentCode>Onbekend</imsikb0101:assignmentCode>
+                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>                            
+                            <imsikb0101:geometry>
+                                <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:surfaceMember>
+                                        <gml:Polygon gml:id="_d604d147-bb50-469c-bd5c-60cef435f9db">
+                                            <gml:exterior>
+                                                <gml:LinearRing>
+                                                    <gml:posList srsDimension="2">52.00439274920983 4.358917081981024 52.00402618781154 4.358289445071539 52.003560551436216 4.358455742030462 52.003874278604464 4.359217489390692 52.00439274920983 4.358917081981024</gml:posList>
+                                                </gml:LinearRing>
+                                            </gml:exterior>
+                                        </gml:Polygon>
+                                    </gml:surfaceMember>
+                                </gml:MultiSurface>
+                            </imsikb0101:geometry>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>ed4b2294-db2e-446f-9e38-7b895c95a244</immetingen:lokaalID>
+                                    <immetingen:versie>2023-03-22T10:38:06.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:name>BRL2018 Asbest voorbeeld onderzoek</imsikb0101:name>
+                            <imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:4</imsikb0101:phase>
+                            <imsikb0101:projectCode>BRL2018</imsikb0101:projectCode>
+                            <imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:21</imsikb0101:projectType>
+                            <imsikb0101:reportDate>2024-07-17</imsikb0101:reportDate>
+                            <imsikb0101:reportNumber>Onbekend</imsikb0101:reportNumber>
+                            <imsikb0101:stakeholders xlink:href="#_8b2e21b3-3282-433f-b584-54471298e928"/>
+                            <imsikb0101:measurementObjects xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
+                            <imsikb0101:measurementObjects xlink:href="#_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4"/>
+                            <imsikb0101:dossiers xlink:href="#_682ad172-dc49-41aa-ae84-7aa7c3978453"/>
+                            <imsikb0101:Addresses xlink:href="#_d5d40f94-cb06-4802-8f6e-450a0bad2698"/>
+                        </imsikb0101:Project>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Organization gml:id="_8b2e21b3-3282-433f-b584-54471298e928">
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>8b2e21b3-3282-433f-b584-54471298e928</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:relatedSubject>
+                                <immetingen:SubjectFeatureComplex>
+                                    <!-- Heeft Medewerker -->
+                                    <immetingen:role>urn:immetingen:RelatedSubjectRollen:id:2</immetingen:role>
+                                    <immetingen:relatedSubject xlink:href="#_8b3e21b3-3282-433f-b584-54471298e928"/>
+                                </immetingen:SubjectFeatureComplex>
+                            </immetingen:relatedSubject>
+                            <immetingen:name>Adviebureau bedrijfsnaam BV</immetingen:name>
+                            <!-- Adviesbureau -->
+                            <immetingen:organisationType>urn:immetingen:RolBetrokkene:id:64</immetingen:organisationType>
+                            <immetingen:chamberOfCommerceNumber>27376655</immetingen:chamberOfCommerceNumber>
+                        </immetingen:Organization>
+                    </imsikb0101:featureMember>
+                    <!-- Projectadres -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Address gml:id="_d5d40f94-cb06-4802-8f6e-450a0bad2698">
+                            <immetingen:city>Hoofddorp</immetingen:city>
+                            <immetingen:country>Nederland</immetingen:country>
+                            <immetingen:districtCode>AMST</immetingen:districtCode>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>d5d40f94-cb06-4802-8f6e-450a0bad2698</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:letter>f</immetingen:letter>
+                            <immetingen:numberAddition>1</immetingen:numberAddition>
+                            <immetingen:number>231</immetingen:number>
+                            <immetingen:remarks>Opmerkingen bij dit adres</immetingen:remarks>
+                            <immetingen:publicSpace>Kerkstraat</immetingen:publicSpace>
+                            <immetingen:zipcode>9999ZZ</immetingen:zipcode>
+                        </immetingen:Address>
+                    </imsikb0101:featureMember>
+                    <!-- /Projectadres -->
+                    <imsikb0101:featureMember>
+                        <imsikb0101:SoilManagementDossier gml:id="_682ad172-dc49-41aa-ae84-7aa7c3978453">
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>682ad172-dc49-41aa-ae84-7aa7c3978453</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:projects xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <imsikb0101:soilLocation/>
+                        </imsikb0101:SoilManagementDossier>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Person gml:id="_a40b48b6-5731-4c84-961b-8d0d43b016d5">
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>a40b48b6-5731-4c84-961b-8d0d43b016d5</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:firstName>Roelof</immetingen:firstName>
+                            <immetingen:lastName>Zwaan</immetingen:lastName>
+                        </immetingen:Person>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_6726e7e2-bd7b-4c24-a6d2-e2898542cf8d">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_b5ad036d-980f-4869-8f9d-d02a8a399f12"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_b5ad036d-980f-4869-8f9d-d02a8a399f12"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:4</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>6726e7e2-bd7b-4c24-a6d2-e2898542cf8d</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+                            <immetingen:remarks>moderately</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_b5ad036d-980f-4869-8f9d-d02a8a399f12">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_6726e7e2-bd7b-4c24-a6d2-e2898542cf8d"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:3</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>b5ad036d-980f-4869-8f9d-d02a8a399f12</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_6f3ed609-9b70-4b8b-a226-03a152c7a5d9">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_b1deaafc-b8b2-48eb-b674-0f9b926ff781"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_b1deaafc-b8b2-48eb-b674-0f9b926ff781"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:8</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>6f3ed609-9b70-4b8b-a226-03a152c7a5d9</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+                            <immetingen:remarks>traces of</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_b1deaafc-b8b2-48eb-b674-0f9b926ff781">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_6f3ed609-9b70-4b8b-a226-03a152c7a5d9"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:42</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>b1deaafc-b8b2-48eb-b674-0f9b926ff781</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_03323ed4-f72f-4c09-a1b2-5d540dca7cfc">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_a048b815-efbe-41f3-bb46-f4c63b1ac6d1"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_a048b815-efbe-41f3-bb46-f4c63b1ac6d1"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:8</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>03323ed4-f72f-4c09-a1b2-5d540dca7cfc</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+                            <immetingen:remarks>traces of</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_a048b815-efbe-41f3-bb46-f4c63b1ac6d1">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_03323ed4-f72f-4c09-a1b2-5d540dca7cfc"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:49</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>a048b815-efbe-41f3-bb46-f4c63b1ac6d1</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_56eb41e0-e669-47ce-bb56-74c66d95aad8">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_e1e9e311-5ee5-4256-9120-8e4b2c6db2e2"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e1e9e311-5ee5-4256-9120-8e4b2c6db2e2"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:KleurSterkte:id:2</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>56eb41e0-e669-47ce-bb56-74c66d95aad8</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:6</immetingen:indicator>
+                            <immetingen:remarks>light</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_81e4c58d-9555-40c6-8db7-995e86757e64">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_e1e9e311-5ee5-4256-9120-8e4b2c6db2e2"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e1e9e311-5ee5-4256-9120-8e4b2c6db2e2"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:Kleur:id:12</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>81e4c58d-9555-40c6-8db7-995e86757e64</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:5</immetingen:indicator>
+                            <immetingen:remarks>beige</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_e1e9e311-5ee5-4256-9120-8e4b2c6db2e2">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_56eb41e0-e669-47ce-bb56-74c66d95aad8"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_81e4c58d-9555-40c6-8db7-995e86757e64"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:Kleur:id:2</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>e1e9e311-5ee5-4256-9120-8e4b2c6db2e2</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:4</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_495b206c-1660-4420-9a17-dc56819b7dd7">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:Bodemsoort:id:1</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>495b206c-1660-4420-9a17-dc56819b7dd7</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:11</immetingen:indicator>
+                            <immetingen:remarks>Alluvium slightly, Clay moderately</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_d75d25a9-a2d8-4b18-a64a-0e71b7737b14">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemsoortMediaan:id:4</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>d75d25a9-a2d8-4b18-a64a-0e71b7737b14</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:12</immetingen:indicator>
+                            <immetingen:remarks>fine</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:BoreProcess gml:id="_b1d5a66a-863d-4394-a726-a44b52af9202">
+                            <imsikb0101:drillType>urn:immetingen:BemonsteringsApparaat:id:100</imsikb0101:drillType>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>b1d5a66a-863d-4394-a726-a44b52af9202</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                        </imsikb0101:BoreProcess>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Layer gml:id="_8c0c1c1b-1ca9-4bed-932a-cc97843088ca">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_b5ad036d-980f-4869-8f9d-d02a8a399f12"/>
+                            <sam:relatedObservation xlink:href="#_b1deaafc-b8b2-48eb-b674-0f9b926ff781"/>
+                            <sam:relatedObservation xlink:href="#_a048b815-efbe-41f3-bb46-f4c63b1ac6d1"/>
+                            <sam:relatedObservation xlink:href="#_e1e9e311-5ee5-4256-9120-8e4b2c6db2e2"/>
+                            <sam:relatedObservation xlink:href="#_495b206c-1660-4420-9a17-dc56819b7dd7"/>
+                            <sam:relatedObservation xlink:href="#_d75d25a9-a2d8-4b18-a64a-0e71b7737b14"/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:hostedProcedure xlink:href="#_b1d5a66a-863d-4394-a726-a44b52af9202"/>
+                            <sams:shape/>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>8c0c1c1b-1ca9-4bed-932a-cc97843088ca</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-09T13:22:36.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:layerType>urn:immetingen:BodemlaagType:id:2</imsikb0101:layerType>
+                            <imsikb0101:holeLength uom="urn:immetingen:Eenheid:id:115">31</imsikb0101:holeLength>
+                            <imsikb0101:holeWidth uom="urn:immetingen:Eenheid:id:115">32</imsikb0101:holeWidth>
+                        </imsikb0101:Layer>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Trench gml:id="_e9d65836-99c6-4d77-a7e5-c25895cd480e">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:2"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:1"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_c228a431-8ae9-41f6-8e12-eddd75a8fefa"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:1"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_162a2e16-bfae-4507-95b2-b6f7875264e6"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Gat1</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>e9d65836-99c6-4d77-a7e5-c25895cd480e</immetingen:lokaalID>
+                                    <immetingen:versie>2024-07-17T15:00:03.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:12</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_1bdaa1b4-2b36-4050-af0b-a7f5b46b596d" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.700208730473115 4.692758541836709</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2021-02-26T13:04:07.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:35</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevel>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">750.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:15</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:groundLevel>
+                            <imsikb0101:groundLevelType/>
+                            <imsikb0101:drillMaster xlink:href="#_a40b48b6-5731-4c84-961b-8d0d43b016d5"/>
+                        </imsikb0101:Trench>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_88407f17-3417-4abb-8752-5f2bbee33a56">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_f1e07463-51eb-4f68-bfe9-313d3a15be2b"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_f1e07463-51eb-4f68-bfe9-313d3a15be2b"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:4</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>88407f17-3417-4abb-8752-5f2bbee33a56</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+                            <immetingen:remarks>moderately</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_f1e07463-51eb-4f68-bfe9-313d3a15be2b">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_88407f17-3417-4abb-8752-5f2bbee33a56"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:3</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>f1e07463-51eb-4f68-bfe9-313d3a15be2b</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_8dad20fc-93f2-472b-8921-0f8e16dfbaf1">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_6ba9bc8b-0e80-47b9-acd0-712b742cf83e"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_6ba9bc8b-0e80-47b9-acd0-712b742cf83e"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:8</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>8dad20fc-93f2-472b-8921-0f8e16dfbaf1</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+                            <immetingen:remarks>traces of</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_6ba9bc8b-0e80-47b9-acd0-712b742cf83e">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_8dad20fc-93f2-472b-8921-0f8e16dfbaf1"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:42</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>6ba9bc8b-0e80-47b9-acd0-712b742cf83e</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_28be44e9-fa3d-4ff7-a2a0-8a922320b1ef">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_39d3a3ab-f216-4e9e-87e0-24247ebe7469"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_39d3a3ab-f216-4e9e-87e0-24247ebe7469"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:8</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>28be44e9-fa3d-4ff7-a2a0-8a922320b1ef</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+                            <immetingen:remarks>traces of</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_39d3a3ab-f216-4e9e-87e0-24247ebe7469">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_28be44e9-fa3d-4ff7-a2a0-8a922320b1ef"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:49</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>39d3a3ab-f216-4e9e-87e0-24247ebe7469</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_21b8e8ae-b150-4e44-bbd1-fc94170bdd71">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_8c2cc0a3-01ae-40b7-99a1-a6e48d7ad981"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_8c2cc0a3-01ae-40b7-99a1-a6e48d7ad981"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:4</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>21b8e8ae-b150-4e44-bbd1-fc94170bdd71</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+                            <immetingen:remarks>moderately</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_8c2cc0a3-01ae-40b7-99a1-a6e48d7ad981">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_21b8e8ae-b150-4e44-bbd1-fc94170bdd71"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:16</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>8c2cc0a3-01ae-40b7-99a1-a6e48d7ad981</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_347e9f1a-5e82-4a4e-ad80-be467a565a01">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_f2658be4-cb0d-4fbc-8f01-04a59758050e"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_f2658be4-cb0d-4fbc-8f01-04a59758050e"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:KleurSterkte:id:2</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>347e9f1a-5e82-4a4e-ad80-be467a565a01</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:6</immetingen:indicator>
+                            <immetingen:remarks>light</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_80e89c39-f3e7-478f-a29d-a1dfab48d796">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_f2658be4-cb0d-4fbc-8f01-04a59758050e"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_f2658be4-cb0d-4fbc-8f01-04a59758050e"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:Kleur:id:12</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>80e89c39-f3e7-478f-a29d-a1dfab48d796</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:5</immetingen:indicator>
+                            <immetingen:remarks>beige</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_f2658be4-cb0d-4fbc-8f01-04a59758050e">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_347e9f1a-5e82-4a4e-ad80-be467a565a01"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_80e89c39-f3e7-478f-a29d-a1dfab48d796"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:Kleur:id:2</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>f2658be4-cb0d-4fbc-8f01-04a59758050e</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:4</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_f8a137c8-dee6-458c-aebb-47503b5e05e6">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:Bodemsoort:id:1</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>f8a137c8-dee6-458c-aebb-47503b5e05e6</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:11</immetingen:indicator>
+                            <immetingen:remarks>Alluvium slightly</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_f43ea0a8-dcf8-4d43-92c9-94d12187d19c">
+                            <om:relatedObservation>
+                                <om:ObservationContext>
+                                    <om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
+                                    <om:relatedObservation xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                                </om:ObservationContext>
+                            </om:relatedObservation>
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:BodemsoortMediaan:id:5</immetingen:classifiedResult>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>f43ea0a8-dcf8-4d43-92c9-94d12187d19c</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:12</immetingen:indicator>
+                            <immetingen:remarks>moderately fine</immetingen:remarks>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:BoreProcess gml:id="_61049a42-934a-4691-8872-822145ebfd2d">
+                            <imsikb0101:drillType>urn:immetingen:BemonsteringsApparaat:id:100</imsikb0101:drillType>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>61049a42-934a-4691-8872-822145ebfd2d</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                        </imsikb0101:BoreProcess>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Layer gml:id="_e55c458c-702f-4fd2-ba87-c85da7abbd66">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_f1e07463-51eb-4f68-bfe9-313d3a15be2b"/>
+                            <sam:relatedObservation xlink:href="#_6ba9bc8b-0e80-47b9-acd0-712b742cf83e"/>
+                            <sam:relatedObservation xlink:href="#_39d3a3ab-f216-4e9e-87e0-24247ebe7469"/>
+                            <sam:relatedObservation xlink:href="#_8c2cc0a3-01ae-40b7-99a1-a6e48d7ad981"/>
+                            <sam:relatedObservation xlink:href="#_f2658be4-cb0d-4fbc-8f01-04a59758050e"/>
+                            <sam:relatedObservation xlink:href="#_f8a137c8-dee6-458c-aebb-47503b5e05e6"/>
+                            <sam:relatedObservation xlink:href="#_f43ea0a8-dcf8-4d43-92c9-94d12187d19c"/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:hostedProcedure xlink:href="#_61049a42-934a-4691-8872-822145ebfd2d"/>
+                            <sams:shape/>
+                            <imsikb0101:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:upperDepth>
+                            <imsikb0101:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:lowerDepth>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>e55c458c-702f-4fd2-ba87-c85da7abbd66</immetingen:lokaalID>
+                                    <immetingen:versie>2024-02-09T13:20:42.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:layerType>urn:immetingen:BodemlaagType:id:2</imsikb0101:layerType>
+                            <imsikb0101:holeLength uom="urn:immetingen:Eenheid:id:115">28</imsikb0101:holeLength>
+                            <imsikb0101:holeWidth uom="urn:immetingen:Eenheid:id:115">35</imsikb0101:holeWidth>
+                        </imsikb0101:Layer>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Trench gml:id="_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:2"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:1"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_f26a338a-f816-41cc-a221-50c3aec8d0ae"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sams:shape/>
+                            <immetingen:name>Gat2</immetingen:name>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>3cd39be5-4436-4a8d-ba2e-6c98ae298bf4</immetingen:lokaalID>
+                                    <immetingen:versie>2024-07-17T15:00:08.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:remarks/>
+                            <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:12</immetingen:measurementObjectType>
+                            <immetingen:geometry>
+                                <gml:Point gml:id="_79ca7b26-49f6-461d-ac35-641b452e4238" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pos srsDimension="2">52.70014039867539 4.693000025577609</gml:pos>
+                                </gml:Point>
+                            </immetingen:geometry>
+                            <immetingen:startTime>2021-02-26T13:04:07.0000000</immetingen:startTime>
+                            <imsikb0101:usedInProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:35</imsikb0101:situationDescription>
+                            <imsikb0101:depth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </imsikb0101:depth>
+                            <imsikb0101:groundLevel>
+                                <immetingen:Height>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">750.0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:15</immetingen:condition>
+                                </immetingen:Height>
+                            </imsikb0101:groundLevel>
+                            <imsikb0101:groundLevelType/>
+                            <imsikb0101:drillMaster xlink:href="#_a40b48b6-5731-4c84-961b-8d0d43b016d5"/>
+                        </imsikb0101:Trench>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Site gml:id="_dd886ba1-7221-4160-85d7-595e733f60fd">
+                            <imsikb0101:name>Duingebied</imsikb0101:name>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>dd886ba1-7221-4160-85d7-595e733f60fd</immetingen:lokaalID>
+                                    <immetingen:versie>2021-05-19T10:37:48.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:surfaceAreaSize uom="urn:immetingen:Eenheid:id:51">1200</imsikb0101:surfaceAreaSize>
+                            <imsikb0101:samplingPlot xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
+                            <imsikb0101:samplingPlot xlink:href="#_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4"/>
+                            <imsikb0101:concernedProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <imsikb0101:locationInspection>
+                                <imsikb0101:LocationInspection>
+                                    <imsikb0101:inspectedSurface uom="urn:immetingen:Eenheid:id:51">1000</imsikb0101:inspectedSurface>
+                                    <imsikb0101:inspectionTime>2021-02-26T09:01:41.0000000</imsikb0101:inspectionTime>
+                                    <imsikb0101:inspectionSightType>urn:imsikb0101:ZichtType:id:2</imsikb0101:inspectionSightType>
+                                    <imsikb0101:precipitationType>urn:imsikb0101:NeerslagType:id:1</imsikb0101:precipitationType>
+                                    <imsikb0101:coverageAmount uom="urn:immetingen:Eenheid:id:1">30</imsikb0101:coverageAmount>
+                                    <imsikb0101:coverageRemovedType>urn:immetingen:J_of_N:id:2</imsikb0101:coverageRemovedType>
+                                    <imsikb0101:coverageType>urn:imsikb0101:MaaiveldType:id:35</imsikb0101:coverageType>
+                                    <imsikb0101:inspectionEfficiency uom="urn:immetingen:Eenheid:id:1">80</imsikb0101:inspectionEfficiency>
+                                </imsikb0101:LocationInspection>
+                            </imsikb0101:locationInspection>
+                        </imsikb0101:Site>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Site gml:id="_00704c7f-4815-41fe-ba16-8e07a238ed92">
+                            <imsikb0101:name>Verharding</imsikb0101:name>
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>00704c7f-4815-41fe-ba16-8e07a238ed92</immetingen:lokaalID>
+                                    <immetingen:versie>2021-05-19T10:37:48.0000000</immetingen:versie>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>
+                            <imsikb0101:surfaceAreaSize uom="urn:immetingen:Eenheid:id:51">300</imsikb0101:surfaceAreaSize>
+                            <imsikb0101:concernedProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <imsikb0101:locationInspection>
+                                <imsikb0101:LocationInspection>
+                                    <imsikb0101:inspectedSurface uom="urn:immetingen:Eenheid:id:51">300</imsikb0101:inspectedSurface>
+                                    <imsikb0101:inspectionTime>2021-02-26T08:01:41.0000000</imsikb0101:inspectionTime>
+                                    <imsikb0101:inspectionSightType>urn:imsikb0101:ZichtType:id:2</imsikb0101:inspectionSightType>
+                                    <imsikb0101:precipitationType>urn:imsikb0101:NeerslagType:id:1</imsikb0101:precipitationType>
+                                    <imsikb0101:coverageAmount uom="urn:immetingen:Eenheid:id:1">100</imsikb0101:coverageAmount>
+                                    <imsikb0101:coverageRemovedType>urn:immetingen:J_of_N:id:2</imsikb0101:coverageRemovedType>
+                                    <imsikb0101:coverageType>urn:imsikb0101:MaaiveldType:id:31</imsikb0101:coverageType>
+                                    <imsikb0101:inspectionEfficiency uom="urn:immetingen:Eenheid:id:1">10</imsikb0101:inspectionEfficiency>
+                                </imsikb0101:LocationInspection>
+                            </imsikb0101:locationInspection>
+                        </imsikb0101:Site>
+                    </imsikb0101:featureMember>
+                    <!-- Totaal gewogen asbestverdacht materiaal < 20 mm -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_a50d533c-4087-4229-aa81-f916669423e1">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_c228a431-8ae9-41f6-8e12-eddd75a8fefa"/>
+                            <om:result xsi:type="immetingen:MeasureResultType">
+                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">15</immetingen:numericValue>
+                                <!-- kg -->
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>a50d533c-4087-4229-aa81-f916669423e1</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:21</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <!-- Totaal gewogen asbestverdacht materiaal > 20 mm -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_a50d533c-4087-4229-aa81-f916669423e2">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_c228a431-8ae9-41f6-8e12-eddd75a8fefa"/>
+                            <om:result xsi:type="immetingen:MeasureResultType">
+                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">1</immetingen:numericValue>
+                                <!-- kg -->
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>a50d533c-4087-4229-aa81-f916669423e2</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:23</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <!-- Totaal gewogen schoon residu > 20 mm -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_a50d533c-4087-4229-aa81-f916669423e3">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_c228a431-8ae9-41f6-8e12-eddd75a8fefa"/>
+                            <om:result xsi:type="immetingen:MeasureResultType">
+                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">20</immetingen:numericValue>
+                                <!-- kg -->
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>a50d533c-4087-4229-aa81-f916669423e3</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:22</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_c228a431-8ae9-41f6-8e12-eddd75a8fefa">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_a50d533c-4087-4229-aa81-f916669423e1"/>
+                            <sam:relatedObservation xlink:href="#_a50d533c-4087-4229-aa81-f916669423e2"/>
+                            <sam:relatedObservation xlink:href="#_a50d533c-4087-4229-aa81-f916669423e3"/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_9aa5edf8-1f63-467a-ade9-e2ead5735604"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_2cde42ce-5790-41a5-8249-9150fc21d732">
+                                    <gml:timePosition>2021-02-26T15:31:06.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:size uom="urn:immetingen:Eenheid:id:37">1.5</spec:size>
+                            <!-- kg -->
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:7"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>c228a431-8ae9-41f6-8e12-eddd75a8fefa</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>Gat1_1</immetingen:name>
+                            <immetingen:startTime>2021-02-26T15:31:06.0000000</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>
+                            <immetingen:consistsOfPackages>
+                                <immetingen:Package>
+                                    <immetingen:barcode>YA864074</immetingen:barcode>
+                                    <immetingen:packageType>urn:immetingen:MonsterVerpakking:id:2</immetingen:packageType>
+                                </immetingen:Package>
+                            </immetingen:consistsOfPackages>
+                            <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <imsikb0101:asbestos>
+                                <imsikb0101:AsbestosComposition>
+                                    <imsikb0101:asbestosFractionCode>urn:immetingen:hoedanigheid:id:987</imsikb0101:asbestosFractionCode>
+                                    <!-- Fractie kleiner dan 20mm  -->
+                                </imsikb0101:AsbestosComposition>
+                            </imsikb0101:asbestos>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_162a2e16-bfae-4507-95b2-b6f7875264e6">
+                            <sam:sampledFeature/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_bb253947-3224-4713-8080-e73c4617360f"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_32d807d9-bd19-414d-bab0-376e04435cd7">
+                                    <gml:timePosition>2021-02-26T15:46:30.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:size uom="urn:immetingen:Eenheid:id:37">0.5</spec:size>
+                            <!-- kg -->
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:8"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>162a2e16-bfae-4507-95b2-b6f7875264e6</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>Gat1_plaatmonster</immetingen:name>
+                            <immetingen:startTime>2021-02-26T15:46:30.0000000</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>
+                            <immetingen:consistsOfPackages>
+                                <immetingen:Package>
+                                    <immetingen:barcode>YA829733</immetingen:barcode>
+                                    <immetingen:packageType>urn:immetingen:MonsterVerpakking:id:2</immetingen:packageType>
+                                </immetingen:Package>
+                            </immetingen:consistsOfPackages>
+                            <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <imsikb0101:asbestos>
+                                <imsikb0101:AsbestosComposition>
+                                    <imsikb0101:asbestosFractionCode>urn:immetingen:hoedanigheid:id:624</imsikb0101:asbestosFractionCode>
+                                    <!-- Fractie groter dan 20mm  -->
+                                    <imsikb0101:massFraction uom="urn:immetingen:Eenheid:id:27">142</imsikb0101:massFraction>
+                                    <imsikb0101:particlesCount>1</imsikb0101:particlesCount>
+                                </imsikb0101:AsbestosComposition>
+                            </imsikb0101:asbestos>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <!-- Totaal gewogen asbestverdacht materiaal < 20 mm -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_b50d533c-4087-4229-aa81-f916669423e1">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_f26a338a-f816-41cc-a221-50c3aec8d0ae"/>
+                            <om:result xsi:type="immetingen:MeasureResultType">
+                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">13</immetingen:numericValue>
+                                <!-- kg -->
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>b50d533c-4087-4229-aa81-f916669423e1</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:21</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <!-- Totaal gewogen asbestverdacht materiaal > 20 mm -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_b50d533c-4087-4229-aa81-f916669423e2">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_f26a338a-f816-41cc-a221-50c3aec8d0ae"/>
+                            <om:result xsi:type="immetingen:MeasureResultType">
+                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">1.2</immetingen:numericValue>
+                                <!-- kg -->
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>b50d533c-4087-4229-aa81-f916669423e2</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:23</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <!-- Totaal gewogen schoon residu > 20 mm -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_b50d533c-4087-4229-aa81-f916669423e3">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_f26a338a-f816-41cc-a221-50c3aec8d0ae"/>
+                            <om:result xsi:type="immetingen:MeasureResultType">
+                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">22.3</immetingen:numericValue>
+                                <!-- kg -->
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>b50d533c-4087-4229-aa81-f916669423e3</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:22</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_f26a338a-f816-41cc-a221-50c3aec8d0ae">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_b50d533c-4087-4229-aa81-f916669423e1"/>
+                            <sam:relatedObservation xlink:href="#_b50d533c-4087-4229-aa81-f916669423e2"/>
+                            <sam:relatedObservation xlink:href="#_b50d533c-4087-4229-aa81-f916669423e3"/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:9"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_9aa5edf8-1f63-467a-ade9-e2ead5735604"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_19883171-063b-4854-a1f3-e92d77de5714">
+                                    <gml:timePosition>2021-02-26T15:36:18.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:size uom="urn:immetingen:Eenheid:id:37">1.7</spec:size>
+                            <!-- kg -->
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:7"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>f26a338a-f816-41cc-a221-50c3aec8d0ae</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>Gat2_1</immetingen:name>
+                            <immetingen:startTime>2021-02-26T15:36:18.0000000</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>
+                            <immetingen:consistsOfPackages>
+                                <immetingen:Package>
+                                    <immetingen:barcode>YA864074</immetingen:barcode>
+                                    <immetingen:packageType>urn:immetingen:MonsterVerpakking:id:2</immetingen:packageType>
+                                </immetingen:Package>
+                            </immetingen:consistsOfPackages>
+                            <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <imsikb0101:asbestos>
+                                <imsikb0101:AsbestosComposition>
+                                    <imsikb0101:asbestosFractionCode>urn:immetingen:hoedanigheid:id:987</imsikb0101:asbestosFractionCode>
+                                    <!-- Fractie kleiner dan 20mm  -->
+                                </imsikb0101:AsbestosComposition>
+                            </imsikb0101:asbestos>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <!-- som gewogen asbest -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_650d533c-4087-4229-aa81-f916669423ed">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_9aa5edf8-1f63-467a-ade9-e2ead5735604"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">200.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:5</immetingen:valueProcessingMethod>
+                                <!-- NVT -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>200,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>650d533c-4087-4229-aa81-f916669423ed</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest  -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:313</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- som gewogen asbest ondergrens -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_650d533c-4087-4229-aa81-f916669423ee">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_9aa5edf8-1f63-467a-ade9-e2ead5735604"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">70.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:15</immetingen:valueProcessingMethod>
+                                <!-- P05 -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>70,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>650d533c-4087-4229-aa81-f916669423ee</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:313</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- som gewogen asbest bovengrens -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_650d533c-4087-4229-aa81-f916669423ef">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_9aa5edf8-1f63-467a-ade9-e2ead5735604"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">520.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:34</immetingen:valueProcessingMethod>
+                                <!-- P95 -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>520,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>650d533c-4087-4229-aa81-f916669423ef</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest  -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:313</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_9aa5edf8-1f63-467a-ade9-e2ead5735604">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_650d533c-4087-4229-aa81-f916669423ed"/>
+                            <sam:relatedObservation xlink:href="#_650d533c-4087-4229-aa81-f916669423ee"/>
+                            <sam:relatedObservation xlink:href="#_650d533c-4087-4229-aa81-f916669423ef"/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_c228a431-8ae9-41f6-8e12-eddd75a8fefa"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_f26a338a-f816-41cc-a221-50c3aec8d0ae"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:27"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_4e97feaa-14bf-41fc-9684-a6c209f90e7d"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:27"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_d6c4fef0-7a04-487c-ade5-7562bffeb486"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_87c9d726-91ee-42e1-b934-0811776bc6c4">
+                                    <gml:timePosition>2021-02-26T00:00:00.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:10"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>9aa5edf8-1f63-467a-ade9-e2ead5735604</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>ASB1</immetingen:name>
+                            <immetingen:startTime>2021-02-26T00:00:00.0000000</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>
+                            <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <!-- som gewogen asbest -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_750d533c-4087-4229-aa81-f916669423ed">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_bb253947-3224-4713-8080-e73c4617360f"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">200.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:5</immetingen:valueProcessingMethod>
+                                <!-- NVT -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>200,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>750d533c-4087-4229-aa81-f916669423ed</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:313</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- som gewogen asbest ondergrens -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_750d533c-4087-4229-aa81-f916669423ee">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_bb253947-3224-4713-8080-e73c4617360f"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">70.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:15</immetingen:valueProcessingMethod>
+                                <!-- P05 -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>70,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>750d533c-4087-4229-aa81-f916669423ee</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:313</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- som gewogen asbest bovengrens -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_750d533c-4087-4229-aa81-f916669423ef">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_bb253947-3224-4713-8080-e73c4617360f"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">520.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:34</immetingen:valueProcessingMethod>
+                                <!-- P95 -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>520,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>750d533c-4087-4229-aa81-f916669423ef</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:313</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_bb253947-3224-4713-8080-e73c4617360f">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_750d533c-4087-4229-aa81-f916669423ed"/>
+                            <sam:relatedObservation xlink:href="#_750d533c-4087-4229-aa81-f916669423ee"/>
+                            <sam:relatedObservation xlink:href="#_750d533c-4087-4229-aa81-f916669423ef"/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:10"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_162a2e16-bfae-4507-95b2-b6f7875264e6"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:27"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_4e97feaa-14bf-41fc-9684-a6c209f90e7d"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_ad5c0ce3-deec-4aa5-944c-b35e59e72217">
+                                    <gml:timePosition>2021-02-26T00:00:00.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:10"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>bb253947-3224-4713-8080-e73c4617360f</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>VZM1</immetingen:name>
+                            <immetingen:startTime>2021-02-26T00:00:00.0000000</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>
+                            <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <!-- BEREKENDE CONCLUSIE MONSTER som asbest (Totaal om mee te toetsen) -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_950d533c-4087-4229-aa81-f916669423ed">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_4e97feaa-14bf-41fc-9684-a6c209f90e7d"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">200.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:5</immetingen:valueProcessingMethod>
+                                <!-- NVT -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>200,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>950d533c-4087-4229-aa81-f916669423ed</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest (Totaal om mee te toetsen) -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:2578</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- BEREKENDE CONCLUSIE MONSTER asbest ondergrens van som gewogen asbest -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_950d533c-4087-4229-aa81-f916669423ee">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_4e97feaa-14bf-41fc-9684-a6c209f90e7d"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">70.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:15</immetingen:valueProcessingMethod>
+                                <!-- P05 -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>70,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>950d533c-4087-4229-aa81-f916669423ee</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest (Totaal om mee te toetsen) -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:2578</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- BEREKENDE CONCLUSIE MONSTER asbest bovengrens van som gewogen asbest -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_950d533c-4087-4229-aa81-f916669423ef">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_4e97feaa-14bf-41fc-9684-a6c209f90e7d"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">520.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:34</immetingen:valueProcessingMethod>
+                                <!-- P95 -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>520,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>950d533c-4087-4229-aa81-f916669423ef</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest (Totaal om mee te toetsen) -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:2578</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- Aanduiding of het Conclusie monster ook een asbestmateriaal monster bevat, Bevat asbesthoudend materiaal; ja/nee -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_950d533c-4087-4229-aa81-f916669423ea">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_d6c4fef0-7a04-487c-ade5-7562bffeb486"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:J_of_N:id:1</immetingen:classifiedResult>
+                                <!-- ja -->
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>950d533c-4087-4229-aa81-f916669423ea</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:parameter:id:7157</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_4e97feaa-14bf-41fc-9684-a6c209f90e7d">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_950d533c-4087-4229-aa81-f916669423ed"/>
+                            <sam:relatedObservation xlink:href="#_950d533c-4087-4229-aa81-f916669423ee"/>
+                            <sam:relatedObservation xlink:href="#_950d533c-4087-4229-aa81-f916669423ef"/>
+                            <sam:relatedObservation xlink:href="#_950d533c-4087-4229-aa81-f916669423ea"/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:26"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_9aa5edf8-1f63-467a-ade9-e2ead5735604"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:26"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_bb253947-3224-4713-8080-e73c4617360f"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:25"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_27c9d726-91ee-42e1-b934-0811776bc6c4">
+                                    <gml:timePosition>2021-02-26T00:00:00.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:12"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>4e97feaa-14bf-41fc-9684-a6c209f90e7d</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>Gat1-Totaal</immetingen:name>
+                            <immetingen:startTime>2021-02-26T00:00:00.0000000</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>
+                            <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                    <!-- BEREKENDE CONCLUSIE MONSTER som asbest (Totaal om mee te toetsen) -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_850d533c-4087-4229-aa81-f916669423ed">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_d6c4fef0-7a04-487c-ade5-7562bffeb486"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">300.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:5</immetingen:valueProcessingMethod>
+                                <!-- NVT -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>300,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>850d533c-4087-4229-aa81-f916669423ed</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest (Totaal om mee te toetsen) -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:2578</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- BEREKENDE CONCLUSIE MONSTER asbest ondergrens van som gewogen asbest -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_850d533c-4087-4229-aa81-f916669423ee">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_d6c4fef0-7a04-487c-ade5-7562bffeb486"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">170.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:15</immetingen:valueProcessingMethod>
+                                <!-- P05 -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>170,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>850d533c-4087-4229-aa81-f916669423ee</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest (Totaal om mee te toetsen) -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:2578</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- BEREKENDE CONCLUSIE MONSTER asbest bovengrens van som gewogen asbest -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_850d533c-4087-4229-aa81-f916669423ef">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_d6c4fef0-7a04-487c-ade5-7562bffeb486"/>
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">620.2</immetingen:numericValue>
+                                <immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:34</immetingen:valueProcessingMethod>
+                                <!-- P95 -->
+                                <immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
+                                <immetingen:limitSymbol/>
+                                <immetingen:alphanumericValue>620,2 mg/kg ds</immetingen:alphanumericValue>
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>850d533c-4087-4229-aa81-f916669423ef</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <!-- som asbest (Totaal om mee te toetsen) -->
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:2578</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <!-- Aanduiding of het Conclusie monster ook een asbestmateriaal monster bevat, Bevat asbesthoudend materiaal; ja/nee -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Characteristic gml:id="_850d533c-4087-4229-aa81-f916669423ea">
+                            <om:phenomenonTime/>
+                            <om:resultTime>
+                                <gml:TimeInstant>
+                                    <gml:timePosition>2024-06-14</gml:timePosition>
+                                </gml:TimeInstant>
+                            </om:resultTime>
+                            <om:procedure/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_d6c4fef0-7a04-487c-ade5-7562bffeb486"/>
+                            <om:result xsi:type="immetingen:ClassifiedResultType">
+                                <immetingen:classifiedResult>urn:immetingen:J_of_N:id:2</immetingen:classifiedResult>
+                                <!-- nee -->
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>850d533c-4087-4229-aa81-f916669423ea</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:indicator>urn:immetingen:parameter:id:7157</immetingen:indicator>
+                        </immetingen:Characteristic>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Sample gml:id="_d6c4fef0-7a04-487c-ade5-7562bffeb486">
+                            <sam:sampledFeature/>
+                            <sam:relatedObservation xlink:href="#_850d533c-4087-4229-aa81-f916669423ed"/>
+                            <sam:relatedObservation xlink:href="#_850d533c-4087-4229-aa81-f916669423ee"/>
+                            <sam:relatedObservation xlink:href="#_850d533c-4087-4229-aa81-f916669423ef"/>
+                            <sam:relatedObservation xlink:href="#_850d533c-4087-4229-aa81-f916669423ea"/>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:26"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_9aa5edf8-1f63-467a-ade9-e2ead5735604"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <sam:relatedSamplingFeature>
+                                <sam:SamplingFeatureComplex>
+                                    <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:25"/>
+                                    <sam:relatedSamplingFeature xlink:href="#_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4"/>
+                                </sam:SamplingFeatureComplex>
+                            </sam:relatedSamplingFeature>
+                            <spec:materialClass xlink:href="urn:immetingen:compartiment:id:1"/>
+                            <spec:samplingTime>
+                                <gml:TimeInstant gml:id="_17c9d726-91ee-42e1-b934-0811776bc6c4">
+                                    <gml:timePosition>2021-02-26T00:00:00.0000000</gml:timePosition>
+                                </gml:TimeInstant>
+                            </spec:samplingTime>
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:10"/>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>d6c4fef0-7a04-487c-ade5-7562bffeb486</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:name>Gat2-Totaal</immetingen:name>
+                            <immetingen:startTime>2021-02-26T00:00:00.0000000</immetingen:startTime>
+                            <immetingen:lowerDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:lowerDepth>
+                            <immetingen:upperDepth>
+                                <immetingen:Depth>
+                                    <immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
+                                </immetingen:Depth>
+                            </immetingen:upperDepth>
+                            <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                        </imsikb0101:Sample>
+                    </imsikb0101:featureMember>
+                </imsikb0101:FeatureCollectionIMSIKB0101>
+            </featureCollection>
+        </SAD_CompleteReport>
+    </sourceDocument>    
+</registrationRequest>

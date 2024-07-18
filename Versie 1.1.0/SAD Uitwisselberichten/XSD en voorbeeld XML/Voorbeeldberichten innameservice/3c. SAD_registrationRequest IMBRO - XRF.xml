@@ -7,18 +7,18 @@
     <!--KVK nummer van de aanleverende partij-->
     <sadcom:deliveryAccountableParty>1234567</sadcom:deliveryAccountableParty>
     <!-- Kwaliteitsregime, voor nu alleen nog IMRBO/A-->
-    <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>    
+    <sadcom:qualityRegime>IMBRO</sadcom:qualityRegime>    
     <sourceDocument>    
         <SAD_CompleteReport>               
-            <reportDate>2018-12-08</reportDate>            
-            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">archiefoverdracht</deliveryContext>            
+            <reportDate>2024-06-28</reportDate>            
+            <deliveryContext codeSpace="urn:bro:sad:DeliveryContext">omgevingswet</deliveryContext>            
             <objectIdAccountableParty>MijnReferentieSADUpload</objectIdAccountableParty>                       
             <featureCollection>
                 <!-- Hier tussen kan de volledige SIKB XML geplakt worden-->
                 <imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_9e0c2e47-5019-4846-bf80-050c79a09ff2" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v14.8.0.xsd">
                     <imsikb0101:metaData>
                         <imsikb0101:application>urn:imsikb0101:Applicaties:id:23</imsikb0101:application>
-                        <imsikb0101:date>2018-12-21</imsikb0101:date>
+                        <imsikb0101:date>2024-06-28</imsikb0101:date>
                         <imsikb0101:organisation>Bedrijfsnaam BV</imsikb0101:organisation>
                         <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:6</imsikb0101:supplier>
                         <imsikb0101:version>14.8.0</imsikb0101:version>
@@ -1540,10 +1540,52 @@
                             </immetingen:physicalProperty>
                         </immetingen:Analysis>
                     </imsikb0101:featureMember>
+                    <!-- XRF Veldmeting - Massafractie / lood / tov drooggewicht -->
+                    <imsikb0101:featureMember>
+                        <immetingen:Analysis gml:id="_9c1e4170-cd2e-46b9-8961-dc49d2b0ff3b">
+                            <om:phenomenonTime/>
+                            <om:resultTime/>
+                            <om:procedure xlink:href="#_1911262c-d247-4aad-8fea-ae095f62b495"/>
+                            <om:parameter/>
+                            <om:observedProperty/>
+                            <om:featureOfInterest xlink:href="#_0571c066-806a-459e-a8a1-b099cb6814d0"/>                            
+                            <om:result xsi:type="immetingen:AnalyticResultType">
+                                <immetingen:numericValue uom="urn:immetingen:Eenheid:id:58">0.078</immetingen:numericValue>
+                                <immetingen:limitSymbol></immetingen:limitSymbol>
+                                <immetingen:alphanumericValue>0.078 mg/kg ds</immetingen:alphanumericValue>                            
+                            </om:result>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>9c1e4170-cd2e-46b9-8961-dc49d2b0ff3b</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>
+                            <immetingen:physicalProperty>
+                                <immetingen:PhysicalProperty>
+                                    <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
+                                    <immetingen:parameter>urn:immetingen:parameter:id:1116</immetingen:parameter>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
+                                </immetingen:PhysicalProperty>
+                            </immetingen:physicalProperty>
+                        </immetingen:Analysis>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember> 
+                        <immetingen:AnalysisProcess gml:id="_1911262c-d247-4aad-8fea-ae095f62b495">
+                            <immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:224</immetingen:analyticalTechnique>
+                            <immetingen:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>1911262c-d247-4aad-8fea-ae095f62b495</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </immetingen:identification>                            
+                        </immetingen:AnalysisProcess>
+                    </imsikb0101:featureMember>
+                    <!-- einde XRF Veldmeting - Massafractie / lood / tov drooggewicht -->
                     <imsikb0101:featureMember>
                         <imsikb0101:Sample gml:id="_0571c066-806a-459e-a8a1-b099cb6814d0">
                             <sam:sampledFeature/>
                             <sam:relatedObservation xlink:href="#_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b"/>
+                            <sam:relatedObservation xlink:href="#_9c1e4170-cd2e-46b9-8961-dc49d2b0ff3b"/>                            
                             <sam:relatedSamplingFeature>
                                 <sam:SamplingFeatureComplex>
                                     <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
@@ -2645,7 +2687,7 @@
                                 </immetingen:AnalysisStatus>
                             </immetingen:statusOfAnalysis>
                         </immetingen:Analysis>
-                    </imsikb0101:featureMember>                    
+                    </imsikb0101:featureMember>                   
                 </imsikb0101:FeatureCollectionIMSIKB0101>
             </featureCollection>
         </SAD_CompleteReport>
