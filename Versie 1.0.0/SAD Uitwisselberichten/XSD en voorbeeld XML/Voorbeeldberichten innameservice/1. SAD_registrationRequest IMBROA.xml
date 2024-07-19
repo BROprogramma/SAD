@@ -25,7 +25,7 @@
                         <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:4</imsikb0101:dataflow>
                     </imsikb0101:metaData>
                     <imsikb0101:featureMember>
-                        <imsikb0101:Project gml:id="_daa6c99f-4eee-44c6-b78e-6b1826057114">                        
+                        <imsikb0101:Project gml:id="_daa6c99f-4eee-44c6-b78e-6b1826057114">
                             <imsikb0101:asbestos>urn:imsikb0101:AsbestAanwezigheid:id:4</imsikb0101:asbestos>
                             <imsikb0101:assesorConclusion>xxxxxxxxxxx</imsikb0101:assesorConclusion>
                             <imsikb0101:assignmentCode>xxxxxxxxxxx</imsikb0101:assignmentCode>
