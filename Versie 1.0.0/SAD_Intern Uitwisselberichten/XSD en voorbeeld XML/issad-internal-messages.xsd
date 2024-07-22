@@ -87,7 +87,7 @@ Explanation: Het type onderzoek geeft informatie over het soort onderzoek dat is
 Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van archiefoverdracht is het gegeven niet altijd vastgelegd</xs:documentation>
                         </xs:annotation>
                     </xs:element>
-                    <xs:element name="investigationReason" type="sadcom:InvestigationReasonType" minOccurs="1" maxOccurs="1">
+                    <xs:element name="investigationReason" type="sadcom:InvestigationReasonType" minOccurs="0" maxOccurs="1">
                         <xs:annotation>
                             <xs:appinfo>
                                 <CodeListName>InvestigationReason</CodeListName>
