@@ -492,7 +492,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:if test="$valueDate &gt;= $checkDate">
+        <xsl:if test="$value != '' and $valueDate &gt;= $checkDate">
             <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
         </xsl:if>
     </xsl:function>
@@ -548,7 +548,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:if test="$valueDate &lt;= $checkDate">
+        <xsl:if test="$value != '' and $valueDate &lt;= $checkDate">
             <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
         </xsl:if>
     </xsl:function>
