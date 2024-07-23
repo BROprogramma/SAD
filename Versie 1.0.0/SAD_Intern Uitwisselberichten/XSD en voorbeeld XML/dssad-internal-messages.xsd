@@ -124,7 +124,7 @@ Explanation: Voor gegevens die zijn aangeleverd onder IMBRO/A in het kader van a
 						</xs:annotation>
 					</xs:element>
 					<xs:element name="investigationReason"
-                           minOccurs="1"
+                           minOccurs="0"
                            maxOccurs="1"
                            type="sadcom:InvestigationReasonType">
 						<xs:annotation>
