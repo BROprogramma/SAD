@@ -417,14 +417,30 @@
         <xsl:variable name="elementName" select="string($context/name())"/>
         <xsl:variable name="elementLocalName" select="string($context/local-name())"/>
         <xsl:variable name="messageBase" select="replace(string-join(( 'Datum in het element', $field, 'bij', $elementLocalName, $prGUID, 'ligt niet voor'), ' '), '  ', ' ')"/>
-        <xsl:variable name="value" select="xsi:dateTime($context/*[local-name()=$field])"/>
+         <xsl:variable name="value" select="$context/*[local-name()=$field]"/>
+        <xsl:variable name="valueDate">
+            <xsl:choose>
+                <xsl:when test="($value castable as xsi:date)">
+                    <xsl:copy-of select="xsi:date($value)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:copy-of select="xsi:dateTime($value)"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:variable name="checkDate">
             <xsl:choose>
                 <xsl:when test="$date='current'">
                     <xsl:value-of select="current-dateTime()"/>
                 </xsl:when>
-                <xsl:when test="contains($date, '-')">
+                <xsl:when test="contains($date, '-') and ($date castable as xsi:dateTime)">
                     <xsl:copy-of select="xsi:dateTime($date)"/>
+                </xsl:when>
+                <xsl:when test="contains($date, '-') and ($date castable as xsi:date)">
+                    <xsl:copy-of select="xsi:date($date)"/>
+                </xsl:when>
+                <xsl:when test="($context/*[local-name()=$date] castable as xsi:date)">
+                    <xsl:copy-of select="xsi:date($context/*[local-name()=$date])"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:copy-of select="xsi:dateTime($context/*[local-name()=$date])"/>
@@ -444,7 +460,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:if test="$value &gt;= $checkDate">
+        <xsl:if test="$value != '' and $valueDate &gt;= $checkDate">
             <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
         </xsl:if>
     </xsl:function>
@@ -457,14 +473,30 @@
         <xsl:variable name="elementName" select="string($context/name())"/>
         <xsl:variable name="elementLocalName" select="string($context/local-name())"/>
         <xsl:variable name="messageBase" select="replace(string-join(( 'Datum in het element', $field, 'bij', $elementLocalName, $prGUID, 'ligt niet na'), ' '), '  ', ' ')"/>
-        <xsl:variable name="value" select="xsi:dateTime($context/*[local-name()=$field])"/>
+        <xsl:variable name="value" select="$context/*[local-name()=$field]"/>
+        <xsl:variable name="valueDate">
+            <xsl:choose>
+                <xsl:when test="($value castable as xsi:date)">
+                    <xsl:copy-of select="xsi:date($value)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:copy-of select="xsi:dateTime($value)"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:variable name="checkDate">
             <xsl:choose>
                 <xsl:when test="$date='current'">
                     <xsl:value-of select="current-dateTime()"/>
                 </xsl:when>
-                <xsl:when test="contains($date, '-')">
+                <xsl:when test="contains($date, '-') and ($date castable as xsi:dateTime)">
                     <xsl:copy-of select="xsi:dateTime($date)"/>
+                </xsl:when>
+                <xsl:when test="contains($date, '-') and ($date castable as xsi:date)">
+                    <xsl:copy-of select="xsi:date($date)"/>
+                </xsl:when>
+                <xsl:when test="($context/*[local-name()=$date] castable as xsi:date)">
+                    <xsl:copy-of select="xsi:date($context/*[local-name()=$date])"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:copy-of select="xsi:dateTime($context/*[local-name()=$date])"/>
@@ -484,7 +516,7 @@
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
-        <xsl:if test="$value &lt;= $checkDate">
+        <xsl:if test="$value != '' and $valueDate &lt;= $checkDate">
             <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
         </xsl:if>
     </xsl:function>
