@@ -12,10 +12,21 @@
     terzake tussen de partijen gesloten overeenkomst.
 
 -->
-<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0" xmlns:issad="http://www.broservices.nl/xsd/issad-internal/1.1" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/issad-internal/1.1" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.1.0">
+<xs:schema xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+           xmlns:gml="http://www.opengis.net/gml/3.2"
+           xmlns:gmlsf="http://www.opengis.net/gmlsf/2.0"
+           xmlns:issad="http://www.broservices.nl/xsd/issad-internal/1.1"
+           xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon-internal/1.1"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.broservices.nl/xsd/issad-internal/1.1"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified"
+           version="1.1.0">
+
     <xs:import namespace="http://www.broservices.nl/xsd/sadcommon-internal/1.1" schemaLocation="./sadcommon-internal.xsd"/>
     <xs:import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
     <xs:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+
     <xs:element name="intakeResponse" type="brocom:IntakeResponseType"/>
     <xs:element name="parseFault" type="brocom:ParseFaultType"/>
     <xs:element name="SAD_CompleteReport" type="issad:SAD_CompleteReportType" substitutionGroup="gml:AbstractFeature"/>

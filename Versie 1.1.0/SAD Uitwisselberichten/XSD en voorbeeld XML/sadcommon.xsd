@@ -102,7 +102,7 @@
 			<xs:extension base="sadcom:AbstractRegistrationObjectType">
 				<xs:sequence>
 					<xs:element name="deliveryAccountableParty"
-                           type="sadcom:OrganizationPropertyType"
+                           type="sadcom:ChamberOfCommerceNumberType"
                            minOccurs="1"
                            maxOccurs="1">
 						<xs:annotation>
