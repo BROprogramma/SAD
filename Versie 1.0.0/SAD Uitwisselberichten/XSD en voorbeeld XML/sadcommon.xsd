@@ -19,7 +19,7 @@
            targetNamespace="http://www.broservices.nl/xsd/sadcommon/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="1.0.0">
+           version="1.0.1">
 	<xs:import namespace="http://www.opengis.net/gml/3.2"
               schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
 	<xs:element name="AbstractRegistrationObject"
@@ -102,7 +102,7 @@
 			<xs:extension base="sadcom:AbstractRegistrationObjectType">
 				<xs:sequence>
 					<xs:element name="deliveryAccountableParty"
-                           type="sadcom:OrganizationPropertyType"
+                           type="sadcom:ChamberOfCommerceNumberType"
                            minOccurs="1"
                            maxOccurs="1">
 						<xs:annotation>
