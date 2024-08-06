@@ -50,7 +50,7 @@
                     <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>
                     <!-- Optional -->
                     <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType>            
-                    <asbestos codeSpace="urn:bro:sad:AsbestosPresence">nietOnderzocht</asbestos>
+                    <asbestos codeSpace="urn:bro:sad:AsbestosPresence">aanwezig</asbestos>
                     <!-- Optional -->
                     <investigationReason codeSpace="urn:bro:sad:InvestigationReason">omgevingsvergunning</investigationReason>
                     <geometry>

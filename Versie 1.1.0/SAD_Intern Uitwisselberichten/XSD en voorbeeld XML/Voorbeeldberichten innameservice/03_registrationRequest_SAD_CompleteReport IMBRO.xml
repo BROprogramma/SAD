@@ -352,16 +352,6 @@
                     <sadcom:soilSampling xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
                 </sadcom:MixedSampleAnalysis>
             </mixedSampleAnalysis>
-            <asbestosResult>
-                <sadcom:AsbestosResult gml:id="_4ad85b64-20b4-40ef-a3ad-d5151344700f">
-                    <sadcom:identification>4ad85b64-20b4-40ef-a3ad-d5151344700f</sadcom:identification>
-                    <sadcom:beginDepth uom="m">0.5</sadcom:beginDepth>
-                    <sadcom:endDepth uom="m">1.0</sadcom:endDepth>
-                    <sadcom:asbestosParticlesFound>ja</sadcom:asbestosParticlesFound>
-                    <sadcom:weightedAsbestosContent uom="mg/kg">105</sadcom:weightedAsbestosContent>
-                    <sadcom:measurementPoint xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
-                </sadcom:AsbestosResult>
-            </asbestosResult>
         </SAD_CompleteReport>
     </sourceDocument>
 </registrationRequest>

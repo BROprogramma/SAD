@@ -28,7 +28,7 @@
             <name>SIKB Voorbeeld project Protocol 2001 en 2002</name>              
             <objectIdAccountableParty>MijnReferentieSADUpload</objectIdAccountableParty>                     
             <projectType codeSpace="urn:bro:sad:ProjectType">orienterendBodemonderzoek</projectType>             
-            <asbestos codeSpace="urn:bro:sad:AsbestosPresence">nietOnderzocht</asbestos>            
+            <asbestos codeSpace="urn:bro:sad:AsbestosPresence">aanwezig</asbestos>            
             <investigationReason codeSpace="urn:bro:sad:InvestigationReason">omgevingsvergunning</investigationReason>
             <geometry>
                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4258">
