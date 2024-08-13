@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- XSLT Onderzoek_Controle.xsl versie 1.0.0 (27-6-2024) - SIKB0101 versie 14.8.0-->
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xsi="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xdt="http://www.w3.org/2005/xpath-datatypes" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:immetingen="http://www.sikb.nl/immetingen" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sikb="http://xslcontrole.sikb" xmlns:issad="http://www.broservices.nl/xsd/issad/1.0" xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.0 .//issad-messages.xsd">
+<xsl:stylesheet
+        version="2.0"
+        xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+        xmlns:fo="http://www.w3.org/1999/XSL/Format"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+        xmlns:fn="http://www.w3.org/2005/xpath-functions"
+        xmlns:xdt="http://www.w3.org/2005/xpath-datatypes"
+        xmlns:imsikb0101="http://www.sikb.nl/imsikb0101"
+        xmlns:immetingen="http://www.sikb.nl/immetingen"
+        xmlns:gco="http://www.isotc211.org/2005/gco"
+        xmlns:gmd="http://www.isotc211.org/2005/gmd"
+        xmlns:gsr="http://www.isotc211.org/2005/gsr"
+        xmlns:gss="http://www.isotc211.org/2005/gss"
+        xmlns:gts="http://www.isotc211.org/2005/gts"
+        xmlns:gml="http://www.opengis.net/gml/3.2"
+        xmlns:om="http://www.opengis.net/om/2.0"
+        xmlns:sam="http://www.opengis.net/sampling/2.0"
+        xmlns:sams="http://www.opengis.net/samplingSpatial/2.0"
+        xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:sikb="http://xslcontrole.sikb"
+        xmlns:issad="http://www.broservices.nl/xsd/issad/1.0"
+        xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.0 .//issad-messages.xsd">
     <xsl:output method="xml" indent="yes"/>
     <!-- global variables -->
     <xsl:variable name="imsikb0101LookupFile" select="string('imsikb0101 lookup.xml')"/>
@@ -203,7 +225,7 @@
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
 
         <xsl:copy-of select="sikb:checkDateBeforeDate(., $prGUID, 'startTime','current', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
         
 
         <xsl:if test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
