@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright TNO Geologische Dienst Nederland
+
+    Alle rechten voorbehouden.
+    Niets uit deze software mag worden vermenigvuldigd en/of openbaar gemaakt door middel van druk, fotokopie,
+    microfilm of op welke andere wijze dan ook, zonder voorafgaande toestemming van TNO.
+
+    Indien deze software in opdracht werd uitgebracht, wordt voor de rechten en verplichtingen van opdrachtgever
+    en opdrachtnemer verwezen naar de Algemene Voorwaarden voor opdrachten aan TNO, dan wel de betreffende
+    terzake tussen de partijen gesloten overeenkomst.
+
+-->
 <wsdl:definitions name="issad"
                   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
                   xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
@@ -16,9 +29,13 @@
     </wsdl:documentation>
 
     <wsdl:types>
-        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issad-internal/1.1" targetNamespace="http://www.broservices.nl/wsdl/issad-internal/1.1">            
+        <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/issad-internal/1.1" targetNamespace="http://www.broservices.nl/wsdl/issad-internal/1.1">
             <xsd:import namespace="http://www.broservices.nl/xsd/issad-internal/1.1" schemaLocation="./issad-internal-messages.xsd"/>
             <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="./brocommon.xsd"/>
+            <!--
+            <xsd:import namespace="http://www.broservices.nl/xsd/issad-internal/1.1" schemaLocation="https://schema.broservices.nl/xsd/issad-internal/1.1/issad-internal-messages.xsd"/>
+            <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+            -->
         </xsd:schema>
     </wsdl:types>
 
@@ -38,20 +55,16 @@
         <wsdl:part element="msg:parseFault" name="parseFault"/>
     </wsdl:message>
 
-    <wsdl:message name="DeliveryResponsiblePartyHeader">
-        <wsdl:part element="brocom:deliveryResponsibleParty" name="deliveryResponsibleParty"/>
-    </wsdl:message>
-
     <wsdl:portType name="issad">
         <wsdl:operation name="register">
-            <wsdl:input message="tns:registrationRequest" wsam:Action="http://www.broservices.nl/wsdl/issad/1.0/registrationRequest"/>
-            <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wsdl/issad/1.0/intakeResponse"/>
+            <wsdl:input message="tns:registrationRequest" wsam:Action="http://www.broservices.nl/wsdl/issad/1.1/registrationRequest"/>
+            <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wsdl/issad/1.1/intakeResponse"/>
             <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/issad/parseSoapFault"/>
         </wsdl:operation>
         <wsdl:operation name="correct">
-            <wsdl:input message="tns:correctionRequest" wsam:Action="http://www.broservices.nl/wus/isbhr-gt/correctionRequest" />
-            <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wus/isbhr-gt/intakeResponse" />
-            <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wus/isbhr-gt/parseSoapFault" />
+            <wsdl:input message="tns:correctionRequest" wsam:Action="http://www.broservices.nl/wsdl/issad/1.1/correctionRequest" />
+            <wsdl:output message="tns:intakeResponse" wsam:Action="http://www.broservices.nl/wsdl/issad/1.1/intakeResponse" />
+            <wsdl:fault message="tns:parseSoapFault" name="parseFault" wsam:Action="http://www.broservices.nl/wsdl/issad/1.0/parseSoapFault" />
         </wsdl:operation>
     </wsdl:portType>
 
@@ -61,7 +74,6 @@
             <soap:operation soapAction="" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
-                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader"/>
             </wsdl:input>
             <wsdl:output>
                 <soap:body use="literal"/>
@@ -74,7 +86,6 @@
             <soap:operation soapAction="" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
-                <soap:header use="literal" part="deliveryResponsibleParty" message="tns:DeliveryResponsiblePartyHeader"/>
             </wsdl:input>
             <wsdl:output>
                 <soap:body use="literal"/>
