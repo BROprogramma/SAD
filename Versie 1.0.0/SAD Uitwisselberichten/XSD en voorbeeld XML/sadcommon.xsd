@@ -19,7 +19,7 @@
            targetNamespace="http://www.broservices.nl/xsd/sadcommon/1.0"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified"
-           version="1.0.1">
+           version="1.0.2">
 	<xs:import namespace="http://www.opengis.net/gml/3.2"
               schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
 	<xs:element name="AbstractRegistrationObject"
@@ -1300,9 +1300,11 @@ Explanation: Het attribute uom moet aanwezig zijn als een gegeven met dit dataty
 	</xs:element>
 	<xs:complexType name="StandardizedGeometryType">
 		<xs:choice minOccurs="1" maxOccurs="1">
-			<xs:element ref="gml:Point"/>
-			<xs:element ref="gml:MultiPoint"/>
-			<xs:element ref="gml:MultiSurface"/>
+            <xs:element ref="gml:Point"/>
+            <xs:element ref="gml:MultiPoint"/>
+            <xs:element ref="gml:Surface"/>
+            <xs:element ref="gml:MultiSurface"/>
+            <xs:element ref="gml:MultiGeometry"/>
 		</xs:choice>
 	</xs:complexType>
 	<xs:complexType name="StandardizedGeometryPropertyType">
