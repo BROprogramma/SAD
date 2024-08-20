@@ -42,7 +42,7 @@
                     <sadcommon:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcommon:type>
                     <sadcommon:deliveredVerticalPosition>
                         <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcommon:localVerticalReferencePoint>
-                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                         <sadcommon:offset uom="m">0.03</sadcommon:offset>
                     </sadcommon:deliveredVerticalPosition>
                     <sadcommon:filter>
@@ -51,7 +51,7 @@
                             <sadcommon:name>1</sadcommon:name>
                             <sadcommon:deliveredVerticalPosition>
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcommon:localVerticalReferencePoint>
-                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.23</sadcommon:offset>
                                 <sadcommon:groundLevelPosition uom="m">0.2</sadcommon:groundLevelPosition>
                             </sadcommon:deliveredVerticalPosition>
@@ -163,7 +163,7 @@
                             <sadcommon:name>1</sadcommon:name>
                             <sadcommon:deliveredVerticalPosition>
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcommon:localVerticalReferencePoint>
-                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.23</sadcommon:offset>
                             </sadcommon:deliveredVerticalPosition>
                             <sadcommon:upperBoundary uom="m">1.20</sadcommon:upperBoundary>
@@ -186,7 +186,7 @@
                     <sadcommon:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcommon:type>
                     <sadcommon:deliveredVerticalPosition>
                         <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcommon:localVerticalReferencePoint>
-                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                         <sadcommon:offset uom="m">0.03</sadcommon:offset>
                     </sadcommon:deliveredVerticalPosition>
                     <sadcommon:filter>
@@ -195,7 +195,7 @@
                             <sadcommon:name>1</sadcommon:name>
                             <sadcommon:deliveredVerticalPosition>
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcommon:localVerticalReferencePoint>
-                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.23</sadcommon:offset>
                                 <sadcommon:groundLevelPosition uom="m">0.20</sadcommon:groundLevelPosition>
                             </sadcommon:deliveredVerticalPosition>
@@ -219,7 +219,7 @@
                     <sadcommon:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcommon:type>
                     <sadcommon:deliveredVerticalPosition>
                         <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcommon:localVerticalReferencePoint>
-                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                         <sadcommon:offset uom="m">0.03</sadcommon:offset>
                     </sadcommon:deliveredVerticalPosition>
                     <sadcommon:filter>
@@ -228,7 +228,7 @@
                             <sadcommon:name>1</sadcommon:name>
                             <sadcommon:deliveredVerticalPosition>
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcommon:localVerticalReferencePoint>
-                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.23</sadcommon:offset>
                                 <sadcommon:groundLevelPosition uom="m">0.20</sadcommon:groundLevelPosition>
                             </sadcommon:deliveredVerticalPosition>
@@ -280,7 +280,7 @@
                     <sadcommon:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcommon:type>
                     <sadcommon:deliveredVerticalPosition>
                         <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcommon:localVerticalReferencePoint>
-                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                         <sadcommon:offset uom="m">0.03</sadcommon:offset>
                     </sadcommon:deliveredVerticalPosition>
                     <sadcommon:filter>
@@ -289,7 +289,7 @@
                             <sadcommon:name>1</sadcommon:name>
                             <sadcommon:deliveredVerticalPosition>
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcommon:localVerticalReferencePoint>
-                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.03</sadcommon:offset>
                             </sadcommon:deliveredVerticalPosition>
                             <sadcommon:upperBoundary uom="m">1.00</sadcommon:upperBoundary>
@@ -319,7 +319,7 @@
                             <sadcommon:name>1</sadcommon:name>
                             <sadcommon:deliveredVerticalPosition>
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcommon:localVerticalReferencePoint>
-                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.30</sadcommon:offset>
                             </sadcommon:deliveredVerticalPosition>
                             <sadcommon:upperBoundary uom="m">1.20</sadcommon:upperBoundary>
@@ -342,7 +342,7 @@
                     <sadcommon:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcommon:type>
                     <sadcommon:deliveredVerticalPosition>
                         <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcommon:localVerticalReferencePoint>
-                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                         <sadcommon:offset uom="m">0.20</sadcommon:offset>
                     </sadcommon:deliveredVerticalPosition>
                     <sadcommon:filter>
@@ -351,7 +351,7 @@
                             <sadcommon:name>1</sadcommon:name>
                             <sadcommon:deliveredVerticalPosition>
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcommon:localVerticalReferencePoint>
-                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.30</sadcommon:offset>
                                 <sadcommon:groundLevelPosition uom="m">0.10</sadcommon:groundLevelPosition>
                             </sadcommon:deliveredVerticalPosition>
@@ -375,7 +375,7 @@
                     <sadcommon:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcommon:type>
                     <sadcommon:deliveredVerticalPosition>
                         <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcommon:localVerticalReferencePoint>
-                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                         <sadcommon:offset uom="m">0.20</sadcommon:offset>
                     </sadcommon:deliveredVerticalPosition>
                     <sadcommon:filter>
@@ -384,7 +384,7 @@
                             <sadcommon:name>1</sadcommon:name>
                             <sadcommon:deliveredVerticalPosition>
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcommon:localVerticalReferencePoint>
-                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.20</sadcommon:offset>
                             </sadcommon:deliveredVerticalPosition>
                             <sadcommon:upperBoundary uom="m">1.10</sadcommon:upperBoundary>
@@ -407,7 +407,7 @@
                     <sadcommon:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcommon:type>
                     <sadcommon:deliveredVerticalPosition>
                         <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcommon:localVerticalReferencePoint>
-                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                        <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                         <sadcommon:offset uom="m">0.10</sadcommon:offset>
                     </sadcommon:deliveredVerticalPosition>
                     <sadcommon:filter>
@@ -416,7 +416,7 @@
                             <sadcommon:name>1</sadcommon:name>
                             <sadcommon:deliveredVerticalPosition>
                                 <sadcommon:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">bovenkantPeilbuis</sadcommon:localVerticalReferencePoint>
-                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcommon:verticalDatum>
+                                <sadcommon:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcommon:verticalDatum>
                                 <sadcommon:offset uom="m">0.30</sadcommon:offset>
                                 <sadcommon:groundLevelPosition uom="m">0.20</sadcommon:groundLevelPosition>
                             </sadcommon:deliveredVerticalPosition>

@@ -117,7 +117,7 @@
                             <sadcom:type codeSpace="urn:bro:sad:MeasurementPointType">peilbuis</sadcom:type>                    
                             <sadcom:deliveredVerticalPosition>
                                 <sadcom:localVerticalReferencePoint codeSpace="urn:bro:sad:LocalVerticalReferencePoint">maaiveld</sadcom:localVerticalReferencePoint>
-                                <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">nap</sadcom:verticalDatum>                                                
+                                <sadcom:verticalDatum codeSpace="urn:bro:sad:VerticalDatum">NAP</sadcom:verticalDatum>                                                
                                 <!-- Maaiveld hoogte tov NAP -->
                                 <sadcom:offset uom="m">0.02</sadcom:offset>                        
                             </sadcom:deliveredVerticalPosition>
