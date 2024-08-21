@@ -21,7 +21,7 @@
                         <imsikb0101:date>2024-07-17</imsikb0101:date>
                         <imsikb0101:organisation>Organisatienaam</imsikb0101:organisation>
                         <imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:6</imsikb0101:supplier>
-                        <imsikb0101:version>14.8.0</imsikb0101:version>
+                        <imsikb0101:version>14.9.0</imsikb0101:version>
                         <imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:4</imsikb0101:dataflow>
                     </imsikb0101:metaData>
                     <imsikb0101:featureMember>

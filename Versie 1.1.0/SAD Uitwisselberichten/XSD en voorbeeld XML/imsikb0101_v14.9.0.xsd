@@ -2,7 +2,7 @@
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:immetingen="http://www.sikb.nl/immetingen" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" targetNamespace="http://www.sikb.nl/imsikb0101" elementFormDefault="qualified">
     <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
     <import namespace="http://www.opengis.net/samplingSpatial/2.0" schemaLocation="http://schemas.opengis.net/samplingSpatial/2.0/spatialSamplingFeature.xsd"/>
-    <import namespace="http://www.sikb.nl/immetingen" schemaLocation="immetingen_v14.8.0.xsd"/>
+    <import namespace="http://www.sikb.nl/immetingen" schemaLocation="immetingen_v14.9.0.xsd"/>
     <element name="AddressLocation" type="imsikb0101:AddressLocationType" substitutionGroup="gml:AbstractFeature">
         <annotation>
             <documentation>Adres lokatie
@@ -200,6 +200,12 @@ Domeintabel: Beschrijfprocedure</documentation>
                     <element name="documentID" type="string">
                         <annotation>
                             <documentation>Kenmerk van het document waaronder die bekend is bij desbetreffende organisatie.</documentation>
+                        </annotation>
+                    </element>
+                    <element name="documentType" type="gml:CodeType" minOccurs="0">
+                        <annotation>
+                            <documentation>soort document/ soort bijlage - Beschrijving van het soort document wat als bijlage gekoppeld kan worden
+Domeintabel: DocumentBijlageType</documentation>
                         </annotation>
                     </element>
                     <element name="identification" type="immetingen:NEN3610IDPropertyType">
