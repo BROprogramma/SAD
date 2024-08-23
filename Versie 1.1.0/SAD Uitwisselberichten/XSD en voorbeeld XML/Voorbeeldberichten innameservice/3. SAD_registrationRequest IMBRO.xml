@@ -63,7 +63,24 @@
                             <imsikb0101:measurementObjects xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
                             <imsikb0101:dossiers xlink:href="#_ecda0f38-782a-48e7-8622-e9d6dda7b0c0"/>
                             <imsikb0101:Addresses xlink:href="#_d5d40f94-cb06-4802-8f6e-450a0bad2698"/>
+                            <imsikb0101:documents xlink:href="#_25864356-197c-4eaa-ae03-43ead2065aa7"/>
                         </imsikb0101:Project>
+                    </imsikb0101:featureMember>
+                    <imsikb0101:featureMember>
+                        <imsikb0101:Document gml:id="_25864356-197c-4eaa-ae03-43ead2065aa7">
+                            <imsikb0101:documentID>Eindrapport_SIKB_PROT_2001_2002_v1</imsikb0101:documentID>
+                            <imsikb0101:documentType>urn:imsikb0101:DocumentBijlageType:id:1</imsikb0101:documentType> <!-- eindrapport -->
+                            <imsikb0101:identification>
+                                <immetingen:NEN3610ID>
+                                    <immetingen:namespace>SIKB</immetingen:namespace>
+                                    <immetingen:lokaalID>25864356-197c-4eaa-ae03-43ead2065aa7</immetingen:lokaalID>
+                                </immetingen:NEN3610ID>
+                            </imsikb0101:identification>                            
+                            <imsikb0101:startTime>2018-12-07</imsikb0101:startTime>
+                            <imsikb0101:title>Eindrapport SIKB_PROT_2001_2002</imsikb0101:title>
+                            <imsikb0101:ownerOrganisation>Gemeente van Nederland</imsikb0101:ownerOrganisation>
+                            <imsikb0101:documentLink>https://www.documentenlink.xx/3214_4321_432143</imsikb0101:documentLink>                            
+                        </imsikb0101:Document>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
                         <imsikb0101:SoilManagementDossier gml:id="_ecda0f38-782a-48e7-8622-e9d6dda7b0c0">

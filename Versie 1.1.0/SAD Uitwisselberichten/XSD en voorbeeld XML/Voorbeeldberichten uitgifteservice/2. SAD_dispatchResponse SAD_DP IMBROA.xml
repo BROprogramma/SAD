@@ -103,7 +103,7 @@
                         </imsikb0101:Project>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
-                        <imsikb0101:Document>
+                        <imsikb0101:Document gml:id="_25864356-197c-4eaa-ae03-43ead2065aa7">
                             <imsikb0101:documentID>123123</imsikb0101:documentID>
                             <imsikb0101:documentType>urn:imsikb0101:DocumentBijlageType:id:1</imsikb0101:documentType> <!-- eindrapport -->
                             <imsikb0101:identification>
