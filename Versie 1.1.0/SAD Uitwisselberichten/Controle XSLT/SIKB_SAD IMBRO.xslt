@@ -235,6 +235,7 @@
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'measurementObjectType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>        
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
 
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'groundLevel', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'ERROR')"/>
@@ -258,8 +259,10 @@
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'measurementObjectType', 'ERROR')"/>
+        
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>        
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
 
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'groundLevel', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'ERROR')"/>
@@ -277,12 +280,15 @@
             <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Borehole', string-join(('This Trench will be ignored, because it has an unsupported measurementObjectType; Trench gml:id =',  $prGUID), ' ') )"/>
         </xsl:if>
     </xsl:template>
-    <xsl:template match="imsikb0101:MeasurementObject">
+    <xsl:template match="immetingen:MeasurementObject">
         <xsl:variable name="prGUID" select="@gml:id"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'measurementObjectType', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>        
+        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
+        
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'measurementObjectType', 'MeetObjectSoort', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
@@ -292,13 +298,6 @@
         <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>
         
 
-        <xsl:if test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
-            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:MeasurementObject', string-join(('This MeasurementObject will be ignored, because it has an unsupported measurementObjectType; Borehole gml:id =',  $prGUID), ' ') )"/>
-        </xsl:if>
-    </xsl:template>
-    <xsl:template match="immetingen:MeasurementObject">
-        <xsl:variable name="prGUID" select="@gml:id"/>
-        <xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
         <xsl:if test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
             <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:MeasurementObject', string-join(('This MeasurementObject will be ignored, because it has an unsupported measurementObjectType; Borehole gml:id =',  $prGUID), ' ') )"/>
         </xsl:if>
