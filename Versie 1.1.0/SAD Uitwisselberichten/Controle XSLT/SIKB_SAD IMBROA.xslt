@@ -294,7 +294,6 @@
     </xsl:template>
     <xsl:template match="imsikb0101:Filter">
         <xsl:variable name="prGUID" select="@gml:id"/>
-        <xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
         <!-- check of het filter gekoppeld zit aan een meetpunt (zoekHRV)-->
         <xsl:copy-of select="sikb:checkSamplingFeatureRelation(., $prGUID, 'role', '4', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>

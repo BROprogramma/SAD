@@ -253,7 +253,7 @@
         </xsl:if>
     </xsl:template>
     <!-- Trench -->
-    <xsl:template match="imsikb0101:Trench" mode="twee">
+    <xsl:template match="imsikb0101:Trench">
         <xsl:variable name="prGUID" select="@gml:id"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
@@ -320,8 +320,7 @@
         <xsl:copy-of select="sikb:checkLookupId(., 'immetingen:Depth', 'condition', 'Hoedanigheid', 'WARNING')"/>
     </xsl:template>
     <xsl:template match="imsikb0101:Filter">
-        <xsl:variable name="prGUID" select="@gml:id"/>
-        <xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
+        <xsl:variable name="prGUID" select="@gml:id"/>        
         <!-- check of het filter gekoppeld zit aan een meetpunt (zoekHRV)-->
         <xsl:copy-of select="sikb:checkSamplingFeatureRelation(., $prGUID, 'role', '4', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>        
