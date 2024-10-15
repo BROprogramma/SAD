@@ -84459,8 +84459,8 @@
 			<Code>BS</Code>
 			<Omschrijving>Bodem/Sediment</Omschrijving>
 			<Groep>MilieuCompartiment</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Compartiment>
@@ -84469,8 +84469,8 @@
 			<Code>GW</Code>
 			<Omschrijving>Grondwater</Omschrijving>
 			<Groep>MilieuCompartiment</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Compartiment>
@@ -86484,8 +86484,8 @@
 			<Waarde>veldmonster</Waarde>
 			<Omschrijving>In het veld genomen monster, welke bestaat uit 1 of meerdere verpakkingen.</Omschrijving>
 			<Groep></Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</MonsterType>
@@ -86529,7 +86529,7 @@
 			<Omschrijving>Een monster dat ontstaat nadat een monster gezeefd is (asbest).</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</MonsterType>
@@ -86540,7 +86540,7 @@
 			<Omschrijving>Een monster dat bestaat uit een stuk materiaal uit een monster (asbest)</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</MonsterType>
@@ -86565,8 +86565,8 @@ Bron: NEN5717:2009.nl
 
 Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonsters.</Omschrijving>
 			<Groep></Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</MonsterType>
@@ -86588,7 +86588,7 @@ Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonster
 			<Omschrijving>(Samengesteld) Conclusie monster van meerdere analysemonsters, via een samenvoeging of berekening, waarop een eindconclusie gemaakt kan worden</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</MonsterType>
@@ -86639,8 +86639,8 @@ Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonster
 			<Code>NVT</Code>
 			<Omschrijving>Niet van toepassing</Omschrijving>
 			<Groep>(technisch)</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebewerkingsmethode>
