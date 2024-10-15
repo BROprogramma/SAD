@@ -1699,7 +1699,7 @@
                     </imsikb0101:featureMember>
                     <!-- BEREKENDE CONCLUSIE MONSTER som asbest (Totaal om mee te toetsen) -->
                     <imsikb0101:featureMember>
-                        <immetingen:Analysis gml:id="_950d533c-4087-4229-aa81-f916669423ed">
+                        <immetingen:CalculatedAnalysis gml:id="_950d533c-4087-4229-aa81-f916669423ed">
                             <om:phenomenonTime/>
                             <om:resultTime>
                                 <gml:TimeInstant>
@@ -1731,11 +1731,11 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
-                        </immetingen:Analysis>
+                        </immetingen:CalculatedAnalysis>
                     </imsikb0101:featureMember>
                     <!-- BEREKENDE CONCLUSIE MONSTER asbest ondergrens van som gewogen asbest -->
                     <imsikb0101:featureMember>
-                        <immetingen:Analysis gml:id="_950d533c-4087-4229-aa81-f916669423ee">
+                        <immetingen:CalculatedAnalysis gml:id="_950d533c-4087-4229-aa81-f916669423ee">
                             <om:phenomenonTime/>
                             <om:resultTime>
                                 <gml:TimeInstant>
@@ -1767,11 +1767,11 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
-                        </immetingen:Analysis>
+                        </immetingen:CalculatedAnalysis>
                     </imsikb0101:featureMember>
                     <!-- BEREKENDE CONCLUSIE MONSTER asbest bovengrens van som gewogen asbest -->
                     <imsikb0101:featureMember>
-                        <immetingen:Analysis gml:id="_950d533c-4087-4229-aa81-f916669423ef">
+                        <immetingen:CalculatedAnalysis gml:id="_950d533c-4087-4229-aa81-f916669423ef">
                             <om:phenomenonTime/>
                             <om:resultTime>
                                 <gml:TimeInstant>
@@ -1803,7 +1803,7 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
-                        </immetingen:Analysis>
+                        </immetingen:CalculatedAnalysis>
                     </imsikb0101:featureMember>
                     <!-- Aanduiding of het Conclusie monster ook een asbestmateriaal monster bevat, Bevat asbesthoudend materiaal; ja/nee -->
                     <imsikb0101:featureMember>
@@ -1816,7 +1816,7 @@
                             </om:resultTime>
                             <om:procedure/>
                             <om:observedProperty/>
-                            <om:featureOfInterest xlink:href="#_d6c4fef0-7a04-487c-ade5-7562bffeb486"/>
+                            <om:featureOfInterest xlink:href="#_4e97feaa-14bf-41fc-9684-a6c209f90e7d"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
                                 <immetingen:classifiedResult>urn:immetingen:J_of_N:id:1</immetingen:classifiedResult>
                                 <!-- ja -->
@@ -1887,7 +1887,7 @@
                     </imsikb0101:featureMember>
                     <!-- BEREKENDE CONCLUSIE MONSTER som asbest (Totaal om mee te toetsen) -->
                     <imsikb0101:featureMember>
-                        <immetingen:Analysis gml:id="_850d533c-4087-4229-aa81-f916669423ed">
+                        <immetingen:CalculatedAnalysis gml:id="_850d533c-4087-4229-aa81-f916669423ed">
                             <om:phenomenonTime/>
                             <om:resultTime>
                                 <gml:TimeInstant>
@@ -1919,11 +1919,11 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
-                        </immetingen:Analysis>
+                        </immetingen:CalculatedAnalysis>
                     </imsikb0101:featureMember>
                     <!-- BEREKENDE CONCLUSIE MONSTER asbest ondergrens van som gewogen asbest -->
                     <imsikb0101:featureMember>
-                        <immetingen:Analysis gml:id="_850d533c-4087-4229-aa81-f916669423ee">
+                        <immetingen:CalculatedAnalysis gml:id="_850d533c-4087-4229-aa81-f916669423ee">
                             <om:phenomenonTime/>
                             <om:resultTime>
                                 <gml:TimeInstant>
@@ -1955,11 +1955,11 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
-                        </immetingen:Analysis>
+                        </immetingen:CalculatedAnalysis>
                     </imsikb0101:featureMember>
                     <!-- BEREKENDE CONCLUSIE MONSTER asbest bovengrens van som gewogen asbest -->
                     <imsikb0101:featureMember>
-                        <immetingen:Analysis gml:id="_850d533c-4087-4229-aa81-f916669423ef">
+                        <immetingen:CalculatedAnalysis gml:id="_850d533c-4087-4229-aa81-f916669423ef">
                             <om:phenomenonTime/>
                             <om:resultTime>
                                 <gml:TimeInstant>
@@ -1991,7 +1991,7 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
-                        </immetingen:Analysis>
+                        </immetingen:CalculatedAnalysis>
                     </imsikb0101:featureMember>
                     <!-- Aanduiding of het Conclusie monster ook een asbestmateriaal monster bevat, Bevat asbesthoudend materiaal; ja/nee -->
                     <imsikb0101:featureMember>
