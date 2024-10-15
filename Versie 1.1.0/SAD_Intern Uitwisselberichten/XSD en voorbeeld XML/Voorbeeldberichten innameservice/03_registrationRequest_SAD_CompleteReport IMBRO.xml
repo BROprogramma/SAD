@@ -351,7 +351,20 @@
                     <sadcom:soilSampling xlink:href="#_869e4c44-dbe0-4bca-965a-45d2e5418fd3"/>
                     <sadcom:soilSampling xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
                 </sadcom:MixedSampleAnalysis>
-            </mixedSampleAnalysis>
+            </mixedSampleAnalysis>            
+            <asbestosResult>
+            <!-- optioneel, alleen bij IMBRO en een conclusie monster asbest -->
+                <sadcom:AsbestosResult gml:id="_4e97feaa-14bf-41fc-9684-a6c209f90e7d">
+                    <sadcom:identification>4e97feaa-14bf-41fc-9684-a6c209f90e7d</sadcom:identification>
+                    <!-- optioneel -->
+                    <sadcom:name>Gat1-Totaal</sadcom:name>
+                    <sadcom:beginDepth uom="m">0.3</sadcom:beginDepth>
+                    <sadcom:endDepth uom="m">0.5</sadcom:endDepth>
+                    <sadcom:asbestosParticlesFound>onbekend</sadcom:asbestosParticlesFound>
+                    <sadcom:weightedAsbestosContent uom="mg/kg">300.2</sadcom:weightedAsbestosContent>
+                    <sadcom:measurementPoint xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
+                </sadcom:AsbestosResult>
+            </asbestosResult>
         </SAD_CompleteReport>
     </sourceDocument>
 </registrationRequest>

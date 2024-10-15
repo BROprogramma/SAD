@@ -1088,7 +1088,7 @@ Explanation: Deze identificatie is de SIKB0101 invulling van het NEN3610-ID en h
                         </xs:annotation>
                         <xs:simpleType>
                             <xs:restriction base="xs:string">
-                                <xs:length value="24"/>
+                                <xs:maxLength value="24"/>
                             </xs:restriction>
                         </xs:simpleType>
                     </xs:element>
