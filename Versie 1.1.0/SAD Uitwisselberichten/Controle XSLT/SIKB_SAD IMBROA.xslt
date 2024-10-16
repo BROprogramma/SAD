@@ -706,7 +706,7 @@
                 <xsl:copy-of select="'vervallen'"/>
             </xsl:if>   
              <xsl:if test="($lookupRecord != '' and $lookupRecord/broSadImbroA != 'true')">
-                <xsl:copy-of select="'niet geldig voor BRO SAD IMBRO\A kwaliteit'"/>
+                <xsl:copy-of select="'niet geldig voor BRO SAD IMBRO/A kwaliteit'"/>
             </xsl:if>           
             <xsl:if test="not($lookupRecord != '') and $lookupValue != ''">
                 <xsl:copy-of select="'niet gevonden'"/>
