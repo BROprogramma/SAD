@@ -148,7 +148,7 @@
                                             <sadcom:oilWaterReaction codeSpace="urn:bro:sad:OilWaterReaction">geen</sadcom:oilWaterReaction>
                                             <sadcom:soilType>                   
                                                 <sadcom:soilName codeSpace="urn:bro:sad:SoilName">zwakZandigGrind</sadcom:soilName>                                                                           
-                                                <sadcom:gravelMedianClass codeSpace="urn:bro:sad:GravelMedianClass">grof</sadcom:gravelMedianClass>            
+                                                <sadcom:gravelMedianClass codeSpace="urn:bro:sad:GravelMedianClass">matigGrofNEN5104</sadcom:gravelMedianClass>            
                                                 <sadcom:gravelContentClass codeSpace="urn:bro:sad:GravelContentClass">zwakGrindig</sadcom:gravelContentClass>                                      
                                                 <sadcom:organicMatterContentClass codeSpace="urn:bro:sad:OrganicMatterContentClass">matigHumeus</sadcom:organicMatterContentClass>
                                             </sadcom:soilType>
@@ -216,7 +216,7 @@
                                     <sadcom:fieldMeasurement>
                                         <sadcom:FieldMeasurement gml:id="_1b0e4170-cd2e-46b9-8961-dc49d2b0ff3b">
                                             <sadcom:quantity codeSpace="urn:bro:sad:Quantity">geleidendheid</sadcom:quantity>  
-                                            <sadcom:fieldMeasurementValue uom="µS/cm">88</sadcom:fieldMeasurementValue>                                                                                    
+                                            <sadcom:fieldMeasurementValue uom="uS/cm">88</sadcom:fieldMeasurementValue>                                                                                    
                                         </sadcom:FieldMeasurement>
                                     </sadcom:fieldMeasurement>
                                     <sadcom:fieldMeasurement>
@@ -309,7 +309,7 @@
                             <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1097</sadcom:parameter>
                             <sadcom:analysisMeasurementValue uom="mg/kg">0.001</sadcom:analysisMeasurementValue>
                             <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
-                            <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportagegrens</sadcom:limitSymbolReference>
+                            <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>
                             <sadcom:condition codeSpace="urn:bro:sad:Condition">1</sadcom:condition>
                             <sadcom:analysisProcess>
                                 <sadcom:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
