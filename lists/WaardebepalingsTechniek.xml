@@ -29,7 +29,7 @@
         <Omschrijving>Meettechniek waarmee de temperatuur wordt bepaald</Omschrijving>
     </WaardebepalingsTechniek>
     <WaardebepalingsTechniek>
-        <Waarde>röntgenfluorescentie</Waarde>
+        <Waarde>roentgenfluorescentie</Waarde>
         <SIKB0101ID>223</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
