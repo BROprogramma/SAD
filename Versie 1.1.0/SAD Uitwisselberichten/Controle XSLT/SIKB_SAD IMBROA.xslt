@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- XSLT Onderzoek_Controle.xsl versie 1.1.0 (21-8-2024) - SIKB0101 versie 14.9.0-->
+<!-- XSLT Onderzoek_Controle.xsl versie 1.1.0 (29-10-2024) - SIKB0101 versie 14.9.0/14.8.0-->
 <xsl:stylesheet
         version="2.0"
         xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -36,8 +36,8 @@
             <xsl:if test="not(lower-case(//imsikb0101:metaData/imsikb0101:dataflow) = lower-case('urn:imsikb0101:DatastroomType:id:9') or lower-case(//imsikb0101:metaData/imsikb0101:dataflow) = lower-case('urn:imsikb0101:DatastroomType:id:4'))">
                 <xsl:copy-of select="sikb:createRecord('WARNING','imsikb0101:metaData/imsikb0101:dataflow','Het veld metadata/dataflow zou ingevuld moeten zijn met: urn:imsikb0101:DatastroomType:id:9 of id:4. Als dit geen SAD of onderzoeks xml is, kan dit niet aangeleverd worden aan de BRO.')"/>
             </xsl:if>      
-            <xsl:if test="not(lower-case(//imsikb0101:metaData/imsikb0101:version) = lower-case('14.9.0'))">
-                <xsl:copy-of select="sikb:createRecord('ERROR','imsikb0101:metaData/imsikb0101:version','Het veld metadata/versie moet versie 14.9.0 zijn')"/>
+            <xsl:if test="not(lower-case(//imsikb0101:metaData/imsikb0101:version) = lower-case('14.9.0') or lower-case(//imsikb0101:metaData/imsikb0101:version) = lower-case('14.8.0'))">
+                <xsl:copy-of select="sikb:createRecord('ERROR','imsikb0101:metaData/imsikb0101:version','Het veld metadata/versie moet versie 14.8.0 of 14.9.0 zijn')"/>
             </xsl:if>         
             <xsl:if test="not(//imsikb0101:Project) or not(count(//imsikb0101:Project) = 1)">
                 <!-- Check existence Project -->
@@ -80,7 +80,7 @@
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'projectType', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'asbestos', 'WARNING')"/>        
                
-        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'projectType', 'OnderzoekType', 'WARNING')"/>
+        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'projectType', 'OnderzoekType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'asbestos', 'AsbestAanwezigheid', 'WARNING')"/>
         
         <!--> Lengte checks voor bepaalde velden-->
