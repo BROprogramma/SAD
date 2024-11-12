@@ -249,7 +249,7 @@
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>        
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'depth', 'WARNING')"/>
         
-        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'measurementObjectType', 'MeetObjectSoort', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'measurementObjectType', 'MeetObjectSoort', 'WARNING')"/>
         <xsl:variable name="layers" select="//imsikb0101:Layer[sam:relatedSamplingFeature/sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href = concat('#', $prGUID) and sam:relatedSamplingFeature/sam:SamplingFeatureComplex/sam:role/@xlink:href = 'urn:immetingen:RelatedSamplingFeatureRollen:id:4']"/>
         <xsl:copy-of select="sikb:checkConnectedLayers($prGUID, $layers)"/>
         
@@ -270,7 +270,7 @@
         <xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
         
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'measurementObjectType', 'MeetObjectSoort', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'measurementObjectType', 'MeetObjectSoort', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
 
         <xsl:copy-of select="sikb:checkDateBeforeDate(., $prGUID, 'startTime','current', 'ERROR')"/>
