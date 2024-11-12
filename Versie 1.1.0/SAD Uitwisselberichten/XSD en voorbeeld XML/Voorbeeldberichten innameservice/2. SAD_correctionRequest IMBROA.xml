@@ -6,7 +6,7 @@
     <sadcom:requestReference>Verzoek1</sadcom:requestReference>
     <!--KVK nummer van de aanleverende partij-->
     <sadcom:deliveryAccountableParty>1234567</sadcom:deliveryAccountableParty>    
-    <sadcom:broId>SAD00000001</sadcom:broId>    
+    <sadcom:broId>SAD000000000001</sadcom:broId>    
     <!-- Kwaliteitsregime, voor nu alleen nog IMRBO/A-->
     <sadcom:qualityRegime>IMBRO/A</sadcom:qualityRegime>
     <sadcom:underPrivilege>nee</sadcom:underPrivilege>

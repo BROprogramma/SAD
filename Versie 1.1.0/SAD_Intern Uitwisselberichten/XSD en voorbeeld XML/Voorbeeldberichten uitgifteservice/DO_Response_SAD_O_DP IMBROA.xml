@@ -337,7 +337,7 @@
                                                     <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1097</sadcom:parameter>                                                                                                                                                                            
                                                     <sadcom:analysisMeasurementValue uom="mg/kg">0.002</sadcom:analysisMeasurementValue>
                                                     <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
-                                                    <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>                                            
+                                                    <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportagegrens</sadcom:limitSymbolReference>                                            
                                                     <sadcom:condition codeSpace="urn:bro:sad:Condition">1</sadcom:condition>                                                                                        
                                                     <sadcom:analysisProcess>
                                                         <sadcom:AnalysisProcess gml:id="_a911262c-d247-4aad-8fea-ae095f62b495">
@@ -376,7 +376,7 @@
                                     <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1097</sadcom:parameter>
                                     <sadcom:analysisMeasurementValue uom="mg/kg">0.001</sadcom:analysisMeasurementValue>
                                     <sadcom:limitSymbol codeSpace="urn:bro:sad:LimitSymbol">LT</sadcom:limitSymbol>
-                                    <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportageGrens</sadcom:limitSymbolReference>
+                                    <sadcom:limitSymbolReference codeSpace="urn:bro:sad:LimitSymbolReference">rapportagegrens</sadcom:limitSymbolReference>
                                     <sadcom:condition codeSpace="urn:bro:sad:Condition">1</sadcom:condition>
                                     <!-- optioneel, alleen voor Asbest resultaten ondergrens en bovengrens -->
                                     <!--<sadcom:valueProcessingMethod codeSpace="urn:bro:sad:ValueProcessingMethod">5percentiel</sadcom:valueProcessingMethod>-->
@@ -404,16 +404,6 @@
                             <sadcom:soilSampling xlink:href="#_0f921558-7f83-4a81-bf9d-82b138e82a6b"/>
                         </sadcom:MixedSampleAnalysis>
                     </mixedSampleAnalysis>
-                    <asbestosResult>
-                        <sadcom:AsbestosResult gml:id="_4ad85b64-20b4-40ef-a3ad-d5151344700f">
-                            <sadcom:identification>4ad85b64-20b4-40ef-a3ad-d5151344700f</sadcom:identification>
-                            <sadcom:beginDepth uom="m">0.5</sadcom:beginDepth>
-                            <sadcom:endDepth uom="m">1.0</sadcom:endDepth>
-                            <sadcom:asbestosParticlesFound>ja</sadcom:asbestosParticlesFound>
-                            <sadcom:weightedAsbestosContent uom="mg/kg">105</sadcom:weightedAsbestosContent>
-                            <sadcom:measurementPoint xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
-                        </sadcom:AsbestosResult>
-                    </asbestosResult>
                 </SAD_O_DP>
             </dispatchDocument>
         </dispatchDataResponse>

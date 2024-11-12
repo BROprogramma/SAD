@@ -146,7 +146,23 @@
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
         
         <xsl:copy-of select="sikb:checkDateBeforeDate(., $prGUID, 'startTime','current', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>                
+        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>             
+        
+                
+        <!-- alle analysemonster en conclusiemonster voor GROND -->
+        <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10') 
+                        or fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:12')) 
+                        and fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1')">
+            <!-- Check tov maaiveld -->
+            <xsl:if test="not(fn:lower-case(immetingen:upperDepth/immetingen:Depth/immetingen:condition) = fn:lower-case('urn:immetingen:Hoedanigheid:id:11') 
+                            or fn:lower-case(immetingen:upperDepth/immetingen:Depth/immetingen:condition) = fn:lower-case(''))">
+                <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('Bij een grond analysemonster of asbest conclusiemonster mag de Begindiepte alleen t.o.v. Maaiveld zijn.; Sample gml:id =',  $prGUID), ' ') )"/>
+            </xsl:if>
+             <xsl:if test="not(fn:lower-case(immetingen:lowerDepth/immetingen:Depth/immetingen:condition) = fn:lower-case('urn:immetingen:Hoedanigheid:id:11') 
+                            or fn:lower-case(immetingen:lowerDepth/immetingen:Depth/immetingen:condition) = fn:lower-case(''))">
+                <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('Bij een grond analysemonster of asbest conclusiemonster mag de Einddiepte alleen t.o.v. Maaiveld zijn.; Sample gml:id =',  $prGUID), ' ') )"/>
+            </xsl:if>
+        </xsl:if>  
         
     </xsl:template>
     <xsl:template match="imsikb0101:Sample" mode="twee">
@@ -198,7 +214,26 @@
 
 
         <xsl:copy-of select="sikb:checkDateBeforeDate(., $prGUID, 'startTime','current', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>                
+        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>   
+        
+        <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
+            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'relatedObservation', 'WARNING')"/>
+        </xsl:if>       
+        
+        <!-- alle analysemonster en conclusiemonster voor GROND -->
+        <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10') 
+                        or fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:12')) 
+                        and fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1')">
+            <!-- Check tov maaiveld -->
+            <xsl:if test="not(fn:lower-case(immetingen:upperDepth/immetingen:Depth/immetingen:condition) = fn:lower-case('urn:immetingen:Hoedanigheid:id:11') 
+                            or fn:lower-case(immetingen:upperDepth/immetingen:Depth/immetingen:condition) = fn:lower-case(''))">
+                <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('Bij een grond analysemonster of asbest conclusiemonster mag de Begindiepte alleen t.o.v. Maaiveld zijn.; Sample gml:id =',  $prGUID), ' ') )"/>
+            </xsl:if>
+             <xsl:if test="not(fn:lower-case(immetingen:lowerDepth/immetingen:Depth/immetingen:condition) = fn:lower-case('urn:immetingen:Hoedanigheid:id:11') 
+                            or fn:lower-case(immetingen:lowerDepth/immetingen:Depth/immetingen:condition) = fn:lower-case(''))">
+                <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('Bij een grond analysemonster of asbest conclusiemonster mag de Einddiepte alleen t.o.v. Maaiveld zijn.; Sample gml:id =',  $prGUID), ' ') )"/>
+            </xsl:if>
+        </xsl:if>      
 
     </xsl:template>
     <!-- Analysis-->
