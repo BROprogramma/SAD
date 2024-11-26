@@ -65,10 +65,15 @@
             <xsl:apply-templates select="//imsikb0101:GeographicPosition"/>
             <xsl:apply-templates select="//imsikb0101:Trench"/>
             <xsl:apply-templates select="//om:result"/>
+            <xsl:apply-templates select="//immetingen:Characteristic"/>          
         </ArrayOfLogRecord>
     </xsl:template>
     <xsl:template match="om:result">                                   
             <xsl:copy-of select="sikb:checkLookupId(., 'om:result', 'classifiedResult', '*', 'WARNING')"/>        
+    </xsl:template>    
+    <xsl:template match="immetingen:Characteristic">        
+        <xsl:variable name="prGUID" select="@gml:id"/>
+        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'indicator', '*', 'WARNING')"/> 
     </xsl:template>    
     <xsl:template match="imsikb0101:Project">
         <xsl:variable name="prGUID" select="@gml:id"/>
