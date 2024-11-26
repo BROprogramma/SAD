@@ -238,4 +238,39 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Door water afgezette sedimentdeeltjes met een grootte tussen 4 en 62 micrometer.</Omschrijving>
 	</GrondSoort>
+	<GrondSoort>
+		<Waarde>zand</Waarde>
+		<SIKB0101ID>35</SIKB0101ID>
+		<IMBRO/>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand</Omschrijving>
+	</GrondSoort>
+	<GrondSoort>
+		<Waarde>klei</Waarde>
+		<SIKB0101ID>36</SIKB0101ID>
+		<IMBRO/>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei</Omschrijving>
+	</GrondSoort>
+	<GrondSoort>
+		<Waarde>leem</Waarde>
+		<SIKB0101ID>37</SIKB0101ID>
+		<IMBRO/>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leem</Omschrijving>
+	</GrondSoort>
+	<GrondSoort>
+		<Waarde>veen</Waarde>
+		<SIKB0101ID>38</SIKB0101ID>
+		<IMBRO/>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen</Omschrijving>
+	</GrondSoort>
+	<GrondSoort>
+		<Waarde>grind</Waarde>
+		<SIKB0101ID>39</SIKB0101ID>
+		<IMBRO/>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind</Omschrijving>
+	</GrondSoort>	
 </domeintabel>
