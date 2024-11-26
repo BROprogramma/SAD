@@ -1571,7 +1571,7 @@
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember> 
                         <immetingen:AnalysisProcess gml:id="_1911262c-d247-4aad-8fea-ae095f62b495">
-                            <immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:224</immetingen:analyticalTechnique>
+                            <immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:223</immetingen:analyticalTechnique>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
