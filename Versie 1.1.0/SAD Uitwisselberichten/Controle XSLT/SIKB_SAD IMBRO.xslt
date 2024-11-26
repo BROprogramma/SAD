@@ -61,12 +61,15 @@
             <xsl:apply-templates select="//immetingen:AnalysisProcess"/>
             <xsl:apply-templates select="//imsikb0101:featureMember"/>
             <xsl:apply-templates select="//imsikb0101:geometry"/>
-            <xsl:apply-templates select="//imsikb0101:area"/>
             <xsl:apply-templates select="//immetingen:Depth"/>
             <xsl:apply-templates select="//imsikb0101:GeographicPosition"/>
             <xsl:apply-templates select="//imsikb0101:Trench"/>
+            <xsl:apply-templates select="//om:result"/>
         </ArrayOfLogRecord>
     </xsl:template>
+    <xsl:template match="om:result">                                   
+            <xsl:copy-of select="sikb:checkLookupId(., 'om:result', 'classifiedResult', '*', 'WARNING')"/>        
+    </xsl:template>    
     <xsl:template match="imsikb0101:Project">
         <xsl:variable name="prGUID" select="@gml:id"/>
         <!--> Check of alle entiteiten aanwezig zijn-->
@@ -761,7 +764,17 @@
         <xsl:variable name="lookupType" select="substring-before(substring-after($lookupValue,'urn:'),':')"/>
         <xsl:variable name="lookupCategory" select="lower-case(substring(substring-before(substring-after($lookupValue,$lookupType), ':id:'), 2))"/>
         <xsl:variable name="lookupFile" select="sikb:getLookupFile($lookupType)"/>
-        <xsl:variable name="lookupRecord" select="document($lookupFile)//*[@categorie=$lookupItem]/*[ID|id|Id|iD=$lookupId]"/>        
+        
+        <xsl:variable name="Category">
+            <xsl:if test="$lookupItem = '*'">
+                <xsl:copy-of select="$lookupCategory"/>
+            </xsl:if>
+            <xsl:if test="$lookupItem != '*'">
+                <xsl:copy-of select="$lookupItem"/>
+            </xsl:if>
+        </xsl:variable>  
+        
+        <xsl:variable name="lookupRecord" select="document($lookupFile)//*[lower-case(@categorie)=lower-case($Category)]/*[ID|id|Id|iD=$lookupId]"/>        
         <xsl:variable name="checkLookupRecord">
             <xsl:if test="($lookupRecord != '' and $lookupRecord/@status = 'Vervallen')">
                 <xsl:copy-of select="'vervallen'"/>
@@ -773,16 +786,16 @@
                 <xsl:copy-of select="'niet gevonden'"/>
             </xsl:if>            
         </xsl:variable>
-        <xsl:variable name="Category" select="lower-case($lookupItem)"/>
+        
         <xsl:variable name="CheckCategory">
-            <xsl:if test="$Category = $lookupCategory">
+            <xsl:if test="lower-case($Category) = lower-case($lookupCategory)">
                 <xsl:copy-of select="1"/>
             </xsl:if>
-            <xsl:if test="$Category != $lookupCategory">
+            <xsl:if test="lower-case($Category) != lower-case($lookupCategory)">
                 <xsl:copy-of select="0"/>
             </xsl:if>
         </xsl:variable>
-        <xsl:variable name="CategoryElement" select="lower-case(name(document($lookupFile)//*[@categorie=$lookupItem]/*[1]))"/>
+        <xsl:variable name="CategoryElement" select="lower-case(name(document($lookupFile)//*[lower-case(@categorie)=lower-case($Category)]/*[1]))"/>
         <xsl:variable name="CheckCategoryElement">
             <xsl:if test="$CategoryElement = $lookupCategory">
                 <xsl:copy-of select="1"/>
@@ -799,7 +812,7 @@
                 <xsl:copy-of select="0"/>
             </xsl:if>
         </xsl:variable>
-        <xsl:variable name="message" select="replace(string-join(('Waarde', $lookupId, 'van het element', $field, 'bij', $elementLocalName, $prGUID, 'is', $checkLookupRecord, 'in lookup-tabel.'), ' '), '  ', ' ')"/>
+        <xsl:variable name="message" select="replace(string-join(('Waarde', $lookupId, ' (', $lookupValue ,') van het element', $field, 'bij', $elementLocalName, $prGUID, 'is', $checkLookupRecord, 'in lookup-tabel.'), ' '), '  ', ' ')"/>
         <xsl:choose>
             <xsl:when test="$checkCorrectTable = '1'">
                 <xsl:if test="string-length($checkLookupRecord)!=0 and $checkLookupRecord != 'vervallen' and not(contains($checkLookupRecord , 'geldig'))">
