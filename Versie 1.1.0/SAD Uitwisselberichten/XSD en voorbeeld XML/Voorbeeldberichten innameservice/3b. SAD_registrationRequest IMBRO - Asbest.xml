@@ -142,7 +142,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_b5ad036d-980f-4869-8f9d-d02a8a399f12"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:4</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenGradatie:id:4</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -168,7 +168,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:3</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderheden:id:3</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -193,7 +193,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_b1deaafc-b8b2-48eb-b674-0f9b926ff781"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:8</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenGradatie:id:8</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -219,7 +219,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:42</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderheden:id:42</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -244,7 +244,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_a048b815-efbe-41f3-bb46-f4c63b1ac6d1"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:8</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenGradatie:id:8</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -270,7 +270,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_8c0c1c1b-1ca9-4bed-932a-cc97843088ca"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:49</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderheden:id:49</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -538,7 +538,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_f1e07463-51eb-4f68-bfe9-313d3a15be2b"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:4</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenGradatie:id:4</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -564,7 +564,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:3</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderheden:id:3</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -589,7 +589,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_6ba9bc8b-0e80-47b9-acd0-712b742cf83e"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:8</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenGradatie:id:8</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -615,7 +615,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:42</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderheden:id:42</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -640,7 +640,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_39d3a3ab-f216-4e9e-87e0-24247ebe7469"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:8</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenGradatie:id:8</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -666,7 +666,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:49</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderheden:id:49</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -691,7 +691,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_8c2cc0a3-01ae-40b7-99a1-a6e48d7ad981"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerkenGradatie:id:4</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenGradatie:id:4</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -717,7 +717,7 @@
                             <om:observedProperty/>
                             <om:featureOfInterest xlink:href="#_e55c458c-702f-4fd2-ba87-c85da7abbd66"/>
                             <om:result xsi:type="immetingen:ClassifiedResultType">
-                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBodemkenmerken:id:16</immetingen:classifiedResult>
+                                <immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderheden:id:16</immetingen:classifiedResult>
                             </om:result>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>

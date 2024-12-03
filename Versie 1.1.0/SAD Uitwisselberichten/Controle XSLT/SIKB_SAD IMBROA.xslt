@@ -64,7 +64,8 @@
             <xsl:apply-templates select="//immetingen:Depth"/>
             <xsl:apply-templates select="//imsikb0101:GeographicPosition"/>
             <xsl:apply-templates select="//om:result"/>            
-            <xsl:apply-templates select="//immetingen:Characteristic"/>            
+            <xsl:apply-templates select="//immetingen:Characteristic"/>        
+			<xsl:apply-templates select="//immetingen:NEN3610ID"/>	            
         </ArrayOfLogRecord>
     </xsl:template>
     <xsl:template match="om:result">                                   
@@ -74,6 +75,10 @@
         <xsl:variable name="prGUID" select="@gml:id"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'indicator', '*', 'WARNING')"/> 
     </xsl:template>    
+    <xsl:template match="immetingen:NEN3610ID">
+        <xsl:variable name="id" select="immetingen:lokaalID"/>
+		<xsl:copy-of select="sikb:checkExactLength(., $id,'lokaalID', 36, 'ERROR')" />	
+	</xsl:template>
     <xsl:template match="imsikb0101:Project">
         <xsl:variable name="prGUID" select="@gml:id"/>
         <!--> Check of alle entiteiten aanwezig zijn-->
