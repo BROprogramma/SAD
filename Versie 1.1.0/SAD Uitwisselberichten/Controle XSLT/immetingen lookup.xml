@@ -108960,8 +108960,8 @@ Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonster
             <Waarde>ja</Waarde>
             <Omschrijving/>
             <Groep/>
-            <broSadImbroA>false</broSadImbroA>
-            <broSadImbro>false</broSadImbro>
+            <broSadImbroA>true</broSadImbroA>
+            <broSadImbro>true</broSadImbro>
             <broSldImbroA>false</broSldImbroA>
             <broSldImbro>false</broSldImbro>
         </J_of_N>
@@ -108971,8 +108971,8 @@ Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonster
             <Waarde>nee</Waarde>
             <Omschrijving/>
             <Groep/>
-            <broSadImbroA>false</broSadImbroA>
-            <broSadImbro>false</broSadImbro>
+            <broSadImbroA>true</broSadImbroA>
+            <broSadImbro>true</broSadImbro>
             <broSldImbroA>false</broSldImbroA>
             <broSldImbro>false</broSldImbro>
         </J_of_N>

@@ -453,7 +453,7 @@
         <xsl:param name="errorType"/>
         <xsl:variable name="elementName" select="string($context/name())"/>
         <xsl:variable name="elementLocalName" select="string($context/local-name())"/>
-        <xsl:variable name="message" select="replace(string-join(('Het element', $field, 'bij', $elementLocalName, $prGUID, 'moet aanwezig zijn.'), ' '), '  ', ' ')"/>
+        <xsl:variable name="message" select="replace(string-join(('Het element', $field, 'bij', $elementLocalName, $prGUID, 'ontbreekt.'), ' '), '  ', ' ')"/>
         <xsl:if test="not($context/*[local-name()=$field])">
             <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
         </xsl:if>
@@ -481,7 +481,7 @@
         <xsl:param name="errorType"/>
         <xsl:variable name="elementName" select="string($context/name())"/>
         <xsl:variable name="elementLocalName" select="string($context/local-name())"/>
-        <xsl:variable name="message" select="replace(string-join(('Het element', $field, 'bij', $elementLocalName, $prGUID, 'moet aanwezig zijn.'), ' '), '  ', ' ')"/>
+        <xsl:variable name="message" select="replace(string-join(('Het element', $field, 'bij', $elementLocalName, $prGUID, 'ontbreekt.'), ' '), '  ', ' ')"/>
         <xsl:if test="count($otherContext/*[local-name()=$field])&gt;0">
             <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
         </xsl:if>
@@ -494,7 +494,7 @@
         <xsl:param name="errorType"/>
         <xsl:variable name="elementName" select="string($context/name())"/>
         <xsl:variable name="elementLocalName" select="string($context/local-name())"/>
-        <xsl:variable name="message" select="string-join(('Het element', $field, 'bij', $elementLocalName, $prGUID, 'moet gevuld zijn'), ' ')"/>
+        <xsl:variable name="message" select="string-join(('Het element', $field, 'bij', $elementLocalName, $prGUID, 'ontbreekt'), ' ')"/>
         <xsl:if test="count($context/*[local-name()=$field]) &gt;0">
             <xsl:if test="string-length(string($context/*[local-name()=$field])) = 0">
                 <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
