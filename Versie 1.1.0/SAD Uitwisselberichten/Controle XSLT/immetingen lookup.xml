@@ -100666,7 +100666,7 @@ Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonster
             <Waarde>Zand</Waarde>
             <Omschrijving>Zand</Omschrijving>
             <Groep>Hoofdnaam</Groep>
-            <broSadImbroA>false</broSadImbroA>
+            <broSadImbroA>true</broSadImbroA>
             <broSadImbro>false</broSadImbro>
             <broSldImbroA>false</broSldImbroA>
             <broSldImbro>false</broSldImbro>
@@ -100677,7 +100677,7 @@ Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonster
             <Waarde>Klei</Waarde>
             <Omschrijving>Klei</Omschrijving>
             <Groep>Hoofdnaam</Groep>
-            <broSadImbroA>false</broSadImbroA>
+            <broSadImbroA>true</broSadImbroA>
             <broSadImbro>false</broSadImbro>
             <broSldImbroA>false</broSldImbroA>
             <broSldImbro>false</broSldImbro>
@@ -100688,7 +100688,7 @@ Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonster
             <Waarde>Leem</Waarde>
             <Omschrijving>Leem</Omschrijving>
             <Groep>Hoofdnaam</Groep>
-            <broSadImbroA>false</broSadImbroA>
+            <broSadImbroA>true</broSadImbroA>
             <broSadImbro>false</broSadImbro>
             <broSldImbroA>false</broSldImbroA>
             <broSldImbro>false</broSldImbro>
@@ -100699,7 +100699,7 @@ Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonster
             <Waarde>Veen</Waarde>
             <Omschrijving>Veen</Omschrijving>
             <Groep>Hoofdnaam</Groep>
-            <broSadImbroA>false</broSadImbroA>
+            <broSadImbroA>true</broSadImbroA>
             <broSadImbro>false</broSadImbro>
             <broSldImbroA>false</broSldImbroA>
             <broSldImbro>false</broSldImbro>
@@ -100710,7 +100710,7 @@ Toelichting: Een monster kan samengesteld zijn uit één of meerdere veldmonster
             <Waarde>Grind</Waarde>
             <Omschrijving>Grind</Omschrijving>
             <Groep>Hoofdnaam</Groep>
-            <broSadImbroA>false</broSadImbroA>
+            <broSadImbroA>true</broSadImbroA>
             <broSadImbro>false</broSadImbro>
             <broSldImbroA>false</broSldImbroA>
             <broSldImbro>false</broSldImbro>
