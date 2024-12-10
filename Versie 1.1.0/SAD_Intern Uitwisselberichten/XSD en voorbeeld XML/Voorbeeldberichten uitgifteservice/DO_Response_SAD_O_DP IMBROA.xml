@@ -300,7 +300,7 @@
                                             <sadcom:quantity codeSpace="urn:bro:sad:Quantity">massaFractie</sadcom:quantity>
                                             <sadcom:parameter codeSpace="urn:bro:sad:Parameter">1116</sadcom:parameter>                                         
                                             <sadcom:fieldMeasurementValue uom="mg/kg">0.078</sadcom:fieldMeasurementValue>
-                                            <sadcom:valuationTechnique codeSpace="urn:bro:sad:ValuationTechnique">röntgenfluorescentie</sadcom:valuationTechnique>                                                                                                                     
+                                            <sadcom:valuationTechnique codeSpace="urn:bro:sad:ValuationTechnique">roentgenfluorescentie</sadcom:valuationTechnique>                                                                                                                     
                                         </sadcom:FieldMeasurement>                                
                                     </sadcom:fieldMeasurement>                                               
                                     <sadcom:fieldMeasurement>
