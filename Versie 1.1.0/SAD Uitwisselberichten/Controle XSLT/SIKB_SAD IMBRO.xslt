@@ -103,9 +103,10 @@
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'investigationConclusion', 4000, 'ERROR')"/>        
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 255, 'ERROR')"/>
         <!--> Check of de geometrie klopt-->
-        <xsl:copy-of select="sikb:checkGeometryElements(.,$prGUID,'gml:Polygon','gml:MultiSurface','ERROR')"/>        
-        <!--> Check of the reportDate voor vandaag is-->
+        <xsl:copy-of select="sikb:checkGeometryElements(.,$prGUID,'gml:Polygon','gml:MultiSurface','ERROR')"/>         
+        <!--> Check of the reportDate voor vandaag is en na 1980-->
         <xsl:copy-of select="sikb:checkDateBeforeDate(., $prGUID, 'reportDate', 'current', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'reportDate','1980-01-01T00:00:00.00', 'ERROR')"/>  
         
         <!-- Check meetpunten aanwezigheid-->       
         <xsl:if test="not(./*[local-name()='measurementObjects'])">
