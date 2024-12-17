@@ -62,6 +62,7 @@
             <xsl:apply-templates select="//imsikb0101:featureMember"/>
             <xsl:apply-templates select="//imsikb0101:geometry"/>
             <xsl:apply-templates select="//immetingen:Depth"/>
+            <xsl:apply-templates select="//immetingen:Height"/>
             <xsl:apply-templates select="//imsikb0101:GeographicPosition"/>
             <xsl:apply-templates select="//om:result"/>            
             <xsl:apply-templates select="//immetingen:Characteristic"/>        
@@ -93,6 +94,7 @@
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'projectType', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'asbestos', 'WARNING')"/>        
                
+        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'investigationReason', 'OnderzoekAanleidingen', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'projectType', 'OnderzoekType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'asbestos', 'AsbestAanwezigheid', 'ERROR')"/>
         
@@ -120,7 +122,30 @@
         <xsl:if test="not(//immetingen:Analysis)">
             <xsl:variable name="message" select="'In het xml-bestand is geen Analysis gevonden, klopt dat?'"/>
             <xsl:copy-of select="sikb:createRecord('WARING', 'xml-bestand', $message)"/>
-        </xsl:if>        
+        </xsl:if>       
+        
+        <!-- check documents van type eindrapport -->
+        <xsl:for-each select="./imsikb0101:documents">
+            <xsl:variable name="documentId" select="replace(./@xlink:href, '#','')"/>            
+            <!-- alleen 1-eindrapport accepteren -->
+            <xsl:variable name="docs" select="//imsikb0101:Document[(@gml:id = $documentId and (contains(imsikb0101:documentType, 'id:1')))]"/>                     
+            <xsl:apply-templates select="$docs"/>
+        </xsl:for-each>		
+         
+    </xsl:template> 
+    <!-- Check of er een locatie is meegeleverd -->
+    <xsl:template match="imsikb0101:Document">
+        <xsl:variable name="prGUID" select="@gml:id"/>
+
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'title', 'ERROR')"/>                
+        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'title', 'WARNING')"/>
+        <xsl:copy-of select="sikb:checkLength(., $prGUID, 'title', 40, 'ERROR')"/>
+        
+        <!--> Check of the startTime voor vandaag is en na 1980-->
+        <xsl:copy-of select="sikb:checkDateBeforeDate(., $prGUID, 'startTime', 'current', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>  
+        
+        <xsl:copy-of select="sikb:checkLength(., $prGUID, 'documentLink', 2083, 'ERROR')"/>
     </xsl:template>
     <!--> Check of er een locatie is meegeleverd -->
     <xsl:template match="imsikb0101:SoilLocation">
@@ -189,7 +214,7 @@
               <!-- VELDMONSTER -->
             <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'relatedSamplingFeature', 'ERROR')"/>
             <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
+            <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>             
           </xsl:when>
           <xsl:otherwise>
             <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'WARNING')"/>
@@ -283,6 +308,14 @@
         <xsl:copy-of select="sikb:checkLookupId(./value, 'immetingen:Depth', '@uom', 'Eenheid', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLookupId(., 'immetingen:Depth', 'condition', 'Hoedanigheid', 'WARNING')"/>
     </xsl:template>
+    <!-- Hoogte-->
+    <xsl:template match="immetingen:Height">                
+        <xsl:copy-of select="sikb:checkExistence(., 'immetingen:Height', 'value', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkExistence(., 'immetingen:Height', 'condition', 'ERROR')"/>
+        
+        <xsl:copy-of select="sikb:checkLookupId(./value, 'immetingen:Height', '@uom', 'Eenheid', 'WARNING')"/>
+        <xsl:copy-of select="sikb:checkLookupId(., 'immetingen:Height', 'condition', 'Hoedanigheid', 'WARNING')"/>
+    </xsl:template>
     <!-- Borehole -->
     <xsl:template match="imsikb0101:Borehole" mode="twee">
         <xsl:variable name="prGUID" select="@gml:id"/>
@@ -318,7 +351,8 @@
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkGeometryElement(., $prGUID, 'gml:Point', 'ERROR')"/>
         
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'startTime', 'WARNING')"/>
+        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'startTime', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'measurementObjectType', 'MeetObjectSoort', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'name', 24, 'ERROR')"/>
 
