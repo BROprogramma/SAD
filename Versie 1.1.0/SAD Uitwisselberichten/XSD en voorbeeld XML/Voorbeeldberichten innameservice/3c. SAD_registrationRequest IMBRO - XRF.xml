@@ -30,7 +30,7 @@
                             <imsikb0101:assesorConclusion>xxxxxxxxxxx</imsikb0101:assesorConclusion>
                             <imsikb0101:assignmentCode>xxxxxxxxxxx</imsikb0101:assignmentCode>
                             <imsikb0101:investigationConclusion>Dit is de conclusie van het onderzoek.</imsikb0101:investigationConclusion>
-                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>                            
+                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:1</imsikb0101:investigationReason>                            
                             <imsikb0101:geometry>
                                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4326">
                                     <gml:surfaceMember>
@@ -2374,7 +2374,7 @@
                             <immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
                             <immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
                             <immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:36</immetingen:sampleDestructionMethod>
-                            <immetingen:samplePretreatmentMethod>urn:iimsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
+                            <immetingen:samplePretreatmentMethod>urn:imsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
                             <immetingen:samplePretreatmentDate>2018-03-08</immetingen:samplePretreatmentDate>
                             <immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
                         </immetingen:AnalysisProcess>
@@ -2407,7 +2407,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:1116</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
                             <immetingen:statusOfAnalysis>
@@ -2452,7 +2452,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:1097</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
                             <immetingen:statusOfAnalysis>
@@ -2521,7 +2521,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2720</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:216</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:parameter:id:9</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:9</immetingen:condition>
                                     <!-- Zie Aquo parameterlijsten voor juiste combinaties voor Grondwater: www.aquo.nl -->
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
@@ -2548,7 +2548,7 @@
                             <immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
                             <immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
                             <immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:36</immetingen:sampleDestructionMethod>
-                            <immetingen:samplePretreatmentMethod>urn:iimsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
+                            <immetingen:samplePretreatmentMethod>urn:imsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
                             <immetingen:samplePretreatmentDate>2018-04-09</immetingen:samplePretreatmentDate>
                             <immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
                             <immetingen:measurementOrganisation codeSpace="www.sikb.nl">urn:immetingen:Meetinstantie:id:7</immetingen:measurementOrganisation>
@@ -2599,7 +2599,7 @@
                             <immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
                             <immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
                             <immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:36</immetingen:sampleDestructionMethod>
-                            <immetingen:samplePretreatmentMethod>urn:iimsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
+                            <immetingen:samplePretreatmentMethod>urn:imsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
                             <immetingen:samplePretreatmentDate>2018-03-19</immetingen:samplePretreatmentDate>
                             <immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
                         </immetingen:AnalysisProcess>
@@ -2631,7 +2631,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:1116</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
                             <immetingen:statusOfAnalysis>
@@ -2676,7 +2676,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:1097</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
                             <immetingen:statusOfAnalysis>

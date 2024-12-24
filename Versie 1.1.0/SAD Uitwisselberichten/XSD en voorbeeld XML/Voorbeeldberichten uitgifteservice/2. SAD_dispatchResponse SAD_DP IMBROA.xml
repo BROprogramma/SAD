@@ -2304,7 +2304,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:1116</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
                         </immetingen:Analysis>
@@ -2342,7 +2342,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:1097</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
                         </immetingen:Analysis>
@@ -2398,7 +2398,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2720</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:216</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:parameter:id:9</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:9</immetingen:condition>
                                     <!-- Zie Aquo parameterlijsten voor juiste combinaties voor Grondwater: www.aquo.nl -->
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
@@ -2462,7 +2462,7 @@
                             <immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
                             <immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
                             <immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:36</immetingen:sampleDestructionMethod>
-                            <immetingen:samplePretreatmentMethod>urn:iimsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
+                            <immetingen:samplePretreatmentMethod>urn:imsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
                             <immetingen:samplePretreatmentDate>2018-03-19</immetingen:samplePretreatmentDate>
                             <immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
                         </immetingen:AnalysisProcess>
@@ -2494,7 +2494,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:1116</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
                             <immetingen:statusOfAnalysis>
@@ -2539,7 +2539,7 @@
                                 <immetingen:PhysicalProperty>
                                     <immetingen:quantity>urn:immetingen:parameter:id:2725</immetingen:quantity>
                                     <immetingen:parameter>urn:immetingen:parameter:id:1097</immetingen:parameter>
-                                    <immetingen:condition>urn:immetingen:condition:id:1</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
                                 </immetingen:PhysicalProperty>
                             </immetingen:physicalProperty>
                             <immetingen:statusOfAnalysis>

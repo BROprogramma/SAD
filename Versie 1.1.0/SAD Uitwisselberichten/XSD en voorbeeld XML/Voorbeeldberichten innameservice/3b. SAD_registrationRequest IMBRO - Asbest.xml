@@ -28,7 +28,7 @@
                         <imsikb0101:Project gml:id="_ed4b2294-db2e-446f-9e38-7b895c95a244">
                             <imsikb0101:assesorConclusion>Onbekend</imsikb0101:assesorConclusion>
                             <imsikb0101:assignmentCode>Onbekend</imsikb0101:assignmentCode>
-                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>                            
+                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:1</imsikb0101:investigationReason>                            
                             <imsikb0101:geometry>
                                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4326">
                                     <gml:surfaceMember>
