@@ -870,6 +870,50 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
+		<Gebruiksbeperkingen versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>18</ID>
+			<Code>undefined</Code>
+			<Waarde>Afdeklaag</Waarde>
+			<Omschrijving>Een afdeklaag als saneringsaanpak zoals vermeld in artikel 4.1241 van het Besluit Activiteiten Leefomgeving (Bal).</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Gebruiksbeperkingen>
+		<Gebruiksbeperkingen versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>19</ID>
+			<Code>undefined</Code>
+			<Waarde>Een laag grond of baggerspecie dikte minmaal 1,0 meter</Waarde>
+			<Omschrijving>Een laag grond of baggerspecie met een minimale dikte van 1,0 meter zoals vermeld in artikel 4.1241 van het Besluit Activiteiten Leefomgeving (Bal) met een kwaliteit die volgt uit artikel 4.1272.</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Gebruiksbeperkingen>
+		<Gebruiksbeperkingen versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>20</ID>
+			<Code>undefined</Code>
+			<Waarde>Duurzaam aaneengesloten verhardingslaag</Waarde>
+			<Omschrijving>Een duurzaam aaneengesloten verhardingslaag zoals vermeld in artikel 4.1241 van het Besluit Activiteiten Leefomgeving (Bal).</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Gebruiksbeperkingen>
+		<Gebruiksbeperkingen versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>21</ID>
+			<Code>undefined</Code>
+			<Waarde>Tijdelijke (beschermings) maatregel</Waarde>
+			<Omschrijving>Het bevoegd gezag Ow heeft een tijdelijke (beschermings) maatregel opgelegd zoals gedefineerd in de artikelen 10.13b, 10.21a, 19.14, 19.15 of 19.9c uit de Ow.</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Gebruiksbeperkingen>
 	</sikb.Gebruiksbeperkingen_c>
 	<sikb.Zorg_c categorie="Zorg" techName="Zorg" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<Zorg versie="14.6.0" datum="2002-10-15" status="Vervallen">
@@ -940,7 +984,7 @@
 		</Zorg>
 	</sikb.Zorg_c>
 	<sikb.ContourType_c categorie="ContourType" techName="ContourType" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<ContourType versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<ContourType versie="14.7.0" datum="2024-11-05" status="Gewijzigd">
 			<ID>1</ID>
 			<Code></Code>
 			<Waarde>Grond</Waarde>
@@ -948,10 +992,10 @@
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</ContourType>
-		<ContourType versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<ContourType versie="14.7.0" datum="2024-11-05" status="Gewijzigd">
 			<ID>2</ID>
 			<Code></Code>
 			<Waarde>Grondwater</Waarde>
@@ -959,8 +1003,8 @@
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</ContourType>
 		<ContourType versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
 			<ID>3</ID>
@@ -986,126 +1030,141 @@
 		</ContourType>
 	</sikb.ContourType_c>
 	<sikb.Overschrijding_c categorie="Overschrijding" techName="Overschrijding" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<Overschrijding versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>1</ID>
 			<Code></Code>
 			<Waarde>S</Waarde>
-			<Omschrijving>Streefwaarde</Omschrijving>
+			<Omschrijving>Toetsing heeft plaatsgevonden met concentraties van stoffen waarbij de streefwaarde is overschreden.</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>2</ID>
 			<Code></Code>
 			<Waarde>T</Waarde>
-			<Omschrijving>De tussenwaarde, het rekenkundig gemiddeldevan de streefwaarde en de interventiewaarde</Omschrijving>
+			<Omschrijving>Toetsing heeft plaatsgevonden met concentraties van stoffen waarbij de tussenwaarde (het rekenkundig gemiddelde van de streefwaarde en interventiewaarde) is overschreden.</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>3</ID>
 			<Code></Code>
 			<Waarde>I</Waarde>
-			<Omschrijving>De interventiewaarde</Omschrijving>
+			<Omschrijving>Toetsing heeft plaatsgevonden met concentraties van stoffen waarbij de internventiewaarde is overschreden. Er bestaan significante risico&#039;s voor mens, plant of dier als gevolg van verontreiniging van de bodem.</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>4</ID>
 			<Code></Code>
 			<Waarde>K1</Waarde>
-			<Omschrijving>De klasse 1 waarde</Omschrijving>
+			<Omschrijving>De klasse 1 waarde voor waterbodem is overschreden</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>5</ID>
 			<Code></Code>
 			<Waarde>K2</Waarde>
-			<Omschrijving>De klasse 2 waarde</Omschrijving>
+			<Omschrijving>De klasse 2 waarde voor waterbodem is overschreden</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>6</ID>
 			<Code></Code>
 			<Waarde>K3</Waarde>
-			<Omschrijving>De klasse 3 waarde</Omschrijving>
+			<Omschrijving>De klasse 3 waarde voor waterbodem is overschreden</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>7</ID>
 			<Code></Code>
 			<Waarde>K4</Waarde>
-			<Omschrijving>De klasse 4 waarde</Omschrijving>
+			<Omschrijving>De klasse 4 waarde voor waterbodem is overschreden</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>8</ID>
-			<Code></Code>
+			<Code>
+			</Code>
 			<Waarde>BGW</Waarde>
-			<Omschrijving>De bodemgebruikswaarden</Omschrijving>
+			<Omschrijving>De bodemgebruikswaarden zijn overschreden</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>9</ID>
-			<Code></Code>
-			<Waarde>KO</Waarde>
-			<Omschrijving>De klasse 0 waarde is overschreden</Omschrijving>
+			<Code>
+			</Code>
+			<Waarde>K0</Waarde>
+			<Omschrijving>De klasse 0 waarde voor waterbodem is overschreden</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.6.0" datum="2008-10-04" status="Bevestigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>10</ID>
-			<Code></Code>
+			<Code>
+			</Code>
 			<Waarde>Maximale Waarde</Waarde>
-			<Omschrijving>Overschrijding van de Maximale Waarde, zoals vastgesteld in de lokale (water)bodemkwaliteitskaart of afgeleid uit bodemfunctieklassenkaart (zie Besluit Bodemkwaliteit).</Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>De Maximale Waarde, zoals vastgesteld in de lokale (water)bodemkwaliteitskaart of afgeleid uit bodemfunctieklassenkaart, is overschreden</Omschrijving>
+			<Groep>
+			</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
 			<ID>11</ID>
 			<Code></Code>
-			<Waarde>AW2000</Waarde>
-			<Omschrijving>Achtergrondwaarde Besluit bodemkwaliteit</Omschrijving>
+			<Waarde>AW</Waarde>
+			<Omschrijving>Toetsing heeft plaatsgevonden met concentraties van stoffen waarbij de achtergrondwaarde is overschreden.</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
+		</Overschrijding>
+		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>12</ID>
+			<Code>undefined</Code>
+			<Waarde>Signaleringsparameter</Waarde>
+			<Omschrijving>Toetsing heeft plaatsgevonden met concentraties van stoffen in het grondwater waarbij de signaleringsparameter is overschreden. Dit ter beroordeling of er sanering benodigd is van een historische grondwaterverontreiniging.</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
 	</sikb.Overschrijding_c>
 	<sikb.San_bovengrond_c categorie="San_bovengrond" techName="San_bovengrond" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
@@ -1476,7 +1535,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2024-11-19" status="Gewijzigd">
 			<ID>11</ID>
 			<Code></Code>
 			<Waarde>Evaluatieverslag saneren</Waarde>
@@ -1484,8 +1543,8 @@
 			<Groep></Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</OnderzoekType>
 		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
 			<ID>12</ID>
@@ -1839,7 +1898,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2024-11-19" status="Bevestigd">
 			<ID>44</ID>
 			<Code>undefined</Code>
 			<Waarde>Evaluatieverslag graven</Waarde>
@@ -1847,8 +1906,8 @@
 			<Groep>undefined</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</OnderzoekType>
 	</sikb.OnderzoekType_c>
 	<sikb.OnderzoeksfaseType_c categorie="OnderzoeksfaseType" techName="OnderzoeksfaseType" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
@@ -20431,6 +20490,28 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Nazorgkader>
+		<Nazorgkader versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>7</ID>
+			<Code>undefined</Code>
+			<Waarde>Omgevingswet beperkingenbesluiten</Waarde>
+			<Omschrijving>Nazorg in het kader van beperkingenbesluiten uit de artikelen 4.5, 5.34, 10.13b, 10.21a, 19.14, 19.15 of 19.9c uit de Ow.</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Nazorgkader>
+		<Nazorgkader versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>8</ID>
+			<Code>undefined</Code>
+			<Waarde>Omgevingswet standaard aanpak</Waarde>
+			<Omschrijving>Nazorg in het kader van Besluit kwaliteit leefomgeving (Bkl) artikel 5.89n lid a, een afdeklaag als bedoeld in artikel 4.1241 van het Besluit activiteiten leefomgeving opgenomen in het Omgevingsplan.</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Nazorgkader>
 	</sikb.Nazorgkader_c>
 	<sikb.ToepassingsMateriaal_c categorie="ToepassingsMateriaal" techName="ToepassingsMateriaal" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<ToepassingsMateriaal versie="14.6.0" datum="2008-11-22" status="Bevestigd">
@@ -22789,6 +22870,17 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Vervuilinggroep>
+		<Vervuilinggroep versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>18</ID>
+			<Code>undefined</Code>
+			<Waarde>PF</Waarde>
+			<Omschrijving>PFAS</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Vervuilinggroep>
 	</sikb.Vervuilinggroep_c>
 	<sikb.VervuilingsgroepGradatie_c categorie="VervuilingsgroepGradatie" techName="VervuilingsgroepGradatie" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<VervuilingsgroepGradatie versie="14.6.0" datum="2011-11-09" status="Bevestigd">
@@ -24748,6 +24840,17 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</ToetsingVariabelen>
+		<ToetsingVariabelen versie="14.7.0" datum="2024-09-27" status="Bevestigd">
+			<ID>70</ID>
+			<Code>undefined</Code>
+			<Waarde>Teller: Parameters met normwaarde Algemeen toepasbaar</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</ToetsingVariabelen>
 	</sikb.ToetsingVariabelen_c>
 	<sikb.Toetsregels_c categorie="Toetsregels" techName="Toetsregels" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<Toetsregels versie="14.6.0" datum="2013-04-10" status="Bevestigd">
@@ -26470,6 +26573,28 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Toetsoordelen>
+		<Toetsoordelen versie="14.7.0" datum="2024-09-27" status="Bevestigd">
+			<ID>90</ID>
+			<Code>undefined</Code>
+			<Waarde>Algemeen toepasbaar</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>parameterniveau</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Toetsoordelen>
+		<Toetsoordelen versie="14.7.0" datum="2024-09-27" status="Bevestigd">
+			<ID>91</ID>
+			<Code>undefined</Code>
+			<Waarde>Klasse algemeen toepasbaar</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>monsterniveau</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Toetsoordelen>
 	</sikb.Toetsoordelen_c>
 	<sikb.Toetsmeldingen_c categorie="Toetsmeldingen" techName="Toetsmeldingen" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<Toetsmeldingen versie="14.6.0" datum="2013-04-12" status="Bevestigd">
@@ -28167,6 +28292,28 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Leveranciers>
+		<Leveranciers versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>28</ID>
+			<Code>undefined</Code>
+			<Waarde>Eurofins Omegam B.V.</Waarde>
+			<Omschrijving>Eurofins Omegam B.V.</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Leveranciers>
+		<Leveranciers versie="14.7.0" datum="2024-11-26" status="Bevestigd">
+			<ID>29</ID>
+			<Code>undefined</Code>
+			<Waarde>Indicia</Waarde>
+			<Omschrijving>Indicia e-Business B.V.</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Leveranciers>
 	</sikb.Leveranciers_c>
 	<sikb.Applicaties_c categorie="Applicaties" techName="Applicaties" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<Applicaties versie="14.6.0" datum="2013-04-10" status="Bevestigd">
@@ -28537,6 +28684,28 @@
 			<Code>undefined</Code>
 			<Waarde>SampleManager LIMS</Waarde>
 			<Omschrijving>LIMS van leverancier Thermo Fisher Scientific, wordt veel op laboratoria gebruikt.</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Applicaties>
+		<Applicaties versie="14.7.0" datum="2024-11-26" status="Bevestigd">
+			<ID>37</ID>
+			<Code>undefined</Code>
+			<Waarde>Boris</Waarde>
+			<Omschrijving>Boris</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Applicaties>
+		<Applicaties versie="14.7.0" datum="2024-12-10" status="Bevestigd">
+			<ID>38</ID>
+			<Code>undefined</Code>
+			<Waarde>eLIMS-NG</Waarde>
+			<Omschrijving>eLIMS-NG</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
