@@ -42255,7 +42255,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2024-07-11" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2025-02-23" status="Gewijzigd">
 			<ID>4280</ID>
 			<Code>s2426TolDiCN</Code>
 			<Omschrijving>som 2,4- en 2,6-tolueendiisocyanaat</Omschrijving>
@@ -48855,7 +48855,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2015-11-26" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-02-25" status="Vervallen">
 			<ID>4940</ID>
 			<Code>Cn</Code>
 			<Omschrijving>copernicium</Omschrijving>
@@ -70445,15 +70445,15 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2024-12-20" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-02-25" status="Bevestigd">
 			<ID>7110</ID>
 			<Code>44bisFolF</Code>
 			<Omschrijving>4,4&#039;-methyleendifenol</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
 		<Parameter versie="14.7.0" datum="2024-08-29" status="Bevestigd">
 			<ID>7120</ID>
@@ -70555,15 +70555,15 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2024-12-20" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-02-25" status="Bevestigd">
 			<ID>7114</ID>
 			<Code>C1yAoC3yHxSA</Code>
 			<Omschrijving>N-[3-(Dimethylamino)Propyl]Tridecafluorhexaansulfonamide</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
 		<Parameter versie="14.7.0" datum="2024-07-09" status="Bevestigd">
 			<ID>7124</ID>
@@ -70825,15 +70825,15 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2024-12-20" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-02-25" status="Bevestigd">
 			<ID>7106</ID>
 			<Code>T4C4yNH4</Code>
 			<Omschrijving>tetrabutylammonium</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
 		<Parameter versie="14.7.0" datum="2024-12-20" status="Bevestigd">
 			<ID>7107</ID>
@@ -71800,6 +71800,106 @@
 			<Code>UITBDF</Code>
 			<Omschrijving>Uit bedrijf</Omschrijving>
 			<Groep>Typering</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-01-28" status="Bevestigd">
+			<ID>7245</ID>
+			<Code>BDMVHT</Code>
+			<Omschrijving>Bodemvocht</Omschrijving>
+			<Groep>Object</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-02-04" status="Bevestigd">
+			<ID>7246</ID>
+			<Code>glaucnt</Code>
+			<Omschrijving>glauconiet</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-02-11" status="Bevestigd">
+			<ID>7247</ID>
+			<Code>FOSAA</Code>
+			<Omschrijving>perfluoroctaansulfonamidoazijnzuur</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-02-22" status="Bevestigd">
+			<ID>7248</ID>
+			<Code>2C2yC6slclat</Code>
+			<Omschrijving>2-ethylhexylsalicylaat</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-02-22" status="Bevestigd">
+			<ID>7253</ID>
+			<Code>2ttC4yccC6ol</Code>
+			<Omschrijving>2-tert-butylcyclohexanol</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-02-22" status="Bevestigd">
+			<ID>7249</ID>
+			<Code>34C1ybzldkfr</Code>
+			<Omschrijving>3-(4-methylbenzylideen)kamfer</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-02-22" status="Bevestigd">
+			<ID>7251</ID>
+			<Code>benzknmCl</Code>
+			<Omschrijving>benzalkoniumchloride</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-02-22" status="Bevestigd">
+			<ID>7250</ID>
+			<Code>bisFolFDgcdE</Code>
+			<Omschrijving>bisfenol F diglycidylether</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-02-22" status="Bevestigd">
+			<ID>7252</ID>
+			<Code>C1ydopa</Code>
+			<Omschrijving>methyldopa</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-02-25" status="Bevestigd">
+			<ID>7254</ID>
+			<Code>sPFASrpf</Code>
+			<Omschrijving>som per- en polyfluoralkylstoffen berekend met een relatieve potentie factor</Omschrijving>
+			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>

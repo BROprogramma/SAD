@@ -24021,55 +24021,77 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Toetsingen>
-		<Toetsingen versie="14.7.0" datum="2024-04-19" status="Bevestigd">
+		<Toetsingen versie="14.7.0" datum="2025-02-11" status="Bevestigd">
 			<ID>1001</ID>
 			<Code>undefined</Code>
-			<Waarde>T.BKL_L</Waarde>
-			<Omschrijving>Beoordeling Grondwater voor grondwatersanering a.h.v. Landelijke BKL Signaleringsparameters</Omschrijving>
+			<Waarde>T.1001</Waarde>
+			<Omschrijving>Beoordeling BKL Grondwater voor grondwatersanering a.h.v. Landelijke BKL Signaleringsparameters</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Toetsingen>
-		<Toetsingen versie="14.7.0" datum="2024-04-19" status="Bevestigd">
+		<Toetsingen versie="14.7.0" datum="2025-02-11" status="Bevestigd">
 			<ID>1002</ID>
 			<Code>undefined</Code>
-			<Waarde>T.BKL_ZH_ZOET</Waarde>
-			<Omschrijving>Beoordeling Zoet Grondwater Zuid-Holland voor grondwatersanering a.h.v. lokale normen</Omschrijving>
+			<Waarde>T.1002</Waarde>
+			<Omschrijving>Beoordeling BKL Zoet Grondwater Zuid-Holland voor grondwatersanering tov de Voorkeurswaarde</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Toetsingen>
-		<Toetsingen versie="14.7.0" datum="2024-04-19" status="Bevestigd">
+		<Toetsingen versie="14.7.0" datum="2025-02-11" status="Bevestigd">
 			<ID>1003</ID>
 			<Code>undefined</Code>
-			<Waarde>T.BKL_ZH_ZOUT</Waarde>
-			<Omschrijving>Beoordeling Zout/Brak Grondwater Zuid-Holland voor grondwatersanering a.h.v. lokale normen</Omschrijving>
+			<Waarde>T.1003</Waarde>
+			<Omschrijving>Beoordeling BKL Zout/Brak Grondwater Zuid-Holland voor grondwatersanering tov de Voorkeurswaarde</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Toetsingen>
-		<Toetsingen versie="14.7.0" datum="2024-04-19" status="Bevestigd">
+		<Toetsingen versie="14.7.0" datum="2025-02-11" status="Bevestigd">
 			<ID>1004</ID>
 			<Code>undefined</Code>
-			<Waarde>T.BKL_NB_ZOET</Waarde>
-			<Omschrijving>Beoordeling Zoet Grondwater Noord-Brabant voor grondwatersanering a.h.v. lokale normen</Omschrijving>
+			<Waarde>T.1004</Waarde>
+			<Omschrijving>Beoordeling BKL Zoet Grondwater Noord-Brabant voor grondwatersanering tov de Voorkeurswaarde</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Toetsingen>
-		<Toetsingen versie="14.7.0" datum="2024-04-19" status="Bevestigd">
+		<Toetsingen versie="14.7.0" datum="2025-02-11" status="Bevestigd">
 			<ID>1005</ID>
 			<Code>undefined</Code>
-			<Waarde>T.BKL_NB_ZOUT</Waarde>
-			<Omschrijving>Beoordeling Zout/Brak Grondwater Noord-Brabant voor grondwatersanering a.h.v. lokale normen</Omschrijving>
+			<Waarde>T.1005</Waarde>
+			<Omschrijving>Beoordeling BKL Zout/Brak Grondwater Noord-Brabant voor grondwatersanering tov de Voorkeurswaarde</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Toetsingen>
+		<Toetsingen versie="14.7.0" datum="2025-02-11" status="Bevestigd">
+			<ID>1006</ID>
+			<Code>undefined</Code>
+			<Waarde>T.1006</Waarde>
+			<Omschrijving>Beoordeling BKL Grondwater Zuid-Holland voor grondwatersanering tov de Signaleringsparameters</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Toetsingen>
+		<Toetsingen versie="14.7.0" datum="2025-02-11" status="Bevestigd">
+			<ID>1007</ID>
+			<Code>undefined</Code>
+			<Waarde>T.1007</Waarde>
+			<Omschrijving>Beoordeling BKL Grondwater Noord-Brabant voor grondwatersanering tov de Signaleringsparameters</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
