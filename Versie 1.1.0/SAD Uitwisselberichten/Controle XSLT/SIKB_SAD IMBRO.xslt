@@ -24,9 +24,17 @@
         xmlns:issad="http://www.broservices.nl/xsd/issad/1.1"
         xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.1 .//issad-messages.xsd">
     <xsl:output method="xml" indent="yes"/>
-    <!-- global variables -->
-    <xsl:variable name="imsikb0101LookupFile" select="string('imsikb0101 lookup.xml')"/>
-    <xsl:variable name="immetingenLookupFile" select="string('immetingen lookup.xml')"/>
+    <!-- Global variables for the lookup files -->
+    <xsl:variable name="imsikbLookup" select="document('imsikb0101 lookup.xml')"/>
+    <xsl:variable name="immetingenLookup" select="document('immetingen lookup.xml')"/>
+    <xsl:variable name="allowedValues" select="document('allowed_values.xml')"/>
+    <!-- Global keys indexing lookup records by their parent's categorie and their ID.
+         Note: these keys assume that each lookup file has a structure where a group element
+         (with an @categorie attribute) contains one or more lookup entries that have an <ID> child.
+    -->
+    <xsl:key name="imsikbKey" match="sikb.lookup/*/*" use="concat(lower-case(parent::*/@categorie), '|', ID)"/>
+    <xsl:key name="immetingenKey" match="sikb.lookup/*/*" use="concat(lower-case(parent::*/@categorie), '|', ID)"/>
+    <xsl:key name="allowedQuantityKey" match="quantity" use="sikbid"/>
     <xsl:template match="/">
         <ArrayOfLogRecord>
             <!-- file dataflow check -->
@@ -741,108 +749,93 @@
             </xsl:if>
         </xsl:if>
     </xsl:function>
-    <xsl:function name="sikb:checkLookupId">
-        <!-- function to check whether lookupID exists and status != 'Vervallen' -->
+    <xsl:function name="sikb:checkLookupId" as="element()*">
+        <!-- function parameters -->
         <xsl:param name="context"/>
         <xsl:param name="prGUID"/>
         <xsl:param name="field"/>
         <xsl:param name="lookupItem"/>
         <xsl:param name="errorType"/>
+
+        <!-- Precompute element names -->
         <xsl:variable name="elementName" select="string($context/name())"/>
         <xsl:variable name="elementLocalName" select="string($context/local-name())"/>
-        <xsl:variable name="lookupValueFromElement" select="$context/*[local-name()=$field]/text()"/>
-        <xsl:variable name="lookupValueFromHref" select="$context/*[local-name()=$field]/@xlink:href"/>
-        <xsl:variable name="lookupValueFromPhysicalProperty" select="$context/*[local-name()='physicalProperty']/*[local-name()='PhysicalProperty']/*[local-name()=$field]/text()"/>
+
+        <!-- Extract lookup value from the field, from @xlink:href, or from a physicalProperty -->
         <xsl:variable name="lookupValue">
             <xsl:choose>
-                <xsl:when test="$lookupValueFromElement != ''">
-                    <xsl:value-of select="$lookupValueFromElement"/>
+                <xsl:when test="$context/*[local-name() = $field] and string($context/*[local-name() = $field]) != ''">
+                    <xsl:value-of select="$context/*[local-name() = $field]"/>
                 </xsl:when>
-                <xsl:when test="$lookupValueFromHref != ''">
-                    <xsl:value-of select="$lookupValueFromHref"/>
+                <xsl:when test="$context/*[local-name() = $field]/@xlink:href and string($context/*[local-name() = $field]/@xlink:href) != ''">
+                    <xsl:value-of select="$context/*[local-name() = $field]/@xlink:href"/>
                 </xsl:when>
-                <xsl:when test="$lookupValueFromPhysicalProperty != ''">
-                    <xsl:value-of select="$lookupValueFromPhysicalProperty"/>
+                <xsl:when test="$context/*[local-name()='physicalProperty']/*[local-name()='PhysicalProperty']/*[local-name() = $field] and string($context/*[local-name()='physicalProperty']/*[local-name()='PhysicalProperty']/*[local-name() = $field]) != ''">
+                    <xsl:value-of select="$context/*[local-name()='physicalProperty']/*[local-name()='PhysicalProperty']/*[local-name() = $field]"/>
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
+
+        <!-- Extract the lookupId (the numeric part after ':id:'), lookupType, and lookupCategory -->
         <xsl:variable name="lookupId" select="substring-after($lookupValue, ':id:')"/>
-        <xsl:variable name="lookupType" select="substring-before(substring-after($lookupValue,'urn:'),':')"/>
-        <xsl:variable name="lookupCategory" select="lower-case(substring(substring-before(substring-after($lookupValue,$lookupType), ':id:'), 2))"/>
-        <xsl:variable name="lookupFile" select="sikb:getLookupFile($lookupType)"/>
-        
-        <xsl:variable name="Category">
-            <xsl:if test="$lookupItem = '*'">
-                <xsl:copy-of select="$lookupCategory"/>
-            </xsl:if>
-            <xsl:if test="$lookupItem != '*'">
-                <xsl:copy-of select="$lookupItem"/>
-            </xsl:if>
-        </xsl:variable>  
-        
-        <xsl:variable name="lookupRecord" select="document($lookupFile)//*[lower-case(@categorie)=lower-case($Category)]/*[ID|id|Id|iD=$lookupId]"/>        
+        <xsl:variable name="lookupType" select="substring-before(substring-after($lookupValue, 'urn:'), ':')"/>
+        <xsl:variable name="lookupCategory" select="lower-case(substring(substring-before(substring-after($lookupValue, $lookupType), ':id:'), 2))"/>
+
+        <!-- Determine the expected category based on the lookupItem parameter.
+             If lookupItem is '*', we use the lookupCategory from the value; otherwise we use lookupItem. -->
+        <xsl:variable name="Category" as="xsi:string" select="if ($lookupItem = '*') then $lookupCategory else $lookupItem"/>
+
+        <!-- Determine which lookup document to use based on lookupType.
+             (Assumes that if lookupType is 'immetingen', the immetingen lookup is used;
+              otherwise, the imsikb0101 lookup is used.) -->
+        <xsl:variable name="lookupDoc" select="if ($lookupType = 'immetingen') then $immetingenLookup else $imsikbLookup"/>
+
+        <!--We use the appropriate key (immetingenKey or imsikbKey) keyed on a composite value of
+             the lower-case category and the lookupId for the lookup. -->
+        <xsl:variable name="lookupRecord" select="        if ($lookupType = 'immetingen')
+                  then key('immetingenKey', concat(lower-case($Category), '|', $lookupId), $immetingenLookup)
+                  else key('imsikbKey', concat(lower-case($Category), '|', $lookupId), $imsikbLookup)
+              "/>
+    
+        <!-- Evaluate the lookupRecord for status and BRO quality -->
         <xsl:variable name="checkLookupRecord">
-            <xsl:if test="($lookupRecord != '' and $lookupRecord/@status = 'Vervallen')">
-                <xsl:copy-of select="'vervallen'"/>
-            </xsl:if>   
-             <xsl:if test="($lookupRecord != '' and $lookupRecord/broSadImbro != 'true')">
-                <xsl:copy-of select="'niet geldig voor BRO SAD IMBRO kwaliteit'"/>
-            </xsl:if>           
-            <xsl:if test="not($lookupRecord != '') and $lookupValue != ''">
-                <xsl:copy-of select="'niet gevonden'"/>
-            </xsl:if>            
+            <xsl:choose>
+                <xsl:when test="$lookupRecord and $lookupRecord/@status = 'Vervallen'">vervallen</xsl:when>
+                <xsl:when test="$lookupRecord and $lookupRecord/broSadImbro != 'true'">niet geldig voor BRO SAD IMBRO kwaliteit</xsl:when>
+                <xsl:when test="not($lookupRecord) and $lookupValue != ''">niet gevonden</xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
         </xsl:variable>
-        
-        <xsl:variable name="CheckCategory">
-            <xsl:if test="lower-case($Category) = lower-case($lookupCategory)">
-                <xsl:copy-of select="1"/>
-            </xsl:if>
-            <xsl:if test="lower-case($Category) != lower-case($lookupCategory)">
-                <xsl:copy-of select="0"/>
-            </xsl:if>
-        </xsl:variable>
-        <xsl:variable name="CategoryElement" select="lower-case(name(document($lookupFile)//*[lower-case(@categorie)=lower-case($Category)]/*[1]))"/>
-        <xsl:variable name="CheckCategoryElement">
-            <xsl:if test="$CategoryElement = $lookupCategory">
-                <xsl:copy-of select="1"/>
-            </xsl:if>
-            <xsl:if test="$CategoryElement != $lookupCategory">
-                <xsl:copy-of select="0"/>
-            </xsl:if>
-        </xsl:variable>
-        <xsl:variable name="checkCorrectTable">
-            <xsl:if test="$CheckCategory = '1' or $CheckCategoryElement ='1'">
-                <xsl:copy-of select="1"/>
-            </xsl:if>
-            <xsl:if test="$CheckCategory = '0' and $CheckCategoryElement = '0' ">
-                <xsl:copy-of select="0"/>
-            </xsl:if>
-        </xsl:variable>
-        <xsl:variable name="message" select="replace(string-join(('Waarde', $lookupId, ' (', $lookupValue ,') van het element', $field, 'bij', $elementLocalName, $prGUID, 'is', $checkLookupRecord, 'in lookup-tabel.'), ' '), '  ', ' ')"/>
+
+        <!-- Check that the table (category) is correct -->
+        <xsl:variable name="CheckCategory"
+                      select="if (lower-case($Category) = lower-case($lookupCategory)) then '1' else '0'"/>
+        <xsl:variable name="CategoryElement" select="lower-case(name($lookupDoc/*[lower-case(@categorie)=lower-case($Category)]/*[1]))"/>
+        <xsl:variable name="CheckCategoryElement"
+                      select="if ($CategoryElement = $lookupCategory) then '1' else '0'"/>
+        <xsl:variable name="checkCorrectTable"
+                      select="if ($CheckCategory = '1' or $CheckCategoryElement = '1') then '1' else '0'"/>
+
+        <!-- Construct a diagnostic message -->
+        <xsl:variable name="message" select="replace(string-join(('Waarde', $lookupId, '(', $lookupValue, ') van het element', $field,
+          'bij', $elementLocalName, $prGUID, 'is', $checkLookupRecord, 'in lookup-tabel.'), ' '),'  ', ' ')   "/>
+    
+        <!-- Depending on the checkCorrectTable and checkLookupRecord results, create log records -->
         <xsl:choose>
             <xsl:when test="$checkCorrectTable = '1'">
-                <xsl:if test="string-length($checkLookupRecord)!=0 and $checkLookupRecord != 'vervallen' and not(contains($checkLookupRecord , 'geldig'))">
+                <xsl:if test="string-length($checkLookupRecord) != 0 and $checkLookupRecord != 'vervallen'
+                        and not(contains($checkLookupRecord, 'geldig'))">
                     <xsl:copy-of select="sikb:createRecord('ERROR', $elementName, $message)"/>
                 </xsl:if>
-                <xsl:if test="string-length($checkLookupRecord)!=0 and ($checkLookupRecord = 'vervallen' or contains($checkLookupRecord , 'geldig')) ">
+                <xsl:if test="string-length($checkLookupRecord) != 0 and
+                    ($checkLookupRecord = 'vervallen' or contains($checkLookupRecord, 'geldig'))">
                     <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
                 </xsl:if>
             </xsl:when>
             <xsl:when test="$checkCorrectTable = '0'">
-                <xsl:variable name="wrongTable" select="replace(string-join(('Verwijzing naar LookupTabel {',$lookupCategory,' } (', $lookupValue ,')  van het element', $field, 'bij', $elementLocalName, $prGUID, 'moet verwijzen naar LookupTabel {', $CategoryElement,'} in de lookup-files.'), ' '), '  ', ' ')"/>
+                <xsl:variable name="wrongTable" select="replace(string-join(('Verwijzing naar LookupTabel {', $lookupCategory, '} (', $lookupValue,
+                  ') van het element', $field, 'bij', $elementLocalName, $prGUID, 'moet verwijzen naar LookupTabel {', $CategoryElement, '} in de lookup-files.'), ' '), '  ', ' ')"/>
                 <xsl:copy-of select="sikb:createRecord('ERROR', $elementName, $wrongTable)"/>
-            </xsl:when>
-        </xsl:choose>
-    </xsl:function>
-    <xsl:function name="sikb:getLookupFile">
-        <!-- Function to determin lookupFile -->
-        <xsl:param name="lookupType"/>
-        <xsl:choose>
-            <xsl:when test="$lookupType='imsikb0101'">
-                <xsl:copy-of select="$imsikb0101LookupFile"/>
-            </xsl:when>
-            <xsl:when test="$lookupType='immetingen'">
-                <xsl:copy-of select="$immetingenLookupFile"/>
             </xsl:when>
         </xsl:choose>
     </xsl:function>
@@ -911,10 +904,17 @@
         <xsl:param name="min"/>
         <xsl:param name="max"/>
         <xsl:param name="errorType"/>
+        <!-- Extract the lookupId from the unit-of-measure attribute -->
         <xsl:variable name="lookupId" select="substring-after(string($context/*[local-name()=$field]/@uom), ':id:')"/>
-        <xsl:variable name="factor" select="document($immetingenLookupFile)//*[@categorie='Eenheid']/*[ID|id=$lookupId]/Omrekenfactor"/>
-        <xsl:variable name="minFactor" select="$min*number($factor)"/>
-        <xsl:variable name="maxFactor" select="$max*number($factor)"/>
+        <!-- Retrieve the matching node using the key.
+             The key uses lower-case(parent::*/@categorie) so we pass 'eenheid' in lower-case. -->
+        <xsl:variable name="lookupNode" select="key('immetingenKey', concat('eenheid', '|', $lookupId), $immetingenLookup)"/>
+        <!-- Get the Omrekenfactor from the lookup node -->
+        <xsl:variable name="factor" select="$lookupNode/Omrekenfactor"/>
+        <!-- Calculate the adjusted min and max values -->
+        <xsl:variable name="minFactor" select="$min * number($factor)"/>
+        <xsl:variable name="maxFactor" select="$max * number($factor)"/>
+        <!-- Call the existing function with the scaled values -->
         <xsl:copy-of select="sikb:checkValueBetween($context, $prGUID, $field, $minFactor, $maxFactor, $errorType)"/>
     </xsl:function>
     <xsl:function name="sikb:checkValueBetween">
@@ -1167,19 +1167,21 @@
             <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
         </xsl:if>
     </xsl:function>
+    <!-- Function to validate a condition based on allowed conditions for a quantity -->
     <xsl:function name="sikb:isValidCondition">
         <xsl:param name="quantity"/>
         <xsl:param name="condition"/>
         <xsl:variable name="quantityId" select="substring-after(lower-case($quantity), 'urn:immetingen:parameter:id:')"/>
         <xsl:variable name="conditionId" select="substring-after(lower-case($condition), 'urn:immetingen:hoedanigheid:id:')"/>
-        <xsl:variable name="allowedQuantity" select="document('allowed_values.xml')//quantity[sikbid = $quantityId]"/>
-        <!-- Check conditions -->
-        <!-- Check conditions -->
+        <!-- Lookup the allowed quantity node using the key and global allowedValues -->
+        <xsl:variable name="allowedQuantity" select="key('allowedQuantityKey', $quantityId, $allowedValues)"/>
         <xsl:variable name="validCondition">
             <xsl:choose>
+                <!-- If no allowed conditions are defined, consider it valid -->
                 <xsl:when test="not($allowedQuantity/conditions)">
                     <xsl:value-of select="true()"/>
                 </xsl:when>
+                <!-- Otherwise, check if the provided condition matches any allowed condition -->
                 <xsl:otherwise>
                     <xsl:value-of select="$conditionId = $allowedQuantity/conditions/condition"/>
                 </xsl:otherwise>
@@ -1187,18 +1189,21 @@
         </xsl:variable>
         <xsl:value-of select="$validCondition"/>
     </xsl:function>
+    <!-- Function to validate a unit based on allowed units for a quantity -->
     <xsl:function name="sikb:isValidUnit">
         <xsl:param name="quantity"/>
         <xsl:param name="unit"/>
         <xsl:variable name="quantityId" select="substring-after(lower-case($quantity), 'urn:immetingen:parameter:id:')"/>
         <xsl:variable name="unitId" select="substring-after(lower-case($unit), 'urn:immetingen:eenheid:id:')"/>
-        <xsl:variable name="allowedQuantity" select="document('allowed_values.xml')//quantity[sikbid = $quantityId]"/>
-        <!-- Check units -->
+        <!-- Lookup the allowed quantity node using the key and global allowedValues -->
+        <xsl:variable name="allowedQuantity" select="key('allowedQuantityKey', $quantityId, $allowedValues)"/>
         <xsl:variable name="validUnit">
             <xsl:choose>
+                <!-- If no allowed units are defined, consider it valid -->
                 <xsl:when test="not($allowedQuantity/units)">
                     <xsl:value-of select="true()"/>
                 </xsl:when>
+                <!-- Otherwise, check if the provided unit matches one of the allowed units -->
                 <xsl:otherwise>
                     <xsl:value-of select="$unitId = $allowedQuantity/units/unit"/>
                 </xsl:otherwise>
@@ -1241,8 +1246,8 @@
         <xsl:param name="parameter"/>
         <xsl:param name="condition"/>
         <xsl:variable name="parameterId" select="substring-after(lower-case($parameter), 'urn:immetingen:parameter:id:')"/>
-        <xsl:variable name="conditionId" select="substring-after(lower-case($condition), 'urn:immetingen:hoedanigheid:id:')"/>
-        <xsl:variable name="allowedParameter" select="document('allowed_values.xml')//parameter[sikbid = $parameterId]"/>
+        <xsl:variable name="conditionId" select="substring-after(lower-case($condition), 'urn:immetingen:hoedanigheid:id:')"/>        
+        <xsl:variable name="allowedParameter" select="key('allowedQuantityKey', $parameterId, $allowedValues)"/>
         <!-- Check conditions -->
         <xsl:variable name="validCondition">
             <xsl:choose>
