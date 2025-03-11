@@ -739,15 +739,18 @@
 
         <!-- Extract lookup value from the field, from @xlink:href, or from a physicalProperty -->
         <xsl:variable name="lookupValue">
-            <xsl:choose>
-                <xsl:when test="$context/*[local-name() = $field] and string($context/*[local-name() = $field]) != ''">
-                    <xsl:value-of select="$context/*[local-name() = $field]"/>
-                </xsl:when>
+            <xsl:choose>                
                 <xsl:when test="$context/*[local-name() = $field]/@xlink:href and string($context/*[local-name() = $field]/@xlink:href) != ''">
                     <xsl:value-of select="$context/*[local-name() = $field]/@xlink:href"/>
                 </xsl:when>
+                <xsl:when test="$context/*[local-name() = $field]/@uom and string($context/*[local-name() = $field]/@uom) != ''">
+                    <xsl:value-of select="$context/*[local-name() = $field]/@uom"/>
+                </xsl:when>
                 <xsl:when test="$context/*[local-name()='physicalProperty']/*[local-name()='PhysicalProperty']/*[local-name() = $field] and string($context/*[local-name()='physicalProperty']/*[local-name()='PhysicalProperty']/*[local-name() = $field]) != ''">
                     <xsl:value-of select="$context/*[local-name()='physicalProperty']/*[local-name()='PhysicalProperty']/*[local-name() = $field]"/>
+                </xsl:when>
+                <xsl:when test="$context/*[local-name() = $field] and string($context/*[local-name() = $field]) != ''">
+                    <xsl:value-of select="$context/*[local-name() = $field]"/>
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
