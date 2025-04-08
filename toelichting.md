@@ -10,6 +10,8 @@ Hiermee is ook het onderscheid vastgelegd tussen de registratieobjecten die betr
 
 Het registratieobject <i>milieuhygiënisch bodemonderzoek</i> wordt in zijn geheel in één keer aangeleverd en kent geen mogelijkheid tot aanvullingen  nadat het brondocument is aangeleverd (geen materiële geschiedenis). Fouten in de registratie kunnen worden gecorrigeerd door middel van een correctiebericht.
 
+Millieuhygiënische vooronderzoeken (archiefonderzoek) uitgevoerd in het kader van ‘Tijdelijk uitnemen van grond en het inschatten van arbeidshygiënische risico’s’ (aanleiding G uit NEN 5725) hoeven niet aangeleverd te worden aan de basisregistratie ondergrond.
+
 ## Belangrijkste entiteiten
 
 ### Bodemonderzoek
