@@ -26407,6 +26407,126 @@
 		<Omschrijving>som 17 polychloorbifenylen PCB18, 101, 105, 114, 118, 123, 126, 138, 149, 153, 156, 157, 167, 169, 170, 180, 189</Omschrijving>
 	</Parameter>
 	<Parameter>
+		<SIKB0101ID>7243</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>polymeer</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7246</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>glauconiet</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7247</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>perfluoroctaansulfonamidoazijnzuur</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7248</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>2-ethylhexylsalicylaat</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7249</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>3-(4-methylbenzylideen)kamfer</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7250</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>bisfenol F diglycidylether</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7251</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>benzalkoniumchloride</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7252</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>methyldopa</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7253</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>2-tert-butylcyclohexanol</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7254</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>som per- en polyfluoralkylstoffen berekend met een relatieve potentie factor</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7255</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>naftionzuur</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7256</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>ijzer-ethyleendiaminetetra-azijnzuur</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7257</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>nikkel-ethyleendiaminetetra-azijnzuur</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7258</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>acifluorfen</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7260</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>10:2 fluortelomeer alcohol</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7261</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>7:3 fluortelomeer carbonzuur</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7262</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>6:2 fluortelomeer carbonzuur</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7263</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>perfluor-2-methoxypropaanzuur</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>14606</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>4-(N,N-Dimethylsulfamoyl)aniline</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>14607</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Celecoxib</Omschrijving>
+	</Parameter>
+	<Parameter>
 		<SIKB0101ID>1</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
