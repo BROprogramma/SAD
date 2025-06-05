@@ -130,7 +130,7 @@
         <!-- Check existence Analysis for Watersamples or AnalysisSamples-->
         <xsl:if test="not(//immetingen:Analysis)">
             <xsl:variable name="message" select="'In het xml-bestand is geen Analysis gevonden, klopt dat?'"/>
-            <xsl:copy-of select="sikb:createRecord('WARING', 'xml-bestand', $message)"/>
+            <xsl:copy-of select="sikb:createRecord('WARNING', 'xml-bestand', $message)"/>
         </xsl:if>       
         
         <!-- check documents van type eindrapport -->
