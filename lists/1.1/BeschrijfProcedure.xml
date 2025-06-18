@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <BeschrijfProcedure>
+        <Waarde>nen5104_nen5706</Waarde>
+        <SIKB0101ID>1</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>De grond is geclassificeerd volgens NEN 5104 en die norm vormt de basis van de procedure. Als er bijzondere bestandsdelen in de grond aanwezig zijn wordt NEN 5706 gebruikt voor een beschrijving van de bijzondere bestandsdelen. Het kunnen ook voorgangers van deze NEN normen zijn zoals NPR normen.</Omschrijving>
+    </BeschrijfProcedure>
+</domeintabel>
