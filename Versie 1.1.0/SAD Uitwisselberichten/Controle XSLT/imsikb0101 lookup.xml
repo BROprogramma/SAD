@@ -29671,7 +29671,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>93</ID>
 			<Code></Code>
 			<Waarde>Groesbeek</Waarde>
@@ -31739,7 +31739,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>320</ID>
 			<Code></Code>
 			<Waarde>Haaren</Waarde>
@@ -33026,7 +33026,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>459</ID>
 			<Code></Code>
 			<Waarde>BSB Gelderland</Waarde>
@@ -33037,7 +33037,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>460</ID>
 			<Code></Code>
 			<Waarde>BSB Noord</Waarde>
@@ -33048,7 +33048,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>461</ID>
 			<Code></Code>
 			<Waarde>BSB Overijssel</Waarde>
@@ -33059,7 +33059,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>462</ID>
 			<Code></Code>
 			<Waarde>BSB West</Waarde>
@@ -33070,7 +33070,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>463</ID>
 			<Code></Code>
 			<Waarde>BSB Zuid</Waarde>
@@ -33081,7 +33081,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-22" status="Vervallen">
 			<ID>464</ID>
 			<Code></Code>
 			<Waarde>Dienst Gebouwen, Werken en Terreinen (DGW&amp;T)</Waarde>
@@ -33092,7 +33092,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>465</ID>
 			<Code></Code>
 			<Waarde>Dienst Landelijk Gebied (DLG)</Waarde>
@@ -33103,7 +33103,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>466</ID>
 			<Code></Code>
 			<Waarde>Stichting Bodemcentrum</Waarde>
@@ -33147,7 +33147,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>470</ID>
 			<Code></Code>
 			<Waarde>DWW</Waarde>
@@ -33169,7 +33169,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>472</ID>
 			<Code></Code>
 			<Waarde>SUBAT</Waarde>
@@ -33180,7 +33180,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>473</ID>
 			<Code></Code>
 			<Waarde>COFICE</Waarde>
@@ -33202,7 +33202,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>475</ID>
 			<Code></Code>
 			<Waarde>Bestuur Regio Utrecht</Waarde>
@@ -33224,7 +33224,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>477</ID>
 			<Code></Code>
 			<Waarde>Commissie Regionaal Overleg Luchthaven Schiphol (CROS)</Waarde>
@@ -33246,7 +33246,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>479</ID>
 			<Code></Code>
 			<Waarde>De Vallei</Waarde>
@@ -33301,7 +33301,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>484</ID>
 			<Code></Code>
 			<Waarde>Friese Wouden</Waarde>
@@ -33312,7 +33312,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>485</ID>
 			<Code></Code>
 			<Waarde>Gewest Eemland</Waarde>
@@ -33356,7 +33356,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>489</ID>
 			<Code></Code>
 			<Waarde>Intergemeentelijk Samenwerkingsorgaan Midden-Holland</Waarde>
@@ -33367,7 +33367,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>490</ID>
 			<Code></Code>
 			<Waarde>Intergemeentelijk Samenwerkingsorgaan Waterland</Waarde>
@@ -33378,7 +33378,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>491</ID>
 			<Code></Code>
 			<Waarde>Intergemeentelijk Samenwerkingsverband Goeree-Overflakkee</Waarde>
@@ -33389,7 +33389,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>492</ID>
 			<Code></Code>
 			<Waarde>Intergemeentelijk Samenwerkingsverband Noordwest Veluwe</Waarde>
@@ -33400,7 +33400,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>493</ID>
 			<Code></Code>
 			<Waarde>Knooppunt Arnhem - Nijmegen</Waarde>
@@ -33411,7 +33411,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>494</ID>
 			<Code></Code>
 			<Waarde>Maastricht en Mergelland</Waarde>
@@ -33433,7 +33433,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>496</ID>
 			<Code></Code>
 			<Waarde>Midden-Brabant</Waarde>
@@ -33444,7 +33444,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>497</ID>
 			<Code></Code>
 			<Waarde>Milieuadviesdienst Noord-Friesland</Waarde>
@@ -33488,7 +33488,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>501</ID>
 			<Code></Code>
 			<Waarde>Milieudienst Regio Alkmaar</Waarde>
@@ -33510,7 +33510,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>503</ID>
 			<Code></Code>
 			<Waarde>Milieudienst Westfriesland</Waarde>
@@ -33554,7 +33554,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>507</ID>
 			<Code></Code>
 			<Waarde>Milieu en afval regio Breda</Waarde>
@@ -33565,7 +33565,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>508</ID>
 			<Code></Code>
 			<Waarde>Milieusamenwerking Noord-Oost Flevoland</Waarde>
@@ -33576,7 +33576,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>509</ID>
 			<Code></Code>
 			<Waarde>Noord-Kennemerland</Waarde>
@@ -33609,7 +33609,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>512</ID>
 			<Code></Code>
 			<Waarde>Regio Centraal Groningen</Waarde>
@@ -33620,7 +33620,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>513</ID>
 			<Code></Code>
 			<Waarde>Regio IJssel-Vecht</Waarde>
@@ -33631,7 +33631,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>514</ID>
 			<Code></Code>
 			<Waarde>Regionaal Milieubedrijf</Waarde>
@@ -33642,7 +33642,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>515</ID>
 			<Code></Code>
 			<Waarde>Regionaal Orgaan Amsterdam (ROA)</Waarde>
@@ -33653,7 +33653,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>516</ID>
 			<Code></Code>
 			<Waarde>Regionale Milieudienst West-Brabant</Waarde>
@@ -33664,7 +33664,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>517</ID>
 			<Code></Code>
 			<Waarde>Regio Noord- en Midden-Limburg</Waarde>
@@ -33686,7 +33686,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>519</ID>
 			<Code></Code>
 			<Waarde>Regioraad Noord-Groningen</Waarde>
@@ -33730,7 +33730,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>523</ID>
 			<Code></Code>
 			<Waarde>Regio Zuid-Holland Zuid</Waarde>
@@ -33741,7 +33741,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>524</ID>
 			<Code></Code>
 			<Waarde>Rijnstreek</Waarde>
@@ -33752,7 +33752,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>525</ID>
 			<Code></Code>
 			<Waarde>ROM Rijnmond</Waarde>
@@ -33774,7 +33774,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>527</ID>
 			<Code></Code>
 			<Waarde>Samenwerkingsverband Regio Eindhoven</Waarde>
@@ -33785,7 +33785,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>528</ID>
 			<Code></Code>
 			<Waarde>Samenwerkingsverband Zuidlaardermeergemeenten</Waarde>
@@ -33796,7 +33796,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>529</ID>
 			<Code></Code>
 			<Waarde>Sociaal Economische Samenwerking West-Brabant</Waarde>
@@ -33807,7 +33807,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>530</ID>
 			<Code></Code>
 			<Waarde>Stadsgewest Haaglanden</Waarde>
@@ -33818,7 +33818,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>531</ID>
 			<Code></Code>
 			<Waarde>Stadsgewest Noord-Brabant</Waarde>
@@ -33829,7 +33829,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>532</ID>
 			<Code></Code>
 			<Waarde>Stadsregio Rotterdam</Waarde>
@@ -33873,7 +33873,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>536</ID>
 			<Code></Code>
 			<Waarde>Streekraad Oost-Groningen</Waarde>
@@ -33939,7 +33939,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>542</ID>
 			<Code></Code>
 			<Waarde>Zuidwest-Drenthe</Waarde>
@@ -34082,7 +34082,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>555</ID>
 			<Code></Code>
 			<Waarde>Stichting Bodembeheer Krimpenerwaard</Waarde>
@@ -34137,7 +34137,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>560</ID>
 			<Code></Code>
 			<Waarde>Projectbureau Actief Bodembeheer de Kempen</Waarde>
@@ -34148,7 +34148,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>561</ID>
 			<Code></Code>
 			<Waarde>Intergemeentelijke Milieudienst Beek-Nuth-Stein (IMD-BNS)</Waarde>
@@ -34159,7 +34159,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>562</ID>
 			<Code></Code>
 			<Waarde>Milieudienst Kop van Noord-Holland</Waarde>
@@ -34302,7 +34302,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>575</ID>
 			<Code></Code>
 			<Waarde>VROM-Inspectie</Waarde>
@@ -34566,7 +34566,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>601</ID>
 			<Code></Code>
 			<Waarde>Wetterskip Blija Buitendijks</Waarde>
@@ -34764,7 +34764,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2017-12-07" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>624</ID>
 			<Code></Code>
 			<Waarde>Omgevingsdienst Veluwe IJssel</Waarde>
@@ -34797,7 +34797,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2018-11-22" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>627</ID>
 			<Code></Code>
 			<Waarde>Omgevingsdienst Brabant Noord: uitvoeringsstation &#039;s-Hertogenbosch</Waarde>
@@ -34808,7 +34808,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2018-11-22" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>628</ID>
 			<Code></Code>
 			<Waarde>Omgevingsdienst Brabant Noord: uitvoeringsstation Oost</Waarde>
@@ -34852,10 +34852,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Gewijzigd">
 			<ID>632</ID>
 			<Code></Code>
-			<Waarde>Omgevingsdienst Midden- en West Brabant</Waarde>
+			<Waarde>Omgevingsdienst Midden- en West-Brabant</Waarde>
 			<Omschrijving></Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -34863,7 +34863,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>633</ID>
 			<Code></Code>
 			<Waarde>Omgevingsdienst Noord-Veluwe</Waarde>
@@ -34918,10 +34918,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Gewijzigd">
 			<ID>638</ID>
 			<Code></Code>
-			<Waarde>RUD Drenthe</Waarde>
+			<Waarde>Omgevingsdienst Drenthe</Waarde>
 			<Omschrijving></Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -34973,10 +34973,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Gewijzigd">
 			<ID>643</ID>
 			<Code></Code>
-			<Waarde>RUD Twente</Waarde>
+			<Waarde>Omgevingsdienst Twente</Waarde>
 			<Omschrijving></Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -34995,10 +34995,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Gewijzigd">
 			<ID>645</ID>
 			<Code></Code>
-			<Waarde>RUD Zuid-Limburg</Waarde>
+			<Waarde>Omgevingsdienst Zuid-Limburg</Waarde>
 			<Omschrijving></Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -35072,7 +35072,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2014-02-24" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>652</ID>
 			<Code></Code>
 			<Waarde>Werkorganisatie DEAL-gemeenten (Delfzijl, Eemsmond, Appingedam en Loppersum)</Waarde>
@@ -35083,7 +35083,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2014-02-24" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>653</ID>
 			<Code></Code>
 			<Waarde>De Friese Meren</Waarde>
@@ -35094,7 +35094,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2014-06-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>654</ID>
 			<Code></Code>
 			<Waarde>Bestuursdienst Ommen-Hardenberg</Waarde>
@@ -35105,10 +35105,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2014-06-10" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Gewijzigd">
 			<ID>655</ID>
 			<Code></Code>
-			<Waarde>RUD Utrecht 2.0</Waarde>
+			<Waarde>RUD Utrecht</Waarde>
 			<Omschrijving></Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -35116,10 +35116,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2014-11-20" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Gewijzigd">
 			<ID>656</ID>
 			<Code></Code>
-			<Waarde>RUD Friesland (FUMO)</Waarde>
+			<Waarde>Fryske Utfieringstsjinst Miljeu en Omjouwing</Waarde>
 			<Omschrijving></Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -35380,7 +35380,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bronhouders>
-		<Bronhouders versie="14.6.0" datum="2020-11-19" status="Bevestigd">
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>680</ID>
 			<Code></Code>
 			<Waarde>BAR-Organisatie</Waarde>
@@ -35451,6 +35451,28 @@
 			<ID>686</ID>
 			<Code>undefined</Code>
 			<Waarde>Omgevingsdienst IJmond</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bronhouders>
+		<Bronhouders versie="14.7.0" datum="2025-07-10" status="Bevestigd">
+			<ID>687</ID>
+			<Code>undefined</Code>
+			<Waarde>Omgevingsdienst Veluwe</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bronhouders>
+		<Bronhouders versie="14.7.0" datum="2025-07-22" status="Bevestigd">
+			<ID>688</ID>
+			<Code>undefined</Code>
+			<Waarde>Rijksvastgoedbedrijf</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -36860,11 +36882,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>5</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Achtkarspelen</Waarde>
-			<Omschrijving>KVK NR: 1176356</Omschrijving>
+			<Omschrijving>KVK NR: 01176356</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -36904,11 +36926,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>9</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Almelo</Waarde>
-			<Omschrijving>KVK NR: 8214858</Omschrijving>
+			<Omschrijving>KVK NR: 08214858</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -36959,11 +36981,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>14</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Ameland</Waarde>
-			<Omschrijving>KVK NR: 1180264</Omschrijving>
+			<Omschrijving>KVK NR: 01180264</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37003,33 +37025,33 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>18</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Apeldoorn</Waarde>
-			<Omschrijving>KVK NR: 8223882</Omschrijving>
+			<Omschrijving>KVK NR: 08223882</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>19</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Appingedam</Waarde>
-			<Omschrijving>KVK NR: 1173706</Omschrijving>
+			<Omschrijving>KVK NR: 01173706</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>20</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Arnhem</Waarde>
-			<Omschrijving>KVK NR: 9214908</Omschrijving>
+			<Omschrijving>KVK NR: 09214908</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37102,7 +37124,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>27</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Bedum</Waarde>
@@ -37135,7 +37157,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>30</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Beemster</Waarde>
@@ -37201,11 +37223,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>36</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Berkelland</Waarde>
-			<Omschrijving>KVK NR: 9212462</Omschrijving>
+			<Omschrijving>KVK NR: 09212462</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37355,7 +37377,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>50</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Boxmeer</Waarde>
@@ -37388,7 +37410,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>53</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Brielle</Waarde>
@@ -37399,11 +37421,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>54</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Bronckhorst</Waarde>
-			<Omschrijving>KVK NR: 9218559</Omschrijving>
+			<Omschrijving>KVK NR: 09218559</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37487,11 +37509,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>62</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Coevorden</Waarde>
-			<Omschrijving>KVK NR: 1173197</Omschrijving>
+			<Omschrijving>KVK NR: 01173197</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37509,7 +37531,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>64</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Cuijk</Waarde>
@@ -37531,11 +37553,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>66</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Dalfsen</Waarde>
-			<Omschrijving>KVK NR: 8215340</Omschrijving>
+			<Omschrijving>KVK NR: 08215340</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37586,11 +37608,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>71</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente De Wolden</Waarde>
-			<Omschrijving>KVK NR: 1160183</Omschrijving>
+			<Omschrijving>KVK NR: 01160183</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37608,11 +37630,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>73</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Delfzijl</Waarde>
-			<Omschrijving>KVK NR: 1175851</Omschrijving>
+			<Omschrijving>KVK NR: 01175851</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37652,11 +37674,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>77</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Deventer</Waarde>
-			<Omschrijving>KVK NR: 8214418</Omschrijving>
+			<Omschrijving>KVK NR: 08214418</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37685,33 +37707,33 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>80</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Dinkelland</Waarde>
-			<Omschrijving>KVK NR: 8226314</Omschrijving>
+			<Omschrijving>KVK NR: 08226314</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>81</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Doesburg</Waarde>
-			<Omschrijving>KVK NR: 9222121</Omschrijving>
+			<Omschrijving>KVK NR: 09222121</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>82</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Doetinchem</Waarde>
-			<Omschrijving>KVK NR: 9215668</Omschrijving>
+			<Omschrijving>KVK NR: 09215668</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37784,11 +37806,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>89</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Duiven</Waarde>
-			<Omschrijving>KVK NR: 9217727</Omschrijving>
+			<Omschrijving>KVK NR: 09217727</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37817,11 +37839,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>92</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Ede</Waarde>
-			<Omschrijving>KVK NR: 9215646</Omschrijving>
+			<Omschrijving>KVK NR: 09215646</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37861,11 +37883,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>96</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Elburg</Waarde>
-			<Omschrijving>KVK NR: 8218414</Omschrijving>
+			<Omschrijving>KVK NR: 08218414</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37894,11 +37916,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>99</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Emmen</Waarde>
-			<Omschrijving>KVK NR: 1181973</Omschrijving>
+			<Omschrijving>KVK NR: 01181973</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37916,11 +37938,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>101</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Enschede</Waarde>
-			<Omschrijving>KVK NR: 8215195</Omschrijving>
+			<Omschrijving>KVK NR: 08215195</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -37938,11 +37960,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>103</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Ermelo</Waarde>
-			<Omschrijving>KVK NR: 8217014</Omschrijving>
+			<Omschrijving>KVK NR: 08217014</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38081,7 +38103,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>116</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Grave</Waarde>
@@ -38202,11 +38224,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>127</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Hattem</Waarde>
-			<Omschrijving>KVK NR: 8217553</Omschrijving>
+			<Omschrijving>KVK NR: 08217553</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38235,11 +38257,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>130</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Heerde</Waarde>
-			<Omschrijving>KVK NR: 8213234</Omschrijving>
+			<Omschrijving>KVK NR: 08213234</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38290,18 +38312,18 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>135</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Hellendoorn</Waarde>
-			<Omschrijving>KVK NR: 8221859</Omschrijving>
+			<Omschrijving>KVK NR: 08221859</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>136</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Hellevoetsluis</Waarde>
@@ -38334,11 +38356,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>139</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Hengelo</Waarde>
-			<Omschrijving>KVK NR: 8218146</Omschrijving>
+			<Omschrijving>KVK NR: 08218146</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38422,11 +38444,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>147</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Hof van Twente</Waarde>
-			<Omschrijving>KVK NR: 8215304</Omschrijving>
+			<Omschrijving>KVK NR: 08215304</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38444,11 +38466,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>149</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Hoogeveen</Waarde>
-			<Omschrijving>KVK NR: 1175828</Omschrijving>
+			<Omschrijving>KVK NR: 01175828</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38532,11 +38554,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>157</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Kampen</Waarde>
-			<Omschrijving>KVK NR: 8216768</Omschrijving>
+			<Omschrijving>KVK NR: 08216768</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38620,7 +38642,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>165</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Landerd</Waarde>
@@ -38774,11 +38796,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>179</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Lochem</Waarde>
-			<Omschrijving>KVK NR: 8215192</Omschrijving>
+			<Omschrijving>KVK NR: 08215192</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38807,11 +38829,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>182</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Loppersum</Waarde>
-			<Omschrijving>KVK NR: 1180449</Omschrijving>
+			<Omschrijving>KVK NR: 01180449</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38917,11 +38939,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>192</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Meppel</Waarde>
-			<Omschrijving>KVK NR: 1178692</Omschrijving>
+			<Omschrijving>KVK NR: 01178692</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38950,11 +38972,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>195</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Midden-Drenthe</Waarde>
-			<Omschrijving>KVK NR: 1182848</Omschrijving>
+			<Omschrijving>KVK NR: 01182848</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -38972,7 +38994,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>197</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Mill en Sint Hubert</Waarde>
@@ -39005,11 +39027,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>200</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Montferland</Waarde>
-			<Omschrijving>KVK NR: 9217772</Omschrijving>
+			<Omschrijving>KVK NR: 09217772</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39027,11 +39049,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>202</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Mook en Middelaar</Waarde>
-			<Omschrijving>KVK NR: 9215819</Omschrijving>
+			<Omschrijving>KVK NR: 09215819</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39060,7 +39082,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>205</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Neerijnen</Waarde>
@@ -39104,11 +39126,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>209</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Nijmegen</Waarde>
-			<Omschrijving>KVK NR: 9220932</Omschrijving>
+			<Omschrijving>KVK NR: 09220932</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39148,11 +39170,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>213</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Noordenveld</Waarde>
-			<Omschrijving>KVK NR: 1173391</Omschrijving>
+			<Omschrijving>KVK NR: 01173391</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39225,44 +39247,44 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>220</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Oldambt</Waarde>
-			<Omschrijving>KVK NR: 1176290</Omschrijving>
+			<Omschrijving>KVK NR: 01176290</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>221</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Oldebroek</Waarde>
-			<Omschrijving>KVK NR: 8223460</Omschrijving>
+			<Omschrijving>KVK NR: 08223460</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>222</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Oldenzaal</Waarde>
-			<Omschrijving>KVK NR: 8224234</Omschrijving>
+			<Omschrijving>KVK NR: 08224234</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>223</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Olst-Wijhe</Waarde>
-			<Omschrijving>KVK NR: 8222726</Omschrijving>
+			<Omschrijving>KVK NR: 08222726</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39280,11 +39302,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>225</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Oost Gelre</Waarde>
-			<Omschrijving>KVK NR: 9212525</Omschrijving>
+			<Omschrijving>KVK NR: 09212525</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39302,11 +39324,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>227</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Ooststellingwerf</Waarde>
-			<Omschrijving>KVK NR: 1180311</Omschrijving>
+			<Omschrijving>KVK NR: 01180311</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39335,11 +39357,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>230</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Opsterland</Waarde>
-			<Omschrijving>KVK NR: 1175380</Omschrijving>
+			<Omschrijving>KVK NR: 01175380</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39456,33 +39478,33 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>241</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Putten</Waarde>
-			<Omschrijving>KVK NR: 8216960</Omschrijving>
+			<Omschrijving>KVK NR: 08216960</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>242</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Raalte</Waarde>
-			<Omschrijving>KVK NR: 8215191</Omschrijving>
+			<Omschrijving>KVK NR: 08215191</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>243</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Renkum</Waarde>
-			<Omschrijving>KVK NR: 9215649</Omschrijving>
+			<Omschrijving>KVK NR: 09215649</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39511,7 +39533,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>246</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Reusel-De Mierrden</Waarde>
@@ -39610,11 +39632,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>255</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Rozendaal</Waarde>
-			<Omschrijving>KVK NR: 9214922</Omschrijving>
+			<Omschrijving>KVK NR: 09214922</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39676,11 +39698,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>261</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Schiermonnikoog</Waarde>
-			<Omschrijving>KVK NR: 1173331</Omschrijving>
+			<Omschrijving>KVK NR: 01173331</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39720,7 +39742,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>265</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Sint Anthonis</Waarde>
@@ -39764,11 +39786,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>269</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Smallingerland</Waarde>
-			<Omschrijving>KVK NR: 1172164</Omschrijving>
+			<Omschrijving>KVK NR: 01172164</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39808,11 +39830,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>273</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Stadskanaal</Waarde>
-			<Omschrijving>KVK NR: 1169424</Omschrijving>
+			<Omschrijving>KVK NR: 01169424</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39907,11 +39929,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>282</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Terschelling</Waarde>
-			<Omschrijving>KVK NR: 1177508</Omschrijving>
+			<Omschrijving>KVK NR: 01177508</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -39973,51 +39995,51 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>288</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Tubbergen</Waarde>
-			<Omschrijving>KVK NR: 8215565</Omschrijving>
+			<Omschrijving>KVK NR: 08215565</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>289</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Twenterand</Waarde>
-			<Omschrijving>KVK NR: 8215207</Omschrijving>
+			<Omschrijving>KVK NR: 08215207</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>290</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Tynaarlo</Waarde>
-			<Omschrijving>KVK NR: 1169292</Omschrijving>
+			<Omschrijving>KVK NR: 01169292</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>291</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Tytsjerksteradiel</Waarde>
-			<Omschrijving>KVK NR: 1169679</Omschrijving>
+			<Omschrijving>KVK NR: 01169679</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>292</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Uden</Waarde>
@@ -40215,11 +40237,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>310</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Vlieland</Waarde>
-			<Omschrijving>KVK NR: 1181122</Omschrijving>
+			<Omschrijving>KVK NR: 01181122</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -40270,11 +40292,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>315</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Voorst</Waarde>
-			<Omschrijving>KVK NR: 8218153</Omschrijving>
+			<Omschrijving>KVK NR: 08218153</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -40336,11 +40358,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>321</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Wageningen</Waarde>
-			<Omschrijving>KVK NR: 9216322</Omschrijving>
+			<Omschrijving>KVK NR: 09216322</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -40380,7 +40402,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>325</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Weesp</Waarde>
@@ -40424,22 +40446,22 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>329</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Westerveld</Waarde>
-			<Omschrijving>KVK NR: 1172480</Omschrijving>
+			<Omschrijving>KVK NR: 01172480</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>330</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Westervoort</Waarde>
-			<Omschrijving>KVK NR: 9212509</Omschrijving>
+			<Omschrijving>KVK NR: 09212509</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -40479,7 +40501,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>334</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Westvoorne</Waarde>
@@ -40501,11 +40523,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>336</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Wijchen</Waarde>
-			<Omschrijving>KVK NR: 9212602</Omschrijving>
+			<Omschrijving>KVK NR: 09212602</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -40534,11 +40556,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>339</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Winterswijk</Waarde>
-			<Omschrijving>KVK NR: 9219446</Omschrijving>
+			<Omschrijving>KVK NR: 09219446</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -40677,7 +40699,7 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Vervallen">
 			<ID>352</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Zuidhorn</Waarde>
@@ -40743,11 +40765,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>358</ID>
 			<Code>undefined</Code>
 			<Waarde>Gemeente Zwolle</Waarde>
-			<Omschrijving>KVK NR: 8218173</Omschrijving>
+			<Omschrijving>KVK NR: 08218173</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -40842,11 +40864,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>367</ID>
 			<Code>undefined</Code>
 			<Waarde>Provincie Drenthe</Waarde>
-			<Omschrijving>KVK NR: 1179514</Omschrijving>
+			<Omschrijving>KVK NR: 01179514</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -40864,11 +40886,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>369</ID>
 			<Code>undefined</Code>
 			<Waarde>Provincie Fryslân</Waarde>
-			<Omschrijving>KVK NR: 1178978</Omschrijving>
+			<Omschrijving>KVK NR: 01178978</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -40886,11 +40908,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>371</ID>
 			<Code>undefined</Code>
 			<Waarde>Provincie Groningen</Waarde>
-			<Omschrijving>KVK NR: 1182023</Omschrijving>
+			<Omschrijving>KVK NR: 01182023</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -41095,11 +41117,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>390</ID>
 			<Code>undefined</Code>
 			<Waarde>Waterschap Hunze en Aa&#039;s</Waarde>
-			<Omschrijving>KVK NR: 1173230</Omschrijving>
+			<Omschrijving>KVK NR: 01173230</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -41128,11 +41150,11 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>393</ID>
 			<Code>undefined</Code>
 			<Waarde>Waterschap Rijn en Ijssel</Waarde>
-			<Omschrijving>KVK NR: 9212548</Omschrijving>
+			<Omschrijving>KVK NR: 09212548</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -41194,11 +41216,33 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BevoegdGezag>
-		<BevoegdGezag versie="14.7.0" datum="2024-07-16" status="Bevestigd">
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
 			<ID>399</ID>
 			<Code>undefined</Code>
 			<Waarde>Wetterskip Fryslân</Waarde>
-			<Omschrijving>KVK NR: 1174741</Omschrijving>
+			<Omschrijving>KVK NR: 01174741</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BevoegdGezag>
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
+			<ID>401</ID>
+			<Code>undefined</Code>
+			<Waarde>Gemeente Nuenen, Gerwen en Nederwetten</Waarde>
+			<Omschrijving>KVK NR: 17283654</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BevoegdGezag>
+		<BevoegdGezag versie="14.7.0" datum="2025-07-10" status="Bevestigd">
+			<ID>400</ID>
+			<Code>undefined</Code>
+			<Waarde>Gemeente Land van Cuijk</Waarde>
+			<Omschrijving>KVK NR: 85028037</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
