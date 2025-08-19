@@ -207,6 +207,7 @@
         <xsl:copy-of select="sikb:checkExistence(., $record, 'samplingTime', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'WARNING')"/>        
         <xsl:copy-of select="sikb:checkExistence(., $record, 'materialClass', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkFilled(./materialClass, $record, 'xlink:href', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $record, 'materialClass', 'Compartiment', 'ERROR')"/>
         
         <!-- veldmonsters (niet grond)-->
@@ -299,52 +300,61 @@
         <xsl:variable name="prGUID" select="@gml:id"/>
 		<xsl:variable name="rcdName" select="immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'geometry', 'WARNING')"/>        
-        <xsl:copy-of select="sikb:checkFilled(., $record, 'geometry', 'WARNING')"/>
-        <xsl:copy-of select="sikb:checkGeometryElement(., $record, 'gml:Point', 'ERROR')"/>
 
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'groundLevel', 'WARNING')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>        
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'depth', 'WARNING')"/>
-        
-        <xsl:copy-of select="sikb:checkLookupId(., $record, 'measurementObjectType', 'MeetObjectSoort', 'WARNING')"/>
-        <xsl:variable name="layers" select="//imsikb0101:Layer[sam:relatedSamplingFeature/sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href = concat('#', $prGUID) and sam:relatedSamplingFeature/sam:SamplingFeatureComplex/sam:role/@xlink:href = 'urn:immetingen:RelatedSamplingFeatureRollen:id:4']"/>
-        <xsl:copy-of select="sikb:checkConnectedLayers($record, $layers)"/>
-        
-        <xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
-        
-        <xsl:if test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
-            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Borehole', string-join(('This Borehole will be ignored, because it has an unsupported measurementObjectType; Borehole gml:id =',  $prGUID), ' ') )"/>
-        </xsl:if>
+		<xsl:choose>
+		  <xsl:when test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
+            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Borehole', string-join(('This Borehole will be ignored, because it has an unsupported measurementObjectType; Borehole ',  $record), ' ') )"/>
+		  </xsl:when>
+		  <xsl:otherwise>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'geometry', 'WARNING')"/>        
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'geometry', 'WARNING')"/>
+			<xsl:copy-of select="sikb:checkGeometryElement(., $record, 'gml:Point', 'ERROR')"/>
+	
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'groundLevel', 'WARNING')"/>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>        
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'depth', 'WARNING')"/>
+			
+			<xsl:copy-of select="sikb:checkLookupId(., $record, 'measurementObjectType', 'MeetObjectSoort', 'WARNING')"/>
+			<xsl:variable name="layers" select="//imsikb0101:Layer[sam:relatedSamplingFeature/sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href = concat('#', $prGUID) and sam:relatedSamplingFeature/sam:SamplingFeatureComplex/sam:role/@xlink:href = 'urn:immetingen:RelatedSamplingFeatureRollen:id:4']"/>
+			<xsl:copy-of select="sikb:checkConnectedLayers($record, $layers)"/>
+			
+			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
+		  </xsl:otherwise>
+		</xsl:choose>		
+	
     </xsl:template>
     <xsl:template match="immetingen:MeasurementObject">
         <xsl:variable name="prGUID" select="@gml:id"/>
 		<xsl:variable name="rcdName" select="immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'geometry', 'WARNING')"/>        
-        <xsl:copy-of select="sikb:checkFilled(., $record, 'geometry', 'WARNING')"/>
-        <xsl:copy-of select="sikb:checkGeometryElement(., $record, 'gml:Point', 'ERROR')"/>
-        
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'WARNING')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $record, 'startTime', 'WARNING')"/>
-        <xsl:copy-of select="sikb:checkLookupId(., $record, 'measurementObjectType', 'MeetObjectSoort', 'WARNING')"/>
-        <xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>
 
-        <xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
-        
-
-        <xsl:if test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
+		<xsl:choose>
+		  <xsl:when test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
             <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:MeasurementObject', string-join(('This MeasurementObject will be ignored, because it has an unsupported measurementObjectType; Borehole ',  $record), ' ') )"/>
-        </xsl:if>
+		  </xsl:when>
+		  <xsl:otherwise>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'geometry', 'WARNING')"/>        
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'geometry', 'WARNING')"/>
+			<xsl:copy-of select="sikb:checkGeometryElement(., $record, 'gml:Point', 'ERROR')"/>
+			
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'WARNING')"/>
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'startTime', 'WARNING')"/>
+			<xsl:copy-of select="sikb:checkLookupId(., $record, 'measurementObjectType', 'MeetObjectSoort', 'WARNING')"/>
+			<xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>
+	
+			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
+		  </xsl:otherwise>
+		</xsl:choose>				
+		        
     </xsl:template>
     <!-- Layers-->
     <xsl:template match="imsikb0101:Layer">
