@@ -210,7 +210,10 @@
         
         <xsl:copy-of select="sikb:checkExistence(., $record, 'samplingTime', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'ERROR')"/>        
+        <xsl:copy-of select="sikb:checkFilled(., $record, 'samplingTime', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkFilled(., $record, 'startTime', 'ERROR')"/>     
         <xsl:copy-of select="sikb:checkExistence(., $record, 'materialClass', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkFilled(., $record, 'materialClass', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $record, 'materialClass', 'Compartiment', 'ERROR')"/>
         
         <!-- veldmonsters (niet grond)-->
