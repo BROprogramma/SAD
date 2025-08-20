@@ -82615,8 +82615,8 @@
 			<Omschrijving>millisiemens per meter</Omschrijving>
 			<Omrekenfactor>0.001</Omrekenfactor>
 			<Groep>SI afgeleide eenheid</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
