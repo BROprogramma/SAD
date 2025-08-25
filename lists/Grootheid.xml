@@ -61,7 +61,7 @@
         <SIKB0101ID>3548</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <ToegestaneEenheid>microsiemens per centimeter (18)</ToegestaneEenheid>
+        <ToegestaneEenheid>microsiemens per centimeter (18), millisiemens per meter (74)</ToegestaneEenheid>
     </Grootheid>
     <Grootheid>
         <Waarde>verzadigingsgraad</Waarde>
