@@ -79,7 +79,7 @@
         </ArrayOfLogRecord>
     </xsl:template>
     <xsl:template match="om:result">        
-		<xsl:variable name="arGUID" select="../../@gml:id"/>    
+		<xsl:variable name="arGUID" select="../@gml:id"/>    
 		<xsl:variable name="arRecord" select="string-join(('waarneming (',$arGUID, ')'),' ')"/>                       
 		<xsl:copy-of select="sikb:checkLookupId(., $arRecord, 'classifiedResult', '*', 'WARNING')"/>        
     </xsl:template>    
