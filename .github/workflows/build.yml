@@ -1,18 +1,10 @@
 name: Build / check
 on:
   workflow_call:
-    inputs:
-      target_branch:
-        description: "Branch om naar terug te pushen (voorkeursweg: door de caller vullen)"
-        required: false
-        type: string
-
-permissions:
-  contents: write
-
 env:
   CHECK_DIR: ".checks"
-
+permissions:
+  contents: write
 jobs:
   build:
     name: Snapshot + Checks
@@ -20,8 +12,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # nodig om branches te kunnen vinden die deze commit bevatten
 
       - name: Prepare directories
         run: |
@@ -106,50 +96,17 @@ jobs:
             http://localhost:8080/snapshot.html \
             --buffer-size 8192 > $CHECK_DIR/link-check.txt 2>&1 || echo "Geen linkfouten gevonden." > $CHECK_DIR/link-check.txt
 
-      # >>> Nieuw: bepaal de echte target branch
-      - name: Determine target branch
-        id: tgt
-        shell: bash
-        run: |
-          set -eo pipefail
-          TARGET="${{ inputs.target_branch }}"
-          if [[ -z "$TARGET" ]]; then
-            if [[ "${{ github.ref_type }}" == "branch" ]]; then
-              TARGET="${{ github.ref_name }}"
-            else
-              # Run draait op een tag: zoek een branch die deze commit bevat
-              git fetch --all --prune
-              TARGET="$(git for-each-ref --format='%(refname:short)' --contains "$(git rev-parse HEAD)" refs/remotes/origin \
-                | sed -n 's#^origin/##p' | head -n1)"
-              if [[ -z "$TARGET" ]]; then
-                # fallback: default branch van origin
-                TARGET="$(git symbolic-ref --short refs/remotes/origin/HEAD | sed 's#^origin/##')"
-              fi
-            fi
-          fi
-          echo "name=$TARGET" >> "$GITHUB_OUTPUT"
-          echo "Target branch: $TARGET"
-
       - name: Commit all results
         env:
-          TARGET_BRANCH: ${{ steps.tgt.outputs.name }}
+          BRANCH_NAME: ${{ github.ref_name }}
         run: |
-          set -eo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 1) Stash alle wijzigingen (ook untracked), zodat we schoon kunnen pullen
-          git stash push --include-untracked -m "ci-artifacts" || true
+          # (optioneel, maar handig als checkout in detached HEAD staat)
+          git fetch origin "${BRANCH_NAME}"
+          git switch "${BRANCH_NAME}" || git switch -c "${BRANCH_NAME}"
 
-          # 2) Zorg dat we op de juiste branch staan en up-to-date zijn
-          git fetch origin "$TARGET_BRANCH"
-          git switch "$TARGET_BRANCH" || git switch -c "$TARGET_BRANCH" --track "origin/$TARGET_BRANCH"
-          git pull --rebase --autostash origin "$TARGET_BRANCH" || true
-
-          # 3) Zet de gestashte artifacts terug
-          git stash pop || true
-
-          # 4) Verplaats pdf's (indien aanwezig) en stage alles
           if [[ "${{ steps.config.outputs.grep }}" == "true" ]] && ls static/*.pdf 1>/dev/null 2>&1; then
             mv static/*.pdf .
           fi
@@ -159,9 +116,10 @@ jobs:
             git add *.pdf
           fi
 
-          # 5) Commit & push terug naar de branch (expliciet naar heads/, nooit naar een tag)
           git commit -m "Snapshot + checks gegenereerd" || echo "No changes to commit"
-          git push --force-with-lease origin HEAD:"refs/heads/$TARGET_BRANCH"
+
+          # Push terug naar de branch die deze workflow runt
+          git push --force-with-lease origin HEAD:"${BRANCH_NAME}"
 
       - name: Upload snapshot artifact
         uses: actions/upload-artifact@v4
