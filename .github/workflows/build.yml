@@ -130,32 +130,38 @@ jobs:
           echo "name=$TARGET" >> "$GITHUB_OUTPUT"
           echo "Target branch: $TARGET"
 
-      - name: Commit all results
+            - name: Commit all results
         env:
           TARGET_BRANCH: ${{ steps.tgt.outputs.name }}
-        run: |
-          set -eo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          run: |
+            set -eo pipefail
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Zorg dat we echt op de target branch staan en up-to-date zijn
-          git fetch origin "$TARGET_BRANCH"
-          git switch "$TARGET_BRANCH" || git switch -c "$TARGET_BRANCH" --track "origin/$TARGET_BRANCH"
-          git pull --rebase origin "$TARGET_BRANCH"
+            # 1) Stash alle wijzigingen (ook untracked), zodat we schoon kunnen pullen
+            git stash push --include-untracked -m "ci-artifacts" || true
 
-          if [[ "${{ steps.config.outputs.grep }}" == "true" ]] && ls static/*.pdf 1>/dev/null 2>&1; then
-            mv static/*.pdf .
-          fi
+            # 2) Zorg dat we op de juiste branch staan en up-to-date zijn
+            git fetch origin "$TARGET_BRANCH"
+            git switch "$TARGET_BRANCH" || git switch -c "$TARGET_BRANCH" --track "origin/$TARGET_BRANCH"
+            git pull --rebase --autostash origin "$TARGET_BRANCH" || true
 
-          git add snapshot.html $CHECK_DIR/*.txt || true
-          if compgen -G "*.pdf" > /dev/null; then
-            git add *.pdf
-          fi
+            # 3) Zet de gestashte artifacts terug
+            git stash pop || true
 
-          git commit -m "Snapshot + checks gegenereerd" || echo "No changes to commit"
+            # 4) Verplaats pdf's (indien aanwezig) en stage alles
+            if [[ "${{ steps.config.outputs.grep }}" == "true" ]] && ls static/*.pdf 1>/dev/null 2>&1; then
+              mv static/*.pdf .
+            fi
 
-          # Push terug naar branch (expliciet naar heads/, niet naar een tag)
-          git push --force-with-lease origin HEAD:"refs/heads/$TARGET_BRANCH"
+            git add snapshot.html $CHECK_DIR/*.txt || true
+            if compgen -G "*.pdf" > /dev/null; then
+              git add *.pdf
+            fi
+
+            # 5) Commit & push terug naar de branch (expliciet naar heads/, nooit naar een tag)
+            git commit -m "Snapshot + checks gegenereerd" || echo "No changes to commit"
+            git push --force-with-lease origin HEAD:"refs/heads/$TARGET_BRANCH"
 
       - name: Upload snapshot artifact
         uses: actions/upload-artifact@v4
