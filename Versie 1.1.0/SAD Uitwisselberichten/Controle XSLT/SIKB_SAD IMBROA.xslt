@@ -64,8 +64,8 @@
             <xsl:apply-templates select="//imsikb0101:Filter"/>
             <xsl:apply-templates select="//immetingen:MeasurementObject"/>
             <xsl:apply-templates select="//imsikb0101:Borehole"/>
-            <xsl:apply-templates select="//imsikb0101:Layer"/>
-            <xsl:apply-templates select="//imsikb0101:Sample"/>
+            <!-- per borehole: <xsl:apply-templates select="//imsikb0101:Layer"/>-->
+            <!-- per borehole: <xsl:apply-templates select="//imsikb0101:Sample"/>-->
             <xsl:apply-templates select="//immetingen:Analysis"/>
             <xsl:apply-templates select="//immetingen:AnalysisProcess"/>
             <xsl:apply-templates select="//imsikb0101:featureMember"/>
@@ -324,6 +324,35 @@
 			
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
+			
+			
+			<!-- check layers and samples of borehole 
+				<sam:relatedSamplingFeature>
+					<sam:SamplingFeatureComplex>
+						<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:2"/>
+						<sam:relatedSamplingFeature xlink:href="#_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7"/>
+					</sam:SamplingFeatureComplex>		
+				</sam:relatedSamplingFeature>		
+			-->
+			<xsl:for-each select="./sam:relatedSamplingFeature">
+				<xsl:variable name="linkedId" select="replace(./sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href, '#','')"/>            
+				<xsl:variable name="roleUrn" select="replace(./sam:SamplingFeatureComplex/sam:role/@xlink:href, '#','')"/>   
+				<xsl:variable name="roleId" select="substring-after($roleUrn, ':id:')"/>
+				
+				<xsl:choose>
+				  <xsl:when test="$roleId = '2'">        
+					<!-- Valideren Layers -->
+					<xsl:variable name="layer" select="//imsikb0101:Layer[@gml:id = $linkedId]"/>                     
+					<xsl:apply-templates select="$layer"/>
+				  </xsl:when>
+				  <xsl:when test="$roleId = '1'">        
+					<!-- Valideren Samples -->
+					<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>                     
+					<xsl:apply-templates select="$sample"/>
+				  </xsl:when>				 
+				</xsl:choose>			
+			</xsl:for-each>						
+			
 		  </xsl:otherwise>
 		</xsl:choose>		
 	
