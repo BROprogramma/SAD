@@ -3,8 +3,6 @@ on:
   workflow_call:
 env:
   CHECK_DIR: ".checks"
-permissions:
-  contents: write
 jobs:
   build:
     name: Snapshot + Checks
@@ -21,10 +19,11 @@ jobs:
         run: npx respec --localhost --src index.html --out snapshot.html
 
       - name: Validate HTML
-        continue-on-error: true
         run: |
-          npm install -g nu-html-checker
-          nu-html-checker snapshot.html
+          docker run --rm -v "$PWD:/site" ghcr.io/validator/validator:latest \
+            vnu --errors-only --skip-non-html --format json /site/snapshot.html \
+            | tee $CHECK_DIR/html-validation.json
+
 
       - name: Check for alternateFormats
         id: config
@@ -97,29 +96,26 @@ jobs:
             --buffer-size 8192 > $CHECK_DIR/link-check.txt 2>&1 || echo "Geen linkfouten gevonden." > $CHECK_DIR/link-check.txt
 
       - name: Commit all results
-        env:
-          BRANCH_NAME: ${{ github.ref_name }}
+        if: >
+          github.event_name == 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # (optioneel, maar handig als checkout in detached HEAD staat)
-          git fetch origin "${BRANCH_NAME}"
-          git switch "${BRANCH_NAME}" || git switch -c "${BRANCH_NAME}"
 
           if [[ "${{ steps.config.outputs.grep }}" == "true" ]] && ls static/*.pdf 1>/dev/null 2>&1; then
             mv static/*.pdf .
           fi
 
-          git add snapshot.html $CHECK_DIR/*.txt || true
+          git add snapshot.html $CHECK_DIR/*.txt
+
           if compgen -G "*.pdf" > /dev/null; then
             git add *.pdf
           fi
 
           git commit -m "Snapshot + checks gegenereerd" || echo "No changes to commit"
 
-          # Push terug naar de branch die deze workflow runt
-          git push --force-with-lease origin HEAD:"${BRANCH_NAME}"
+          BRANCH=${GITHUB_REF#refs/heads/}
+          git push --force-with-lease origin HEAD:"$BRANCH"
 
       - name: Upload snapshot artifact
         uses: actions/upload-artifact@v4

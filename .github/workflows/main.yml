@@ -1,9 +1,11 @@
 name: Main Workflow
 on:
   push:
+    branches:
+      - '**'
   pull_request:
   release:
-    types: [published]
+    types: [published, prereleased]
 
 jobs:
   build:
