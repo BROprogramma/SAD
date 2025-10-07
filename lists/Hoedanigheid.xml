@@ -121,10 +121,22 @@
 		<Omschrijving>uitgedrukt in 180 g TZV / drooggewicht</Omschrijving>
 	</Hoedanigheid>
 	<Hoedanigheid>
+		<SIKB0101ID>64</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>t.o.v. 20 graden Celsius</Omschrijving>
+	</Hoedanigheid>
+	<Hoedanigheid>
 		<SIKB0101ID>65</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>t.o.v. 20 graden Celsius / in situ gemeten</Omschrijving>
+	</Hoedanigheid>
+	<Hoedanigheid>
+		<SIKB0101ID>67</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>t.o.v. 25 graden Celsius</Omschrijving>
 	</Hoedanigheid>
 	<Hoedanigheid>
 		<SIKB0101ID>68</SIKB0101ID>
