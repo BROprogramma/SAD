@@ -64,6 +64,7 @@
             <!-- per borehole: <xsl:apply-templates select="//imsikb0101:Filter"/> -->
             <xsl:apply-templates select="//immetingen:MeasurementObject"/>
             <xsl:apply-templates select="//imsikb0101:Borehole"/>
+            <xsl:apply-templates select="//imsikb0101:Trench"/>
             <!-- per borehole: <xsl:apply-templates select="//imsikb0101:Layer"/>-->
             <!-- per borehole: <xsl:apply-templates select="//imsikb0101:Sample"/>-->
             <!-- per borehole: <xsl:apply-templates select="//immetingen:Analysis"/> -->
@@ -332,6 +333,14 @@
         <xsl:copy-of select="sikb:checkLookupId(./value, $record, '@uom', 'Eenheid', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $record, 'condition', 'Hoedanigheid', 'WARNING')"/>
     </xsl:template>    
+    <!-- unsupported Trench - IMBRO -->
+    <xsl:template match="imsikb0101:Trench">
+        <xsl:variable name="prGUID" select="@gml:id"/>
+		<xsl:variable name="rcdName" select="immetingen:name"/>    
+		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
+
+		<xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Trench', string-join(('This Trench/Borehole will be ignored, because it has an unsupported Trench type; Borehole ',  $record), ' ') )"/>
+	</xsl:template>    		  
     <!-- Borehole -->
     <xsl:template match="imsikb0101:Borehole">
         <xsl:variable name="prGUID" select="@gml:id"/>
@@ -445,14 +454,16 @@
 			<xsl:variable name="indicatorId" select="substring-after($indicatorUrn, ':id:')"/>
 			<xsl:variable name="result" select="$Characteristic/om:result"/>
 			
+			<xsl:variable name="guids" select="concat('Layer: (', $prGUID, ') Characteristic: (',$linkedId,')')"/>    
+			
 			<xsl:choose>
 				<xsl:when test="$indicatorId = '11' and contains(fn:lower-case($indicatorUrn),fn:lower-case('KenmerkBodemlaag'))">        
 					<!-- Valideren soil type/texture -->					                 
-					<xsl:copy-of select="sikb:checkLookupId($result, $prGUID, 'classifiedResult', 'Bodemsoort', 'ERROR')"/>					
+					<xsl:copy-of select="sikb:checkLookupId($result, $guids, 'classifiedResult', 'Bodemsoort', 'ERROR')"/>					
 				</xsl:when>
 				<xsl:when test="$indicatorId = '1' and contains(fn:lower-case($indicatorUrn),fn:lower-case('KenmerkBodemlaag'))">        
 					<!-- Valideren bzb -->
-					<xsl:copy-of select="sikb:checkLookupId($result, $prGUID, 'classifiedResult', 'BodemlaagBijzonderheden', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkLookupId($result, $guids, 'classifiedResult', 'BodemlaagBijzonderheden', 'ERROR')"/>
 				</xsl:when>						 
 			</xsl:choose>		
 		</xsl:for-each>			
