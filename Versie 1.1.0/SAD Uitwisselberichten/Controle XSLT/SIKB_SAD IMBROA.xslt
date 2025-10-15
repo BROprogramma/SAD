@@ -185,17 +185,20 @@
     <!-- check organizations -->
     <xsl:template match="immetingen:Organization">
 		<xsl:variable name="prGUID" select="@gml:id"/>
+		<xsl:variable name="rcdName" select="immetingen:name"/>    
+		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
+		
 		<!-- Check adviesbureau -->
         <xsl:if test="contains('|64|', concat('|', substring-after(immetingen:organisationType, ':id:'), '|'))">
-            <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'WARNING')"/>
+            <xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'WARNING')"/>
             <xsl:if test="(not(immetingen:chamberOfCommerceNumber) and not(immetingen:europeanCompanyRegistryNumber))">
                 <xsl:variable name="message" select="'In het xml-bestand moet een Adviesbureau (id:64) met een chamberOfCommerceNumber of europeanCompanyRegistryNumber zijn opgenomen.'"/>
                 <xsl:copy-of select="sikb:createRecord('WARNING', 'xml-bestand', $message)"/>
             </xsl:if>    
-            <xsl:copy-of select="sikb:checkLength(., $prGUID,'name', 200, 'WARNING')"/>
-            <xsl:copy-of select="sikb:checkLength(., $prGUID, 'chamberOfCommerceNumber', 40, 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkLength(., $prGUID, 'europeanCompanyRegistryNumber', 40, 'ERROR')"/>
-        </xsl:if>        		
+            <xsl:copy-of select="sikb:checkLength(., $record,'name', 200, 'WARNING')"/>
+            <xsl:copy-of select="sikb:checkLength(., $record, 'chamberOfCommerceNumber', 40, 'ERROR')"/>
+            <xsl:copy-of select="sikb:checkLength(., $record, 'europeanCompanyRegistryNumber', 40, 'ERROR')"/>
+        </xsl:if>   		
 	</xsl:template>
     <!-- Sample -->
     <xsl:template match="imsikb0101:Sample">
@@ -452,6 +455,39 @@
 	
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
+			
+			<!-- check layers and samples of borehole   example xml:
+				<sam:relatedSamplingFeature>
+					<sam:SamplingFeatureComplex>
+						<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:2"/>
+						<sam:relatedSamplingFeature xlink:href="#_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7"/>
+					</sam:SamplingFeatureComplex>		
+				</sam:relatedSamplingFeature>		
+			-->
+			<xsl:for-each select="./sam:relatedSamplingFeature">
+				<xsl:variable name="linkedId" select="replace(./sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href, '#','')"/>            
+				<xsl:variable name="roleUrn" select="replace(./sam:SamplingFeatureComplex/sam:role/@xlink:href, '#','')"/>   
+				<xsl:variable name="roleId" select="substring-after($roleUrn, ':id:')"/>
+				
+				<xsl:choose>
+					<xsl:when test="$roleId = '2'">        
+						<!-- Valideren Layers -->
+						<xsl:variable name="layer" select="//imsikb0101:Layer[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$layer"/>
+					</xsl:when>
+					<xsl:when test="$roleId = '1'">        
+						<!-- Valideren Samples -->
+						<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$sample"/>
+					</xsl:when>	
+					<xsl:when test="$roleId = '5'">        
+						<!-- Valideren Filters -->
+						<xsl:variable name="filter" select="//imsikb0101:Filter[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$filter"/>
+					</xsl:when>				 
+				</xsl:choose>		
+			</xsl:for-each>		
+			
 		  </xsl:otherwise>
 		</xsl:choose>				
 		        
