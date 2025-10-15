@@ -130,15 +130,11 @@
             <xsl:copy-of select="sikb:createRecord('WARNING', string(./name()), $message)"/>
         </xsl:if>
         
-
 		<!-- Check of er in het project minimaal 1 sample is met @xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:6' verwijzing naar een meetpunt -->		
         <xsl:if test="not(//@xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:6')">
             <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet een Sample met role urn:immetingen:RelatedSamplingFeatureRollen:id:6 zijn opgevoerd, tenzij er vanuit Archief geen meetpunten bekend zijn.'), ' '), '  ', ' ')"/>
             <xsl:copy-of select="sikb:createRecord('WARNING', 'xml-bestand', $message)"/>
-        </xsl:if>
-        
-        <!-- todo IMBRO| Loop the conclusie analysemonsters die zonder veldmonster geleverd kunnen worden -->
-        <!-- todo IMBRO/A| Loop the gemengde analysemonsters die zonder veldmonster geleverd kunnen worden -->
+        </xsl:if>                
 			     
         <!-- Check existence Analysis for Watersamples or AnalysisSamples-->
         <xsl:if test="not(//immetingen:Analysis)">
@@ -153,6 +149,16 @@
             <xsl:variable name="docs" select="//imsikb0101:Document[(@gml:id = $documentId and (contains(imsikb0101:documentType, 'id:1')))]"/>                     
             <xsl:apply-templates select="$docs"/>
         </xsl:for-each>		
+        
+        <!-- todo IMBRO| Loop the conclusie analysemonsters die zonder veldmonster geleverd kunnen worden -->
+        <!-- IMBRO/A| Loop the gemengde analysemonsters die zonder veldmonster geleverd kunnen worden --> 
+        <xsl:for-each select="//imsikb0101:Sample[fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')]">
+			<xsl:variable name="linkedFieldSamplesCount" select="count(./sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')])"/>            
+			
+			<xsl:if test="$linkedFieldSamplesCount = 0">
+				<xsl:apply-templates select="."/>
+			</xsl:if>
+		</xsl:for-each>			        
          
     </xsl:template> 
     <!-- Check of er een locatie is meegeleverd -->
