@@ -201,6 +201,9 @@
 		<xsl:variable name="rcdName" select="immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
 		<xsl:variable name="materialClassURN" select="./spec:materialClass/@xlink:href"/>   	
+		<xsl:copy-of select="sikb:checkExistence(., $record, 'materialClass', 'ERROR')"/>
+		<xsl:copy-of select="sikb:checkFilled(./materialClass, $record, 'xlink:href', 'ERROR')"/>
+		<xsl:copy-of select="sikb:checkLookupId(., $record, 'materialClass', 'Compartiment', 'WARNING')"/>
         <xsl:choose>
 		  <xsl:when test="not(contains('|1|2|', concat('|', substring-after($materialClassURN, ':id:'), '|')))">        
             <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('This Sample will be ignored, because it has an unsupported materialClass; Sample ',  $record), ' ') )"/>
@@ -250,11 +253,8 @@
 				<xsl:copy-of select="sikb:checkExistence(., $record, 'samplingTime', 'ERROR')"/>
 				<xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'ERROR')"/>        
 				<xsl:copy-of select="sikb:checkFilled(., $record, 'samplingTime', 'ERROR')"/>
-				<xsl:copy-of select="sikb:checkFilled(., $record, 'startTime', 'ERROR')"/>     
-				<xsl:copy-of select="sikb:checkExistence(., $record, 'materialClass', 'ERROR')"/>
-				<xsl:copy-of select="sikb:checkFilled(./materialClass, $record, 'xlink:href', 'ERROR')"/>
-				<xsl:copy-of select="sikb:checkLookupId(., $record, 'materialClass', 'Compartiment', 'ERROR')"/>
-				
+				<xsl:copy-of select="sikb:checkFilled(., $record, 'startTime', 'ERROR')"/>     								
+		
 				<!-- veldmonsters (niet grond)-->
 				 <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
 					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>
