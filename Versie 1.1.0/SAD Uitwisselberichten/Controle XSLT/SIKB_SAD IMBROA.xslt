@@ -107,11 +107,20 @@
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'reportNumber', 'WARNING')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'investigationReason', 'WARNING')"/>        
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'projectType', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'asbestos', 'WARNING')"/>        
-               
-        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'investigationReason', 'OnderzoekAanleidingen', 'ERROR')"/>
+        
+		<xsl:choose>
+		  <xsl:when test="count(./imsikb0101:investigationReason) > 1">
+			<xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'mag er maar 1 investigationReason / aanleidingOnderzoek zijn opgevoerd'), ' '), '  ', ' ')"/>
+            <xsl:copy-of select="sikb:createRecord('ERROR', 'Project', $message)"/>
+		  </xsl:when>
+		  <xsl:otherwise>		
+			<xsl:copy-of select="sikb:checkFilled(., $prGUID, 'investigationReason', 'WARNING')"/>        
+			<xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'investigationReason', 'OnderzoekAanleidingen', 'ERROR')"/>
+		  </xsl:otherwise>
+		</xsl:choose>
+		        
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'projectType', 'OnderzoekType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'asbestos', 'AsbestAanwezigheid', 'ERROR')"/>
         
