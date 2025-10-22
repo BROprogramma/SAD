@@ -377,8 +377,66 @@
         <xsl:variable name="prGUID" select="@gml:id"/>
 		<xsl:variable name="rcdName" select="immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
-
-		<xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Trench', string-join(('This Trench/Borehole will be ignored, because it has an unsupported Trench type; Borehole ',  $record), ' ') )"/>
+		<xsl:variable name="measurementObjectTypeURN" select="./immetingen:measurementObjectType"/>   	
+		<xsl:choose>
+		  <xsl:when test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after($measurementObjectTypeURN, ':id:'), '|')))">        
+            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Borehole', string-join(('This Borehole will be ignored, because it has an unsupported measurementObjectType; Borehole ',  $record), ' ') )"/>
+		  </xsl:when>
+		  <xsl:otherwise>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'geometry', 'WARNING')"/>        
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'geometry', 'WARNING')"/>
+			<xsl:copy-of select="sikb:checkGeometryElement(., $record, 'gml:Point', 'ERROR')"/>
+	
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'groundLevel', 'WARNING')"/>
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>        
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'depth', 'WARNING')"/>
+			
+			<xsl:copy-of select="sikb:checkLookupId(., $record, 'measurementObjectType', 'MeetObjectSoort', 'WARNING')"/>
+			<xsl:variable name="layers" select="//imsikb0101:Layer[sam:relatedSamplingFeature/sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href = concat('#', $prGUID) and sam:relatedSamplingFeature/sam:SamplingFeatureComplex/sam:role/@xlink:href = 'urn:immetingen:RelatedSamplingFeatureRollen:id:4']"/>
+			<xsl:copy-of select="sikb:checkConnectedLayers($record, $layers)"/>
+			
+			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
+			
+			
+			<!-- check layers and samples of borehole   example xml:
+				<sam:relatedSamplingFeature>
+					<sam:SamplingFeatureComplex>
+						<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:2"/>
+						<sam:relatedSamplingFeature xlink:href="#_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7"/>
+					</sam:SamplingFeatureComplex>		
+				</sam:relatedSamplingFeature>		
+			-->
+			<xsl:for-each select="./sam:relatedSamplingFeature">
+				<xsl:variable name="linkedId" select="replace(./sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href, '#','')"/>            
+				<xsl:variable name="roleUrn" select="replace(./sam:SamplingFeatureComplex/sam:role/@xlink:href, '#','')"/>   
+				<xsl:variable name="roleId" select="substring-after($roleUrn, ':id:')"/>
+				
+				<xsl:choose>
+					<xsl:when test="$roleId = '2'">        
+						<!-- Valideren Layers -->
+						<xsl:variable name="layer" select="//imsikb0101:Layer[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$layer"/>
+					</xsl:when>
+					<xsl:when test="$roleId = '1'">        
+						<!-- Valideren Samples -->
+						<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$sample"/>
+					</xsl:when>	
+					<xsl:when test="$roleId = '5'">        
+						<!-- Valideren Filters -->
+						<xsl:variable name="filter" select="//imsikb0101:Filter[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$filter"/>
+					</xsl:when>				 
+				</xsl:choose>		
+			</xsl:for-each>			
+						
+		  </xsl:otherwise>
+		</xsl:choose>		
 	</xsl:template>    		  
     <!-- Borehole -->
     <xsl:template match="imsikb0101:Borehole">
