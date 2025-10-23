@@ -100,7 +100,7 @@
     <xsl:template match="imsikb0101:Project">
         <xsl:variable name="prGUID" select="@gml:id"/>
         <!--> Check of alle entiteiten aanwezig zijn-->
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'reportNumber', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'reportNumber', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>
         <!--> Check of alle entiteiten gevuld zijn-->
@@ -132,7 +132,7 @@
         <xsl:copy-of select="sikb:checkGeometryElements(.,$prGUID,'gml:Polygon','gml:MultiSurface','ERROR')"/>        
         <!--> Check of the reportDate voor vandaag is en na 1980-->
         <xsl:copy-of select="sikb:checkDateBeforeDate(., $prGUID, 'reportDate', 'current', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'reportDate','1980-01-01T00:00:00.00', 'ERROR')"/>  
+        <xsl:copy-of select="sikb:checkDateAfterDate(., $prGUID, 'reportDate','1980-01-01T00:00:00.00', 'ERROR')"/>          
         
         <!-- Check meetpunten aanwezigheid-->       
         <xsl:if test="not(./*[local-name()='measurementObjects'])">
@@ -160,7 +160,13 @@
             <xsl:apply-templates select="$docs"/>
         </xsl:for-each>		
         
-        <!-- todo IMBRO| Loop the conclusie analysemonsters die zonder veldmonster geleverd kunnen worden -->
+		<!-- todo; check 
+			imsikb0101:Project/imsikb0101:reportNumber
+			or
+			imsikb0101:Project/imsikb0101:documents[immetingen:documentType = urn:immetingen:DocumentBijlageType:id:1]/imsikb0101:title [FIRST]
+			to be present
+			-->
+                
         <!-- IMBRO/A| Loop the gemengde analysemonsters die zonder veldmonster geleverd kunnen worden --> 
         <xsl:for-each select="//imsikb0101:Sample[fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')]">
 			<xsl:variable name="linkedFieldSamplesCount" select="count(./sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')])"/>            
@@ -294,7 +300,8 @@
 				</xsl:if>
 				
 				<!-- analysemonster (niet grond)-->
-				 <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
+				 <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">						 
+						<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedSamplingFeature', 'ERROR')"/>
 						<!-- check aantal deelmonsters, mag max 1 zijn. -->
 						<xsl:if test="count(sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]) > 1">
 							<xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:AnalyticResult', string-join(('Een water analysemonster mag maar 1 relatie naar een deelmonster hebben, en dus geen mengmonster zijn.; Sample',  $record), ' ') )"/>

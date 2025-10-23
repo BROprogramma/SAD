@@ -152,11 +152,26 @@
         <xsl:for-each select="./imsikb0101:documents">
             <xsl:variable name="documentId" select="replace(./@xlink:href, '#','')"/>            
             <!-- alleen 1-eindrapport accepteren -->
-            <xsl:variable name="docs" select="//imsikb0101:Document[(@gml:id = $documentId and (contains(imsikb0101:documentType, 'id:1')))]"/>                     
-            <xsl:apply-templates select="$docs"/>
+            <xsl:variable name="doc" select="//imsikb0101:Document[(@gml:id = $documentId and (contains(imsikb0101:documentType, 'id:1')))]"/>                                 
+            <xsl:apply-templates select="$doc"/>           
         </xsl:for-each>		
+        
+		<!-- todo; check 
+			imsikb0101:Project/imsikb0101:reportNumber
+			or
+			imsikb0101:Project/imsikb0101:documents[immetingen:documentType = urn:immetingen:DocumentBijlageType:id:1]/imsikb0101:title [FIRST]
+			to be present
+			-->
          
-		<!-- todo IMBRO| Loop the conclusie analysemonsters die zonder veldmonster geleverd kunnen worden -->
+		<!-- IMBRO| Loop the conclusie analysemonsters die zonder veldmonster geleverd kunnen worden -->
+		<xsl:for-each select="//imsikb0101:Sample[fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:12')]">
+			<xsl:variable name="linkedFieldSamplesCount" select="count(./sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')])"/>            
+			
+			<xsl:if test="$linkedFieldSamplesCount = 0">
+				<xsl:apply-templates select="."/>
+			</xsl:if>
+		</xsl:for-each>
+		
         <!-- IMBRO/A| Loop the gemengde analysemonsters die zonder veldmonster geleverd kunnen worden --> 
         <xsl:for-each select="//imsikb0101:Sample[fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')]">
 			<xsl:variable name="linkedFieldSamplesCount" select="count(./sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')])"/>            
@@ -277,8 +292,7 @@
 				</xsl:if>
 				<!-- analysemonsters-->
 				 <xsl:if test="fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')">
-					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>
-					
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>					
 					<!-- check aantal deelmonsters, indien groter dan 1 = mengAnalysemonster -->
 					<xsl:if test="count(sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]) > 1">
 						<!-- analysemonster gemengd-->
@@ -300,7 +314,8 @@
 				</xsl:if>
 				
 				<!-- analysemonster (niet grond)-->
-				<xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
+				<xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">					
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedSamplingFeature', 'ERROR')"/>
 					<!-- check aantal deelmonsters, mag max 1 zijn. -->
 					<xsl:if test="count(sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]) > 1">
 						<xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:AnalyticResult', string-join(('Een water analysemonster mag maar 1 relatie naar een deelmonster hebben, en dus geen mengmonster zijn.; Sample',  $record), ' ') )"/>
