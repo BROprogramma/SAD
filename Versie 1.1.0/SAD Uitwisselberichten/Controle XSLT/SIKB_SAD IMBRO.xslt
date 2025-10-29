@@ -97,13 +97,11 @@
     <xsl:template match="imsikb0101:Project">
         <xsl:variable name="prGUID" select="@gml:id"/>
         <!--> Check of alle entiteiten aanwezig zijn-->
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'reportNumber', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>
         <!--> Check of alle entiteiten gevuld zijn-->
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'reportNumber', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'reportDate', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'projectType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'asbestos', 'ERROR')"/>        
@@ -147,21 +145,25 @@
             <xsl:variable name="message" select="'In het xml-bestand is geen Analysis gevonden, klopt dat?'"/>
             <xsl:copy-of select="sikb:createRecord('WARNING', 'xml-bestand', $message)"/>
         </xsl:if>    
-            
-        <!-- check documents van type eindrapport -->
-        <xsl:for-each select="./imsikb0101:documents">
-            <xsl:variable name="documentId" select="replace(./@xlink:href, '#','')"/>            
-            <!-- alleen 1-eindrapport accepteren -->
-            <xsl:variable name="doc" select="//imsikb0101:Document[(@gml:id = $documentId and (contains(imsikb0101:documentType, 'id:1')))]"/>                                 
-            <xsl:apply-templates select="$doc"/>           
-        </xsl:for-each>		
-        
-		<!-- todo; check 
+                            
+		<!-- check 
 			imsikb0101:Project/imsikb0101:reportNumber
 			or
 			imsikb0101:Project/imsikb0101:documents[immetingen:documentType = urn:immetingen:DocumentBijlageType:id:1]/imsikb0101:title [FIRST]
 			to be present
 			-->
+        
+		<xsl:variable name="eindRapportages" select="//imsikb0101:Document[contains(imsikb0101:documentType, 'id:1')]"/>
+		<xsl:variable name="docIds" select="./imsikb0101:documents/@xlink:href"/>
+		<xsl:variable name="docIdsString" select="string-join($docIds, ',')"/>
+        <xsl:variable name="firstEindrapport" select="$eindRapportages[contains($docIdsString,@gml:id)][1]"/>
+        <xsl:variable name="eindrapportTitle" select="$firstEindrapport/imsikb0101:title"/>                        
+        <!-- check first document van type eindrapport -->
+		<xsl:apply-templates select="$firstEindrapport"/>                 
+		<xsl:if test="fn:string-length($eindrapportTitle) &lt; 1 and fn:string-length(./imsikb0101:reportNumber) &lt; 1">
+            <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet Project.reportNumber of Document[type=eindrapport].Title ingevuld zijn. Ze kunnen niet beide leeg zijn.'), ' '), '  ', ' ')"/>
+            <xsl:copy-of select="sikb:createRecord('ERROR', 'Project', $message)"/>
+        </xsl:if>                     	
          
 		<!-- IMBRO| Loop the conclusie analysemonsters die zonder veldmonster geleverd kunnen worden -->
 		<xsl:for-each select="//imsikb0101:Sample[fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:12')]">
@@ -185,8 +187,6 @@
     <xsl:template match="imsikb0101:Document">
         <xsl:variable name="prGUID" select="@gml:id"/>
 
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'title', 'ERROR')"/>                
-        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'title', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'title', 40, 'ERROR')"/>
         
         <!--> Check of the startTime voor vandaag is en na 1980-->
