@@ -60,19 +60,19 @@
             <xsl:apply-templates select="//imsikb0101:SoilLocation"/>
             <xsl:apply-templates select="//imsikb0101:Project"/>           
 			<xsl:apply-templates select="//immetingen:Organization"/>
-            <xsl:apply-templates select="//imsikb0101:Filter"/>
+            <!-- per borehole: <xsl:apply-templates select="//imsikb0101:Filter"/> -->
             <xsl:apply-templates select="//immetingen:MeasurementObject"/>
             <xsl:apply-templates select="//imsikb0101:Borehole"/>
-            <xsl:apply-templates select="//imsikb0101:Layer"/>
-            <xsl:apply-templates select="//imsikb0101:Sample"/>
-            <xsl:apply-templates select="//immetingen:Analysis"/>
+			<xsl:apply-templates select="//imsikb0101:Trench"/>
+            <!-- per borehole: <xsl:apply-templates select="//imsikb0101:Layer"/>-->
+            <!-- per borehole: <xsl:apply-templates select="//imsikb0101:Sample"/>-->
+            <!-- per borehole: <xsl:apply-templates select="//immetingen:Analysis"/> -->
             <xsl:apply-templates select="//immetingen:AnalysisProcess"/>
             <xsl:apply-templates select="//imsikb0101:featureMember"/>
             <xsl:apply-templates select="//imsikb0101:geometry"/>
             <xsl:apply-templates select="//immetingen:Depth"/>            
             <xsl:apply-templates select="//immetingen:Height"/>
-            <xsl:apply-templates select="//imsikb0101:GeographicPosition"/>
-            <xsl:apply-templates select="//imsikb0101:Trench"/>
+            <xsl:apply-templates select="//imsikb0101:GeographicPosition"/>            
             <xsl:apply-templates select="//om:result"/>
             <xsl:apply-templates select="//immetingen:Characteristic"/>  
 			<xsl:apply-templates select="//immetingen:NEN3610ID"/>	        
@@ -97,19 +97,26 @@
     <xsl:template match="imsikb0101:Project">
         <xsl:variable name="prGUID" select="@gml:id"/>
         <!--> Check of alle entiteiten aanwezig zijn-->
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'reportNumber', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>
         <!--> Check of alle entiteiten gevuld zijn-->
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'reportNumber', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'investigationReason', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'reportDate', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'projectType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'asbestos', 'ERROR')"/>        
         
-        <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'investigationReason', 'OnderzoekAanleidingen', 'ERROR')"/>
+		<xsl:choose>
+		  <xsl:when test="count(./imsikb0101:investigationReason) > 1">
+			<xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'mag er maar 1 investigationReason / aanleidingOnderzoek zijn opgevoerd'), ' '), '  ', ' ')"/>
+            <xsl:copy-of select="sikb:createRecord('ERROR', 'Project', $message)"/>
+		  </xsl:when>
+		  <xsl:otherwise>		
+			<xsl:copy-of select="sikb:checkFilled(., $prGUID, 'investigationReason', 'ERROR')"/>        
+			<xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'investigationReason', 'OnderzoekAanleidingen', 'ERROR')"/>
+		  </xsl:otherwise>
+		</xsl:choose>
+		
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'projectType', 'OnderzoekType', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'asbestos', 'AsbestAanwezigheid', 'ERROR')"/>
         
@@ -138,22 +145,48 @@
             <xsl:variable name="message" select="'In het xml-bestand is geen Analysis gevonden, klopt dat?'"/>
             <xsl:copy-of select="sikb:createRecord('WARNING', 'xml-bestand', $message)"/>
         </xsl:if>    
-            
-        <!-- check documents van type eindrapport -->
-        <xsl:for-each select="./imsikb0101:documents">
-            <xsl:variable name="documentId" select="replace(./@xlink:href, '#','')"/>            
-            <!-- alleen 1-eindrapport accepteren -->
-            <xsl:variable name="docs" select="//imsikb0101:Document[(@gml:id = $documentId and (contains(imsikb0101:documentType, 'id:1')))]"/>                     
-            <xsl:apply-templates select="$docs"/>
-        </xsl:for-each>		
+                            
+		<!-- check 
+			imsikb0101:Project/imsikb0101:reportNumber
+			or
+			imsikb0101:Project/imsikb0101:documents[immetingen:documentType = urn:immetingen:DocumentBijlageType:id:1]/imsikb0101:title [FIRST]
+			to be present
+			-->
+        
+		<xsl:variable name="eindRapportages" select="//imsikb0101:Document[contains(imsikb0101:documentType, 'id:1')]"/>
+		<xsl:variable name="docIds" select="./imsikb0101:documents/@xlink:href"/>
+		<xsl:variable name="docIdsString" select="string-join($docIds, ',')"/>
+        <xsl:variable name="firstEindrapport" select="$eindRapportages[contains($docIdsString,@gml:id)][1]"/>
+        <xsl:variable name="eindrapportTitle" select="$firstEindrapport/imsikb0101:title"/>                        
+        <!-- check first document van type eindrapport -->
+		<xsl:apply-templates select="$firstEindrapport"/>                 
+		<xsl:if test="fn:string-length($eindrapportTitle) &lt; 1 and fn:string-length(./imsikb0101:reportNumber) &lt; 1">
+            <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet Project.reportNumber of Document[type=eindrapport].Title ingevuld zijn. Ze kunnen niet beide leeg zijn.'), ' '), '  ', ' ')"/>
+            <xsl:copy-of select="sikb:createRecord('ERROR', 'Project', $message)"/>
+        </xsl:if>                     	
          
+		<!-- IMBRO| Loop the conclusie analysemonsters die zonder veldmonster geleverd kunnen worden -->
+		<xsl:for-each select="//imsikb0101:Sample[fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:12')]">
+			<xsl:variable name="linkedFieldSamplesCount" select="count(./sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')])"/>            
+			
+			<xsl:if test="$linkedFieldSamplesCount = 0">
+				<xsl:apply-templates select="."/>
+			</xsl:if>
+		</xsl:for-each>
+		
+        <!-- IMBRO/A| Loop the gemengde analysemonsters die zonder veldmonster geleverd kunnen worden --> 
+        <xsl:for-each select="//imsikb0101:Sample[fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')]">
+			<xsl:variable name="linkedFieldSamplesCount" select="count(./sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')])"/>            
+			
+			<xsl:if test="$linkedFieldSamplesCount = 0">
+				<xsl:apply-templates select="."/>
+			</xsl:if>
+		</xsl:for-each>	
     </xsl:template> 
     <!-- Check of er een locatie is meegeleverd -->
     <xsl:template match="imsikb0101:Document">
         <xsl:variable name="prGUID" select="@gml:id"/>
 
-        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'title', 'ERROR')"/>                
-        <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'title', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLength(., $prGUID, 'title', 40, 'ERROR')"/>
         
         <!--> Check of the startTime voor vandaag is en na 1980-->
@@ -191,93 +224,155 @@
         <xsl:variable name="prGUID" select="@gml:id"/>        
 		<xsl:variable name="rcdName" select="immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
-        
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'specimenType', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkLookupId(., $record, 'specimenType', 'MonsterType', 'ERROR')"/>
+		<xsl:variable name="materialClassURN" select="./spec:materialClass/@xlink:href"/>   	
+		<xsl:copy-of select="sikb:checkExistence(., $record, 'materialClass', 'ERROR')"/>
+		<xsl:copy-of select="sikb:checkFilled(./materialClass, $record, 'xlink:href', 'ERROR')"/>
+		<xsl:copy-of select="sikb:checkLookupId(., $record, 'materialClass', 'Compartiment', 'WARNING')"/>
         <xsl:choose>
-          <xsl:when test="count(spec:specimenType[fn:lower-case(@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')]) = 1">
-              <!-- VELDMONSTER -->
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'relatedSamplingFeature', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
-          </xsl:otherwise>
-        </xsl:choose>                
-        <xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>	
-        
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'samplingTime', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'ERROR')"/>        
-        <xsl:copy-of select="sikb:checkFilled(., $record, 'samplingTime', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $record, 'startTime', 'ERROR')"/>     
-        <xsl:copy-of select="sikb:checkExistence(., $record, 'materialClass', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkFilled(./materialClass, $record, 'xlink:href', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkLookupId(., $record, 'materialClass', 'Compartiment', 'ERROR')"/>
-        
-        <!-- veldmonsters (niet grond)-->
-		 <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>
-        </xsl:if>
-        <!-- veldmonsters (wel grond)-->
-		 <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1')">
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'upperDepth', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkFilled(., $record, 'upperDepth', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'lowerDepth', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkFilled(., $record, 'lowerDepth', 'ERROR')"/>
-        </xsl:if>
-        <!-- analysemonsters-->
-		 <xsl:if test="fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')">
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>
-            
-            <!-- check aantal deelmonsters, indien groter dan 1 = mengAnalysemonster -->
-            <xsl:if test="count(sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]) > 1">
-                <!-- analysemonster gemengd-->
-                <xsl:copy-of select="sikb:checkExistence(., $record, 'upperDepth', 'ERROR')"/>
-				<xsl:copy-of select="sikb:checkFilled(., $record, 'upperDepth', 'ERROR')"/>
-				<xsl:copy-of select="sikb:checkExistence(., $record, 'lowerDepth', 'ERROR')"/>
-				<xsl:copy-of select="sikb:checkFilled(., $record, 'lowerDepth', 'ERROR')"/>
-            </xsl:if>
-        </xsl:if>
-        
-        <!-- analysemonster (niet grond)-->
-		<xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
-            <!-- check aantal deelmonsters, mag max 1 zijn. -->
-            <xsl:if test="count(sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]) > 1">
-                <xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:AnalyticResult', string-join(('Een water analysemonster mag maar 1 relatie naar een deelmonster hebben, en dus geen mengmonster zijn.; Sample',  $record), ' ') )"/>
-            </xsl:if>
-        </xsl:if>
-                
-        <!-- Conclusiemonster-->
-		 <xsl:if test="fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:12')">
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'relatedSamplingFeature', 'WARNING')"/>
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'upperDepth', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkFilled(., $record, 'upperDepth', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkExistence(., $record, 'lowerDepth', 'ERROR')"/>
-            <xsl:copy-of select="sikb:checkFilled(., $record, 'lowerDepth', 'ERROR')"/>
-        </xsl:if>
-
-        <xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>   
-        
-                
-        <!-- alle analysemonster en conclusiemonster voor GROND -->
-        <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10') 
-                        or fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:12')) 
-                        and fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1')">
-            <!-- Check tov maaiveld -->
-            <xsl:if test="not(fn:lower-case(immetingen:upperDepth/immetingen:Depth/immetingen:condition) = fn:lower-case('urn:immetingen:Hoedanigheid:id:11') 
-                            or fn:lower-case(immetingen:upperDepth/immetingen:Depth/immetingen:condition) = fn:lower-case(''))">
-                <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('Bij een grond analysemonster of asbest conclusiemonster mag de Begindiepte alleen t.o.v. Maaiveld zijn.; Sample',  $record), ' ') )"/>
-            </xsl:if>
-             <xsl:if test="not(fn:lower-case(immetingen:lowerDepth/immetingen:Depth/immetingen:condition) = fn:lower-case('urn:immetingen:Hoedanigheid:id:11') 
-                            or fn:lower-case(immetingen:lowerDepth/immetingen:Depth/immetingen:condition) = fn:lower-case(''))">
-                <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('Bij een grond analysemonster of asbest conclusiemonster mag de Einddiepte alleen t.o.v. Maaiveld zijn.; Sample',  $record), ' ') )"/>
-            </xsl:if>
-        </xsl:if>               
-
+		  <xsl:when test="not(contains('|1|2|', concat('|', substring-after($materialClassURN, ':id:'), '|')))">        
+            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('This Sample will be ignored, because it has an unsupported materialClass; Sample ',  $record), ' ') )"/>
+		  </xsl:when>
+		  <xsl:otherwise>
+				<xsl:copy-of select="sikb:checkExistence(., $record, 'specimenType', 'ERROR')"/>
+				<xsl:copy-of select="sikb:checkLookupId(., $record, 'specimenType', 'MonsterType', 'ERROR')"/>
+				<xsl:choose>
+				  <xsl:when test="count(spec:specimenType[fn:lower-case(@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')]) = 1">
+					  <!-- VELDMONSTER -->
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedSamplingFeature', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
+					
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'samplingTime', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'ERROR')"/>        
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'samplingTime', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'startTime', 'ERROR')"/>    				
+					<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>    								
+					
+					<!-- loop analyse(meng)monsters voor veldmonsters en valideer ze -->
+					<xsl:for-each select="./sam:relatedSamplingFeature">
+						<xsl:variable name="linkedId" select="replace(./sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href, '#','')"/>            
+						<xsl:variable name="roleUrn" select="replace(./sam:SamplingFeatureComplex/sam:role/@xlink:href, '#','')"/>   
+						<xsl:variable name="roleId" select="substring-after($roleUrn, ':id:')"/>
+						
+						<xsl:choose>				
+							<xsl:when test="$roleId = '9'">        
+								<!-- Valideren Samples -->
+								<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>      
+								<xsl:variable name="linkedFieldSamples" select="$sample/sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]"/>            
+						
+								<!-- analysisSample with 1 fieldsample -->
+								<xsl:if test="count($linkedFieldSamples) = 1">
+									<xsl:apply-templates select="$sample"/>
+								</xsl:if>              																											
+								<!-- if mixedSample, loop it once, not multiple times. so check the first relationNr in the analysissample of the fieldsample -->	
+								<xsl:if test="count($linkedFieldSamples) > 1 and replace($linkedFieldSamples[1]/sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href , '#','') = $prGUID">									
+									<xsl:apply-templates select="$sample"/>
+								</xsl:if>  								    
+							</xsl:when>
+						</xsl:choose>		
+					</xsl:for-each>	
+								
+					<!-- check alle Analysis records -->
+					<xsl:for-each select="./sam:relatedObservation">
+						<xsl:variable name="linkedId" select="replace(./@xlink:href, '#','')"/>            
+						<xsl:variable name="analysis" select="//immetingen:Analysis[@gml:id = $linkedId]"/>          			
+						<xsl:apply-templates select="$analysis">
+							<xsl:with-param name="physicalPropertySeverity">WARNING</xsl:with-param>
+						</xsl:apply-templates>
+					</xsl:for-each>		
+					
+				  </xsl:when>
+				  <xsl:otherwise>
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
+				  </xsl:otherwise>
+				</xsl:choose>                
+				<xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>	
+				
+		
+				<!-- veldmonsters (niet grond)-->
+				 <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>
+				</xsl:if>
+				<!-- veldmonsters (wel grond)-->
+				 <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1')">
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'upperDepth', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'upperDepth', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'lowerDepth', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'lowerDepth', 'ERROR')"/>
+				</xsl:if>
+				<!-- analysemonsters-->
+				 <xsl:if test="fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')">
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>					
+					<!-- check aantal deelmonsters, indien groter dan 1 = mengAnalysemonster -->
+					<xsl:if test="count(sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]) > 1">
+						<!-- analysemonster gemengd-->
+						<xsl:copy-of select="sikb:checkExistence(., $record, 'upperDepth', 'ERROR')"/>
+						<xsl:copy-of select="sikb:checkFilled(., $record, 'upperDepth', 'ERROR')"/>
+						<xsl:copy-of select="sikb:checkExistence(., $record, 'lowerDepth', 'ERROR')"/>
+						<xsl:copy-of select="sikb:checkFilled(., $record, 'lowerDepth', 'ERROR')"/>
+					</xsl:if>
+					
+					<!-- check alle Analysis records -->
+					<xsl:for-each select="./sam:relatedObservation">
+						<xsl:variable name="linkedId" select="replace(./@xlink:href, '#','')"/>            
+						<xsl:variable name="analysis" select="//immetingen:Analysis[@gml:id = $linkedId]"/>          			
+						<xsl:apply-templates select="$analysis">
+							<xsl:with-param name="physicalPropertySeverity">ERROR</xsl:with-param>
+						</xsl:apply-templates>
+					</xsl:for-each>
+					
+				</xsl:if>
+				
+				<!-- analysemonster (niet grond)-->
+				<xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">					
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedSamplingFeature', 'ERROR')"/>
+					<!-- check aantal deelmonsters, mag max 1 zijn. -->
+					<xsl:if test="count(sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]) > 1">
+						<xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:AnalyticResult', string-join(('Een water analysemonster mag maar 1 relatie naar een deelmonster hebben, en dus geen mengmonster zijn.; Sample',  $record), ' ') )"/>
+					</xsl:if>
+				</xsl:if>
+						
+				<!-- Conclusiemonster-->
+				 <xsl:if test="fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:12')">
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedSamplingFeature', 'WARNING')"/>
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'upperDepth', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'upperDepth', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'lowerDepth', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'lowerDepth', 'ERROR')"/>
+					
+					<!-- check alle Analysis records -->
+					<xsl:for-each select="./sam:relatedObservation">
+						<xsl:variable name="linkedId" select="replace(./@xlink:href, '#','')"/>            
+						<xsl:variable name="analysis" select="//immetingen:Analysis[@gml:id = $linkedId]"/>          			
+						<xsl:apply-templates select="$analysis">
+							<xsl:with-param name="physicalPropertySeverity">ERROR</xsl:with-param>
+						</xsl:apply-templates>
+					</xsl:for-each>	
+				</xsl:if>	
+				
+				<xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>
+				</xsl:if>       
+						
+				<!-- alle analysemonster en conclusiemonster voor GROND -->
+				<xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10') 
+								or fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:12')) 
+								and fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1')">
+					<!-- Check tov maaiveld -->
+					<xsl:if test="not(fn:lower-case(immetingen:upperDepth/immetingen:Depth/immetingen:condition) = fn:lower-case('urn:immetingen:Hoedanigheid:id:11') 
+									or fn:lower-case(immetingen:upperDepth/immetingen:Depth/immetingen:condition) = fn:lower-case(''))">
+						<xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('Bij een grond analysemonster of asbest conclusiemonster mag de Begindiepte alleen t.o.v. Maaiveld zijn.; Sample',  $record), ' ') )"/>
+					</xsl:if>
+					 <xsl:if test="not(fn:lower-case(immetingen:lowerDepth/immetingen:Depth/immetingen:condition) = fn:lower-case('urn:immetingen:Hoedanigheid:id:11') 
+									or fn:lower-case(immetingen:lowerDepth/immetingen:Depth/immetingen:condition) = fn:lower-case(''))">
+						<xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Sample', string-join(('Bij een grond analysemonster of asbest conclusiemonster mag de Einddiepte alleen t.o.v. Maaiveld zijn.; Sample',  $record), ' ') )"/>
+					</xsl:if>
+				</xsl:if>               
+			</xsl:otherwise>
+		</xsl:choose>
     </xsl:template>    
     <!-- Analysis Process-->
     <xsl:template match="immetingen:AnalysisProcess">
@@ -290,15 +385,16 @@
 		<xsl:variable name="prGUID" select="@gml:id"/>
 		<xsl:variable name="rcdName" select="immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
-		
+		<xsl:variable name="measurementObjectTypeURN" select="./immetingen:measurementObjectType"/>
+		<xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
+		<xsl:copy-of select="sikb:checkFilled(., $record, 'measurementObjectType', 'ERROR')"/>   	
 		<xsl:choose>
-		  <xsl:when test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
-			<xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Borehole', string-join(('This Borehole will be ignored, because it has an unsupported measurementObjectType; Borehole ',  $record), ' ') )"/>
-		  </xsl:when>
+		  <xsl:when test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after($measurementObjectTypeURN, ':id:'), '|')))">        
+            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Borehole', string-join(('This Borehole will be ignored, because it has an unsupported measurementObjectType; Borehole ',  $record), ' ') )"/>
+		  </xsl:when>		  
 		  <xsl:otherwise>
 			<xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
-			<xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkExistence(., $record, 'geometry', 'ERROR')"/>        
 			<xsl:copy-of select="sikb:checkFilled(., $record, 'geometry', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkGeometryElement(., $record, 'gml:Point', 'ERROR')"/>
@@ -315,6 +411,39 @@
 			
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>
+			
+			<!-- check layers and samples of borehole   example xml:
+				<sam:relatedSamplingFeature>
+					<sam:SamplingFeatureComplex>
+						<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:2"/>
+						<sam:relatedSamplingFeature xlink:href="#_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7"/>
+					</sam:SamplingFeatureComplex>		
+				</sam:relatedSamplingFeature>		
+			-->
+			<xsl:for-each select="./sam:relatedSamplingFeature">
+				<xsl:variable name="linkedId" select="replace(./sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href, '#','')"/>            
+				<xsl:variable name="roleUrn" select="replace(./sam:SamplingFeatureComplex/sam:role/@xlink:href, '#','')"/>   
+				<xsl:variable name="roleId" select="substring-after($roleUrn, ':id:')"/>
+				
+				<xsl:choose>
+					<xsl:when test="$roleId = '2'">        
+						<!-- Valideren Layers -->
+						<xsl:variable name="layer" select="//imsikb0101:Layer[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$layer"/>
+					</xsl:when>
+					<xsl:when test="$roleId = '1'">        
+						<!-- Valideren Samples -->
+						<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$sample"/>
+					</xsl:when>	
+					<xsl:when test="$roleId = '5'">        
+						<!-- Valideren Filters -->
+						<xsl:variable name="filter" select="//imsikb0101:Filter[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$filter"/>
+					</xsl:when>				 
+				</xsl:choose>		
+			</xsl:for-each>		
+			
 		  </xsl:otherwise>
 		</xsl:choose>
 
@@ -324,15 +453,16 @@
         <xsl:variable name="prGUID" select="@gml:id"/>
 		<xsl:variable name="rcdName" select="immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
-
+		<xsl:variable name="measurementObjectTypeURN" select="./immetingen:measurementObjectType"/>   		
+		<xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
+		<xsl:copy-of select="sikb:checkFilled(., $record, 'measurementObjectType', 'ERROR')"/>   		
 		<xsl:choose>
-		  <xsl:when test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
-            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Borehole', string-join(('This Trench will be ignored, because it has an unsupported measurementObjectType; Trench',  $record), ' ') )"/>
+		  <xsl:when test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after($measurementObjectTypeURN, ':id:'), '|')))">        
+            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Borehole', string-join(('This Borehole will be ignored, because it has an unsupported measurementObjectType; Borehole ',  $record), ' ') )"/>
 		  </xsl:when>
 		  <xsl:otherwise>
 			<xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
-			<xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
 			
 			<xsl:copy-of select="sikb:checkExistence(., $record, 'geometry', 'ERROR')"/>        
 			<xsl:copy-of select="sikb:checkFilled(., $record, 'geometry', 'ERROR')"/>
@@ -349,6 +479,39 @@
 			
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>
+			
+			<!-- check layers and samples of borehole   example xml:
+				<sam:relatedSamplingFeature>
+					<sam:SamplingFeatureComplex>
+						<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:2"/>
+						<sam:relatedSamplingFeature xlink:href="#_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7"/>
+					</sam:SamplingFeatureComplex>		
+				</sam:relatedSamplingFeature>		
+			-->
+			<xsl:for-each select="./sam:relatedSamplingFeature">
+				<xsl:variable name="linkedId" select="replace(./sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href, '#','')"/>            
+				<xsl:variable name="roleUrn" select="replace(./sam:SamplingFeatureComplex/sam:role/@xlink:href, '#','')"/>   
+				<xsl:variable name="roleId" select="substring-after($roleUrn, ':id:')"/>
+				
+				<xsl:choose>
+					<xsl:when test="$roleId = '2'">        
+						<!-- Valideren Layers -->
+						<xsl:variable name="layer" select="//imsikb0101:Layer[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$layer"/>
+					</xsl:when>
+					<xsl:when test="$roleId = '1'">        
+						<!-- Valideren Samples -->
+						<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$sample"/>
+					</xsl:when>	
+					<xsl:when test="$roleId = '5'">        
+						<!-- Valideren Filters -->
+						<xsl:variable name="filter" select="//imsikb0101:Filter[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$filter"/>
+					</xsl:when>				 
+				</xsl:choose>		
+			</xsl:for-each>		
+			
 		  </xsl:otherwise>
 		</xsl:choose>
 				        
@@ -357,15 +520,16 @@
         <xsl:variable name="prGUID" select="@gml:id"/>
 		<xsl:variable name="rcdName" select="immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
-
-		<xsl:choose>	
-		  <xsl:when test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after(./*[local-name()='measurementObjectType'], ':id:'), '|')))">        
-            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:MeasurementObject', string-join(('This MeasurementObject will be ignored, because it has an unsupported measurementObjectType; Borehole ',  $record), ' ') )"/>
+		<xsl:variable name="measurementObjectTypeURN" select="./immetingen:measurementObjectType"/>  		
+		<xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
+		<xsl:copy-of select="sikb:checkFilled(., $record, 'measurementObjectType', 'ERROR')"/>   	 	
+		<xsl:choose>
+		  <xsl:when test="not(contains('|1|6|12|16|18|21|', concat('|', substring-after($measurementObjectTypeURN, ':id:'), '|')))">        
+            <xsl:copy-of select="sikb:createRecord('WARNING', 'imsikb0101:Borehole', string-join(('This Borehole will be ignored, because it has an unsupported measurementObjectType; Borehole ',  $record), ' ') )"/>
 		  </xsl:when>
 		  <xsl:otherwise>
 			<xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
-			<xsl:copy-of select="sikb:checkExistence(., $record, 'measurementObjectType', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkExistence(., $record, 'geometry', 'ERROR')"/>        
 			<xsl:copy-of select="sikb:checkFilled(., $record, 'geometry', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkGeometryElement(., $record, 'gml:Point', 'ERROR')"/>
@@ -377,6 +541,38 @@
 	
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>
+			
+			<!-- check layers and samples of borehole   example xml:
+				<sam:relatedSamplingFeature>
+					<sam:SamplingFeatureComplex>
+						<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:2"/>
+						<sam:relatedSamplingFeature xlink:href="#_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7"/>
+					</sam:SamplingFeatureComplex>		
+				</sam:relatedSamplingFeature>		
+			-->
+			<xsl:for-each select="./sam:relatedSamplingFeature">
+				<xsl:variable name="linkedId" select="replace(./sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href, '#','')"/>            
+				<xsl:variable name="roleUrn" select="replace(./sam:SamplingFeatureComplex/sam:role/@xlink:href, '#','')"/>   
+				<xsl:variable name="roleId" select="substring-after($roleUrn, ':id:')"/>
+				
+				<xsl:choose>
+					<xsl:when test="$roleId = '2'">        
+						<!-- Valideren Layers -->
+						<xsl:variable name="layer" select="//imsikb0101:Layer[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$layer"/>
+					</xsl:when>
+					<xsl:when test="$roleId = '1'">        
+						<!-- Valideren Samples -->
+						<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$sample"/>
+					</xsl:when>	
+					<xsl:when test="$roleId = '5'">        
+						<!-- Valideren Filters -->
+						<xsl:variable name="filter" select="//imsikb0101:Filter[@gml:id = $linkedId]"/>                     
+						<xsl:apply-templates select="$filter"/>
+					</xsl:when>				 
+				</xsl:choose>		
+			</xsl:for-each>		
 			
 		  </xsl:otherwise>
 		</xsl:choose>		
@@ -390,6 +586,30 @@
         <xsl:copy-of select="sikb:checkSamplingFeatureRelation(., $prGUID, 'role', '4', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'upperDepth', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'lowerDepth', 'ERROR')"/>
+		
+		<!-- Check observations, example xml releaties	-->
+		<xsl:for-each select="./sam:relatedObservation">
+			<xsl:variable name="linkedId" select="replace(./@xlink:href, '#','')"/>            
+
+			<xsl:variable name="Characteristic" select="//immetingen:Characteristic[@gml:id = $linkedId]"/>   
+			<xsl:variable name="indicatorUrn" select="$Characteristic/immetingen:indicator"/>   
+			<xsl:variable name="indicatorId" select="substring-after($indicatorUrn, ':id:')"/>
+			<xsl:variable name="result" select="$Characteristic/om:result"/>
+			
+			<xsl:variable name="guids" select="concat('Layer: (', $prGUID, ') Characteristic: (',$linkedId,')')"/>    
+			
+			<xsl:choose>
+				<xsl:when test="$indicatorId = '11' and contains(fn:lower-case($indicatorUrn),fn:lower-case('KenmerkBodemlaag'))">        
+					<!-- Valideren soil type/texture -->					                 
+					<xsl:copy-of select="sikb:checkLookupId($result, $guids, 'classifiedResult', 'Bodemsoort', 'ERROR')"/>					
+				</xsl:when>
+				<xsl:when test="$indicatorId = '1' and contains(fn:lower-case($indicatorUrn),fn:lower-case('KenmerkBodemlaag'))">        
+					<!-- Valideren bzb -->
+					<xsl:copy-of select="sikb:checkLookupId($result, $guids, 'classifiedResult', 'BodemlaagBijzonderheden', 'ERROR')"/>
+				</xsl:when>						 
+			</xsl:choose>		
+		</xsl:for-each>			
+		
     </xsl:template>
         <!-- Diepte-->
     <xsl:template match="immetingen:Depth">                
@@ -426,6 +646,23 @@
         <xsl:copy-of select="sikb:checkExistence(., $record, 'lowerDepth', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $record, 'lowerDepth', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>
+		
+		<!-- loop veldmonsters water en valideer ze -->
+		<xsl:for-each select="./sam:relatedSamplingFeature">
+			<xsl:variable name="linkedId" select="replace(./sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href, '#','')"/>            
+			<xsl:variable name="roleUrn" select="replace(./sam:SamplingFeatureComplex/sam:role/@xlink:href, '#','')"/>   
+			<xsl:variable name="roleId" select="substring-after($roleUrn, ':id:')"/>
+			
+			<xsl:choose>				
+				<xsl:when test="$roleId = '1'">        
+					<!-- Valideren Samples -->
+					<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>                     
+					<xsl:apply-templates select="$sample"/>
+				</xsl:when>
+			</xsl:choose>		
+		</xsl:for-each>		
+		
+		
     </xsl:template>
     <xsl:template match="imsikb0101:geometry">
         <xsl:variable name="prGUID" select=".//@gml:id"/>
@@ -453,7 +690,10 @@
     </xsl:template>
     <!-- Analysis-->    
     <xsl:template match="immetingen:Analysis">
+        <xsl:param name="physicalPropertySeverity" />
         <xsl:variable name="arGUID" select="@gml:id"/>
+        <xsl:variable name="arRecord" select="string-join(('analyseResultaat (',$arGUID, ')'),' ')"/>
+		
         <xsl:variable select="string(om:result/@*)" name="arType"/>
         <xsl:if test="not(contains($arType,'immetingen:AnalyticResultType'))">
             <xsl:if test="not(contains($arType,'immetingen:MeasureResultType'))">
@@ -471,7 +711,7 @@
         <xsl:if test="not($isValidCondition = true())">
             <!-- Call createRecord function for error handling -->
             <xsl:variable name="elementName" select="'immetingen:Analysis'"/>
-            <xsl:variable name="message" select="replace(string-join(('Het analysis element', $arGUID ,'heeft grootheid', $quantity, ' maar heeft een incorrecte hoedanigheid (', $condition, ') voor een lijst van correcte hoedanigheden, kijk in de SAD catalogus'), ' '), '  ', ' ')"/>
+            <xsl:variable name="message" select="replace(string-join(('Het analysis element', $arRecord ,'heeft grootheid', $quantity, ' maar heeft een incorrecte hoedanigheid (', $condition, ') voor een lijst van correcte hoedanigheden, kijk in de SAD catalogus'), ' '), '  ', ' ')"/>
             <xsl:copy-of select="sikb:createRecord('ERROR', $elementName, $message)"/>
         </xsl:if>
         <xsl:variable name="isValidUnit" select="sikb:isValidUnit($quantity, $unit)"/>
@@ -479,19 +719,19 @@
         <xsl:if test="not($isValidUnit = true())">
             <!-- Call createRecord function for error handling -->
             <xsl:variable name="elementName" select="'immetingen:Analysis'"/>
-            <xsl:variable name="message" select="replace(string-join(('Het analysis element', $arGUID ,'heeft grootheid', $quantity, ' maar heeft een incorrecte eenheid (', $unit, ') voor een lijst van correcte eenheden, kijk in de SAD catalogus'), ' '), '  ', ' ')"/>
+            <xsl:variable name="message" select="replace(string-join(('Het analysis element', $arRecord ,'heeft grootheid', $quantity, ' maar heeft een incorrecte eenheid (', $unit, ') voor een lijst van correcte eenheden, kijk in de SAD catalogus'), ' '), '  ', ' ')"/>
             <xsl:copy-of select="sikb:createRecord('ERROR', $elementName, $message)"/>
         </xsl:if>
         <xsl:if test="not($isValidParameterWithCondition = true())">
             <!-- Call createRecord function for error handling -->
             <xsl:variable name="elementName" select="'immetingen:Analysis'"/>
-            <xsl:variable name="message" select="replace(string-join(('Het analysis element', $arGUID ,'heeft parameter', $parameter, ' maar heeft een incorrecte hoedanigheid (', $condition, ') voor een lijst van correcte , kijk in de SAD catalogus'), ' '), '  ', ' ')"/>
+            <xsl:variable name="message" select="replace(string-join(('Het analysis element', $arRecord ,'heeft parameter', $parameter, ' maar heeft een incorrecte hoedanigheid (', $condition, ') voor een lijst van correcte , kijk in de SAD catalogus'), ' '), '  ', ' ')"/>
             <xsl:copy-of select="sikb:createRecord('ERROR', $elementName, $message)"/>
         </xsl:if>
         <xsl:if test="fn:lower-case($quantity) = 'urn:immetingen:parameter:id:2720' or fn:lower-case($quantity) = 'urn:immetingen:parameter:id:2725'">
             <!-- Er moet een parameter aanwezig zijn als dat het geval is -->
             <xsl:if test="not(string($parameter))">
-                <xsl:variable name="message" select="replace(string-join(('Het analysis element', $arGUID ,'heeft grootheid waarde waarbij een parameter verplicht is (', $quantity, ') maar geen parameter'), ' '), '  ', ' ')"/>
+                <xsl:variable name="message" select="replace(string-join(('Het analysis element', $arRecord ,'heeft grootheid waarde waarbij een parameter verplicht is (', $quantity, ') maar geen parameter'), ' '), '  ', ' ')"/>
                 <xsl:copy-of select="sikb:createRecord('ERROR', 'Analysis', $message)"/>
             </xsl:if>
         </xsl:if>
@@ -504,20 +744,17 @@
             </xsl:if>
         </xsl:if>
                 
-       <xsl:apply-templates select="./immetingen:physicalProperty/immetingen:PhysicalProperty"/>
+       <!-- check physical Property -->
+        <xsl:variable select="./immetingen:physicalProperty/immetingen:PhysicalProperty" name="phyiscalProp"/>
+        <xsl:copy-of select="sikb:checkExistence($phyiscalProp, $arRecord, 'quantity', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkFilled($phyiscalProp, $arRecord, 'quantity', 'ERROR')"/>            
+        <xsl:copy-of select="sikb:checkLookupId($phyiscalProp, $arRecord, 'quantity', 'Parameter', $physicalPropertySeverity)"/>
+        <xsl:copy-of select="sikb:checkLookupId($phyiscalProp, $arRecord, 'parameter', 'Parameter', $physicalPropertySeverity)"/>
+        <xsl:copy-of select="sikb:checkLookupId($phyiscalProp, $arRecord, 'condition', 'Hoedanigheid', $physicalPropertySeverity)"/>        
+        	
         <xsl:copy-of select="sikb:checkLookupId(./om:result, 'analyseResultaat', 'valueProcessingMethod', 'Waardebewerkingsmethode', 'WARNING')"/>
     </xsl:template>
-    <xsl:template match="immetingen:PhysicalProperty">
-		<xsl:variable name="arGUID" select="../../@gml:id"/>
-		<xsl:variable name="arRecord" select="string-join(('analyseResultaat (',$arGUID, ')'),' ')"/>
-        <xsl:copy-of select="sikb:checkExistence(., $arRecord, 'quantity', 'ERROR')"/>
-        <xsl:copy-of select="sikb:checkFilled(., $arRecord, 'quantity', 'ERROR')"/>    
-        <!-- check nog aanpassen in verband met check op attribuut ipv element -->
-        <xsl:copy-of select="sikb:checkLookupId(., $arRecord, 'quantity', 'Parameter', 'WARNING')"/>
-        <xsl:copy-of select="sikb:checkLookupId(., $arRecord, 'parameter', 'Parameter', 'WARNING')"/>
-        <xsl:copy-of select="sikb:checkLookupId(., $arRecord, 'condition', 'Hoedanigheid', 'WARNING')"/>
-        <!-- check nog aanpassen in verband met check op attribuut ipv element -->
-    </xsl:template>
+
     <!-- FUNCTIONS -->
     <xsl:function name="sikb:createRecord">
         <!-- function for creating LOG-records -->
@@ -859,7 +1096,7 @@
         <!-- Evaluate the lookupRecord for status and BRO quality -->
         <xsl:variable name="checkLookupRecord">
             <xsl:choose>
-                <xsl:when test="$lookupRecord and $lookupRecord/@status = 'Vervallen'">vervallen</xsl:when>
+                <xsl:when test="$lookupRecord and $lookupRecord/@status = 'Vervallen' and $lookupRecord/broSadImbro != 'true'">vervallen</xsl:when>
                 <xsl:when test="$lookupRecord and $lookupRecord/broSadImbro != 'true'">niet geldig voor BRO SAD IMBRO kwaliteit</xsl:when>
                 <xsl:when test="not($lookupRecord) and $lookupValue != ''">niet gevonden</xsl:when>
                 <xsl:otherwise/>
