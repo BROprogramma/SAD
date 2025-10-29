@@ -242,6 +242,13 @@
 					<xsl:copy-of select="sikb:checkExistence(., $record, 'name', 'ERROR')"/>
 					<xsl:copy-of select="sikb:checkFilled(., $record, 'name', 'ERROR')"/>
 					
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'samplingTime', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'ERROR')"/>        
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'samplingTime', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkFilled(., $record, 'startTime', 'ERROR')"/>    				
+					<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
+					<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>    								
+					
 					<!-- loop analyse(meng)monsters voor veldmonsters en valideer ze -->
 					<xsl:for-each select="./sam:relatedSamplingFeature">
 						<xsl:variable name="linkedId" select="replace(./sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href, '#','')"/>            
@@ -274,10 +281,6 @@
 				</xsl:choose>                
 				<xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>	
 				
-				<xsl:copy-of select="sikb:checkExistence(., $record, 'samplingTime', 'ERROR')"/>
-				<xsl:copy-of select="sikb:checkExistence(., $record, 'startTime', 'ERROR')"/>        
-				<xsl:copy-of select="sikb:checkFilled(., $record, 'samplingTime', 'ERROR')"/>
-				<xsl:copy-of select="sikb:checkFilled(., $record, 'startTime', 'ERROR')"/>     								
 		
 				<!-- veldmonsters (niet grond)-->
 				 <xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
@@ -339,10 +342,7 @@
 							<xsl:with-param name="physicalPropertySeverity">ERROR</xsl:with-param>
 						</xsl:apply-templates>
 					</xsl:for-each>	
-				</xsl:if>
-		
-				<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
-				<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>   
+				</xsl:if>	
 				
 				<xsl:if test="(fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:1')) and not(fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
 					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>
