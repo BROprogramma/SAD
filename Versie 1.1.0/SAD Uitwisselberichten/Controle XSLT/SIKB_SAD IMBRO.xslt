@@ -258,8 +258,28 @@
 						<xsl:choose>				
 							<xsl:when test="$roleId = '9'">        
 								<!-- Valideren Samples -->
-								<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>                     
-								<xsl:apply-templates select="$sample"/>
+								<xsl:variable name="sample" select="//imsikb0101:Sample[@gml:id = $linkedId]"/>      
+								<xsl:variable name="linkedFieldSamples" select="sample/sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]"/>            
+						
+								<!-- analysisSample with 1 fieldsample -->
+								<xsl:if test="count($linkedFieldSamples) = 1">
+									<xsl:apply-templates select="$sample"/>
+								</xsl:if>              
+									
+									
+									
+								<!-- if mixedSample, loop it once, not multiple times. so check the relationNr in the analysissample of the fieldsample
+								<sam:relatedSamplingFeature>
+										<sam:SamplingFeatureComplex>
+										  <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:1" />
+										  <sam:relatedSamplingFeature xlink:href="#_e7383b0b-41e7-4cea-9a4a-fdb29551d6e5" />
+										</sam:SamplingFeatureComplex>
+									  </sam:relatedSamplingFeature>
+								-->	
+								<xsl:if test="count($linkedFieldSamples) > 1 and replace($linkedFieldSamples[1]/sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href , '#','') = prGUID">									
+									<xsl:apply-templates select="$sample"/>
+								</xsl:if>  
+								    
 							</xsl:when>
 						</xsl:choose>		
 					</xsl:for-each>	
