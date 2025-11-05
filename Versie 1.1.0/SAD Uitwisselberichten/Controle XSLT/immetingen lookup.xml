@@ -72944,8 +72944,8 @@
 			<Code>20oC</Code>
 			<Omschrijving>t.o.v. 20 graden Celsius</Omschrijving>
 			<Groep>HoedanigheidReferentieBasis</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
@@ -72974,8 +72974,8 @@
 			<Code>25oC</Code>
 			<Omschrijving>t.o.v. 25 graden Celsius</Omschrijving>
 			<Groep>HoedanigheidReferentieBasis</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>

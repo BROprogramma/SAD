@@ -333,6 +333,11 @@
     </quantity>
     <quantity>
         <sikbid>3548</sikbid>
+        <conditions>
+			<condition></condition>
+            <condition>64</condition>
+            <condition>67</condition>
+        </conditions>
         <units>
             <unit>18</unit>
             <unit>74</unit>
