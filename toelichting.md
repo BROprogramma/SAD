@@ -10,7 +10,7 @@ Hiermee is ook het onderscheid vastgelegd tussen de registratieobjecten die betr
 
 Het registratieobject <i>milieuhygiënisch bodemonderzoek</i> wordt in zijn geheel in één keer aangeleverd en kent geen mogelijkheid tot aanvullingen  nadat het brondocument is aangeleverd (geen materiële geschiedenis). Fouten in de registratie kunnen worden gecorrigeerd door middel van een correctiebericht.
 
-Millieuhygiënische vooronderzoeken (archiefonderzoek) uitgevoerd met aanleiding D tot en met G uit de NEN 5725 hoeven niet aangeleverd te worden aan de basisregistratie ondergrond.
+Millieuhygiënische vooronderzoeken (archiefonderzoek) uitgevoerd met aanleiding A tot en met C uit de NEN 5725 moeten aangeleverd worden aan de basisregistratie ondergrond (onderzoeken met aanleiding D tot en met H hebben geen aanleverplicht). Hierbij geldt aanvullend dat het vooronderzoek als los onderzoek is gerapporteerd. Als het vooronderzoek onderdeel is van een rapportage verkennend onderzoek hoeft deze niet apart te worden geregistreerd.
 
 ## Belangrijkste entiteiten
 
@@ -91,4 +91,5 @@ Deze entiteit bevat de gegevens over de analysemethode die door het laboratorium
 
 ## INSPIRE
 Het doel van de Europese kaderrichtlijn INSPIRE is het harmoniseren en openbaar maken van ruimtelijke gegevens van overheidsorganisaties ten behoeve van het milieubeleid. Het registratieobject milieuhygiënisch bodemonderzoek valt onder het INSPIRE-thema Geology, en om die reden moeten de gegevens in het registratieobject geschikt gemaakt worden voor uitwisseling volgens de INSPIRE-standaard. Dit wordt geïmplementeerd middels een mapping van het gegevensmodel van het milieuhygiënisch bodemonderzoek op het gegevensmodel van het INSPIRE-thema. De inhoud van deze mapping is geen onderdeel van deze catalogus.
+
 
