@@ -721,6 +721,76 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>geëxpandeerd polystyreen (piepschuim)</Omschrijving>
 	</BijzonderBestanddeelSoort>
+		<BijzonderBestanddeelSoort>
+		<Waarde>artefact</Waarde>
+		<SIKB0101ID>258</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>artefact</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>bentoniet</Waarde>
+		<SIKB0101ID>259</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>bentoniet</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>bodemas</Waarde>
+		<SIKB0101ID>260</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>bodemas</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>geotextiel</Waarde>
+		<SIKB0101ID>261</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>geotextiel</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>lava</Waarde>
+		<SIKB0101ID>262</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>lava</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>menggranulaat</Waarde>
+		<SIKB0101ID>263</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>menggranulaat</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>metaalslak</Waarde>
+		<SIKB0101ID>264</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>metaalslak</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>rioolslib</Waarde>
+		<SIKB0101ID>265</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>rioolslib</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>silt</Waarde>
+		<SIKB0101ID>266</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>silt</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>steenkool</Waarde>
+		<SIKB0101ID>267</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>steenkool</Omschrijving>
+	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>opgebracht</Waarde>
 		<SIKB0101ID>7</SIKB0101ID>
