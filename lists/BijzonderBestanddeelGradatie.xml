@@ -78,14 +78,14 @@
         <Omschrijving>laagjes</Omschrijving>
     </BijzonderBestanddeelGradatie>
 	<BijzonderBestanddeelGradatie>
-		<Waarde>zeerWeinig</Waarde>
+		<Waarde>zeerWeinig0tot2</Waarde>
 		<SIKB0101ID>12</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>zeer weinig (&gt;0%-2%)</Omschrijving>
 	</BijzonderBestanddeelGradatie>
 	<BijzonderBestanddeelGradatie>
-		<Waarde>weinig</Waarde>
+		<Waarde>weinig2tot5</Waarde>
 		<SIKB0101ID>13</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
