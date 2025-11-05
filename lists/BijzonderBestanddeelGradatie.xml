@@ -28,27 +28,27 @@
         <IMBROA>v</IMBROA>
         <Omschrijving>matig (5%-15%)</Omschrijving>
     </BijzonderBestanddeelGradatie>
-    <BijzonderBestanddeelGradatie>
-        <Waarde>sterk</Waarde>
-        <SIKB0101ID>5</SIKB0101ID>
-        <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>sterk (15%-50%)</Omschrijving>
-    </BijzonderBestanddeelGradatie>
-    <BijzonderBestanddeelGradatie>
-        <Waarde>uiterst</Waarde>
-        <SIKB0101ID>6</SIKB0101ID>
-        <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>uiterst (50%-80%</Omschrijving>
-    </BijzonderBestanddeelGradatie>
-    <BijzonderBestanddeelGradatie>
-        <Waarde>volledig</Waarde>
-        <SIKB0101ID>7</SIKB0101ID>
-        <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>volledig (&gt;80%)</Omschrijving>
-    </BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>sterk</Waarde>
+		<SIKB0101ID>5</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>sterk (NEN5104)/veel (NEN6693) (15%-50%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>uiterst</Waarde>
+		<SIKB0101ID>6</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>uiterst (NEN5104)/overvloedig (NEN6693) (50%-80%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>volledig</Waarde>
+		<SIKB0101ID>7</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>volledig (NEN5104)/dominant (NEN6693) (&gt;80%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>
     <BijzonderBestanddeelGradatie>
         <Waarde>sporen</Waarde>
         <SIKB0101ID>8</SIKB0101ID>
@@ -77,4 +77,18 @@
         <IMBROA>v</IMBROA>
         <Omschrijving>laagjes</Omschrijving>
     </BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>zeerWeinig0tot2</Waarde>
+		<SIKB0101ID>12</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>zeer weinig (&gt;0%-2%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>weinig2tot5</Waarde>
+		<SIKB0101ID>13</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>weinig (2%-5%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>    
 </domeintabel>
