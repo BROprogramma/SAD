@@ -5,98 +5,98 @@
 		<SIKB0101ID>1</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 90 % van de massa uit zand, voor maximaal 5 % uit lutum en voor maximaal 10 % uit silt bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 90 % van de massa uit zand, voor maximaal 5 % uit lutum en voor maximaal 10 % uit silt bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>matigSiltigZand</Waarde>
 		<SIKB0101ID>2</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 82,5 en 90 % van de massa uit zand, voor maximaal 5 % uit lutum en voor tussen 10 en 17,5 % uit silt bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 82,5 en 90 % van de massa uit zand, voor maximaal 5 % uit lutum en voor tussen 10 en 17,5 % uit silt bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>sterkSiltigZand</Waarde>
 		<SIKB0101ID>3</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 67,5 en 82,5 % van de massa uit zand, voor maximaal 8 % uit lutum en voor tussen 17,5 en 32,5 % uit silt bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 67,5 en 82,5 % van de massa uit zand, voor maximaal 8 % uit lutum en voor tussen 17,5 en 32,5 % uit silt bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>uiterstSiltigZand</Waarde>
 		<SIKB0101ID>4</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 50 en 67,5 % van de massa uit zand, voor maximaal 8 % uit lutum en voor tussen 32,5 en 50 % uit silt bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 50 en 67,5 % van de massa uit zand, voor maximaal 8 % uit lutum en voor tussen 32,5 en 50 % uit silt bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>kleiigZand</Waarde>
 		<SIKB0101ID>5</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 82,5 % van de massa uit zand, voor 5 tot 8 % uit lutum en voor maximaal 12,5 % uit silt bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 82,5 % van de massa uit zand, voor 5 tot 8 % uit lutum en voor maximaal 12,5 % uit silt bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>zwakSiltigeKlei</Waarde>
 		<SIKB0101ID>6</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 50 % van de massa uit lutum bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 50 % van de massa uit lutum bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>matigSiltigeKlei</Waarde>
 		<SIKB0101ID>7</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 35 % van de massa uit lutum bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 35 % van de massa uit lutum bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>sterkSiltigeKlei</Waarde>
 		<SIKB0101ID>8</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 25 % van de massa uit lutum bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 25 % van de massa uit lutum bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>uiterstSiltigeKlei</Waarde>
 		<SIKB0101ID>9</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 25 % van de massa uit lutum, voor tussen 25 en 75 % uit silt en voor minder dan 50 % uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 25 % van de massa uit lutum, voor tussen 25 en 75 % uit silt en voor minder dan 50 % uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>zwakZandigeKlei</Waarde>
 		<SIKB0101ID>10</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 17,5 en 25 % van de massa uit lutum, voor meer dan 50 % uit zand en voor de rest uit silt bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 17,5 en 25 % van de massa uit lutum, voor meer dan 50 % uit zand en voor de rest uit silt bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>matigZandigeKlei</Waarde>
 		<SIKB0101ID>11</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 12 en 17,5 % van de massa uit lutum, voor meer dan 50 % uit zand en voor de rest uit silt bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 12 en 17,5 % van de massa uit lutum, voor meer dan 50 % uit zand en voor de rest uit silt bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>sterkZandigeKlei</Waarde>
 		<SIKB0101ID>12</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 12 % van de massa uit lutum, voor meer dan 50 % uit zand en voor de rest uit silt bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 12 % van de massa uit lutum, voor meer dan 50 % uit zand en voor de rest uit silt bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>zwakZandigeLeem</Waarde>
 		<SIKB0101ID>13</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 65 uit silt, voor maximaal 25 % uit lutum en voor maximaal 15 % uit zand bestaat.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 65 uit silt, voor maximaal 25 % uit lutum en voor maximaal 15 % uit zand bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>sterkZandigeLeem</Waarde>
 		<SIKB0101ID>14</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die minder dan 30 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 42 % uit silt, voor maximaal 20 % uit lutum en voor tussen 15 en 50 % uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</Omschrijving>
+		<Omschrijving>Grond die onder NEN5104 minder dan 30 % grind en onder NEN6693 minder dan 50 % grind en minder dan 15 % organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 42 % uit silt, voor maximaal 20 % uit lutum en voor tussen 15 en 50 % uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>mineraalarmVeen</Waarde>
@@ -138,21 +138,21 @@
 		<SIKB0101ID>20</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die voor meer dan 30 procent van de massa uit grind, voor meer dan 20 procent uit silt plus lutum en voor minder dan 20 procent uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
+		<Omschrijving>Grond die voor meer dan 30 % van de massa uit grind, voor meer dan 20 procent uit silt plus lutum en voor minder dan 20 procent uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>zwakZandigGrind</Waarde>
 		<SIKB0101ID>21</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die voor meer dan 30 procent van het massa uit grind, voor minder dan 20 procent uit silt plus lutum en voor minder dan 10 procent uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
+		<Omschrijving>Grond die voor meer dan 50 % van het massa uit grind, voor minder dan 20 procent uit silt plus lutum en voor minder dan 10 procent uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>matigZandigGrind</Waarde>
 		<SIKB0101ID>22</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grond die voor meer dan 30 % van het massa uit grind, voor minder dan 20 % uit silt plus lutum en voor 10 tot 30 % uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
+		<Omschrijving>Grond die voor meer dan 50 % van het massa uit grind, voor minder dan 20 % uit silt plus lutum en voor 10 tot 30 % uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>sterkZandigGrind</Waarde>
@@ -398,40 +398,40 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Grond die voor meer dan 50 % van het massa uit grind bestaat, voor 30 tot 50 % uit zand en voor minder dan 20 % uit silt plus lutum bestaat en niet veel organische stof bevat.</Omschrijving>
-	</GrondSoort>	
+	</GrondSoort>
 	<GrondSoort>
 		<Waarde>zand</Waarde>
 		<SIKB0101ID>35</SIKB0101ID>
-		<IMBRO/>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Zand</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>klei</Waarde>
 		<SIKB0101ID>36</SIKB0101ID>
-		<IMBRO/>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Klei</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>leem</Waarde>
 		<SIKB0101ID>37</SIKB0101ID>
-		<IMBRO/>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Leem</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>veen</Waarde>
 		<SIKB0101ID>38</SIKB0101ID>
-		<IMBRO/>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Veen</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>grind</Waarde>
 		<SIKB0101ID>39</SIKB0101ID>
-		<IMBRO/>
+		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Grind</Omschrijving>
-	</GrondSoort>	
+	</GrondSoort>
 </domeintabel>
