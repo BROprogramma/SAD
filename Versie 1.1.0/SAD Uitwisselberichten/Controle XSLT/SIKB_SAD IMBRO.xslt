@@ -70,6 +70,7 @@
             <xsl:apply-templates select="//immetingen:AnalysisProcess"/>
             <xsl:apply-templates select="//imsikb0101:featureMember"/>
             <xsl:apply-templates select="//imsikb0101:geometry"/>
+            <xsl:apply-templates select="//immetingen:geometry"/>
             <xsl:apply-templates select="//immetingen:Depth"/>            
             <xsl:apply-templates select="//immetingen:Height"/>
             <xsl:apply-templates select="//imsikb0101:GeographicPosition"/>            
@@ -665,6 +666,10 @@
 		
     </xsl:template>
     <xsl:template match="imsikb0101:geometry">
+        <xsl:variable name="prGUID" select=".//@gml:id"/>
+        <xsl:copy-of select="sikb:checkCoordinates(., $prGUID, 'ERROR')"/>
+    </xsl:template>
+        <xsl:template match="immetingen:geometry">
         <xsl:variable name="prGUID" select=".//@gml:id"/>
         <xsl:copy-of select="sikb:checkCoordinates(., $prGUID, 'ERROR')"/>
     </xsl:template>
