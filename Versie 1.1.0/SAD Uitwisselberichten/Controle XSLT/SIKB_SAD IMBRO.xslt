@@ -1282,7 +1282,7 @@
         <xsl:variable name="elementName" select="string($context/name())"/>
         <xsl:variable name="elementLocalName" select="string($context/local-name())"/>
         <xsl:variable name="messageBase" select="string-join(('bij',$elementLocalName,$prGUID,'bevat niet een waarde tussen'), ' ')"/>
-        <xsl:for-each select="$context//gml:posList">
+        <xsl:for-each select="$context//*[local-name() = 'posList' or local-name() = 'pos']">
             <xsl:variable name="srsName" select="string(./ancestor-or-self::gml:*[@srsName][1]/@srsName)"/>
             <xsl:variable name="bounds">
                 <xsl:choose>
