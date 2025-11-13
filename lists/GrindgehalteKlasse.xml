@@ -8,21 +8,21 @@
         <Omschrijving>Grind is niet aanwezig.</Omschrijving>
     </GrindgehalteKlasse>
     <GrindgehalteKlasse>
-        <Waarde>zwakGrindig</Waarde>
+        <Waarde>zwakGrindig0tot5</Waarde>
         <SIKB0101ID>2</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Grind is aanwezig en maakt minder dan 5 % van de massa uit.</Omschrijving>
     </GrindgehalteKlasse>
     <GrindgehalteKlasse>
-        <Waarde>matigGrindig</Waarde>
+        <Waarde>matigGrindig5tot15</Waarde>
         <SIKB0101ID>3</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
         <Omschrijving>Grind maakt tussen 5 en 15 % van de massa uit.</Omschrijving>
     </GrindgehalteKlasse>
     <GrindgehalteKlasse>
-        <Waarde>sterkGrindig</Waarde>
+        <Waarde>sterkGrindig15tot30</Waarde>
         <SIKB0101ID>4</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
