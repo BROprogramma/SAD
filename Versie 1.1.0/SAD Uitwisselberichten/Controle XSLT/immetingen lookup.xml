@@ -601,11 +601,11 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingstechniek>
-		<Waardebepalingstechniek versie="14.6.0" datum="2015-11-26" status="Bevestigd">
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-09" status="Gewijzigd">
 			<ID>51</ID>
 			<Code>IR-FT</Code>
 			<Waarde>Infrarood - fourier transmission</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>een waardebepalingstechniek die wordt gebruikt om de moleculaire samenstelling van een stof te bepalen door middel van infraroodlicht</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -2053,11 +2053,11 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingstechniek>
-		<Waardebepalingstechniek versie="14.6.0" datum="2015-11-26" status="Bevestigd">
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Gewijzigd">
 			<ID>205</ID>
 			<Code>qPCR</Code>
 			<Waarde>Kwantitatieve polymerase-kettingreactie</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>een waardebepalingstechniek die de hoeveelheid DNA of RNA in een monster meet en wordt gebruikt om de aanwezigheid en hoeveelheid van specifieke genetische sequenties te bepalen</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -2065,11 +2065,11 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingstechniek>
-		<Waardebepalingstechniek versie="14.6.0" datum="2016-06-30" status="Bevestigd">
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Gewijzigd">
 			<ID>206</ID>
 			<Code>GENEPSLCFRSE</Code>
 			<Waarde>Genexpressie - luciferase</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>een waardebepalingstechniek waarbij het luciferase-gen wordt gebruikt als een biologische indicator om genexpressie te meten</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -2298,6 +2298,126 @@
 			<Code>BIOAS</Code>
 			<Waarde>Bioassay</Waarde>
 			<Omschrijving>een gestandaardiseerde methode om de aanwezigheid of effecten van mengsels van stoffen te bepalen, door een biologische respons te meten in blootgestelde levende cellen, weefsels, intacte organismen of combinaties van modelorganismen.</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-09" status="Bevestigd">
+			<ID>226</ID>
+			<Code>NDIR</Code>
+			<Waarde>Niet-dispersieve infrarooddetectie</Waarde>
+			<Omschrijving>een waardebepalingstechniek waarbij infraroodlicht wordt gebruikt om te meten hoeveel van een bepaald gas aanwezig is</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Bevestigd">
+			<ID>235</ID>
+			<Code>dPCR</Code>
+			<Waarde>Digitale polymerase-kettingreactie</Waarde>
+			<Omschrijving>een waardebepalingstechniek die de absolute hoeveelheid DNA of RNA in een monster meet en wordt gebruikt om zeer nauwkeurig en specifiek de aanwezigheid van genetische sequenties te kwantificeren</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Bevestigd">
+			<ID>229</ID>
+			<Code>FLA</Code>
+			<Waarde>Fragment lengte analyse</Waarde>
+			<Omschrijving>een waardebepalingstechniek waarbij de lengte van DNA-fragmenten wordt gemeten via capillaire elektroforese, vaak gebruikt voor het detecteren van genetische variaties zoals microsatellietinstabiliteit of mutaties</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Bevestigd">
+			<ID>233</ID>
+			<Code>NGS-IMISEQ</Code>
+			<Waarde>Next-generation sequencing - Illumina MiSeq</Waarde>
+			<Omschrijving>een waardebepalingstechniek die gebruikmaakt van de Illumina MiSeq-technologie om de volgorde van DNA of RNA te bepalen, zodat genetische variatie en microbiële samenstellingen bestudeerd kunnen worden.</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Bevestigd">
+			<ID>231</ID>
+			<Code>NGS-INEXTSEQ</Code>
+			<Waarde>Next-generation sequencing - Illumina NextSeq</Waarde>
+			<Omschrijving>een waardebepalingstechniek die gebruikmaakt van de Illumina NextSeq-technologie om de volgorde van DNA of RNA te bepalen, geschikt voor middelgrote tot grote sequencing-projecten</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Bevestigd">
+			<ID>232</ID>
+			<Code>NGS-INOVASEQ</Code>
+			<Waarde>Next-generation sequencing - Illumina NovaSeq</Waarde>
+			<Omschrijving>een waardebepalingstechniek die gebruikmaakt van de NovaSeq-platformen van Illumina om op grote schaal en met hoge snelheid de volgorde van DNA of RNA te bepalen, geschikt voor grootschalige genoomanalyses.</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Bevestigd">
+			<ID>230</ID>
+			<Code>NGS-NANOPSEQ</Code>
+			<Waarde>Next-generation sequencing - Nanopore sequencing</Waarde>
+			<Omschrijving>een waardebepalingstechniek waarbij individuele DNA- of RNA-moleculen in realtime worden afgelezen via nanoporiën, waardoor lange sequenties direct en zonder amplificatie kunnen worden bepaald</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Bevestigd">
+			<ID>227</ID>
+			<Code>PACBIOSEQ</Code>
+			<Waarde>PacBIO sequencing</Waarde>
+			<Omschrijving>een waardebepalingstechniek die gebruikmaakt van single-molecule real-time sequencing om lange DNA- of RNA-sequenties met hoge nauwkeurigheid te bepalen, geschikt voor complexe genoomstructuren</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Bevestigd">
+			<ID>228</ID>
+			<Code>RNASEQ</Code>
+			<Waarde>RNA-sequencing</Waarde>
+			<Omschrijving>een waardebepalingstechniek die wordt gebruikt om de volgorde en expressieniveaus van RNA-moleculen te bepalen, zodat genexpressie en transcriptvariatie geanalyseerd kunnen worden</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingstechniek>
+		<Waardebepalingstechniek versie="14.7.0" datum="2025-08-29" status="Bevestigd">
+			<ID>234</ID>
+			<Code>SG-SEQ</Code>
+			<Waarde>Sanger sequencing</Waarde>
+			<Omschrijving>een waardebepalingstechniek waarbij keten-terminerende nucleotiden worden gebruikt om de volgorde van korte DNA-fragmenten nauwkeurig te bepalen, vaak toegepast voor validatie of kleine genen</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -72297,71 +72417,181 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
-			<ID>7288</ID>
-			<Code>cimtdne</Code>
-			<Omschrijving>cimetidine</Omschrijving>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7305</ID>
+			<Code>2benzTol</Code>
+			<Omschrijving>2-benzyltolueen</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
-			<ID>7292</ID>
-			<Code>clopdgl</Code>
-			<Omschrijving>clopidogrel</Omschrijving>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7306</ID>
+			<Code>3benzTol</Code>
+			<Omschrijving>3-benzyltolueen</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
-			<ID>7289</ID>
-			<Code>deactdtzm</Code>
-			<Omschrijving>deacetyldiltiazem</Omschrijving>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7307</ID>
+			<Code>4benzTol</Code>
+			<Omschrijving>4-benzyltoluene</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
-			<ID>7291</ID>
-			<Code>levctrzne</Code>
-			<Omschrijving>levocetirizine</Omschrijving>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7294</ID>
+			<Code>AFGTSHD</Code>
+			<Omschrijving>Afgiftesnelheid</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7293</ID>
+			<Code>OPNMSHD</Code>
+			<Omschrijving>Opnamesnelheid</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7297</ID>
+			<Code>POSPCRSS</Code>
+			<Omschrijving>Positieve PCR slots</Omschrijving>
+			<Groep>Object</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7295</ID>
+			<Code>RENDMT</Code>
+			<Omschrijving>Rendement</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7298</ID>
+			<Code>SEQDPTE</Code>
+			<Omschrijving>Sequencing diepte</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7302</ID>
+			<Code>BZV/OS</Code>
+			<Omschrijving>Verhouding BZV/onopgeloste stoffen</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7296</ID>
+			<Code>BZV/Ntot</Code>
+			<Omschrijving>Verhouding BZV/stikstof totaal</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7303</ID>
+			<Code>CZV/OS</Code>
+			<Omschrijving>Verhouding CZV/onopgeloste stoffen</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7304</ID>
+			<Code>Corg/CZV</Code>
+			<Omschrijving>Verhouding koolstof organisch/CZV</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7300</ID>
+			<Code>Ntot/NH4</Code>
+			<Omschrijving>Verhouding stikstof totaal/ammonium</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7299</ID>
+			<Code>Ntot/Ptot</Code>
+			<Omschrijving>Verhouding stikstof totaal/fosfor totaal</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7301</ID>
+			<Code>Ntot/NO3</Code>
+			<Omschrijving>Verhouding stikstof totaal/nitraat</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7308</ID>
+			<Code>DbenzTol</Code>
+			<Omschrijving>dibenzyltolueen</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
-			<ID>7286</ID>
-			<Code>levC3yhxdne</Code>
-			<Omschrijving>levopropylhexedrine</Omschrijving>
+		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+			<ID>7309</ID>
+			<Code>sXHAc</Code>
+			<Omschrijving>som gehalogeneerde azijnzuren</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
-			<ID>7290</ID>
-			<Code>mefnrx</Code>
-			<Omschrijving>mefenorex</Omschrijving>
-			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
-		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
-			<ID>7287</ID>
-			<Code>mirtzpne</Code>
-			<Omschrijving>mirtazapine</Omschrijving>
-			<Groep>ChemischeStof</Groep>
+		<Parameter versie="14.7.0" datum="2025-11-11" status="Bevestigd">
+			<ID>7310</ID>
+			<Code>ENTRBTRCE</Code>
+			<Omschrijving>Enterobacteriaceae</Omschrijving>
+			<Groep>SchimmelBacterieVirus</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -72939,7 +73169,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Hoedanigheid versie="14.7.0" datum="2025-11-05" status="Gewijzigd">
 			<ID>64</ID>
 			<Code>20oC</Code>
 			<Omschrijving>t.o.v. 20 graden Celsius</Omschrijving>
@@ -72969,7 +73199,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Hoedanigheid versie="14.7.0" datum="2025-11-05" status="Gewijzigd">
 			<ID>67</ID>
 			<Code>25oC</Code>
 			<Omschrijving>t.o.v. 25 graden Celsius</Omschrijving>
@@ -76809,7 +77039,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2015-11-26" status="Bevestigd">
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Gewijzigd">
 			<ID>451</ID>
 			<Code>DNAKPN</Code>
 			<Omschrijving>uitgedrukt in DNA-kopieën</Omschrijving>
@@ -81699,6 +81929,146 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1008</ID>
+			<Code>gbor</Code>
+			<Omschrijving>gemeten bij een oever met riet</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1007</ID>
+			<Code>gbos</Code>
+			<Omschrijving>gemeten bij een oever met stenen</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1006</ID>
+			<Code>gbov</Code>
+			<Omschrijving>gemeten bij een oever met vooroever</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1005</ID>
+			<Code>gboz</Code>
+			<Omschrijving>gemeten bij een oever met zand</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1009</ID>
+			<Code>gimw</Code>
+			<Omschrijving>gemeten in het midden van het water</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1004</ID>
+			<Code>gimshlw</Code>
+			<Omschrijving>gemeten in mesohalien water</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1002</ID>
+			<Code>giolghlw</Code>
+			<Omschrijving>gemeten in oligohalien water</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1011</ID>
+			<Code>giow</Code>
+			<Omschrijving>gemeten in open water</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1003</ID>
+			<Code>giplhlw</Code>
+			<Omschrijving>gemeten in polyhalien water</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1010</ID>
+			<Code>gizw</Code>
+			<Omschrijving>gemeten in zijwater</Omschrijving>
+			<Groep>HoedanigheidBiotoopaspect</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1012</ID>
+			<Code>C16C35</Code>
+			<Omschrijving>koolwaterstoffractie C16-C35</Omschrijving>
+			<Groep>KoolwaterstofFractie</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1013</ID>
+			<Code>C16C35dg</Code>
+			<Omschrijving>koolwaterstoffractie C16-C35 / drooggewicht</Omschrijving>
+			<Groep>HoedanigheidCombinatie</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1001</ID>
+			<Code>ACTWRD</Code>
+			<Omschrijving>t.o.v. actuele waarde</Omschrijving>
+			<Groep>HoedanigheidReferentieBasis</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
+		<Hoedanigheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1000</ID>
+			<Code>STDWRD</Code>
+			<Omschrijving>t.o.v. standaard waarde</Omschrijving>
+			<Groep>HoedanigheidReferentieBasis</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Hoedanigheid>
 	</sikb.Hoedanigheid_c>
 	<sikb.KenmerkBodemlaag_c categorie="KenmerkBodemlaag" techName="KenmerkBodemlaag" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<KenmerkBodemlaag versie="14.7.0" datum="2024-11-26" status="Gewijzigd">
@@ -82615,8 +82985,8 @@
 			<Omschrijving>millisiemens per meter</Omschrijving>
 			<Omrekenfactor>0.001</Omrekenfactor>
 			<Groep>SI afgeleide eenheid</Groep>
-			<broSadImbroA>true</broSadImbroA>
-			<broSadImbro>true</broSadImbro>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
@@ -85733,6 +86103,17 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
+		<Eenheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>385</ID>
+			<Code>kg/kWh</Code>
+			<Omschrijving>kilogram per kilowattuur</Omschrijving>
+			<Omrekenfactor>2.777778e-7</Omrekenfactor>
+			<Groep>SI afgeleide eenheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Eenheid>
 	</sikb.Eenheid_c>
 	<sikb.Kwaliteitsoordeel_c categorie="Kwaliteitsoordeel" techName="Kwaliteitsoordeel" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<Kwaliteitsoordeel versie="14.6.0" datum="2013-04-10" status="Bevestigd">
@@ -88097,6 +88478,18 @@
 			</Code>
 			<Waarde>Kieuwnet</Waarde>
 			<Omschrijving>een bemonsteringsapparaat bestaande uit netten die verticaal geplaatst worden, staand vanaf de bodem of drijvend en hangend vanaf het wateroppervlak</Omschrijving>
+			<Groep>Ecologische bemonstering</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bemonsteringsapparaat>
+		<Bemonsteringsapparaat versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>127</ID>
+			<Code>
+			</Code>
+			<Waarde>VigiDNA filter</Waarde>
+			<Omschrijving>een bemonsteringsapparaat dat ontwikkeld is voor eDNA, bestaande uit een filter met poriegrootte 0,45μm, waarmee water in het veld gefiltreerd wordt</Omschrijving>
 			<Groep>Ecologische bemonstering</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -100839,6 +101232,138 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1106</ID>
+			<Code>N6234.23</Code>
+			<Waarde>NEN 6234:2023 nl</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Norm water-biologisch</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1105</ID>
+			<Code>P7394.22</Code>
+			<Waarde>NPR 7394:2022 nl</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Norm water-biologisch</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1107</ID>
+			<Code>P3210-1.20</Code>
+			<Waarde>prestatieblad 3210-1, 23-04-2020 (droge stof)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1110</ID>
+			<Code>P3210-2.20</Code>
+			<Waarde>prestatieblad 3210-2, 23-04-2020 (organische stof)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1108</ID>
+			<Code>P3210-3.20</Code>
+			<Waarde>prestatieblad 3210-3, 23-04-2020 (korrelgroottefractie)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1116</ID>
+			<Code>P3210-4.20</Code>
+			<Waarde>prestatieblad 3210-4, 23-04-2020 (metalen)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1112</ID>
+			<Code>P3210-5.20</Code>
+			<Waarde>prestatieblad 3210-5, 23-04-2020 (PAK)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1109</ID>
+			<Code>P3210-6.20</Code>
+			<Waarde>prestatieblad 3210-6, 23-04-2020 (minerale olie)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1114</ID>
+			<Code>P3210-7.20</Code>
+			<Waarde>prestatieblad 3210-7, 23-04-2020 (PCB)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1111</ID>
+			<Code>P3220-1.20</Code>
+			<Waarde>prestatieblad 3220-1, 23-04-2020 (OCB)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1113</ID>
+			<Code>P3220-2.20</Code>
+			<Waarde>prestatieblad 3220-2, 23-04-2020 (OCB overig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1115</ID>
+			<Code>P3250-1.20</Code>
+			<Waarde>prestatieblad 3250-1, 23-04-2020 (metalen)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Voorschrift</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
 	</sikb.Waardebepalingsmethode_c>
 	<sikb.MeetObjectSoort_c categorie="MeetObjectSoort" techName="MeetObjectSoort" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<MeetObjectSoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
@@ -102452,6 +102977,18 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
+		<Meetinstantie versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>119</ID>
+			<Code>119</Code>
+			<Waarde>SpyGen</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Meetinstantie>
 	</sikb.Meetinstantie_c>
 	<sikb.CertificeringsCode_c categorie="CertificeringsCode" techName="CertificeringsCode" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<CertificeringsCode versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
@@ -103819,6 +104356,17 @@
 			<Groep></Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Kleur>
+		<Kleur versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>15</ID>
+			<Code>undefined</Code>
+			<Waarde>olijf</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
@@ -111567,6 +112115,50 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Monsterbewerkingsmethode>
+		<Monsterbewerkingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>965</ID>
+			<Code>FolCHCl3ext</Code>
+			<Waarde>Fenol chloroform extractie</Waarde>
+			<Omschrijving>een monsterbewerkingsmethode die nucleïnezuren scheidt van eiwitten en lipiden</Omschrijving>
+			<Groep>Voorschrift water</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Monsterbewerkingsmethode>
+		<Monsterbewerkingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>964</ID>
+			<Code>QDBTk</Code>
+			<Waarde>Qiagen DNeasy Blood &amp; Tissue kit</Waarde>
+			<Omschrijving>een monsterbewerkingsmethode voor extractie van totaal DNA uit gisten, bacteriën en virussen of uit dierlijk bloed, weefsels en cellen</Omschrijving>
+			<Groep>Voorschrift water</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Monsterbewerkingsmethode>
+		<Monsterbewerkingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>967</ID>
+			<Code>QDPWk</Code>
+			<Waarde>Qiagen DNeasy PowerWater kit</Waarde>
+			<Omschrijving>een monsterbewerkingsmethode voor de isolatie van genomisch DNA uit gefilterde watermonsters</Omschrijving>
+			<Groep>Voorschrift water</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Monsterbewerkingsmethode>
+		<Monsterbewerkingsmethode versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>966</ID>
+			<Code>QDPBk</Code>
+			<Waarde>Qiagen Dneasy PowerBiofilm kit</Waarde>
+			<Omschrijving>een monsterbewerkingsmethode voor de isolatie van hoogwaardig, puur DNA uit biofilmmonsters</Omschrijving>
+			<Groep>Voorschrift water</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Monsterbewerkingsmethode>
 	</sikb.Monsterbewerkingsmethode_c>
 	<sikb.KenmerkMonstername_c categorie="KenmerkMonstername" techName="KenmerkMonstername" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<KenmerkMonstername versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
@@ -116153,6 +116745,1106 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9249</ID>
+			<Code>VL-201cm</Code>
+			<Waarde>Vislengteklasse 201 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9250</ID>
+			<Code>VL-202cm</Code>
+			<Waarde>Vislengteklasse 202 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9251</ID>
+			<Code>VL-203cm</Code>
+			<Waarde>Vislengteklasse 203 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9252</ID>
+			<Code>VL-204cm</Code>
+			<Waarde>Vislengteklasse 204 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9253</ID>
+			<Code>VL-205cm</Code>
+			<Waarde>Vislengteklasse 205 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9254</ID>
+			<Code>VL-206cm</Code>
+			<Waarde>Vislengteklasse 206 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9255</ID>
+			<Code>VL-207cm</Code>
+			<Waarde>Vislengteklasse 207 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9256</ID>
+			<Code>VL-208cm</Code>
+			<Waarde>Vislengteklasse 208 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9257</ID>
+			<Code>VL-209cm</Code>
+			<Waarde>Vislengteklasse 209 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9258</ID>
+			<Code>VL-210cm</Code>
+			<Waarde>Vislengteklasse 210 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9259</ID>
+			<Code>VL-211cm</Code>
+			<Waarde>Vislengteklasse 211 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9260</ID>
+			<Code>VL-212cm</Code>
+			<Waarde>Vislengteklasse 212 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9261</ID>
+			<Code>VL-213cm</Code>
+			<Waarde>Vislengteklasse 213 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9262</ID>
+			<Code>VL-214cm</Code>
+			<Waarde>Vislengteklasse 214 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9263</ID>
+			<Code>VL-215cm</Code>
+			<Waarde>Vislengteklasse 215 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9264</ID>
+			<Code>VL-216cm</Code>
+			<Waarde>Vislengteklasse 216 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9265</ID>
+			<Code>VL-217cm</Code>
+			<Waarde>Vislengteklasse 217 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9266</ID>
+			<Code>VL-218cm</Code>
+			<Waarde>Vislengteklasse 218 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9267</ID>
+			<Code>VL-219cm</Code>
+			<Waarde>Vislengteklasse 219 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9268</ID>
+			<Code>VL-220cm</Code>
+			<Waarde>Vislengteklasse 220 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9269</ID>
+			<Code>VL-221cm</Code>
+			<Waarde>Vislengteklasse 221 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9270</ID>
+			<Code>VL-222cm</Code>
+			<Waarde>Vislengteklasse 222 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9271</ID>
+			<Code>VL-223cm</Code>
+			<Waarde>Vislengteklasse 223 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9272</ID>
+			<Code>VL-224cm</Code>
+			<Waarde>Vislengteklasse 224 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9273</ID>
+			<Code>VL-225cm</Code>
+			<Waarde>Vislengteklasse 225 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9274</ID>
+			<Code>VL-226cm</Code>
+			<Waarde>Vislengteklasse 226 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9275</ID>
+			<Code>VL-227cm</Code>
+			<Waarde>Vislengteklasse 227 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9276</ID>
+			<Code>VL-228cm</Code>
+			<Waarde>Vislengteklasse 228 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9277</ID>
+			<Code>VL-229cm</Code>
+			<Waarde>Vislengteklasse 229 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9278</ID>
+			<Code>VL-230cm</Code>
+			<Waarde>Vislengteklasse 230 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9279</ID>
+			<Code>VL-231cm</Code>
+			<Waarde>Vislengteklasse 231 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9280</ID>
+			<Code>VL-232cm</Code>
+			<Waarde>Vislengteklasse 232 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9281</ID>
+			<Code>VL-233cm</Code>
+			<Waarde>Vislengteklasse 233 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9282</ID>
+			<Code>VL-234cm</Code>
+			<Waarde>Vislengteklasse 234 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9283</ID>
+			<Code>VL-235cm</Code>
+			<Waarde>Vislengteklasse 235 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9284</ID>
+			<Code>VL-236cm</Code>
+			<Waarde>Vislengteklasse 236 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9285</ID>
+			<Code>VL-237cm</Code>
+			<Waarde>Vislengteklasse 237 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9286</ID>
+			<Code>VL-238cm</Code>
+			<Waarde>Vislengteklasse 238 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9287</ID>
+			<Code>VL-239cm</Code>
+			<Waarde>Vislengteklasse 239 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9288</ID>
+			<Code>VL-240cm</Code>
+			<Waarde>Vislengteklasse 240 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9289</ID>
+			<Code>VL-241cm</Code>
+			<Waarde>Vislengteklasse 241 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9290</ID>
+			<Code>VL-242cm</Code>
+			<Waarde>Vislengteklasse 242 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9291</ID>
+			<Code>VL-243cm</Code>
+			<Waarde>Vislengteklasse 243 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9292</ID>
+			<Code>VL-244cm</Code>
+			<Waarde>Vislengteklasse 244 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9293</ID>
+			<Code>VL-245cm</Code>
+			<Waarde>Vislengteklasse 245 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9294</ID>
+			<Code>VL-246cm</Code>
+			<Waarde>Vislengteklasse 246 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9295</ID>
+			<Code>VL-247cm</Code>
+			<Waarde>Vislengteklasse 247 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9296</ID>
+			<Code>VL-248cm</Code>
+			<Waarde>Vislengteklasse 248 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9297</ID>
+			<Code>VL-249cm</Code>
+			<Waarde>Vislengteklasse 249 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9298</ID>
+			<Code>VL-250cm</Code>
+			<Waarde>Vislengteklasse 250 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9299</ID>
+			<Code>VL-251cm</Code>
+			<Waarde>Vislengteklasse 251 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9300</ID>
+			<Code>VL-252cm</Code>
+			<Waarde>Vislengteklasse 252 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9301</ID>
+			<Code>VL-253cm</Code>
+			<Waarde>Vislengteklasse 253 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9302</ID>
+			<Code>VL-254cm</Code>
+			<Waarde>Vislengteklasse 254 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9303</ID>
+			<Code>VL-255cm</Code>
+			<Waarde>Vislengteklasse 255 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9304</ID>
+			<Code>VL-256cm</Code>
+			<Waarde>Vislengteklasse 256 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9305</ID>
+			<Code>VL-257cm</Code>
+			<Waarde>Vislengteklasse 257 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9306</ID>
+			<Code>VL-258cm</Code>
+			<Waarde>Vislengteklasse 258 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9307</ID>
+			<Code>VL-259cm</Code>
+			<Waarde>Vislengteklasse 259 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9308</ID>
+			<Code>VL-260cm</Code>
+			<Waarde>Vislengteklasse 260 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9309</ID>
+			<Code>VL-261cm</Code>
+			<Waarde>Vislengteklasse 261 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9310</ID>
+			<Code>VL-262cm</Code>
+			<Waarde>Vislengteklasse 262 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9311</ID>
+			<Code>VL-263cm</Code>
+			<Waarde>Vislengteklasse 263 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9312</ID>
+			<Code>VL-264cm</Code>
+			<Waarde>Vislengteklasse 264 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9313</ID>
+			<Code>VL-265cm</Code>
+			<Waarde>Vislengteklasse 265 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9314</ID>
+			<Code>VL-266cm</Code>
+			<Waarde>Vislengteklasse 266 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9315</ID>
+			<Code>VL-267cm</Code>
+			<Waarde>Vislengteklasse 267 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9316</ID>
+			<Code>VL-268cm</Code>
+			<Waarde>Vislengteklasse 268 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9317</ID>
+			<Code>VL-269cm</Code>
+			<Waarde>Vislengteklasse 269 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9318</ID>
+			<Code>VL-270cm</Code>
+			<Waarde>Vislengteklasse 270 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9319</ID>
+			<Code>VL-271cm</Code>
+			<Waarde>Vislengteklasse 271 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9320</ID>
+			<Code>VL-272cm</Code>
+			<Waarde>Vislengteklasse 272 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9321</ID>
+			<Code>VL-273cm</Code>
+			<Waarde>Vislengteklasse 273 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9322</ID>
+			<Code>VL-274cm</Code>
+			<Waarde>Vislengteklasse 274 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9323</ID>
+			<Code>VL-275cm</Code>
+			<Waarde>Vislengteklasse 275 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9324</ID>
+			<Code>VL-276cm</Code>
+			<Waarde>Vislengteklasse 276 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9325</ID>
+			<Code>VL-277cm</Code>
+			<Waarde>Vislengteklasse 277 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9326</ID>
+			<Code>VL-278cm</Code>
+			<Waarde>Vislengteklasse 278 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9327</ID>
+			<Code>VL-279cm</Code>
+			<Waarde>Vislengteklasse 279 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9328</ID>
+			<Code>VL-280cm</Code>
+			<Waarde>Vislengteklasse 280 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9329</ID>
+			<Code>VL-281cm</Code>
+			<Waarde>Vislengteklasse 281 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9330</ID>
+			<Code>VL-282cm</Code>
+			<Waarde>Vislengteklasse 282 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9331</ID>
+			<Code>VL-283cm</Code>
+			<Waarde>Vislengteklasse 283 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9332</ID>
+			<Code>VL-284cm</Code>
+			<Waarde>Vislengteklasse 284 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9333</ID>
+			<Code>VL-285cm</Code>
+			<Waarde>Vislengteklasse 285 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9334</ID>
+			<Code>VL-286cm</Code>
+			<Waarde>Vislengteklasse 286 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9335</ID>
+			<Code>VL-287cm</Code>
+			<Waarde>Vislengteklasse 287 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9336</ID>
+			<Code>VL-288cm</Code>
+			<Waarde>Vislengteklasse 288 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9337</ID>
+			<Code>VL-289cm</Code>
+			<Waarde>Vislengteklasse 289 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9338</ID>
+			<Code>VL-290cm</Code>
+			<Waarde>Vislengteklasse 290 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9339</ID>
+			<Code>VL-291cm</Code>
+			<Waarde>Vislengteklasse 291 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9340</ID>
+			<Code>VL-292cm</Code>
+			<Waarde>Vislengteklasse 292 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9341</ID>
+			<Code>VL-293cm</Code>
+			<Waarde>Vislengteklasse 293 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9342</ID>
+			<Code>VL-294cm</Code>
+			<Waarde>Vislengteklasse 294 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9343</ID>
+			<Code>VL-295cm</Code>
+			<Waarde>Vislengteklasse 295 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9344</ID>
+			<Code>VL-296cm</Code>
+			<Waarde>Vislengteklasse 296 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9345</ID>
+			<Code>VL-297cm</Code>
+			<Waarde>Vislengteklasse 297 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9346</ID>
+			<Code>VL-298cm</Code>
+			<Waarde>Vislengteklasse 298 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9347</ID>
+			<Code>VL-299cm</Code>
+			<Waarde>Vislengteklasse 299 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
+		<BiologischKenmerk versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9348</ID>
+			<Code>VL-300cm</Code>
+			<Waarde>Vislengteklasse 300 cm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Lengteklasse</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BiologischKenmerk>
 	</sikb.BiologischKenmerk_c>
 	<sikb.Juistheidsoordeel_c categorie="Juistheidsoordeel" techName="Juistheidsoordeel" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<Juistheidsoordeel versie="14.6.0" datum="2019-11-21" status="Bevestigd">
@@ -116598,6 +118290,678 @@
 			<Waarde>Placeholder</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>3</ID>
+			<Code>AQ8_CytCox1</Code>
+			<Waarde>AQUON_008 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>4</ID>
+			<Code>AQ9_16SrRNA</Code>
+			<Waarde>AQUON_009 - 16S ribosomaal RNA gen</Waarde>
+			<Omschrijving>een gen dat codeert voor een onderdeel van de kleine subeenheid van het prokaryotisch ribosoom, veelgebruikt voor het identificeren en classificeren van bacteriën en archaea op basis van sequentievariatie</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>5</ID>
+			<Code>AQ10_CytoxC1</Code>
+			<Waarde>AQUON_010 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>6</ID>
+			<Code>AQ11_CytoxC1</Code>
+			<Waarde>AQUON_011 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>7</ID>
+			<Code>AQ12_CytB</Code>
+			<Waarde>AQUON_012 - Cytochroom B</Waarde>
+			<Omschrijving>de regio in DNA die codeert voor het eiwit Cytochroom B, dat wordt aangetroffen in de mitochondriën van eukaryotische cellen en functioneert als onderdeel van de elektronentransportketen</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>8</ID>
+			<Code>AQ13_16SrRNA</Code>
+			<Waarde>AQUON_013 - 16S ribosomaal RNA gen</Waarde>
+			<Omschrijving>een gen dat codeert voor een onderdeel van de kleine subeenheid van het prokaryotisch ribosoom, veelgebruikt voor het identificeren en classificeren van bacteriën en archaea op basis van sequentievariatie</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>9</ID>
+			<Code>AQ14_CytoxC1</Code>
+			<Waarde>AQUON_014 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>10</ID>
+			<Code>AQ15_CytoxC1</Code>
+			<Waarde>AQUON_015 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>11</ID>
+			<Code>AQ17_CytoxC1</Code>
+			<Waarde>AQUON_017 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>12</ID>
+			<Code>AQ19_16SrRNA</Code>
+			<Waarde>AQUON_019 - 16S ribosomaal RNA gen</Waarde>
+			<Omschrijving>een gen dat codeert voor een onderdeel van de kleine subeenheid van het prokaryotisch ribosoom, veelgebruikt voor het identificeren en classificeren van bacteriën en archaea op basis van sequentievariatie</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>13</ID>
+			<Code>AQ20_CytoxC1</Code>
+			<Waarde>AQUON_020 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>14</ID>
+			<Code>AQ22_23SrRNA</Code>
+			<Waarde>AQUON_022 - 23S ribosomaal RNA gen</Waarde>
+			<Omschrijving>een gen dat codeert voor een onderdeel van de grote subeenheid van het prokaryotisch ribosoom, belangrijk voor eiwitsynthese en vaak gebruikt in fylogenetische analyses van bacteriën</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>15</ID>
+			<Code>AQ23_CytoxC1</Code>
+			<Waarde>AQUON_023 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>16</ID>
+			<Code>AQ25_NADHde5</Code>
+			<Waarde>AQUON_025 - NADH dehydrogenase subunit 5</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een essentieel onderdeel van complex I, betrokken bij de oxidatie van NADH en het genereren van een protonengradiënt voor ATP-synthese</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>17</ID>
+			<Code>AQ26_CytB</Code>
+			<Waarde>AQUON_026 - Cytochroom B</Waarde>
+			<Omschrijving>de regio in DNA die codeert voor het eiwit Cytochroom B, dat wordt aangetroffen in de mitochondriën van eukaryotische cellen en functioneert als onderdeel van de elektronentransportketen</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>18</ID>
+			<Code>AQ27_Cytox1</Code>
+			<Waarde>AQUON_027 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>19</ID>
+			<Code>AQ28_CytCox3</Code>
+			<Waarde>AQUON_028 - Cytochroom C oxidase subunit 3</Waarde>
+			<Omschrijving>een mitochondriaal gen dat deel uitmaakt van complex IV en betrokken is bij de overdracht van elektronen naar zuurstof, essentieel voor de cellulaire ademhaling</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>20</ID>
+			<Code>AQ29_CytoxC1</Code>
+			<Waarde>AQUON_029 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>21</ID>
+			<Code>AQ30_CytB</Code>
+			<Waarde>AQUON_030 - Cytochroom B</Waarde>
+			<Omschrijving>de regio in DNA die codeert voor het eiwit Cytochroom B, dat wordt aangetroffen in de mitochondriën van eukaryotische cellen en functioneert als onderdeel van de elektronentransportketen</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>22</ID>
+			<Code>AQ31_CytB</Code>
+			<Waarde>AQUON_031 - Cytochroom B</Waarde>
+			<Omschrijving>de regio in DNA die codeert voor het eiwit Cytochroom B, dat wordt aangetroffen in de mitochondriën van eukaryotische cellen en functioneert als onderdeel van de elektronentransportketen</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>23</ID>
+			<Code>AQ32_CytoxC1</Code>
+			<Waarde>AQUON_032 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>24</ID>
+			<Code>AQ33_CytoxC1</Code>
+			<Waarde>AQUON_033 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>25</ID>
+			<Code>AQ34_CytoxC1</Code>
+			<Waarde>AQUON_034 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>26</ID>
+			<Code>AQ35_NADHde2</Code>
+			<Waarde>AQUON_035 - NADH dehydrogenase subunit 2</Waarde>
+			<Omschrijving>een mitochondriaal gen dat deel uitmaakt van complex 1 en bijdraagt aan de overdracht van elektronen en protonen, belangrijk voor de productie van cellulaire energie (ATP)</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>27</ID>
+			<Code>AQ36_CytoxC1</Code>
+			<Waarde>AQUON_036 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>28</ID>
+			<Code>AQ37_CytoxC1</Code>
+			<Waarde>AQUON_037 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>29</ID>
+			<Code>AQ38_CytoxC1</Code>
+			<Waarde>AQUON_038 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>30</ID>
+			<Code>AQ39_CytoxC1</Code>
+			<Waarde>AQUON_039 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>31</ID>
+			<Code>AQ40_NADHde1</Code>
+			<Waarde>AQUON_040 - NADH dehydrogenase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex 1 in de elektronentransportketen, betrokken bij de overdracht van elektronen van NADH naar ubiquinon</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>32</ID>
+			<Code>AQ41_NADHde1</Code>
+			<Waarde>AQUON_041 - NADH dehydrogenase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex 1 in de elektronentransportketen, betrokken bij de overdracht van elektronen van NADH naar ubiquinon</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>33</ID>
+			<Code>AQ42_16SrRNA</Code>
+			<Waarde>AQUON_042 - 16S ribosomaal RNA gen</Waarde>
+			<Omschrijving>een gen dat codeert voor een onderdeel van de kleine subeenheid van het prokaryotisch ribosoom, veelgebruikt voor het identificeren en classificeren van bacteriën en archaea op basis van sequentievariatie</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>34</ID>
+			<Code>AQ43_CytoxC1</Code>
+			<Waarde>AQUON_043 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>35</ID>
+			<Code>AQ44_CytoxC1</Code>
+			<Waarde>AQUON_044 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>36</ID>
+			<Code>AQ45_CytoxC1</Code>
+			<Waarde>AQUON_045 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>37</ID>
+			<Code>AQ46_CytB</Code>
+			<Waarde>AQUON_046 - Cytochroom B</Waarde>
+			<Omschrijving>de regio in DNA die codeert voor het eiwit Cytochroom B, dat wordt aangetroffen in de mitochondriën van eukaryotische cellen en functioneert als onderdeel van de elektronentransportketen</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>38</ID>
+			<Code>AQ47_23SrRNA</Code>
+			<Waarde>AQUON_047 - 23S ribosomaal RNA gen</Waarde>
+			<Omschrijving>een gen dat codeert voor een onderdeel van de grote subeenheid van het prokaryotisch ribosoom, belangrijk voor eiwitsynthese en vaak gebruikt in fylogenetische analyses van bacteriën</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>39</ID>
+			<Code>AQ48_16SrRNA</Code>
+			<Waarde>AQUON_048 - 16S ribosomaal RNA gen</Waarde>
+			<Omschrijving>een gen dat codeert voor een onderdeel van de kleine subeenheid van het prokaryotisch ribosoom, veelgebruikt voor het identificeren en classificeren van bacteriën en archaea op basis van sequentievariatie</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>40</ID>
+			<Code>AQ49_CytoxC1</Code>
+			<Waarde>AQUON_049 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>41</ID>
+			<Code>AQ50_CytoxC1</Code>
+			<Waarde>AQUON_050 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>42</ID>
+			<Code>AQ51_NADHde1</Code>
+			<Waarde>AQUON_051 - NADH dehydrogenase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex 1 in de elektronentransportketen, betrokken bij de overdracht van elektronen van NADH naar ubiquinon</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>43</ID>
+			<Code>AQ52_CytB</Code>
+			<Waarde>AQUON_052 - Cytochroom B</Waarde>
+			<Omschrijving>de regio in DNA die codeert voor het eiwit Cytochroom B, dat wordt aangetroffen in de mitochondriën van eukaryotische cellen en functioneert als onderdeel van de elektronentransportketen</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>44</ID>
+			<Code>AQ53_CytoxC1</Code>
+			<Waarde>AQUON_053 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>45</ID>
+			<Code>AQ54_16SrRNA</Code>
+			<Waarde>AQUON_054 - 16S ribosomaal RNA gen</Waarde>
+			<Omschrijving>een gen dat codeert voor een onderdeel van de kleine subeenheid van het prokaryotisch ribosoom, veelgebruikt voor het identificeren en classificeren van bacteriën en archaea op basis van sequentievariatie</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>46</ID>
+			<Code>AQ55_CytB</Code>
+			<Waarde>AQUON_055 - Cytochroom B</Waarde>
+			<Omschrijving>de regio in DNA die codeert voor het eiwit Cytochroom B, dat wordt aangetroffen in de mitochondriën van eukaryotische cellen en functioneert als onderdeel van de elektronentransportketen</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>47</ID>
+			<Code>AQ56_CytoxC1</Code>
+			<Waarde>AQUON_056 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>48</ID>
+			<Code>AQ57_CytoxC1</Code>
+			<Waarde>AQUON_057 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>49</ID>
+			<Code>AQ58_NADHde5</Code>
+			<Waarde>AQUON_058 - NADH dehydrogenase subunit 5</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een essentieel onderdeel van complex I, betrokken bij de oxidatie van NADH en het genereren van een protonengradiënt voor ATP-synthese</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>50</ID>
+			<Code>AQ60_CytB</Code>
+			<Waarde>AQUON_060 - Cytochroom B</Waarde>
+			<Omschrijving>de regio in DNA die codeert voor het eiwit Cytochroom B, dat wordt aangetroffen in de mitochondriën van eukaryotische cellen en functioneert als onderdeel van de elektronentransportketen</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>51</ID>
+			<Code>AQ61_CytoxC1</Code>
+			<Waarde>AQUON_061 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>52</ID>
+			<Code>AQ62_NADHde1</Code>
+			<Waarde>AQUON_062 - NADH dehydrogenase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex 1 in de elektronentransportketen, betrokken bij de overdracht van elektronen van NADH naar ubiquinon</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>53</ID>
+			<Code>AQ63_CytoxC1</Code>
+			<Waarde>AQUON_063 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>54</ID>
+			<Code>AQ66_CytoxC1</Code>
+			<Waarde>AQUON_066 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>55</ID>
+			<Code>AQ67_CytoxC1</Code>
+			<Waarde>AQUON_067 - Cytochroom C oxidase subunit 1</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een subeenheid van complex IV in de elektronentransportketen, vaak gebruikt als barcoding-gen voor soortidentificatie vanwege zijn conservatie en informatiewaarde</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>56</ID>
+			<Code>AQ68_NADHde2</Code>
+			<Waarde>AQUON_068 - NADH dehydrogenase subunit 2</Waarde>
+			<Omschrijving>een mitochondriaal gen dat deel uitmaakt van complex 1 en bijdraagt aan de overdracht van elektronen en protonen, belangrijk voor de productie van cellulaire energie (ATP)</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>1</ID>
+			<Code>MF_12SrRNA</Code>
+			<Waarde>MiFish - 12S ribosomaal RNA gen (Miya, 2015)</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een onderdeel van de kleine ribosomale subeenheid, vaak gebruikt in fylogenetisch onderzoek en soortidentificatie vanwege zijn conservatie en informatiewaarde bij dieren</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</PrimerTargetGen>
+		<PrimerTargetGen versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+			<ID>2</ID>
+			<Code>TL_12SrRNA</Code>
+			<Waarde>Teleo - 12S ribosomaal RNA gen (Valentini et al., 2016)</Waarde>
+			<Omschrijving>een mitochondriaal gen dat codeert voor een onderdeel van de kleine ribosomale subeenheid, vaak gebruikt in fylogenetisch onderzoek en soortidentificatie vanwege zijn conservatie en informatiewaarde bij dieren</Omschrijving>
+			<Groep>
+			</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
