@@ -588,16 +588,16 @@
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'upperDepth', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'lowerDepth', 'ERROR')"/>
 		
-		<!-- Check observations, example xml releaties	-->
-		<xsl:for-each select="./sam:relatedObservation">
-			<xsl:variable name="linkedId" select="replace(./@xlink:href, '#','')"/>            
-
-			<xsl:variable name="Characteristic" select="//immetingen:Characteristic[@gml:id = $linkedId]"/>   
-			<xsl:variable name="indicatorUrn" select="$Characteristic/immetingen:indicator"/>   
+		<!-- Check observations, example xml releaties -->
+		<xsl:variable name="allObservationIds" select="./sam:relatedObservation/@xlink:href"/>
+		<xsl:variable name="allIdsString" select="string-join($allObservationIds, ',')"/>				
+        <xsl:variable name="allCharacteristics" select="//immetingen:Characteristic[contains($allIdsString,@gml:id)]"/>        
+		<xsl:for-each select="$allCharacteristics">			         
+			<xsl:variable name="indicatorUrn" select="./immetingen:indicator"/>   
 			<xsl:variable name="indicatorId" select="substring-after($indicatorUrn, ':id:')"/>
-			<xsl:variable name="result" select="$Characteristic/om:result"/>
+			<xsl:variable name="result" select="./om:result"/>
 			
-			<xsl:variable name="guids" select="concat('Layer: (', $prGUID, ') Characteristic: (',$linkedId,')')"/>    
+			<xsl:variable name="guids" select="concat('Layer: (', $prGUID, ') Characteristic: (',./@gml:id,')')"/>    
 			
 			<xsl:choose>
 				<xsl:when test="$indicatorId = '11' and contains(fn:lower-case($indicatorUrn),fn:lower-case('KenmerkBodemlaag'))">        
@@ -607,9 +607,26 @@
 				<xsl:when test="$indicatorId = '1' and contains(fn:lower-case($indicatorUrn),fn:lower-case('KenmerkBodemlaag'))">        
 					<!-- Valideren bzb -->
 					<xsl:copy-of select="sikb:checkLookupId($result, $guids, 'classifiedResult', 'BodemlaagBijzonderheden', 'ERROR')"/>
+				</xsl:when>					
+				<xsl:when test="$indicatorId = '9' and contains(fn:lower-case($indicatorUrn),fn:lower-case('KenmerkBodemlaag'))">        
+					<!-- Valideren grindgehalte -->
+					<xsl:copy-of select="sikb:checkLookupId($result, $guids, 'classifiedResult', 'GrindGehalte', 'ERROR')"/>					
+					<!-- check grondsoort is aanwezig -->
+					<xsl:if test="count($allCharacteristics[fn:lower-case(immetingen:indicator) = fn:lower-case('urn:immetingen:KenmerkBodemlaag:id:11')]) &lt; 1">
+						<xsl:variable name="message" select="replace(string-join(('Bij ', $guids, 'is een GrindGehalte waarneming opgenomen, terwijl er geen grondsoort is. Deze waarneming zal worden genegeerd.'), ' '), '  ', ' ')"/>
+						<xsl:copy-of select="sikb:createRecord('WARNING', string(./name()), $message)"/>
+					</xsl:if>
+				</xsl:when>		
+				<xsl:when test="$indicatorId = '10' and contains(fn:lower-case($indicatorUrn),fn:lower-case('KenmerkBodemlaag'))">        
+					<!-- Valideren org.stof gehalte -->
+					<xsl:copy-of select="sikb:checkLookupId($result, $guids, 'classifiedResult', 'OrganischeStofGehalte', 'ERROR')"/>
+					<xsl:if test="count($allCharacteristics[fn:lower-case(immetingen:indicator) = fn:lower-case('urn:immetingen:KenmerkBodemlaag:id:11')]) &lt; 1">
+						<xsl:variable name="message" select="replace(string-join(('Bij ', $guids, 'is een OrganischeStofGehalte waarneming opgenomen, terwijl er geen grondsoort is. Deze waarneming zal worden genegeerd.'), ' '), '  ', ' ')"/>
+						<xsl:copy-of select="sikb:createRecord('WARNING', string(./name()), $message)"/>
+					</xsl:if>
 				</xsl:when>						 
 			</xsl:choose>		
-		</xsl:for-each>			
+		</xsl:for-each>				
 		
     </xsl:template>
         <!-- Diepte-->
