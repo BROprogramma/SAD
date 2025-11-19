@@ -5,7 +5,7 @@
         <SIKB0101ID>1</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>zwak (&lt;5%)</Omschrijving>
+        <Omschrijving>zwak (NEN 5104) (&lt;5%)</Omschrijving>
     </BijzonderBestanddeelGradatie>
     <BijzonderBestanddeelGradatie>
         <Waarde>lenzen</Waarde>
@@ -33,21 +33,21 @@
 		<SIKB0101ID>5</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>sterk (NEN5104)/veel (NEN6693) (15%-50%)</Omschrijving>
+		<Omschrijving>sterk (NEN 5104)/veel (NEN 6693) (15%-50%)</Omschrijving>
 	</BijzonderBestanddeelGradatie>
 	<BijzonderBestanddeelGradatie>
 		<Waarde>overvloedig</Waarde>
 		<SIKB0101ID>6</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>uiterst (NEN5104)/overvloedig (NEN6693) (50%-80%)</Omschrijving>
+		<Omschrijving>uiterst (NEN 5104)/overvloedig (NEN 6693) (50%-80%)</Omschrijving>
 	</BijzonderBestanddeelGradatie>
 	<BijzonderBestanddeelGradatie>
 		<Waarde>dominant</Waarde>
 		<SIKB0101ID>7</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>volledig (NEN5104)/dominant (NEN6693) (&gt;80%)</Omschrijving>
+		<Omschrijving>volledig (NEN 5104)/dominant (NEN 6693) (&gt;80%)</Omschrijving>
 	</BijzonderBestanddeelGradatie>
     <BijzonderBestanddeelGradatie>
         <Waarde>sporen</Waarde>
@@ -78,17 +78,17 @@
         <Omschrijving>laagjes</Omschrijving>
     </BijzonderBestanddeelGradatie>
 	<BijzonderBestanddeelGradatie>
-		<Waarde>zeerWeinig0tot2</Waarde>
+		<Waarde>zeerWeinig</Waarde>
 		<SIKB0101ID>12</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>zeer weinig (&gt;0%-2%)</Omschrijving>
+		<Omschrijving>zeer weinig (NEN 6693) (&gt;0%-2%)</Omschrijving>
 	</BijzonderBestanddeelGradatie>
 	<BijzonderBestanddeelGradatie>
-		<Waarde>weinig2tot5</Waarde>
+		<Waarde>weinig</Waarde>
 		<SIKB0101ID>13</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>weinig (2%-5%)</Omschrijving>
+		<Omschrijving>weinig (NEN 6693) (2%-5%)</Omschrijving>
 	</BijzonderBestanddeelGradatie>    
 </domeintabel>
