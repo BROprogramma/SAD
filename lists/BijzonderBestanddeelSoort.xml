@@ -663,14 +663,14 @@
 		<SIKB0101ID>228</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>gebakkenstraatstenen</Omschrijving>
+		<Omschrijving>gebakken straatstenen</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>kunststofvezels</Waarde>
 		<SIKB0101ID>250</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kunststofvezels</Omschrijving>
+		<Omschrijving>kunststofvezels</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>kattenklei</Waarde>
@@ -691,7 +691,7 @@
 		<SIKB0101ID>253</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Materiaal dat op basis van een visuele beoordeling als mogelijk asbesthoudend is beoordeeld</Omschrijving>
+		<Omschrijving>Materiaal dat op basis van een visuele beoordeling als mogelijk asbesthoudend is beoordeeld.</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>flugsand</Waarde>
@@ -705,14 +705,14 @@
 		<SIKB0101ID>256</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Bims</Omschrijving>
+		<Omschrijving>bims</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>zandCement</Waarde>
 		<SIKB0101ID>255</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zandcement</Omschrijving>
+		<Omschrijving>zand cement</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>piepschuim</Waarde>
@@ -824,7 +824,7 @@
 		<SIKB0101ID>18</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>br gestaakt</Omschrijving>
+		<Omschrijving>boring gestaakt</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>cyanide</Waarde>
