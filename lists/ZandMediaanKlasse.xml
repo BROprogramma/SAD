@@ -5,14 +5,14 @@
         <SIKB0101ID>3</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>De zandmediaan ligt tussen 63 en 105 µm. Een klasse onder de NEN5104 procedure.</Omschrijving>
+        <Omschrijving>De zandmediaan ligt tussen 63 en 105 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
     </ZandMediaanKlasse>
     <ZandMediaanKlasse>
         <Waarde>zeerFijnNEN5104</Waarde>
         <SIKB0101ID>4</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>De zandmediaan ligt tussen 105 en 150 µm. Een klasse onder de NEN5104 procedure.</Omschrijving>
+        <Omschrijving>De zandmediaan ligt tussen 105 en 150 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
     </ZandMediaanKlasse>
     <ZandMediaanKlasse>
         <Waarde>matigFijnNEN5104</Waarde>
