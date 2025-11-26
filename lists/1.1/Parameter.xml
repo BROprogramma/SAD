@@ -12298,7 +12298,7 @@
 		<SIKB0101ID>3898</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>perfluor-1-decaansulfonzuur</Omschrijving>
+		<Omschrijving>perfluordecaansulfonzuur</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>3899</SIKB0101ID>
@@ -12496,7 +12496,7 @@
 		<SIKB0101ID>3931</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>perfluor-1-heptaansulfonzuur</Omschrijving>
+		<Omschrijving>perfluorheptaansulfonzuur</Omschrijving>
 	</Parameter>
 	<Parameter>
 		<SIKB0101ID>3932</SIKB0101ID>
@@ -26622,6 +26622,78 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>8:2 fluortelomeer onverzadigd carbonzuur</Omschrijving>
 	</Parameter>	
+	<Parameter>
+		<SIKB0101ID>7286</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>levopropylhexedrine</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7287</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>mirtazapine</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7288</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>cimetidine</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7289</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>deacetyldiltiazem</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7290</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>mefenorex</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7291</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>levocetirizine</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7292</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>clopidogrel</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7305</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>2-benzyltolueen</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7306</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>3-benzyltolueen</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7307</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>4-benzyltoluene</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7308</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>dibenzyltolueen</Omschrijving>
+	</Parameter>
+	<Parameter>
+		<SIKB0101ID>7309</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>som gehalogeneerde azijnzuren</Omschrijving>
+	</Parameter>
 	<Parameter>
 		<SIKB0101ID>14606</SIKB0101ID>
 		<IMBRO>v</IMBRO>

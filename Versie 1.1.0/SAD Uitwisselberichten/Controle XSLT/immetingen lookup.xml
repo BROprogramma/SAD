@@ -72347,105 +72347,105 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7288</ID>
 			<Code>cimtdne</Code>
 			<Omschrijving>cimetidine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7292</ID>
 			<Code>clopdgl</Code>
 			<Omschrijving>clopidogrel</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7289</ID>
 			<Code>deactdtzm</Code>
 			<Omschrijving>deacetyldiltiazem</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7291</ID>
 			<Code>levctrzne</Code>
 			<Omschrijving>levocetirizine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7286</ID>
 			<Code>levC3yhxdne</Code>
 			<Omschrijving>levopropylhexedrine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7290</ID>
 			<Code>mefnrx</Code>
 			<Omschrijving>mefenorex</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-07-26" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7287</ID>
 			<Code>mirtzpne</Code>
 			<Omschrijving>mirtazapine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7305</ID>
 			<Code>2benzTol</Code>
 			<Omschrijving>2-benzyltolueen</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7306</ID>
 			<Code>3benzTol</Code>
 			<Omschrijving>3-benzyltolueen</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7307</ID>
 			<Code>4benzTol</Code>
 			<Omschrijving>4-benzyltoluene</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
 		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
 			<ID>7294</ID>
@@ -72567,25 +72567,25 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7308</ID>
 			<Code>DbenzTol</Code>
 			<Omschrijving>dibenzyltolueen</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-10-21" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-11-26" status="Bevestigd">
 			<ID>7309</ID>
 			<Code>sXHAc</Code>
 			<Omschrijving>som gehalogeneerde azijnzuren</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
 		<Parameter versie="14.7.0" datum="2025-11-11" status="Bevestigd">
 			<ID>7310</ID>
@@ -102989,6 +102989,30 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
+		<Meetinstantie versie="14.7.0" datum="2025-11-19" status="Bevestigd">
+			<ID>121</ID>
+			<Code>121</Code>
+			<Waarde>Datura Environmental Solutions</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Meetinstantie>
+		<Meetinstantie versie="14.7.0" datum="2025-11-19" status="Bevestigd">
+			<ID>120</ID>
+			<Code>120</Code>
+			<Waarde>Ecofide</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Meetinstantie>
 	</sikb.Meetinstantie_c>
 	<sikb.CertificeringsCode_c categorie="CertificeringsCode" techName="CertificeringsCode" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<CertificeringsCode versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
@@ -103477,39 +103501,61 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</GrindGehalte>
-		<GrindGehalte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<GrindGehalte versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>2</ID>
 			<Code></Code>
-			<Waarde>g1</Waarde>
+			<Waarde>g1 (0-5 %)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</GrindGehalte>
-		<GrindGehalte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<GrindGehalte versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>3</ID>
 			<Code></Code>
-			<Waarde>g2</Waarde>
+			<Waarde>g2 (5-15 %)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</GrindGehalte>
-		<GrindGehalte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<GrindGehalte versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>4</ID>
 			<Code></Code>
-			<Waarde>g3</Waarde>
+			<Waarde>g3 (15-30 %)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</GrindGehalte>
+		<GrindGehalte versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>5</ID>
+			<Code>undefined</Code>
+			<Waarde>g2 (5-20 %)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</GrindGehalte>
+		<GrindGehalte versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>6</ID>
+			<Code>undefined</Code>
+			<Waarde>g3 (20-50 %)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</GrindGehalte>
@@ -103659,25 +103705,25 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>13</ID>
 			<Code></Code>
-			<Waarde>Lz1 (Leem zwak zandig)</Waarde>
+			<Waarde>Sz1 (Silt zwak zandig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>14</ID>
 			<Code></Code>
-			<Waarde>Lz3 (Leem sterk zandig)</Waarde>
+			<Waarde>Sz3 (Silt sterk zandig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -103743,49 +103789,49 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>20</ID>
 			<Code></Code>
-			<Waarde>Gs (Grind siltig)</Waarde>
+			<Waarde>Gs (Grind siltig), 30% grind</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>NEN5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>21</ID>
 			<Code></Code>
 			<Waarde>Gz1 (Grind zwak zandig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>22</ID>
 			<Code></Code>
 			<Waarde>Gz2 (Grind matig zandig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>23</ID>
 			<Code></Code>
-			<Waarde>Gz3 (Grind sterk zandig)</Waarde>
+			<Waarde>Gz3 (Grind sterk zandig), 30% grind</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>NEN5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -103803,121 +103849,121 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>25</ID>
 			<Code></Code>
-			<Waarde>Sk1 (Slib zwak kleiig)</Waarde>
+			<Waarde>SLk1 (Slib zwak kleiig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>26</ID>
 			<Code></Code>
-			<Waarde>Sk3 (Slib sterk kleiig)</Waarde>
+			<Waarde>SLk3 (Slib sterk kleiig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>27</ID>
 			<Code></Code>
-			<Waarde>Ss1 (Slib zwak siltig)</Waarde>
+			<Waarde>SLs1 (Slib zwak siltig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>28</ID>
 			<Code></Code>
-			<Waarde>Ss2 (Slib matig siltig)</Waarde>
+			<Waarde>SLs2 (Slib matig siltig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>29</ID>
 			<Code></Code>
-			<Waarde>Ss3 (Slib sterk siltig)</Waarde>
+			<Waarde>SLs3 (Slib sterk siltig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>30</ID>
 			<Code></Code>
-			<Waarde>Ss4 (Slib uiterst siltig)</Waarde>
+			<Waarde>SLs4 (Slib uiterst siltig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>31</ID>
 			<Code></Code>
-			<Waarde>Sz1 (Slib zwak zandig)</Waarde>
+			<Waarde>SLz1 (Slib zwak zandig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>32</ID>
 			<Code></Code>
-			<Waarde>Sz2 (Slib matig zandig)</Waarde>
+			<Waarde>SLz2 (Slib matig zandig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>33</ID>
 			<Code></Code>
-			<Waarde>Sz3 (Slib sterk zandig)</Waarde>
+			<Waarde>SLz3 (Slib sterk zandig)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>34</ID>
 			<Code></Code>
-			<Waarde>S (Slib)</Waarde>
+			<Waarde>SL (Slib)</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -104043,6 +104089,259 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>54</ID>
+			<Code>undefined</Code>
+			<Waarde>DETk1 (Detrius zwak kleiig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>55</ID>
+			<Code>undefined</Code>
+			<Waarde>DETk3 (Detrius sterk kleiig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>53</ID>
+			<Code>undefined</Code>
+			<Waarde>DETm (Detrius mineraalarm)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>56</ID>
+			<Code>undefined</Code>
+			<Waarde>DETz1 (Detrius zwak zandig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>57</ID>
+			<Code>undefined</Code>
+			<Waarde>DETz3 (Detrius sterk zandig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>59</ID>
+			<Code>undefined</Code>
+			<Waarde>GYk1 (Gyttja zwak kleiig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>60</ID>
+			<Code>undefined</Code>
+			<Waarde>GYk3 (Gyttja sterk kleiig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>58</ID>
+			<Code>undefined</Code>
+			<Waarde>GYm (Gyttja mineraalarm)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>61</ID>
+			<Code>undefined</Code>
+			<Waarde>GYz1 (Gyttja zwak zandig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>62</ID>
+			<Code>undefined</Code>
+			<Waarde>GYz3 (Gyttja sterk zandig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>63</ID>
+			<Code>undefined</Code>
+			<Waarde>Gk (Grind kleiig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>65</ID>
+			<Code>undefined</Code>
+			<Waarde>Gkn (Grind met keien)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>64</ID>
+			<Code>undefined</Code>
+			<Waarde>Gks (Grind met keitjes)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>66</ID>
+			<Code>undefined</Code>
+			<Waarde>Gs (Grind siltig), 50% grind</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>67</ID>
+			<Code>undefined</Code>
+			<Waarde>Gz3 (Grind sterk zandig), 50% grind</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>49</ID>
+			<Code>undefined</Code>
+			<Waarde>Hk1 (Humus zwak kleiig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>50</ID>
+			<Code>undefined</Code>
+			<Waarde>Hk3 (Humus sterk kleiig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>48</ID>
+			<Code>undefined</Code>
+			<Waarde>Hm (Humus mineraalarm)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>51</ID>
+			<Code>undefined</Code>
+			<Waarde>Hz1 (Humus zwak zandig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>52</ID>
+			<Code>undefined</Code>
+			<Waarde>Hz3 (Humus sterk zandig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>45</ID>
+			<Code>undefined</Code>
+			<Waarde>Zg1 (Zand zwak grindig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>46</ID>
+			<Code>undefined</Code>
+			<Waarde>Zg2 (Zand matig grindig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
+		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>47</ID>
+			<Code>undefined</Code>
+			<Waarde>Zg3 (Zand sterk grindig)</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bodemsoort>
 	</sikb.Bodemsoort_c>
 	<sikb.BodemsoortMediaan_c categorie="BodemsoortMediaan" techName="BodemsoortMediaan" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<BodemsoortMediaan versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
@@ -104057,55 +104356,55 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>2</ID>
 			<Code></Code>
 			<Waarde>fijn</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>3</ID>
 			<Code></Code>
 			<Waarde>uiterst fijn</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>4</ID>
 			<Code></Code>
 			<Waarde>zeer fijn</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>5</ID>
 			<Code></Code>
 			<Waarde>matig fijn</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Vervallen">
 			<ID>6</ID>
 			<Code></Code>
 			<Waarde>grof</Waarde>
@@ -104117,37 +104416,37 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>7</ID>
 			<Code></Code>
 			<Waarde>uiterst grof</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>8</ID>
 			<Code></Code>
 			<Waarde>zeer grof</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>9</ID>
 			<Code></Code>
 			<Waarde>matig grof</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep></Groep>
+			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -104184,6 +104483,138 @@
 			<Omschrijving>
 			</Omschrijving>
 			<Groep></Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>18</ID>
+			<Code>undefined</Code>
+			<Waarde>fijn 105 - 150 um</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>19</ID>
+			<Code>undefined</Code>
+			<Waarde>fijn 150 - 200 um</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>13</ID>
+			<Code>undefined</Code>
+			<Waarde>fijn 2,0 - 6,3 mm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>17</ID>
+			<Code>undefined</Code>
+			<Waarde>fijn 63 - 105 um</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>16</ID>
+			<Code>undefined</Code>
+			<Waarde>fijn 63 - 200 um</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>15</ID>
+			<Code>undefined</Code>
+			<Waarde>grof 20 - 63 mm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>24</ID>
+			<Code>undefined</Code>
+			<Waarde>grof 630 - 2000 um</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>21</ID>
+			<Code>undefined</Code>
+			<Waarde>middelgrof 200 - 300 um</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>20</ID>
+			<Code>undefined</Code>
+			<Waarde>middelgrof 200 - 630 um</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>22</ID>
+			<Code>undefined</Code>
+			<Waarde>middelgrof 300 - 420 um</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>23</ID>
+			<Code>undefined</Code>
+			<Waarde>middelgrof 420 - 630 um</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BodemsoortMediaan>
+		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Bevestigd">
+			<ID>14</ID>
+			<Code>undefined</Code>
+			<Waarde>middelgrof 6,3 - 20 mm</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -104481,10 +104912,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OliewaterReactieMate>
-		<OliewaterReactieMate versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<OliewaterReactieMate versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
 			<ID>5</ID>
 			<Code></Code>
-			<Waarde>uiterst</Waarde>
+			<Waarde>zeer sterk</Waarde>
 			<Omschrijving>
 			</Omschrijving>
 			<Groep></Groep>
