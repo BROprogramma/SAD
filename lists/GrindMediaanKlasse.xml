@@ -29,17 +29,17 @@
 		<Omschrijving>De grindmediaan is gelijk aan of groter dan 2 mm en kleiner dan 6,3 mm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 	</GrindMediaanKlasse>
 	<GrindMediaanKlasse>
-		<Waarde>grof20tot63mm</Waarde>
+		<Waarde>middelGrof6.3tot20mm</Waarde>
 		<SIKB0101ID>14</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De grindmediaan is gelijk aan of groter dan 20 mm en kleiner dan 63 mm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+		<Omschrijving>De grindmediaan is gelijk aan of groter dan 6,3 mm en kleiner dan 20 mm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 	</GrindMediaanKlasse>
 	<GrindMediaanKlasse>
-		<Waarde>middelGrof6.3tot20mm</Waarde>
+		<Waarde>grof20tot63mm</Waarde>
 		<SIKB0101ID>15</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>De grindmediaan is gelijk aan of groter dan 6,3 mm en kleiner dan 20 mm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+		<Omschrijving>De grindmediaan is gelijk aan of groter dan 20 mm en kleiner dan 63 mm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 	</GrindMediaanKlasse>    
 </domeintabel>
