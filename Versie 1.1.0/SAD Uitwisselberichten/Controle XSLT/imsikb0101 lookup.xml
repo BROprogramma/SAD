@@ -36722,6 +36722,17 @@ diffuse bodembelasting</Omschrijving>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BeschrijfProcedure>
+		<BeschrijfProcedure versie="14.7.0" datum="2025-12-03" status="Bevestigd">
+			<ID>2</ID>
+			<Code>undefined</Code>
+			<Waarde>NEN6693</Waarde>
+			<Omschrijving>De beschrijving van en de waarnemingen aan de (water)bodem en het grondwater zijn gedaan conform de NEN6693.</Omschrijving>
+			<Groep>undefined</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</BeschrijfProcedure>
 	</sikb.BeschrijfProcedure_c>
 	<sikb.AanpakVerontreiniging_c categorie="AanpakVerontreiniging" techName="AanpakVerontreiniging" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<AanpakVerontreiniging versie="14.7.0" datum="2024-07-10" status="Bevestigd">
