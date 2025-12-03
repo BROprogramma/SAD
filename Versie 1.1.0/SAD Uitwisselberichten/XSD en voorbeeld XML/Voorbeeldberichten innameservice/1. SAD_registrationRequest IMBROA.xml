@@ -313,7 +313,8 @@
 								</immetingen:Height>
 							</imsikb0101:groundLevel>
 							<imsikb0101:groundLevelType>urn:imsikb0101:MaaiveldType:id:11</imsikb0101:groundLevelType>
-							<imsikb0101:drillMaster xlink:href="#_9a4e21b3-3282-433f-b584-54471298e928"/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
+							<imsikb0101:drillMaster xlink:href="#_9a4e21b3-3282-433f-b584-54471298e928"/>							
 						</imsikb0101:Borehole>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
