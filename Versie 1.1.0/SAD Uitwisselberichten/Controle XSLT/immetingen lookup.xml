@@ -2153,7 +2153,7 @@
 			<ID>216</ID>
 			<Code>CF-LSA37</Code>
 			<Waarde>Coliformen op LSA medium bij 37 oC</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -2165,7 +2165,7 @@
 			<ID>215</ID>
 			<Code>EC-LSA44</Code>
 			<Waarde>E. coli op LSA medium bij 44 oC</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -2177,7 +2177,7 @@
 			<ID>214</ID>
 			<Code>EC-TGA-TSA44</Code>
 			<Waarde>E. coli op TGA/TSA medium bij 44 oC</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -48087,13 +48087,13 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2025-12-17" status="Gewijzigd">
 			<ID>4850</ID>
-			<Code>OS</Code>
+			<Code>OSt</Code>
 			<Omschrijving>Onopgeloste stoffen</Omschrijving>
 			<Groep>Object</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
@@ -49837,14 +49837,14 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2025-12-17" status="Gewijzigd">
 			<ID>5025</ID>
 			<Code>UITLGG</Code>
 			<Omschrijving>Uitloging</Omschrijving>
 			<Groep>Grootheid</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
 		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
@@ -71057,13 +71057,13 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2025-12-17" status="Bevestigd">
 			<ID>7157</ID>
 			<Code>BEVASBHM</Code>
 			<Omschrijving>bevat asbesthoudend materiaal</Omschrijving>
 			<Groep>Typering</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
@@ -82049,13 +82049,13 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.7.0" datum="2024-08-29" status="Bevestigd">
+		<Hoedanigheid versie="14.7.0" datum="2025-12-17" status="Bevestigd">
 			<ID>987</ID>
 			<Code>afk020</Code>
 			<Omschrijving>fractie kleiner dan 20 mm</Omschrijving>
 			<Groep>AsbestFractie</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
@@ -86297,7 +86297,7 @@
 			<ID>375</ID>
 			<Code>euro/MWh</Code>
 			<Waarde>euro per megawattuur</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Overig</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -86352,7 +86352,7 @@
 			<ID>383</ID>
 			<Code>euro</Code>
 			<Waarde>euro</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Overig</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -88585,7 +88585,7 @@
 			<Code>
 			</Code>
 			<Waarde>Borstel</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Ecologische bemonstering</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -88597,7 +88597,7 @@
 			<Code>
 			</Code>
 			<Waarde>Keukenzeef</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Ecologische bemonstering</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -88621,7 +88621,7 @@
 			<Code>
 			</Code>
 			<Waarde>Schraper</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Ecologische bemonstering</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -88657,7 +88657,7 @@
 			<Code>
 			</Code>
 			<Waarde>Hand</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Ecologische bemonstering</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -88669,7 +88669,7 @@
 			<Code>
 			</Code>
 			<Waarde>Hark</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Ecologische bemonstering</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -88705,7 +88705,7 @@
 			<Code>
 			</Code>
 			<Waarde>Buis</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Luchtbemonstering</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -88899,10 +88899,10 @@
 		</MonsterType>
 		<MonsterType versie="14.7.0" datum="2024-07-19" status="Bevestigd">
 			<ID>12</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>conclusie monster</Waarde>
 			<Omschrijving>(Samengesteld) Conclusie monster van meerdere analysemonsters, via een samenvoeging of berekening, waarop een eindconclusie gemaakt kan worden</Omschrijving>
-			<Groep></Groep>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -89885,10 +89885,10 @@
 		</RelatedSamplingFeatureRollen>
 		<RelatedSamplingFeatureRollen versie="14.7.0" datum="2024-07-17" status="Bevestigd">
 			<ID>26</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>HeeftAnalysemonster</Waarde>
 			<Omschrijving>Conclusie monster naar Analysemonster</Omschrijving>
-			<Groep></Groep>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -89896,10 +89896,10 @@
 		</RelatedSamplingFeatureRollen>
 		<RelatedSamplingFeatureRollen versie="14.7.0" datum="2024-07-17" status="Bevestigd">
 			<ID>25</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>HeeftConclusieOver</Waarde>
 			<Omschrijving>Conclusie monster heeft conclusie over xxxFeature</Omschrijving>
-			<Groep></Groep>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -89907,10 +89907,10 @@
 		</RelatedSamplingFeatureRollen>
 		<RelatedSamplingFeatureRollen versie="14.7.0" datum="2024-07-17" status="Bevestigd">
 			<ID>27</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>InConclusieMonster</Waarde>
 			<Omschrijving>Analysemonster naar Conclusie monster</Omschrijving>
-			<Groep></Groep>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -101129,7 +101129,7 @@
 			<ID>1068</ID>
 			<Code>AP04SG.XV.20</Code>
 			<Waarde>Accreditatieprogramma04-SG.XV_v13_20200423</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101140,7 +101140,7 @@
 			<ID>1069</ID>
 			<Code>CMA2IIA23.13</Code>
 			<Waarde>CMA/2/II/A.23 december 2013</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm bodem-fysisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101151,7 +101151,7 @@
 			<ID>1070</ID>
 			<Code>CMA3C.01</Code>
 			<Waarde>CMA/3/C augustus 2001</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm bodem/water-chemisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101162,7 +101162,7 @@
 			<ID>1071</ID>
 			<Code>CMA3D.21</Code>
 			<Waarde>CMA/3/D november 2021</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm bodem-chemisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101184,7 +101184,7 @@
 			<ID>1072</ID>
 			<Code>N1056VI3.66</Code>
 			<Waarde>NEN 1056VI3:1966 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm vervallen</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101217,7 +101217,7 @@
 			<ID>1076</ID>
 			<Code>I19040-3.18</Code>
 			<Waarde>ISO 19040-3:2018 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-chemisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101228,7 +101228,7 @@
 			<ID>1077</ID>
 			<Code>I7027-2.19</Code>
 			<Waarde>NEN-EN-ISO 7027-2:2019 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-fysisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101239,7 +101239,7 @@
 			<ID>1078</ID>
 			<Code>CMA7A4.06</Code>
 			<Waarde>CMA/7/A.4 december 2006</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-fysisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101250,7 +101250,7 @@
 			<ID>1079</ID>
 			<Code>N6961.23</Code>
 			<Waarde>NEN 6961:2023 nl</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm milieu</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101261,7 +101261,7 @@
 			<ID>1080</ID>
 			<Code>WACIVA025.11</Code>
 			<Waarde>WAC/IV/A/025 januari 2011</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-chemisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101272,7 +101272,7 @@
 			<ID>1084</ID>
 			<Code>I14189.16</Code>
 			<Waarde>NEN-EN-ISO 14189:2016 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101283,7 +101283,7 @@
 			<ID>1083</ID>
 			<Code>I6888-1.21</Code>
 			<Waarde>NEN-EN-ISO 6888-1:2021 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101294,7 +101294,7 @@
 			<ID>1085</ID>
 			<Code>I18593.18</Code>
 			<Waarde>NEN-ISO 18593:2018 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101305,7 +101305,7 @@
 			<ID>1082</ID>
 			<Code>I21527-1.08</Code>
 			<Waarde>NEN-ISO 21527-1:2008 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -101316,7 +101316,7 @@
 			<ID>1081</ID>
 			<Code>NFNRLWB.20</Code>
 			<Waarde>NFN richtlijn waterbehandeling 2020</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101327,7 +101327,7 @@
 			<ID>1086</ID>
 			<Code>I54321.21</Code>
 			<Waarde>NEN-EN-ISO 54321:2021 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm milieu</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101338,7 +101338,7 @@
 			<ID>1090</ID>
 			<Code>N6578.11</Code>
 			<Waarde>NEN 6578:2011 nl</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-chemisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101349,7 +101349,7 @@
 			<ID>1092</ID>
 			<Code>I16265.09</Code>
 			<Waarde>NEN-EN-ISO 16265:2009</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-chemisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101360,7 +101360,7 @@
 			<ID>1093</ID>
 			<Code>I16265.12</Code>
 			<Waarde>NEN-EN-ISO 16265:2012</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-chemisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101371,7 +101371,7 @@
 			<ID>1089</ID>
 			<Code>I17294-2.23</Code>
 			<Waarde>NEN-EN-ISO 17294-2:2023 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-chemisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101382,7 +101382,7 @@
 			<ID>1091</ID>
 			<Code>WACIIIC041</Code>
 			<Waarde>WAC/III/C/041</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-chemisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101393,7 +101393,7 @@
 			<ID>1087</ID>
 			<Code>P3280-1.20</Code>
 			<Waarde>prestatieblad 3280-1, 23-04-2020 (PFAS)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101404,7 +101404,7 @@
 			<ID>1088</ID>
 			<Code>P3280-2.20</Code>
 			<Waarde>prestatieblad 3280-2, 23-04-2020 (PFAS)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101415,7 +101415,7 @@
 			<ID>1094</ID>
 			<Code>CMA/3/R3.14</Code>
 			<Waarde>CMA/3/R.3 juni 2014</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm bodem/water-chemisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101426,7 +101426,7 @@
 			<ID>1095</ID>
 			<Code>I16558-1.15</Code>
 			<Waarde>NEN-EN-ISO 16558-1:2015 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm bodem-chemisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101437,7 +101437,7 @@
 			<ID>1096</ID>
 			<Code>T16558-2.15</Code>
 			<Waarde>NVN-CEN ISO/TS 16558-2:2015 en</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm bodem-chemisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101525,7 +101525,7 @@
 			<ID>1104</ID>
 			<Code>P3260-2.20</Code>
 			<Waarde>prestatieblad 3260-2, 23-04-2020 (organotinverbindingen)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101536,7 +101536,7 @@
 			<ID>1106</ID>
 			<Code>N6234.23</Code>
 			<Waarde>NEN 6234:2023 nl</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101547,7 +101547,7 @@
 			<ID>1105</ID>
 			<Code>P7394.22</Code>
 			<Waarde>NPR 7394:2022 nl</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101558,7 +101558,7 @@
 			<ID>1107</ID>
 			<Code>P3210-1.20</Code>
 			<Waarde>prestatieblad 3210-1, 23-04-2020 (droge stof)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101569,7 +101569,7 @@
 			<ID>1110</ID>
 			<Code>P3210-2.20</Code>
 			<Waarde>prestatieblad 3210-2, 23-04-2020 (organische stof)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101580,7 +101580,7 @@
 			<ID>1108</ID>
 			<Code>P3210-3.20</Code>
 			<Waarde>prestatieblad 3210-3, 23-04-2020 (korrelgroottefractie)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101591,7 +101591,7 @@
 			<ID>1116</ID>
 			<Code>P3210-4.20</Code>
 			<Waarde>prestatieblad 3210-4, 23-04-2020 (metalen)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101602,7 +101602,7 @@
 			<ID>1112</ID>
 			<Code>P3210-5.20</Code>
 			<Waarde>prestatieblad 3210-5, 23-04-2020 (PAK)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101613,7 +101613,7 @@
 			<ID>1109</ID>
 			<Code>P3210-6.20</Code>
 			<Waarde>prestatieblad 3210-6, 23-04-2020 (minerale olie)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101624,7 +101624,7 @@
 			<ID>1114</ID>
 			<Code>P3210-7.20</Code>
 			<Waarde>prestatieblad 3210-7, 23-04-2020 (PCB)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101635,7 +101635,7 @@
 			<ID>1111</ID>
 			<Code>P3220-1.20</Code>
 			<Waarde>prestatieblad 3220-1, 23-04-2020 (OCB)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101646,7 +101646,7 @@
 			<ID>1113</ID>
 			<Code>P3220-2.20</Code>
 			<Waarde>prestatieblad 3220-2, 23-04-2020 (OCB overig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -101657,7 +101657,7 @@
 			<ID>1115</ID>
 			<Code>P3250-1.20</Code>
 			<Waarde>prestatieblad 3250-1, 23-04-2020 (metalen)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -103113,7 +103113,7 @@
 			<ID>105</ID>
 			<Code>105</Code>
 			<Waarde>Ecologisch Adviesbureau Stachys</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103125,7 +103125,7 @@
 			<ID>106</ID>
 			<Code>106</Code>
 			<Waarde>Labo Devlieger - Van Vooren (LDVV), Zelzate</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103137,7 +103137,7 @@
 			<ID>107</ID>
 			<Code>107</Code>
 			<Waarde>Sambiose</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103149,7 +103149,7 @@
 			<ID>108</ID>
 			<Code>108</Code>
 			<Waarde>MILON</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103161,7 +103161,7 @@
 			<ID>109</ID>
 			<Code>109</Code>
 			<Waarde>WESSLING Frankrijk</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103173,7 +103173,7 @@
 			<ID>110</ID>
 			<Code>110</Code>
 			<Waarde>microLAN B.V.</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103185,7 +103185,7 @@
 			<ID>111</ID>
 			<Code>111</Code>
 			<Waarde>Labo Derva</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103197,7 +103197,7 @@
 			<ID>112</ID>
 			<Code>112</Code>
 			<Waarde>Bureau Biota</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103209,7 +103209,7 @@
 			<ID>113</ID>
 			<Code>113</Code>
 			<Waarde>Waders Milieu B.V.</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103221,7 +103221,7 @@
 			<ID>115</ID>
 			<Code>115</Code>
 			<Waarde>AGROLAB France SARL - Dijon. FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103233,7 +103233,7 @@
 			<ID>114</ID>
 			<Code>114</Code>
 			<Waarde>Eurofins Spanje</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103245,7 +103245,7 @@
 			<ID>116</ID>
 			<Code>116</Code>
 			<Waarde>Normec Groen Agro Control</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103257,7 +103257,7 @@
 			<ID>118</ID>
 			<Code>118</Code>
 			<Waarde>AGROLAB AWBE - Zelzate. BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103269,7 +103269,7 @@
 			<ID>117</ID>
 			<Code>117</Code>
 			<Waarde>AGROLAB Dr. Verwey B.V. - Barendrecht. NL</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103281,7 +103281,7 @@
 			<ID>119</ID>
 			<Code>119</Code>
 			<Waarde>SpyGen</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103293,7 +103293,7 @@
 			<ID>121</ID>
 			<Code>121</Code>
 			<Waarde>Datura Environmental Solutions</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103305,7 +103305,7 @@
 			<ID>120</ID>
 			<Code>120</Code>
 			<Waarde>Ecofide</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103317,7 +103317,7 @@
 			<ID>122</ID>
 			<Code>122</Code>
 			<Waarde>AGROLAB Medioambiente - Tarragona ES</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103329,7 +103329,7 @@
 			<ID>124</ID>
 			<Code>124</Code>
 			<Waarde>APB Provinciaal Instituut voor Hygiene - Antwerpen BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103341,7 +103341,7 @@
 			<ID>125</ID>
 			<Code>125</Code>
 			<Waarde>Bodemkundige Dienst van Belgie - Leuven BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103353,7 +103353,7 @@
 			<ID>130</ID>
 			<Code>130</Code>
 			<Waarde>C2S (Conseil Chimie Services) - Aix en Provence FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103365,7 +103365,7 @@
 			<ID>126</ID>
 			<Code>126</Code>
 			<Waarde>CELABOR - Herve BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103377,7 +103377,7 @@
 			<ID>127</ID>
 			<Code>127</Code>
 			<Waarde>DGZ (Dierengezondheidszorg Vlaanderen) - Torhout BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103389,7 +103389,7 @@
 			<ID>139</ID>
 			<Code>139</Code>
 			<Waarde>Eurofins Agro - Jena DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103401,7 +103401,7 @@
 			<ID>135</ID>
 			<Code>135</Code>
 			<Waarde>Eurofins Agro Testing - Nazareth BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103413,7 +103413,7 @@
 			<ID>134</ID>
 			<Code>134</Code>
 			<Waarde>Eurofins Agro Testing - Wageningen NL</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103425,7 +103425,7 @@
 			<ID>162</ID>
 			<Code>162</Code>
 			<Waarde>Eurofins Agroambiental - Sidamon ES</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103437,7 +103437,7 @@
 			<ID>151</ID>
 			<Code>151</Code>
 			<Waarde>Eurofins Analyses pour l&#039;Environnement (S1) - Saverne FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103449,7 +103449,7 @@
 			<ID>152</ID>
 			<Code>152</Code>
 			<Waarde>Eurofins Analyses pour l&#039;Environnement (S2) - Saverne FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103461,7 +103461,7 @@
 			<ID>153</ID>
 			<Code>153</Code>
 			<Waarde>Eurofins Analyses pour l&#039;Environnement - Saverne FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103473,7 +103473,7 @@
 			<ID>182</ID>
 			<Code>182</Code>
 			<Waarde>Eurofins Analytical Services - Bangalore IN</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103485,7 +103485,7 @@
 			<ID>168</ID>
 			<Code>168</Code>
 			<Waarde>Eurofins Athens Analysis Laboratories - Athene GR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103497,7 +103497,7 @@
 			<ID>180</ID>
 			<Code>180</Code>
 			<Waarde>Eurofins Bestlab Oy - Lahti - FL</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103509,7 +103509,7 @@
 			<ID>183</ID>
 			<Code>183</Code>
 			<Waarde>Eurofins Built Environment Testing - Houston US</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103521,7 +103521,7 @@
 			<ID>154</ID>
 			<Code>154</Code>
 			<Waarde>Eurofins Ecotoxicologie - Maxeville - FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103533,7 +103533,7 @@
 			<ID>155</ID>
 			<Code>155</Code>
 			<Waarde>Eurofins Eichrom Radioactivite - Bruz FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103545,7 +103545,7 @@
 			<ID>176</ID>
 			<Code>176</Code>
 			<Waarde>Eurofins Environment Testing - Bergen NO</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103557,7 +103557,7 @@
 			<ID>167</ID>
 			<Code>167</Code>
 			<Waarde>Eurofins Environment Testing - Boedapest HU</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103569,7 +103569,7 @@
 			<ID>178</ID>
 			<Code>178</Code>
 			<Waarde>Eurofins Environment Testing - Lidkoping SE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103581,7 +103581,7 @@
 			<ID>177</ID>
 			<Code>177</Code>
 			<Waarde>Eurofins Environment Testing - Moss NO</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103593,7 +103593,7 @@
 			<ID>136</ID>
 			<Code>136</Code>
 			<Waarde>Eurofins Euraceta - Villers-le-Bouillet BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103605,7 +103605,7 @@
 			<ID>156</ID>
 			<Code>156</Code>
 			<Waarde>Eurofins Expertise Microbiologique - Maxeville - FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103617,7 +103617,7 @@
 			<ID>179</ID>
 			<Code>179</Code>
 			<Waarde>Eurofins Food &amp; Feed Testing - Lidkoping SE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103629,7 +103629,7 @@
 			<ID>137</ID>
 			<Code>137</Code>
 			<Waarde>Eurofins Food Testing - Nazareth BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103641,7 +103641,7 @@
 			<ID>138</ID>
 			<Code>138</Code>
 			<Waarde>Eurofins Forensics - Brugge BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103653,7 +103653,7 @@
 			<ID>140</ID>
 			<Code>140</Code>
 			<Waarde>Eurofins GfA Lab Service - Hamburg DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103665,7 +103665,7 @@
 			<ID>157</ID>
 			<Code>157</Code>
 			<Waarde>Eurofins Hydrologie Est - Maxeville FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103677,7 +103677,7 @@
 			<ID>158</ID>
 			<Code>158</Code>
 			<Waarde>Eurofins Hydrologie Nord - Douai FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103689,7 +103689,7 @@
 			<ID>159</ID>
 			<Code>159</Code>
 			<Waarde>Eurofins Hydrologie Ouest - Rosporden FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103701,7 +103701,7 @@
 			<ID>141</ID>
 			<Code>141</Code>
 			<Waarde>Eurofins Institut Jager - Tubingen DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103713,7 +103713,7 @@
 			<ID>161</ID>
 			<Code>161</Code>
 			<Waarde>Eurofins Iproma - Castellon ES</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103725,7 +103725,7 @@
 			<ID>163</ID>
 			<Code>163</Code>
 			<Waarde>Eurofins Lab Environment Testing - Sobrosa PT</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103737,7 +103737,7 @@
 			<ID>160</ID>
 			<Code>160</Code>
 			<Waarde>Eurofins Laboratoire Coeur de France - Moulins FR</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103749,7 +103749,7 @@
 			<ID>171</ID>
 			<Code>171</Code>
 			<Waarde>Eurofins Miljo -  Galten DK</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103761,7 +103761,7 @@
 			<ID>170</ID>
 			<Code>170</Code>
 			<Waarde>Eurofins Miljo - Vejen DK</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103773,7 +103773,7 @@
 			<ID>172</ID>
 			<Code>172</Code>
 			<Waarde>Eurofins Miljo Vand - Vejen DK</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103785,7 +103785,7 @@
 			<ID>181</ID>
 			<Code>181</Code>
 			<Waarde>Eurofins Nab Labs - Oulu - FL</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103797,7 +103797,7 @@
 			<ID>164</ID>
 			<Code>164</Code>
 			<Waarde>Eurofins Polska - Katowice PL</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103809,7 +103809,7 @@
 			<ID>166</ID>
 			<Code>166</Code>
 			<Waarde>Eurofins Polska - Lodz PL</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103821,7 +103821,7 @@
 			<ID>165</ID>
 			<Code>165</Code>
 			<Waarde>Eurofins Polska - Malbork PL</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103833,7 +103833,7 @@
 			<ID>173</ID>
 			<Code>173</Code>
 			<Waarde>Eurofins Product Testing - Galten DK</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103845,7 +103845,7 @@
 			<ID>142</ID>
 			<Code>142</Code>
 			<Waarde>Eurofins SOFIA - Berlijn DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103857,7 +103857,7 @@
 			<ID>143</ID>
 			<Code>143</Code>
 			<Waarde>Eurofins Umwelt Ost - Freiberg DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103869,7 +103869,7 @@
 			<ID>144</ID>
 			<Code>144</Code>
 			<Waarde>Eurofins Umwelt Ost - Jena DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103881,7 +103881,7 @@
 			<ID>145</ID>
 			<Code>145</Code>
 			<Waarde>Eurofins Umwelt Sudwest - Rastatt DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103893,7 +103893,7 @@
 			<ID>146</ID>
 			<Code>146</Code>
 			<Waarde>Eurofins Umwelt West - Wesseling DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103905,7 +103905,7 @@
 			<ID>174</ID>
 			<Code>174</Code>
 			<Waarde>Eurofins VBM Laboratoriet - Abybro DK</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103917,7 +103917,7 @@
 			<ID>175</ID>
 			<Code>175</Code>
 			<Waarde>Eurofins Vitamin Testing - Vejen DK</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103929,7 +103929,7 @@
 			<ID>147</ID>
 			<Code>147</Code>
 			<Waarde>Eurofins WEJ Contaminants - Hamburg DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103941,7 +103941,7 @@
 			<ID>169</ID>
 			<Code>169</Code>
 			<Waarde>Eurofins Water Hygiene Testing - Wolverhampton UK</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103953,7 +103953,7 @@
 			<ID>128</ID>
 			<Code>128</Code>
 			<Waarde>Labo Iliano - Destelbergen BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103965,7 +103965,7 @@
 			<ID>123</ID>
 			<Code>123</Code>
 			<Waarde>Micro-Analyse Zeeland - Goes NL</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103977,7 +103977,7 @@
 			<ID>131</ID>
 			<Code>131</Code>
 			<Waarde>Normec DETS - Consett VK</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -103989,7 +103989,7 @@
 			<ID>129</ID>
 			<Code>129</Code>
 			<Waarde>PiCA (Prufinstitut Chemische Analytik) - Berlijn DE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -104001,7 +104001,7 @@
 			<ID>184</ID>
 			<Code>184</Code>
 			<Waarde>Plantentuin - Meise BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -104013,7 +104013,7 @@
 			<ID>133</ID>
 			<Code>133</Code>
 			<Waarde>SGS - Polderdijkweg Antwerpen BE</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -104025,7 +104025,7 @@
 			<ID>132</ID>
 			<Code>132</Code>
 			<Waarde>SGS Food Analytics - Oosterhout NL</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -104394,33 +104394,33 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-17" status="Gewijzigd">
 			<ID>5</ID>
 			<Code></Code>
 			<Waarde>sterk/veel (15%-50%)</Waarde>
-			<Omschrijving>sterk (15%-50%)</Omschrijving>
+			<Omschrijving>sterk/veel (15%-50%)</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-17" status="Gewijzigd">
 			<ID>6</ID>
 			<Code></Code>
 			<Waarde>uiterst/overvloedig (50%-80%)</Waarde>
-			<Omschrijving>uiterst (50%-80%)</Omschrijving>
+			<Omschrijving>uiterst/overvloedig (50%-80%)</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-17" status="Gewijzigd">
 			<ID>7</ID>
 			<Code></Code>
 			<Waarde>volledig/dominant (&gt;80%)</Waarde>
-			<Omschrijving>volledig (&gt;80%)</Omschrijving>
+			<Omschrijving>volledig/dominant (&gt;80%)</Omschrijving>
 			<Groep></Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -104473,10 +104473,10 @@
 		</BodemlaagBijzonderhedenGradatie>
 		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>13</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>weinig (2%-5%)</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -104484,10 +104484,10 @@
 		</BodemlaagBijzonderhedenGradatie>
 		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>12</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>zeer weinig (&gt;0%-2%)</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -104581,9 +104581,9 @@
 		</GrindGehalte>
 		<GrindGehalte versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>5</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>g2 (5-20 %)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -104592,9 +104592,9 @@
 		</GrindGehalte>
 		<GrindGehalte versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>6</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>g3 (20-50 %)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105133,9 +105133,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>54</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>DETk1 (Detrius zwak kleiig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105144,9 +105144,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>55</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>DETk3 (Detrius sterk kleiig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105155,9 +105155,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>53</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>DETm (Detrius mineraalarm)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105166,9 +105166,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>56</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>DETz1 (Detrius zwak zandig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105177,9 +105177,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>57</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>DETz3 (Detrius sterk zandig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105188,9 +105188,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>59</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>GYk1 (Gyttja zwak kleiig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105199,9 +105199,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>60</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>GYk3 (Gyttja sterk kleiig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105210,9 +105210,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>58</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>GYm (Gyttja mineraalarm)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105221,9 +105221,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>61</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>GYz1 (Gyttja zwak zandig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105232,9 +105232,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>62</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>GYz3 (Gyttja sterk zandig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105243,9 +105243,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>63</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Gk (Grind kleiig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105254,9 +105254,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>65</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Gkn (Grind met keien)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105265,9 +105265,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>64</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Gks (Grind met keitjes)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105276,9 +105276,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>66</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Gs (Grind siltig), 50% grind</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105287,9 +105287,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>67</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Gz3 (Grind sterk zandig), 50% grind</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105298,9 +105298,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>49</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Hk1 (Humus zwak kleiig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105309,9 +105309,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>50</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Hk3 (Humus sterk kleiig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105320,9 +105320,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>48</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Hm (Humus mineraalarm)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105331,9 +105331,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>51</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Hz1 (Humus zwak zandig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105342,9 +105342,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>52</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Hz3 (Humus sterk zandig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105353,9 +105353,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>45</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Zg1 (Zand zwak grindig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105364,9 +105364,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>46</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Zg2 (Zand matig grindig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105375,9 +105375,9 @@
 		</Bodemsoort>
 		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>47</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Zg3 (Zand sterk grindig)</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105532,9 +105532,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>18</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>fijn 105 - 150 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105543,9 +105543,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>19</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>fijn 150 - 200 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105554,9 +105554,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>13</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>fijn 2,0 - 6,3 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105565,9 +105565,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>17</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>fijn 63 - 105 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105576,9 +105576,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>16</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>fijn 63 - 200 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105587,9 +105587,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>15</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>grof 20 - 63 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105598,9 +105598,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>24</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>grof 630 - 2000 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105609,9 +105609,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>21</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>middelgrof 200 - 300 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105620,9 +105620,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>20</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>middelgrof 200 - 630 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105631,9 +105631,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>22</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>middelgrof 300 - 420 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105642,9 +105642,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>23</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>middelgrof 420 - 630 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105653,9 +105653,9 @@
 		</BodemsoortMediaan>
 		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>14</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>middelgrof 6,3 - 20 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105834,10 +105834,10 @@
 		</Kleur>
 		<Kleur versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>15</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>olijf</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108316,10 +108316,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>258</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>artefact</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108327,10 +108327,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>259</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>bentoniet</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108338,10 +108338,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>260</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>bodemas</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108349,10 +108349,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>261</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>geotextiel</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108360,10 +108360,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>262</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>lava</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108371,10 +108371,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>263</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>menggranulaat</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108382,10 +108382,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>264</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>metaalslak</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108393,10 +108393,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>265</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>rioolslib</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108404,10 +108404,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>266</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>silt</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108415,10 +108415,10 @@
 		</BodemlaagBijzonderheden>
 		<BodemlaagBijzonderheden versie="14.7.0" datum="2025-12-10" status="Bevestigd">
 			<ID>267</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>steenkool</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -111002,10 +111002,10 @@
 		</MonsterVoorbehandeling>
 		<MonsterVoorbehandeling versie="14.7.0" datum="2025-06-04" status="Bevestigd">
 			<ID>6</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Ongefiltreerd</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -111013,10 +111013,10 @@
 		</MonsterVoorbehandeling>
 		<MonsterVoorbehandeling versie="14.7.0" datum="2025-06-04" status="Bevestigd">
 			<ID>7</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Ongeroerd</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -111892,7 +111892,7 @@
 			<ID>964</ID>
 			<Code>HH-W7A:2014</Code>
 			<Waarde>HH-W7A:2014 Bemonstering van fytoplankton in opp.water</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Voorschrift water</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -111971,10 +111971,10 @@
 		</Onderzoekssoort>
 		<Onderzoekssoort versie="14.7.0" datum="2024-08-29" status="Bevestigd">
 			<ID>4</ID>
-			<Code></Code>
+			<Code>undefined</Code>
 			<Waarde>Controle</Waarde>
 			<Omschrijving>een onderzoekssoort die voortdurend, periodiek of incidenteel uitgevoerd kan worden ten behoeve van de veiligheid of het voorkomen van fouten</Omschrijving>
-			<Groep></Groep>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -112386,7 +112386,7 @@
 			<ID>35</ID>
 			<Code>RW</Code>
 			<Waarde>Restweefsel</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
 			<broSadImbroA>false</broSadImbroA>
@@ -117760,7 +117760,7 @@
 			<ID>9202</ID>
 			<Code>BL-13-26mm</Code>
 			<Waarde>Benthoslengteklasse groter dan 13 en kleiner dan 26 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117771,7 +117771,7 @@
 			<ID>9201</ID>
 			<Code>BL-24-32mm</Code>
 			<Waarde>Benthoslengteklasse groter dan 24 en kleiner dan 32 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117782,7 +117782,7 @@
 			<ID>9203</ID>
 			<Code>BL-31-39mm</Code>
 			<Waarde>Benthoslengteklasse groter dan 31 en kleiner dan 39 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117793,7 +117793,7 @@
 			<ID>9204</ID>
 			<Code>BL-38-48mm</Code>
 			<Waarde>Benthoslengteklasse groter dan 38 en kleiner dan 48 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117804,7 +117804,7 @@
 			<ID>9205</ID>
 			<Code>BL-47-58mm</Code>
 			<Waarde>Benthoslengteklasse groter dan 47 en kleiner dan 58 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117815,7 +117815,7 @@
 			<ID>9206</ID>
 			<Code>BL-57-71mm</Code>
 			<Waarde>Benthoslengteklasse groter dan 57 en kleiner dan 71 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117826,7 +117826,7 @@
 			<ID>9207</ID>
 			<Code>BL-65-160mm</Code>
 			<Waarde>Benthoslengteklasse groter dan 65 en kleiner dan 160 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117837,7 +117837,7 @@
 			<ID>104</ID>
 			<Code>FL-gd10um</Code>
 			<Waarde>Fytoplanktonlengteklasse groter dan 10 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117848,7 +117848,7 @@
 			<ID>9211</ID>
 			<Code>VL-gd299mm</Code>
 			<Waarde>Vislengte groter dan 299 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117859,7 +117859,7 @@
 			<ID>9212</ID>
 			<Code>VL-gd300mm</Code>
 			<Waarde>Vislengte groter dan 300 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117870,7 +117870,7 @@
 			<ID>9208</ID>
 			<Code>VL-100-150mm</Code>
 			<Waarde>Vislengteklasse groter dan 100 en kleiner dan 150 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117881,7 +117881,7 @@
 			<ID>9220</ID>
 			<Code>VL-149-301mm</Code>
 			<Waarde>Vislengteklasse groter dan 149 en kleiner dan 301 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117892,7 +117892,7 @@
 			<ID>9221</ID>
 			<Code>VL-150-200mm</Code>
 			<Waarde>Vislengteklasse groter dan 150 en kleiner dan 200 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117903,7 +117903,7 @@
 			<ID>9213</ID>
 			<Code>VL-199-226mm</Code>
 			<Waarde>Vislengteklasse groter dan 199 en kleiner dan 226 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117914,7 +117914,7 @@
 			<ID>9209</ID>
 			<Code>VL-199-250mm</Code>
 			<Waarde>Vislengteklasse groter dan 199 en kleiner dan 250 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117925,7 +117925,7 @@
 			<ID>9219</ID>
 			<Code>VL-199-351mm</Code>
 			<Waarde>Vislengteklasse groter dan 199 en kleiner dan 351 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117936,7 +117936,7 @@
 			<ID>9214</ID>
 			<Code>VL-225-251mm</Code>
 			<Waarde>Vislengteklasse groter dan 225 en kleiner dan 251 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117947,7 +117947,7 @@
 			<ID>9218</ID>
 			<Code>VL-249-300mm</Code>
 			<Waarde>Vislengteklasse groter dan 249 en kleiner dan 300 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117958,7 +117958,7 @@
 			<ID>9215</ID>
 			<Code>VL-250-281mm</Code>
 			<Waarde>Vislengteklasse groter dan 250 en kleiner dan 281 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117969,7 +117969,7 @@
 			<ID>9210</ID>
 			<Code>VL-250-300mm</Code>
 			<Waarde>Vislengteklasse groter dan 250 en kleiner dan 300 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117980,7 +117980,7 @@
 			<ID>9216</ID>
 			<Code>VL-280-316mm</Code>
 			<Waarde>Vislengteklasse groter dan 280 en kleiner dan 316 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -117991,7 +117991,7 @@
 			<ID>9217</ID>
 			<Code>VL-315-351mm</Code>
 			<Waarde>Vislengteklasse groter dan 315 en kleiner dan 351 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118002,7 +118002,7 @@
 			<ID>9230</ID>
 			<Code>FL-gd1mm</Code>
 			<Waarde>Fytoplanktonlengteklasse groter dan 1 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118013,7 +118013,7 @@
 			<ID>9229</ID>
 			<Code>FL-kd1mm</Code>
 			<Waarde>Fytoplanktonlengteklasse kleiner dan 1 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118024,7 +118024,7 @@
 			<ID>9227</ID>
 			<Code>ZL10001500um</Code>
 			<Waarde>Zoöpl.l.klasse groter dan 1000 en kleiner of gelijk 1500 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118035,7 +118035,7 @@
 			<ID>9223</ID>
 			<Code>ZL-300-400um</Code>
 			<Waarde>Zoöpl.l.klasse groter dan 300 en kleiner of gelijk 400 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118046,7 +118046,7 @@
 			<ID>9224</ID>
 			<Code>ZL-400-500um</Code>
 			<Waarde>Zoöpl.l.klasse groter dan 400 en kleiner of gelijk 500 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118057,7 +118057,7 @@
 			<ID>9225</ID>
 			<Code>ZL-500-600um</Code>
 			<Waarde>Zoöpl.l.klasse groter dan 500 en kleiner of gelijk 600 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118068,7 +118068,7 @@
 			<ID>9226</ID>
 			<Code>ZL-6001000um</Code>
 			<Waarde>Zoöpl.l.klasse groter dan 600 en kleiner of gelijk 1000 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118079,7 +118079,7 @@
 			<ID>9228</ID>
 			<Code>ZL-gd1500um</Code>
 			<Waarde>Zoöplanktonlengteklasse groter dan 1500 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118090,7 +118090,7 @@
 			<ID>9222</ID>
 			<Code>ZL-kd300um</Code>
 			<Waarde>Zoöplanktonlengteklasse kleiner dan 300 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118101,7 +118101,7 @@
 			<ID>105</ID>
 			<Code>LS-ED</Code>
 			<Waarde>Levensstadium-Eidragend</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Levensstadium</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118112,7 +118112,7 @@
 			<ID>106</ID>
 			<Code>LS-JD</Code>
 			<Waarde>Levensstadium-Jongdragend</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Levensstadium</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118123,7 +118123,7 @@
 			<ID>9231</ID>
 			<Code>VL-40-90mm</Code>
 			<Waarde>Vislengteklasse groter dan 40 en kleiner dan 90 mm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118134,7 +118134,7 @@
 			<ID>9240</ID>
 			<Code>FL-10-30um</Code>
 			<Waarde>Fytoplanktonlengtekl groter dan 10 kleiner of gelijk 30 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118145,7 +118145,7 @@
 			<ID>9234</ID>
 			<Code>FL-20-50um</Code>
 			<Waarde>Fytoplanktonlengtekl groter dan 20 kleiner of gelijk 50 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118156,7 +118156,7 @@
 			<ID>9239</ID>
 			<Code>FL-3-10um</Code>
 			<Waarde>Fytoplanktonlengtekl groter dan 3 en kleiner of gelijk 10 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118167,7 +118167,7 @@
 			<ID>9235</ID>
 			<Code>FL-3-5um</Code>
 			<Waarde>Fytoplanktonlengtekl groter dan 3 en kleiner of gelijk 5 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118178,7 +118178,7 @@
 			<ID>9244</ID>
 			<Code>FL-30-80um</Code>
 			<Waarde>Fytoplanktonlengtekl groter dan 30 en kleiner of gelijk 80um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118189,7 +118189,7 @@
 			<ID>9241</ID>
 			<Code>FL-30-50um</Code>
 			<Waarde>Fytoplanktonlengtekl groter dan 30 kleiner of gelijk 50 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118200,7 +118200,7 @@
 			<ID>9233</ID>
 			<Code>FL-50-100um</Code>
 			<Waarde>Fytoplanktonlengtekl groter dan 50 kleiner of gelijk 100 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118211,7 +118211,7 @@
 			<ID>9236</ID>
 			<Code>FL-gd100um</Code>
 			<Waarde>Fytoplanktonlengteklasse groter dan 100 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118222,7 +118222,7 @@
 			<ID>9238</ID>
 			<Code>FL-gd50um</Code>
 			<Waarde>Fytoplanktonlengteklasse groter dan 50 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118233,7 +118233,7 @@
 			<ID>9243</ID>
 			<Code>FL-gd80um</Code>
 			<Waarde>Fytoplanktonlengteklasse groter dan 80 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118244,7 +118244,7 @@
 			<ID>9232</ID>
 			<Code>FL-kd20um</Code>
 			<Waarde>Fytoplanktonlengteklasse kleiner of gelijk aan 20 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118255,7 +118255,7 @@
 			<ID>9237</ID>
 			<Code>FL-kd3um</Code>
 			<Waarde>Fytoplanktonlengteklasse kleiner of gelijk aan 3 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118266,7 +118266,7 @@
 			<ID>9242</ID>
 			<Code>FL-kd50um</Code>
 			<Waarde>Fytoplanktonlengteklasse kleiner of gelijk aan 50 um</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118277,7 +118277,7 @@
 			<ID>107</ID>
 			<Code>LS-SA</Code>
 			<Waarde>Levensstadium-Subadult</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Levensstadium</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118332,7 +118332,7 @@
 			<ID>9249</ID>
 			<Code>VL-201cm</Code>
 			<Waarde>Vislengteklasse 201 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118343,7 +118343,7 @@
 			<ID>9250</ID>
 			<Code>VL-202cm</Code>
 			<Waarde>Vislengteklasse 202 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118354,7 +118354,7 @@
 			<ID>9251</ID>
 			<Code>VL-203cm</Code>
 			<Waarde>Vislengteklasse 203 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118365,7 +118365,7 @@
 			<ID>9252</ID>
 			<Code>VL-204cm</Code>
 			<Waarde>Vislengteklasse 204 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118376,7 +118376,7 @@
 			<ID>9253</ID>
 			<Code>VL-205cm</Code>
 			<Waarde>Vislengteklasse 205 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118387,7 +118387,7 @@
 			<ID>9254</ID>
 			<Code>VL-206cm</Code>
 			<Waarde>Vislengteklasse 206 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118398,7 +118398,7 @@
 			<ID>9255</ID>
 			<Code>VL-207cm</Code>
 			<Waarde>Vislengteklasse 207 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118409,7 +118409,7 @@
 			<ID>9256</ID>
 			<Code>VL-208cm</Code>
 			<Waarde>Vislengteklasse 208 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118420,7 +118420,7 @@
 			<ID>9257</ID>
 			<Code>VL-209cm</Code>
 			<Waarde>Vislengteklasse 209 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118431,7 +118431,7 @@
 			<ID>9258</ID>
 			<Code>VL-210cm</Code>
 			<Waarde>Vislengteklasse 210 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118442,7 +118442,7 @@
 			<ID>9259</ID>
 			<Code>VL-211cm</Code>
 			<Waarde>Vislengteklasse 211 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118453,7 +118453,7 @@
 			<ID>9260</ID>
 			<Code>VL-212cm</Code>
 			<Waarde>Vislengteklasse 212 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118464,7 +118464,7 @@
 			<ID>9261</ID>
 			<Code>VL-213cm</Code>
 			<Waarde>Vislengteklasse 213 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118475,7 +118475,7 @@
 			<ID>9262</ID>
 			<Code>VL-214cm</Code>
 			<Waarde>Vislengteklasse 214 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118486,7 +118486,7 @@
 			<ID>9263</ID>
 			<Code>VL-215cm</Code>
 			<Waarde>Vislengteklasse 215 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118497,7 +118497,7 @@
 			<ID>9264</ID>
 			<Code>VL-216cm</Code>
 			<Waarde>Vislengteklasse 216 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118508,7 +118508,7 @@
 			<ID>9265</ID>
 			<Code>VL-217cm</Code>
 			<Waarde>Vislengteklasse 217 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118519,7 +118519,7 @@
 			<ID>9266</ID>
 			<Code>VL-218cm</Code>
 			<Waarde>Vislengteklasse 218 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118530,7 +118530,7 @@
 			<ID>9267</ID>
 			<Code>VL-219cm</Code>
 			<Waarde>Vislengteklasse 219 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118541,7 +118541,7 @@
 			<ID>9268</ID>
 			<Code>VL-220cm</Code>
 			<Waarde>Vislengteklasse 220 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118552,7 +118552,7 @@
 			<ID>9269</ID>
 			<Code>VL-221cm</Code>
 			<Waarde>Vislengteklasse 221 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118563,7 +118563,7 @@
 			<ID>9270</ID>
 			<Code>VL-222cm</Code>
 			<Waarde>Vislengteklasse 222 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118574,7 +118574,7 @@
 			<ID>9271</ID>
 			<Code>VL-223cm</Code>
 			<Waarde>Vislengteklasse 223 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118585,7 +118585,7 @@
 			<ID>9272</ID>
 			<Code>VL-224cm</Code>
 			<Waarde>Vislengteklasse 224 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118596,7 +118596,7 @@
 			<ID>9273</ID>
 			<Code>VL-225cm</Code>
 			<Waarde>Vislengteklasse 225 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118607,7 +118607,7 @@
 			<ID>9274</ID>
 			<Code>VL-226cm</Code>
 			<Waarde>Vislengteklasse 226 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118618,7 +118618,7 @@
 			<ID>9275</ID>
 			<Code>VL-227cm</Code>
 			<Waarde>Vislengteklasse 227 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118629,7 +118629,7 @@
 			<ID>9276</ID>
 			<Code>VL-228cm</Code>
 			<Waarde>Vislengteklasse 228 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118640,7 +118640,7 @@
 			<ID>9277</ID>
 			<Code>VL-229cm</Code>
 			<Waarde>Vislengteklasse 229 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118651,7 +118651,7 @@
 			<ID>9278</ID>
 			<Code>VL-230cm</Code>
 			<Waarde>Vislengteklasse 230 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118662,7 +118662,7 @@
 			<ID>9279</ID>
 			<Code>VL-231cm</Code>
 			<Waarde>Vislengteklasse 231 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118673,7 +118673,7 @@
 			<ID>9280</ID>
 			<Code>VL-232cm</Code>
 			<Waarde>Vislengteklasse 232 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118684,7 +118684,7 @@
 			<ID>9281</ID>
 			<Code>VL-233cm</Code>
 			<Waarde>Vislengteklasse 233 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118695,7 +118695,7 @@
 			<ID>9282</ID>
 			<Code>VL-234cm</Code>
 			<Waarde>Vislengteklasse 234 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118706,7 +118706,7 @@
 			<ID>9283</ID>
 			<Code>VL-235cm</Code>
 			<Waarde>Vislengteklasse 235 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118717,7 +118717,7 @@
 			<ID>9284</ID>
 			<Code>VL-236cm</Code>
 			<Waarde>Vislengteklasse 236 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118728,7 +118728,7 @@
 			<ID>9285</ID>
 			<Code>VL-237cm</Code>
 			<Waarde>Vislengteklasse 237 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118739,7 +118739,7 @@
 			<ID>9286</ID>
 			<Code>VL-238cm</Code>
 			<Waarde>Vislengteklasse 238 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118750,7 +118750,7 @@
 			<ID>9287</ID>
 			<Code>VL-239cm</Code>
 			<Waarde>Vislengteklasse 239 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118761,7 +118761,7 @@
 			<ID>9288</ID>
 			<Code>VL-240cm</Code>
 			<Waarde>Vislengteklasse 240 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118772,7 +118772,7 @@
 			<ID>9289</ID>
 			<Code>VL-241cm</Code>
 			<Waarde>Vislengteklasse 241 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118783,7 +118783,7 @@
 			<ID>9290</ID>
 			<Code>VL-242cm</Code>
 			<Waarde>Vislengteklasse 242 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118794,7 +118794,7 @@
 			<ID>9291</ID>
 			<Code>VL-243cm</Code>
 			<Waarde>Vislengteklasse 243 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118805,7 +118805,7 @@
 			<ID>9292</ID>
 			<Code>VL-244cm</Code>
 			<Waarde>Vislengteklasse 244 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118816,7 +118816,7 @@
 			<ID>9293</ID>
 			<Code>VL-245cm</Code>
 			<Waarde>Vislengteklasse 245 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118827,7 +118827,7 @@
 			<ID>9294</ID>
 			<Code>VL-246cm</Code>
 			<Waarde>Vislengteklasse 246 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118838,7 +118838,7 @@
 			<ID>9295</ID>
 			<Code>VL-247cm</Code>
 			<Waarde>Vislengteklasse 247 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118849,7 +118849,7 @@
 			<ID>9296</ID>
 			<Code>VL-248cm</Code>
 			<Waarde>Vislengteklasse 248 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118860,7 +118860,7 @@
 			<ID>9297</ID>
 			<Code>VL-249cm</Code>
 			<Waarde>Vislengteklasse 249 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118871,7 +118871,7 @@
 			<ID>9298</ID>
 			<Code>VL-250cm</Code>
 			<Waarde>Vislengteklasse 250 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118882,7 +118882,7 @@
 			<ID>9299</ID>
 			<Code>VL-251cm</Code>
 			<Waarde>Vislengteklasse 251 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118893,7 +118893,7 @@
 			<ID>9300</ID>
 			<Code>VL-252cm</Code>
 			<Waarde>Vislengteklasse 252 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118904,7 +118904,7 @@
 			<ID>9301</ID>
 			<Code>VL-253cm</Code>
 			<Waarde>Vislengteklasse 253 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118915,7 +118915,7 @@
 			<ID>9302</ID>
 			<Code>VL-254cm</Code>
 			<Waarde>Vislengteklasse 254 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118926,7 +118926,7 @@
 			<ID>9303</ID>
 			<Code>VL-255cm</Code>
 			<Waarde>Vislengteklasse 255 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118937,7 +118937,7 @@
 			<ID>9304</ID>
 			<Code>VL-256cm</Code>
 			<Waarde>Vislengteklasse 256 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118948,7 +118948,7 @@
 			<ID>9305</ID>
 			<Code>VL-257cm</Code>
 			<Waarde>Vislengteklasse 257 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118959,7 +118959,7 @@
 			<ID>9306</ID>
 			<Code>VL-258cm</Code>
 			<Waarde>Vislengteklasse 258 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118970,7 +118970,7 @@
 			<ID>9307</ID>
 			<Code>VL-259cm</Code>
 			<Waarde>Vislengteklasse 259 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118981,7 +118981,7 @@
 			<ID>9308</ID>
 			<Code>VL-260cm</Code>
 			<Waarde>Vislengteklasse 260 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -118992,7 +118992,7 @@
 			<ID>9309</ID>
 			<Code>VL-261cm</Code>
 			<Waarde>Vislengteklasse 261 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119003,7 +119003,7 @@
 			<ID>9310</ID>
 			<Code>VL-262cm</Code>
 			<Waarde>Vislengteklasse 262 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119014,7 +119014,7 @@
 			<ID>9311</ID>
 			<Code>VL-263cm</Code>
 			<Waarde>Vislengteklasse 263 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119025,7 +119025,7 @@
 			<ID>9312</ID>
 			<Code>VL-264cm</Code>
 			<Waarde>Vislengteklasse 264 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119036,7 +119036,7 @@
 			<ID>9313</ID>
 			<Code>VL-265cm</Code>
 			<Waarde>Vislengteklasse 265 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119047,7 +119047,7 @@
 			<ID>9314</ID>
 			<Code>VL-266cm</Code>
 			<Waarde>Vislengteklasse 266 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119058,7 +119058,7 @@
 			<ID>9315</ID>
 			<Code>VL-267cm</Code>
 			<Waarde>Vislengteklasse 267 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119069,7 +119069,7 @@
 			<ID>9316</ID>
 			<Code>VL-268cm</Code>
 			<Waarde>Vislengteklasse 268 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119080,7 +119080,7 @@
 			<ID>9317</ID>
 			<Code>VL-269cm</Code>
 			<Waarde>Vislengteklasse 269 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119091,7 +119091,7 @@
 			<ID>9318</ID>
 			<Code>VL-270cm</Code>
 			<Waarde>Vislengteklasse 270 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119102,7 +119102,7 @@
 			<ID>9319</ID>
 			<Code>VL-271cm</Code>
 			<Waarde>Vislengteklasse 271 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119113,7 +119113,7 @@
 			<ID>9320</ID>
 			<Code>VL-272cm</Code>
 			<Waarde>Vislengteklasse 272 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119124,7 +119124,7 @@
 			<ID>9321</ID>
 			<Code>VL-273cm</Code>
 			<Waarde>Vislengteklasse 273 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119135,7 +119135,7 @@
 			<ID>9322</ID>
 			<Code>VL-274cm</Code>
 			<Waarde>Vislengteklasse 274 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119146,7 +119146,7 @@
 			<ID>9323</ID>
 			<Code>VL-275cm</Code>
 			<Waarde>Vislengteklasse 275 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119157,7 +119157,7 @@
 			<ID>9324</ID>
 			<Code>VL-276cm</Code>
 			<Waarde>Vislengteklasse 276 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119168,7 +119168,7 @@
 			<ID>9325</ID>
 			<Code>VL-277cm</Code>
 			<Waarde>Vislengteklasse 277 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119179,7 +119179,7 @@
 			<ID>9326</ID>
 			<Code>VL-278cm</Code>
 			<Waarde>Vislengteklasse 278 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119190,7 +119190,7 @@
 			<ID>9327</ID>
 			<Code>VL-279cm</Code>
 			<Waarde>Vislengteklasse 279 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119201,7 +119201,7 @@
 			<ID>9328</ID>
 			<Code>VL-280cm</Code>
 			<Waarde>Vislengteklasse 280 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119212,7 +119212,7 @@
 			<ID>9329</ID>
 			<Code>VL-281cm</Code>
 			<Waarde>Vislengteklasse 281 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119223,7 +119223,7 @@
 			<ID>9330</ID>
 			<Code>VL-282cm</Code>
 			<Waarde>Vislengteklasse 282 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119234,7 +119234,7 @@
 			<ID>9331</ID>
 			<Code>VL-283cm</Code>
 			<Waarde>Vislengteklasse 283 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119245,7 +119245,7 @@
 			<ID>9332</ID>
 			<Code>VL-284cm</Code>
 			<Waarde>Vislengteklasse 284 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119256,7 +119256,7 @@
 			<ID>9333</ID>
 			<Code>VL-285cm</Code>
 			<Waarde>Vislengteklasse 285 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119267,7 +119267,7 @@
 			<ID>9334</ID>
 			<Code>VL-286cm</Code>
 			<Waarde>Vislengteklasse 286 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119278,7 +119278,7 @@
 			<ID>9335</ID>
 			<Code>VL-287cm</Code>
 			<Waarde>Vislengteklasse 287 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119289,7 +119289,7 @@
 			<ID>9336</ID>
 			<Code>VL-288cm</Code>
 			<Waarde>Vislengteklasse 288 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119300,7 +119300,7 @@
 			<ID>9337</ID>
 			<Code>VL-289cm</Code>
 			<Waarde>Vislengteklasse 289 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119311,7 +119311,7 @@
 			<ID>9338</ID>
 			<Code>VL-290cm</Code>
 			<Waarde>Vislengteklasse 290 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119322,7 +119322,7 @@
 			<ID>9339</ID>
 			<Code>VL-291cm</Code>
 			<Waarde>Vislengteklasse 291 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119333,7 +119333,7 @@
 			<ID>9340</ID>
 			<Code>VL-292cm</Code>
 			<Waarde>Vislengteklasse 292 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119344,7 +119344,7 @@
 			<ID>9341</ID>
 			<Code>VL-293cm</Code>
 			<Waarde>Vislengteklasse 293 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119355,7 +119355,7 @@
 			<ID>9342</ID>
 			<Code>VL-294cm</Code>
 			<Waarde>Vislengteklasse 294 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119366,7 +119366,7 @@
 			<ID>9343</ID>
 			<Code>VL-295cm</Code>
 			<Waarde>Vislengteklasse 295 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119377,7 +119377,7 @@
 			<ID>9344</ID>
 			<Code>VL-296cm</Code>
 			<Waarde>Vislengteklasse 296 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119388,7 +119388,7 @@
 			<ID>9345</ID>
 			<Code>VL-297cm</Code>
 			<Waarde>Vislengteklasse 297 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119399,7 +119399,7 @@
 			<ID>9346</ID>
 			<Code>VL-298cm</Code>
 			<Waarde>Vislengteklasse 298 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119410,7 +119410,7 @@
 			<ID>9347</ID>
 			<Code>VL-299cm</Code>
 			<Waarde>Vislengteklasse 299 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119421,7 +119421,7 @@
 			<ID>9348</ID>
 			<Code>VL-300cm</Code>
 			<Waarde>Vislengteklasse 300 cm</Waarde>
-			<Omschrijving></Omschrijving>
+			<Omschrijving>undefined</Omschrijving>
 			<Groep>Lengteklasse</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -119871,8 +119871,8 @@
 			<ID>0</ID>
 			<Code>0</Code>
 			<Waarde>Placeholder</Waarde>
-			<Omschrijving></Omschrijving>
-			<Groep></Groep>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
