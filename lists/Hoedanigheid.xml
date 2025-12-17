@@ -3066,4 +3066,10 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>uitgedrukt in fosfaat / opgeloste fractie</Omschrijving>
 	</Hoedanigheid>
+	<Hoedanigheid>
+		<SIKB0101ID>987</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>fractie kleiner dan 20 mm</Omschrijving>
+	</Hoedanigheid>
 </domeintabel>
