@@ -107815,8 +107815,8 @@
 			<Waarde>leem</Waarde>
 			<Omschrijving>grondsoort die fijner is dan zand, maar ook minder kleimineralen bevat dan klei en voor een groot deel uit fijne kwartskorrels bestaat kleiner dan 0.063 mm.</Omschrijving>
 			<Groep/>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderheden>
@@ -108046,8 +108046,8 @@
 			<Waarde>veen</Waarde>
 			<Omschrijving>grondsoort die grotendeels bestaat (ontstaan is) uit afgestorven plantenresten</Omschrijving>
 			<Groep/>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderheden>
