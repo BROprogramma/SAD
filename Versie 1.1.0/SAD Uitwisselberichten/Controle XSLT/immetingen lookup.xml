@@ -104478,7 +104478,7 @@
 			<Waarde>weinig (2%-5%)</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -104489,7 +104489,7 @@
 			<Waarde>zeer weinig (&gt;0%-2%)</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108321,7 +108321,7 @@
 			<Waarde>artefact</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108332,7 +108332,7 @@
 			<Waarde>bentoniet</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108343,7 +108343,7 @@
 			<Waarde>bodemas</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108354,7 +108354,7 @@
 			<Waarde>geotextiel</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108365,7 +108365,7 @@
 			<Waarde>lava</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108376,7 +108376,7 @@
 			<Waarde>menggranulaat</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108387,7 +108387,7 @@
 			<Waarde>metaalslak</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108398,7 +108398,7 @@
 			<Waarde>rioolslib</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108409,7 +108409,7 @@
 			<Waarde>silt</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -108420,7 +108420,7 @@
 			<Waarde>steenkool</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>false</broSadImbroA>
+			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
