@@ -520,8 +520,7 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:15</immetingen:condition>
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
-                            <imsikb0101:groundLevelType/>		
-							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
+                            <imsikb0101:groundLevelType/>
                             <imsikb0101:drillMaster xlink:href="#_a40b48b6-5731-4c84-961b-8d0d43b016d5"/>
                         </imsikb0101:Trench>
                     </imsikb0101:featureMember>
@@ -963,8 +962,7 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:15</immetingen:condition>
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
-                            <imsikb0101:groundLevelType/>		
-							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
+                            <imsikb0101:groundLevelType/>
                             <imsikb0101:drillMaster xlink:href="#_a40b48b6-5731-4c84-961b-8d0d43b016d5"/>
                         </imsikb0101:Trench>
                     </imsikb0101:featureMember>
