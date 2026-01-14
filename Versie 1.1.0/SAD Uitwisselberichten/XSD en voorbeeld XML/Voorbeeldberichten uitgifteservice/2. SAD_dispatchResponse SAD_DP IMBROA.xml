@@ -113,7 +113,7 @@
                             </imsikb0101:identification>                            
                             <imsikb0101:startTime>2018-12-07</imsikb0101:startTime>
                             <imsikb0101:title>SIKB_PROT_2001_2002 123123</imsikb0101:title>
-                            <imsikb0101:ownerOrganisation>Gemeente van Nederland</imsikb0101:ownerOrganisation>
+                            <imsikb0101:ownerOrganisation>urn:imsikb0101:bronhouders:id:6</imsikb0101:ownerOrganisation>
                             <imsikb0101:documentLink>https://www.documentenlink.xx/3214_4321_432143</imsikb0101:documentLink>                            
                         </imsikb0101:Document>
                     </imsikb0101:featureMember>
@@ -332,7 +332,7 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2018-03-08T00:00:00+01:00</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
-                            <imsikb0101:situationDescription>urn:immetingen:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">200</immetingen:value>
@@ -346,7 +346,7 @@
                                     <immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
-                            <imsikb0101:groundLevelType>urn:imsikb0101:MaaiveldType:id:11</imsikb0101:groundLevelType>
+                            <imsikb0101:groundLevelType>urn:imsikb0101:MaaiveldType:id:12</imsikb0101:groundLevelType>
                             <imsikb0101:drillMaster xlink:href="#_9a4e21b3-3282-433f-b584-54471298e928"/>
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
@@ -2451,7 +2451,7 @@
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
                         <immetingen:AnalysisProcess gml:id="_a911262c-d247-4aad-8fea-ae095f62b495">
-                            <immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:12</immetingen:analyticalTechnique>
+                            <immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:13</immetingen:analyticalTechnique>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
@@ -2460,8 +2460,8 @@
                             </immetingen:identification>
                             <immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
                             <immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
-                            <immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:36</immetingen:sampleDestructionMethod>
-                            <immetingen:samplePretreatmentMethod>urn:imsikb0101:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
+                            <immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:330</immetingen:sampleDestructionMethod>
+                            <immetingen:samplePretreatmentMethod>urn:immetingen:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
                             <immetingen:samplePretreatmentDate>2018-03-19</immetingen:samplePretreatmentDate>
                             <immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
                         </immetingen:AnalysisProcess>
