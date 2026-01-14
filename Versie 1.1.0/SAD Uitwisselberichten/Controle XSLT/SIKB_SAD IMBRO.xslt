@@ -413,6 +413,11 @@
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>
 			
+
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'descriptionProcedure', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'descriptionProcedure', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkLookupId(., $record, 'descriptionProcedure', 'BeschrijfProcedure', 'ERROR')"/>
+			
 			<!-- check layers and samples of borehole   example xml:
 				<sam:relatedSamplingFeature>
 					<sam:SamplingFeatureComplex>
@@ -481,6 +486,10 @@
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>
 			
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'descriptionProcedure', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'descriptionProcedure', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkLookupId(., $record, 'descriptionProcedure', 'BeschrijfProcedure', 'ERROR')"/>			
+			
 			<!-- check layers and samples of borehole   example xml:
 				<sam:relatedSamplingFeature>
 					<sam:SamplingFeatureComplex>
@@ -542,6 +551,10 @@
 	
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'ERROR')"/>
+			
+			<xsl:copy-of select="sikb:checkExistence(., $record, 'descriptionProcedure', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkFilled(., $record, 'descriptionProcedure', 'ERROR')"/>
+			<xsl:copy-of select="sikb:checkLookupId(., $record, 'descriptionProcedure', 'BeschrijfProcedure', 'ERROR')"/>			
 			
 			<!-- check layers and samples of borehole   example xml:
 				<sam:relatedSamplingFeature>
@@ -1152,7 +1165,7 @@
             </xsl:when>
             <xsl:when test="$checkCorrectTable = '0'">
                 <xsl:variable name="wrongTable" select="replace(string-join(('Verwijzing naar LookupTabel {', $lookupCategory, '} (', $lookupValue,
-                  ') van het element', $field, 'bij', $elementLocalName, $prGUID, 'moet verwijzen naar LookupTabel {', $CategoryElement, '} in de lookup-files.'), ' '), '  ', ' ')"/>
+                  ') van het element', $field, 'bij', $elementLocalName, $prGUID, 'moet verwijzen naar LookupTabel {', $Category, '} in de lookup-files.'), ' '), '  ', ' ')"/>
                 <xsl:copy-of select="sikb:createRecord('ERROR', $elementName, $wrongTable)"/>
             </xsl:when>
         </xsl:choose>
