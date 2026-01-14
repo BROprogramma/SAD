@@ -990,7 +990,7 @@
                                     <imsikb0101:precipitationType>urn:imsikb0101:NeerslagType:id:1</imsikb0101:precipitationType>
                                     <imsikb0101:coverageAmount uom="urn:immetingen:Eenheid:id:1">30</imsikb0101:coverageAmount>
                                     <imsikb0101:coverageRemovedType>urn:immetingen:J_of_N:id:2</imsikb0101:coverageRemovedType>
-                                    <imsikb0101:coverageType>urn:imsikb0101:MaaiveldType:id:35</imsikb0101:coverageType>
+                                    <imsikb0101:coverageType>urn:imsikb0101:MaaiveldType:id:31</imsikb0101:coverageType>
                                     <imsikb0101:inspectionEfficiency uom="urn:immetingen:Eenheid:id:1">80</imsikb0101:inspectionEfficiency>
                                 </imsikb0101:LocationInspection>
                             </imsikb0101:locationInspection>

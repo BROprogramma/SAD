@@ -1341,14 +1341,14 @@
                 <xsl:variable name="secondMax" select="number(tokenize(normalize-space($bounds), '\s')[6])"/>
                 <xsl:variable name="posListValues" select="tokenize(string(.), '\s')"/>
                 <xsl:for-each select="$posListValues">
-                    <xsl:if test="position() mod 2=1">
+                    <xsl:if test="position() mod 2=1 and position() &lt; 3">
                         <!-- Check if position is odd to determin x-coördinate -->
                         <xsl:if test="not(number(string(.)) &gt; $firstMin and number(string(.)) &lt; $firstMax)">
                             <xsl:variable name="message" select="string-join(($firstName, string-join(('(', string(.), ')'), ''), $messageBase, string($firstMin), 'en', string($firstMax)), ' ')"/>
                             <xsl:copy-of select="sikb:createRecord($errorType, $elementName, $message)"/>
                         </xsl:if>
                     </xsl:if>
-                    <xsl:if test="not(position() mod 2=1)">
+                    <xsl:if test="not(position() mod 2=1) and position() &lt; 3">
                         <!-- Check if position is even to determin y-coördinate -->
                         <xsl:if test="not(number(string(.)) &gt; $secondMin and number(string(.)) &lt; $secondMax)">
                             <xsl:variable name="message" select="string-join(($secondName, string-join(('(', string(.), ')'), ''), $messageBase, string($secondMin), 'en', string($secondMax)), ' ')"/>

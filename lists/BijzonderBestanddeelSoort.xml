@@ -470,6 +470,13 @@
 		<Omschrijving>lavalith</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>leem</Waarde>
+		<SIKB0101ID>110</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>leem</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
 		<Waarde>leer</Waarde>
 		<SIKB0101ID>111</SIKB0101ID>
 		<IMBRO>v</IMBRO>
@@ -601,6 +608,13 @@
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>vast gesteente</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
+		<Waarde>veen</Waarde>
+		<SIKB0101ID>160</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>veen</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>verbrandBot</Waarde>
