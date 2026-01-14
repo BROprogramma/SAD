@@ -418,16 +418,6 @@
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
 			
-						
-			<xsl:copy-of select="sikb:checkExistence(., $record, 'descriptionProcedure', 'WARNING')"/>
-			<xsl:copy-of select="sikb:checkFilled(., $record, 'descriptionProcedure', 'WARNING')"/>
-			<xsl:copy-of select="sikb:checkLookupId(., $record, 'descriptionProcedure', 'BeschrijfProcedure', 'ERROR')"/>
-			<!-- value should always be 1 -->
-			<xsl:if test="fn:string-length(./imsikb0101:descriptionProcedure) &gt; 1 and not(fn:lower-case(./imsikb0101:descriptionProcedure) = fn:lower-case('urn:imsikb0101:BeschrijfProcedure:id:1') )">
-				<xsl:variable name="message" select="replace(string-join(('Bij Trench', $record, 'mag', string(./imsikb0101:descriptionProcedure/local-name()),'leeg zijn of moet deze gevuld zijn voor IMBRO/A met waarde NEN5104 (urn:imsikb0101:BeschrijfProcedure:id:1)'), ' '), '  ', ' ')"/>
-				<xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:Trench', $message)"/>
-			</xsl:if> 
-			
 			
 			<!-- check layers and samples of borehole   example xml:
 				<sam:relatedSamplingFeature>
@@ -496,15 +486,6 @@
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
 			
 			
-			<xsl:copy-of select="sikb:checkExistence(., $record, 'descriptionProcedure', 'WARNING')"/>
-			<xsl:copy-of select="sikb:checkFilled(., $record, 'descriptionProcedure', 'WARNING')"/>
-			<xsl:copy-of select="sikb:checkLookupId(., $record, 'descriptionProcedure', 'BeschrijfProcedure', 'ERROR')"/>
-			<!-- value should always be 1 -->
-			<xsl:if test="fn:string-length(./imsikb0101:descriptionProcedure) &gt; 1 and not(fn:lower-case(./imsikb0101:descriptionProcedure) = fn:lower-case('urn:imsikb0101:BeschrijfProcedure:id:1') )">
-				<xsl:variable name="message" select="replace(string-join(('Bij Boring', $record, 'mag', string(./imsikb0101:descriptionProcedure/local-name()),'leeg zijn of moet deze gevuld zijn voor IMBRO/A met waarde NEN5104 (urn:imsikb0101:BeschrijfProcedure:id:1)'), ' '), '  ', ' ')"/>
-				<xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:Borehole', $message)"/>
-			</xsl:if> 
-			
 			<!-- check layers and samples of borehole   example xml:
 				<sam:relatedSamplingFeature>
 					<sam:SamplingFeatureComplex>
@@ -566,17 +547,6 @@
 	
 			<xsl:copy-of select="sikb:checkDateBeforeDate(., $record, 'startTime','current', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkDateAfterDate(., $record, 'startTime','1980-01-01T00:00:00.00', 'WARNING')"/>
-			
-			
-			<xsl:copy-of select="sikb:checkExistence(., $record, 'descriptionProcedure', 'WARNING')"/>
-			<xsl:copy-of select="sikb:checkFilled(., $record, 'descriptionProcedure', 'WARNING')"/>
-			<xsl:copy-of select="sikb:checkLookupId(., $record, 'descriptionProcedure', 'BeschrijfProcedure', 'ERROR')"/>
-			<!-- value should always be 1 -->
-			<xsl:if test="fn:string-length(./imsikb0101:descriptionProcedure) &gt; 1 and not(fn:lower-case(./imsikb0101:descriptionProcedure) = fn:lower-case('urn:imsikb0101:BeschrijfProcedure:id:1') )">
-				<xsl:variable name="message" select="replace(string-join(('Bij Meetpunt', $record, 'mag', string(./imsikb0101:descriptionProcedure/local-name()),'leeg zijn of moet deze gevuld zijn voor IMBRO/A met waarde NEN5104 (urn:imsikb0101:BeschrijfProcedure:id:1)'), ' '), '  ', ' ')"/>
-				<xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:MeasurementObject', $message)"/>
-			</xsl:if> 
-						
 			
 			<!-- check layers and samples of borehole   example xml:
 				<sam:relatedSamplingFeature>
@@ -1166,7 +1136,7 @@
             </xsl:when>
             <xsl:when test="$checkCorrectTable = '0'">
                 <xsl:variable name="wrongTable" select="replace(string-join(('Verwijzing naar LookupTabel {', $lookupCategory, '} (', $lookupValue,
-                  ') van het element', $field, 'bij', $elementLocalName, $prGUID, 'moet verwijzen naar LookupTabel {', $Category, '} in de lookup-files.'), ' '), '  ', ' ')"/>
+                  ') van het element', $field, 'bij', $elementLocalName, $prGUID, 'moet verwijzen naar LookupTabel {', $CategoryElement, '} in de lookup-files.'), ' '), '  ', ' ')"/>
                 <xsl:copy-of select="sikb:createRecord('ERROR', $elementName, $wrongTable)"/>
             </xsl:when>
         </xsl:choose>

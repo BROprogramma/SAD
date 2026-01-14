@@ -1398,9 +1398,9 @@
 							<om:resultTime/>
 							<om:procedure/>
 							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_0f9c0e6c-b093-4548-8ffe-2e481c6af3a7"/>
+							<om:featureOfInterest xlink:href="#_cc256d2b-c8af-454e-b249-91b2a38116e1"/>
 							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:BodemsoortMediaan:id:9</immetingen:classifiedResult>
+								<immetingen:classifiedResult>urn:immetingen:BodemsoortMediaan:id:6</immetingen:classifiedResult>
 							</om:result>
 							<immetingen:identification>
 								<immetingen:NEN3610ID>
