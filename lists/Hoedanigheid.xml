@@ -1639,10 +1639,10 @@
 		<Omschrijving>koolwaterstoffractie C5-C6 / drooggewicht</Omschrijving>
 	</Hoedanigheid>
 	<Hoedanigheid>
-		<SIKB0101ID>675</SIKB0101ID>
+		<SIKB0101ID>624</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>koolwaterstoffractie C10-C35 / drooggewicht</Omschrijving>
+		<Omschrijving>fractie groter dan 20 mm</Omschrijving>
 	</Hoedanigheid>
 	<Hoedanigheid>
 		<SIKB0101ID>625</SIKB0101ID>
@@ -1861,16 +1861,16 @@
 		<Omschrijving>diameter kleiner dan 212 um / drooggewicht</Omschrijving>
 	</Hoedanigheid>
 	<Hoedanigheid>
+		<SIKB0101ID>675</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>koolwaterstoffractie C10-C35 / drooggewicht</Omschrijving>
+	</Hoedanigheid>
+	<Hoedanigheid>
 		<SIKB0101ID>676</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>diameter kleiner dan 212 um / minerale delen</Omschrijving>
-	</Hoedanigheid>
-	<Hoedanigheid>
-		<SIKB0101ID>624</SIKB0101ID>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>fractie groter dan 20 mm</Omschrijving>
 	</Hoedanigheid>
 	<Hoedanigheid>
 		<SIKB0101ID>697</SIKB0101ID>
