@@ -56,13 +56,10 @@
 							<imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:5</imsikb0101:phase>
 							<imsikb0101:projectCode>SIKB_PROT_2001_2002</imsikb0101:projectCode>
 							<imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:3</imsikb0101:projectType>
-							<imsikb0101:remarks>Opmerking bij het project</imsikb0101:remarks>
 							<imsikb0101:reportDate>2018-12-07</imsikb0101:reportDate>
 							<imsikb0101:reportNumber>123123</imsikb0101:reportNumber>
-							<imsikb0101:stakeholders xlink:href="#_9b5e21b3-3282-433f-b584-54471298e928"/>
 							<imsikb0101:stakeholders xlink:href="#_8b2e21b3-3282-433f-b584-54471298e928"/>
 							<imsikb0101:measurementObjects xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
-							<imsikb0101:dossiers xlink:href="#_ecda0f38-782a-48e7-8622-e9d6dda7b0c0"/>
 							<imsikb0101:documents xlink:href="#_25864356-197c-4eaa-ae03-43ead2065aa7"/>
 						</imsikb0101:Project>
 					</imsikb0101:featureMember>
@@ -82,66 +79,7 @@
 							<imsikb0101:ownerOrganisation>urn:imsikb0101:bronhouders:id:6</imsikb0101:ownerOrganisation>
 							<imsikb0101:documentLink>https://www.documentenlink.xx/3214_4321_432143</imsikb0101:documentLink>
 						</imsikb0101:Document>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<imsikb0101:SoilManagementDossier gml:id="_ecda0f38-782a-48e7-8622-e9d6dda7b0c0">
-							<imsikb0101:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>ecda0f38-782a-48e7-8622-e9d6dda7b0c0</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</imsikb0101:identification>
-							<imsikb0101:projects xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
-							<imsikb0101:soilLocation/>
-						</imsikb0101:SoilManagementDossier>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Organization gml:id="_9b5e21b3-3282-433f-b584-54471298e928">
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>9b5e21b3-3282-433f-b584-54471298e928</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:relatedSubject>
-								<immetingen:SubjectFeatureComplex>
-									<!-- Heeft Medewerker -->
-									<immetingen:role>urn:immetingen:RelatedSubjectRollen:id:2</immetingen:role>
-									<immetingen:relatedSubject xlink:href="#_9a4e21b3-3282-433f-b584-54471298e928"/>
-								</immetingen:SubjectFeatureComplex>
-							</immetingen:relatedSubject>
-							<immetingen:relatedSubject>
-								<immetingen:SubjectFeatureComplex>
-									<!-- Heeft Medewerker -->
-									<immetingen:role>urn:immetingen:RelatedSubjectRollen:id:2</immetingen:role>
-									<immetingen:relatedSubject xlink:href="#_9b4e21b3-3282-433f-b584-54471298e928"/>
-								</immetingen:SubjectFeatureComplex>
-							</immetingen:relatedSubject>
-							<immetingen:name>Veldwerk bedrijfsnaam BV</immetingen:name>
-							<!-- Veldwerkbureau -->
-							<immetingen:organisationType>urn:immetingen:RolBetrokkene:id:65</immetingen:organisationType>
-						</immetingen:Organization>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Person gml:id="_9a4e21b3-3282-433f-b584-54471298e928">
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>9a4e21b3-3282-433f-b584-54471298e928</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:relatedSubject>
-								<immetingen:SubjectFeatureComplex>
-									<!-- Is Boormeester bij-->
-									<immetingen:role>urn:immetingen:RelatedSubjectRollen:id:12</immetingen:role>
-									<immetingen:relatedSubject xlink:href="#_9b5e21b3-3282-433f-b584-54471298e928"/>
-								</immetingen:SubjectFeatureComplex>
-							</immetingen:relatedSubject>
-							<!-- boormeester -->
-							<immetingen:firstName>Voornaam</immetingen:firstName>
-							<immetingen:lastName>Achternaam</immetingen:lastName>
-						</immetingen:Person>
-					</imsikb0101:featureMember>
+					</imsikb0101:featureMember>					
 					<imsikb0101:featureMember>
 						<immetingen:Organization gml:id="_8b2e21b3-3282-433f-b584-54471298e928">
 							<immetingen:identification>
@@ -149,40 +87,13 @@
 									<immetingen:namespace>SIKB</immetingen:namespace>
 									<immetingen:lokaalID>8b2e21b3-3282-433f-b584-54471298e928</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:relatedSubject>
-								<immetingen:SubjectFeatureComplex>
-									<!-- Heeft Medewerker -->
-									<immetingen:role>urn:immetingen:RelatedSubjectRollen:id:2</immetingen:role>
-									<immetingen:relatedSubject xlink:href="#_8b3e21b3-3282-433f-b584-54471298e928"/>
-								</immetingen:SubjectFeatureComplex>
-							</immetingen:relatedSubject>
+							</immetingen:identification>							
 							<immetingen:name>Adviebureau bedrijfsnaam BV</immetingen:name>
 							<!-- Adviesbureau -->
 							<immetingen:organisationType>urn:immetingen:RolBetrokkene:id:64</immetingen:organisationType>
 							<immetingen:chamberOfCommerceNumber>27376655</immetingen:chamberOfCommerceNumber>
 						</immetingen:Organization>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Person gml:id="_8b3e21b3-3282-433f-b584-54471298e928">
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>8b3e21b3-3282-433f-b584-54471298e928</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:relatedSubject>
-								<immetingen:SubjectFeatureComplex>
-									<!-- Is Projectleider bij-->
-									<immetingen:role>urn:immetingen:RelatedSubjectRollen:id:10</immetingen:role>
-									<immetingen:relatedSubject xlink:href="#_9b5e21b3-3282-433f-b584-54471298e928"/>
-								</immetingen:SubjectFeatureComplex>
-							</immetingen:relatedSubject>
-							<!-- projectleider -->
-							<immetingen:firstName>Voornaam</immetingen:firstName>
-							<immetingen:lastName>Achternaam</immetingen:lastName>
-						</immetingen:Person>
-					</imsikb0101:featureMember>
+					</imsikb0101:featureMember>					
 					<imsikb0101:featureMember>
 						<immetingen:Analysis gml:id="_7de31d0a-8ef9-4ffa-940b-4cb62cb7f010">
 							<om:phenomenonTime/>
@@ -240,30 +151,6 @@
 							</sam:relatedSamplingFeature>
 							<sam:relatedSamplingFeature>
 								<sam:SamplingFeatureComplex>
-									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:3"/>
-									<sam:relatedSamplingFeature xlink:href="#_cb80e626-d3c9-4378-b754-97c2e70e71e2"/>
-								</sam:SamplingFeatureComplex>
-							</sam:relatedSamplingFeature>
-							<sam:relatedSamplingFeature>
-								<sam:SamplingFeatureComplex>
-									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:3"/>
-									<sam:relatedSamplingFeature xlink:href="#_8429e2c2-113e-4ed0-b34c-1579808c310e"/>
-								</sam:SamplingFeatureComplex>
-							</sam:relatedSamplingFeature>
-							<sam:relatedSamplingFeature>
-								<sam:SamplingFeatureComplex>
-									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:3"/>
-									<sam:relatedSamplingFeature xlink:href="#_2e0bd599-35ba-4532-b5c1-883c11f7b11d"/>
-								</sam:SamplingFeatureComplex>
-							</sam:relatedSamplingFeature>
-							<sam:relatedSamplingFeature>
-								<sam:SamplingFeatureComplex>
-									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:3"/>
-									<sam:relatedSamplingFeature xlink:href="#_56801329-b690-4b4f-9abb-cc0a056c7e55"/>
-								</sam:SamplingFeatureComplex>
-							</sam:relatedSamplingFeature>
-							<sam:relatedSamplingFeature>
-								<sam:SamplingFeatureComplex>
 									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:1"/>
 									<sam:relatedSamplingFeature xlink:href="#_0571c066-806a-459e-a8a1-b099cb6814d0"/>
 								</sam:SamplingFeatureComplex>
@@ -289,7 +176,6 @@
 									<immetingen:versie>2018-03-22T10:24:14.92</immetingen:versie>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:remarks>Afwijking: Veel gras om de peilbuis dus moeilijk te vinden.</immetingen:remarks>
 							<immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
 							<immetingen:geometry>
 								<gml:Point gml:id="_d38ee87f-9552-464a-8125-e8409b01c5c1" srsName="urn:ogc:def:crs:EPSG::4326">
@@ -391,116 +277,11 @@
 						</immetingen:Analysis>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_f83cda35-2ac2-4f59-a541-4ee17cb0beb1">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_9d0e6631-0268-4929-8303-c9e24f6145e5"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:Staat:id:1</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>f83cda35-2ac2-4f59-a541-4ee17cb0beb1</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:1</immetingen:indicator>
-							<immetingen:remarks>goede doorstroming peilbuis</immetingen:remarks>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_f84cda35-2ac2-4f59-a541-4ee17cb0beb1">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_9d0e6631-0268-4929-8303-c9e24f6145e5"/>
-							<om:result xsi:type="immetingen:MeasureResultType">
-								<immetingen:numericValue uom="urn:immetingen:eenheid:id:44">2</immetingen:numericValue>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>f84cda35-2ac2-4f59-a541-4ee17cb0beb1</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:2</immetingen:indicator>
-							<immetingen:remarks>Hoeveelheid werkwater: 2 liter</immetingen:remarks>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_f85cda35-2ac2-4f59-a541-4ee17cb0beb1">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_9d0e6631-0268-4929-8303-c9e24f6145e5"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:J_of_N:id:1</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>f85cda35-2ac2-4f59-a541-4ee17cb0beb1</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:3</immetingen:indicator>
-							<immetingen:remarks>Gespoeld Ja</immetingen:remarks>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_f86cda35-2ac2-4f59-a541-4ee17cb0beb1">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_9d0e6631-0268-4929-8303-c9e24f6145e5"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:J_of_N:id:1</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>f86cda35-2ac2-4f59-a541-4ee17cb0beb1</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:4</immetingen:indicator>
-							<immetingen:remarks>Leeggezogen Ja</immetingen:remarks>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_f87cda35-2ac2-4f59-a541-4ee17cb0beb1">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_9d0e6631-0268-4929-8303-c9e24f6145e5"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:J_of_N:id:1</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>f87cda35-2ac2-4f59-a541-4ee17cb0beb1</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:5</immetingen:indicator>
-							<immetingen:remarks>Filterkous Ja</immetingen:remarks>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
 						<imsikb0101:Filter gml:id="_9d0e6631-0268-4929-8303-c9e24f6145e5">
 							<sam:sampledFeature/>
 							<sam:relatedObservation xlink:href="#_60f20243-443e-48de-94a3-baaeb0448cee"/>
 							<sam:relatedObservation xlink:href="#_8b0e4170-cd2e-46b9-8961-dc49d2b0ff3b"/>
 							<sam:relatedObservation xlink:href="#_7ee31d0a-8ef9-4ffa-940b-4cb62cb7f010"/>
-							<sam:relatedObservation xlink:href="#_f83cda35-2ac2-4f59-a541-4ee17cb0beb1"/>
-							<sam:relatedObservation xlink:href="#_f84cda35-2ac2-4f59-a541-4ee17cb0beb1"/>
-							<sam:relatedObservation xlink:href="#_f85cda35-2ac2-4f59-a541-4ee17cb0beb1"/>
-							<sam:relatedObservation xlink:href="#_f86cda35-2ac2-4f59-a541-4ee17cb0beb1"/>
-							<sam:relatedObservation xlink:href="#_f87cda35-2ac2-4f59-a541-4ee17cb0beb1"/>
 							<sam:relatedSamplingFeature>
 								<sam:SamplingFeatureComplex>
 									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
@@ -522,7 +303,6 @@
 									<immetingen:versie>2018-03-22T09:25:55.643</immetingen:versie>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:remarks>Op te merken: Goede filter status</immetingen:remarks>
 							<immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:6</immetingen:measurementObjectType>
 							<immetingen:startTime>2018-03-08T00:00:00+01:00</immetingen:startTime>
 							<imsikb0101:upperDepth>
@@ -549,165 +329,6 @@
 						</imsikb0101:Filter>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
-						<imsikb0101:Finishing gml:id="_cb80e626-d3c9-4378-b754-97c2e70e71e2">
-							<sam:sampledFeature/>
-							<sam:relatedSamplingFeature>
-								<sam:SamplingFeatureComplex>
-									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-									<sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
-								</sam:SamplingFeatureComplex>
-							</sam:relatedSamplingFeature>
-							<sams:shape/>
-							<imsikb0101:upperDepth>
-								<immetingen:Depth>
-									<immetingen:value uom="urn:immetingen:Eenheid:id:19">160</immetingen:value>
-									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-								</immetingen:Depth>
-							</imsikb0101:upperDepth>
-							<imsikb0101:lowerDepth>
-								<immetingen:Depth>
-									<immetingen:value uom="urn:immetingen:Eenheid:id:19">200</immetingen:value>
-									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-								</immetingen:Depth>
-							</imsikb0101:lowerDepth>
-							<imsikb0101:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>cb80e626-d3c9-4378-b754-97c2e70e71e2</immetingen:lokaalID>
-									<immetingen:versie>2018-03-08T17:07:28.45</immetingen:versie>
-								</immetingen:NEN3610ID>
-							</imsikb0101:identification>
-							<imsikb0101:finishingMaterial>urn:imsikb0101:Afdichting:id:2</imsikb0101:finishingMaterial>
-							<imsikb0101:finishingType>urn:imsikb0101:AfwerkingType:id:3</imsikb0101:finishingType>
-						</imsikb0101:Finishing>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<imsikb0101:Finishing gml:id="_8429e2c2-113e-4ed0-b34c-1579808c310e">
-							<sam:sampledFeature/>
-							<sam:relatedSamplingFeature>
-								<sam:SamplingFeatureComplex>
-									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-									<sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
-								</sam:SamplingFeatureComplex>
-							</sam:relatedSamplingFeature>
-							<sams:shape/>
-							<imsikb0101:upperDepth>
-								<immetingen:Depth>
-									<immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
-									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-								</immetingen:Depth>
-							</imsikb0101:upperDepth>
-							<imsikb0101:lowerDepth>
-								<immetingen:Depth>
-									<immetingen:value uom="urn:immetingen:Eenheid:id:19">160</immetingen:value>
-									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-								</immetingen:Depth>
-							</imsikb0101:lowerDepth>
-							<imsikb0101:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>8429e2c2-113e-4ed0-b34c-1579808c310e</immetingen:lokaalID>
-									<immetingen:versie>2018-03-08T17:10:05.1</immetingen:versie>
-								</immetingen:NEN3610ID>
-							</imsikb0101:identification>
-							<imsikb0101:remark>Op te merken: grind was vrij nat al</imsikb0101:remark>
-							<imsikb0101:finishingMaterial>urn:imsikb0101:Aanvulling:id:2</imsikb0101:finishingMaterial>
-							<imsikb0101:finishingType>urn:imsikb0101:AfwerkingType:id:2</imsikb0101:finishingType>
-						</imsikb0101:Finishing>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<imsikb0101:Finishing gml:id="_2e0bd599-35ba-4532-b5c1-883c11f7b11d">
-							<sam:sampledFeature/>
-							<sam:relatedSamplingFeature>
-								<sam:SamplingFeatureComplex>
-									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-									<sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
-								</sam:SamplingFeatureComplex>
-							</sam:relatedSamplingFeature>
-							<sams:shape/>
-							<imsikb0101:upperDepth>
-								<immetingen:Depth>
-									<immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
-									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-								</immetingen:Depth>
-							</imsikb0101:upperDepth>
-							<imsikb0101:lowerDepth>
-								<immetingen:Depth>
-									<immetingen:value uom="urn:immetingen:Eenheid:id:19">120</immetingen:value>
-									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-								</immetingen:Depth>
-							</imsikb0101:lowerDepth>
-							<imsikb0101:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>2e0bd599-35ba-4532-b5c1-883c11f7b11d</immetingen:lokaalID>
-									<immetingen:versie>2018-03-08T17:10:14.377</immetingen:versie>
-								</immetingen:NEN3610ID>
-							</imsikb0101:identification>
-							<imsikb0101:finishingMaterial>urn:imsikb0101:Afdichting:id:2</imsikb0101:finishingMaterial>
-							<imsikb0101:finishingType>urn:imsikb0101:AfwerkingType:id:3</imsikb0101:finishingType>
-						</imsikb0101:Finishing>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<imsikb0101:Finishing gml:id="_56801329-b690-4b4f-9abb-cc0a056c7e55">
-							<sam:sampledFeature/>
-							<sam:relatedSamplingFeature>
-								<sam:SamplingFeatureComplex>
-									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
-									<sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
-								</sam:SamplingFeatureComplex>
-							</sam:relatedSamplingFeature>
-							<sams:shape/>
-							<imsikb0101:upperDepth>
-								<immetingen:Depth>
-									<immetingen:value uom="urn:immetingen:Eenheid:id:19">-10</immetingen:value>
-									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-								</immetingen:Depth>
-							</imsikb0101:upperDepth>
-							<imsikb0101:lowerDepth>
-								<immetingen:Depth>
-									<immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
-									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
-								</immetingen:Depth>
-							</imsikb0101:lowerDepth>
-							<imsikb0101:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>56801329-b690-4b4f-9abb-cc0a056c7e55</immetingen:lokaalID>
-									<immetingen:versie>2018-03-08T17:12:49.12</immetingen:versie>
-								</immetingen:NEN3610ID>
-							</imsikb0101:identification>
-							<imsikb0101:finishingMaterial>urn:imsikb0101:Afwerking:id:20</imsikb0101:finishingMaterial>
-							<imsikb0101:finishingType>urn:imsikb0101:AfwerkingType:id:1</imsikb0101:finishingType>
-						</imsikb0101:Finishing>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_4bea3324-8745-483a-ac62-da6bb0b5d3eb">
-							<om:relatedObservation>
-								<om:ObservationContext>
-									<om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
-									<om:relatedObservation xlink:href="#_ef8efcab-13fe-4d79-8bd7-d2aa2ead1414"/>
-								</om:ObservationContext>
-							</om:relatedObservation>
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenOorsprong:id:2</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>4bea3324-8745-483a-ac62-da6bb0b5d3eb</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:2</immetingen:indicator>
-							<immetingen:remarks>gebiedseigen</immetingen:remarks>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
 						<immetingen:Characteristic gml:id="_23fab383-bccf-429c-b727-6904ae73888b">
 							<om:relatedObservation>
 								<om:ObservationContext>
@@ -730,17 +351,10 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
-							<immetingen:remarks>matig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_ef8efcab-13fe-4d79-8bd7-d2aa2ead1414">
-							<om:relatedObservation>
-								<om:ObservationContext>
-									<om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
-									<om:relatedObservation xlink:href="#_4bea3324-8745-483a-ac62-da6bb0b5d3eb"/>
-								</om:ObservationContext>
-							</om:relatedObservation>
+						<immetingen:Characteristic gml:id="_ef8efcab-13fe-4d79-8bd7-d2aa2ead1414">							
 							<om:relatedObservation>
 								<om:ObservationContext>
 									<om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
@@ -762,27 +376,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
-							<immetingen:remarks/>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_125ce451-4cb3-4476-9dff-62150724a313">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7"/>
-							<om:result xsi:type="immetingen:DescriptionResultType">
-								<immetingen:description>matige benzine</immetingen:description>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>125ce451-4cb3-4476-9dff-62150724a313</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:7</immetingen:indicator>
-							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -808,7 +401,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:5</immetingen:indicator>
-							<immetingen:remarks>geel</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -834,7 +426,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:6</immetingen:indicator>
-							<immetingen:remarks>licht</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -866,7 +457,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:4</immetingen:indicator>
-							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -886,7 +476,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:11</immetingen:indicator>
-							<immetingen:remarks>Klei humeus siltig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -906,27 +495,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:13</immetingen:indicator>
-							<immetingen:remarks>geen olie-water reactie</immetingen:remarks>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_f83bda35-2ac2-4f59-a541-4ee17cb0beb1">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7"/>
-							<om:result xsi:type="immetingen:MeasureResultType">
-								<immetingen:numericValue uom="urn:immetingen:Eenheid:id:19">22</immetingen:numericValue>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>f83bda35-2ac2-4f59-a541-4ee17cb0beb1</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:22</immetingen:indicator>
-							<immetingen:remarks>Boorgat diameter is 22 cm</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -957,12 +525,10 @@
 						<imsikb0101:Layer gml:id="_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7">
 							<sam:sampledFeature/>
 							<sam:relatedObservation xlink:href="#_ef8efcab-13fe-4d79-8bd7-d2aa2ead1414"/>
-							<sam:relatedObservation xlink:href="#_125ce451-4cb3-4476-9dff-62150724a313"/>
 							<sam:relatedObservation xlink:href="#_e396535f-ad88-48ea-b8d2-36811e10fc2f"/>
 							<sam:relatedObservation xlink:href="#_578606fd-780c-439c-91f5-11faded07ff2"/>
 							<sam:relatedObservation xlink:href="#_f83ada35-2ac2-4f59-a541-4ee17cb0beb1"/>
 							<sam:relatedObservation xlink:href="#_8b1e4170-cd2e-46b9-8961-dc49d2b0ff3b"/>
-							<sam:relatedObservation xlink:href="#_f83bda35-2ac2-4f59-a541-4ee17cb0beb1"/>
 							<sam:relatedSamplingFeature>
 								<sam:SamplingFeatureComplex>
 									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
@@ -1005,32 +571,6 @@
 						</imsikb0101:BoreProcess>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_1df2f88e-9597-49f5-9866-1193773c2265">
-							<om:relatedObservation>
-								<om:ObservationContext>
-									<om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
-									<om:relatedObservation xlink:href="#_51b993e2-5292-4d00-96b6-f21f4cff2772"/>
-								</om:ObservationContext>
-							</om:relatedObservation>
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_cc256d2b-c8af-454e-b249-91b2a38116e1"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenOorsprong:id:2</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>1df2f88e-9597-49f5-9866-1193773c2265</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:2</immetingen:indicator>
-							<immetingen:remarks>gebiedseigen</immetingen:remarks>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
 						<immetingen:Characteristic gml:id="_841ea8c0-ebda-4733-8bf2-7c564966d98c">
 							<om:relatedObservation>
 								<om:ObservationContext>
@@ -1053,17 +593,10 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
-							<immetingen:remarks>zwak</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
 						<immetingen:Characteristic gml:id="_51b993e2-5292-4d00-96b6-f21f4cff2772">
-							<om:relatedObservation>
-								<om:ObservationContext>
-									<om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
-									<om:relatedObservation xlink:href="#_1df2f88e-9597-49f5-9866-1193773c2265"/>
-								</om:ObservationContext>
-							</om:relatedObservation>
 							<om:relatedObservation>
 								<om:ObservationContext>
 									<om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
@@ -1085,33 +618,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
-							<immetingen:remarks/>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_ea058bd3-6303-4854-9cb0-cfb06be4e1b4">
-							<om:relatedObservation>
-								<om:ObservationContext>
-									<om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
-									<om:relatedObservation xlink:href="#_62a7d5d5-d29c-4fa4-8767-feca27fea47a"/>
-								</om:ObservationContext>
-							</om:relatedObservation>
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_cc256d2b-c8af-454e-b249-91b2a38116e1"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:BodemlaagBijzonderhedenOorsprong:id:2</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>ea058bd3-6303-4854-9cb0-cfb06be4e1b4</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:2</immetingen:indicator>
-							<immetingen:remarks>gebiedseigen</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1137,17 +643,10 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
-							<immetingen:remarks>matig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
 						<immetingen:Characteristic gml:id="_62a7d5d5-d29c-4fa4-8767-feca27fea47a">
-							<om:relatedObservation>
-								<om:ObservationContext>
-									<om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
-									<om:relatedObservation xlink:href="#_ea058bd3-6303-4854-9cb0-cfb06be4e1b4"/>
-								</om:ObservationContext>
-							</om:relatedObservation>
 							<om:relatedObservation>
 								<om:ObservationContext>
 									<om:role xlink:href="urn:immetingen:RelatedObservationRollen:id:2"/>
@@ -1169,7 +668,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
-							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1195,7 +693,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:5</immetingen:indicator>
-							<immetingen:remarks>bruin</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1221,7 +718,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:4</immetingen:indicator>
-							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1241,7 +737,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:11</immetingen:indicator>
-							<immetingen:remarks>Zand kleiïg matig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1261,7 +756,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:12</immetingen:indicator>
-							<immetingen:remarks>zeer fijn</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1281,7 +775,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:13</immetingen:indicator>
-							<immetingen:remarks>matige olie-water reactie</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1358,7 +851,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:5</immetingen:indicator>
-							<immetingen:remarks>beige</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1384,7 +876,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:4</immetingen:indicator>
-							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1404,7 +895,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:11</immetingen:indicator>
-							<immetingen:remarks>Grind zwak zandig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1415,7 +905,7 @@
 							<om:observedProperty/>
 							<om:featureOfInterest xlink:href="#_cc256d2b-c8af-454e-b249-91b2a38116e1"/>
 							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:BodemsoortMediaan:id:6</immetingen:classifiedResult>
+								<immetingen:classifiedResult>urn:immetingen:BodemsoortMediaan:id:7</immetingen:classifiedResult>
 							</om:result>
 							<immetingen:identification>
 								<immetingen:NEN3610ID>
@@ -1424,7 +914,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:12</immetingen:indicator>
-							<immetingen:remarks>grof</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1444,7 +933,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:9</immetingen:indicator>
-							<immetingen:remarks>grindgehalte: zwakGrindig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1464,7 +952,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:10</immetingen:indicator>
-							<immetingen:remarks>organishestofgehalte: matigHumeus</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1484,7 +971,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:13</immetingen:indicator>
-							<immetingen:remarks>geen olie-water reactie</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1748,7 +1234,6 @@
 									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
 								</immetingen:Depth>
 							</immetingen:upperDepth>
-							<immetingen:remarks>Opmerking bij de pot</immetingen:remarks>
 							<immetingen:consistsOfPackages>
 								<immetingen:Package>
 									<immetingen:barcode>040043252</immetingen:barcode>
@@ -1778,29 +1263,6 @@
 								<immetingen:PhysicalProperty>
 									<immetingen:quantity>urn:immetingen:parameter:id:4724</immetingen:quantity>
 									<immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
-								</immetingen:PhysicalProperty>
-							</immetingen:physicalProperty>
-						</immetingen:Analysis>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Analysis gml:id="_8ef31d0a-8ef9-4ffa-940b-4cb62cb7f010">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_ba54949b-99a5-4aca-bb8a-5fe9df74efe3"/>
-							<om:result xsi:type="immetingen:MeasureResultType">
-								<immetingen:numericValue uom="urn:immetingen:Eenheid:id:214">47</immetingen:numericValue>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>8ef31d0a-8ef9-4ffa-940b-4cb62cb7f010</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:physicalProperty>
-								<immetingen:PhysicalProperty>
-									<immetingen:quantity>urn:immetingen:parameter:id:3300</immetingen:quantity>
 								</immetingen:PhysicalProperty>
 							</immetingen:physicalProperty>
 						</immetingen:Analysis>
@@ -1851,7 +1313,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:11</immetingen:indicator>
-							<immetingen:remarks>geel</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1877,7 +1338,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:12</immetingen:indicator>
-							<immetingen:remarks>donker</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1909,47 +1369,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:10</immetingen:indicator>
-							<immetingen:remarks/>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_225ce451-4cb3-4476-9dff-62150724a313">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_ba54949b-99a5-4aca-bb8a-5fe9df74efe3"/>
-							<om:result xsi:type="immetingen:DescriptionResultType">
-								<immetingen:description>zwakke riool</immetingen:description>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>225ce451-4cb3-4476-9dff-62150724a313</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:9</immetingen:indicator>
-							<immetingen:remarks/>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_525ce451-4cb3-4476-9dff-62150724a313">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_ba54949b-99a5-4aca-bb8a-5fe9df74efe3"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:J_of_N:id:1</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>525ce451-4cb3-4476-9dff-62150724a313</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:13</immetingen:indicator>
-							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -1969,47 +1388,6 @@
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
 							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:6</immetingen:indicator>
-							<immetingen:remarks/>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_725ce451-4cb3-4476-9dff-62150724a313">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_ba54949b-99a5-4aca-bb8a-5fe9df74efe3"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:J_of_N:id:1</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>725ce451-4cb3-4476-9dff-62150724a313</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:7</immetingen:indicator>
-							<immetingen:remarks/>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_825ce451-4cb3-4476-9dff-62150724a313">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_ba54949b-99a5-4aca-bb8a-5fe9df74efe3"/>
-							<om:result xsi:type="immetingen:MeasureResultType">
-								<immetingen:numericValue uom="44">1</immetingen:numericValue>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>825ce451-4cb3-4476-9dff-62150724a313</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:8</immetingen:indicator>
-							<immetingen:remarks>Hoeveelheid voorgepompt water: 1 liter</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -2193,14 +1571,9 @@
 						<imsikb0101:Sample gml:id="_ba54949b-99a5-4aca-bb8a-5fe9df74efe3">
 							<sam:sampledFeature/>
 							<sam:relatedObservation xlink:href="#_7ef31d0a-8ef9-4ffa-940b-4cb62cb7f010"/>
-							<sam:relatedObservation xlink:href="#_8ef31d0a-8ef9-4ffa-940b-4cb62cb7f010"/>
 							<sam:relatedObservation xlink:href="#_9ef31d0a-8ef9-4ffa-940b-4cb62cb7f010"/>
 							<sam:relatedObservation xlink:href="#_e496535f-ad88-48ea-b8d2-36811e10fc2f"/>
-							<sam:relatedObservation xlink:href="#_225ce451-4cb3-4476-9dff-62150724a313"/>
-							<sam:relatedObservation xlink:href="#_525ce451-4cb3-4476-9dff-62150724a313"/>
 							<sam:relatedObservation xlink:href="#_625ce451-4cb3-4476-9dff-62150724a313"/>
-							<sam:relatedObservation xlink:href="#_725ce451-4cb3-4476-9dff-62150724a313"/>
-							<sam:relatedObservation xlink:href="#_825ce451-4cb3-4476-9dff-62150724a313"/>
 							<sam:relatedObservation xlink:href="#_1b0e4170-cd2e-46b9-8961-dc49d2b0ff3b"/>
 							<sam:relatedObservation xlink:href="#_80f20243-443e-48de-94a3-baaeb0448cee"/>
 							<sam:relatedObservation xlink:href="#_73f20243-443e-48de-94a3-baaeb0448cee"/>
@@ -2249,7 +1622,6 @@
 							</immetingen:identification>
 							<immetingen:name>PB01-Filter1-1</immetingen:name>
 							<immetingen:startTime>2018-04-09T00:00:00+01:00</immetingen:startTime>
-							<immetingen:remarks>Afwijking: tijdens hagel genomen</immetingen:remarks>
 							<immetingen:consistsOfPackages>
 								<immetingen:Package>
 									<immetingen:name>1</immetingen:name>
@@ -2340,18 +1712,12 @@
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
 						<immetingen:AnalysisProcess gml:id="_9911262c-d247-4aad-8fea-ae095f62b495">
-							<immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:13</immetingen:analyticalTechnique>
 							<immetingen:identification>
 								<immetingen:NEN3610ID>
 									<immetingen:namespace>SIKB</immetingen:namespace>
 									<immetingen:lokaalID>9911262c-d247-4aad-8fea-ae095f62b495</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
-							<immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
-							<immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:330</immetingen:sampleDestructionMethod>
-							<immetingen:samplePretreatmentMethod>urn:immetingen:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
-							<immetingen:samplePretreatmentDate>2018-03-08</immetingen:samplePretreatmentDate>
 							<immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
 						</immetingen:AnalysisProcess>
 					</imsikb0101:featureMember>
@@ -2386,13 +1752,6 @@
 									<immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
 								</immetingen:PhysicalProperty>
 							</immetingen:physicalProperty>
-							<immetingen:statusOfAnalysis>
-								<immetingen:AnalysisStatus>
-									<immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
-									<immetingen:dateExpected>2018-04-12</immetingen:dateExpected>
-									<immetingen:versionNumber>115</immetingen:versionNumber>
-								</immetingen:AnalysisStatus>
-							</immetingen:statusOfAnalysis>
 						</immetingen:Analysis>
 					</imsikb0101:featureMember>
 					<!--Analyse met limietsymbool -->
@@ -2412,11 +1771,6 @@
 								<immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
 								<immetingen:limitSymbol><![CDATA[<]]></immetingen:limitSymbol>
 								<immetingen:alphanumericValue>0.001 mg/kg ds</immetingen:alphanumericValue>
-								<immetingen:limits>
-									<immetingen:DeterminationLimits>
-										<immetingen:limitSymbolReferenceCode>urn:immetingen:LimietSymboolReferentie:id:3</immetingen:limitSymbolReferenceCode>
-									</immetingen:DeterminationLimits>
-								</immetingen:limits>
 							</om:result>
 							<immetingen:identification>
 								<immetingen:NEN3610ID>
@@ -2431,13 +1785,6 @@
 									<immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
 								</immetingen:PhysicalProperty>
 							</immetingen:physicalProperty>
-							<immetingen:statusOfAnalysis>
-								<immetingen:AnalysisStatus>
-									<immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
-									<immetingen:dateExpected>2018-04-12</immetingen:dateExpected>
-									<immetingen:versionNumber>115</immetingen:versionNumber>
-								</immetingen:AnalysisStatus>
-							</immetingen:statusOfAnalysis>
 						</immetingen:Analysis>
 					</imsikb0101:featureMember>
 					<!-- Grondwater Analysemonster-->
@@ -2501,33 +1848,19 @@
 									<!-- Zie Aquo parameterlijsten voor juiste combinaties voor Grondwater: www.aquo.nl -->
 								</immetingen:PhysicalProperty>
 							</immetingen:physicalProperty>
-							<immetingen:statusOfAnalysis>
-								<immetingen:AnalysisStatus>
-									<immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
-									<immetingen:dateExpected>2018-04-12</immetingen:dateExpected>
-									<immetingen:versionNumber>115</immetingen:versionNumber>
-								</immetingen:AnalysisStatus>
-							</immetingen:statusOfAnalysis>
 						</immetingen:Analysis>
 					</imsikb0101:featureMember>
 					<!-- /Grondwater Analysis-->
 					<!-- Grondwater AnalysisProcess -->
 					<imsikb0101:featureMember>
 						<immetingen:AnalysisProcess gml:id="_e911262c-d247-4aad-8fea-ae095f62b495">
-							<immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:13</immetingen:analyticalTechnique>
 							<immetingen:identification>
 								<immetingen:NEN3610ID>
 									<immetingen:namespace>SIKB</immetingen:namespace>
 									<immetingen:lokaalID>e911262c-d247-4aad-8fea-ae095f62b495</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
-							<immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
-							<immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:330</immetingen:sampleDestructionMethod>
-							<immetingen:samplePretreatmentMethod>urn:immetingen:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
-							<immetingen:samplePretreatmentDate>2018-04-09</immetingen:samplePretreatmentDate>
+							</immetingen:identification>							
 							<immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
-							<immetingen:measurementOrganisation codeSpace="www.sikb.nl">urn:immetingen:Meetinstantie:id:7</immetingen:measurementOrganisation>
 						</immetingen:AnalysisProcess>
 					</imsikb0101:featureMember>
 					<!-- /Grondwater AnalysisProcess -->
@@ -2565,18 +1898,12 @@
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
 						<immetingen:AnalysisProcess gml:id="_a911262c-d247-4aad-8fea-ae095f62b495">
-							<immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:13</immetingen:analyticalTechnique>
 							<immetingen:identification>
 								<immetingen:NEN3610ID>
 									<immetingen:namespace>SIKB</immetingen:namespace>
 									<immetingen:lokaalID>a911262c-d247-4aad-8fea-ae095f62b495</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:certification>urn:immetingen:Certificeringscode:id:4</immetingen:certification>
-							<immetingen:remarks>Opmerking bij het analyseproces</immetingen:remarks>
-							<immetingen:sampleDestructionMethod>urn:immetingen:Monsterbewerkingsmethode:id:330</immetingen:sampleDestructionMethod>
-							<immetingen:samplePretreatmentMethod>urn:immetingen:MonsterVoorbehandeling:id:3</immetingen:samplePretreatmentMethod>
-							<immetingen:samplePretreatmentDate>2018-03-19</immetingen:samplePretreatmentDate>
 							<immetingen:valuationMethod>urn:immetingen:waardebepalingsmethode:id:44</immetingen:valuationMethod>
 						</immetingen:AnalysisProcess>
 					</imsikb0101:featureMember>
@@ -2610,13 +1937,6 @@
 									<immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
 								</immetingen:PhysicalProperty>
 							</immetingen:physicalProperty>
-							<immetingen:statusOfAnalysis>
-								<immetingen:AnalysisStatus>
-									<immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
-									<immetingen:dateExpected>2018-04-20</immetingen:dateExpected>
-									<immetingen:versionNumber>115</immetingen:versionNumber>
-								</immetingen:AnalysisStatus>
-							</immetingen:statusOfAnalysis>
 						</immetingen:Analysis>
 					</imsikb0101:featureMember>
 					<!--Analyse met limietsymbool -->
@@ -2636,11 +1956,6 @@
 								<immetingen:qualityIndicatorType>urn:immetingen:Kwaliteitsoordeel:id:4</immetingen:qualityIndicatorType>
 								<immetingen:limitSymbol><![CDATA[<]]></immetingen:limitSymbol>
 								<immetingen:alphanumericValue>&lt; 0.002 mg/kg ds</immetingen:alphanumericValue>
-								<immetingen:limits>
-									<immetingen:DeterminationLimits>
-										<immetingen:limitSymbolReferenceCode>urn:immetingen:LimietSymboolReferentie:id:3</immetingen:limitSymbolReferenceCode>
-									</immetingen:DeterminationLimits>
-								</immetingen:limits>
 							</om:result>
 							<immetingen:identification>
 								<immetingen:NEN3610ID>
@@ -2655,13 +1970,6 @@
 									<immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>
 								</immetingen:PhysicalProperty>
 							</immetingen:physicalProperty>
-							<immetingen:statusOfAnalysis>
-								<immetingen:AnalysisStatus>
-									<immetingen:statusType>urn:immetingen:LabopdrachtStatus:id:3</immetingen:statusType>
-									<immetingen:dateExpected>2018-04-20</immetingen:dateExpected>
-									<immetingen:versionNumber>115</immetingen:versionNumber>
-								</immetingen:AnalysisStatus>
-							</immetingen:statusOfAnalysis>
 						</immetingen:Analysis>
 					</imsikb0101:featureMember>
 				</imsikb0101:FeatureCollectionIMSIKB0101>
