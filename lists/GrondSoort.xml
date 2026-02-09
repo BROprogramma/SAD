@@ -260,7 +260,7 @@
 		<Omschrijving>Grond die voor minimaal 50% van de massa uit zand bestaat en die voor 20 tot 50% uit grind bestaat.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
-		<Waarde>mineaalarmHumus</Waarde>
+		<Waarde>mineraalarmHumus</Waarde>
 		<SIKB0101ID>48</SIKB0101ID>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
