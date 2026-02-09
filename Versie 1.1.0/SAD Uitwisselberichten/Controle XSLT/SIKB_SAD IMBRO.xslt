@@ -35,6 +35,7 @@
     <xsl:key name="imsikbKey" match="sikb.lookup/*/*" use="concat(lower-case(parent::*/@categorie), '|', ID)"/>
     <xsl:key name="immetingenKey" match="sikb.lookup/*/*" use="concat(lower-case(parent::*/@categorie), '|', ID)"/>
     <xsl:key name="allowedQuantityKey" match="quantity" use="sikbid"/>
+    
     <xsl:template match="/">
         <ArrayOfLogRecord>
             <!-- file dataflow check -->
@@ -635,6 +636,7 @@
 		<xsl:variable name="rcdName" select="../../immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('immetingen:Depth van [',$rcdName,'] (',$rcdGUID, ')'),' ')"/>                
         <xsl:copy-of select="sikb:checkExistence(., $record, 'value', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkFilled(., $record, 'value', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $record, 'condition', 'ERROR')"/>
         
         <xsl:copy-of select="sikb:checkLookupId(./value, $record, '@uom', 'Eenheid', 'WARNING')"/>
@@ -646,6 +648,7 @@
 		<xsl:variable name="rcdName" select="../../immetingen:name"/>    
 		<xsl:variable name="record" select="string-join(('immetingen:Height van [',$rcdName,'] (',$rcdGUID, ')'),' ')"/>             
         <xsl:copy-of select="sikb:checkExistence(., $record, 'value', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkFilled(., $record, 'value', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $record, 'condition', 'ERROR')"/>        
         <xsl:copy-of select="sikb:checkLookupId(./value, $record, '@uom', 'Eenheid', 'WARNING')"/>
         <xsl:copy-of select="sikb:checkLookupId(., $record, 'condition', 'Hoedanigheid', 'WARNING')"/>
@@ -664,6 +667,39 @@
         <xsl:copy-of select="sikb:checkExistence(., $record, 'lowerDepth', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $record, 'lowerDepth', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkLength(., $record, 'name', 24, 'ERROR')"/>
+		
+		<!-- Filterstelling scenario check
+			Scenario 1_c1; als lower of upper depth tov Bovenkant Peilbuis is, dan moet Bovenkant peilbuis aangeleverd zijn => Error
+		 -->
+		 
+		 <xsl:variable name="refUpperDepth" select="substring-after(imsikb0101:upperDepth/immetingen:Depth/immetingen:condition,':id:')"/>
+		 <xsl:variable name="refLowerDepth" select="substring-after(imsikb0101:lowerDepth/immetingen:Depth/immetingen:condition,':id:')"/>
+		 <xsl:variable name="bopbHeight" select="imsikb0101:heightTopFiltertube/immetingen:Height/immetingen:value"/>
+		 <xsl:variable name="refBopbHeight" select="substring-after(imsikb0101:heightTopFiltertube/immetingen:Height/immetingen:condition,':id:')"/>
+		 		 
+		 <xsl:if test="not($refUpperDepth = $refLowerDepth)">
+			<xsl:variable name="message" select="replace(string-join(('Bij', $record, 'heeft de lowerDepth een andere referentie dan de upperDepth. Waardes: ',$refUpperDepth,'vs',$refLowerDepth), ' '), '  ', ' ')"/>
+			<xsl:copy-of select="sikb:createRecord('ERROR', string(./name()), $message)"/>
+		</xsl:if>
+		
+		<xsl:if test="$refUpperDepth = '14' and not($bopbHeight)">
+			<xsl:variable name="message" select="replace(string-join(('Bij', $record, 'is de referentie van upperDepth en lowerDepth tov Bovenkant Peilbuis, dan moet er wel een Bovenkant Peilbuis (heightTopFiltertube) waarde meegegeven worden.'), ' '), '  ', ' ')"/>
+			<xsl:copy-of select="sikb:createRecord('ERROR', string(./name()), $message)"/>
+		</xsl:if>	
+		
+		<!-- Filterstelling scenario check
+			Scenario 3_b2; als lower of upper depth tov NAP is, Bovenkant peilbuis tov Maaiveld, Maar meetpunt maaiveld niet geleverd is => Error
+		 -->
+		 <xsl:if test="$refUpperDepth = '12' and $refBopbHeight = '11'">
+			 <!-- start search for meetpunt maaiveld -->
+			 <xsl:variable name="mpID" select="replace(sam:relatedSamplingFeature/sam:SamplingFeatureComplex[substring-after(sam:role/@xlink:href,':id:') = '4'][1]/sam:relatedSamplingFeature/@xlink:href, '#','')"/>
+			 <xsl:variable name="MpMaaiveld" select="//*[@gml:id = $mpID][1]/imsikb0101:groundLevel"/>
+		 
+			 <xsl:if test="not($MpMaaiveld)">
+				<xsl:variable name="message" select="replace(string-join(('Bij', $record, 'is de referentie van upperDepth en lowerDepth tov NAP, Bovenkant Peilbuis (heightTopFiltertube) is tov Maaiveld, dan moet er op meetpunt niveau een Maaiveldhoogte (groundLevel) meegegeven worden.'), ' '), '  ', ' ')"/>
+				<xsl:copy-of select="sikb:createRecord('ERROR', string(./name()), $message)"/>
+			</xsl:if>
+		</xsl:if>	
 		
 		<!-- loop veldmonsters water en valideer ze -->
 		<xsl:for-each select="./sam:relatedSamplingFeature">
