@@ -449,6 +449,13 @@
 		<Omschrijving>kolen</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>kolengruis</Waarde>
+		<SIKB0101ID>104</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>kolengruis</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
 		<Waarde>koolas</Waarde>
 		<SIKB0101ID>105</SIKB0101ID>
 		<IMBRO>v</IMBRO>
@@ -881,13 +888,6 @@
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>blokken</Omschrijving>
-	</BijzonderBestanddeelSoort>
-	<BijzonderBestanddeelSoort>
-		<Waarde>kolengruis</Waarde>
-		<SIKB0101ID>104</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>kolengruis</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>verharding</Waarde>
