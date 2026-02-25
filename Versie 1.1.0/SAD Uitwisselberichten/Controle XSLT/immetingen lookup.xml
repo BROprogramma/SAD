@@ -107772,7 +107772,7 @@
 			<Omschrijving>kolengruis</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderheden>
