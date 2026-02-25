@@ -517,10 +517,11 @@
                             <imsikb0101:groundLevel>
                                 <immetingen:Height>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">750.0</immetingen:value>
-                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:15</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:12</immetingen:condition>
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+                            <imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
                             <imsikb0101:drillMaster xlink:href="#_a40b48b6-5731-4c84-961b-8d0d43b016d5"/>
                         </imsikb0101:Trench>
                     </imsikb0101:featureMember>
@@ -959,10 +960,11 @@
                             <imsikb0101:groundLevel>
                                 <immetingen:Height>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">750.0</immetingen:value>
-                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:15</immetingen:condition>
+                                    <immetingen:condition>urn:immetingen:hoedanigheid:id:12</immetingen:condition>
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+                            <imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
                             <imsikb0101:drillMaster xlink:href="#_a40b48b6-5731-4c84-961b-8d0d43b016d5"/>
                         </imsikb0101:Trench>
                     </imsikb0101:featureMember>
@@ -2043,7 +2045,7 @@
                                     <gml:timePosition>2021-02-26T00:00:00.0000000</gml:timePosition>
                                 </gml:TimeInstant>
                             </spec:samplingTime>
-                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:10"/>
+                            <spec:specimenType xlink:href="urn:immetingen:monstertype:id:12"/>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
                                     <immetingen:namespace>SIKB</immetingen:namespace>
