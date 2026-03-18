@@ -26,9 +26,7 @@
                     </imsikb0101:metaData>
                     <imsikb0101:featureMember>
                         <imsikb0101:Project gml:id="_6e8f6b95-b282-4e14-9dea-fb8ed9785330">
-                            <imsikb0101:assesorConclusion>Onbekend</imsikb0101:assesorConclusion>
-                            <imsikb0101:assignmentCode>Onbekend</imsikb0101:assignmentCode>
-                            <imsikb0101:investigationReason/>
+                            <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>
                             <imsikb0101:geometry>
                                 <gml:MultiSurface gml:id="_19bf06a5-8fb6-4b0f-8edb-e5cfbcebe5d0">
                                     <gml:surfaceMember>
@@ -52,8 +50,9 @@
                             <imsikb0101:name>VB van filterstellingen</imsikb0101:name>
                             <imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:4</imsikb0101:phase>
                             <imsikb0101:projectCode>BRO_FILTERSTELLING</imsikb0101:projectCode>
-                            <imsikb0101:projectType/>
+							<imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:3</imsikb0101:projectType>
                             <imsikb0101:reportNumber>Onbekend</imsikb0101:reportNumber>
+							<imsikb0101:stakeholders xlink:href="#_8b2e21b3-3282-433f-b584-54471298e928"/>
                             <imsikb0101:measurementObjects xlink:href="#_57a42f2f-e8e4-41ea-9312-e16009188398"/>
                             <imsikb0101:measurementObjects xlink:href="#_56d6fb94-c978-4d19-9a1b-1b879a3e71a3"/>
                             <imsikb0101:measurementObjects xlink:href="#_e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2"/>
@@ -68,21 +67,22 @@
                             <imsikb0101:measurementObjects xlink:href="#_c08edd04-deea-4d54-9741-e623fdc17900"/>
                             <imsikb0101:measurementObjects xlink:href="#_fb088735-5248-4625-a0ea-5c8db8dc49f9"/>
                             <imsikb0101:measurementObjects xlink:href="#_ab088735-5248-4625-a0ea-5c8db8dc49f9"/>
-                            <imsikb0101:dossiers xlink:href="#_b2ef734f-db62-4db1-9494-7e4ee19b8fef"/>
                         </imsikb0101:Project>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
-                        <imsikb0101:SoilManagementDossier gml:id="_b2ef734f-db62-4db1-9494-7e4ee19b8fef">
-                            <imsikb0101:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>b2ef734f-db62-4db1-9494-7e4ee19b8fef</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </imsikb0101:identification>
-                            <imsikb0101:projects xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:soilLocation/>
-                        </imsikb0101:SoilManagementDossier>
-                    </imsikb0101:featureMember>
+						<immetingen:Organization gml:id="_8b2e21b3-3282-433f-b584-54471298e928">
+							<immetingen:identification>
+								<immetingen:NEN3610ID>
+									<immetingen:namespace>SIKB</immetingen:namespace>
+									<immetingen:lokaalID>8b2e21b3-3282-433f-b584-54471298e928</immetingen:lokaalID>
+								</immetingen:NEN3610ID>
+							</immetingen:identification>							
+							<immetingen:name>Adviebureau bedrijfsnaam BV</immetingen:name>
+							<!-- Adviesbureau -->
+							<immetingen:organisationType>urn:immetingen:RolBetrokkene:id:64</immetingen:organisationType>
+							<immetingen:chamberOfCommerceNumber>27376655</immetingen:chamberOfCommerceNumber>
+						</immetingen:Organization>
+					</imsikb0101:featureMember>			
                     <imsikb0101:featureMember>
                         <imsikb0101:Filter gml:id="_124f6dce-d907-4bc2-9f9d-2431faed507f">
                             <sam:sampledFeature/>
@@ -156,8 +156,7 @@
                                 </gml:Point>
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
-                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
+                            <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>                            
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -171,6 +170,7 @@
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -241,7 +241,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -249,6 +248,7 @@
                                 </immetingen:Depth>
                             </imsikb0101:depth>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -319,7 +319,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -327,6 +326,7 @@
                                 </immetingen:Depth>
                             </imsikb0101:depth>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -405,6 +405,7 @@
                                 </immetingen:Depth>
                             </imsikb0101:depth>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -489,6 +490,7 @@
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -560,7 +562,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -574,6 +575,7 @@
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -644,7 +646,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -658,6 +659,7 @@
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -722,7 +724,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -730,6 +731,7 @@
                                 </immetingen:Depth>
                             </imsikb0101:depth>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -794,7 +796,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -808,6 +809,7 @@
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -878,7 +880,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -886,6 +887,7 @@
                                 </immetingen:Depth>
                             </imsikb0101:depth>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -956,7 +958,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -970,6 +971,7 @@
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -1034,7 +1036,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -1048,6 +1049,7 @@
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -1118,7 +1120,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -1133,6 +1134,7 @@
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>-->
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -1203,7 +1205,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2024-02-20T09:10:15.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_6e8f6b95-b282-4e14-9dea-fb8ed9785330"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">250</immetingen:value>
@@ -1217,6 +1218,7 @@
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
                             <imsikb0101:groundLevelType/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>	
                         </imsikb0101:Borehole>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>

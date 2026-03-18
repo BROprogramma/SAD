@@ -18,18 +18,13 @@
 				<!-- Hier tussen kan de volledige SIKB XML geplakt worden-->
 				<imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_eaa6c99f-4eee-44c6-b78e-6b1826057114" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v14.9.0.xsd">
 					<imsikb0101:metaData>
-						<imsikb0101:application>urn:imsikb0101:Applicaties:id:23</imsikb0101:application>
 						<imsikb0101:date>2018-12-21</imsikb0101:date>
-						<imsikb0101:organisation>Bedrijfsnaam BV</imsikb0101:organisation>
-						<imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:6</imsikb0101:supplier>
 						<imsikb0101:version>14.9.0</imsikb0101:version>
 						<imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:4</imsikb0101:dataflow>
 					</imsikb0101:metaData>
 					<imsikb0101:featureMember>
 						<imsikb0101:Project gml:id="_daa6c99f-4eee-44c6-b78e-6b1826057114">
 							<imsikb0101:asbestos>urn:imsikb0101:AsbestAanwezigheid:id:4</imsikb0101:asbestos>
-							<imsikb0101:assesorConclusion>xxxxxxxxxxx</imsikb0101:assesorConclusion>
-							<imsikb0101:assignmentCode>xxxxxxxxxxx</imsikb0101:assignmentCode>
 							<imsikb0101:investigationConclusion>Dit is de conclusie van het onderzoek.</imsikb0101:investigationConclusion>
 							<imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>
 							<imsikb0101:geometry>
@@ -53,7 +48,6 @@
 								</immetingen:NEN3610ID>
 							</imsikb0101:identification>
 							<imsikb0101:name>SIKB Voorbeeld project Protocol 2001 en 2002</imsikb0101:name>
-							<imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:5</imsikb0101:phase>
 							<imsikb0101:projectCode>SIKB_PROT_2001_2002</imsikb0101:projectCode>
 							<imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:3</imsikb0101:projectType>
 							<imsikb0101:reportDate>2018-12-07</imsikb0101:reportDate>
@@ -184,7 +178,6 @@
 							</immetingen:geometry>
 							<immetingen:startTime>2018-03-08T00:00:00+01:00</immetingen:startTime>
 							<imsikb0101:usedInProject xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
-							<imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:11</imsikb0101:situationDescription>
 							<imsikb0101:depth>
 								<immetingen:Depth>
 									<immetingen:value uom="urn:immetingen:Eenheid:id:19">200</immetingen:value>
@@ -199,8 +192,7 @@
 								</immetingen:Height>
 							</imsikb0101:groundLevel>
 							<imsikb0101:groundLevelType>urn:imsikb0101:MaaiveldType:id:12</imsikb0101:groundLevelType>
-							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
-							<imsikb0101:drillMaster xlink:href="#_9a4e21b3-3282-433f-b584-54471298e928"/>
+							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>							
 						</imsikb0101:Borehole>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
@@ -536,7 +528,6 @@
 									<sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
 								</sam:SamplingFeatureComplex>
 							</sam:relatedSamplingFeature>
-							<sams:hostedProcedure xlink:href="#_acfbe5fc-111c-4905-86ba-0bee18fd26d4"/>
 							<sams:shape/>
 							<imsikb0101:upperDepth>
 								<immetingen:Depth>
@@ -557,19 +548,7 @@
 									<immetingen:versie>2018-03-08T16:57:46.3870000+01:00</immetingen:versie>
 								</immetingen:NEN3610ID>
 							</imsikb0101:identification>
-							<imsikb0101:layerType>urn:immetingen:BodemlaagType:id:2</imsikb0101:layerType>
 						</imsikb0101:Layer>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<imsikb0101:BoreProcess gml:id="_acfbe5fc-111c-4905-86ba-0bee18fd26d4">
-							<imsikb0101:drillType>urn:immetingen:BemonsteringsApparaat:id:1</imsikb0101:drillType>
-							<imsikb0101:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>acfbe5fc-111c-4905-86ba-0bee18fd26d4</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</imsikb0101:identification>
-						</imsikb0101:BoreProcess>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
 						<immetingen:Characteristic gml:id="_841ea8c0-ebda-4733-8bf2-7c564966d98c">
@@ -793,7 +772,6 @@
 									<sam:relatedSamplingFeature xlink:href="#_d8401c1a-ec0c-446f-8e45-22d9514f8400"/>
 								</sam:SamplingFeatureComplex>
 							</sam:relatedSamplingFeature>
-							<sams:hostedProcedure xlink:href="#_397bf951-9801-454e-b371-55125583218a"/>
 							<sams:shape/>
 							<imsikb0101:upperDepth>
 								<immetingen:Depth>
@@ -814,20 +792,7 @@
 									<immetingen:versie>2018-03-08T17:03:05.6700000+01:00</immetingen:versie>
 								</immetingen:NEN3610ID>
 							</imsikb0101:identification>
-							<imsikb0101:remark>Vreemde plantenresten zijn op te merken</imsikb0101:remark>
-							<imsikb0101:layerType>urn:immetingen:BodemlaagType:id:2</imsikb0101:layerType>
 						</imsikb0101:Layer>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<imsikb0101:BoreProcess gml:id="_397bf951-9801-454e-b371-55125583218a">
-							<imsikb0101:drillType>urn:immetingen:BemonsteringsApparaat:id:1</imsikb0101:drillType>
-							<imsikb0101:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>397bf951-9801-454e-b371-55125583218a</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</imsikb0101:identification>
-						</imsikb0101:BoreProcess>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
 						<immetingen:Characteristic gml:id="_7ce79437-4798-4583-af0f-fbc2502075ef">
@@ -1011,17 +976,6 @@
 						</imsikb0101:Layer>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
-						<imsikb0101:BoreProcess gml:id="_7f4e20e1-e44c-428b-99e2-08eb6bd2a8b0">
-							<imsikb0101:drillType>urn:immetingen:BemonsteringsApparaat:id:1</imsikb0101:drillType>
-							<imsikb0101:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>7f4e20e1-e44c-428b-99e2-08eb6bd2a8b0</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</imsikb0101:identification>
-						</imsikb0101:BoreProcess>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
 						<immetingen:Analysis gml:id="_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b">
 							<om:phenomenonTime/>
 							<om:resultTime/>
@@ -1066,15 +1020,7 @@
 								<gml:TimeInstant gml:id="_4627e079-edc3-4497-a382-844105937bc9">
 									<gml:timePosition>2018-03-08T17:03:17+01:00</gml:timePosition>
 								</gml:TimeInstant>
-							</spec:samplingTime>
-							<spec:processingDetails>
-								<immetingen:FieldSamplePreparationStep>
-									<spec:time/>
-									<spec:processOperator/>
-									<spec:processingDetails xlink:href="#_4627e079-edc3-4497-a382-844105937bd9"/>
-									<immetingen:pretreatment>urn:immetingen:MonsterVoorbehandeling:id:3</immetingen:pretreatment>
-								</immetingen:FieldSamplePreparationStep>
-							</spec:processingDetails>
+							</spec:samplingTime>							
 							<spec:specimenType xlink:href="urn:immetingen:Monstertype:id:1"/>
 							<immetingen:identification>
 								<immetingen:NEN3610ID>
@@ -1095,46 +1041,9 @@
 									<immetingen:value uom="urn:immetingen:Eenheid:id:19">0</immetingen:value>
 									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
 								</immetingen:Depth>
-							</immetingen:upperDepth>
-							<immetingen:consistsOfPackages>
-								<immetingen:Package>
-									<immetingen:barcode>AB123543</immetingen:barcode>
-									<immetingen:packageType>urn:immetingen:MonsterVerpakking:id:2</immetingen:packageType>
-								</immetingen:Package>
-							</immetingen:consistsOfPackages>
+							</immetingen:upperDepth>							
 							<imsikb0101:inProject xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
 						</imsikb0101:Sample>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:SamplingProcess gml:id="_4627e079-edc3-4497-a382-844105937bd9">
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>4627e079-edc3-4497-a382-844105937bd9</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:samplingOperator xlink:href="#_9b4e21b3-3282-433f-b584-54471298e928"/>
-						</immetingen:SamplingProcess>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:Person gml:id="_9b4e21b3-3282-433f-b584-54471298e928">
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>9b4e21b3-3282-433f-b584-54471298e928</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:relatedSubject>
-								<immetingen:SubjectFeatureComplex>
-									<!-- Is Monsternemer bij-->
-									<immetingen:role>urn:immetingen:RelatedSubjectRollen:id:11</immetingen:role>
-									<immetingen:relatedSubject xlink:href="#_9b5e21b3-3282-433f-b584-54471298e928"/>
-								</immetingen:SubjectFeatureComplex>
-							</immetingen:relatedSubject>
-							<!-- monsternemer -->
-							<immetingen:firstName>Voornaam</immetingen:firstName>
-							<immetingen:lastName>Achternaam</immetingen:lastName>
-						</immetingen:Person>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
 						<imsikb0101:Sample gml:id="_869e4c44-dbe0-4bca-965a-45d2e5418fd3">
@@ -1177,13 +1086,7 @@
 									<immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
 									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
 								</immetingen:Depth>
-							</immetingen:upperDepth>
-							<immetingen:consistsOfPackages>
-								<immetingen:Package>
-									<immetingen:barcode>BC4329222</immetingen:barcode>
-									<immetingen:packageType>urn:immetingen:MonsterVerpakking:id:2</immetingen:packageType>
-								</immetingen:Package>
-							</immetingen:consistsOfPackages>
+							</immetingen:upperDepth>							
 							<imsikb0101:inProject xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
 						</imsikb0101:Sample>
 					</imsikb0101:featureMember>
@@ -1235,12 +1138,6 @@
 									<immetingen:condition>urn:immetingen:Hoedanigheid:id:11</immetingen:condition>
 								</immetingen:Depth>
 							</immetingen:upperDepth>
-							<immetingen:consistsOfPackages>
-								<immetingen:Package>
-									<immetingen:barcode>040043252</immetingen:barcode>
-									<immetingen:packageType>urn:immetingen:MonsterVerpakking:id:2</immetingen:packageType>
-								</immetingen:Package>
-							</immetingen:consistsOfPackages>
 							<imsikb0101:inProject xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
 						</imsikb0101:Sample>
 					</imsikb0101:featureMember>
@@ -1604,15 +1501,7 @@
 								<gml:TimeInstant gml:id="_5ab79c51-cbcc-47cb-b3a3-7ab62597b65d">
 									<gml:timePosition>2018-03-08T00:00:00+01:00</gml:timePosition>
 								</gml:TimeInstant>
-							</spec:samplingTime>
-							<spec:processingDetails>
-								<immetingen:FieldSamplePreparationStep>
-									<spec:time/>
-									<spec:processOperator/>
-									<spec:processingDetails xlink:href="#_4537e079-edc3-4497-a382-844105937bd9"/>
-									<immetingen:pretreatment>urn:immetingen:MonsterVoorbehandeling:id:4</immetingen:pretreatment>
-								</immetingen:FieldSamplePreparationStep>
-							</spec:processingDetails>
+							</spec:samplingTime>							
 							<spec:specimenType xlink:href="urn:immetingen:Monstertype:id:1"/>
 							<immetingen:identification>
 								<immetingen:NEN3610ID>
@@ -1623,35 +1512,9 @@
 							</immetingen:identification>
 							<immetingen:name>PB01-Filter1-1</immetingen:name>
 							<immetingen:startTime>2018-04-09T00:00:00+01:00</immetingen:startTime>
-							<immetingen:consistsOfPackages>
-								<immetingen:Package>
-									<immetingen:name>1</immetingen:name>
-									<immetingen:barcode>1234567</immetingen:barcode>
-									<immetingen:packageType>urn:immetingen:MonsterVerpakking:id:1</immetingen:packageType>
-								</immetingen:Package>
-							</immetingen:consistsOfPackages>
-							<immetingen:consistsOfPackages>
-								<immetingen:Package>
-									<immetingen:name>2</immetingen:name>
-									<immetingen:barcode>98765431</immetingen:barcode>
-									<immetingen:packageType>urn:immetingen:MonsterVerpakking:id:1</immetingen:packageType>
-								</immetingen:Package>
-							</immetingen:consistsOfPackages>
 							<imsikb0101:inProject xlink:href="#_daa6c99f-4eee-44c6-b78e-6b1826057114"/>
 						</imsikb0101:Sample>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
-						<immetingen:SamplingProcess gml:id="_4537e079-edc3-4497-a382-844105937bd9">
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>4537e079-edc3-4497-a382-844105937bd9</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:samplingDevice>urn:immetingen:BemonsteringsApparaat:id:70</immetingen:samplingDevice>
-							<immetingen:samplingOperator xlink:href="#_9b4e21b3-3282-433f-b584-54471298e928"/>
-						</immetingen:SamplingProcess>
-					</imsikb0101:featureMember>
+					</imsikb0101:featureMember>					
 					<imsikb0101:featureMember>
 						<imsikb0101:Sample gml:id="_b1adf8f7-e0cd-4810-a93e-60580f34b3fa">
 							<sam:sampledFeature/>
