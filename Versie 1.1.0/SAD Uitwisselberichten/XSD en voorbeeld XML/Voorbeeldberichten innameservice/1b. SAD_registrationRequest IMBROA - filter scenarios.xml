@@ -26,6 +26,8 @@
                     </imsikb0101:metaData>
                     <imsikb0101:featureMember>
                         <imsikb0101:Project gml:id="_6e8f6b95-b282-4e14-9dea-fb8ed9785330">
+							<!-- optioneel, dit veld is alleen aanwezig omdat binnen SIKB0101 Onderzoek dit veld verplicht is, BRO doet er niets mee -->
+							<imsikb0101:assesorConclusion>xxxxxxxxxxx</imsikb0101:assesorConclusion>
                             <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>
                             <imsikb0101:geometry>
                                 <gml:MultiSurface gml:id="_19bf06a5-8fb6-4b0f-8edb-e5cfbcebe5d0">
