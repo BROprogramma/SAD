@@ -8,6 +8,13 @@
 		<Omschrijving>Een archiefonderzoek, inclusief een locatiebezoek of gevelinspectie, naar activiteiten die op deze locatie hebben plaatsgevonden. Met een historisch onderzoek kan voorspeld worden of er een risico is op bodemverontreiniging en kan de strategie voor veldonderzoek bepaald worden.</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
+		<Waarde>indicatiefOnderzoek</Waarde>
+		<SIKB0101ID>3</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een beperkt bodemonderzoek, niet zijnde een volledig bodemonderzoek conform NEN 5740, bestaande uit enkele meetpunten (boringen en of peilbuizen) en analyses om de bodemkwaliteit ter plaatse van één of enkele meetpunten vast te stellen.</Omschrijving>
+	</OnderzoekType>	
+	<OnderzoekType>
 		<Waarde>verkennendOnderzoekNEN5740</Waarde>
 		<SIKB0101ID>5</SIKB0101ID>
 		<IMBRO>v</IMBRO>
@@ -42,6 +49,13 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een rapportage waarin wordt beschreven welke (na)zorgmaatregelen bij een bodemsanering zijn getroffen.</Omschrijving>
 	</OnderzoekType>
+	<OnderzoekType>
+		<Waarde>aanvullendRapport</Waarde>
+		<SIKB0101ID>15</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een beperkt bodemonderzoek, niet zijnde een volledig nader onderzoek, bestaande uit enkele meetpunten (boringen en of peilbuizen) en analyses om de bodemkwaliteit ter plaatse van één of enkele meetpunten vast te stellen.</Omschrijving>
+	</OnderzoekType>	
 	<OnderzoekType>
 		<Waarde>nulOfEindsituatieOnderzoek</Waarde>
 		<SIKB0101ID>17</SIKB0101ID>
@@ -99,13 +113,6 @@
 		<Omschrijving>Een inventariserend onderzoek in een speciaal kader.</Omschrijving>
 	</OnderzoekType>	
 	<OnderzoekType>
-		<Waarde>indicatiefOnderzoek</Waarde>
-		<SIKB0101ID>3</SIKB0101ID>
-		<IMBRO/>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een beperkt bodemonderzoek met als doel te onderzoeken of er sprake is van bodemverontreiniging.</Omschrijving>
-	</OnderzoekType>
-	<OnderzoekType>
 		<Waarde>bodemSaneringBedrijven</Waarde>
 		<SIKB0101ID>4</SIKB0101ID>
 		<IMBRO/>
@@ -132,13 +139,6 @@
 		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een verkorte rapportage van een bodemonderzoek in briefvorm.</Omschrijving>
-	</OnderzoekType>
-	<OnderzoekType>
-		<Waarde>aanvullendRapport</Waarde>
-		<SIKB0101ID>15</SIKB0101ID>
-		<IMBRO/>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een rapport van een bodemonderzoek ter aanvulling op een of meer eerder opgestelde rapporten.</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>fax</Waarde>
