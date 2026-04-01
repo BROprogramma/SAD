@@ -3072,4 +3072,10 @@
 		<IMBROA>v</IMBROA>
 		<Omschrijving>fractie kleiner dan 20 mm</Omschrijving>
 	</Hoedanigheid>
+	<Hoedanigheid>
+		<SIKB0101ID>988</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>fractie kleiner dan 20 mm / drooggewicht</Omschrijving>
+	</Hoedanigheid>
 </domeintabel>
