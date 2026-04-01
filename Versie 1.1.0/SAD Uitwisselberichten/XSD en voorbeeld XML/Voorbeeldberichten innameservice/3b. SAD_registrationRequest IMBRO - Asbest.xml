@@ -26,8 +26,11 @@
                     </imsikb0101:metaData>
                     <imsikb0101:featureMember>
                         <imsikb0101:Project gml:id="_ed4b2294-db2e-446f-9e38-7b895c95a244">
+							<imsikb0101:asbestos>urn:imsikb0101:AsbestAanwezigheid:id:1</imsikb0101:asbestos>
+							<!-- optioneel, dit veld is alleen aanwezig omdat binnen SIKB0101 Onderzoek dit veld verplicht is, BRO doet er niets mee -->
                             <imsikb0101:assesorConclusion>Onbekend</imsikb0101:assesorConclusion>
                             <imsikb0101:assignmentCode>Onbekend</imsikb0101:assignmentCode>
+                            <imsikb0101:investigationConclusion>Dit is de conclusie van het onderzoek.</imsikb0101:investigationConclusion>
                             <imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:1</imsikb0101:investigationReason>                            
                             <imsikb0101:geometry>
                                 <gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4326">
@@ -50,16 +53,16 @@
                                 </immetingen:NEN3610ID>
                             </imsikb0101:identification>
                             <imsikb0101:name>BRL2018 Asbest voorbeeld onderzoek</imsikb0101:name>
-                            <imsikb0101:phase>urn:imsikb0101:OnderzoeksfaseType:id:4</imsikb0101:phase>
                             <imsikb0101:projectCode>BRL2018</imsikb0101:projectCode>
                             <imsikb0101:projectType>urn:imsikb0101:OnderzoekType:id:21</imsikb0101:projectType>
                             <imsikb0101:reportDate>2024-07-17</imsikb0101:reportDate>
                             <imsikb0101:reportNumber>Onbekend</imsikb0101:reportNumber>
+							<!-- alleen adviesbureau is nodig -->
                             <imsikb0101:stakeholders xlink:href="#_8b2e21b3-3282-433f-b584-54471298e928"/>
                             <imsikb0101:measurementObjects xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
                             <imsikb0101:measurementObjects xlink:href="#_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4"/>
-                            <imsikb0101:dossiers xlink:href="#_682ad172-dc49-41aa-ae84-7aa7c3978453"/>
-                            <imsikb0101:Addresses xlink:href="#_d5d40f94-cb06-4802-8f6e-450a0bad2698"/>
+                            <!-- optioneel, alleen als je een documentUrl hebt 
+							<imsikb0101:documents xlink:href="#_25864356-197c-4eaa-ae03-43ead2065aa7"/>-->
                         </imsikb0101:Project>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -69,65 +72,13 @@
                                     <immetingen:namespace>SIKB</immetingen:namespace>
                                     <immetingen:lokaalID>8b2e21b3-3282-433f-b584-54471298e928</immetingen:lokaalID>
                                 </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:relatedSubject>
-                                <immetingen:SubjectFeatureComplex>
-                                    <!-- Heeft Medewerker -->
-                                    <immetingen:role>urn:immetingen:RelatedSubjectRollen:id:2</immetingen:role>
-                                    <immetingen:relatedSubject xlink:href="#_8b3e21b3-3282-433f-b584-54471298e928"/>
-                                </immetingen:SubjectFeatureComplex>
-                            </immetingen:relatedSubject>
+                            </immetingen:identification>                            
                             <immetingen:name>Adviebureau bedrijfsnaam BV</immetingen:name>
                             <!-- Adviesbureau -->
                             <immetingen:organisationType>urn:immetingen:RolBetrokkene:id:64</immetingen:organisationType>
                             <immetingen:chamberOfCommerceNumber>27376655</immetingen:chamberOfCommerceNumber>
                         </immetingen:Organization>
-                    </imsikb0101:featureMember>
-                    <!-- Projectadres -->
-                    <imsikb0101:featureMember>
-                        <immetingen:Address gml:id="_d5d40f94-cb06-4802-8f6e-450a0bad2698">
-                            <immetingen:city>Hoofddorp</immetingen:city>
-                            <immetingen:country>Nederland</immetingen:country>
-                            <immetingen:districtCode>AMST</immetingen:districtCode>
-                            <immetingen:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>d5d40f94-cb06-4802-8f6e-450a0bad2698</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:letter>f</immetingen:letter>
-                            <immetingen:numberAddition>1</immetingen:numberAddition>
-                            <immetingen:number>231</immetingen:number>
-                            <immetingen:remarks>Opmerkingen bij dit adres</immetingen:remarks>
-                            <immetingen:publicSpace>Kerkstraat</immetingen:publicSpace>
-                            <immetingen:zipcode>9999ZZ</immetingen:zipcode>
-                        </immetingen:Address>
-                    </imsikb0101:featureMember>
-                    <!-- /Projectadres -->
-                    <imsikb0101:featureMember>
-                        <imsikb0101:SoilManagementDossier gml:id="_682ad172-dc49-41aa-ae84-7aa7c3978453">
-                            <imsikb0101:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>682ad172-dc49-41aa-ae84-7aa7c3978453</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </imsikb0101:identification>
-                            <imsikb0101:projects xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
-                            <imsikb0101:soilLocation/>
-                        </imsikb0101:SoilManagementDossier>
-                    </imsikb0101:featureMember>
-                    <imsikb0101:featureMember>
-                        <immetingen:Person gml:id="_a40b48b6-5731-4c84-961b-8d0d43b016d5">
-                            <immetingen:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>a40b48b6-5731-4c84-961b-8d0d43b016d5</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:firstName>Roelof</immetingen:firstName>
-                            <immetingen:lastName>Zwaan</immetingen:lastName>
-                        </immetingen:Person>
-                    </imsikb0101:featureMember>
+                    </imsikb0101:featureMember>                                                            
                     <imsikb0101:featureMember>
                         <immetingen:Characteristic gml:id="_6726e7e2-bd7b-4c24-a6d2-e2898542cf8d">
                             <om:relatedObservation>
@@ -417,17 +368,6 @@
                         </immetingen:Characteristic>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
-                        <imsikb0101:BoreProcess gml:id="_b1d5a66a-863d-4394-a726-a44b52af9202">
-                            <imsikb0101:drillType>urn:immetingen:BemonsteringsApparaat:id:100</imsikb0101:drillType>
-                            <imsikb0101:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>b1d5a66a-863d-4394-a726-a44b52af9202</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </imsikb0101:identification>
-                        </imsikb0101:BoreProcess>
-                    </imsikb0101:featureMember>
-                    <imsikb0101:featureMember>
                         <imsikb0101:Layer gml:id="_8c0c1c1b-1ca9-4bed-932a-cc97843088ca">
                             <sam:sampledFeature/>
                             <sam:relatedObservation xlink:href="#_b5ad036d-980f-4869-8f9d-d02a8a399f12"/>
@@ -442,7 +382,6 @@
                                     <sam:relatedSamplingFeature xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
                                 </sam:SamplingFeatureComplex>
                             </sam:relatedSamplingFeature>
-                            <sams:hostedProcedure xlink:href="#_b1d5a66a-863d-4394-a726-a44b52af9202"/>
                             <sams:shape/>
                             <imsikb0101:upperDepth>
                                 <immetingen:Depth>
@@ -462,10 +401,7 @@
                                     <immetingen:lokaalID>8c0c1c1b-1ca9-4bed-932a-cc97843088ca</immetingen:lokaalID>
                                     <immetingen:versie>2024-02-09T13:22:36.0000000</immetingen:versie>
                                 </immetingen:NEN3610ID>
-                            </imsikb0101:identification>
-                            <imsikb0101:layerType>urn:immetingen:BodemlaagType:id:2</imsikb0101:layerType>
-                            <imsikb0101:holeLength uom="urn:immetingen:Eenheid:id:115">31</imsikb0101:holeLength>
-                            <imsikb0101:holeWidth uom="urn:immetingen:Eenheid:id:115">32</imsikb0101:holeWidth>
+                            </imsikb0101:identification>                            
                         </imsikb0101:Layer>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -498,7 +434,6 @@
                                     <immetingen:versie>2024-07-17T15:00:03.0000000</immetingen:versie>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
-                            <immetingen:remarks/>
                             <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:12</immetingen:measurementObjectType>
                             <immetingen:geometry>
                                 <gml:Point gml:id="_1bdaa1b4-2b36-4050-af0b-a7f5b46b596d" srsName="urn:ogc:def:crs:EPSG::4326">
@@ -507,7 +442,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2021-02-26T13:04:07.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:35</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
@@ -520,9 +454,7 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:12</immetingen:condition>
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
-                            <imsikb0101:groundLevelType/>
-                            <imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
-                            <imsikb0101:drillMaster xlink:href="#_a40b48b6-5731-4c84-961b-8d0d43b016d5"/>
+                            <imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>                            
                         </imsikb0101:Trench>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -863,18 +795,7 @@
                             <immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:12</immetingen:indicator>
                             <immetingen:remarks>moderately fine</immetingen:remarks>
                         </immetingen:Characteristic>
-                    </imsikb0101:featureMember>
-                    <imsikb0101:featureMember>
-                        <imsikb0101:BoreProcess gml:id="_61049a42-934a-4691-8872-822145ebfd2d">
-                            <imsikb0101:drillType>urn:immetingen:BemonsteringsApparaat:id:100</imsikb0101:drillType>
-                            <imsikb0101:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>61049a42-934a-4691-8872-822145ebfd2d</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </imsikb0101:identification>
-                        </imsikb0101:BoreProcess>
-                    </imsikb0101:featureMember>
+                    </imsikb0101:featureMember>                    
                     <imsikb0101:featureMember>
                         <imsikb0101:Layer gml:id="_e55c458c-702f-4fd2-ba87-c85da7abbd66">
                             <sam:sampledFeature/>
@@ -891,7 +812,6 @@
                                     <sam:relatedSamplingFeature xlink:href="#_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4"/>
                                 </sam:SamplingFeatureComplex>
                             </sam:relatedSamplingFeature>
-                            <sams:hostedProcedure xlink:href="#_61049a42-934a-4691-8872-822145ebfd2d"/>
                             <sams:shape/>
                             <imsikb0101:upperDepth>
                                 <immetingen:Depth>
@@ -911,10 +831,7 @@
                                     <immetingen:lokaalID>e55c458c-702f-4fd2-ba87-c85da7abbd66</immetingen:lokaalID>
                                     <immetingen:versie>2024-02-09T13:20:42.0000000</immetingen:versie>
                                 </immetingen:NEN3610ID>
-                            </imsikb0101:identification>
-                            <imsikb0101:layerType>urn:immetingen:BodemlaagType:id:2</imsikb0101:layerType>
-                            <imsikb0101:holeLength uom="urn:immetingen:Eenheid:id:115">28</imsikb0101:holeLength>
-                            <imsikb0101:holeWidth uom="urn:immetingen:Eenheid:id:115">35</imsikb0101:holeWidth>
+                            </imsikb0101:identification>                            
                         </imsikb0101:Layer>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -941,7 +858,6 @@
                                     <immetingen:versie>2024-07-17T15:00:08.0000000</immetingen:versie>
                                 </immetingen:NEN3610ID>
                             </immetingen:identification>
-                            <immetingen:remarks/>
                             <immetingen:measurementObjectType>urn:immetingen:MeetObjectSoort:id:12</immetingen:measurementObjectType>
                             <immetingen:geometry>
                                 <gml:Point gml:id="_79ca7b26-49f6-461d-ac35-641b452e4238" srsName="urn:ogc:def:crs:EPSG::4326">
@@ -950,7 +866,6 @@
                             </immetingen:geometry>
                             <immetingen:startTime>2021-02-26T13:04:07.0000000</immetingen:startTime>
                             <imsikb0101:usedInProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
-                            <imsikb0101:situationDescription>urn:imsikb0101:SituatieBeschrijving:id:35</imsikb0101:situationDescription>
                             <imsikb0101:depth>
                                 <immetingen:Depth>
                                     <immetingen:value uom="urn:immetingen:Eenheid:id:19">50</immetingen:value>
@@ -963,146 +878,12 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:12</immetingen:condition>
                                 </immetingen:Height>
                             </imsikb0101:groundLevel>
-                            <imsikb0101:groundLevelType/>
                             <imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>
-                            <imsikb0101:drillMaster xlink:href="#_a40b48b6-5731-4c84-961b-8d0d43b016d5"/>
                         </imsikb0101:Trench>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
-                        <imsikb0101:Site gml:id="_dd886ba1-7221-4160-85d7-595e733f60fd">
-                            <imsikb0101:name>Duingebied</imsikb0101:name>
-                            <imsikb0101:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>dd886ba1-7221-4160-85d7-595e733f60fd</immetingen:lokaalID>
-                                    <immetingen:versie>2021-05-19T10:37:48.0000000</immetingen:versie>
-                                </immetingen:NEN3610ID>
-                            </imsikb0101:identification>
-                            <imsikb0101:surfaceAreaSize uom="urn:immetingen:Eenheid:id:51">1200</imsikb0101:surfaceAreaSize>
-                            <imsikb0101:samplingPlot xlink:href="#_e9d65836-99c6-4d77-a7e5-c25895cd480e"/>
-                            <imsikb0101:samplingPlot xlink:href="#_3cd39be5-4436-4a8d-ba2e-6c98ae298bf4"/>
-                            <imsikb0101:concernedProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
-                            <imsikb0101:locationInspection>
-                                <imsikb0101:LocationInspection>
-                                    <imsikb0101:inspectedSurface uom="urn:immetingen:Eenheid:id:51">1000</imsikb0101:inspectedSurface>
-                                    <imsikb0101:inspectionTime>2021-02-26T09:01:41.0000000</imsikb0101:inspectionTime>
-                                    <imsikb0101:inspectionSightType>urn:imsikb0101:ZichtType:id:2</imsikb0101:inspectionSightType>
-                                    <imsikb0101:precipitationType>urn:imsikb0101:NeerslagType:id:1</imsikb0101:precipitationType>
-                                    <imsikb0101:coverageAmount uom="urn:immetingen:Eenheid:id:1">30</imsikb0101:coverageAmount>
-                                    <imsikb0101:coverageRemovedType>urn:immetingen:J_of_N:id:2</imsikb0101:coverageRemovedType>
-                                    <imsikb0101:coverageType>urn:imsikb0101:MaaiveldType:id:31</imsikb0101:coverageType>
-                                    <imsikb0101:inspectionEfficiency uom="urn:immetingen:Eenheid:id:1">80</imsikb0101:inspectionEfficiency>
-                                </imsikb0101:LocationInspection>
-                            </imsikb0101:locationInspection>
-                        </imsikb0101:Site>
-                    </imsikb0101:featureMember>
-                    <imsikb0101:featureMember>
-                        <imsikb0101:Site gml:id="_00704c7f-4815-41fe-ba16-8e07a238ed92">
-                            <imsikb0101:name>Verharding</imsikb0101:name>
-                            <imsikb0101:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>00704c7f-4815-41fe-ba16-8e07a238ed92</immetingen:lokaalID>
-                                    <immetingen:versie>2021-05-19T10:37:48.0000000</immetingen:versie>
-                                </immetingen:NEN3610ID>
-                            </imsikb0101:identification>
-                            <imsikb0101:surfaceAreaSize uom="urn:immetingen:Eenheid:id:51">300</imsikb0101:surfaceAreaSize>
-                            <imsikb0101:concernedProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
-                            <imsikb0101:locationInspection>
-                                <imsikb0101:LocationInspection>
-                                    <imsikb0101:inspectedSurface uom="urn:immetingen:Eenheid:id:51">300</imsikb0101:inspectedSurface>
-                                    <imsikb0101:inspectionTime>2021-02-26T08:01:41.0000000</imsikb0101:inspectionTime>
-                                    <imsikb0101:inspectionSightType>urn:imsikb0101:ZichtType:id:2</imsikb0101:inspectionSightType>
-                                    <imsikb0101:precipitationType>urn:imsikb0101:NeerslagType:id:1</imsikb0101:precipitationType>
-                                    <imsikb0101:coverageAmount uom="urn:immetingen:Eenheid:id:1">100</imsikb0101:coverageAmount>
-                                    <imsikb0101:coverageRemovedType>urn:immetingen:J_of_N:id:2</imsikb0101:coverageRemovedType>
-                                    <imsikb0101:coverageType>urn:imsikb0101:MaaiveldType:id:31</imsikb0101:coverageType>
-                                    <imsikb0101:inspectionEfficiency uom="urn:immetingen:Eenheid:id:1">10</imsikb0101:inspectionEfficiency>
-                                </imsikb0101:LocationInspection>
-                            </imsikb0101:locationInspection>
-                        </imsikb0101:Site>
-                    </imsikb0101:featureMember>
-                    <!-- Totaal gewogen asbestverdacht materiaal < 20 mm -->
-                    <imsikb0101:featureMember>
-                        <immetingen:Characteristic gml:id="_a50d533c-4087-4229-aa81-f916669423e1">
-                            <om:phenomenonTime/>
-                            <om:resultTime>
-                                <gml:TimeInstant>
-                                    <gml:timePosition>2024-06-14</gml:timePosition>
-                                </gml:TimeInstant>
-                            </om:resultTime>
-                            <om:procedure/>
-                            <om:observedProperty/>
-                            <om:featureOfInterest xlink:href="#_c228a431-8ae9-41f6-8e12-eddd75a8fefa"/>
-                            <om:result xsi:type="immetingen:MeasureResultType">
-                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">15</immetingen:numericValue>
-                                <!-- kg -->
-                            </om:result>
-                            <immetingen:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>a50d533c-4087-4229-aa81-f916669423e1</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:21</immetingen:indicator>
-                        </immetingen:Characteristic>
-                    </imsikb0101:featureMember>
-                    <!-- Totaal gewogen asbestverdacht materiaal > 20 mm -->
-                    <imsikb0101:featureMember>
-                        <immetingen:Characteristic gml:id="_a50d533c-4087-4229-aa81-f916669423e2">
-                            <om:phenomenonTime/>
-                            <om:resultTime>
-                                <gml:TimeInstant>
-                                    <gml:timePosition>2024-06-14</gml:timePosition>
-                                </gml:TimeInstant>
-                            </om:resultTime>
-                            <om:procedure/>
-                            <om:observedProperty/>
-                            <om:featureOfInterest xlink:href="#_c228a431-8ae9-41f6-8e12-eddd75a8fefa"/>
-                            <om:result xsi:type="immetingen:MeasureResultType">
-                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">1</immetingen:numericValue>
-                                <!-- kg -->
-                            </om:result>
-                            <immetingen:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>a50d533c-4087-4229-aa81-f916669423e2</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:23</immetingen:indicator>
-                        </immetingen:Characteristic>
-                    </imsikb0101:featureMember>
-                    <!-- Totaal gewogen schoon residu > 20 mm -->
-                    <imsikb0101:featureMember>
-                        <immetingen:Characteristic gml:id="_a50d533c-4087-4229-aa81-f916669423e3">
-                            <om:phenomenonTime/>
-                            <om:resultTime>
-                                <gml:TimeInstant>
-                                    <gml:timePosition>2024-06-14</gml:timePosition>
-                                </gml:TimeInstant>
-                            </om:resultTime>
-                            <om:procedure/>
-                            <om:observedProperty/>
-                            <om:featureOfInterest xlink:href="#_c228a431-8ae9-41f6-8e12-eddd75a8fefa"/>
-                            <om:result xsi:type="immetingen:MeasureResultType">
-                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">20</immetingen:numericValue>
-                                <!-- kg -->
-                            </om:result>
-                            <immetingen:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>a50d533c-4087-4229-aa81-f916669423e3</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:22</immetingen:indicator>
-                        </immetingen:Characteristic>
-                    </imsikb0101:featureMember>
-                    <imsikb0101:featureMember>
                         <imsikb0101:Sample gml:id="_c228a431-8ae9-41f6-8e12-eddd75a8fefa">
-                            <sam:sampledFeature/>
-                            <sam:relatedObservation xlink:href="#_a50d533c-4087-4229-aa81-f916669423e1"/>
-                            <sam:relatedObservation xlink:href="#_a50d533c-4087-4229-aa81-f916669423e2"/>
-                            <sam:relatedObservation xlink:href="#_a50d533c-4087-4229-aa81-f916669423e3"/>
+                            <sam:sampledFeature/>                            
                             <sam:relatedSamplingFeature>
                                 <sam:SamplingFeatureComplex>
                                     <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
@@ -1121,8 +902,6 @@
                                     <gml:timePosition>2021-02-26T15:31:06.0000000</gml:timePosition>
                                 </gml:TimeInstant>
                             </spec:samplingTime>
-                            <spec:size uom="urn:immetingen:Eenheid:id:37">1.5</spec:size>
-                            <!-- kg -->
                             <spec:specimenType xlink:href="urn:immetingen:monstertype:id:7"/>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -1144,19 +923,14 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
                                 </immetingen:Depth>
                             </immetingen:upperDepth>
-                            <immetingen:consistsOfPackages>
-                                <immetingen:Package>
-                                    <immetingen:barcode>YA864074</immetingen:barcode>
-                                    <immetingen:packageType>urn:immetingen:MonsterVerpakking:id:2</immetingen:packageType>
-                                </immetingen:Package>
-                            </immetingen:consistsOfPackages>
                             <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <!-- for BRO not needed, for SIKB0101 asbestos it is needed
                             <imsikb0101:asbestos>
                                 <imsikb0101:AsbestosComposition>
                                     <imsikb0101:asbestosFractionCode>urn:immetingen:hoedanigheid:id:987</imsikb0101:asbestosFractionCode>
-                                    <!-- Fractie kleiner dan 20mm  -->
+                                     Fractie kleiner dan 20mm 
                                 </imsikb0101:AsbestosComposition>
-                            </imsikb0101:asbestos>
+                            </imsikb0101:asbestos> -->
                         </imsikb0101:Sample>
                     </imsikb0101:featureMember>
                     <imsikb0101:featureMember>
@@ -1180,8 +954,6 @@
                                     <gml:timePosition>2021-02-26T15:46:30.0000000</gml:timePosition>
                                 </gml:TimeInstant>
                             </spec:samplingTime>
-                            <spec:size uom="urn:immetingen:Eenheid:id:37">0.5</spec:size>
-                            <!-- kg -->
                             <spec:specimenType xlink:href="urn:immetingen:monstertype:id:8"/>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -1203,104 +975,21 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
                                 </immetingen:Depth>
                             </immetingen:upperDepth>
-                            <immetingen:consistsOfPackages>
-                                <immetingen:Package>
-                                    <immetingen:barcode>YA829733</immetingen:barcode>
-                                    <immetingen:packageType>urn:immetingen:MonsterVerpakking:id:2</immetingen:packageType>
-                                </immetingen:Package>
-                            </immetingen:consistsOfPackages>
                             <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <!-- for BRO not needed, for SIKB0101 asbestos it is needed
                             <imsikb0101:asbestos>
                                 <imsikb0101:AsbestosComposition>
                                     <imsikb0101:asbestosFractionCode>urn:immetingen:hoedanigheid:id:624</imsikb0101:asbestosFractionCode>
-                                    <!-- Fractie groter dan 20mm  -->
+                                     Fractie groter dan 20mm  
                                     <imsikb0101:massFraction uom="urn:immetingen:Eenheid:id:27">142</imsikb0101:massFraction>
                                     <imsikb0101:particlesCount>1</imsikb0101:particlesCount>
                                 </imsikb0101:AsbestosComposition>
-                            </imsikb0101:asbestos>
+                            </imsikb0101:asbestos>-->
                         </imsikb0101:Sample>
-                    </imsikb0101:featureMember>
-                    <!-- Totaal gewogen asbestverdacht materiaal < 20 mm -->
-                    <imsikb0101:featureMember>
-                        <immetingen:Characteristic gml:id="_b50d533c-4087-4229-aa81-f916669423e1">
-                            <om:phenomenonTime/>
-                            <om:resultTime>
-                                <gml:TimeInstant>
-                                    <gml:timePosition>2024-06-14</gml:timePosition>
-                                </gml:TimeInstant>
-                            </om:resultTime>
-                            <om:procedure/>
-                            <om:observedProperty/>
-                            <om:featureOfInterest xlink:href="#_f26a338a-f816-41cc-a221-50c3aec8d0ae"/>
-                            <om:result xsi:type="immetingen:MeasureResultType">
-                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">13</immetingen:numericValue>
-                                <!-- kg -->
-                            </om:result>
-                            <immetingen:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>b50d533c-4087-4229-aa81-f916669423e1</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:21</immetingen:indicator>
-                        </immetingen:Characteristic>
-                    </imsikb0101:featureMember>
-                    <!-- Totaal gewogen asbestverdacht materiaal > 20 mm -->
-                    <imsikb0101:featureMember>
-                        <immetingen:Characteristic gml:id="_b50d533c-4087-4229-aa81-f916669423e2">
-                            <om:phenomenonTime/>
-                            <om:resultTime>
-                                <gml:TimeInstant>
-                                    <gml:timePosition>2024-06-14</gml:timePosition>
-                                </gml:TimeInstant>
-                            </om:resultTime>
-                            <om:procedure/>
-                            <om:observedProperty/>
-                            <om:featureOfInterest xlink:href="#_f26a338a-f816-41cc-a221-50c3aec8d0ae"/>
-                            <om:result xsi:type="immetingen:MeasureResultType">
-                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">1.2</immetingen:numericValue>
-                                <!-- kg -->
-                            </om:result>
-                            <immetingen:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>b50d533c-4087-4229-aa81-f916669423e2</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:23</immetingen:indicator>
-                        </immetingen:Characteristic>
-                    </imsikb0101:featureMember>
-                    <!-- Totaal gewogen schoon residu > 20 mm -->
-                    <imsikb0101:featureMember>
-                        <immetingen:Characteristic gml:id="_b50d533c-4087-4229-aa81-f916669423e3">
-                            <om:phenomenonTime/>
-                            <om:resultTime>
-                                <gml:TimeInstant>
-                                    <gml:timePosition>2024-06-14</gml:timePosition>
-                                </gml:TimeInstant>
-                            </om:resultTime>
-                            <om:procedure/>
-                            <om:observedProperty/>
-                            <om:featureOfInterest xlink:href="#_f26a338a-f816-41cc-a221-50c3aec8d0ae"/>
-                            <om:result xsi:type="immetingen:MeasureResultType">
-                                <immetingen:numericValue uom="urn:immetingen:eenheid:id:37">22.3</immetingen:numericValue>
-                                <!-- kg -->
-                            </om:result>
-                            <immetingen:identification>
-                                <immetingen:NEN3610ID>
-                                    <immetingen:namespace>SIKB</immetingen:namespace>
-                                    <immetingen:lokaalID>b50d533c-4087-4229-aa81-f916669423e3</immetingen:lokaalID>
-                                </immetingen:NEN3610ID>
-                            </immetingen:identification>
-                            <immetingen:indicator>urn:immetingen:KenmerkMonstername:id:22</immetingen:indicator>
-                        </immetingen:Characteristic>
-                    </imsikb0101:featureMember>
+                    </imsikb0101:featureMember>                                               
                     <imsikb0101:featureMember>
                         <imsikb0101:Sample gml:id="_f26a338a-f816-41cc-a221-50c3aec8d0ae">
                             <sam:sampledFeature/>
-                            <sam:relatedObservation xlink:href="#_b50d533c-4087-4229-aa81-f916669423e1"/>
-                            <sam:relatedObservation xlink:href="#_b50d533c-4087-4229-aa81-f916669423e2"/>
-                            <sam:relatedObservation xlink:href="#_b50d533c-4087-4229-aa81-f916669423e3"/>
                             <sam:relatedSamplingFeature>
                                 <sam:SamplingFeatureComplex>
                                     <sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:6"/>
@@ -1319,8 +1008,6 @@
                                     <gml:timePosition>2021-02-26T15:36:18.0000000</gml:timePosition>
                                 </gml:TimeInstant>
                             </spec:samplingTime>
-                            <spec:size uom="urn:immetingen:Eenheid:id:37">1.7</spec:size>
-                            <!-- kg -->
                             <spec:specimenType xlink:href="urn:immetingen:monstertype:id:7"/>
                             <immetingen:identification>
                                 <immetingen:NEN3610ID>
@@ -1342,19 +1029,14 @@
                                     <immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>
                                 </immetingen:Depth>
                             </immetingen:upperDepth>
-                            <immetingen:consistsOfPackages>
-                                <immetingen:Package>
-                                    <immetingen:barcode>YA864074</immetingen:barcode>
-                                    <immetingen:packageType>urn:immetingen:MonsterVerpakking:id:2</immetingen:packageType>
-                                </immetingen:Package>
-                            </immetingen:consistsOfPackages>
                             <imsikb0101:inProject xlink:href="#_ed4b2294-db2e-446f-9e38-7b895c95a244"/>
+                            <!-- for BRO not needed, for SIKB0101 asbestos it is needed
                             <imsikb0101:asbestos>
                                 <imsikb0101:AsbestosComposition>
                                     <imsikb0101:asbestosFractionCode>urn:immetingen:hoedanigheid:id:987</imsikb0101:asbestosFractionCode>
-                                    <!-- Fractie kleiner dan 20mm  -->
+                                     Fractie kleiner dan 20mm  
                                 </imsikb0101:AsbestosComposition>
-                            </imsikb0101:asbestos>
+                            </imsikb0101:asbestos> -->
                         </imsikb0101:Sample>
                     </imsikb0101:featureMember>
                     <!-- som gewogen asbest -->

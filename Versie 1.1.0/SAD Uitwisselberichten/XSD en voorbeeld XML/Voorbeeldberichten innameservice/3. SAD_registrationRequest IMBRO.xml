@@ -199,7 +199,6 @@
 									<immetingen:condition>urn:immetingen:Hoedanigheid:id:12</immetingen:condition>
 								</immetingen:Height>
 							</imsikb0101:groundLevel>
-							<imsikb0101:groundLevelType>urn:imsikb0101:MaaiveldType:id:12</imsikb0101:groundLevelType>
 							<imsikb0101:descriptionProcedure>urn:imsikb0101:BeschrijfProcedure:id:1</imsikb0101:descriptionProcedure>							
 						</imsikb0101:Borehole>
 					</imsikb0101:featureMember>
