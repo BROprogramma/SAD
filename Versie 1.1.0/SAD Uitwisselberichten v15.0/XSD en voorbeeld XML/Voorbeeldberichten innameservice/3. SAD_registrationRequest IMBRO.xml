@@ -15,13 +15,13 @@
 			<objectIdAccountableParty>MijnReferentieSADUpload</objectIdAccountableParty>
 			<featureCollection>
 				<!-- Hier tussen kan de volledige SIKB XML geplakt worden-->
-				<imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_eaa6c99f-4eee-44c6-b78e-6b1826057114" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v14.9.0.xsd">
+				<imsikb0101:FeatureCollectionIMSIKB0101 gml:id="_eaa6c99f-4eee-44c6-b78e-6b1826057114" xmlns:imsikb0101="http://www.sikb.nl/imsikb0101" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:spec="http://www.opengis.net/samplingSpecimen/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:immetingen="http://www.sikb.nl/immetingen" xsi:schemaLocation="http://www.sikb.nl/imsikb0101 ../imsikb0101_v15.0.xsd">
 					<imsikb0101:metaData>
 						<imsikb0101:application>urn:imsikb0101:Applicaties:id:23</imsikb0101:application>
  						<imsikb0101:date>2024-06-28</imsikb0101:date>
 						<imsikb0101:organisation>Bedrijfsnaam BV</imsikb0101:organisation>
 						<imsikb0101:supplier>urn:imsikb0101:Leveranciers:id:6</imsikb0101:supplier>
-						<imsikb0101:version>14.9.0</imsikb0101:version>
+						<imsikb0101:version>15.0</imsikb0101:version>
 						<imsikb0101:dataflow>urn:imsikb0101:DatastroomType:id:4</imsikb0101:dataflow>
 					</imsikb0101:metaData>
 					<imsikb0101:featureMember>
@@ -346,7 +346,7 @@
 									<immetingen:lokaalID>23fab383-bccf-429c-b727-6904ae73888b</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7313</immetingen:indicator>
 							<immetingen:remarks>matig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -372,7 +372,7 @@
 									<immetingen:lokaalID>ef8efcab-13fe-4d79-8bd7-d2aa2ead1414</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7311</immetingen:indicator>
 							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -398,7 +398,7 @@
 									<immetingen:lokaalID>c7f0e6be-e637-427c-9a7d-1abf7ebc1617</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:5</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7315</immetingen:indicator>
 							<immetingen:remarks>geel</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -424,7 +424,7 @@
 									<immetingen:lokaalID>d7f0e6be-e637-427c-9a7d-1abf7ebc1617</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:6</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:935</immetingen:indicator>
 							<immetingen:remarks>licht</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -456,7 +456,7 @@
 									<immetingen:lokaalID>e396535f-ad88-48ea-b8d2-36811e10fc2f</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:4</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7314</immetingen:indicator>
 							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -476,7 +476,7 @@
 									<immetingen:lokaalID>578606fd-780c-439c-91f5-11faded07ff2</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:11</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:3699</immetingen:indicator>
 							<immetingen:remarks>Klei humeus siltig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -496,7 +496,7 @@
 									<immetingen:lokaalID>f83ada35-2ac2-4f59-a541-4ee17cb0beb1</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:13</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7318</immetingen:indicator>
 							<immetingen:remarks>geen olie-water reactie</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -582,7 +582,7 @@
 									<immetingen:lokaalID>841ea8c0-ebda-4733-8bf2-7c564966d98c</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7313</immetingen:indicator>
 							<immetingen:remarks>zwak</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -608,7 +608,7 @@
 									<immetingen:lokaalID>51b993e2-5292-4d00-96b6-f21f4cff2772</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7311</immetingen:indicator>
 							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -634,7 +634,7 @@
 									<immetingen:lokaalID>ecc84bc5-023f-4a82-a7a9-435d02fdbcc1</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:3</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7313</immetingen:indicator>
 							<immetingen:remarks>matig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -660,7 +660,7 @@
 									<immetingen:lokaalID>62a7d5d5-d29c-4fa4-8767-feca27fea47a</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:1</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7311</immetingen:indicator>
 							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -686,7 +686,7 @@
 									<immetingen:lokaalID>7cb816eb-1642-4246-9f25-fdd8fbbcb8b4</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:5</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7315</immetingen:indicator>
 							<immetingen:remarks>bruin</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -712,7 +712,7 @@
 									<immetingen:lokaalID>644d7937-b601-4ca2-8a8b-df1d3928e46f</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:4</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7314</immetingen:indicator>
 							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -732,7 +732,7 @@
 									<immetingen:lokaalID>7243429b-4e5c-4801-97ad-77b36d8edaac</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:11</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:3699</immetingen:indicator>
 							<immetingen:remarks>Zand kleiïg matig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -752,7 +752,7 @@
 									<immetingen:lokaalID>65780622-9e7d-4fe5-80b1-5c23038f93b0</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:12</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:3698</immetingen:indicator>
 							<immetingen:remarks>zeer fijn</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -772,7 +772,7 @@
 									<immetingen:lokaalID>cc7ee859-4981-4e4b-86ee-80ea1c6ae38a</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:13</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7318</immetingen:indicator>
 							<immetingen:remarks>matige olie-water reactie</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -835,7 +835,7 @@
 									<immetingen:lokaalID>7ce79437-4798-4583-af0f-fbc2502075ef</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:5</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7315</immetingen:indicator>
 							<immetingen:remarks>beige</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -861,7 +861,7 @@
 									<immetingen:lokaalID>440939b4-faaa-4a6a-b1ff-1586112f6885</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:4</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7314</immetingen:indicator>
 							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -881,7 +881,7 @@
 									<immetingen:lokaalID>2f900201-64a3-40bd-b0fb-f30e76af3f03</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:11</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:3699</immetingen:indicator>
 							<immetingen:remarks>Grind zwak zandig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -901,7 +901,7 @@
 									<immetingen:lokaalID>75780622-9e7d-4fe5-80b1-5c23038f93b0</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:12</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:3698</immetingen:indicator>
 							<immetingen:remarks>grof</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -921,7 +921,7 @@
 									<immetingen:lokaalID>95780622-9e7d-4fe5-80b1-5c23038f93b0</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:9</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:3688</immetingen:indicator>
 							<immetingen:remarks>grindgehalte: zwakGrindig</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -941,7 +941,7 @@
 									<immetingen:lokaalID>85780622-9e7d-4fe5-80b1-5c23038f93b0</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:10</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:3690</immetingen:indicator>
 							<immetingen:remarks>organishestofgehalte: matigHumeus</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -961,7 +961,7 @@
 									<immetingen:lokaalID>e428b99f-e7d7-4275-9142-2c861211bfb0</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkBodemlaag:id:13</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7318</immetingen:indicator>
 							<immetingen:remarks>geen olie-water reactie</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -1234,7 +1234,7 @@
 									<immetingen:lokaalID>b7f0e6be-e637-427c-9a7d-1abf7ebc1617</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:11</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7315</immetingen:indicator>
 							<immetingen:remarks>geel</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -1260,7 +1260,7 @@
 									<immetingen:lokaalID>a7f0e6be-e637-427c-9a7d-1abf7ebc1617</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:12</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:935</immetingen:indicator>
 							<immetingen:remarks>donker</immetingen:remarks>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -1292,7 +1292,7 @@
 									<immetingen:lokaalID>e496535f-ad88-48ea-b8d2-36811e10fc2f</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:10</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7314</immetingen:indicator>
 							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
@@ -1312,7 +1312,7 @@
 									<immetingen:lokaalID>625ce451-4cb3-4476-9dff-62150724a313</immetingen:lokaalID>
 								</immetingen:NEN3610ID>
 							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:KenmerkMonstername:id:6</immetingen:indicator>
+							<immetingen:indicator>urn:immetingen:Parameter:id:7324</immetingen:indicator>
 							<immetingen:remarks/>
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2025 (x64) (https://www.altova.com) by  Robin Huisman (TerraIndex) -->
 <registrationRequest xmlns="http://www.broservices.nl/xsd/issad/1.1" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.1 ../issad-messages.xsd">
 	<!--Disclaimer: dit voorbeeldbericht is gemaakt voor increment 1.1.0 van de SAD en valideert tegen de XSD van de innameservice.
         Het is niet gevalideerd door de innameservice en de inhoud is fictief en vaktechnisch/inhoudelijk niet voorbeeldig.
