@@ -167,7 +167,7 @@
 		<xsl:apply-templates select="$firstEindrapport"/>                 
 		<xsl:if test="fn:string-length($eindrapportTitle) &lt; 1 and fn:string-length(./imsikb0101:reportNumber) &lt; 1">
             <xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'moet Project.reportNumber of Document[type=eindrapport].Title ingevuld zijn. Ze kunnen niet beide leeg zijn.'), ' '), '  ', ' ')"/>
-            <xsl:copy-of select="sikb:createRecord('ERROR', 'Project', $message)"/>
+            <xsl:copy-of select="sikb:createRecord('WARNING', 'Project', $message)"/>
         </xsl:if>                     	
                 
         <!-- IMBRO/A| Loop the gemengde analysemonsters die zonder veldmonster geleverd kunnen worden --> 
