@@ -108479,7 +108479,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderheden>
-		<BodemlaagBijzonderheden versie="14.7.0" datum="2026-02-25" status="Vervallen">
+		<BodemlaagBijzonderheden versie="14.7.0" datum="2026-02-25" status="Gewijzigd">
 			<ID>104</ID>
 			<Code/>
 			<Waarde>kolengruis</Waarde>
