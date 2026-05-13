@@ -12,8 +12,8 @@ let respecConfig = {
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                 // Norm
-  //specType: "ST",                 // Standaard
-  specType: "IM",                 // Informatie Model
+  specType: "ST",                 // Standaard
+  //specType: "IM",                 // Informatie Model
   //specType: "PR",                 // Praktijkrichtlijn
   //specType: "HR",                 // HandReiking
   //specType: "WA",                 // Werkafspraak
@@ -66,18 +66,40 @@ let respecConfig = {
         companyURL: "https://www.geonovum.nl",
       }
      ],
+    otherLinks: [
+      {
+        key: "Contact:",
+        data: [
+          {
+            value: "BRO Servicedesk",
+            href: "https://basisregistratieondergrond.nl/service-contact/",
+          },
+          {
+            value: "support@broservicedesk.nl",
+            href: "mailto:support@broservicedesk.nl",
+          },
+          {
+            value: "088 - 8664 999",
+            href: "tel:+31888664999",
+          },
+        ],
+      },
+    ],
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/BROprogramma/SAD",
-  // Voeg het BRO-logo toe aan het Doe mee-blok in de kop.
- postProcess: [
-    ...((typeof organisationConfig !== "undefined" && Array.isArray(organisationConfig.postProcess))
+  edDraftURI: "https://broprogramma.github.io/SAD/",
+  //github: "https://github.com/BROprogramma/SAD",
+  postProcess: [
+    ...(typeof organisationConfig !== "undefined" &&
+    Array.isArray(organisationConfig.postProcess)
       ? organisationConfig.postProcess
       : []),
     () => {
       const headDl = document.querySelector(".head dl");
       if (!headDl) return;
-      const participateDt = [...headDl.querySelectorAll("dt")].find(dt => {
-        return dt.textContent && dt.textContent.trim().startsWith("Doe mee");
+      const participateDt = [...headDl.querySelectorAll("dt")].find((dt) => {
+
+//        return dt.textContent && dt.textContent.trim().startsWith("Doe mee");
+      return dt.textContent && dt.textContent.trim().startsWith("Contact");
       });
       if (!participateDt || participateDt.querySelector("#logo_bro")) return;
 
@@ -90,34 +112,7 @@ let respecConfig = {
       logo.setAttribute("align", "right");
       participateDt.prepend(logo);
     },
-    () => {
-      try {
-        // bepaal taal (document.lang of default nl)
-        var lang =
-          document.documentElement && document.documentElement.lang
-            ? document.documentElement.lang.split("-")[0]
-            : "nl";
-        lang = lang === "en" ? "en" : "nl";
-
-        // ReSpec plaatst de SOTD-tekst meestal in #sotd > p
-        var p =
-          document.querySelector("#sotd > p") ||
-          document.querySelector("#sotd");
-        if (!p) return;
-
-        var vv =
-          organisationConfig.sotdText &&
-          organisationConfig.sotdText[lang] &&
-          organisationConfig.sotdText[lang].vv;
-        if (!vv) return;
-
-        p.innerHTML = vv;
-      } catch (err) {
-        console.error("setSotdHtml error", err);
-      }
-    },
   ],
   // Create PDF and link to file in header (optional):
   //alternateFormats: [{label: "pdf", uri: "template.pdf",},],
 };
-
