@@ -30,7 +30,7 @@
 							<!-- optioneel, dit veld is alleen aanwezig omdat binnen SIKB0101 Onderzoek dit veld verplicht is, BRO doet er niets mee -->
 							<imsikb0101:assesorConclusion>xxxxxxxxxxx</imsikb0101:assesorConclusion>
 							<imsikb0101:investigationConclusion>Dit is de conclusie van het onderzoek.</imsikb0101:investigationConclusion>
-							<imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:2</imsikb0101:investigationReason>
+							<imsikb0101:investigationReason>urn:imsikb0101:OnderzoekAanleidingen:id:4</imsikb0101:investigationReason>
 							<imsikb0101:geometry>
 								<gml:MultiSurface gml:id="_e604d147-bb50-469c-bd5c-60cef435f9cb" srsName="urn:ogc:def:crs:EPSG::4326">
 									<gml:surfaceMember>
