@@ -613,6 +613,21 @@
 				<xsl:when test="$indicatorId = '7311' and contains(fn:lower-case($indicatorUrn),fn:lower-case('Parameter'))">        
 					<!-- Valideren bzb -->
 					<xsl:copy-of select="sikb:checkLookupId($result, $guids, 'classifiedResult', 'BodemlaagBijzonderheden', 'ERROR')"/>
+					
+					<!-- check of er ook een gradatie meegestuurd is. Deze mag niet ontbreken. -->
+					<xsl:variable name="relatedObservationIds" select="./om:relatedObservation/om:ObservationContext[fn:lower-case(om:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedObservationRollen:id:2')]/om:relatedObservation/@xlink:href"/>
+					<xsl:variable name="relatedIdsString" select="string-join($relatedObservationIds, ',')"/>
+					<xsl:variable name="relatedCharacteristics" select="//immetingen:Characteristic[contains($relatedIdsString,@gml:id)]"/>    
+					<xsl:variable name="countBodemlaagBijzonderhedenGradaties" select="count($relatedCharacteristics[fn:lower-case(immetingen:indicator) = fn:lower-case('urn:immetingen:Parameter:id:7313') and contains(fn:lower-case(om:result/immetingen:classifiedResult),fn:lower-case('BodemlaagBijzonderhedenGradatie'))])"/>    
+					<xsl:if test="$countBodemlaagBijzonderhedenGradaties &lt; 1">
+						<xsl:variable name="message" select="replace(string-join(('Bij BodemlaagBijzonderheid', $guids, 'is geen Gradatie gevonden, dit is verplicht om mee te leveren.'), ' '), '  ', ' ')"/>
+						<xsl:copy-of select="sikb:createRecord('ERROR', string(./name()), $message)"/>
+					</xsl:if>
+					<xsl:if test="$countBodemlaagBijzonderhedenGradaties &gt; 1">
+						<xsl:variable name="message" select="replace(string-join(('Bij BodemlaagBijzonderheid', $guids, 'zijn meer dan 1 Gradaties gevonden, dit moet er precies 1 zijn.'), ' '), '  ', ' ')"/>
+						<xsl:copy-of select="sikb:createRecord('ERROR', string(./name()), $message)"/>
+					</xsl:if>
+					
 				</xsl:when>					
 				<xsl:when test="$indicatorId = '3688' and contains(fn:lower-case($indicatorUrn),fn:lower-case('Parameter'))">        
 					<!-- Valideren grindgehalte -->

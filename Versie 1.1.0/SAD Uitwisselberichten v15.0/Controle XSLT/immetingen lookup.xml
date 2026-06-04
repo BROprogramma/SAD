@@ -77264,8 +77264,8 @@
 			<Code>P</Code>
 			<Omschrijving>uitgedrukt in fosfor</Omschrijving>
 			<Groep>HoedanigheidEquivalent</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
