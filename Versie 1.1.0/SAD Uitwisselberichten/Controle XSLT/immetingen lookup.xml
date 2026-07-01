@@ -6957,7 +6957,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-05-07" status="Vervallen">
 			<ID>469</ID>
 			<Code>quinmtont</Code>
 			<Omschrijving>quinomethionaat</Omschrijving>
@@ -29167,7 +29167,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-05-06" status="Vervallen">
 			<ID>2958</ID>
 			<Code>2C1oxNaf</Code>
 			<Omschrijving>2-methoxynaftaleen</Omschrijving>
@@ -42077,11 +42077,11 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-04-30" status="Vervallen">
 			<ID>4249</ID>
 			<Code>SPECFKGPDTE</Code>
 			<Omschrijving>Specifieke gasproductie</Omschrijving>
-			<Groep>Ongedefinieerd</Groep>
+			<Groep>Grootheid</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -45847,7 +45847,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-04-22" status="Gewijzigd">
 			<ID>4626</ID>
 			<Code>sTOXSBAGN5</Code>
 			<Omschrijving>som 5 toxische blauwalgen</Omschrijving>
@@ -49737,7 +49737,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-05-10" status="Vervallen">
 			<ID>5015</ID>
 			<Code>SPECFKAVR</Code>
 			<Omschrijving>Specifieke afvoer</Omschrijving>
@@ -50227,7 +50227,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-05-11" status="Vervallen">
 			<ID>5064</ID>
 			<Code>verslde</Code>
 			<Omschrijving>versalide</Omschrijving>
@@ -51087,7 +51087,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-04-22" status="Gewijzigd">
 			<ID>5170</ID>
 			<Code>sCHLFa4</Code>
 			<Omschrijving>som 4 chlorofyl-a fracties</Omschrijving>
@@ -59807,7 +59807,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-04-22" status="Gewijzigd">
 			<ID>6022</ID>
 			<Code>sPTOXSBAGN</Code>
 			<Omschrijving>som potentieel toxische blauwalgen</Omschrijving>
@@ -60107,7 +60107,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-04-22" status="Gewijzigd">
 			<ID>6071</ID>
 			<Code>sCHLFa2</Code>
 			<Omschrijving>som 2 chlorofyl-a fracties</Omschrijving>
@@ -73447,15 +73447,125 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-07" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
 			<ID>7396</ID>
 			<Code>Fprxfbzl</Code>
 			<Omschrijving>florpyrauxifen-benzyl</Omschrijving>
 			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+			<ID>7398</ID>
+			<Code>DFHAc</Code>
+			<Omschrijving>difluorazijnzuur</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+			<ID>7397</ID>
+			<Code>HFBA</Code>
+			<Omschrijving>heptafluorboterzuuranhydride</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+			<ID>7399</ID>
+			<Code>24DcbmyTClBS</Code>
+			<Omschrijving>2,4-Dicarbamoyl-3,5,6-trichloorbenzeensulfonzuur</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+			<ID>7400</ID>
+			<Code>C1ygcnDHAc</Code>
+			<Omschrijving>methylglycinediazijnzuur</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+			<ID>7401</ID>
+			<Code>EtFOSAAver</Code>
+			<Omschrijving>N-ethyl-perfluoroctaan sulfonamidoazijnzuur vertakt</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+			<ID>7402</ID>
+			<Code>N-MeFOSAAver</Code>
+			<Omschrijving>N-methyl-perfluoroctaan sulfonamidoazijnzuur vertakt</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+			<ID>7403</ID>
+			<Code>cmetcnzl</Code>
+			<Omschrijving>cis-metconazool</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-05-20" status="Bevestigd">
+			<ID>7404</ID>
+			<Code>CZV/Corg</Code>
+			<Omschrijving>Verhouding CZV/koolstof organisch</Omschrijving>
+			<Groep>Grootheid</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-05-27" status="Bevestigd">
+			<ID>7405</ID>
+			<Code>SIMDENTFCT</Code>
+			<Omschrijving>simultaan gedenitrificeerd</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+			<ID>7407</ID>
+			<Code>slinvEtFOSAA</Code>
+			<Omschrijving>som lineair en vertakte N-ethyl-perfluoroctaan sulfonamidoazijnzuur</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+			<ID>7406</ID>
+			<Code>slinvMeFOSAA</Code>
+			<Omschrijving>som lineair en vertakte N-methyl-perfluoroctaan sulfonamidoazijnzuur</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
 	</sikb.Parameter_c>
 	<sikb.Hoedanigheid_c categorie="Hoedanigheid" techName="Hoedanigheid" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
@@ -77259,7 +77369,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Hoedanigheid versie="14.7.0" datum="2026-06-03" status="Gewijzigd">
 			<ID>387</ID>
 			<Code>P</Code>
 			<Omschrijving>uitgedrukt in fosfor</Omschrijving>
@@ -87085,6 +87195,17 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
+		<Eenheid versie="14.7.0" datum="2026-04-22" status="Bevestigd">
+			<ID>387</ID>
+			<Code>mg/l.h</Code>
+			<Waarde>milligram per liter per uur</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>SI afgeleide eenheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Eenheid>
 	</sikb.Eenheid_c>
 	<sikb.Kwaliteitsoordeel_c categorie="Kwaliteitsoordeel" techName="Kwaliteitsoordeel" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<Kwaliteitsoordeel versie="14.6.0" datum="2013-04-10" status="Bevestigd">
@@ -89462,6 +89583,18 @@
 			<Waarde>VigiDNA filter</Waarde>
 			<Omschrijving>een bemonsteringsapparaat dat ontwikkeld is voor eDNA, bestaande uit een filter met poriegrootte 0,45μm, waarmee water in het veld gefiltreerd wordt</Omschrijving>
 			<Groep>Ecologische bemonstering</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bemonsteringsapparaat>
+		<Bemonsteringsapparaat versie="14.7.0" datum="2026-06-10" status="Bevestigd">
+			<ID>128</ID>
+			<Code>
+			</Code>
+			<Waarde>POCIS passive sampler</Waarde>
+			<Omschrijving>Een bemonsteringsapparaat die zonder actieve pomp of stroomvoorziening continu opgeloste polaire organische stoffen uit water opneemt om een tijdgewogen gemiddelde concentratie van deze stoffen te bepalen</Omschrijving>
+			<Groep>Waterbemonstering</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -108479,7 +108612,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderheden>
-		<BodemlaagBijzonderheden versie="14.7.0" datum="2026-02-25" status="Gewijzigd">
+		<BodemlaagBijzonderheden versie="14.7.0" datum="2026-05-27" status="Gewijzigd">
 			<ID>104</ID>
 			<Code/>
 			<Waarde>kolengruis</Waarde>
