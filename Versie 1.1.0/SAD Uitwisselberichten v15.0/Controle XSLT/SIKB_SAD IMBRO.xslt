@@ -114,6 +114,7 @@
             <xsl:copy-of select="sikb:createRecord('ERROR', 'Project', $message)"/>
 		  </xsl:when>
 		  <xsl:otherwise>		
+			<xsl:copy-of select="sikb:checkExistence(., $prGUID, 'investigationReason', 'ERROR')"/>
 			<xsl:copy-of select="sikb:checkFilled(., $prGUID, 'investigationReason', 'ERROR')"/>        
 			<xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'investigationReason', 'OnderzoekAanleidingen', 'ERROR')"/>
 		  </xsl:otherwise>
