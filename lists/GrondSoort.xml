@@ -404,34 +404,34 @@
 		<SIKB0101ID>35</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zand</Omschrijving>
+		<Omschrijving>Een natuurlijk los afzettingsgesteente bestaande uit een mengsel van voornamelijk minerale deeltjes met een korrelgrootte die hoofdzakelijk ligt tussen 0.063 en 2 mm -  de samenstelling en aard van de korrels en korrelgrootte verdeling kan sterk variëren -  van het totaal aan minerale deeltjes kleiner dan 2 mm is maximaal 8% kleiner dan 0.002 mm en maximaal 50% kleiner dan 0.063 mm, terwijl maximaal 30% van het volledige minerale mengsel groter dan 2 mm mag zijn.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>klei</Waarde>
 		<SIKB0101ID>36</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Klei</Omschrijving>
+		<Omschrijving>Natuurlijk door of in water afgezet materiaal dat is ontstaan door verwering van gesteenten, behorende tot de fijnste groep afzettingsgesteenten.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>leem</Waarde>
 		<SIKB0101ID>37</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Leem</Omschrijving>
+		<Omschrijving>Grondsoort die fijner is dan zand, maar ook minder kleimineralen bevat dan klei en voor een groot deel uit fijne kwartskorrels bestaat kleiner dan 0.063 mm.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>veen</Waarde>
 		<SIKB0101ID>38</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Veen</Omschrijving>
+		<Omschrijving>Grondsoort die grotendeels bestaat (ontstaan is) uit afgestorven plantenresten.</Omschrijving>
 	</GrondSoort>
 	<GrondSoort>
 		<Waarde>grind</Waarde>
 		<SIKB0101ID>39</SIKB0101ID>
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Grind</Omschrijving>
+		<Omschrijving>Gesteente, hoofdzakelijk bestaande uit kwarts, overwegend rond, van natuurlijke herkomst, met een korrelgrootte tussen de 2 mm en 63 mm.</Omschrijving>
 	</GrondSoort>
 </domeintabel>
