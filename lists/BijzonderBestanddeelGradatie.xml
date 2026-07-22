@@ -81,14 +81,14 @@
 		<Waarde>zeerWeinig</Waarde>
 		<SIKB0101ID>12</SIKB0101ID>
 		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
+		<IMBROA></IMBROA>
 		<Omschrijving>zeer weinig (NEN 6693) (&gt;0%-2%)</Omschrijving>
 	</BijzonderBestanddeelGradatie>
 	<BijzonderBestanddeelGradatie>
 		<Waarde>weinig</Waarde>
 		<SIKB0101ID>13</SIKB0101ID>
 		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
+		<IMBROA></IMBROA>
 		<Omschrijving>weinig (NEN 6693) (2%-5%)</Omschrijving>
 	</BijzonderBestanddeelGradatie>    
 </domeintabel>
