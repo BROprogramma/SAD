@@ -78,6 +78,13 @@
 		<Omschrijving>Een onderzoek waarvan de kwaliteit van een partij grond is onderzocht ten behoeve van de voorgenomen toepassing van deze grond.</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
+		<Waarde>meldingsformulierBusEvaluatieverslag</Waarde>
+		<SIKB0101ID>24</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een melding van een evaluatieverslag van een uitgevoerde sanering in het kader van het Besluit Uniforme Saneringen.</Omschrijving>
+	</OnderzoekType>
+	<OnderzoekType>
 		<Waarde>verkennendAsbestOnderzoek</Waarde>
 		<SIKB0101ID>40</SIKB0101ID>
 		<IMBRO>v</IMBRO>
@@ -167,13 +174,6 @@
 		<IMBRO/>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een bodemonderzoek dat is verricht bij een ondergrondse tank in het kader van het Besluit Opslag Ondergrondse Tanks (BOOT).</Omschrijving>
-	</OnderzoekType>
-	<OnderzoekType>
-		<Waarde>meldingsformulierBusEvaluatieverslag</Waarde>
-		<SIKB0101ID>24</SIKB0101ID>
-		<IMBRO/>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een melding van een evaluatieverslag van een uitgevoerde sanering in het kader van het Besluit Uniforme Saneringen.</Omschrijving>
 	</OnderzoekType>
 	<OnderzoekType>
 		<Waarde>verkennendOnderzoekStortplaatsen</Waarde>
