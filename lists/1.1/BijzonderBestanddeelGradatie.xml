@@ -5,7 +5,7 @@
         <SIKB0101ID>1</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>zwak (&lt;5%)</Omschrijving>
+        <Omschrijving>zwak (NEN 5104) (&lt;5%)</Omschrijving>
     </BijzonderBestanddeelGradatie>
     <BijzonderBestanddeelGradatie>
         <Waarde>lenzen</Waarde>
@@ -26,29 +26,29 @@
         <SIKB0101ID>4</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>matig (5%-15%)</Omschrijving>
+        <Omschrijving>matig (NEN 5104/NEN 6693) (5%-15%)</Omschrijving>
     </BijzonderBestanddeelGradatie>
-    <BijzonderBestanddeelGradatie>
-        <Waarde>sterk</Waarde>
-        <SIKB0101ID>5</SIKB0101ID>
-        <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>sterk (15%-50%)</Omschrijving>
-    </BijzonderBestanddeelGradatie>
-    <BijzonderBestanddeelGradatie>
-        <Waarde>uiterst</Waarde>
-        <SIKB0101ID>6</SIKB0101ID>
-        <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>uiterst (50%-80%</Omschrijving>
-    </BijzonderBestanddeelGradatie>
-    <BijzonderBestanddeelGradatie>
-        <Waarde>volledig</Waarde>
-        <SIKB0101ID>7</SIKB0101ID>
-        <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>volledig (&gt;80%)</Omschrijving>
-    </BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>veel</Waarde>
+		<SIKB0101ID>5</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>sterk (NEN 5104)/veel (NEN 6693) (15%-50%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>overvloedig</Waarde>
+		<SIKB0101ID>6</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>uiterst (NEN 5104)/overvloedig (NEN 6693) (50%-80%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>dominant</Waarde>
+		<SIKB0101ID>7</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>volledig (NEN 5104)/dominant (NEN 6693) (&gt;80%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>
     <BijzonderBestanddeelGradatie>
         <Waarde>sporen</Waarde>
         <SIKB0101ID>8</SIKB0101ID>
@@ -77,4 +77,18 @@
         <IMBROA>v</IMBROA>
         <Omschrijving>laagjes</Omschrijving>
     </BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>zeerWeinig</Waarde>
+		<SIKB0101ID>12</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>zeer weinig (NEN 6693) (&gt;0%-2%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>
+	<BijzonderBestanddeelGradatie>
+		<Waarde>weinig</Waarde>
+		<SIKB0101ID>13</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>weinig (NEN 6693) (2%-5%)</Omschrijving>
+	</BijzonderBestanddeelGradatie>    
 </domeintabel>
