@@ -113,7 +113,7 @@
 			<xsl:variable name="message" select="replace(string-join(('Bij', string(./local-name()), $prGUID, 'mag er maar 1 investigationReason / aanleidingOnderzoek zijn opgevoerd'), ' '), '  ', ' ')"/>
             <xsl:copy-of select="sikb:createRecord('ERROR', 'Project', $message)"/>
 		  </xsl:when>
-		  <xsl:otherwise>	
+		  <xsl:otherwise>
 			<xsl:copy-of select="sikb:checkExistence(., $prGUID, 'investigationReason', 'ERROR')"/>   	
 			<xsl:copy-of select="sikb:checkFilled(., $prGUID, 'investigationReason', 'ERROR')"/>        
 			<xsl:copy-of select="sikb:checkLookupId(., $prGUID, 'investigationReason', 'OnderzoekAanleidingen', 'ERROR')"/>

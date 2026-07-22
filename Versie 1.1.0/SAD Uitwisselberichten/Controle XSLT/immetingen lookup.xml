@@ -1489,7 +1489,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingstechniek>
-		<Waardebepalingstechniek versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Waardebepalingstechniek versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>129</ID>
 			<Code>AAS-GF</Code>
 			<Waarde>Atomaire absorptie spectrometrie - grafietoven</Waarde>
@@ -1501,7 +1501,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingstechniek>
-		<Waardebepalingstechniek versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Waardebepalingstechniek versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>130</ID>
 			<Code>AAS-HG</Code>
 			<Waarde>Atomaire absorptie spectrometrie - hydride generatie</Waarde>
@@ -1585,7 +1585,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingstechniek>
-		<Waardebepalingstechniek versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Waardebepalingstechniek versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>139</ID>
 			<Code>COND</Code>
 			<Waarde>Conductometrie</Waarde>
@@ -1597,7 +1597,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingstechniek>
-		<Waardebepalingstechniek versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Waardebepalingstechniek versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>140</ID>
 			<Code>COUL</Code>
 			<Waarde>Coulometrie</Waarde>
@@ -5377,7 +5377,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>305</ID>
 			<Code>sC10armtn</Code>
 			<Omschrijving>som C10-aromaten</Omschrijving>
@@ -5417,7 +5417,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>309</ID>
 			<Code>sC9armtn</Code>
 			<Omschrijving>som C9-aromaten</Omschrijving>
@@ -6457,7 +6457,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>419</ID>
 			<Code>C4ygcactt</Code>
 			<Omschrijving>butylglycolacetaat</Omschrijving>
@@ -7357,7 +7357,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-17" status="Gewijzigd">
 			<ID>510</ID>
 			<Code>CHLFa</Code>
 			<Omschrijving>chlorofyl-a</Omschrijving>
@@ -7507,7 +7507,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>525</ID>
 			<Code>sCKW</Code>
 			<Omschrijving>som gechloreerde koolwaterstoffen</Omschrijving>
@@ -10617,7 +10617,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>855</ID>
 			<Code>sHpCDD</Code>
 			<Omschrijving>som heptachloordibenzodioxine-isomeren</Omschrijving>
@@ -10627,7 +10627,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>856</ID>
 			<Code>sHpCDF</Code>
 			<Omschrijving>som heptachloordibenzofuraan-isomeren</Omschrijving>
@@ -10687,7 +10687,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>862</ID>
 			<Code>sHxCDD</Code>
 			<Omschrijving>som hexachloordibenzodioxine-isomeren</Omschrijving>
@@ -10697,7 +10697,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>863</ID>
 			<Code>sHxCDF</Code>
 			<Omschrijving>som hexachloordibenzofuraan-isomeren</Omschrijving>
@@ -14917,7 +14917,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1388</ID>
 			<Code>sPeCDD</Code>
 			<Omschrijving>som pentachloordibenzodioxine-isomeren</Omschrijving>
@@ -14927,7 +14927,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1389</ID>
 			<Code>sPeCDF</Code>
 			<Omschrijving>som pentachloordibenzofuraan-isomeren</Omschrijving>
@@ -16187,7 +16187,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1534</ID>
 			<Code>sTCDD</Code>
 			<Omschrijving>som tetrachloordibenzodioxine-isomeren</Omschrijving>
@@ -16197,7 +16197,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1535</ID>
 			<Code>sTCDF</Code>
 			<Omschrijving>som tetrachloordibenzofuraan-isomeren</Omschrijving>
@@ -16717,7 +16717,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1588</ID>
 			<Code>sTazne</Code>
 			<Omschrijving>som triazinen</Omschrijving>
@@ -17597,7 +17597,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1694</ID>
 			<Code>VELDTZTLKWNM</Code>
 			<Omschrijving>Veldtest zintuiglijke waarnemingen</Omschrijving>
@@ -18467,7 +18467,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1783</ID>
 			<Code>NC4yBensfAd</Code>
 			<Omschrijving>N-butylbenzeensulfonamide</Omschrijving>
@@ -18587,7 +18587,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1795</ID>
 			<Code>sC11C12armtn</Code>
 			<Omschrijving>som C11- en C12-aromaten</Omschrijving>
@@ -22117,7 +22117,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2157</ID>
 			<Code>sDAobFy</Code>
 			<Omschrijving>som diaminobifenylen</Omschrijving>
@@ -24657,7 +24657,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2430</ID>
 			<Code>NNO2sDFyAe</Code>
 			<Omschrijving>N-nitrosodifenylamine</Omschrijving>
@@ -25227,7 +25227,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2487</ID>
 			<Code>oladmcne</Code>
 			<Omschrijving>oleandomycine</Omschrijving>
@@ -27287,7 +27287,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2695</ID>
 			<Code>sC6C8armtn</Code>
 			<Omschrijving>som C6-C8-aromaten</Omschrijving>
@@ -27577,7 +27577,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-16" status="Gewijzigd">
 			<ID>2725</ID>
 			<Code>MASSFTE</Code>
 			<Omschrijving>Massafractie</Omschrijving>
@@ -28067,7 +28067,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2848</ID>
 			<Code>26DClFbAd</Code>
 			<Omschrijving>2,6-dichloorfluorbenzamide</Omschrijving>
@@ -28197,7 +28197,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2861</ID>
 			<Code>2C4oxactt</Code>
 			<Omschrijving>2-butoxyacetaat</Omschrijving>
@@ -28757,7 +28757,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2917</ID>
 			<Code>AANMCCTTE</Code>
 			<Omschrijving>Aanmaakconcentratie</Omschrijving>
@@ -28867,7 +28867,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2928</ID>
 			<Code>AANWZHCPLBTV</Code>
 			<Omschrijving>Aanwezigheid campylobacter vastgesteld</Omschrijving>
@@ -28957,7 +28957,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2937</ID>
 			<Code>AANWZHTXSBAV</Code>
 			<Omschrijving>Aanwezigheid toxische blauwalg vastgesteld</Omschrijving>
@@ -29087,7 +29087,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-16" status="Vervallen">
 			<ID>2950</ID>
 			<Code>2Aoactfnn</Code>
 			<Omschrijving>2-aminoacetofenon</Omschrijving>
@@ -29467,7 +29467,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2988</ID>
 			<Code>ACTVTCCTTMSK</Code>
 			<Omschrijving>Activiteitsconcentratie massiek</Omschrijving>
@@ -30167,7 +30167,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3058</ID>
 			<Code>ACTVTCCTTVLM</Code>
 			<Omschrijving>Activiteitsconcentratie volumiek</Omschrijving>
@@ -30677,7 +30677,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3109</ID>
 			<Code>ALFATVTT</Code>
 			<Omschrijving>Alfa activiteit</Omschrijving>
@@ -30717,7 +30717,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3113</ID>
 			<Code>ASVDS</Code>
 			<Omschrijving>Asvrij droge stof</Omschrijving>
@@ -30957,7 +30957,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3137</ID>
 			<Code>BEMSRTJT</Code>
 			<Omschrijving>Bemonsteringstraject</Omschrijving>
@@ -31007,7 +31007,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3142</ID>
 			<Code>BETATVTT</Code>
 			<Omschrijving>Beta activiteit</Omschrijving>
@@ -31017,7 +31017,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3143</ID>
 			<Code>BETATVTTK40</Code>
 			<Omschrijving>Beta activiteit van kalium 40</Omschrijving>
@@ -31317,7 +31317,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3173</ID>
 			<Code>BETATVTTH3</Code>
 			<Omschrijving>Beta activiteit van tritium</Omschrijving>
@@ -31347,7 +31347,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3176</ID>
 			<Code>BIOMSPOPVTE</Code>
 			<Omschrijving>Biomassa per oppervlakte eenheid</Omschrijving>
@@ -31387,7 +31387,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3180</ID>
 			<Code>BIOMPVLME</Code>
 			<Omschrijving>Biomassa per volume</Omschrijving>
@@ -31407,7 +31407,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3182</ID>
 			<Code>BIOVLME</Code>
 			<Omschrijving>Biovolume</Omschrijving>
@@ -31607,7 +31607,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3202</ID>
 			<Code>BAM</Code>
 			<Omschrijving>methyl-4-broomacetoacetaat- gebruik voortaan C1y4Bractact</Omschrijving>
@@ -31707,7 +31707,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3212</ID>
 			<Code>BIOVLMPVLME</Code>
 			<Omschrijving>Biovolume per volume eenheid</Omschrijving>
@@ -32657,7 +32657,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3307</ID>
 			<Code>Cltofsfn</Code>
 			<Omschrijving>chloorthiofos-sulfon</Omschrijving>
@@ -33277,7 +33277,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3369</ID>
 			<Code>C8yFol</Code>
 			<Omschrijving>octylfenol</Omschrijving>
@@ -33717,7 +33717,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3413</ID>
 			<Code>DESTMTLUGVD</Code>
 			<Omschrijving>Destructie metalen uitgevoerd</Omschrijving>
@@ -33727,7 +33727,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3414</ID>
 			<Code>DESTTUGVD</Code>
 			<Omschrijving>Destructie uitgevoerd</Omschrijving>
@@ -35057,7 +35057,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3547</ID>
 			<Code>GAMMATVTT</Code>
 			<Omschrijving>Gamma activiteit</Omschrijving>
@@ -35487,7 +35487,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3590</ID>
 			<Code>EXTTNIWG</Code>
 			<Omschrijving>Extractie na inweeg</Omschrijving>
@@ -35507,7 +35507,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3592</ID>
 			<Code>EXTTOGWBSS</Code>
 			<Omschrijving>Extractie op gewichtbasis</Omschrijving>
@@ -35537,7 +35537,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3595</ID>
 			<Code>EXTTOVLMBSS</Code>
 			<Omschrijving>Extractie op volumebasis</Omschrijving>
@@ -35677,7 +35677,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3609</ID>
 			<Code>FILTTGVZFTUG</Code>
 			<Omschrijving>Filtratie glasvezelfilter uitgevoerd</Omschrijving>
@@ -35687,7 +35687,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3610</ID>
 			<Code>FILTTPPFTUGV</Code>
 			<Omschrijving>Filtratie papierfilter uitgevoerd</Omschrijving>
@@ -36627,7 +36627,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3704</ID>
 			<Code>gstrals</Code>
 			<Omschrijving>overige gamma stralers (NW4)</Omschrijving>
@@ -37497,7 +37497,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3791</ID>
 			<Code>IDTFCTDVMASU</Code>
 			<Omschrijving>Identificatie draadvormers in actief slib uitgevoerd</Omschrijving>
@@ -37997,7 +37997,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3841</ID>
 			<Code>forSO</Code>
 			<Omschrijving>foraat-sulfoxide</Omschrijving>
@@ -38217,7 +38217,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3863</ID>
 			<Code>INSLG</Code>
 			<Omschrijving>Instraling - gebruik voortaan FOTNSDHD</Omschrijving>
@@ -38247,7 +38247,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3866</ID>
 			<Code>INWG</Code>
 			<Omschrijving>Inweeg</Omschrijving>
@@ -38257,7 +38257,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3867</ID>
 			<Code>INZOGWBSS</Code>
 			<Omschrijving>Inzet op gewichtbasis</Omschrijving>
@@ -38267,7 +38267,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3868</ID>
 			<Code>INZOVLMBSS</Code>
 			<Omschrijving>Inzet op volumebasis</Omschrijving>
@@ -38287,7 +38287,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3870</ID>
 			<Code>IR</Code>
 			<Omschrijving>Indamprest</Omschrijving>
@@ -38917,7 +38917,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3933</ID>
 			<Code>L_PFOS</Code>
 			<Omschrijving>perfluor-1-octaansulfonaat (lineair)</Omschrijving>
@@ -39017,7 +39017,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3943</ID>
 			<Code>LBV</Code>
 			<Omschrijving>Loogbindend vermogen - gebruik voortaan aciditeit</Omschrijving>
@@ -39147,7 +39147,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3956</ID>
 			<Code>HxC1oxC1ymlm</Code>
 			<Omschrijving>hexa(methoxymethyl)melamine</Omschrijving>
@@ -39217,7 +39217,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>3963</ID>
 			<Code>LSCMLTF</Code>
 			<Omschrijving>L/S-verhouding cumulatief</Omschrijving>
@@ -39607,7 +39607,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4002</ID>
 			<Code>MICCPODZATSU</Code>
 			<Omschrijving>Microscopisch onderzoek actief slib uitgevoerd</Omschrijving>
@@ -39617,7 +39617,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4003</ID>
 			<Code>MICCTNS</Code>
 			<Omschrijving>Microcystines</Omschrijving>
@@ -39637,7 +39637,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4005</ID>
 			<Code>MICTXCTTT</Code>
 			<Omschrijving>Microtoxiciteitstest</Omschrijving>
@@ -39777,7 +39777,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4019</ID>
 			<Code>MONSNMBTROLG</Code>
 			<Omschrijving>Monstername bacteriologische analyses uitgevoerd</Omschrijving>
@@ -39787,7 +39787,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4020</ID>
 			<Code>MONSNMFSCMSA</Code>
 			<Omschrijving>Monstername fysisch-chemische analyses uitgevoerd</Omschrijving>
@@ -39867,7 +39867,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4028</ID>
 			<Code>MONSNMHDBOLG</Code>
 			<Omschrijving>Monstername hydrobiologische analyses uitgevoerd</Omschrijving>
@@ -40607,7 +40607,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4102</ID>
 			<Code>RESTBTATVTT</Code>
 			<Omschrijving>Rest beta activiteit</Omschrijving>
@@ -41137,7 +41137,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4155</ID>
 			<Code>metcfs</Code>
 			<Omschrijving>methacrifos</Omschrijving>
@@ -41327,7 +41327,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4174</ID>
 			<Code>milbmcn</Code>
 			<Omschrijving>milbemectin</Omschrijving>
@@ -41357,7 +41357,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4177</ID>
 			<Code>PHOR</Code>
 			<Omschrijving>Phormidium &gt;&gt; gebruik voortaan ID5994</Omschrijving>
@@ -41847,7 +41847,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-16" status="Vervallen">
 			<ID>4226</ID>
 			<Code>SPECFEGVBBLT</Code>
 			<Omschrijving>Specifiek energieverbruik beluchting</Omschrijving>
@@ -42667,7 +42667,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4308</ID>
 			<Code>sC7C10armtn</Code>
 			<Omschrijving>som C7-C10-aromaten</Omschrijving>
@@ -42857,7 +42857,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4327</ID>
 			<Code>SCREENNVTGSF</Code>
 			<Omschrijving>Screening niet-vluchtige stoffen uitgevoerd</Omschrijving>
@@ -42897,7 +42897,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4331</ID>
 			<Code>SCREENSMSLVZ</Code>
 			<Omschrijving>Screening samenstelling vetzuren uitgevoerd</Omschrijving>
@@ -42907,7 +42907,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4332</ID>
 			<Code>SCREENVTGSFU</Code>
 			<Omschrijving>Screening vluchtige stoffen uitgevoerd</Omschrijving>
@@ -44967,7 +44967,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4538</ID>
 			<Code>sMBAS</Code>
 			<Omschrijving>som methyleenblauwactieve stoffen anionactief</Omschrijving>
@@ -45397,7 +45397,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4581</ID>
 			<Code>SOLPSETTE</Code>
 			<Omschrijving>Solid Phase Extractie</Omschrijving>
@@ -46167,7 +46167,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4658</ID>
 			<Code>TE0</Code>
 			<Omschrijving>De golfenergie in de frequentieband van 500-1000 mHz</Omschrijving>
@@ -46207,7 +46207,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4662</ID>
 			<Code>TH1/3</Code>
 			<Omschrijving>Gemiddelde golfperiode uit hoogste 1/3 deel van de golven</Omschrijving>
@@ -46307,7 +46307,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4672</ID>
 			<Code>TOTRSTTSG</Code>
 			<Omschrijving>Totaal resultaat toetsing</Omschrijving>
@@ -46327,7 +46327,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4674</ID>
 			<Code>TOXSBAGN</Code>
 			<Omschrijving>Toxische blauwalgen &gt;&gt; gebruik voortaan ID 6022</Omschrijving>
@@ -46367,7 +46367,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4678</ID>
 			<Code>TREKLTE</Code>
 			<Omschrijving>Treklengte</Omschrijving>
@@ -46377,7 +46377,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4679</ID>
 			<Code>TREKRTG</Code>
 			<Omschrijving>Trekrichting</Omschrijving>
@@ -46457,7 +46457,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4687</ID>
 			<Code>OSTOF/WATR</Code>
 			<Omschrijving>Verhouding organische stof/water</Omschrijving>
@@ -46727,7 +46727,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4714</ID>
 			<Code>VOORBWKHSCE</Code>
 			<Omschrijving>Voorbewerking headspace</Omschrijving>
@@ -46827,7 +46827,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-17" status="Gewijzigd">
 			<ID>4724</ID>
 			<Code>WATHTE</Code>
 			<Omschrijving>Waterhoogte</Omschrijving>
@@ -47057,7 +47057,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-10" status="Gewijzigd">
 			<ID>4747</ID>
 			<Code>WINDKT</Code>
 			<Omschrijving>Windkracht</Omschrijving>
@@ -47467,7 +47467,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>4788</ID>
 			<Code>TC1yC5e</Code>
 			<Omschrijving>tetramethylpenteen &gt;&gt; ID2019</Omschrijving>
@@ -49527,7 +49527,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-10" status="Vervallen">
 			<ID>4994</ID>
 			<Code>ClO3</Code>
 			<Omschrijving>chloraat</Omschrijving>
@@ -50237,7 +50237,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5065</ID>
 			<Code>sBiAS</Code>
 			<Omschrijving>som bismutactieve stoffen nonionactief</Omschrijving>
@@ -50457,7 +50457,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>5087</ID>
 			<Code>ompzl</Code>
 			<Omschrijving>omeprazol</Omschrijving>
@@ -50477,7 +50477,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5089</ID>
 			<Code>snietClB14</Code>
 			<Omschrijving>som 14 niet-chloorhoudende bestrijdingsm. (Bbk, 1-1-2008)</Omschrijving>
@@ -50527,7 +50527,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>5113</ID>
 			<Code>tylsnttt</Code>
 			<Omschrijving>tylosine tartraat</Omschrijving>
@@ -50547,7 +50547,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5115</ID>
 			<Code>11n9cbxd9THC</Code>
 			<Omschrijving>11-nor-9-carboxy-delta-9-tetrahydrocannabinol</Omschrijving>
@@ -50597,7 +50597,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5121</ID>
 			<Code>DAoC1yidurum</Code>
 			<Omschrijving>diaminomethylideenureum &gt;&gt; gebruik voortaan ID 5279</Omschrijving>
@@ -53077,7 +53077,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5358</ID>
 			<Code>ANSNL-I01</Code>
 			<Omschrijving>Benthos Geaggregeerde indicatoren</Omschrijving>
@@ -53087,7 +53087,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5359</ID>
 			<Code>ANSNL-I02</Code>
 			<Omschrijving>Vissen Visserijdruk</Omschrijving>
@@ -53097,7 +53097,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5360</ID>
 			<Code>ANSNL-I03</Code>
 			<Omschrijving>Vissen Biomassa Paaibestanden</Omschrijving>
@@ -53107,7 +53107,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5361</ID>
 			<Code>ANSNL-I04</Code>
 			<Omschrijving>Vissen Grootteverdeling Visbestanden</Omschrijving>
@@ -53117,7 +53117,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5362</ID>
 			<Code>ANSNL-I05</Code>
 			<Omschrijving>Vissen Geaggregeerde indicatoren</Omschrijving>
@@ -53127,7 +53127,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5363</ID>
 			<Code>ANSNL-I06</Code>
 			<Omschrijving>Vissen Discards Visserij</Omschrijving>
@@ -53137,7 +53137,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5364</ID>
 			<Code>ANSNL-I07</Code>
 			<Omschrijving>Vogels Geaggregeerde indicatoren</Omschrijving>
@@ -53147,7 +53147,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5365</ID>
 			<Code>ANSNL-I08</Code>
 			<Omschrijving>Zeezoogdieren Geaggregeerde indicatoren</Omschrijving>
@@ -53157,7 +53157,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5366</ID>
 			<Code>ANSNL-I09</Code>
 			<Omschrijving>Demografische kenmerken</Omschrijving>
@@ -53167,7 +53167,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5367</ID>
 			<Code>ANSNL-I10</Code>
 			<Omschrijving>Voedselweb Lengte-Frequentieverdeling bodemvissen</Omschrijving>
@@ -53177,7 +53177,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5368</ID>
 			<Code>ANSNL-I11</Code>
 			<Omschrijving>Voedselweb Indicatoren toppredatoren</Omschrijving>
@@ -53187,7 +53187,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5369</ID>
 			<Code>ANSNL-I12</Code>
 			<Omschrijving>Voedselweb Voedselrelatie sleutelsoorten</Omschrijving>
@@ -53197,7 +53197,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5370</ID>
 			<Code>ANSNL-I13</Code>
 			<Omschrijving>Zeebodemintegriteit Verspreiding en omvang habitats</Omschrijving>
@@ -53207,7 +53207,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5371</ID>
 			<Code>ANSNL-I14</Code>
 			<Omschrijving>Zeebodemintegriteit Niet verstoord zeebodemareaal</Omschrijving>
@@ -53217,7 +53217,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5372</ID>
 			<Code>ANSNL-I15</Code>
 			<Omschrijving>Zeebodemintegriteit Samenstelling bodemleefgemeenschappen</Omschrijving>
@@ -53227,7 +53227,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5373</ID>
 			<Code>ANSNL-I16</Code>
 			<Omschrijving>Zeebodemintegriteit Kwaliteit habitats</Omschrijving>
@@ -53237,7 +53237,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5374</ID>
 			<Code>ANSNL-I17</Code>
 			<Omschrijving>Exoten Aantal exoten</Omschrijving>
@@ -53247,7 +53247,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5375</ID>
 			<Code>ANSNL-I18</Code>
 			<Omschrijving>Exoten Aantal nieuwe exoten</Omschrijving>
@@ -53257,7 +53257,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5376</ID>
 			<Code>ANSNL-I19</Code>
 			<Omschrijving>Exoten Ratio inheems/exoot</Omschrijving>
@@ -53267,7 +53267,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5377</ID>
 			<Code>ANSNL-I20</Code>
 			<Omschrijving>Eutrofiering Nutriëntenniveaus</Omschrijving>
@@ -53277,7 +53277,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5378</ID>
 			<Code>ANSNL-I21</Code>
 			<Omschrijving>Eutrofiering Directe effecten</Omschrijving>
@@ -53287,7 +53287,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5379</ID>
 			<Code>ANSNL-I22</Code>
 			<Omschrijving>Eutrofiering Indirecte effecten</Omschrijving>
@@ -53297,7 +53297,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5380</ID>
 			<Code>ANSNL-I23</Code>
 			<Omschrijving>Vervuilende stoffen Concentr. vervuilende polaire stoffen</Omschrijving>
@@ -53307,7 +53307,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5381</ID>
 			<Code>ANSNL-I24</Code>
 			<Omschrijving>Vervuilende stoffen Concentr. vervuilende apolaire stoffen</Omschrijving>
@@ -53317,7 +53317,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5382</ID>
 			<Code>ANSNL-I25</Code>
 			<Omschrijving>Vervuilende stoffen Imposex en intersex</Omschrijving>
@@ -53327,7 +53327,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5383</ID>
 			<Code>ANSNL-I26</Code>
 			<Omschrijving>Vervuilende stoffen Percentage besmeurde vogels</Omschrijving>
@@ -53337,7 +53337,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5384</ID>
 			<Code>ANSNL-I27</Code>
 			<Omschrijving>Vervuilende stoffen Overschrijdingen limieten visserijprod.</Omschrijving>
@@ -53347,7 +53347,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5385</ID>
 			<Code>ANSNL-I28</Code>
 			<Omschrijving>Vervuilende stoffen Gehalten visserijproducten</Omschrijving>
@@ -53357,7 +53357,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5386</ID>
 			<Code>ANSNL-I29</Code>
 			<Omschrijving>Vervuilende stoffen Aantal overschrijdende stoffen</Omschrijving>
@@ -53367,7 +53367,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5387</ID>
 			<Code>ANSNL-I30</Code>
 			<Omschrijving>Vervuilende stoffen Bron vervuiling</Omschrijving>
@@ -53377,7 +53377,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5388</ID>
 			<Code>ANSNL-I31</Code>
 			<Omschrijving>Zwerfvuil Trends zwerfvuil stranden</Omschrijving>
@@ -53387,7 +53387,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5389</ID>
 			<Code>ANSNL-I32</Code>
 			<Omschrijving>Zwerfvuil Trends zwerfvuil mariene organismen</Omschrijving>
@@ -53447,7 +53447,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5395</ID>
 			<Code>OSPAR_SA006</Code>
 			<Omschrijving>Plastic fles of verpakking voor voedsel (SA0610 of SA0620)</Omschrijving>
@@ -53597,7 +53597,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5410</ID>
 			<Code>OSPAR_SA021</Code>
 			<Omschrijving>Plastic beker (SA0211 of SA0212)</Omschrijving>
@@ -53707,7 +53707,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5421</ID>
 			<Code>OSPAR_SA032</Code>
 			<Omschrijving>Kunststof touwtjes en koord (diameter &lt; 1 cm) (SA0321/2)</Omschrijving>
@@ -53717,7 +53717,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5422</ID>
 			<Code>OSPAR_SA033</Code>
 			<Omschrijving>Kunststof verstrengelde netten, touw of koord (SA0331/2)</Omschrijving>
@@ -53727,7 +53727,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5423</ID>
 			<Code>OSPAR_SA034</Code>
 			<Omschrijving>Kunststof viskist (SA0341 of SA0342)</Omschrijving>
@@ -53847,7 +53847,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5435</ID>
 			<Code>OSPAR_SA046</Code>
 			<Omschrijving>Stuk plastic of polystyreen 2,5 - 50 cm (SA0461 of SA0462)</Omschrijving>
@@ -53857,7 +53857,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5436</ID>
 			<Code>OSPAR_SA047</Code>
 			<Omschrijving>Stuk plastic of polystyreen &gt; 50 cm (SA0471 of SA0472)</Omschrijving>
@@ -54337,7 +54337,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5484</ID>
 			<Code>OSPAR_SA098</Code>
 			<Omschrijving>Wattenstaafje (SA0981 of SA0982)</Omschrijving>
@@ -54507,7 +54507,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5501</ID>
 			<Code>OSPAR_SA117</Code>
 			<Omschrijving>Stukjes plastic of polystyreen 0-2,5 cm (SA1171 of SA1172)</Omschrijving>
@@ -57557,7 +57557,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5758</ID>
 			<Code>SACFOR_sl</Code>
 			<Omschrijving>SACFOR schaal</Omschrijving>
@@ -57727,7 +57727,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5832</ID>
 			<Code>1011tDolcarb</Code>
 			<Omschrijving>10,11-transdiol carbamazepine &gt;&gt; gebruik voortaan ID 6069</Omschrijving>
@@ -59217,10 +59217,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-08" status="Gewijzigd">
 			<ID>5968</ID>
 			<Code>MC-LA</Code>
-			<Omschrijving>microsystine-LA</Omschrijving>
+			<Omschrijving>microcystine-LA</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -59927,7 +59927,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>6050</ID>
 			<Code>HUMSZR</Code>
 			<Omschrijving>Humuszuur</Omschrijving>
@@ -61347,10 +61347,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-17" status="Gewijzigd">
 			<ID>6372</ID>
 			<Code>66FyC71btzC1</Code>
-			<Omschrijving>(6,6)-fenyl-C71-boterzuurmethylester(isomeren mengsel)</Omschrijving>
+			<Omschrijving>(6,6)-fenyl-C71-boterzuurmethylester</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -62637,7 +62637,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-16" status="Vervallen">
 			<ID>6110</ID>
 			<Code>c12DBrC2e</Code>
 			<Omschrijving>cis-1,2-dibroometheen</Omschrijving>
@@ -63387,7 +63387,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>6420</ID>
 			<Code>odC1ytmdl</Code>
 			<Omschrijving>o-desmethyltramadol</Omschrijving>
@@ -63527,7 +63527,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-16" status="Gewijzigd">
 			<ID>6112</ID>
 			<Code>s12DBrC2e</Code>
 			<Omschrijving>som 1,2-dibroometheen (som cis- en trans-)</Omschrijving>
@@ -63737,7 +63737,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-16" status="Vervallen">
 			<ID>6111</ID>
 			<Code>t12DBrC2e</Code>
 			<Omschrijving>trans-1,2-dibroometheen</Omschrijving>
@@ -66467,7 +66467,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Gewijzigd">
+		<Parameter versie="14.7.0" datum="2026-07-10" status="Vervallen">
 			<ID>6535</ID>
 			<Code>TNa2biscbxlt</Code>
 			<Omschrijving>trinatrium, 2- [bis (carboxylatomethyl) amino] propanoaat</Omschrijving>
@@ -67017,7 +67017,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-18" status="Vervallen">
 			<ID>6898</ID>
 			<Code>s11n9cbxd9TH</Code>
 			<Omschrijving>som 11-nor-9-carboxy-delta-9-tetrahydrocannabinol isomeren</Omschrijving>
@@ -70597,15 +70597,15 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-22" status="Bevestigd">
 			<ID>7115</ID>
 			<Code>CoxC1yTC8yOH</Code>
 			<Omschrijving>Carboxymethyldimethyl-3-[{(3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluoroctyl)sulfonyl}amino]propylammonium hydroxide</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
 		<Parameter versie="14.7.0" datum="2025-12-09" status="Bevestigd">
 			<ID>7105</ID>
@@ -70627,15 +70627,15 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-22" status="Bevestigd">
 			<ID>7112</ID>
 			<Code>flutanl</Code>
 			<Omschrijving>Flutianil</Omschrijving>
 			<Groep>ChemischeStof</Groep>
-			<broSadImbroA>false</broSadImbroA>
-			<broSadImbro>false</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>true</broSldImbroA>
+			<broSldImbro>true</broSldImbro>
 		</Parameter>
 		<Parameter versie="14.7.0" datum="2025-12-09" status="Bevestigd">
 			<ID>7131</ID>
@@ -71767,7 +71767,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2025-12-09" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>7228</ID>
 			<Code>desC1yctlpm</Code>
 			<Omschrijving>desmethylcitalopram</Omschrijving>
@@ -72897,7 +72897,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7345</ID>
 			<Code>11HOxd9thcnl</Code>
 			<Omschrijving>11-hydroxy-delta9-tetrahydrocannabinol</Omschrijving>
@@ -72907,7 +72907,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7357</ID>
 			<Code>DC1yFyAoOoC2</Code>
 			<Omschrijving>2-[(2,6-dimethylfenyl)amino]-2-oxo-ethaansulfonzuur</Omschrijving>
@@ -72917,7 +72917,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7353</ID>
 			<Code>2Ao1FyC2ol</Code>
 			<Omschrijving>2-amino-1-fenylethanol</Omschrijving>
@@ -72927,7 +72927,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7358</ID>
 			<Code>2C1ymetcinn</Code>
 			<Omschrijving>2-methylmethcathinon</Omschrijving>
@@ -72937,7 +72937,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7362</ID>
 			<Code>34C1yeDoxFyp</Code>
 			<Omschrijving>3,4-(methyleendioxy)fenylpropan-2-on</Omschrijving>
@@ -72947,7 +72947,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7359</ID>
 			<Code>3C1ymetcinn</Code>
 			<Omschrijving>3-methylmethcathinon</Omschrijving>
@@ -72957,7 +72957,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7361</ID>
 			<Code>4Clmetcinn</Code>
 			<Omschrijving>4-chloormethcathinon</Omschrijving>
@@ -72967,7 +72967,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7354</ID>
 			<Code>4Fyprctm</Code>
 			<Omschrijving>4-fenylpiracetam</Omschrijving>
@@ -72977,7 +72977,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7346</ID>
 			<Code>5C1oxdsC3ytA</Code>
 			<Omschrijving>5-methoxy-N,N-diisopropyltryptamine</Omschrijving>
@@ -72987,7 +72987,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7341</ID>
 			<Code>5C1oxDC1ytAe</Code>
 			<Omschrijving>5-methoxy-N,N-dimethyltryptamine</Omschrijving>
@@ -72997,7 +72997,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7342</ID>
 			<Code>5C1oxaC1ytAe</Code>
 			<Omschrijving>5-methoxy-alfa-methyltryptamine</Omschrijving>
@@ -73007,7 +73007,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7351</ID>
 			<Code>5C1oxttAe</Code>
 			<Omschrijving>5-methoxytryptamine</Omschrijving>
@@ -73017,7 +73017,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7343</ID>
 			<Code>C3ytcfnxC2yu</Code>
 			<Omschrijving>N-propyl-N-[2-(2,4,6-trichloorfenoxy)ethyl]ureum</Omschrijving>
@@ -73027,7 +73027,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7355</ID>
 			<Code>accdne</Code>
 			<Omschrijving>aceclidine</Omschrijving>
@@ -73037,7 +73037,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7347</ID>
 			<Code>anbsne</Code>
 			<Omschrijving>anabasine</Omschrijving>
@@ -73047,7 +73047,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7349</ID>
 			<Code>bcAd</Code>
 			<Omschrijving>beclamide</Omschrijving>
@@ -73057,7 +73057,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7348</ID>
 			<Code>bufdn</Code>
 			<Omschrijving>bufedron</Omschrijving>
@@ -73067,7 +73067,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7344</ID>
 			<Code>DfyPHzr</Code>
 			<Omschrijving>difenylfosfinezuur</Omschrijving>
@@ -73077,7 +73077,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7350</ID>
 			<Code>hdnne</Code>
 			<Omschrijving>hordenine</Omschrijving>
@@ -73087,7 +73087,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7356</ID>
 			<Code>proHxdn</Code>
 			<Omschrijving>prohexadion</Omschrijving>
@@ -73097,7 +73097,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7352</ID>
 			<Code>pyrdxne</Code>
 			<Omschrijving>pyridoxine</Omschrijving>
@@ -73107,7 +73107,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7360</ID>
 			<Code>s34MMC</Code>
 			<Omschrijving>som 3-MMC en 4-MMC</Omschrijving>
@@ -73117,7 +73117,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-01-14" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7363</ID>
 			<Code>KOPPL</Code>
 			<Omschrijving>Koppel</Omschrijving>
@@ -73127,7 +73127,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7365</ID>
 			<Code>1011DHO10cbm</Code>
 			<Omschrijving>10,11-dihydro-10-hydroxycarbamazepine</Omschrijving>
@@ -73137,7 +73137,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7366</ID>
 			<Code>alsrn</Code>
 			<Omschrijving>aliskiren</Omschrijving>
@@ -73147,7 +73147,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7367</ID>
 			<Code>alzpde</Code>
 			<Omschrijving>alizapride</Omschrijving>
@@ -73157,7 +73157,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7368</ID>
 			<Code>cinrne1</Code>
 			<Omschrijving>cinerine I</Omschrijving>
@@ -73167,7 +73167,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7369</ID>
 			<Code>dbiotne</Code>
 			<Omschrijving>d-biotine</Omschrijving>
@@ -73177,7 +73177,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7370</ID>
 			<Code>disprAd</Code>
 			<Omschrijving>disopyramide</Omschrijving>
@@ -73187,7 +73187,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7371</ID>
 			<Code>flunxne</Code>
 			<Omschrijving>flunixine</Omschrijving>
@@ -73197,7 +73197,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7372</ID>
 			<Code>harmn</Code>
 			<Omschrijving>harman</Omschrijving>
@@ -73207,7 +73207,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7373</ID>
 			<Code>histmne</Code>
 			<Omschrijving>histamine</Omschrijving>
@@ -73217,7 +73217,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7374</ID>
 			<Code>mexltne</Code>
 			<Omschrijving>mexiletine</Omschrijving>
@@ -73227,7 +73227,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7375</ID>
 			<Code>nictnAd</Code>
 			<Omschrijving>nicotinamide</Omschrijving>
@@ -73237,7 +73237,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7381</ID>
 			<Code>pHOxafAe</Code>
 			<Omschrijving>p-hydroxyamfetamine</Omschrijving>
@@ -73247,7 +73247,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7376</ID>
 			<Code>pantpzl</Code>
 			<Omschrijving>pantoprazool</Omschrijving>
@@ -73257,7 +73257,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7377</ID>
 			<Code>phentne</Code>
 			<Omschrijving>phenytoine</Omschrijving>
@@ -73267,7 +73267,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7378</ID>
 			<Code>rivrxabn</Code>
 			<Omschrijving>rivaroxaban</Omschrijving>
@@ -73277,7 +73277,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7379</ID>
 			<Code>sulfmtrnC1y</Code>
 			<Omschrijving>sulfometuron-methyl</Omschrijving>
@@ -73287,7 +73287,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7382</ID>
 			<Code>T4C1oxC1yml</Code>
 			<Omschrijving>tetrakis(methoxymethyl)melamine</Omschrijving>
@@ -73297,7 +73297,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7364</ID>
 			<Code>vzC1yEsrtot</Code>
 			<Omschrijving>vetzuurmethylesters totaal</Omschrijving>
@@ -73307,7 +73307,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7380</ID>
 			<Code>vildgtn</Code>
 			<Omschrijving>vildagliptine</Omschrijving>
@@ -73317,7 +73317,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-02-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7389</ID>
 			<Code>INSEFFCTE</Code>
 			<Omschrijving>Inspectie efficientie</Omschrijving>
@@ -73327,7 +73327,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-02-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7385</ID>
 			<Code>MAAIVBDKG</Code>
 			<Omschrijving>Maaiveld bedekking</Omschrijving>
@@ -73337,7 +73337,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-02-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7387</ID>
 			<Code>MAAIVBDKGVWD</Code>
 			<Omschrijving>Maaiveld bedekking verwijderd</Omschrijving>
@@ -73347,7 +73347,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-02-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7386</ID>
 			<Code>MATEVMVBDKG</Code>
 			<Omschrijving>Mate van maaiveld bedekking</Omschrijving>
@@ -73357,7 +73357,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-02-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7388</ID>
 			<Code>MATEVMVBDNVW</Code>
 			<Omschrijving>Mate van maaiveld bedekking na verwijdering</Omschrijving>
@@ -73367,7 +73367,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-02-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7383</ID>
 			<Code>MATEVZICHT</Code>
 			<Omschrijving>Mate van zicht</Omschrijving>
@@ -73377,7 +73377,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-02-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7384</ID>
 			<Code>WEERSOSDHDBS</Code>
 			<Omschrijving>Weersomstandigheden beschrijving</Omschrijving>
@@ -73387,7 +73387,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-02-07" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7390</ID>
 			<Code>SOORTABHMTRL</Code>
 			<Omschrijving>Soort asbesthoudend materiaal</Omschrijving>
@@ -73397,7 +73397,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-03-07" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7392</ID>
 			<Code>NO2redBACT</Code>
 			<Omschrijving>Nitriet-reducerende bacteriën</Omschrijving>
@@ -73407,7 +73407,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-03-07" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7391</ID>
 			<Code>SO4redBACT</Code>
 			<Omschrijving>Sulfaat-reducerende bacteriën</Omschrijving>
@@ -73417,7 +73417,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-08" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7393</ID>
 			<Code>s2xDNO2Fol</Code>
 			<Omschrijving>som 2,3-, 2,4- en 2,6-dinitrofenol</Omschrijving>
@@ -73427,7 +73427,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7395</ID>
 			<Code>delta13C</Code>
 			<Omschrijving>Verhouding isotopen koolstof 13/koolstof-12</Omschrijving>
@@ -73437,7 +73437,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7394</ID>
 			<Code>delta15N</Code>
 			<Omschrijving>Verhouding isotopen stikstof-15/stikstof-14</Omschrijving>
@@ -73447,7 +73447,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7396</ID>
 			<Code>Fprxfbzl</Code>
 			<Omschrijving>florpyrauxifen-benzyl</Omschrijving>
@@ -73457,7 +73457,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7398</ID>
 			<Code>DFHAc</Code>
 			<Omschrijving>difluorazijnzuur</Omschrijving>
@@ -73467,7 +73467,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7397</ID>
 			<Code>HFBA</Code>
 			<Omschrijving>heptafluorboterzuuranhydride</Omschrijving>
@@ -73477,7 +73477,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7399</ID>
 			<Code>24DcbmyTClBS</Code>
 			<Omschrijving>2,4-Dicarbamoyl-3,5,6-trichloorbenzeensulfonzuur</Omschrijving>
@@ -73487,7 +73487,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7400</ID>
 			<Code>C1ygcnDHAc</Code>
 			<Omschrijving>methylglycinediazijnzuur</Omschrijving>
@@ -73497,7 +73497,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7401</ID>
 			<Code>EtFOSAAver</Code>
 			<Omschrijving>N-ethyl-perfluoroctaan sulfonamidoazijnzuur vertakt</Omschrijving>
@@ -73507,7 +73507,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7402</ID>
 			<Code>N-MeFOSAAver</Code>
 			<Omschrijving>N-methyl-perfluoroctaan sulfonamidoazijnzuur vertakt</Omschrijving>
@@ -73517,7 +73517,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7403</ID>
 			<Code>cmetcnzl</Code>
 			<Omschrijving>cis-metconazool</Omschrijving>
@@ -73527,7 +73527,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-05-20" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7404</ID>
 			<Code>CZV/Corg</Code>
 			<Omschrijving>Verhouding CZV/koolstof organisch</Omschrijving>
@@ -73537,7 +73537,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-05-27" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7405</ID>
 			<Code>SIMDENTFCT</Code>
 			<Omschrijving>simultaan gedenitrificeerd</Omschrijving>
@@ -73547,7 +73547,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7407</ID>
 			<Code>slinvEtFOSAA</Code>
 			<Omschrijving>som lineair en vertakte N-ethyl-perfluoroctaan sulfonamidoazijnzuur</Omschrijving>
@@ -73557,7 +73557,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-01" status="Bevestigd">
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
 			<ID>7406</ID>
 			<Code>slinvMeFOSAA</Code>
 			<Omschrijving>som lineair en vertakte N-methyl-perfluoroctaan sulfonamidoazijnzuur</Omschrijving>
@@ -73566,6 +73566,406 @@
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7409</ID>
+			<Code>3dmMC-LR</Code>
+			<Omschrijving>3-desmethylmicrocystine-LR</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7411</ID>
+			<Code>BOOMWTS</Code>
+			<Omschrijving>Boomwortels</Omschrijving>
+			<Groep>Object</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7412</ID>
+			<Code>SNELHD</Code>
+			<Omschrijving>Snelheid</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7410</ID>
+			<Code>STAMHT</Code>
+			<Omschrijving>Stamhout</Omschrijving>
+			<Groep>Object</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7408</ID>
+			<Code>MC-WR</Code>
+			<Omschrijving>microcystine-WR</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7414</ID>
+			<Code>sPFSA19</Code>
+			<Omschrijving>som 19 perfluoralkaansulfonzuren (OVAM)</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7413</ID>
+			<Code>sPFCA20</Code>
+			<Omschrijving>som 20 perfluorcarbonzuren (OVAM)</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7417</ID>
+			<Code>NEERSPSWTR</Code>
+			<Omschrijving>Neerslag plus smeltwater</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7416</ID>
+			<Code>SWE</Code>
+			<Omschrijving>Sneeuw water equivalent</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7415</ID>
+			<Code>SNEEUWDTE</Code>
+			<Omschrijving>Sneeuwdiepte</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7418</ID>
+			<Code>WINDST</Code>
+			<Omschrijving>Windstoot</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7420</ID>
+			<Code>4HoxompzlS</Code>
+			<Omschrijving>4-hydroxyomeprazolsulfide</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7421</ID>
+			<Code>7DC1yA4C1ycm</Code>
+			<Omschrijving>7-diethylamino-4-methylcoumarin</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7438</ID>
+			<Code>N4actAd</Code>
+			<Omschrijving>N&#039;4-acetylsulfanilamide</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7422</ID>
+			<Code>N1AocbnHOxAd</Code>
+			<Omschrijving>N-[1-(aminocarbonyl)-2-methylpropyl]-1-(5-hydroxypentyl)-1H-indazole-3-carboxamide</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7423</ID>
+			<Code>apxban</Code>
+			<Omschrijving>apixaban</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7425</ID>
+			<Code>carbnnlde</Code>
+			<Omschrijving>carbanilide</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7424</ID>
+			<Code>dentnbzat</Code>
+			<Omschrijving>denatoniumbenzoaat</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7426</ID>
+			<Code>edoxbn</Code>
+			<Omschrijving>edoxaban</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7427</ID>
+			<Code>edefne</Code>
+			<Omschrijving>efedrine</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7435</ID>
+			<Code>Hoxbppn</Code>
+			<Omschrijving>hydroxybupropion</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7428</ID>
+			<Code>ketbmdn</Code>
+			<Omschrijving>ketobemidon</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7429</ID>
+			<Code>losatcbzr</Code>
+			<Omschrijving>losartancarbonzuur</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7430</ID>
+			<Code>meptznl</Code>
+			<Omschrijving>meptazinol</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7431</ID>
+			<Code>moldn</Code>
+			<Omschrijving>molindon</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7432</ID>
+			<Code>norktmne</Code>
+			<Omschrijving>norketamine</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7433</ID>
+			<Code>nortmdl</Code>
+			<Omschrijving>nortramadol</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7439</ID>
+			<Code>odC1ynortmdl</Code>
+			<Omschrijving>o-desmethylnortramadol</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7419</ID>
+			<Code>odC1ytmdl2</Code>
+			<Omschrijving>o-desmethyltramadol</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7434</ID>
+			<Code>proganl</Code>
+			<Omschrijving>proguanil</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7436</ID>
+			<Code>taptdl</Code>
+			<Omschrijving>tapentadol</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7437</ID>
+			<Code>toprmt</Code>
+			<Omschrijving>topiramaat</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7444</ID>
+			<Code>2Aoactfnn2</Code>
+			<Omschrijving>2’-aminoacetofenon</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7441</ID>
+			<Code>BEZ30</Code>
+			<Omschrijving>Bezinksel na 30 minuten</Omschrijving>
+			<Groep>Object</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7440</ID>
+			<Code>BEZ5</Code>
+			<Omschrijving>Bezinksel na 5 minuten</Omschrijving>
+			<Groep>Object</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7443</ID>
+			<Code>SLIBVLMIDX30</Code>
+			<Omschrijving>Slibvolume-index na 30 mintuen</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7442</ID>
+			<Code>SLIBVLMIDX5</Code>
+			<Omschrijving>Slibvolume-index na 5 minuten</Omschrijving>
+			<Groep>Grootheid</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7445</ID>
+			<Code>c12DBrC2e2</Code>
+			<Omschrijving>cis-1,2-dibroometheen xx</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7446</ID>
+			<Code>t12DBrC2e2</Code>
+			<Omschrijving>trans-1,2-dibroometheen xx</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-21" status="Bevestigd">
+			<ID>7447</ID>
+			<Code>11n9cbxd9T</Code>
+			<Omschrijving>11-nor-9-carboxy-delta-9-tetrahydrocannabinol</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
 		</Parameter>
 	</sikb.Parameter_c>
 	<sikb.Hoedanigheid_c categorie="Hoedanigheid" techName="Hoedanigheid" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
@@ -74879,7 +75279,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>138</ID>
 			<Code>LV-COE</Code>
 			<Omschrijving>Levensvorm-Coenobium</Omschrijving>
@@ -75699,7 +76099,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>220</ID>
 			<Code>DOOD</Code>
 			<Omschrijving>Dood</Omschrijving>
@@ -75739,7 +76139,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>224</ID>
 			<Code>EB-F</Code>
 			<Omschrijving>Energiebron-Fototroof</Omschrijving>
@@ -75749,7 +76149,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>225</ID>
 			<Code>EB-H</Code>
 			<Omschrijving>Energiebron-Heterotroof</Omschrijving>
@@ -76329,7 +76729,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>283</ID>
 			<Code>LV-FIL</Code>
 			<Omschrijving>Levensvorm-Filament</Omschrijving>
@@ -76339,7 +76739,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>284</ID>
 			<Code>GE-M</Code>
 			<Omschrijving>Geslacht-Man</Omschrijving>
@@ -76349,7 +76749,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>285</ID>
 			<Code>GE-V</Code>
 			<Omschrijving>Geslacht-Vrouw</Omschrijving>
@@ -76549,7 +76949,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2016-11-24" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>305</ID>
 			<Code>kol</Code>
 			<Omschrijving>uitgedrukt in kolonies</Omschrijving>
@@ -76769,7 +77169,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>327</ID>
 			<Code>LEVD</Code>
 			<Omschrijving>Levend</Omschrijving>
@@ -76819,7 +77219,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>332</ID>
 			<Code>LS-AD</Code>
 			<Omschrijving>Levensstadium-Adult</Omschrijving>
@@ -76829,7 +77229,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>333</ID>
 			<Code>LS-CO</Code>
 			<Omschrijving>Levensstadium-Copepodiet</Omschrijving>
@@ -76839,7 +77239,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>334</ID>
 			<Code>LS-EI</Code>
 			<Omschrijving>Levensstadium-Ei</Omschrijving>
@@ -76849,7 +77249,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>335</ID>
 			<Code>LS-EM</Code>
 			<Omschrijving>Levensstadium-Embryo</Omschrijving>
@@ -76859,7 +77259,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>336</ID>
 			<Code>LS-EP</Code>
 			<Omschrijving>Levensstadium-Ephippium</Omschrijving>
@@ -76869,7 +77269,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>337</ID>
 			<Code>LS-EX</Code>
 			<Omschrijving>Levensstadium-Exuvium</Omschrijving>
@@ -76879,7 +77279,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>338</ID>
 			<Code>LS-FL</Code>
 			<Omschrijving>Levensstadium-Flagellaat</Omschrijving>
@@ -76889,7 +77289,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>339</ID>
 			<Code>LS-JU</Code>
 			<Omschrijving>Levensstadium-Juveniel</Omschrijving>
@@ -76899,7 +77299,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>340</ID>
 			<Code>LS-KU</Code>
 			<Omschrijving>Levensstadium-Kuiken</Omschrijving>
@@ -76909,7 +77309,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>341</ID>
 			<Code>LS-LA</Code>
 			<Omschrijving>Levensstadium-Larve</Omschrijving>
@@ -76919,7 +77319,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>342</ID>
 			<Code>LS-NA</Code>
 			<Omschrijving>Levensstadium-Nauplius</Omschrijving>
@@ -76929,7 +77329,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>343</ID>
 			<Code>LS-NY</Code>
 			<Omschrijving>Levensstadium-Nimf</Omschrijving>
@@ -76939,7 +77339,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>344</ID>
 			<Code>LS-PO</Code>
 			<Omschrijving>Levensstadium-Pop</Omschrijving>
@@ -76949,7 +77349,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>345</ID>
 			<Code>LS-PU</Code>
 			<Omschrijving>Levensstadium-Pul of donsjong</Omschrijving>
@@ -76959,7 +77359,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>346</ID>
 			<Code>LS-SP</Code>
 			<Omschrijving>Levensstadium-Spore</Omschrijving>
@@ -76969,7 +77369,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>347</ID>
 			<Code>LS-VE</Code>
 			<Omschrijving>Levensstadium-Veliger</Omschrijving>
@@ -76979,7 +77379,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>348</ID>
 			<Code>LV-KOL</Code>
 			<Omschrijving>Levensvorm-Kolonie</Omschrijving>
@@ -76989,7 +77389,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>349</ID>
 			<Code>LV-SOL</Code>
 			<Omschrijving>Levensvorm-Solitair</Omschrijving>
@@ -77359,7 +77759,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2016-11-24" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>386</ID>
 			<Code>OPGLT</Code>
 			<Omschrijving>opgelost</Omschrijving>
@@ -77689,7 +78089,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>419</ID>
 			<Code>VL-0</Code>
 			<Omschrijving>Vislengteklasse-0 (0+: vis in het eerste levensjaar)</Omschrijving>
@@ -77699,7 +78099,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>420</ID>
 			<Code>VL-1</Code>
 			<Omschrijving>Vislengteklasse-1 (ouder dan 0+ en met een lengte t/m 15 cm)</Omschrijving>
@@ -77709,7 +78109,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>421</ID>
 			<Code>VL-2</Code>
 			<Omschrijving>Vislengteklasse-2 (16 t/m 25 cm)</Omschrijving>
@@ -77719,7 +78119,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>422</ID>
 			<Code>VL-3</Code>
 			<Omschrijving>Vislengteklasse-3 (26 t/m 40 cm)</Omschrijving>
@@ -77729,7 +78129,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>423</ID>
 			<Code>VL-4</Code>
 			<Omschrijving>Vislengteklasse-4 (groter dan 40 cm)</Omschrijving>
@@ -77739,7 +78139,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>424</ID>
 			<Code>VLSK-1</Code>
 			<Omschrijving>Vislengte snoek klasse 1 (0 t/m 15 cm)</Omschrijving>
@@ -77749,7 +78149,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>425</ID>
 			<Code>VLSK-2</Code>
 			<Omschrijving>Vislengte snoek klasse 2 (16 t/m 35 cm)</Omschrijving>
@@ -77759,7 +78159,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>426</ID>
 			<Code>VLSK-3</Code>
 			<Omschrijving>Vislengte snoek klasse 3 (36 t/m 44 cm)</Omschrijving>
@@ -77769,7 +78169,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>427</ID>
 			<Code>VLSK-4</Code>
 			<Omschrijving>Vislengte snoek klasse 4 (45 t/m 54 cm)</Omschrijving>
@@ -77779,7 +78179,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>428</ID>
 			<Code>VLSK-5</Code>
 			<Omschrijving>Vislengte snoek klasse 5 (groter dan 54 cm)</Omschrijving>
@@ -77789,7 +78189,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>429</ID>
 			<Code>VV-B</Code>
 			<Omschrijving>Verschijningsvorm-Behaard</Omschrijving>
@@ -77799,7 +78199,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>430</ID>
 			<Code>VV-G</Code>
 			<Omschrijving>Verschijningsvorm-Gepantserd</Omschrijving>
@@ -77809,7 +78209,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>431</ID>
 			<Code>VV-N</Code>
 			<Omschrijving>Verschijningsvorm-Naakt</Omschrijving>
@@ -77979,7 +78379,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>448</ID>
 			<Code>LS-DL</Code>
 			<Omschrijving>Levensstadium-Dauer larve</Omschrijving>
@@ -78699,7 +79099,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>580</ID>
 			<Code>LS-CE</Code>
 			<Omschrijving>Levensstadium-Cercarie</Omschrijving>
@@ -78909,7 +79309,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>607</ID>
 			<Code>GE-X</Code>
 			<Omschrijving>Geslacht-Onbekend</Omschrijving>
@@ -78919,7 +79319,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>605</ID>
 			<Code>LS-OV</Code>
 			<Omschrijving>Levensstadium-Onvolwassen</Omschrijving>
@@ -78929,7 +79329,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>606</ID>
 			<Code>LS-XX</Code>
 			<Omschrijving>Levensstadium-Onbekend</Omschrijving>
@@ -79039,7 +79439,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>615</ID>
 			<Code>VV-IM</Code>
 			<Omschrijving>Verschijningsvorm-Imposex</Omschrijving>
@@ -79049,7 +79449,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>614</ID>
 			<Code>VV-OB</Code>
 			<Omschrijving>Verschijningsvorm-Olie besmeurd</Omschrijving>
@@ -79059,7 +79459,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>621</ID>
 			<Code>FL-1-2um</Code>
 			<Omschrijving>Fytoplanktonl.klasse groter dan 1 en kleiner of gelijk 2 um</Omschrijving>
@@ -79069,7 +79469,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>622</ID>
 			<Code>FL-2-5um</Code>
 			<Omschrijving>Fytoplanktonl.klasse groter dan 2 en kleiner of gelijk 5 um</Omschrijving>
@@ -79079,7 +79479,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>623</ID>
 			<Code>FL-gd5um</Code>
 			<Omschrijving>Fytoplanktonlengteklasse groter dan 5 um</Omschrijving>
@@ -79089,7 +79489,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>620</ID>
 			<Code>FL-kd1um</Code>
 			<Omschrijving>Fytoplanktonlengteklasse kleiner of gelijk aan 1 um</Omschrijving>
@@ -79099,7 +79499,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>619</ID>
 			<Code>LS-EL</Code>
 			<Omschrijving>Levensstadium-Eerste levensjaar</Omschrijving>
@@ -79109,7 +79509,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>618</ID>
 			<Code>LV-CEL</Code>
 			<Omschrijving>Levensvorm-Cel (los)</Omschrijving>
@@ -79529,7 +79929,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>673</ID>
 			<Code>FL-11-20um</Code>
 			<Omschrijving>Fytoplanktonlengteklasse 11-20 um</Omschrijving>
@@ -79539,7 +79939,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>662</ID>
 			<Code>FL-5-10um</Code>
 			<Omschrijving>Fytoplanktonl.klasse groter dan 5 en kleiner of gelijk 10 um</Omschrijving>
@@ -79549,7 +79949,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>672</ID>
 			<Code>FL-gd20um</Code>
 			<Omschrijving>Fytoplanktonlengteklasse groter dan 20 um</Omschrijving>
@@ -79559,7 +79959,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>661</ID>
 			<Code>FL-kd10um</Code>
 			<Omschrijving>Fytoplanktonlengteklasse kleiner of gelijk aan 10 um</Omschrijving>
@@ -79569,7 +79969,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.7.0" datum="2022-05-18" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>660</ID>
 			<Code>FL-kd5um</Code>
 			<Omschrijving>Fytoplanktonlengteklasse kleiner of gelijk aan 5 um</Omschrijving>
@@ -79579,7 +79979,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>670</ID>
 			<Code>LV-KOL2-4cel</Code>
 			<Omschrijving>Levensvorm-Kolonie 2 tot 4 cellen</Omschrijving>
@@ -79589,7 +79989,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>671</ID>
 			<Code>LV-KOL5-10ce</Code>
 			<Omschrijving>Levensvorm-Kolonie 5 tot 10 cellen</Omschrijving>
@@ -79599,7 +79999,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>669</ID>
 			<Code>LV-KOLkd2cel</Code>
 			<Omschrijving>Levensvorm-Kolonie kleiner dan 2 cellen</Omschrijving>
@@ -79609,7 +80009,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>667</ID>
 			<Code>ZL-100-360um</Code>
 			<Omschrijving>Zoöplanktonlengteklasse 100-360 um</Omschrijving>
@@ -79619,7 +80019,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>668</ID>
 			<Code>ZL-50-100um</Code>
 			<Omschrijving>Zoöplanktonlengteklasse  50-100 um</Omschrijving>
@@ -79629,7 +80029,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>663</ID>
 			<Code>ZL-gd100um</Code>
 			<Omschrijving>Zoöplanktonlengteklasse groter dan 100 um</Omschrijving>
@@ -79639,7 +80039,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>665</ID>
 			<Code>ZL-gd1mm</Code>
 			<Omschrijving>Zoöplanktonlengteklasse groter dan 1 mm</Omschrijving>
@@ -79649,7 +80049,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>664</ID>
 			<Code>ZL-gd360um</Code>
 			<Omschrijving>Zoöplanktonlengteklasse groter dan 360 um</Omschrijving>
@@ -79659,7 +80059,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Hoedanigheid>
-		<Hoedanigheid versie="14.6.0" datum="2017-12-07" status="Vervallen">
+		<Hoedanigheid versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>666</ID>
 			<Code>ZL-kd1mm</Code>
 			<Omschrijving>Zoöplanktonlengteklasse kleiner dan 1 mm</Omschrijving>
@@ -87206,6 +87606,17 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
+		<Eenheid versie="14.7.0" datum="2026-07-02" status="Bevestigd">
+			<ID>388</ID>
+			<Code>ppb</Code>
+			<Waarde>parts per billion</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Overig</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Eenheid>
 	</sikb.Eenheid_c>
 	<sikb.Kwaliteitsoordeel_c categorie="Kwaliteitsoordeel" techName="Kwaliteitsoordeel" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<Kwaliteitsoordeel versie="14.6.0" datum="2013-04-10" status="Bevestigd">
@@ -89600,6 +90011,18 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bemonsteringsapparaat>
+		<Bemonsteringsapparaat versie="14.7.0" datum="2026-07-02" status="Bevestigd">
+			<ID>129</ID>
+			<Code>
+			</Code>
+			<Waarde>Werpvierkant</Waarde>
+			<Omschrijving>Een bemonsteringsapparaat bestaande uit een vierkant raamwerk met een vaste afmeting van 50 cm x 50 cm, dat wordt gebruikt om een vast monsteroppervlak af te bakenen voor het bepalen van de aanwezigheid, bedekking, dichtheid of abundantie van organismen of vegetatie</Omschrijving>
+			<Groep>Ecologische bemonstering</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Bemonsteringsapparaat>
 	</sikb.Bemonsteringsapparaat_c>
 	<sikb.MonsterType_c categorie="MonsterType" techName="MonsterType" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<MonsterType versie="14.7.0" datum="2024-07-19" status="Gewijzigd">
@@ -90174,7 +90597,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebewerkingsmethode>
-		<Waardebewerkingsmethode versie="14.6.0" datum="2015-11-26" status="Vervallen">
+		<Waardebewerkingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>47</ID>
 			<Code>ZHJ</Code>
 			<Omschrijving>Zomerhalfjaar</Omschrijving>
@@ -95075,7 +95498,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>369</ID>
 			<Code>I10693.04</Code>
 			<Waarde>NEN-ISO 10693:2004 en</Waarde>
@@ -96071,7 +96494,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>464</ID>
 			<Code>I16772.04</Code>
 			<Waarde>NEN-ISO 16772:2004 en</Waarde>
@@ -96095,7 +96518,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>467</ID>
 			<Code>I17353.05</Code>
 			<Waarde>NEN-EN-ISO 17353:2005 en</Waarde>
@@ -96227,7 +96650,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>480</ID>
 			<Code>I18857-1.06</Code>
 			<Waarde>NEN-EN-ISO 18857-1:2006 en</Waarde>
@@ -96371,7 +96794,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>493</ID>
 			<Code>I22478.06</Code>
 			<Waarde>NEN-EN-ISO 22478:2006 en</Waarde>
@@ -96539,7 +96962,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>509</ID>
 			<Code>I5961.95</Code>
 			<Waarde>NEN-EN-ISO 5961:1995 nl</Waarde>
@@ -96587,7 +97010,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>513</ID>
 			<Code>I6222.99</Code>
 			<Waarde>NEN-EN-ISO 6222:1999 en</Waarde>
@@ -96911,13 +97334,13 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-16" status="Gewijzigd">
 			<ID>545</ID>
 			<Code>I7899-1.98</Code>
 			<Waarde>NEN-EN-ISO 7899-1:1998 en</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>Norm vervallen</Groep>
+			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -97079,13 +97502,13 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-16" status="Gewijzigd">
 			<ID>563</ID>
 			<Code>I9308-3.99</Code>
 			<Waarde>NEN-EN-ISO 9308-3:1999 en</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>Norm vervallen</Groep>
+			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -97583,13 +98006,13 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-16" status="Gewijzigd">
 			<ID>613</ID>
 			<Code>N14486.05</Code>
 			<Waarde>NEN-EN 14486:2005 en</Waarde>
 			<Omschrijving>
 			</Omschrijving>
-			<Groep>Norm water-chemisch</Groep>
+			<Groep>Norm water-biologisch</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -97991,7 +98414,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>654</ID>
 			<Code>N5735.99</Code>
 			<Waarde>NEN 5735:1999 nl</Waarde>
@@ -98483,7 +98906,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>738</ID>
 			<Code>N6458.83</Code>
 			<Waarde>NEN 6458:1983 nl</Waarde>
@@ -99551,7 +99974,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>860</ID>
 			<Code>N6977+C1.10</Code>
 			<Waarde>NEN 6977:2008+C1:2010 nl</Waarde>
@@ -101363,7 +101786,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1016</ID>
 			<Code>RWSV-A1.002</Code>
 			<Waarde>RWS Analysevoorschrift-A1.002</Waarde>
@@ -101375,7 +101798,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1022</ID>
 			<Code>RWSV-A1.019</Code>
 			<Waarde>RWS Analysevoorschrift-A1.019</Waarde>
@@ -101387,7 +101810,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1030</ID>
 			<Code>RWSV-A1.032</Code>
 			<Waarde>RWS Analysevoorschrift-A1.032</Waarde>
@@ -101399,7 +101822,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1031</ID>
 			<Code>RWSV-A1.033</Code>
 			<Waarde>RWS Analysevoorschrift-A1.033</Waarde>
@@ -101411,7 +101834,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1026</ID>
 			<Code>RWSV-A1.035</Code>
 			<Waarde>RWS Analysevoorschrift-A1.035</Waarde>
@@ -101423,7 +101846,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1017</ID>
 			<Code>RWSV-A1.040</Code>
 			<Waarde>RWS Analysevoorschrift-A1.040</Waarde>
@@ -101435,7 +101858,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1025</ID>
 			<Code>RWSV-A1.072</Code>
 			<Waarde>RWS Analysevoorschrift-A1.072</Waarde>
@@ -101447,7 +101870,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1021</ID>
 			<Code>RWSV-A1.085</Code>
 			<Waarde>RWS Analysevoorschrift-A1.085</Waarde>
@@ -101459,7 +101882,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1023</ID>
 			<Code>RWSV-A1.086</Code>
 			<Waarde>RWS Analysevoorschrift-A1.086</Waarde>
@@ -101471,7 +101894,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1024</ID>
 			<Code>RWSV-A3.010</Code>
 			<Waarde>RWS Analysevoorschrift-A3.010</Waarde>
@@ -101483,7 +101906,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1018</ID>
 			<Code>RWSV-A4.411</Code>
 			<Waarde>RWS Analysevoorschrift-A4.411</Waarde>
@@ -101495,7 +101918,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1027</ID>
 			<Code>RWSV-A5.380</Code>
 			<Waarde>RWS Analysevoorschrift-A5.380</Waarde>
@@ -101507,7 +101930,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1028</ID>
 			<Code>RWSV-A5.390</Code>
 			<Waarde>RWS Analysevoorschrift-A5.390</Waarde>
@@ -101519,7 +101942,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1029</ID>
 			<Code>RWSV-A5.393</Code>
 			<Waarde>RWS Analysevoorschrift-A5.393</Waarde>
@@ -101531,7 +101954,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1019</ID>
 			<Code>RWSV-A5.398</Code>
 			<Waarde>RWS Analysevoorschrift-A5.398</Waarde>
@@ -101543,7 +101966,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
-		<Waardebepalingsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>1020</ID>
 			<Code>RWSV-A5.427</Code>
 			<Waarde>RWS Analysevoorschrift-A5.427</Waarde>
@@ -102512,6 +102935,17 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Waardebepalingsmethode>
+		<Waardebepalingsmethode versie="14.7.0" datum="2026-07-10" status="Bevestigd">
+			<ID>1119</ID>
+			<Code>I11206.13</Code>
+			<Waarde>NEN-EN-ISO 11206:2013 en</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>Norm water-chemisch</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Waardebepalingsmethode>
 	</sikb.Waardebepalingsmethode_c>
 	<sikb.MeetObjectSoort_c categorie="MeetObjectSoort" techName="MeetObjectSoort" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<MeetObjectSoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
@@ -102793,10 +103227,10 @@
 		</MonsterVerpakking>
 	</sikb.MonsterVerpakking_c>
 	<sikb.Meetinstantie_c categorie="Meetinstantie" techName="Meetinstantie" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>1</ID>
 			<Code>10</Code>
-			<Waarde>De Ruiter Boringen en Bemalingen</Waarde>
+			<Waarde>De Ruiter Grondwatertechniek - Haarlem NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -102805,7 +103239,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>2</ID>
 			<Code>6</Code>
 			<Waarde>Biochem Het MilieuLab</Waarde>
@@ -102817,7 +103251,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>3</ID>
 			<Code>14</Code>
 			<Waarde>Heinrici milieulaboratorium</Waarde>
@@ -102829,7 +103263,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>4</ID>
 			<Code>18</Code>
 			<Waarde>Pro Analyse</Waarde>
@@ -102841,7 +103275,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-11-21" status="Vervallen">
+		<Meetinstantie versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5</ID>
 			<Code>16</Code>
 			<Waarde>Omegam Laboratoria</Waarde>
@@ -102853,7 +103287,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>6</ID>
 			<Code>13</Code>
 			<Waarde>GCML</Waarde>
@@ -102865,10 +103299,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2022-11-30" status="Gewijzigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>7</ID>
 			<Code>2</Code>
-			<Waarde>SGS Environmental Analytics</Waarde>
+			<Waarde>SGS Environmental Analytics - Rotterdam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -102877,7 +103311,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>8</ID>
 			<Code>9</Code>
 			<Waarde>Daniel C. Griffith Holland</Waarde>
@@ -102889,7 +103323,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>9</ID>
 			<Code>17</Code>
 			<Waarde>Oranjewoud</Waarde>
@@ -102901,10 +103335,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>10</ID>
 			<Code>20</Code>
-			<Waarde>Tjaden</Waarde>
+			<Waarde>Tjaden - Zevenbergschen Hoek NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -102913,7 +103347,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>11</ID>
 			<Code>21</Code>
 			<Waarde>Witteveen + Bos</Waarde>
@@ -102925,10 +103359,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>12</ID>
 			<Code>3</Code>
-			<Waarde>AL-West</Waarde>
+			<Waarde>AL-West - Deventer NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -102937,10 +103371,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>13</ID>
 			<Code>4</Code>
-			<Waarde>Eurofins Analytico</Waarde>
+			<Waarde>Eurofins Analytico - Barneveld NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -102949,7 +103383,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>14</ID>
 			<Code>7</Code>
 			<Waarde>BLGG AgroXpertus</Waarde>
@@ -102961,7 +103395,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2014-11-20" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>15</ID>
 			<Code>58</Code>
 			<Waarde>BCO</Waarde>
@@ -102973,7 +103407,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>16</ID>
 			<Code>8</Code>
 			<Waarde>Centraal Bodemkundig Bureau</Waarde>
@@ -102985,10 +103419,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>17</ID>
 			<Code>1</Code>
-			<Waarde>ACMAA</Waarde>
+			<Waarde>Eurofins ACMAA - Deurningen NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -102997,7 +103431,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>18</ID>
 			<Code>12</Code>
 			<Waarde>Envirolab</Waarde>
@@ -103009,10 +103443,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>19</ID>
 			<Code>43</Code>
-			<Waarde>SGS &#039;s-Gravenpolder</Waarde>
+			<Waarde>SGS - Netherlands - s-Gravenpolder NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103021,7 +103455,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>20</ID>
 			<Code>15</Code>
 			<Waarde>IWACO milieulaboratorium</Waarde>
@@ -103033,7 +103467,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>21</ID>
 			<Code>11</Code>
 			<Waarde>Envirocontrol</Waarde>
@@ -103045,10 +103479,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-06-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>22</ID>
 			<Code>53</Code>
-			<Waarde>Fibrecount</Waarde>
+			<Waarde>SCI Compliance - Rotterdam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103057,10 +103491,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>23</ID>
 			<Code>42</Code>
-			<Waarde>RPS</Waarde>
+			<Waarde>RPS Analyse - Breda NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103069,10 +103503,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-06-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>24</ID>
 			<Code>54</Code>
-			<Waarde>Sanitas Milieu Services</Waarde>
+			<Waarde>Eurofins Sanitas - Barendrecht NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103081,10 +103515,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-06-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>25</ID>
 			<Code>55</Code>
-			<Waarde>Search BV</Waarde>
+			<Waarde>SGS Search - Heeswijk NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103093,10 +103527,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-06-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>26</ID>
 			<Code>56</Code>
-			<Waarde>Ecca NV</Waarde>
+			<Waarde>Eurofins ECCA - Merelbeke BE</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103105,10 +103539,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-06-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>27</ID>
 			<Code>57</Code>
-			<Waarde>Servaco NV</Waarde>
+			<Waarde>Normec Servaco - Wevelgem BE</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103117,10 +103551,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>28</ID>
 			<Code>36</Code>
-			<Waarde>Waterproef</Waarde>
+			<Waarde>Waterproef - Edam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103129,10 +103563,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>35</ID>
 			<Code>39</Code>
-			<Waarde>Aqualab</Waarde>
+			<Waarde>Aqualab Zuid - Werkendam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103141,10 +103575,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>36</ID>
 			<Code>5</Code>
-			<Waarde>AQUON</Waarde>
+			<Waarde>AQUON - Houten NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103213,7 +103647,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>42</ID>
 			<Code>38</Code>
 			<Waarde>BLGG-AGRIQ</Waarde>
@@ -103225,10 +103659,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>43</ID>
 			<Code>45</Code>
-			<Waarde>Het Waterlaboratorium</Waarde>
+			<Waarde>Het Waterlaboratorium - Haarlem NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103237,10 +103671,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>44</ID>
 			<Code>40</Code>
-			<Waarde>Incolab</Waarde>
+			<Waarde>Incolab Services - Oud-Beijerland NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103249,10 +103683,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>45</ID>
 			<Code>35</Code>
-			<Waarde>Intertek-Geleen</Waarde>
+			<Waarde>Intertek Chemicals and Pharmaceuticals - Geleen NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103261,10 +103695,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>46</ID>
 			<Code>41</Code>
-			<Waarde>KBBL</Waarde>
+			<Waarde>KBBL - Enschede NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103273,10 +103707,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>47</ID>
 			<Code>22</Code>
-			<Waarde>Koeman en Bijkerk</Waarde>
+			<Waarde>Waardenburg Ecology - Haren NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103285,10 +103719,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>48</ID>
 			<Code>44</Code>
-			<Waarde>Laboratorium Zeeuws Vlaanderen</Waarde>
+			<Waarde>Eurofins LZV Mileu - Graauw NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103297,10 +103731,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>49</ID>
 			<Code>19</Code>
-			<Waarde>SGS INTRON</Waarde>
+			<Waarde>SGS Intron - Sittard NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103309,10 +103743,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-04-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>50</ID>
 			<Code>37</Code>
-			<Waarde>Triskelion</Waarde>
+			<Waarde>Triskelion - Utrecht NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103321,10 +103755,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-10-15" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>51</ID>
 			<Code>46</Code>
-			<Waarde>Wageningen universiteit en onderzoeksinstituten</Waarde>
+			<Waarde>Wageningen University &amp; Research - Wageningen NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103333,10 +103767,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>52</ID>
 			<Code>47</Code>
-			<Waarde>Rijkswaterstaat Laboratorium</Waarde>
+			<Waarde>Rijkswaterstaat CIV - Lelystad NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103345,10 +103779,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-06-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>53</ID>
 			<Code>48</Code>
-			<Waarde>RIVM laboratorium</Waarde>
+			<Waarde>RIVM - Bilthoven NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103357,10 +103791,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-06-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>54</ID>
 			<Code>49</Code>
-			<Waarde>TNO laboratorium</Waarde>
+			<Waarde>TNO - Utrecht NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103369,10 +103803,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-06-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>55</ID>
 			<Code>50</Code>
-			<Waarde>Grontmij</Waarde>
+			<Waarde>Sweco - De Bilt NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103393,10 +103827,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2013-06-10" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>57</ID>
 			<Code>52</Code>
-			<Waarde>Aqualysis</Waarde>
+			<Waarde>Aqualysis - Zwolle NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103405,10 +103839,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2015-06-18" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>58</ID>
 			<Code>59</Code>
-			<Waarde>Sylphium molecular ecology</Waarde>
+			<Waarde>Sylphium molecular ecology - Groningen NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103417,7 +103851,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2015-06-18" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>59</ID>
 			<Code>60</Code>
 			<Waarde>Brachion-Idee</Waarde>
@@ -103429,10 +103863,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2015-06-18" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>60</ID>
 			<Code>61</Code>
-			<Waarde>KWR Nieuwegein</Waarde>
+			<Waarde>KWR - Nieuwegein NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103441,10 +103875,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>61</ID>
 			<Code>62</Code>
-			<Waarde>Deltares</Waarde>
+			<Waarde>Deltares - Delft NL</Waarde>
 			<Omschrijving>technologisch Top Instituut waarin Nederland zijn kennis, ervaring en specialisten op het gebied van deltatechnologie (water en ondergrond) bundelt.</Omschrijving>
 			<Groep>
 			</Groep>
@@ -103453,10 +103887,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2015-11-26" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>62</ID>
 			<Code>63</Code>
-			<Waarde>Laboratorium Waterschap Hunze en Aa&#039;s</Waarde>
+			<Waarde>Waterschap Hunze en Aa&#039;s - Veendam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103465,10 +103899,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-06-27" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>63</ID>
 			<Code>64</Code>
-			<Waarde>WLN</Waarde>
+			<Waarde>WLN - Glimmen NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103477,10 +103911,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2015-11-26" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>64</ID>
 			<Code>65</Code>
-			<Waarde>Laboratorium Wetterskip Fryslân</Waarde>
+			<Waarde>Wetterskip Fryslân - Leeuwarden NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103489,10 +103923,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2015-11-26" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>65</ID>
 			<Code>66</Code>
-			<Waarde>Technologiezentrum Wasser</Waarde>
+			<Waarde>Technologiezentrum Wasser - Karlsruhe-Hagsfeld DE</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103513,10 +103947,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2016-06-30" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>67</ID>
 			<Code>68</Code>
-			<Waarde>BioDetection Systems b.v.</Waarde>
+			<Waarde>BioDetection Systems - Amsterdam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103525,10 +103959,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2016-06-30" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>68</ID>
 			<Code>69</Code>
-			<Waarde>Van der Goes en Groot</Waarde>
+			<Waarde>Van der Goes en Groot - Rijswijk NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103537,10 +103971,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2016-06-30" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>69</ID>
 			<Code>70</Code>
-			<Waarde>Universiteit Leiden</Waarde>
+			<Waarde>Universiteit Leiden - Leiden NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103549,10 +103983,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2016-06-30" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>70</ID>
 			<Code>71</Code>
-			<Waarde>Eurofins Omegam</Waarde>
+			<Waarde>Eurofins Omegam - Amsterdam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103561,10 +103995,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2017-06-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>71</ID>
 			<Code>72</Code>
-			<Waarde>MasterLab</Waarde>
+			<Waarde>Trouw Nutrition MasterLab - Boxmeer NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103573,10 +104007,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2017-06-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>72</ID>
 			<Code>73</Code>
-			<Waarde>Opure</Waarde>
+			<Waarde>Opure - Ede NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103585,10 +104019,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2017-06-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>73</ID>
 			<Code>74</Code>
-			<Waarde>Heijdra Milieu Service</Waarde>
+			<Waarde>Heijdra Milieu Service - Vlaardingen NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103597,10 +104031,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2017-06-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>74</ID>
 			<Code>75</Code>
-			<Waarde>Eurofins AquaSense</Waarde>
+			<Waarde>Eurofins AquaSense - Amsterdam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103609,10 +104043,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2017-06-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>75</ID>
 			<Code>76</Code>
-			<Waarde>Veldflex</Waarde>
+			<Waarde>Veldflex - NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103621,10 +104055,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2017-06-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>76</ID>
 			<Code>77</Code>
-			<Waarde>Universiteit van Amsterdam</Waarde>
+			<Waarde>Universiteit van Amsterdam - Amsterdam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103633,10 +104067,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2017-12-07" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>78</ID>
 			<Code>78</Code>
-			<Waarde>VU Amsterdam</Waarde>
+			<Waarde>VU Amsterdam - Amsterdam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103645,10 +104079,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2017-12-07" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>79</ID>
 			<Code>79</Code>
-			<Waarde>ATKB</Waarde>
+			<Waarde>ATKB - Middelharnis NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103657,10 +104091,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2017-12-07" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>80</ID>
 			<Code>80</Code>
-			<Waarde>Tempelman Ecologie</Waarde>
+			<Waarde>Tempelman Ecologie - Vught NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103669,10 +104103,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2018-06-28" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>81</ID>
 			<Code>81</Code>
-			<Waarde>Diatomella</Waarde>
+			<Waarde>Diatomella - Overasselt NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103681,10 +104115,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2018-06-28" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>82</ID>
 			<Code>82</Code>
-			<Waarde>Hybilab</Waarde>
+			<Waarde>Hybilab - Gorinchem NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103693,10 +104127,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2018-06-28" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>83</ID>
 			<Code>83</Code>
-			<Waarde>Rijksuniversiteit Groningen</Waarde>
+			<Waarde>Rijksuniversiteit Groningen - Groningen NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103705,10 +104139,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2018-06-28" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>84</ID>
 			<Code>84</Code>
-			<Waarde>Bureau Waardenburg</Waarde>
+			<Waarde>Waardenburg Ecology - Culemborg NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103717,10 +104151,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2018-06-28" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>85</ID>
 			<Code>85</Code>
-			<Waarde>All Water Services</Waarde>
+			<Waarde>Normec All Water Services - ’s-Hertogenbosch NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103729,7 +104163,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2018-11-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>86</ID>
 			<Code>86</Code>
 			<Waarde>Stg. Streeklaboratorium voor de Volksgezondheid Kennemerland</Waarde>
@@ -103741,7 +104175,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2018-11-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>87</ID>
 			<Code>87</Code>
 			<Waarde>RIKILT onderdeel van de WUR</Waarde>
@@ -103753,10 +104187,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2018-11-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>88</ID>
 			<Code>88</Code>
-			<Waarde>NutriControl BV</Waarde>
+			<Waarde>NutriControl - Veghel NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103765,10 +104199,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-06-27" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>89</ID>
 			<Code>89</Code>
-			<Waarde>Vitens</Waarde>
+			<Waarde>Vitens -  Leeuwarden NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103777,10 +104211,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-06-27" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>90</ID>
 			<Code>90</Code>
-			<Waarde>AGROLAB Italia S.R.L. - Altavilla Vicentina. IT</Waarde>
+			<Waarde>AGROLAB Italia - Altavilla Vicentina IT</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103789,10 +104223,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-06-27" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>91</ID>
 			<Code>91</Code>
-			<Waarde>AGROLAB Labor GmbH - Bruckberg. DE (hoofdvestiging)</Waarde>
+			<Waarde>AGROLAB Labor - Bruckberg DE</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103801,10 +104235,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-06-27" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>92</ID>
 			<Code>92</Code>
-			<Waarde>AGROLAB Agrar und Umwelt GmbH - Kiel. DE</Waarde>
+			<Waarde>AGROLAB Umwelt - Kiel DE</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103813,10 +104247,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-06-27" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>93</ID>
 			<Code>93</Code>
-			<Waarde>AWV-Dr. Busse GmbH - Plauen. DE</Waarde>
+			<Waarde>AWV - Dr. Busse - Plauen - Deutschland DE</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103825,10 +104259,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-06-27" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>94</ID>
 			<Code>94</Code>
-			<Waarde>AGROLAB Austria GmbH - Meggenhofen. AT</Waarde>
+			<Waarde>AGROLAB Austria - Meggenhofen AT</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103837,10 +104271,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-06-27" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>95</ID>
 			<Code>95</Code>
-			<Waarde>AGROLAB Iberica S.L.U. - Burgos. ES</Waarde>
+			<Waarde>AGROLAB Ibérica - Burgos ES</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103849,10 +104283,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-06-27" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>96</ID>
 			<Code>96</Code>
-			<Waarde>AGROLAB Iberica S.L.U. - Tarragona. ES</Waarde>
+			<Waarde>AGROLAB Ibérica - Tarragona ES</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103861,10 +104295,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-11-21" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>97</ID>
 			<Code>97</Code>
-			<Waarde>Herman van Dam, Adviseur Water en Natuur</Waarde>
+			<Waarde>Water Natuur - Amsterdam NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103873,10 +104307,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2019-11-21" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>98</ID>
 			<Code>98</Code>
-			<Waarde>Stichting Naturalis Biodiversity Center</Waarde>
+			<Waarde>Naturalis Biodiversity Center - Leiden NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103909,10 +104343,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2020-11-19" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>101</ID>
 			<Code>101</Code>
-			<Waarde>Vlaamse Milieumaatschappij</Waarde>
+			<Waarde>Vlaamse Milieumaatschappij - Sint-Denijs-Westrem BE</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103921,10 +104355,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2021-06-24" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Gewijzigd">
 			<ID>102</ID>
 			<Code>102</Code>
-			<Waarde>TCKI Technisch Centrum voor de Keramische Industrie</Waarde>
+			<Waarde>TCKI - Velp NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103933,10 +104367,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2021-11-25" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>103</ID>
 			<Code>103</Code>
-			<Waarde>Nederlands Instituut voor Onderzoek der Zee (NIOZ)</Waarde>
+			<Waarde>NIOZ - Yerseke NL</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103945,10 +104379,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.6.0" datum="2021-11-25" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>104</ID>
 			<Code>104</Code>
-			<Waarde>Waterbouwkundig laboratorium Vlaanderen</Waarde>
+			<Waarde>Waterbouwkundig laboratorium Vlaanderen - Antwerpen BE</Waarde>
 			<Omschrijving/>
 			<Groep>
 			</Groep>
@@ -103957,10 +104391,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2022-05-18" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>105</ID>
 			<Code>105</Code>
-			<Waarde>Ecologisch Adviesbureau Stachys</Waarde>
+			<Waarde>Ecologisch Adviesbureau Stachys - Ooij BE</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -103969,10 +104403,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2022-05-18" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>106</ID>
 			<Code>106</Code>
-			<Waarde>Labo Devlieger - Van Vooren (LDVV), Zelzate</Waarde>
+			<Waarde>Group Van Vooren - Zelzate BE</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -103981,10 +104415,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2022-07-14" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>107</ID>
 			<Code>107</Code>
-			<Waarde>Sambiose</Waarde>
+			<Waarde>Sambiose - Etten-Leur NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -103993,10 +104427,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2023-01-19" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>108</ID>
 			<Code>108</Code>
-			<Waarde>MILON</Waarde>
+			<Waarde>MILON - Veghel NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104005,10 +104439,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2023-03-21" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>109</ID>
 			<Code>109</Code>
-			<Waarde>WESSLING Frankrijk</Waarde>
+			<Waarde>ALS Limited - Saint-Quentin-Fallavier FR</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104017,10 +104451,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2023-06-02" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>110</ID>
 			<Code>110</Code>
-			<Waarde>microLAN B.V.</Waarde>
+			<Waarde>microLAN B.V. - Waalwijk NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104029,10 +104463,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2023-07-06" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>111</ID>
 			<Code>111</Code>
-			<Waarde>Labo Derva</Waarde>
+			<Waarde>Labo Derva - Heusden-Zolder BE</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104041,10 +104475,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2024-07-09" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>112</ID>
 			<Code>112</Code>
-			<Waarde>Bureau Biota</Waarde>
+			<Waarde>Bureau Biota - Zwolle NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104053,10 +104487,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2024-08-29" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>113</ID>
 			<Code>113</Code>
-			<Waarde>Waders Milieu B.V.</Waarde>
+			<Waarde>Waders Milieu B.V. - Waddinxveen NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104065,7 +104499,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2024-11-28" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Vervallen">
 			<ID>115</ID>
 			<Code>115</Code>
 			<Waarde>AGROLAB France SARL - Dijon. FR</Waarde>
@@ -104089,10 +104523,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2025-05-24" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>116</ID>
 			<Code>116</Code>
-			<Waarde>Normec Groen Agro Control</Waarde>
+			<Waarde>Normec Groen Agro Control - Delfgauw NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104101,10 +104535,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2025-06-04" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>118</ID>
 			<Code>118</Code>
-			<Waarde>AGROLAB AWBE - Zelzate. BE</Waarde>
+			<Waarde>AGROLAB West Belgium - Zelzate BE</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104113,10 +104547,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2025-06-04" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>117</ID>
 			<Code>117</Code>
-			<Waarde>AGROLAB Dr. Verwey B.V. - Barendrecht. NL</Waarde>
+			<Waarde>AGROLAB Dr. Verwey - Barendrecht NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104125,10 +104559,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>119</ID>
 			<Code>119</Code>
-			<Waarde>SpyGen</Waarde>
+			<Waarde>SpyGen - Le Bourget-du-Lac FR</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104137,10 +104571,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2025-11-19" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>121</ID>
 			<Code>121</Code>
-			<Waarde>Datura Environmental Solutions</Waarde>
+			<Waarde>Datura Environmental Solutions - Wageningen NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104149,10 +104583,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2025-11-19" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-11" status="Bevestigd">
 			<ID>120</ID>
 			<Code>120</Code>
-			<Waarde>Ecofide</Waarde>
+			<Waarde>Ecofide - Epe NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -104881,6 +105315,18 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
+		<Meetinstantie versie="14.7.0" datum="2026-07-22" status="Bevestigd">
+			<ID>185</ID>
+			<Code>185</Code>
+			<Waarde>Inventeers Manufacturing Services B.V. - Leiden NL</Waarde>
+			<Omschrijving>undefined</Omschrijving>
+			<Groep>
+			</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Meetinstantie>
 	</sikb.Meetinstantie_c>
 	<sikb.CertificeringsCode_c categorie="CertificeringsCode" techName="CertificeringsCode" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<CertificeringsCode versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
@@ -105319,24 +105765,24 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-18" status="Bevestigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-22" status="Bevestigd">
 			<ID>13</ID>
 			<Code>undefined</Code>
 			<Waarde>weinig (2%-5%)</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>true</broSadImbroA>
+			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-18" status="Bevestigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-22" status="Bevestigd">
 			<ID>12</ID>
 			<Code>undefined</Code>
 			<Waarde>zeer weinig (&gt;0%-2%)</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>undefined</Groep>
-			<broSadImbroA>true</broSadImbroA>
+			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
@@ -111087,7 +111533,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</RolBetrokkene>
-		<RolBetrokkene versie="14.6.0" datum="2015-11-26" status="Vervallen">
+		<RolBetrokkene versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>2</ID>
 			<Code>39</Code>
 			<Waarde>Adviseur</Waarde>
@@ -111120,7 +111566,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</RolBetrokkene>
-		<RolBetrokkene versie="14.6.0" datum="2015-11-26" status="Vervallen">
+		<RolBetrokkene versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>5</ID>
 			<Code>41</Code>
 			<Waarde>Erfpachter</Waarde>
@@ -111142,7 +111588,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</RolBetrokkene>
-		<RolBetrokkene versie="14.6.0" datum="2015-11-26" status="Vervallen">
+		<RolBetrokkene versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>7</ID>
 			<Code>43</Code>
 			<Waarde>Gemachtigde</Waarde>
@@ -111351,7 +111797,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</RolBetrokkene>
-		<RolBetrokkene versie="14.6.0" datum="2015-11-26" status="Vervallen">
+		<RolBetrokkene versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>26</ID>
 			<Code>59</Code>
 			<Waarde>Projectleider</Waarde>
@@ -111362,7 +111808,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</RolBetrokkene>
-		<RolBetrokkene versie="14.6.0" datum="2015-11-26" status="Vervallen">
+		<RolBetrokkene versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>27</ID>
 			<Code>31</Code>
 			<Waarde>Monsternemer</Waarde>
@@ -111373,7 +111819,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</RolBetrokkene>
-		<RolBetrokkene versie="14.6.0" datum="2015-11-26" status="Vervallen">
+		<RolBetrokkene versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>28</ID>
 			<Code>60</Code>
 			<Waarde>Boormeester</Waarde>
@@ -120589,7 +121035,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Conserveringsmethode>
-		<Conserveringsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Conserveringsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>7</ID>
 			<Code>pH&lt;2 (geen H</Code>
 			<Waarde>pH&lt;2 (geen H2SO4)</Waarde>
@@ -120613,7 +121059,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Conserveringsmethode>
-		<Conserveringsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Conserveringsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>9</ID>
 			<Code>pH&lt;2 met H2S</Code>
 			<Waarde>pH&lt;2 met H2SO4,HCl of HNO3</Waarde>
@@ -120637,7 +121083,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Conserveringsmethode>
-		<Conserveringsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Conserveringsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>11</ID>
 			<Code>T 0-5°C</Code>
 			<Waarde>T 0-5°C, donker</Waarde>
@@ -120709,7 +121155,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Conserveringsmethode>
-		<Conserveringsmethode versie="14.7.0" datum="2024-08-29" status="Vervallen">
+		<Conserveringsmethode versie="14.7.0" datum="2026-07-21" status="Vervallen">
 			<ID>17</ID>
 			<Code>T 2-6°C</Code>
 			<Waarde>T 2-6°C, donker</Waarde>
