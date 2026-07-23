@@ -663,7 +663,7 @@
 		<!-- Controle NA de foreach -->
 		<xsl:if test="not(contains($gevondenIndicators, 'grondsoort'))
               and not(contains($gevondenIndicators, 'bzb'))">
-			<xsl:variable name="message" select="replace(string-join(('Bij Laag', $prGUID, 'is geen Grondsoort en geen BZB gevonden, dit is niet toegestaan.'), ' '), '  ', ' ')"/>
+			<xsl:variable name="message" select="replace(string-join(('Bij Laag', $prGUID, 'is geen Grondsoort en geen Bijzonder bestanddeel gevonden, dit is niet toegestaan.'), ' '), '  ', ' ')"/>
 			<xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:Layer', $message)"/>
 		</xsl:if>		
 		
