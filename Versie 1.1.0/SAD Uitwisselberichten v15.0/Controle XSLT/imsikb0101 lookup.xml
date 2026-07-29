@@ -161,254 +161,253 @@
 		</Initiatief>
 	</sikb.Initiatief_c>
 	<sikb.VervolgWBB_c categorie="VervolgWBB" techName="VervolgWBB" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>uitvoeren OO</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een oriënterend onderzoek worden uitgevoerd naar de aard en ernst van de (mogelijke) verontreiniging. De basis voor dit onderzoek is het &#039;Protocol Oriënterend Onderzoek&#039; (Sdu, 1993)</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een oriënterend onderzoek worden uitgevoerd naar de aard en ernst van de (mogelijke) verontreiniging. De basis voor dit onderzoek is het &#039;Protocol Oriënterend Onderzoek&#039; (Sdu, 1993).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>uitvoeren NO</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een nader onderzoek worden uitgevoerd om de omvang en ernst van de vastgestelde verontreiniging te bepalen. De basis voor dit onderzoek is het &#039;Protocol Nader onderzoek deel 1&#039; (Sdu, 1995) of de &#039;Richtlijn nader onderzoek&#039; (Sdu, 1995)</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een nader onderzoek worden uitgevoerd om de omvang en ernst van de vastgestelde verontreiniging te bepalen. De basis voor dit onderzoek is het &#039;Protocol Nader onderzoek deel 1&#039; (Sdu, 1995) of de &#039;Richtlijn nader onderzoek&#039; (Sdu, 1995).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>uitvoeren aanvullend onderzoek</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een aanvullend onderzoek worden uitgevoerd naar de aard en ernst van de (mogelijke) verontreiniging</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een aanvullend onderzoek worden uitgevoerd naar de aard en ernst van de (mogelijke) verontreiniging.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>uitvoeren SO</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet voor de vastgestelde verontreiniging een saneringsonderzoek worden uitgevoerd. In dit onderzoek worden een aantal saneringsvarianten tegen elkaar afgewogen en wordt een voorkeursvariant geadviseerd</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet voor de vastgestelde verontreiniging een saneringsonderzoek worden uitgevoerd. In dit onderzoek worden een aantal saneringsvarianten tegen elkaar afgewogen en wordt een voorkeursvariant geadviseerd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>opstellen SP</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet een saneringsplan voor de vastgestelde verontreiniging worden opgesteld. In dit plan wordt een saneringsvariant uitgewerkt</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet een saneringsplan voor de vastgestelde verontreiniging worden opgesteld. In dit plan wordt een saneringsvariant uitgewerkt.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>6</ID>
 			<Code/>
 			<Waarde>starten sanering</Waarde>
-			<Omschrijving>Om de verontreiniging te verwijderen of te beheren moet worden gestart met de sanering</Omschrijving>
+			<Omschrijving>Om de verontreiniging te verwijderen of te beheren moet worden gestart met de sanering.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>7</ID>
 			<Code/>
 			<Waarde>uitvoeren tijdelijke beveiliging</Waarde>
-			<Omschrijving>Om bij de verontreiniging risico&#039;s voor de mens, ecologie en/of verspreiding weg te nemen moet een tijdelijke beveiliging zijn aangebracht of tijdelijke maatregelen zijn genomen</Omschrijving>
+			<Omschrijving>Om bij de verontreiniging risico&#039;s voor de mens, ecologie en/of verspreiding weg te nemen moet een tijdelijke beveiliging zijn aangebracht of tijdelijke maatregelen zijn genomen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>8</ID>
 			<Code/>
 			<Waarde>uitvoeren evaluatie</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet na het uitvoeren van de sanering een evaluatie worden opgesteld. In de evaluatie moet naar voren komen in hoeverre de saneringsdoelstellingen zijn gehaald die in het saneringsplan zijn geformuleerd</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet na het uitvoeren van de sanering een evaluatie worden opgesteld. In de evaluatie moet naar voren komen in hoeverre de saneringsdoelstellingen zijn gehaald die in het saneringsplan zijn geformuleerd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>9</ID>
 			<Code/>
 			<Waarde>uitvoeren actieve nazorg</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming vindt na de sanering actieve nazorg plaats om de (rest)verontreiniging te beheersen en te beheren</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming vindt na de sanering actieve nazorg plaats om de (rest)verontreiniging te beheersen en te beheren.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>10</ID>
 			<Code/>
 			<Waarde>monitoring</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming wordt na de sanering de (rest)verontreiniging gemonitoord om deze te beheersen en te beheren</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming wordt na de sanering de (rest)verontreiniging gemonitoord om deze te beheersen en te beheren.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>11</ID>
 			<Code/>
 			<Waarde>registratie restverontreiniging</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming is de achtergebleven verontreiniging na de sanering (restverontreiniging) geregistreerd in het BIS van de overheid, en daarnaast bij het Kadaster</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming is de achtergebleven verontreiniging na de sanering (restverontreiniging) geregistreerd in het BIS van de overheid, en daarnaast bij het Kadaster.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.6.0" datum="2002-10-15" status="Vervallen">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>12</ID>
 			<Code/>
 			<Waarde>voldoende onderzocht en/of gesaneerd</Waarde>
-			<Omschrijving>voldoende onderzocht en/of gesaneerd</Omschrijving>
+			<Omschrijving>Voldoende onderzocht en/of gesaneerd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>13</ID>
 			<Code/>
 			<Waarde>Uitvoeren aanvullend OO</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een aanvullend oriënterend onderzoek worden uitgevoerd naar de aard en ernst van de (mogelijke) verontreiniging.De basis voor dit onderzoek is het &#039;Protocol Oriënterend Onderzoek&#039; (Sdu, 1993)</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een aanvullend oriënterend onderzoek worden uitgevoerd naar de aard en ernst van de (mogelijke) verontreiniging.De basis voor dit onderzoek is het &#039;Protocol Oriënterend Onderzoek&#039; (Sdu, 1993).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>14</ID>
 			<Code/>
 			<Waarde>Uitvoeren aanvullend NO</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een aanvullend nader onderzoek worden uitgevoerd om de omvang en ernst van de vastgestelde verontreiniging te bepalen. De basis voor dit onderzoek is het &#039;Protocol Nader onderzoek deel 1&#039; (Sdu, 1995) of de &#039;Richtlijn nader onderzoek&#039; (Sdu, 1995)</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet op de locatie een aanvullend nader onderzoek worden uitgevoerd om de omvang en ernst van de vastgestelde verontreiniging te bepalen. De basis voor dit onderzoek is het &#039;Protocol Nader onderzoek deel 1&#039; (Sdu, 1995) of de &#039;Richtlijn nader onderzoek&#039; (Sdu, 1995).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>15</ID>
 			<Code/>
 			<Waarde>Uitvoeren aanvullend SO</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet voor de vastgestelde verontreiniging een aanvullend saneringsonderzoek worden uitgevoerd. In dit onderzoek worden een aantal saneringsvarianten tegen elkaar afgewogen en wordt een voorkeursvariant geadviseerd</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet voor de vastgestelde verontreiniging een aanvullend saneringsonderzoek worden uitgevoerd. In dit onderzoek worden een aantal saneringsvarianten tegen elkaar afgewogen en wordt een voorkeursvariant geadviseerd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>16</ID>
 			<Code/>
 			<Waarde>Uitvoeren aanvullend SP</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet een aanvullend saneringsplan voor de vastgestelde verontreiniging worden opgesteld. In dit plan wordt een aanvullende saneringsvariant uitgewerkt</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet een aanvullend saneringsplan voor de vastgestelde verontreiniging worden opgesteld. In dit plan wordt een aanvullende saneringsvariant uitgewerkt.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>17</ID>
 			<Code/>
 			<Waarde>Uitvoeren aanvullende sanering</Waarde>
-			<Omschrijving>Om de verontreiniging te verwijderen of te beheren moet worden gestart met de aanvullende sanering</Omschrijving>
+			<Omschrijving>Om de verontreiniging te verwijderen of te beheren moet worden gestart met de aanvullende sanering.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>18</ID>
 			<Code/>
 			<Waarde>Uitvoeren aanvullende saneringsevaluatie</Waarde>
-			<Omschrijving>In het kader van de Wet bodembescherming moet na het uitvoeren van de aanvullende sanering een aanvullende evaluatie worden opgesteld. In de aanvullende evaluatie moet naar voren komen in hoeverre de aanvullende saneringsdoelstellingen zijn gehaald die in het aanvullende saneringsplan zijn geformuleerd</Omschrijving>
+			<Omschrijving>In het kader van de Wet bodembescherming moet na het uitvoeren van de aanvullende sanering een aanvullende evaluatie worden opgesteld. In de aanvullende evaluatie moet naar voren komen in hoeverre de aanvullende saneringsdoelstellingen zijn gehaald die in het aanvullende saneringsplan zijn geformuleerd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>19</ID>
 			<Code/>
 			<Waarde>Uitvoeren historisch onderzoek</Waarde>
-			<Omschrijving>Op de onderzoekslocatie moet een historisch onderzoek worden uitgevoerd. Uit dit onderzoek moet blijken of op de onderzoekslocatie activiteiten aanwezig zijn (geweest) die de bodem mogelijk hebben verontreinigd</Omschrijving>
+			<Omschrijving>Op de onderzoekslocatie moet een historisch onderzoek worden uitgevoerd. Uit dit onderzoek moet blijken of op de onderzoekslocatie activiteiten aanwezig zijn (geweest) die de bodem mogelijk hebben verontreinigd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>20</ID>
 			<Code/>
 			<Waarde>voldoende onderzocht</Waarde>
-			<Omschrijving>De resultaten van het uitgevoerde (historische) bodemonderzoek geven aan dat de (voormalige) activiteiten en/of de onderzoekslocatie voldoende zijn onderzocht in het kader van de Wet bodembescherming</Omschrijving>
+			<Omschrijving>De resultaten van het uitgevoerde (historische) bodemonderzoek geven aan dat de (voormalige) activiteiten en/of de onderzoekslocatie voldoende zijn onderzocht in het kader van de Wet bodembescherming.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>21</ID>
 			<Code/>
 			<Waarde>voldoende gesaneerd</Waarde>
-			<Omschrijving>De resultaten van de evaluatie van de sanering geven aan dat de vastgestelde verontreiniging voldoende is gesaneerd in het kader van de Wet bodembescherming</Omschrijving>
+			<Omschrijving>De resultaten van de evaluatie van de sanering geven aan dat de vastgestelde verontreiniging voldoende is gesaneerd in het kader van de Wet bodembescherming.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>22</ID>
 			<Code/>
 			<Waarde>Hbb-cluster-inactief</Waarde>
-			<Omschrijving>Op basis van de informatie uit het Historisch BodemBestand is op deze locatie in het kader van de bodemsaneringsoperatie geen vervolgonderzoek noodzakelijk. Op deze locaties is pas op termijn, of eerder bij locatieontwikkeling, een vervolgonderzoek noodzakelijk om de aard en ernst van de mogelijke verontreiniging vast te stellen</Omschrijving>
+			<Omschrijving>Op basis van de informatie uit het Historisch BodemBestand is op deze locatie in het kader van de bodemsaneringsoperatie geen vervolgonderzoek noodzakelijk. Op deze locaties is pas op termijn, of eerder bij locatieontwikkeling, een vervolgonderzoek noodzakelijk om de aard en ernst van de mogelijke verontreiniging vast te stellen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</VervolgWBB>
-		<VervolgWBB versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<VervolgWBB versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>23</ID>
 			<Code/>
 			<Waarde>Beheerst volgens convenant</Waarde>
-			<Omschrijving>Spoedlocaties worden binnen het convenant bijv. als &#039;beheerst&#039; beschouwd als de humane risico&#039;s weggenomen zijn. Bij verspreidingsrisico kan sprake zijn van monitoring als saneringsmaatregel volgens een (ouder) saneringsplan. In dergelijke gevallen kan het zijn dat er geen spoedeisende risico&#039;s meer zijn en de locatie derhalve volgens binnen het convenant &#039;beheerst&#039; is. Er zijn daarmee locaties waar op korte termijn nog geen evaluatie volgt (omdat dit in volgens het beschikte SP nog niet aan de orde is) en er dus nog geen afsluiting van het WBB-traject is. Beheerst volgens convenant: We kennen twee convenanten, &#039;Convenant Bodemontwikkelingsbeleid en aanpak spoedlocaties 2010-2015&#039; en &#039;Convenant Bodem en Ondergrond 2016-2020&#039;.
-				Dus deze waarden zouden beschikbaar moeten zijn.</Omschrijving>
+			<Omschrijving>Spoedlocaties worden binnen het convenant bijv. als &#039;beheerst&#039; beschouwd als de humane risico&#039;s weggenomen zijn. Bij verspreidingsrisico kan sprake zijn van monitoring als saneringsmaatregel volgens een (ouder) saneringsplan. In dergelijke gevallen kan het zijn dat er geen spoedeisende risico&#039;s meer zijn en de locatie derhalve volgens binnen het convenant &#039;beheerst&#039; is. Er zijn daarmee locaties waar op korte termijn nog geen evaluatie volgt (omdat dit in volgens het beschikte SP nog niet aan de orde is) en er dus nog geen afsluiting van het WBB-traject is. Beheerst volgens convenant: We kennen twee convenanten, &#039;Convenant Bodemontwikkelingsbeleid en aanpak spoedlocaties 2010-2015&#039; en &#039;Convenant Bodem en Ondergrond 2016-2020&#039;. Dus deze waarden zouden beschikbaar moeten zijn.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -683,176 +682,176 @@
 		</Gebruik>
 	</sikb.Gebruik_c>
 	<sikb.Gebruiksbeperkingen_c categorie="Gebruiksbeperkingen" techName="Gebruiksbeperkingen" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>Leeflaag in stand houden</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: de op de locatie aangebrachte leeflaag moet te allen tijde in stand gehouden worden</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: de op de locatie aangebrachte leeflaag moet te allen tijde in stand gehouden worden.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>Open verharding handhaven</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: de op de locatie aangebrachte open verharding moet te allen tijde gehandhaafd blijven</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: de op de locatie aangebrachte open verharding moet te allen tijde gehandhaafd blijven.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>Gesloten verharding handhaven</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: de op de locatie aangebrachte gesloten verharding moet te allen tijde gehandhaafd blijven</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: de op de locatie aangebrachte gesloten verharding moet te allen tijde gehandhaafd blijven.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>Verbod grazen vee</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden om vee te laten grazen</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden om vee te laten grazen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>Verbod gewasteelt</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden om gewassen te telen</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden om gewassen te telen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>6</ID>
 			<Code/>
 			<Waarde>Verbod bouwactiviteiten</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden om opstallen te bouwen</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden om opstallen te bouwen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>7</ID>
 			<Code/>
 			<Waarde>Verbod graafactiviteiten</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden graafactiviteiten uit te voeren</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden graafactiviteiten uit te voeren.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>8</ID>
 			<Code/>
 			<Waarde>Verbod betreden locaties</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op het is verboden om de locatie te betreden</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op het is verboden om de locatie te betreden.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>9</ID>
 			<Code/>
 			<Waarde>Verbod onttrekking grondwater</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden grondwater te onttrekken</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden grondwater te onttrekken.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>10</ID>
 			<Code/>
 			<Waarde>Grw onttrekkingssysteem</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet een grondwater onttrekkingssysteem worden aangelegd</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet een grondwater onttrekkingssysteem worden aangelegd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>11</ID>
 			<Code/>
 			<Waarde>Luchtverversingssysteem</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet een luchtverversingssysteem worden aangelegd</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet een luchtverversingssysteem worden aangelegd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>12</ID>
 			<Code/>
 			<Waarde>Verbod aanleg veedrenkputten</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden veedrenkputten aan te leggen</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie is het verboden veedrenkputten aan te leggen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>13</ID>
 			<Code/>
 			<Waarde>Aandacht voor drinkwaterleidingen</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet op korte termijn worden onderzocht of de vastgestelde verontreiniging invloed heeft (gehad) op de drinkwaterleidingen en de kwaliteit van het drinkwater</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet op korte termijn worden onderzocht of de vastgestelde verontreiniging invloed heeft (gehad) op de drinkwaterleidingen en de kwaliteit van het drinkwater.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>14</ID>
 			<Code/>
 			<Waarde>Monitoring grondwater</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet de vastgestelde grondwaterverontreiniging worden gemonitoord</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet de vastgestelde grondwaterverontreiniging worden gemonitoord.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>15</ID>
 			<Code/>
 			<Waarde>Monitoring lucht</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet de luchtkwaliteit worden gemonitoord</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie moet de luchtkwaliteit worden gemonitoord.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Gebruiksbeperkingen>
-		<Gebruiksbeperkingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<Gebruiksbeperkingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>16</ID>
 			<Code/>
 			<Waarde>Verbod verwijderen/beschadigen nazorgvoorzieningen</Waarde>
-			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie zijn na de sanering voor de restverontreiniging nazorgvoorzieningen aangebracht. Het is verboden deze te verwijderen of te beschadigen</Omschrijving>
+			<Omschrijving>Het bevoegd gezag Wet bodembescherming  heeft in een beschikking aangegeven dat als gevolg van de vastgestelde verontreiniging en/of de uitgevoerde sanering op de locatie een gebruiksbeperking bestaat: op de locatie zijn na de sanering voor de restverontreiniging nazorgvoorzieningen aangebracht. Het is verboden deze te verwijderen of te beschadigen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -984,44 +983,44 @@
 		</Zorg>
 	</sikb.Zorg_c>
 	<sikb.ContourType_c categorie="ContourType" techName="ContourType" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<ContourType versie="14.7.0" datum="2024-11-05" status="Gewijzigd">
+		<ContourType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>Grond</Waarde>
-			<Omschrijving>De contour betreft de matrix &#039;grond&#039; en bevat alleen data die over de grond gaat</Omschrijving>
+			<Omschrijving>De contour betreft de matrix &#039;grond&#039; en bevat alleen data die over de grond gaat.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</ContourType>
-		<ContourType versie="14.7.0" datum="2024-11-05" status="Gewijzigd">
+		<ContourType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>Grondwater</Waarde>
-			<Omschrijving>De contour betreft de matrix &#039;grondwater&#039; en bevat alleen data die over het grondwater gaat</Omschrijving>
+			<Omschrijving>De contour betreft de matrix &#039;grondwater&#039; en bevat alleen data die over het grondwater gaat.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</ContourType>
-		<ContourType versie="14.7.0" datum="2023-12-13" status="Gewijzigd">
+		<ContourType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>Waterbodem</Waarde>
-			<Omschrijving>De contour betreft de matrix &#039;waterbodem&#039; en bevat alleen data die over de waterbodem gaat</Omschrijving>
+			<Omschrijving>De contour betreft de matrix &#039;waterbodem&#039; en bevat alleen data die over de waterbodem gaat.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</ContourType>
-		<ContourType versie="14.6.0" datum="2002-10-15" status="Vervallen">
+		<ContourType versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>Grond en Grondwater</Waarde>
-			<Omschrijving>Grond en Grondwater</Omschrijving>
+			<Omschrijving>De contour betreft de matrices &#039;grond&#039; en &#039;grondwater&#039; en bevat data die over de grond en het grondwater gaat.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -1052,11 +1051,11 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Overschrijding>
-		<Overschrijding versie="14.7.0" datum="2024-12-10" status="Gewijzigd">
+		<Overschrijding versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>I</Waarde>
-			<Omschrijving>Toetsing heeft plaatsgevonden met concentraties van stoffen waarbij de internventiewaarde is overschreden. Er bestaan significante risico&#039;s voor mens, plant of dier als gevolg van verontreiniging van de bodem.</Omschrijving>
+			<Omschrijving>Toetsing heeft plaatsgevonden met concentraties van stoffen waarbij de interventiewaarde is overschreden. Er bestaan significante risico&#039;s voor mens, plant of dier als gevolg van verontreiniging van de bodem.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -1168,154 +1167,154 @@
 		</Overschrijding>
 	</sikb.Overschrijding_c>
 	<sikb.San_bovengrond_c categorie="San_bovengrond" techName="San_bovengrond" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>voll. verw., aanvulgrond schoon (MF)</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de vastgestelde verontreiniging is volledig verwijderd. De ontgraven bodemlaag is aangevuld met schone grond</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt een stabiele eindsituatie gerealiseerd zonder restverontreiniging, zorgmaatregelen of monitoring. Dit betreft een volledige verwijdering die zowel &#039;direct&#039; als na maximaal 30 jaar kan worden gerealiseerd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>voll. verw., aanvulgrond achtergrond</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de vastgestelde verontreiniging is volledig verwijderd. De ontgraven bodemlaag is aangevuld met grond waarvan de kwaliteit vergelijkbaar is met de kwaliteit van de bovengrond in de omgeving (achtergrondwaarde)</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de vastgestelde verontreiniging is volledig verwijderd. De ontgraven bodemlaag is aangevuld met grond waarvan de kwaliteit vergelijkbaar is met de kwaliteit van de bovengrond in de omgeving (achtergrondwaarde).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>voll. verw., aanvulgrond BGW</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de vastgestelde verontreiniging is volledig verwijderd. De ontgraven bodemlaag is aangevuld met grond waarvan de kwaliteit voldoet aan de BodemGebruiksWaarden (BGW) voor de betreffende locatie</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt een stabiele eindsituatie gerealiseerd met een kleine restverontreiniging en passieve zorg. Na de sanering is het niet noodzakelijk de bodemverontreiniging te monitoren. &#039;klein&#039; betekent: niet ernstig restverontreinigingen met een relatief beperkt volume (&lt; 5.000m3 grond tussen S-T-waarde, &lt; 1.000 m3 grond tussen T-I-waarde, &lt; 10.000m3 grondwater tussen S-T-waarde, &lt; 1.000 m3 grondwater tussen T-I-waarde).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>aanbrengen schone leeflaag</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: op de vastgestelde verontreiniging is een leeflaag van schone grond aangebracht</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: op de vastgestelde verontreiniging is een leeflaag van schone grond aangebracht.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>aanbrengen leeflaag achtergrondwaarde</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: op de vastgestelde verontreiniging is een leeflaag aangebracht waarvan de kwaliteit vergelijkbaar is met de kwaliteit van de bovengrond in de omgeving (achtergrondwaarde)</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt een stabiele eindsituatie gerealiseerd met een grote restverontreiniging en passieve zorg. Na de sanering is het niet noodzakelijk de bodemverontreiniging te monitoren. &#039;groot&#039; betekent: ernstige restverontreinigingen en de niet-ernstige restverontreinigingen met een relatief groot volume (groter dan de bij &#039;klein&#039; genoemde grenswaarden. Puur product wordt altijd ingedeeld als &#039;groot&#039;.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>6</ID>
 			<Code/>
 			<Waarde>aanbrengen leeflaag BGW</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: op de vastgestelde verontreiniging is een leeflaag aangebracht waarvan de kwaliteit voldoet aan de BodemGebruiksWaarden (BGW) voor de betreffende locatie</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: op de vastgestelde verontreiniging is een leeflaag aangebracht waarvan de kwaliteit voldoet aan de BodemGebruiksWaarden (BGW) voor de betreffende locatie.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>7</ID>
 			<Code/>
 			<Waarde>aanbrengen verharding/isolatie</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: op de vastgestelde verontreiniging is een verhardingslaag aangebracht waardoor de verontreiniging is geïsoleerd</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt geen stabiele eindsituatie gerealiseerd. Er moet actieve nazorg plaatsvinden in de vorm van een eeuwigdurende bewaking door middel van montioringssysteem.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>8</ID>
 			<Code/>
 			<Waarde>Niet van toepassing</Waarde>
-			<Omschrijving>Er is geen saneringsvariant voor de bovengrond van toepassing</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de ondergrond is/wordt uitgevoerd: na de sanering wordt geen stabiele eindsituatie gerealiseerd. Er moet actieve nazorg plaatsvinden in de vorm van het actief beheersen en/of isoleren (IBC) van de verontreiniging en monitoren ter voorkoming van risico&#039;s en verspreiding.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>9</ID>
 			<Code/>
 			<Waarde>Volledig verwijderen, aanvulgrond Maximale Waarde</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de verontreiniging is volledig verwijderd. De ontgraven bodemlaag is aangevuld met grond met een kwaliteit gelijk of beter dan de Maximale Waarde die geldt op de betreffende locatie (zie Besluit bodemkwaliteit en/of de bodemfunctieklassenkaart)</Omschrijving>
+			<Omschrijving>Er is geen saneringsvariant voor de ondergrond van toepassing.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>10</ID>
 			<Code/>
 			<Waarde>Aanbrengen leeflaag Maximale Waarde</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: op de vastgestelde verontreiniging is een leeflaaf aangebracht waarvan de kwaliteit gelijk of beter dan de Maximale Waarde die geldt op de betreffende locatie (zie Besluit bodemkwaliteit en/of de bodemfunctieklassenkaart)</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: op de vastgestelde verontreiniging is een leeflaaf aangebracht waarvan de kwaliteit gelijk of beter dan de Maximale Waarde die geldt op de betreffende locatie (zie Besluit bodemkwaliteit en/of de bodemfunctieklassenkaart).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>11</ID>
 			<Code/>
 			<Waarde>Verwijderen tot Maximale Waarde, aanvulgrond schoon</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de verontreiniging is gedeeltelijke verwijderd tot de Maximale Waarde die geldt voor de betreffende locatie (zie Besluit Bodemkwaliteit en bodemfunctieklassenkaart), waarna schone aanvulgrond is aangebracht</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de verontreiniging is gedeeltelijke verwijderd tot de Maximale Waarde die geldt voor de betreffende locatie (zie Besluit Bodemkwaliteit en bodemfunctieklassenkaart), waarna schone aanvulgrond is aangebracht.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>12</ID>
 			<Code/>
 			<Waarde>Verwijderen tot Maximale Waarde, aanvulgrond achtergrond</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de verontreiniging is gedeeltelijk verwijderd tot de Maximale Waarde die geldt voor de betreffende locatie (zie Besluit Bodemkwaliteit en bodemfunctieklassenkaart), waarna aanvulgrond is aangebracht gelijk aan of schoner dan de kwaliteit van de bovengrond in de omgeving (achtergrondwaarde)</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de verontreiniging is gedeeltelijk verwijderd tot de Maximale Waarde die geldt voor de betreffende locatie (zie Besluit Bodemkwaliteit en bodemfunctieklassenkaart), waarna aanvulgrond is aangebracht gelijk aan of schoner dan de kwaliteit van de bovengrond in de omgeving (achtergrondwaarde).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>13</ID>
 			<Code/>
 			<Waarde>Verwijderen tot Maximale Waarde, aanvulgrond Maximale Waarde</Waarde>
-			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de verontreiniging is gedeeltelijk verwijderd tot de Maximale Waarde die geldt voor de betreffende locatie (zie Besluit Bodemkwaliteit en bodemfunctieklassenkaart), waarna aanvulgrond is aangebracht gelijk aan of schoner dan de geldende Maximale Waarde</Omschrijving>
+			<Omschrijving>De volgende saneringsvariant voor de bovengrond is/wordt uitgevoerd: de verontreiniging is gedeeltelijk verwijderd tot de Maximale Waarde die geldt voor de betreffende locatie (zie Besluit Bodemkwaliteit en bodemfunctieklassenkaart), waarna aanvulgrond is aangebracht gelijk aan of schoner dan de geldende Maximale Waarde.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</San_bovengrond>
-		<San_bovengrond versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<San_bovengrond versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>14</ID>
 			<Code/>
 			<Waarde>De verontreiniging in de grond is volledig verwijderd, er heeft echter geen aanvulling plaatsgevonden</Waarde>
-			<Omschrijving>De verontreiniging in de grond is volledig verwijderd, er heeft echter geen aanvulling plaatsgevonden</Omschrijving>
+			<Omschrijving>De verontreiniging in de grond is volledig verwijderd, er heeft echter geen aanvulling plaatsgevonden.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -1425,363 +1424,363 @@
 		</San_ondergrond>
 	</sikb.San_ondergrond_c>
 	<sikb.OnderzoekType_c categorie="OnderzoekType" techName="OnderzoekType" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>Bijzonder inventariserend onderzoek</Waarde>
-			<Omschrijving>Een inventariserend onderzoek in een speciaal kader</Omschrijving>
+			<Omschrijving>Een inventariserend onderzoek in een speciaal kader.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>Historisch onderzoek</Waarde>
-			<Omschrijving>Een archiefonderzoek, inclusief een locatiebezoek of gevelinspectie, naar activiteiten die op deze locatie hebben plaatsgevonden. Met een historisch onderzoek kan voorspeld worden of er een risico is op bodemverontreiniging en kan de strategie voor veldonderzoek bepaald worden</Omschrijving>
+			<Omschrijving>Een archiefonderzoek, inclusief een locatiebezoek of gevelinspectie, naar activiteiten die op deze locatie hebben plaatsgevonden. Met een historisch onderzoek kan voorspeld worden of er een risico is op bodemverontreiniging en kan de strategie voor veldonderzoek bepaald worden.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2026-04-08" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>Indicatief onderzoek</Waarde>
-			<Omschrijving>Een beperkt bodemonderzoek, niet zijnde een volledig bodemonderzoek conform NEN 5740, bestaande uit enkele meetpunten (boringen en of peilbuizen) en analyses om de bodemkwaliteit ter plaatse van één of enkele meetpunten vast te stellen</Omschrijving>
+			<Omschrijving>Een beperkt bodemonderzoek, niet zijnde een volledig bodemonderzoek conform NEN 5740, bestaande uit enkele meetpunten (boringen en of peilbuizen) en analyses om de bodemkwaliteit ter plaatse van één of enkele meetpunten vast te stellen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>Bodemsanering bedrijven (BSB)</Waarde>
-			<Omschrijving>Een bodemonderzoek met als doel te onderzoeken of er sprake is van bodemverontreiniging in het kader van de algemene maatregel van bestuur: bodemsanering van in gebruik zijnde bedrijfsterreinen</Omschrijving>
+			<Omschrijving>Een bodemonderzoek met als doel te onderzoeken of er sprake is van bodemverontreiniging in het kader van de algemene maatregel van bestuur: bodemsanering van in gebruik zijnde bedrijfsterreinen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>Verkennend onderzoek NEN 5740</Waarde>
-			<Omschrijving>Een bodemonderzoek volgens norm NEN 5740 die beschrijft welke bodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de bodemkwaliteit op een locatie</Omschrijving>
+			<Omschrijving>Een bodemonderzoek volgens norm NEN 5740 die beschrijft welke bodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de bodemkwaliteit op een locatie.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>6</ID>
 			<Code/>
 			<Waarde>Verkennend onderzoek NVN 5740</Waarde>
-			<Omschrijving>Een bodemonderzoek volgens norm NVN 5740 ie beschrijft welke bodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de bodemkwaliteit op een locatie. De NEN 5740 is de opvolger van deze norm</Omschrijving>
+			<Omschrijving>Een bodemonderzoek volgens norm NVN 5740 ie beschrijft welke bodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de bodemkwaliteit op een locatie. De NEN 5740 is de opvolger van deze norm.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>7</ID>
 			<Code/>
 			<Waarde>Orienterend bodemonderzoek</Waarde>
-			<Omschrijving>Een algemeen onderzoek waarin gekeken wordt of op een locatie bodemverontreiniging voorkomt. In veel onderzoeken wordt een onderzoeksstrategie gehanteerd uit de NEN 5740</Omschrijving>
+			<Omschrijving>Een algemeen onderzoek waarin gekeken wordt of op een locatie bodemverontreiniging voorkomt. In veel onderzoeken wordt een onderzoeksstrategie gehanteerd uit de NEN 5740.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>8</ID>
 			<Code/>
 			<Waarde>Nader onderzoek</Waarde>
-			<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging</Omschrijving>
+			<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2002-10-15" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>9</ID>
 			<Code/>
 			<Waarde>Sanerings onderzoek</Waarde>
-			<Omschrijving>Een onderzoek waarin verschillende mogelijke varianten worden beschreven om een vastgestelde verontreiniging te saneren</Omschrijving>
+			<Omschrijving>Een onderzoek waarin verschillende mogelijke varianten worden beschreven om een vastgestelde verontreiniging te saneren.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2002-10-15" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>10</ID>
 			<Code/>
 			<Waarde>Saneringsplan</Waarde>
-			<Omschrijving>Een plan waarin de voorgestelde aanpak van de bodemsanering wordt beschreven</Omschrijving>
+			<Omschrijving>Een plan waarin de voorgestelde aanpak van de bodemsanering wordt beschreven.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-11-19" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>11</ID>
 			<Code/>
 			<Waarde>Evaluatieverslag saneren</Waarde>
-			<Omschrijving>Een evaluatieverslag van de uitgevoerde bodemsanering onder de Wet Bodembescherming (Wbb) of de Omgevingswet (Bal artikel 4.1246)</Omschrijving>
+			<Omschrijving>Een evaluatieverslag van de uitgevoerde bodemsanering onder de Wet Bodembescherming (Wbb) of de Omgevingswet (Bal artikel 4.1246).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>12</ID>
 			<Code/>
 			<Waarde>Monitoringsrapportage</Waarde>
-			<Omschrijving>Een rapportage die conclusies beschrijft van de uitgevoerde monitoring van een sanering of verontreiniging</Omschrijving>
+			<Omschrijving>Een rapportage die conclusies beschrijft van de uitgevoerde monitoring van een sanering of verontreiniging.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>13</ID>
 			<Code/>
 			<Waarde>(Na)zorgrapportage</Waarde>
-			<Omschrijving>Een rapportage waarin wordt beschreven welke (na)zorgmaatregelen bij een bodemsanering zijn getroffen</Omschrijving>
+			<Omschrijving>Een rapportage waarin wordt beschreven welke (na)zorgmaatregelen bij een bodemsanering zijn getroffen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>14</ID>
 			<Code/>
 			<Waarde>brf (briefrapport)</Waarde>
-			<Omschrijving>Een verkorte rapportage van een bodemonderzoek in briefvorm</Omschrijving>
+			<Omschrijving>Een verkorte rapportage van een bodemonderzoek in briefvorm.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2026-04-08" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>15</ID>
 			<Code/>
 			<Waarde>Aanvullend onderzoek</Waarde>
-			<Omschrijving>Een beperkt bodemonderzoek, niet zijnde een volledig nader onderzoek, bestaande uit enkele meetpunten (boringen en of peilbuizen) en analyses om de bodemkwaliteit ter plaatse van één of enkele meetpunten vast te stellen</Omschrijving>
+			<Omschrijving>Een beperkt bodemonderzoek, niet zijnde een volledig nader onderzoek, bestaande uit enkele meetpunten (boringen en of peilbuizen) en analyses om de bodemkwaliteit ter plaatse van één of enkele meetpunten vast te stellen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>16</ID>
 			<Code/>
 			<Waarde>fax</Waarde>
-			<Omschrijving>Verkorte rapportage van een bodemonderzoek per fax</Omschrijving>
+			<Omschrijving>Verkorte rapportage van een bodemonderzoek per fax.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>17</ID>
 			<Code/>
 			<Waarde>Nul- of Eindsituatieonderzoek</Waarde>
-			<Omschrijving>Een onderzoek om de kwaliteit van de bodem vast te stellen. Met de uitkomsten van dit onderzoek kan in de toekomst bekeken worden of door activiteiten op deze locatie de bodemkwaliteit is veranderd</Omschrijving>
+			<Omschrijving>Een onderzoek om de kwaliteit van de bodem vast te stellen. Met de uitkomsten van dit onderzoek kan in de toekomst bekeken worden of door activiteiten op deze locatie de bodemkwaliteit is veranderd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-16" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>18</ID>
 			<Code/>
 			<Waarde>Bouwstoffenbesluit</Waarde>
-			<Omschrijving>Een onderzoek naar de kwaliteit van een bouwstof (inclusief grond) dat is uitgevoerd in het kader van het voormalige Bouwstoffenbesluit</Omschrijving>
+			<Omschrijving>Een onderzoek naar de kwaliteit van een bouwstof (inclusief grond) dat is uitgevoerd in het kader van het voormalige Bouwstoffenbesluit.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>19</ID>
 			<Code/>
 			<Waarde>Pre-HO</Waarde>
-			<Omschrijving>Een onderzoek dat is verricht voorafgaand aan een historisch onderzoek, bijvoorbeeld een archiefinventarisatie</Omschrijving>
+			<Omschrijving>Een onderzoek dat is verricht voorafgaand aan een historisch onderzoek, bijvoorbeeld een archiefinventarisatie.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>20</ID>
 			<Code/>
 			<Waarde>BOOT</Waarde>
-			<Omschrijving>Een bodemonderzoek dat is verricht bij een ondergrondse tank in het kader van het Besluit Opslag Ondergrondse Tanks (BOOT)</Omschrijving>
+			<Omschrijving>Een bodemonderzoek dat is verricht bij een ondergrondse tank in het kader van het Besluit Opslag Ondergrondse Tanks (BOOT).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>21</ID>
 			<Code/>
 			<Waarde>ASB - asbest onderzoek NEN 5707</Waarde>
-			<Omschrijving>Een grondonderzoek naar asbest volgens norm NEN 5707 die beschrijft welke strategie in bepaalde situaties gevolgd moet worden</Omschrijving>
+			<Omschrijving>Een grondonderzoek naar asbest volgens norm NEN 5707 die beschrijft welke strategie in bepaalde situaties gevolgd moet worden.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>22</ID>
 			<Code/>
 			<Waarde>Partijkeuring grond</Waarde>
-			<Omschrijving>Een onderzoek waarvan de kwaliteit van een partij grond is onderzocht ten behoeve van de voorgenomen toepassing van deze grond</Omschrijving>
+			<Omschrijving>Een onderzoek waarvan de kwaliteit van een partij grond is onderzocht ten behoeve van de voorgenomen toepassing van deze grond.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2007-06-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>23</ID>
 			<Code/>
 			<Waarde>Meldingsformulier BUS saneringsplan</Waarde>
-			<Omschrijving>Een melding van een saneringsplan voor het saneren van een verontreiniging in het kader van het Besluit Uniforme Saneringen</Omschrijving>
+			<Omschrijving>Een melding van een saneringsplan voor het saneren van een verontreiniging in het kader van het Besluit Uniforme Saneringen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2026-07-01" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>24</ID>
 			<Code/>
 			<Waarde>Meldingsformulier BUS evaluatieverslag</Waarde>
-			<Omschrijving>Een melding van een evaluatieverslag van een uitgevoerde sanering in het kader van het Besluit Uniforme Saneringen</Omschrijving>
+			<Omschrijving>Een melding van een evaluatieverslag van een uitgevoerde sanering in het kader van het Besluit Uniforme Saneringen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2007-06-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>25</ID>
 			<Code/>
 			<Waarde>Verkennend onderzoek voor waterbodems (NVN 5720)</Waarde>
-			<Omschrijving>Een waterbodemonderzoek volgens norm NVN 5720 die beschrijft welke waterbodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de waterbodemkwaliteit op een locatie</Omschrijving>
+			<Omschrijving>Een waterbodemonderzoek volgens norm NVN 5720 die beschrijft welke waterbodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de waterbodemkwaliteit op een locatie.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2007-06-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>26</ID>
 			<Code/>
 			<Waarde>Rapport conform de richtlijn NO voor waterbodems (AKWA 01.005, RIZA-nota 2001.052)</Waarde>
-			<Omschrijving>Een waterbodemonderzoek volgens richtlijn Nader Onderzoek voor waterbodems (AKWA 01.005, RIZA-nota 2001.052), waarin gekeken wordt naar de ernst en urgentie van de eerder aangetroffen waterbodemverontreiniging</Omschrijving>
+			<Omschrijving>Een waterbodemonderzoek volgens richtlijn Nader Onderzoek voor waterbodems (AKWA 01.005, RIZA-nota 2001.052), waarin gekeken wordt naar de ernst en urgentie van de eerder aangetroffen waterbodemverontreiniging.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2007-06-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>27</ID>
 			<Code/>
 			<Waarde>Rapport conform de handleiding sanering waterbodems (AKWA 05.006)</Waarde>
-			<Omschrijving>Een rapport volgens de Handleiding sanering waterbodems (AKWA 05.006)</Omschrijving>
+			<Omschrijving>Een rapport volgens de Handleiding sanering waterbodems (AKWA 05.006).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2007-06-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>28</ID>
 			<Code/>
 			<Waarde>Plan van aanpak (voor onderhoudsbagger)</Waarde>
-			<Omschrijving>Een plan van aanpak voor onderhoudsbaggerwerkzaamheden</Omschrijving>
+			<Omschrijving>Een plan van aanpak voor onderhoudsbaggerwerkzaamheden.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2007-06-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>29</ID>
 			<Code/>
 			<Waarde>Asbest onderzoek waterbodem (NTA 5727)</Waarde>
-			<Omschrijving>Een onderzoek volgens norm NTA 5727die beschrijft welke strategie in bepaalde situaties gevolgd moet worden voor asbestonderzoek in de waterbodem</Omschrijving>
+			<Omschrijving>Een onderzoek volgens norm NTA 5727die beschrijft welke strategie in bepaalde situaties gevolgd moet worden voor asbestonderzoek in de waterbodem.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2007-06-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>30</ID>
 			<Code/>
 			<Waarde>Nazorgplan</Waarde>
-			<Omschrijving>Een plan waarin wordt beschreven welke (na)zorgmaatregelen bij een bodemsanering zijn getroffen</Omschrijving>
+			<Omschrijving>Een plan waarin wordt beschreven welke (na)zorgmaatregelen bij een bodemsanering zijn getroffen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2007-06-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>31</ID>
 			<Code/>
 			<Waarde>Monitoringsplan</Waarde>
-			<Omschrijving>Een plan die conclusies beschrijft van de uitgevoerde monitoring van een sanering of verontreiniging</Omschrijving>
+			<Omschrijving>Een plan die conclusies beschrijft van de uitgevoerde monitoring van een sanering of verontreiniging.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2008-11-09" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>32</ID>
 			<Code/>
 			<Waarde>Bodemluchtonderzoek</Waarde>
-			<Omschrijving>Een specifiek onderzoek om de kwaliteit van de lucht vast te stellen. Dit onderzoek is niet gecombineerd uitgevoerd met andere onderzoeken om bijvoorbeeld de kwaliteit van grond(water) vast te stellen</Omschrijving>
+			<Omschrijving>Een specifiek onderzoek om de kwaliteit van de lucht vast te stellen. Dit onderzoek is niet gecombineerd uitgevoerd met andere onderzoeken om bijvoorbeeld de kwaliteit van grond(water) vast te stellen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>33</ID>
 			<Code/>
 			<Waarde>Verkennend onderzoek stortplaatsen</Waarde>
-			<Omschrijving>Een onderzoek dat is uitgevoerd volgens het onderzoeksprotocol voor een eerste evaluatie van bodemverontreiniging op voormalige stortplaatsen</Omschrijving>
+			<Omschrijving>Een onderzoek dat is uitgevoerd volgens het onderzoeksprotocol voor een eerste evaluatie van bodemverontreiniging op voormalige stortplaatsen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -1821,22 +1820,22 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2015-11-26" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>37</ID>
 			<Code/>
 			<Waarde>Plan van aanpak (zorgplicht, geen saneringsplan)</Waarde>
-			<Omschrijving>Plan van aanpak (zorgplicht, geen saneringsplan)</Omschrijving>
+			<Omschrijving>Plan van aanpak (zorgplicht, geen saneringsplan).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2016-11-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>38</ID>
 			<Code/>
 			<Waarde>Verkennend onderzoek voor waterbodems (NEN 5720)</Waarde>
-			<Omschrijving>Een waterbodemonderzoek volgens norm NEN 5720 die beschrijft welke waterbodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de waterbodemkwaliteit op een locatie</Omschrijving>
+			<Omschrijving>Een waterbodemonderzoek volgens norm NEN 5720 die beschrijft welke waterbodemonderzoekstrategie het best voor de betreffende situatie geschikt is om uiteindelijk een uitspraak te kunnen doen over de waterbodemkwaliteit op een locatie.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -1865,44 +1864,44 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-28" status="Gewijzigd">
 			<ID>41</ID>
 			<Code/>
 			<Waarde>Nader en Asbestonderzoek</Waarde>
-			<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging c6nform NEN 5755, gecombineerd met een grondonderzoek naar asbest volgens norm NEN 5707.</Omschrijving>
+			<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging conform NEN 5755, gecombineerd met een grondonderzoek naar asbest volgens norm NEN 5707.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>42</ID>
 			<Code/>
 			<Waarde>Nader land- en waterbodemonderzoek</Waarde>
-			<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging op landbodem conform NEN 5755, gecombineerd met een  Nader Onderzoek voor waterbodems conform  richtlijn AKWA 01.005, RIZA-nota 2001.052)</Omschrijving>
+			<Omschrijving>Een vervolgonderzoek waarin gekeken wordt naar de omvang en ernst van de eerder aangetroffen verontreiniging op landbodem conform NEN 5755, gecombineerd met een Nader Onderzoek voor waterbodems conform  richtlijn AKWA 01.005, RIZA-nota 2001.052).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.6.0" datum="2021-06-24" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>43</ID>
 			<Code/>
 			<Waarde>Onderzoek naar asbest in puin volgens de norm NEN5897</Waarde>
-			<Omschrijving>Een grondonderzoek naar asbest in puin volgens norm NEN 5897 die beschrijft welke strategie in bepaalde situaties gevolgd moet worden</Omschrijving>
+			<Omschrijving>Een grondonderzoek naar asbest in puin volgens norm NEN 5897 die beschrijft welke strategie in bepaalde situaties gevolgd moet worden.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekType>
-		<OnderzoekType versie="14.7.0" datum="2024-11-19" status="Bevestigd">
+		<OnderzoekType versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>44</ID>
 			<Code>undefined</Code>
 			<Waarde>Evaluatieverslag graven</Waarde>
-			<Omschrijving>Evaluatieverslag van de milieukundige processturing bij milieukundige begeleiding tijdens MBA graven conform  (Bal artikel 4.1234)</Omschrijving>
+			<Omschrijving>Evaluatieverslag van de milieukundige processturing bij milieukundige begeleiding tijdens MBA graven conform  (Bal artikel 4.1234).</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -2067,22 +2066,22 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>BOOT</Waarde>
-			<Omschrijving>De aanleiding van het onderzoek is het in beeld brengen van de milieukwaliteit van de grond in verband met de aanwezigheid van een ondergrondse tank, conform het besluit opslag ondergrondse tanks (BOOT) </Omschrijving>
+			<Omschrijving>De aanleiding van het onderzoek is het in beeld brengen van de milieukwaliteit van de grond in verband met de aanwezigheid van een ondergrondse tank, conform het besluit opslag ondergrondse tanks (BOOT).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>Bouwvergunning</Waarde>
-			<Omschrijving>De aanleiding van het onderzoek is de aanvraag van een bouwvergunning. </Omschrijving>
+			<Omschrijving>De aanleiding van het onderzoek is de aanvraag van een bouwvergunning.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -2111,66 +2110,66 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>6</ID>
 			<Code/>
 			<Waarde>Landsdekkend</Waarde>
-			<Omschrijving>De aanleiding van het onderzoek is een breder onderzoek om te komen tot een landsdekkend beeld van verontreinigde locaties. </Omschrijving>
+			<Omschrijving>De aanleiding van het onderzoek is een breder onderzoek om te komen tot een landsdekkend beeld van verontreinigde locaties.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>7</ID>
 			<Code/>
 			<Waarde>Nulsituatie</Waarde>
-			<Omschrijving>De aanleiding van het onderzoek is het starten van een nieuwe activiteit waardoor de nulsituatie van de bodem moet worden vastgelegd, zodat bij beindiging van de activiteit getoetst kan worden of de activiteit de milieuhygiënische situatie heeft verslechterd. </Omschrijving>
+			<Omschrijving>De aanleiding van het onderzoek is het starten van een nieuwe activiteit waardoor de nulsituatie van de bodem moet worden vastgelegd, zodat bij beindiging van de activiteit getoetst kan worden of de activiteit de milieuhygiënische situatie heeft verslechterd.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>8</ID>
 			<Code/>
 			<Waarde>Transactie</Waarde>
-			<Omschrijving>De aanleiding van het onderzoek is dat door een transactie (verkoop van een perceel) de milieuhygiënische kwaliteit in kaart moet worden gebracht. </Omschrijving>
+			<Omschrijving>De aanleiding van het onderzoek is dat door een transactie (verkoop van een perceel) de milieuhygiënische kwaliteit in kaart moet worden gebracht.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>9</ID>
 			<Code/>
 			<Waarde>Vermoeden of melding verontreiniging</Waarde>
-			<Omschrijving>De aanleiding van het onderzoek is een gemelde bodemverontreiniging of een sterk vermoeden van een bodemverontreiniging. </Omschrijving>
+			<Omschrijving>De aanleiding van het onderzoek is een gemelde bodemverontreiniging of een sterk vermoeden van een bodemverontreiniging.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>10</ID>
 			<Code/>
 			<Waarde>Voorgaand</Waarde>
-			<Omschrijving>De uitkomsten van voorgaande onderzoeken hebben aanleiding gegeven tot dit vervolgonderzoek. </Omschrijving>
+			<Omschrijving>De uitkomsten van voorgaande onderzoeken hebben aanleiding gegeven tot dit vervolgonderzoek.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>11</ID>
 			<Code/>
 			<Waarde>ISV-programmering</Waarde>
-			<Omschrijving>De milieuhygiënische kwaliteit van de bodem is onderzocht in het kader van het Investeringsbudget voor Stedelijke Vernieuwing (ISV). </Omschrijving>
+			<Omschrijving>De milieuhygiënische kwaliteit van de bodem is onderzocht in het kader van het Investeringsbudget voor Stedelijke Vernieuwing (ISV).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -2188,22 +2187,22 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>13</ID>
 			<Code/>
 			<Waarde>Omgevingsvergunning</Waarde>
-			<Omschrijving>In verband met het verstrekken van een omgevingsvergunning moet de milieuhygiënische kwaliteit van de bodem onderzocht worden. </Omschrijving>
+			<Omschrijving>In verband met het verstrekken van een omgevingsvergunning moet de milieuhygiënische kwaliteit van de bodem onderzocht worden.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OnderzoekAanleidingen>
-		<OnderzoekAanleidingen versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<OnderzoekAanleidingen versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>14</ID>
 			<Code/>
 			<Waarde>Eindsituatie</Waarde>
-			<Omschrijving>In verband met het beëindigen van een activiteit moet de milieuhygiënische kwaliteit van de bodem onderzocht worden om te controleren of de activiteit de kwaliteit van de bodem heeft aangetast. </Omschrijving>
+			<Omschrijving>In verband met het beëindigen van een activiteit moet de milieuhygiënische kwaliteit van de bodem onderzocht worden om te controleren of de activiteit de kwaliteit van de bodem heeft aangetast.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -36821,22 +36820,22 @@ diffuse bodembelasting</Omschrijving>
 		</RuimtelijkOnderzoeksgebiedType>
 	</sikb.RuimtelijkOnderzoeksgebiedType_c>
 	<sikb.BeschrijfProcedure_c categorie="BeschrijfProcedure" techName="BeschrijfProcedure" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<BeschrijfProcedure versie="14.7.0" datum="2024-07-09" status="Bevestigd">
+		<BeschrijfProcedure versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>1</ID>
 			<Code>undefined</Code>
 			<Waarde>NEN5104v1989 en NEN5706v2003</Waarde>
-			<Omschrijving>De grond is geclassificeerd volgens NEN 5104 en die norm vormt de basis van de procedure. Als er bijzondere bestandsdelen in de grond aanwezig zijn wordt  NEN 5706 gebruikt voor een beschrijving van de bijzondere bestandsdelen. </Omschrijving>
+			<Omschrijving>De grond is geclassificeerd volgens NEN 5104 en die norm vormt de basis van de procedure. Als er bijzondere bestandsdelen in de grond aanwezig zijn wordt NEN 5706 gebruikt voor een beschrijving van de bijzondere bestandsdelen. Het kunnen ook voorgangers van deze NEN normen zijn zoals NPR normen.</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BeschrijfProcedure>
-		<BeschrijfProcedure versie="14.7.0" datum="2025-12-03" status="Bevestigd">
+		<BeschrijfProcedure versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>2</ID>
 			<Code>undefined</Code>
 			<Waarde>NEN6693</Waarde>
-			<Omschrijving>De beschrijving van en de waarnemingen aan de (water)bodem en het grondwater zijn gedaan conform de NEN6693.</Omschrijving>
+			<Omschrijving>De beschrijving van en de waarnemingen aan de (water)bodem en het grondwater zijn gedaan conform de NEN 6693.</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -36845,55 +36844,55 @@ diffuse bodembelasting</Omschrijving>
 		</BeschrijfProcedure>
 	</sikb.BeschrijfProcedure_c>
 	<sikb.AanpakVerontreiniging_c categorie="AanpakVerontreiniging" techName="AanpakVerontreiniging" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<AanpakVerontreiniging versie="14.7.0" datum="2024-07-10" status="Bevestigd">
+		<AanpakVerontreiniging versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>1</ID>
 			<Code>undefined</Code>
 			<Waarde>Afdekken verontreiniging</Waarde>
-			<Omschrijving>Beperken of ongedaan maken van blootstelling aan een verontreiniging in de bodem middels het wegnemen van de contactmogelijkheden door het aanbrengen van een afdeklaag c.q. leeflaag op de verontreinigde bodemlaag (conform Bal art 4.1241)</Omschrijving>
+			<Omschrijving>Beperken of ongedaan maken van blootstelling aan een verontreiniging in de bodem middels het wegnemen van de contactmogelijkheden door het aanbrengen van een afdeklaag c.q. leeflaag op de verontreinigde bodemlaag (conform Bal art 4.1241).</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</AanpakVerontreiniging>
-		<AanpakVerontreiniging versie="14.7.0" datum="2024-07-10" status="Bevestigd">
+		<AanpakVerontreiniging versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>2</ID>
 			<Code>undefined</Code>
 			<Waarde>Alternatieve saneringsaanpak</Waarde>
-			<Omschrijving>Beperken of ongedaan maken van blootstelling aan een verontreiniging in de bodem anders dan middels het afdekken van de verontreiniging of middels het verwijderen en afvoeren van grond. Een alternatieve aanpak is bijvoorbeeld in situ reiniging (maatwerkvoorschrift bij een milieubelastende activiteit conform Bal art 2.13)</Omschrijving>
+			<Omschrijving>Beperken of ongedaan maken van blootstelling aan een verontreiniging in de bodem anders dan middels het afdekken van de verontreiniging of middels het verwijderen en afvoeren van grond. Een alternatieve aanpak is bijvoorbeeld in situ reiniging of een andere standaard dikte van een leeflaag op grond van lokale regels (maatwerkregel of maatwerkvoorschrift bij een milieubelastende activiteit conform Bal art 2.12 en 2.13).</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</AanpakVerontreiniging>
-		<AanpakVerontreiniging versie="14.7.0" datum="2024-07-10" status="Bevestigd">
+		<AanpakVerontreiniging versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>3</ID>
 			<Code>undefined</Code>
 			<Waarde>Gecombineerde saneringsaanpak</Waarde>
-			<Omschrijving>Beperken of ongedaan maken van de blootstelling aan de verontreiniging in de bodem door een combinatie van het afdekken van de verontreiniging, het verwijderen en afvoeren van grond en/of het volgen van een alternatieve saneringsaanpak (conform Bal art 4.1240)</Omschrijving>
+			<Omschrijving>Beperken of ongedaan maken van de blootstelling aan de verontreiniging in de bodem door een combinatie van het afdekken van de verontreiniging, het verwijderen en afvoeren van grond en/of het volgen van een alternatieve saneringsaanpak (conform Bal art 4.1240).</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</AanpakVerontreiniging>
-		<AanpakVerontreiniging versie="14.7.0" datum="2024-07-10" status="Bevestigd">
+		<AanpakVerontreiniging versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>4</ID>
 			<Code>undefined</Code>
 			<Waarde>Ontgraven met saneringsdoelstelling</Waarde>
-			<Omschrijving>Grond verwijderen en afvoeren met als oogmerk een bodemverontreiniging weg te nemen (conform Bal art 4.1242)</Omschrijving>
+			<Omschrijving>Grond verwijderen en afvoeren met als oogmerk een bodemverontreiniging weg te nemen (conform Bal art 4.1242).</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</AanpakVerontreiniging>
-		<AanpakVerontreiniging versie="14.7.0" datum="2024-07-10" status="Bevestigd">
+		<AanpakVerontreiniging versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>5</ID>
 			<Code>undefined</Code>
 			<Waarde>Ontgraven zonder saneringsdoelstelling</Waarde>
-			<Omschrijving>Graven in de bodem en afvoeren van ontgraven grond zonder het oogmerk om een bodemverontreiniging weg te nemen (conform Bal paragraaf 4.120 en specifiek art 4.1233 en 4.1234 MKB bij graven &gt;I)</Omschrijving>
+			<Omschrijving>Graven in de bodem en afvoeren van ontgraven grond zonder het oogmerk om een bodemverontreiniging weg te nemen (conform Bal paragraaf 4.120 en specifiek art 4.1233 en 4.1234 MKB bij graven &gt;I).</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>

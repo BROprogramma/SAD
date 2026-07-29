@@ -2957,10 +2957,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>57</ID>
 			<Code/>
-			<Omschrijving>1-(4-Hydroxy-3-methoxyfenyl)-2-prop</Omschrijving>
+			<Omschrijving>1-(4-Hydroxy-3-methoxyfenyl)-2-propanon</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -3217,10 +3217,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>85</ID>
 			<Code/>
-			<Omschrijving>2,3,5-Trichloorbenzoëzuur (2,3,5-TB</Omschrijving>
+			<Omschrijving>2,3,5-Trichloorbenzoëzuur (2,3,5-TBA)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -3247,10 +3247,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>88</ID>
 			<Code/>
-			<Omschrijving>2,3,6-Trichloorbenzoëzuur (2,3,6-TB</Omschrijving>
+			<Omschrijving>2,3,6-Trichloorbenzoëzuur (2,3,6-TBA)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -3407,10 +3407,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>105</ID>
 			<Code/>
-			<Omschrijving>2,4,6-Trichloorbenzoëzuur (2,4,6-TB</Omschrijving>
+			<Omschrijving>2,4,6-Trichloorbenzoëzuur (2,4,6-TBA)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -6957,7 +6957,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-05-07" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>469</ID>
 			<Code>quinmtont</Code>
 			<Omschrijving>quinomethionaat</Omschrijving>
@@ -7427,7 +7427,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-01-18" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>517</ID>
 			<Code>Cr</Code>
 			<Omschrijving>chroom</Omschrijving>
@@ -11247,10 +11247,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>922</ID>
 			<Code/>
-			<Omschrijving>Kaliumpermanganaatverbruik (na filt</Omschrijving>
+			<Omschrijving>Kaliumpermanganaatverbruik (na filtratie)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -11447,20 +11447,20 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>968</ID>
 			<Code/>
-			<Omschrijving>Koolwaterstoffen C9 - C40 (alifatis</Omschrijving>
+			<Omschrijving>Koolwaterstoffen C9 - C40 (alifatisch)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>969</ID>
 			<Code/>
-			<Omschrijving>Koolwaterstoffractie (niet vluchtig</Omschrijving>
+			<Omschrijving>Koolwaterstoffractie (niet vluchtig)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -19517,10 +19517,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>1888</ID>
 			<Code/>
-			<Omschrijving>Koloniegetal 22 oC A#roob</Omschrijving>
+			<Omschrijving>Koloniegetal 22 oC Aeroob</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -19557,40 +19557,40 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>1892</ID>
 			<Code/>
-			<Omschrijving>Koolwaterstoffractie C10-C</Omschrijving>
+			<Omschrijving>Koolwaterstoffractie C10-C14</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>1894</ID>
 			<Code/>
-			<Omschrijving>Koolwaterstoffractie C5-C1</Omschrijving>
+			<Omschrijving>Koolwaterstoffractie C5-C16</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>1895</ID>
 			<Code/>
-			<Omschrijving>Koolwaterstoffractie C8-C1</Omschrijving>
+			<Omschrijving>Koolwaterstoffractie C8-C15</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>1896</ID>
 			<Code/>
-			<Omschrijving>Koolwaterstoffractie C9-C1</Omschrijving>
+			<Omschrijving>Koolwaterstoffractie C9-C12</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -19897,10 +19897,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>1927</ID>
 			<Code/>
-			<Omschrijving>3-Tolueensulfonamide (meta-Tolueens</Omschrijving>
+			<Omschrijving>3-Tolueensulfonamide (meta-Tolueensul</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -20217,10 +20217,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>1960</ID>
 			<Code/>
-			<Omschrijving>2-Tolueensulfonamide (ortho-Tolueen</Omschrijving>
+			<Omschrijving>2-Tolueensulfonamide (ortho-Tolueensu</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -21287,10 +21287,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2067</ID>
 			<Code/>
-			<Omschrijving>Dimethylfenolen (som 2,3 + 3,5) + 4</Omschrijving>
+			<Omschrijving>Dimethylfenolen (som 2,3 + 3,5) + 4-Ethylfenol (som)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -21397,10 +21397,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2078</ID>
 			<Code/>
-			<Omschrijving>2-(4-Chloor-o-toloxy)propionzuur (M</Omschrijving>
+			<Omschrijving>2-(4-Chloor-o-toloxy)propionzuur (Mecoprop)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -21537,10 +21537,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2092</ID>
 			<Code/>
-			<Omschrijving>Chloorbenzenen (som, interventiefac</Omschrijving>
+			<Omschrijving>Chloorbenzenen (som, interventiefactor)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -22627,10 +22627,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2209</ID>
 			<Code/>
-			<Omschrijving>Sulfaat (uitloogbaarheid pH7, als S</Omschrijving>
+			<Omschrijving>Sulfaat (uitloogbaarheid pH7, als SO4)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -22757,10 +22757,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2222</ID>
 			<Code/>
-			<Omschrijving>4-chlorophenyl 2,4,5-trichloropheny</Omschrijving>
+			<Omschrijving>Tedion</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -22927,10 +22927,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2239</ID>
 			<Code/>
-			<Omschrijving>RE2O3 mbv ICP berekening uit de ind</Omschrijving>
+			<Omschrijving>RE2O3 mbv ICP berekening uit de indviduele componenten</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -23207,160 +23207,160 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2270</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,7,8-PentaChloo</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,7,8-PentaChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2271</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,7,8,9-HexaChlo</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,7,8,9-HexaChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2272</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,4,7,8,9-HeptaC</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,4,7,8,9-HeptaChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2273</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-2,3,7,8-TetraChloorD</Omschrijving>
+			<Omschrijving>Recovery 13C12-2,3,7,8-TetraChloorDibenzoDioxine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2274</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,7,8-PentaChloo</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,7,8-PentaChloorDibenzoDioxine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2276</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,6,7,8-HexaChlo</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,6,7,8-HexaChloorDibenzoDioxine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2277</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,4,6,7,8-HeptaC</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,4,6,7,8-HeptaChloorDibenzoDioxine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2278</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-OctaChloorDibenzoDio</Omschrijving>
+			<Omschrijving>Recovery 13C12-OctaChloorDibenzoDioxine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2279</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-2,3,7,8-TetraChloorD</Omschrijving>
+			<Omschrijving>Recovery 13C12-2,3,7,8-TetraChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2280</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-2,3,4,7,8-PeChloorDi</Omschrijving>
+			<Omschrijving>Recovery 13C12-2,3,4,7,8-PeChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2281</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,4,7,8-HexaChlo</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,4,7,8-HexaChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2282</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,6,7,8-HexaChlo</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,6,7,8-HexaChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2283</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-2,3,4,6,7,8-HexaChlo</Omschrijving>
+			<Omschrijving>Recovery 13C12-2,3,4,6,7,8-HexaChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2284</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,4,6,7,8-HeptaC</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,4,6,7,8-HeptaChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2285</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-OctaChloorDibenzoFur</Omschrijving>
+			<Omschrijving>Recovery 13C12-OctaChloorDibenzoFuraan</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2286</ID>
 			<Code/>
-			<Omschrijving>Recovery 13C12-1,2,3,4,7-PentaChloo</Omschrijving>
+			<Omschrijving>Recovery 13C12-1,2,3,4,7-PentaChloorDibenzoDioxine</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -23537,20 +23537,20 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2310</ID>
 			<Code/>
-			<Omschrijving>Nonylfenol di-ethox.</Omschrijving>
+			<Omschrijving>Nonylfenoldiethoxylaat</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2311</ID>
 			<Code/>
-			<Omschrijving>Nonylfenol mono-ethox.</Omschrijving>
+			<Omschrijving>Nonylfenolmonoethoxylaat</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -23687,10 +23687,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2332</ID>
 			<Code/>
-			<Omschrijving>Minerale olie totaal (Alifaten en A</Omschrijving>
+			<Omschrijving>Minerale olie totaal (Alifaten en Aromaten C5-C35)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -23857,20 +23857,20 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2349</ID>
 			<Code/>
-			<Omschrijving>Verzadigd volumegewicht van het pro</Omschrijving>
+			<Omschrijving>Verzadigd volumegewicht van het proefstuk</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2350</ID>
 			<Code/>
-			<Omschrijving>Droog init. vol.gew. van het proefs</Omschrijving>
+			<Omschrijving>Droog init. vol.gew. van het proefstuk</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -24097,10 +24097,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2374</ID>
 			<Code/>
-			<Omschrijving>1.2-Dichloorethenen (som, 0.7 facto</Omschrijving>
+			<Omschrijving>1.2-Dichloorethenen (som, 0.7 factor)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -24137,10 +24137,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2378</ID>
 			<Code/>
-			<Omschrijving>Tetrachloorbenzenen (som, 0.7 facto</Omschrijving>
+			<Omschrijving>Tetrachloorbenzenen (som, 0.7 factor)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -24167,10 +24167,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2381</ID>
 			<Code/>
-			<Omschrijving>PCB (6) (excl. PCB 118) (som, 0.7 f</Omschrijving>
+			<Omschrijving>PCB (6) (excl. PCB 118) (som, 0.7 factor)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -24187,10 +24187,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2383</ID>
 			<Code/>
-			<Omschrijving>Aldrin/dieldrin/endrin (som, 0.7 fa</Omschrijving>
+			<Omschrijving>Aldrin/dieldrin/endrin (som, 0.7 factor)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -24207,10 +24207,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2385</ID>
 			<Code/>
-			<Omschrijving>Heptachloorepoxide (som, 0.7 factor</Omschrijving>
+			<Omschrijving>Heptachloorepoxide (som, 0.7 factor)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -24247,10 +24247,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2389</ID>
 			<Code/>
-			<Omschrijving>niet chl.pest ONB+OPB (som, 0.7 fac</Omschrijving>
+			<Omschrijving>niet chl.pest ONB+OPB (som, 0.7 factor)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -24267,20 +24267,20 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2391</ID>
 			<Code/>
-			<Omschrijving>Pak-totaal (10 van VROM) (0.7 facto</Omschrijving>
+			<Omschrijving>Pak-totaal (10 van VROM) (0.7 factor)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2392</ID>
 			<Code/>
-			<Omschrijving>Pak-totaal (16 van EPA) (0.7 factor</Omschrijving>
+			<Omschrijving>Pak-totaal (16 van EPA) (0.7 factor)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -25527,10 +25527,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2518</ID>
 			<Code/>
-			<Omschrijving>Pentabroomdiphenylether-derivaat (S</Omschrijving>
+			<Omschrijving>Pentabroomdiphenylether-derivaat (Som)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -25587,10 +25587,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2524</ID>
 			<Code/>
-			<Omschrijving>Octabroomdiphenylether-derivaat (So</Omschrijving>
+			<Omschrijving>Octabroomdiphenylether-derivaat (Som)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -25637,10 +25637,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2529</ID>
 			<Code/>
-			<Omschrijving>Nonabroom diphenyl ether-derivaat (</Omschrijving>
+			<Omschrijving>Nonabroom diphenyl ether-derivaat (Som)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -25667,10 +25667,10 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2532</ID>
 			<Code/>
-			<Omschrijving>3, 3, 5, 5-Tetrabroombisphenol A</Omschrijving>
+			<Omschrijving>3, 3&#039;, 5, 5&#039;-Tetrabroombisphenol A - TBBA</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -25697,20 +25697,20 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2535</ID>
 			<Code/>
-			<Omschrijving>Concentratie crocidoliet (ondergren</Omschrijving>
+			<Omschrijving>Concentratie crocidoliet (ondergrens)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2536</ID>
 			<Code/>
-			<Omschrijving>Concentratie crocidoliet (bovengren</Omschrijving>
+			<Omschrijving>Concentratie crocidoliet (bovengrens)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -25757,20 +25757,20 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2541</ID>
 			<Code/>
-			<Omschrijving>Concentratie chrysotiel (ondergrens</Omschrijving>
+			<Omschrijving>Concentratie chrysotiel (ondergrens)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2542</ID>
 			<Code/>
-			<Omschrijving>Concentratie chrysotiel (bovengrens</Omschrijving>
+			<Omschrijving>Concentratie chrysotiel (bovengrens)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -25787,60 +25787,60 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2544</ID>
 			<Code/>
-			<Omschrijving>Asbest in grond (NEN 5707) ondergre</Omschrijving>
+			<Omschrijving>Asbest in grond (NEN 5707) ondergrens</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2545</ID>
 			<Code/>
-			<Omschrijving>Asbest in grond (NEN 5707) bovengre</Omschrijving>
+			<Omschrijving>Asbest in grond (NEN 5707) bovengrens</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2546</ID>
 			<Code/>
-			<Omschrijving>Asbest in puin (NEN 5897) ondergren</Omschrijving>
+			<Omschrijving>Asbest in puin (NEN 5897) ondergrens</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2547</ID>
 			<Code/>
-			<Omschrijving>Asbest in puin (NEN 5897) bovengren</Omschrijving>
+			<Omschrijving>Asbest in puin (NEN 5897) bovengrens</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2548</ID>
 			<Code/>
-			<Omschrijving>Asbest (blauw, crocidoliet) ondergr</Omschrijving>
+			<Omschrijving>Asbest (blauw, crocidoliet) ondergrens</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2549</ID>
 			<Code/>
-			<Omschrijving>Asbest (blauw, crocidoliet) bovengr</Omschrijving>
+			<Omschrijving>Asbest (blauw, crocidoliet) bovengrens</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -26027,20 +26027,20 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2568</ID>
 			<Code/>
-			<Omschrijving>Trichloorfenolen (0,7 som, 2,3,4+2,3,5+2,3,6+2,4,5</Omschrijving>
+			<Omschrijving>Trichloorfenolen (0,7 som, 2,3,4+2,3,5+2,3,6+2,4,5+2,4,6+3,4,5)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2569</ID>
 			<Code/>
-			<Omschrijving>Tetrachloorfenolen (0,7 som, 2,3,4,5+2,3,4,6+</Omschrijving>
+			<Omschrijving>Tetrachloorfenolen (0,7 som, 2,3,4,5+2,3,4,6+2,3,5,6)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -26277,20 +26277,20 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2593</ID>
 			<Code/>
-			<Omschrijving>OCB (0,7 som, waterbodem, BRL9335,</Omschrijving>
+			<Omschrijving>OCB (0,7 som, waterbodem, BRL9335,  C1 pakket)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro></broSldImbro>
 		</Parameter>
-		<Parameter versie="14.6.0" datum="2013-04-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>2594</ID>
 			<Code/>
-			<Omschrijving>OCB (0,7 som, waterbodem, BRL9335, </Omschrijving>
+			<Omschrijving>OCB (0,7 som, waterbodem, BRL9335, C2 pakket)</Omschrijving>
 			<Groep>ChemischeStof</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro></broSadImbro>
@@ -29167,7 +29167,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-05-06" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>2958</ID>
 			<Code>2C1oxNaf</Code>
 			<Omschrijving>2-methoxynaftaleen</Omschrijving>
@@ -41847,7 +41847,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-16" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>4226</ID>
 			<Code>SPECFEGVBBLT</Code>
 			<Omschrijving>Specifiek energieverbruik beluchting</Omschrijving>
@@ -42077,7 +42077,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-04-30" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>4249</ID>
 			<Code>SPECFKGPDTE</Code>
 			<Omschrijving>Specifieke gasproductie</Omschrijving>
@@ -49527,7 +49527,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>4994</ID>
 			<Code>ClO3</Code>
 			<Omschrijving>chloraat</Omschrijving>
@@ -49737,7 +49737,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-05-10" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>5015</ID>
 			<Code>SPECFKAVR</Code>
 			<Omschrijving>Specifieke afvoer</Omschrijving>
@@ -50227,7 +50227,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-05-11" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>5064</ID>
 			<Code>verslde</Code>
 			<Omschrijving>versalide</Omschrijving>
@@ -50527,7 +50527,7 @@
 			<broSldImbroA>true</broSldImbroA>
 			<broSldImbro>true</broSldImbro>
 		</Parameter>
-		<Parameter versie="14.7.0" datum="2026-07-11" status="Vervallen">
+		<Parameter versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>5113</ID>
 			<Code>tylsnttt</Code>
 			<Omschrijving>tylosine tartraat</Omschrijving>
@@ -73967,6 +73967,106 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7452</ID>
+			<Code>PCB163</Code>
+			<Omschrijving>2,3,3′,4′,5,6-hexachloorbifenyl</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7451</ID>
+			<Code>356TCl2pyrdn</Code>
+			<Omschrijving>3,5,6-trichloor-2-pyridinol</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7449</ID>
+			<Code>grisfvne</Code>
+			<Omschrijving>griseofulvine</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7450</ID>
+			<Code>tyrmne</Code>
+			<Omschrijving>tyramine</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7448</ID>
+			<Code>xylmtzlne</Code>
+			<Omschrijving>xylometazoline</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7452</ID>
+			<Code>PCB163</Code>
+			<Omschrijving>2,3,3′,4′,5,6-hexachloorbifenyl</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7451</ID>
+			<Code>356TCl2pyrdn</Code>
+			<Omschrijving>3,5,6-trichloor-2-pyridinol</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7449</ID>
+			<Code>grisfvne</Code>
+			<Omschrijving>griseofulvine</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7450</ID>
+			<Code>tyrmne</Code>
+			<Omschrijving>tyramine</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
+		<Parameter versie="14.7.0" datum="2026-07-25" status="Bevestigd">
+			<ID>7448</ID>
+			<Code>xylmtzlne</Code>
+			<Omschrijving>xylometazoline</Omschrijving>
+			<Groep>ChemischeStof</Groep>
+			<broSadImbroA>false</broSadImbroA>
+			<broSadImbro>false</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</Parameter>
 	</sikb.Parameter_c>
 	<sikb.Hoedanigheid_c categorie="Hoedanigheid" techName="Hoedanigheid" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
 		<Hoedanigheid versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
@@ -83953,7 +84053,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>14</ID>
 			<Code>ug/l</Code>
 			<Omschrijving>microgram per liter</Omschrijving>
@@ -83964,7 +84064,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>16</ID>
 			<Code>ul/l</Code>
 			<Omschrijving>microliter per liter</Omschrijving>
@@ -83976,7 +84076,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>17</ID>
 			<Code>um</Code>
 			<Omschrijving>micrometer</Omschrijving>
@@ -84306,7 +84406,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>58</ID>
 			<Code>mg/kg</Code>
 			<Omschrijving>milligram per kilogram</Omschrijving>
@@ -84339,7 +84439,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>61</ID>
 			<Code>mg/m3</Code>
 			<Omschrijving>milligram per kubieke meter</Omschrijving>
@@ -84350,7 +84450,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>63</ID>
 			<Code>ml</Code>
 			<Omschrijving>milliliter</Omschrijving>
@@ -84482,7 +84582,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>77</ID>
 			<Code>ng/kg</Code>
 			<Omschrijving>nanogram per kilogram</Omschrijving>
@@ -84504,7 +84604,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>79</ID>
 			<Code>ng/l</Code>
 			<Omschrijving>nanogram per liter</Omschrijving>
@@ -85043,7 +85143,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>131</ID>
 			<Code>ug/kg</Code>
 			<Omschrijving>microgram per kilogram</Omschrijving>
@@ -85340,7 +85440,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>181</ID>
 			<Code>g/d</Code>
 			<Omschrijving>gram per dag</Omschrijving>
@@ -85527,7 +85627,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>198</ID>
 			<Code>kg/h</Code>
 			<Omschrijving>kilogram per uur</Omschrijving>
@@ -85549,7 +85649,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>200</ID>
 			<Code>kg/km2</Code>
 			<Omschrijving>kilogram per vierkante kilometer</Omschrijving>
@@ -85648,7 +85748,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>209</ID>
 			<Code>l/h</Code>
 			<Omschrijving>liter per uur</Omschrijving>
@@ -85703,7 +85803,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>214</ID>
 			<Code>l/min</Code>
 			<Omschrijving>liter per minuut</Omschrijving>
@@ -85747,7 +85847,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>218</ID>
 			<Code>m3/d</Code>
 			<Omschrijving>kubieke meter per dag</Omschrijving>
@@ -85835,7 +85935,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>226</ID>
 			<Code>mg/g.h</Code>
 			<Omschrijving>milligram per gram uur</Omschrijving>
@@ -85890,7 +85990,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>231</ID>
 			<Code>mm/d</Code>
 			<Omschrijving>millimeter per dag</Omschrijving>
@@ -85912,7 +86012,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>233</ID>
 			<Code>mm/w</Code>
 			<Omschrijving>millimeter per week</Omschrijving>
@@ -85923,7 +86023,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>234</ID>
 			<Code>mm2</Code>
 			<Omschrijving>vierkante millimeter</Omschrijving>
@@ -85934,7 +86034,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>235</ID>
 			<Code>mm3/l</Code>
 			<Omschrijving>kubieke millimeter per liter</Omschrijving>
@@ -86077,7 +86177,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>248</ID>
 			<Code>n/km2</Code>
 			<Omschrijving>exemplaren per vierkante kilometer</Omschrijving>
@@ -86154,7 +86254,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>255</ID>
 			<Code>ng/g</Code>
 			<Omschrijving>nanogram per gram</Omschrijving>
@@ -86165,7 +86265,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>256</ID>
 			<Code>ng/ml</Code>
 			<Omschrijving>nanogram per milliliter</Omschrijving>
@@ -86209,7 +86309,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>260</ID>
 			<Code>pmol/mg</Code>
 			<Omschrijving>picomol per milligram</Omschrijving>
@@ -86308,7 +86408,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>269</ID>
 			<Code>umol/kg</Code>
 			<Omschrijving>micromol per kilogram</Omschrijving>
@@ -86330,7 +86430,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>271</ID>
 			<Code>us</Code>
 			<Omschrijving>microseconde</Omschrijving>
@@ -86385,7 +86485,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>276</ID>
 			<Code>mg/m2</Code>
 			<Omschrijving>milligram per vierkante meter</Omschrijving>
@@ -86418,7 +86518,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>279</ID>
 			<Code>mg/m2.d</Code>
 			<Omschrijving>milligram per vierkante meter per dag</Omschrijving>
@@ -86429,7 +86529,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>280</ID>
 			<Code>umol/m2.s</Code>
 			<Omschrijving>micromol per vierkante meter per seconde</Omschrijving>
@@ -86517,7 +86617,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>288</ID>
 			<Code>mg</Code>
 			<Omschrijving>milligram</Omschrijving>
@@ -86528,7 +86628,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>289</ID>
 			<Code>ug</Code>
 			<Omschrijving>microgram</Omschrijving>
@@ -86539,7 +86639,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>290</ID>
 			<Code>ng</Code>
 			<Omschrijving>nanogram</Omschrijving>
@@ -86550,7 +86650,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>291</ID>
 			<Code>l/d</Code>
 			<Omschrijving>liter per dag</Omschrijving>
@@ -86572,7 +86672,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>293</ID>
 			<Code>mm/h</Code>
 			<Omschrijving>millimeter per uur</Omschrijving>
@@ -86594,7 +86694,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>295</ID>
 			<Code>pg/l</Code>
 			<Omschrijving>picogram per liter</Omschrijving>
@@ -86605,7 +86705,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>296</ID>
 			<Code>ug/m3</Code>
 			<Omschrijving>microgram per kubieke meter</Omschrijving>
@@ -86616,7 +86716,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>324</ID>
 			<Code>pg/kg</Code>
 			<Omschrijving>picogram per kilogram</Omschrijving>
@@ -86627,7 +86727,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>325</ID>
 			<Code>pg/m2</Code>
 			<Omschrijving>picogram per vierkante meter</Omschrijving>
@@ -86638,7 +86738,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>326</ID>
 			<Code>ng/m2</Code>
 			<Omschrijving>nanogram per vierkante meter</Omschrijving>
@@ -86649,7 +86749,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>327</ID>
 			<Code>ug/m2</Code>
 			<Omschrijving>microgram per vierkante meter</Omschrijving>
@@ -86693,7 +86793,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>301</ID>
 			<Code>J/d</Code>
 			<Omschrijving>joule per dag</Omschrijving>
@@ -86825,7 +86925,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>303</ID>
 			<Code>kg/d</Code>
 			<Omschrijving>kilogram per dag</Omschrijving>
@@ -86869,7 +86969,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>309</ID>
 			<Code>m3/w</Code>
 			<Omschrijving>kubieke meter per week</Omschrijving>
@@ -86891,7 +86991,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>311</ID>
 			<Code>mg/d</Code>
 			<Omschrijving>milligram per dag</Omschrijving>
@@ -86902,7 +87002,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>312</ID>
 			<Code>mg/s</Code>
 			<Omschrijving>milligram per seconde</Omschrijving>
@@ -86913,7 +87013,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>316</ID>
 			<Code>ml/d</Code>
 			<Omschrijving>milliliter per dag</Omschrijving>
@@ -86946,7 +87046,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>330</ID>
 			<Code>pg/g</Code>
 			<Omschrijving>picogram per gram</Omschrijving>
@@ -86979,7 +87079,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>322</ID>
 			<Code>uS/m</Code>
 			<Omschrijving>microsiemens per meter</Omschrijving>
@@ -87155,7 +87255,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>348</ID>
 			<Code>ml/m3</Code>
 			<Omschrijving>milliliter per kubieke meter</Omschrijving>
@@ -87166,7 +87266,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>349</ID>
 			<Code>ml/min</Code>
 			<Omschrijving>milliliter per minuut</Omschrijving>
@@ -87177,7 +87277,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>354</ID>
 			<Code>ng/m3</Code>
 			<Omschrijving>nanogram per kubieke meter</Omschrijving>
@@ -87188,7 +87288,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>350</ID>
 			<Code>pg/cm2</Code>
 			<Omschrijving>picogram per vierkante centimeter</Omschrijving>
@@ -87199,7 +87299,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>351</ID>
 			<Code>pg/ml</Code>
 			<Omschrijving>picogram per milliliter</Omschrijving>
@@ -87210,7 +87310,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>345</ID>
 			<Code>ug/cm2</Code>
 			<Omschrijving>microgram per vierkante centimeter</Omschrijving>
@@ -87232,7 +87332,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>353</ID>
 			<Code>ul</Code>
 			<Omschrijving>microliter</Omschrijving>
@@ -87243,7 +87343,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>352</ID>
 			<Code>um3</Code>
 			<Omschrijving>kubieke micrometer</Omschrijving>
@@ -87364,7 +87464,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>365</ID>
 			<Code>mm3/m3</Code>
 			<Omschrijving>kubieke millimeter per kubieke meter</Omschrijving>
@@ -87375,7 +87475,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Gewijzigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>366</ID>
 			<Code>um3/ml</Code>
 			<Omschrijving>kubieke micrometer per milliliter</Omschrijving>
@@ -87386,7 +87486,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>368</ID>
 			<Code>n/d</Code>
 			<Omschrijving>exemplaren per dag</Omschrijving>
@@ -87408,7 +87508,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-05-18" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>367</ID>
 			<Code>cm3/kg</Code>
 			<Omschrijving>kubieke centimeter per kilogram</Omschrijving>
@@ -87441,7 +87541,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-07-09" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>372</ID>
 			<Code>mmol/kg.h</Code>
 			<Omschrijving>millimol per kilogram per uur</Omschrijving>
@@ -87452,7 +87552,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2022-08-04" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>373</ID>
 			<Code>m/d</Code>
 			<Omschrijving>meter per dag</Omschrijving>
@@ -87485,7 +87585,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2023-07-16" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>376</ID>
 			<Code>g/h</Code>
 			<Omschrijving>gram per uur</Omschrijving>
@@ -87496,7 +87596,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2024-07-09" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>378</ID>
 			<Code>mg/h</Code>
 			<Omschrijving>milligram per uur</Omschrijving>
@@ -87573,7 +87673,7 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2025-10-23" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>385</ID>
 			<Code>kg/kWh</Code>
 			<Omschrijving>kilogram per kilowattuur</Omschrijving>
@@ -87584,33 +87684,33 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2026-01-07" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-23" status="Bevestigd">
 			<ID>386</ID>
 			<Code>Nm</Code>
-			<Waarde>newtonmeter</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>newtonmeter</Omschrijving>
+			<Omrekenfactor>1</Omrekenfactor>
 			<Groep>SI afgeleide eenheid</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2026-04-22" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>387</ID>
 			<Code>mg/l.h</Code>
-			<Waarde>milligram per liter per uur</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>milligram per liter per uur</Omschrijving>
+			<Omrekenfactor>2.78e-7</Omrekenfactor>
 			<Groep>SI afgeleide eenheid</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Eenheid>
-		<Eenheid versie="14.7.0" datum="2026-07-02" status="Bevestigd">
+		<Eenheid versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>388</ID>
 			<Code>ppb</Code>
-			<Waarde>parts per billion</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>parts per billion</Omschrijving>
+			<Omrekenfactor>1e-9</Omrekenfactor>
 			<Groep>Overig</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -105315,10 +105415,10 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Meetinstantie>
-		<Meetinstantie versie="14.7.0" datum="2026-07-22" status="Bevestigd">
+		<Meetinstantie versie="14.7.0" datum="2026-07-23" status="Bevestigd">
 			<ID>185</ID>
 			<Code>185</Code>
-			<Waarde>Inventeers Manufacturing Services B.V. - Leiden NL</Waarde>
+			<Waarde>Inventeers Research &amp; Development B.V. - Leiden NL</Waarde>
 			<Omschrijving>undefined</Omschrijving>
 			<Groep>
 			</Groep>
@@ -105644,144 +105744,144 @@
 		</LabopdrachtStatus>
 	</sikb.LabopdrachtStatus_c>
 	<sikb.BodemlaagBijzonderhedenGradatie_c categorie="BodemlaagBijzonderhedenGradatie" techName="BodemlaagBijzonderhedenGradatie" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>zwak (&lt;5%)</Waarde>
-			<Omschrijving>zwak (&lt;5%)</Omschrijving>
-			<Groep/>
+			<Omschrijving>zwak (NEN 5104) (&lt;5%)</Omschrijving>
+			<Groep>NEN5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>lenzen</Waarde>
 			<Omschrijving>lenzen</Omschrijving>
-			<Groep/>
+			<Groep>Overig</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>insluitingen</Waarde>
 			<Omschrijving>insluitingen</Omschrijving>
-			<Groep/>
+			<Groep>Overig</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>matig (5%-15%)</Waarde>
-			<Omschrijving>matig (5%-15%)</Omschrijving>
-			<Groep/>
+			<Omschrijving>matig (NEN 5104/NEN 6693) (5%-15%)</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-17" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>sterk/veel (15%-50%)</Waarde>
-			<Omschrijving>sterk/veel (15%-50%)</Omschrijving>
-			<Groep/>
+			<Omschrijving>sterk (NEN 5104)/veel (NEN 6693) (15%-50%)</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-17" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>6</ID>
 			<Code/>
 			<Waarde>uiterst/overvloedig (50%-80%)</Waarde>
-			<Omschrijving>uiterst/overvloedig (50%-80%)</Omschrijving>
-			<Groep/>
+			<Omschrijving>uiterst (NEN 5104)/overvloedig (NEN 6693) (50%-80%)</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2025-12-17" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>7</ID>
 			<Code/>
 			<Waarde>volledig/dominant (&gt;80%)</Waarde>
-			<Omschrijving>volledig/dominant (&gt;80%)</Omschrijving>
-			<Groep/>
+			<Omschrijving>volledig (NEN 5104)/dominant (NEN 6693) (&gt;80%)</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>8</ID>
 			<Code/>
 			<Waarde>sporen</Waarde>
 			<Omschrijving>sporen</Omschrijving>
-			<Groep/>
+			<Groep>Overig</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>9</ID>
 			<Code/>
 			<Waarde>resten</Waarde>
 			<Omschrijving>resten</Omschrijving>
-			<Groep/>
+			<Groep>Overig</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>10</ID>
 			<Code/>
 			<Waarde>brokken</Waarde>
 			<Omschrijving>brokken</Omschrijving>
-			<Groep/>
+			<Groep>Overig</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2024-07-10" status="Gewijzigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-23" status="Gewijzigd">
 			<ID>11</ID>
 			<Code/>
 			<Waarde>laagjes</Waarde>
 			<Omschrijving>laagjes</Omschrijving>
-			<Groep/>
+			<Groep>Overig</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-22" status="Bevestigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>13</ID>
 			<Code>undefined</Code>
 			<Waarde>weinig (2%-5%)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
-			<Groep>undefined</Groep>
+			<Omschrijving>weinig (NEN 6693) (2%-5%)</Omschrijving>
+			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemlaagBijzonderhedenGradatie>
-		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-22" status="Bevestigd">
+		<BodemlaagBijzonderhedenGradatie versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>12</ID>
 			<Code>undefined</Code>
 			<Waarde>zeer weinig (&gt;0%-2%)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
-			<Groep>undefined</Groep>
+			<Omschrijving>zeer weinig (NEN 6693) (&gt;0%-2%)</Omschrijving>
+			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
@@ -105825,70 +105925,66 @@
 		</BodemlaagType>
 	</sikb.BodemlaagType_c>
 	<sikb.GrindGehalte_c categorie="GrindGehalte" techName="GrindGehalte" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<GrindGehalte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<GrindGehalte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>geen grind</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep/>
-			<broSadImbroA>true</broSadImbroA>
-			<broSadImbro>true</broSadImbro>
-			<broSldImbroA>false</broSldImbroA>
-			<broSldImbro>false</broSldImbro>
-		</GrindGehalte>
-		<GrindGehalte versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
-			<ID>2</ID>
-			<Code/>
-			<Waarde>g1 (0-5 %)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Grind is niet aanwezig (NEN 5104/NEN 6693).</Omschrijving>
 			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</GrindGehalte>
-		<GrindGehalte versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<GrindGehalte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
+			<ID>2</ID>
+			<Code/>
+			<Waarde>g1 (0-5 %)</Waarde>
+			<Omschrijving>Grind is aanwezig en maakt minder dan 5 % van de massa uit (NEN 5104/NEN 6693).</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
+			<broSadImbroA>true</broSadImbroA>
+			<broSadImbro>true</broSadImbro>
+			<broSldImbroA>false</broSldImbroA>
+			<broSldImbro>false</broSldImbro>
+		</GrindGehalte>
+		<GrindGehalte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>g2 (5-15 %)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Grind maakt tussen 5 en 15 % van de massa uit (NEN 5104).</Omschrijving>
 			<Groep>NEN5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</GrindGehalte>
-		<GrindGehalte versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<GrindGehalte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>g3 (15-30 %)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Grind maakt tussen 15 en 30 % van de massa uit (NEN 5104).</Omschrijving>
 			<Groep>NEN5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</GrindGehalte>
-		<GrindGehalte versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<GrindGehalte versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>5</ID>
 			<Code>undefined</Code>
 			<Waarde>g2 (5-20 %)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grind maakt tussen 5 en 20 % van de massa uit (NEN 6693).</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</GrindGehalte>
-		<GrindGehalte versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<GrindGehalte versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>6</ID>
 			<Code>undefined</Code>
 			<Waarde>g3 (20-50 %)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grind maakt tussen 20 en 50 % van de massa uit (NEN 6693).</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -105897,468 +105993,429 @@
 		</GrindGehalte>
 	</sikb.GrindGehalte_c>
 	<sikb.Bodemsoort_c categorie="Bodemsoort" techName="Bodemsoort" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>Zs1 (Zand zwak siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 90% van de massa uit zand, voor maximaal 5% uit lutum en voor maximaal 10% uit silt bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>Zs2 (Zand matig siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 82,5 en 90% van de massa uit zand, voor maximaal 5% uit lutum en voor tussen 10 en 17,5% uit silt bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>Zs3 (Zand sterk siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 67,5 en 82,5% van de massa uit zand, voor maximaal 8% uit lutum en voor tussen 17,5 en 32,5% uit silt bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>Zs4 (Zand uiterst siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 50 en 67,5% van de massa uit zand, voor maximaal 8% uit lutum en voor tussen 32,5 en 50% uit silt bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>Zk (Zand kleiig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor minimaal 82,5% van de massa uit zand, voor 5 tot 8% uit lutum en voor maximaal 12,5% uit silt bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>6</ID>
 			<Code/>
 			<Waarde>Ks1 (Klei zwak siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 50% van de massa uit lutum bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>7</ID>
 			<Code/>
 			<Waarde>Ks2 (Klei matig siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 35% van de massa uit lutum bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>8</ID>
 			<Code/>
 			<Waarde>Ks3 (Klei sterk siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 25% van de massa uit lutum bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>9</ID>
 			<Code/>
 			<Waarde>Ks4 (Klei uiterst siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 25% van de massa uit lutum, voor tussen 25 en 75% uit silt en voor minder dan 50% uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>10</ID>
 			<Code/>
 			<Waarde>Kz1 (Klei zwak zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 17,5 en 25% van de massa uit lutum, voor meer dan 50% uit zand en voor de rest uit silt bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>11</ID>
 			<Code/>
 			<Waarde>Kz2 (Klei matig zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 12 en 17,5% van de massa uit lutum, voor meer dan 50% uit zand en voor de rest uit silt bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>12</ID>
 			<Code/>
 			<Waarde>Kz3 (Klei sterk zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor tussen 8 en 12% van de massa uit lutum, voor meer dan 50% uit zand en voor de rest uit silt bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>13</ID>
 			<Code/>
 			<Waarde>Sz1 (Silt zwak zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN6693</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 65% uit silt, voor maximaal 2 % uit lutum en voor maximaal 1 % uit zand bestaat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>14</ID>
 			<Code/>
 			<Waarde>Sz3 (Silt sterk zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN6693</Groep>
+			<Omschrijving>Grond die onder NEN 5104 minder dan 30% grind en onder NEN 6693 minder dan 50% grind en minder dan 15% organische stof bevat en die, als die twee bestanddelen worden uitgesloten, voor meer dan 42% uit silt, voor maximaal 20% uit lutum en voor tussen 15 en 50% uit zand bestaat, maar waarvan de precieze verhouding tussen de hoeveelheden zand, silt en lutum niet goed in woorden is uit te drukken.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>15</ID>
 			<Code/>
 			<Waarde>Vm (Veen mineraalarm)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die voor meer dan 35% van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor maximaal 30% uit lutum en voor maximaal 65% uit silt plus zand.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>16</ID>
 			<Code/>
 			<Waarde>Vk1 (Veen zwak kleiig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die voor 25 tot 70% van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor minder dan 70% uit silt plus zand en voor tussen 5 en 55% uit lutum.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>17</ID>
 			<Code/>
 			<Waarde>Vk3 (Veen sterk kleiig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die voor 15 tot 45% van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor minder dan 77,5% uit silt plus zand en voor tussen 7 en 70% uit lutum.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>18</ID>
 			<Code/>
 			<Waarde>Vz1 (Veen zwak zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die voor 22,5 tot 40% van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor tussen 55 en 77,5% uit silt plus zand en voor minder dan 5% uit lutum.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>19</ID>
 			<Code/>
 			<Waarde>Vz3 (Veen sterk zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die voor 15 tot 25% van de massa uit organische stof die vezelig is en samenhang vertoont bestaat, voor tussen 70 en 85% uit silt plus zand en voor minder dan 7% uit lutum.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>20</ID>
 			<Code/>
 			<Waarde>Gs (Grind siltig), 30% grind</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 30% van de massa uit grind, voor meer dan 20% uit silt plus lutum en voor minder dan 20% uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
 			<Groep>NEN5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>21</ID>
 			<Code/>
 			<Waarde>Gz1 (Grind zwak zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 50% van het massa uit grind, voor minder dan 20% uit silt plus lutum en voor minder dan 10% uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
 			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>22</ID>
 			<Code/>
 			<Waarde>Gz2 (Grind matig zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 50% van het massa uit grind, voor minder dan 20% uit silt plus lutum en voor 10 tot 30% uit zand bestaat en niet veel organische stof bevat.</Omschrijving>
 			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>23</ID>
 			<Code/>
 			<Waarde>Gz3 (Grind sterk zandig), 30% grind</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 30% van het massa uit grind, voor 30 tot 50% uit zand en voor minder dan 20% uit silt plus lutum bestaat en niet veel organische stof bevat.</Omschrijving>
 			<Groep>NEN5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>24</ID>
 			<Code/>
 			<Waarde>Gz4 (Grind uiterst zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
-			<Groep>NEN-omschrijving</Groep>
+			<Omschrijving>Grond die voor meer dan 30% van het massa uit grind, voor meer dan 50% uit zand en voor minder dan 20% uit silt plus lutum bestaat en niet veel organische stof bevat.</Omschrijving>
+			<Groep>NEN5104/NEN6693</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>25</ID>
 			<Code/>
 			<Waarde>SLk1 (Slib zwak kleiig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Slib met een zwakke toevoeging van lutumdeeltjes.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>26</ID>
 			<Code/>
 			<Waarde>SLk3 (Slib sterk kleiig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Slib met een sterke toevoeging van lutumdeeltjes.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>27</ID>
 			<Code/>
 			<Waarde>SLs1 (Slib zwak siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Slib met een zwakke toevoeging van siltdeeltjes.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>28</ID>
 			<Code/>
 			<Waarde>SLs2 (Slib matig siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Slib met een matige toevoeging van siltdeeltjes.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>29</ID>
 			<Code/>
 			<Waarde>SLs3 (Slib sterk siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Slib met een sterke toevoeging van siltdeeltjes.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>30</ID>
 			<Code/>
 			<Waarde>SLs4 (Slib uiterst siltig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Slib met een uiterst sterke toevoeging van siltdeeltjes.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>31</ID>
 			<Code/>
 			<Waarde>SLz1 (Slib zwak zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Slib met een zwakke toevoeging van zanddeeltjes.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>32</ID>
 			<Code/>
 			<Waarde>SLz2 (Slib matig zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Slib met een matige toevoeging van zanddeeltjes.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>33</ID>
 			<Code/>
 			<Waarde>SLz3 (Slib sterk zandig)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Slib met een sterke toevoeging van zanddeeltjes.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>34</ID>
 			<Code/>
 			<Waarde>SL (Slib)</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Door water afgezette sedimentdeeltjes met een grootte tussen 4 en 62 micrometer.</Omschrijving>
 			<Groep>SIKB0101</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-12-10" status="Vervallen">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>35</ID>
 			<Code/>
 			<Waarde>Zand</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Een natuurlijk los afzettingsgesteente bestaande uit een mengsel van voornamelijk minerale deeltjes met een korrelgrootte die hoofdzakelijk ligt tussen 0.063 en 2 mm - de samenstelling en aard van de korrels en korrelgrootte verdeling kan sterk variëren - van het totaal aan minerale deeltjes kleiner dan 2 mm is maximaal 8% kleiner dan 0.002 mm en maximaal 50% kleiner dan 0.063 mm, terwijl maximaal 30% van het volledige minerale mengsel groter dan 2 mm mag zijn.</Omschrijving>
 			<Groep>Hoofdnaam</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-12-10" status="Vervallen">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>36</ID>
 			<Code/>
 			<Waarde>Klei</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Natuurlijk door of in water afgezet materiaal dat is ontstaan door verwering van gesteenten, behorende tot de fijnste groep afzettingsgesteenten.</Omschrijving>
 			<Groep>Hoofdnaam</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-12-10" status="Vervallen">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>37</ID>
 			<Code/>
 			<Waarde>Leem</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Grondsoort die fijner is dan zand, maar ook minder kleimineralen bevat dan klei en voor een groot deel uit fijne kwartskorrels bestaat kleiner dan 0.063 mm.</Omschrijving>
 			<Groep>Hoofdnaam</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-12-10" status="Vervallen">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>38</ID>
 			<Code/>
 			<Waarde>Veen</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Grondsoort die grotendeels bestaat (ontstaan is) uit afgestorven plantenresten.</Omschrijving>
 			<Groep>Hoofdnaam</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2024-12-10" status="Vervallen">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Vervallen">
 			<ID>39</ID>
 			<Code/>
 			<Waarde>Grind</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Gesteente, hoofdzakelijk bestaande uit kwarts, overwegend rond, van natuurlijke herkomst, met een korrelgrootte tussen de 2 mm en 63 mm.</Omschrijving>
 			<Groep>Hoofdnaam</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>false</broSadImbro>
@@ -106425,253 +106482,253 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>54</ID>
 			<Code>undefined</Code>
 			<Waarde>DETk1 (Detrius zwak kleiig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 25 tot 70% van de massa uit detrius bestaat, voor minder dan 70% uit silt plus zand en voor tussen 5 en 55% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>55</ID>
 			<Code>undefined</Code>
 			<Waarde>DETk3 (Detrius sterk kleiig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 15 tot 45% van de massa uit detrius bestaat, voor minder dan 77,5% uit silt plus zand en voor tussen 7 en 70% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>53</ID>
 			<Code>undefined</Code>
 			<Waarde>DETm (Detrius mineraalarm)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 35% van de massa uit detrius bestaat, voor maximaal 30% uit lutum en voor maximaal 65% uit silt plus zand.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>56</ID>
 			<Code>undefined</Code>
 			<Waarde>DETz1 (Detrius zwak zandig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 22,5 tot 40% van de massa uit detrius bestaat, voor tussen 55 en 77,5% uit silt plus zand en voor minder dan 5% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>57</ID>
 			<Code>undefined</Code>
 			<Waarde>DETz3 (Detrius sterk zandig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 15 tot 25% van de massa uit detrius bestaat, voor tussen 70 en 85% uit silt plus zand en voor minder dan 7% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>59</ID>
 			<Code>undefined</Code>
 			<Waarde>GYk1 (Gyttja zwak kleiig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 25 tot 70% van de massa uit gyttja bestaat, voor minder dan 70% uit silt plus zand en voor tussen 5 en 55% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>60</ID>
 			<Code>undefined</Code>
 			<Waarde>GYk3 (Gyttja sterk kleiig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 15 tot 45% van de massa uit gyttja bestaat, voor minder dan 77, % uit silt plus zand en voor tussen 7 en 70% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>58</ID>
 			<Code>undefined</Code>
 			<Waarde>GYm (Gyttja mineraalarm)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 35% van de massa uit gyttja bestaat, voor maximaal 30% uit lutum en voor maximaal 65% uit silt plus zand.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>61</ID>
 			<Code>undefined</Code>
 			<Waarde>GYz1 (Gyttja zwak zandig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 22,5 tot 40% van de massa uit gyttja bestaat, voor tussen 55 en 77,5% uit silt plus zand en voor minder dan 5% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>62</ID>
 			<Code>undefined</Code>
 			<Waarde>GYz3 (Gyttja sterk zandig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 15 tot 25% van de massa uit gyttja bestaat, voor tussen 70 en 85% uit silt plus zand en voor minder dan 7% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>63</ID>
 			<Code>undefined</Code>
 			<Waarde>Gk (Grind kleiig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 50 % van de massa uit grind bestaat, voor 20 - 50% uit lutum en voor minder dan 30% uit zand en niet veel organische stof bevat.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>65</ID>
 			<Code>undefined</Code>
 			<Waarde>Gkn (Grind met keien)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50% uit grind bestaat, en die voor de rest vooral uit keien bestaat.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>64</ID>
 			<Code>undefined</Code>
 			<Waarde>Gks (Grind met keitjes)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grove minerale grond, waarvan de grove fractie voor meer dan 50% uit grind bestaat, en die voor de rest vooral uit keitjes bestaat.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>66</ID>
 			<Code>undefined</Code>
 			<Waarde>Gs (Grind siltig), 50% grind</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 50% van de massa uit grind bestaat, voor 20 - 50% uit silt en voor minder dan 30% uit zand en niet veel organische stof bevat.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>67</ID>
 			<Code>undefined</Code>
 			<Waarde>Gz3 (Grind sterk zandig), 50% grind</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 50% van het massa uit grind bestaat, voor 30 tot 50% uit zand en voor minder dan 20% uit silt plus lutum bestaat en niet veel organische stof bevat.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>49</ID>
 			<Code>undefined</Code>
 			<Waarde>Hk1 (Humus zwak kleiig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 25 tot 70% van de massa uit humus bestaat, voor minder dan 70% uit silt plus zand en voor tussen 5 en 55% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>50</ID>
 			<Code>undefined</Code>
 			<Waarde>Hk3 (Humus sterk kleiig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 15 tot 45% van de massa uit humus bestaat, voor minder dan 77,5% uit silt plus zand en voor tussen 7 en 70% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>48</ID>
 			<Code>undefined</Code>
 			<Waarde>Hm (Humus mineraalarm)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor meer dan 35% van de massa uit humus bestaat, voor maximaal 30% uit lutum en voor maximaal 65% uit silt plus zand.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>51</ID>
 			<Code>undefined</Code>
 			<Waarde>Hz1 (Humus zwak zandig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 22,5 tot 40% van de massa uit humus bestaat, voor tussen 55 en 77,5% uit silt plus zand en voor minder dan 5% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>52</ID>
 			<Code>undefined</Code>
 			<Waarde>Hz3 (Humus sterk zandig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor 15 tot 25% van de massa uit humus bestaat, voor tussen 70 en 85% uit silt plus zand en voor minder dan 7% uit lutum.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>45</ID>
 			<Code>undefined</Code>
 			<Waarde>Zg1 (Zand zwak grindig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor minimaal 50% van de massa uit zand bestaat en die voor 0 tot 5% uit grind bestaat.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>46</ID>
 			<Code>undefined</Code>
 			<Waarde>Zg2 (Zand matig grindig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor minimaal 50% van de massa uit zand bestaat en die voor 5 tot 20% uit grind bestaat.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Bodemsoort>
-		<Bodemsoort versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Bodemsoort versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>47</ID>
 			<Code>undefined</Code>
 			<Waarde>Zg3 (Zand sterk grindig)</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>Grond die voor minimaal 50% van de massa uit zand bestaat en die voor 20 tot 50% uit grind bestaat.</Omschrijving>
 			<Groep>NEN6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -106692,48 +106749,44 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>fijn</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>De grindmediaan is gelijk aan of groter dan 2 mm en kleiner dan 5,6 mm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
 			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>uiterst fijn</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>De zandmediaan ligt tussen 63 en 105 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
 			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>zeer fijn</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>De zandmediaan ligt tussen 105 en 150 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
 			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>matig fijn</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>De zandmediaan ligt tussen 150 en 210 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
 			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -106752,36 +106805,33 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>7</ID>
 			<Code/>
 			<Waarde>uiterst grof</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>De zandmediaan ligt tussen 420 en 2000 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
 			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>8</ID>
 			<Code/>
 			<Waarde>zeer grof</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>De zandmediaan ligt tussen 300 en 420 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
 			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>9</ID>
 			<Code/>
 			<Waarde>matig grof</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>De zandmediaan ligt tussen 210 en 300 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
 			<Groep>NEN 5104</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -106824,132 +106874,132 @@
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>18</ID>
 			<Code>undefined</Code>
 			<Waarde>fijn 105 - 150 um</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De zandmediaan is groter dan 105 µm en kleiner dan of gelijk aan 150 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>19</ID>
 			<Code>undefined</Code>
 			<Waarde>fijn 150 - 200 um</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De zandmediaan is groter dan 150 µm en kleiner dan of gelijk aan 200 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>13</ID>
 			<Code>undefined</Code>
 			<Waarde>fijn 2,0 - 6,3 mm</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De grindmediaan is gelijk aan of groter dan 2 mm en kleiner dan 6,3 mm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>17</ID>
 			<Code>undefined</Code>
 			<Waarde>fijn 63 - 105 um</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De zandmediaan is groter dan 63 µm en kleiner dan of gelijk aan 105 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>16</ID>
 			<Code>undefined</Code>
 			<Waarde>fijn 63 - 200 um</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De zandmediaan is groter dan 63 µm en kleiner dan of gelijk aan 200 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>15</ID>
 			<Code>undefined</Code>
 			<Waarde>grof 20 - 63 mm</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De grindmediaan is gelijk aan of groter dan 20 mm en kleiner dan 63 mm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>24</ID>
 			<Code>undefined</Code>
 			<Waarde>grof 630 - 2000 um</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De zandmediaan is groter dan 630 µm en kleiner dan of gelijk aan 2000 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>21</ID>
 			<Code>undefined</Code>
 			<Waarde>middelgrof 200 - 300 um</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De zandmediaan is groter dan 200 µm en kleiner dan of gelijk aan 300 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>20</ID>
 			<Code>undefined</Code>
 			<Waarde>middelgrof 200 - 630 um</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De zandmediaan ligt tussen 200 en 630 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>22</ID>
 			<Code>undefined</Code>
 			<Waarde>middelgrof 300 - 420 um</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De zandmediaan is groter dan 300 µm en kleiner dan of gelijk aan 420 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>23</ID>
 			<Code>undefined</Code>
 			<Waarde>middelgrof 420 - 630 um</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De zandmediaan is groter dan 420 µm en kleiner dan of gelijk aan 630 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</BodemsoortMediaan>
-		<BodemsoortMediaan versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<BodemsoortMediaan versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>14</ID>
 			<Code>undefined</Code>
 			<Waarde>middelgrof 6,3 - 20 mm</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>De grindmediaan is gelijk aan of groter dan 6,3 mm en kleiner dan 20 mm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
 			<Groep>NEN 6693</Groep>
 			<broSadImbroA>false</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -106958,179 +107008,165 @@
 		</BodemsoortMediaan>
 	</sikb.BodemsoortMediaan_c>
 	<sikb.Kleur_c categorie="Kleur" techName="Kleur" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>wit</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>wit</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>grijs</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>grijs</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>zwart</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>zwart</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>rood</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>rood</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>oranje</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>oranje</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>6</ID>
 			<Code/>
 			<Waarde>geel</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>geel</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>7</ID>
 			<Code/>
 			<Waarde>groen</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>groen</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>8</ID>
 			<Code/>
 			<Waarde>blauw</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>blauw</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>9</ID>
 			<Code/>
 			<Waarde>paars</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>paars</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>10</ID>
 			<Code/>
 			<Waarde>bruin</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>bruin</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>11</ID>
 			<Code/>
 			<Waarde>roestbruin</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>roestbruin</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>12</ID>
 			<Code/>
 			<Waarde>beige</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>beige</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>13</ID>
 			<Code/>
 			<Waarde>creme</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>creme</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>14</ID>
 			<Code/>
 			<Waarde>kleurloos</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>kleurloos</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleur>
-		<Kleur versie="14.7.0" datum="2025-12-10" status="Bevestigd">
+		<Kleur versie="14.7.0" datum="2026-07-29" status="Bevestigd">
 			<ID>15</ID>
 			<Code>undefined</Code>
 			<Waarde>olijf</Waarde>
-			<Omschrijving>undefined</Omschrijving>
+			<Omschrijving>olijf</Omschrijving>
 			<Groep>undefined</Groep>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -107139,59 +107175,55 @@
 		</Kleur>
 	</sikb.Kleur_c>
 	<sikb.Kleursterkte_c categorie="Kleursterkte" techName="Kleursterkte" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<Kleursterkte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleursterkte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>zeer licht</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>zeer licht</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleursterkte>
-		<Kleursterkte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleursterkte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>licht</Waarde>
-			<Omschrijving>een aanwijzing ter verkenning en ondersteuning van de navigatie</Omschrijving>
+			<Omschrijving>licht</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleursterkte>
-		<Kleursterkte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleursterkte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>neutraal</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>neutraal</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleursterkte>
-		<Kleursterkte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleursterkte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>donker</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>donker</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</Kleursterkte>
-		<Kleursterkte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<Kleursterkte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>zeer donker</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>zeer donker</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -107200,60 +107232,55 @@
 		</Kleursterkte>
 	</sikb.Kleursterkte_c>
 	<sikb.OliewaterReactieMate_c categorie="OliewaterReactieMate" techName="OliewaterReactieMate" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<OliewaterReactieMate versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<OliewaterReactieMate versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>geen</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Geen olievlekken waargenomen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OliewaterReactieMate>
-		<OliewaterReactieMate versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<OliewaterReactieMate versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>zwak</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Meestal overeenkomend met enkele olievlekken of een oliestreep (bedekkingsgraad 0 - 10%).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OliewaterReactieMate>
-		<OliewaterReactieMate versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<OliewaterReactieMate versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>matig</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Meerdere oliestrepen of olievlekken (bedekkingsgraad 10 - 30%).</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OliewaterReactieMate>
-		<OliewaterReactieMate versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<OliewaterReactieMate versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>sterk</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Olievlekken met een dekkingsgraad van 30 - 75%.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OliewaterReactieMate>
-		<OliewaterReactieMate versie="14.7.0" datum="2025-11-25" status="Gewijzigd">
+		<OliewaterReactieMate versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>5</ID>
 			<Code/>
 			<Waarde>zeer sterk</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Olievlekken met een dekkingsgraad van 75 - 100%. Deze waarde afkomstig uit de NEN 6693 vervangt de term &#039;uiterst&#039;.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
@@ -107262,48 +107289,44 @@
 		</OliewaterReactieMate>
 	</sikb.OliewaterReactieMate_c>
 	<sikb.OrganischeStofGehalte_c categorie="OrganischeStofGehalte" techName="OrganischeStofGehalte" beschrijving="zie codes.sikb.nl" versie="14.7.0" datum="2022-06-24">
-		<OrganischeStofGehalte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<OrganischeStofGehalte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>1</ID>
 			<Code/>
 			<Waarde>geen humus</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Organische stof is niet aanwezig.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OrganischeStofGehalte>
-		<OrganischeStofGehalte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<OrganischeStofGehalte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>2</ID>
 			<Code/>
 			<Waarde>h1</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Organische stof is aanwezig en maakt minder dan 2,5 % van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 5 % bedragen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OrganischeStofGehalte>
-		<OrganischeStofGehalte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<OrganischeStofGehalte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>3</ID>
 			<Code/>
 			<Waarde>h2</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Organische stof maakt tussen 2,5 en 8 % van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 16 % bedragen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
 			<broSldImbroA>false</broSldImbroA>
 			<broSldImbro>false</broSldImbro>
 		</OrganischeStofGehalte>
-		<OrganischeStofGehalte versie="14.7.0" datum="2024-08-29" status="Gewijzigd">
+		<OrganischeStofGehalte versie="14.7.0" datum="2026-07-29" status="Gewijzigd">
 			<ID>4</ID>
 			<Code/>
 			<Waarde>h3</Waarde>
-			<Omschrijving>
-			</Omschrijving>
+			<Omschrijving>Organische stof maakt tussen 8 en 16 % van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 30 % bedragen.</Omschrijving>
 			<Groep/>
 			<broSadImbroA>true</broSadImbroA>
 			<broSadImbro>true</broSadImbro>
