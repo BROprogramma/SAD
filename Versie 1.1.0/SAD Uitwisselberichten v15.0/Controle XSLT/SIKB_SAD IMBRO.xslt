@@ -46,7 +46,7 @@
                 <xsl:copy-of select="sikb:createRecord('WARNING','imsikb0101:metaData/imsikb0101:dataflow','Het veld metadata/dataflow zou ingevuld moeten zijn met: urn:imsikb0101:DatastroomType:id:9 of id:4. Als dit geen SAD of onderzoeks xml is, kan dit niet aangeleverd worden aan de BRO.')"/>
             </xsl:if>      
             <xsl:if test="not(lower-case(//imsikb0101:metaData/imsikb0101:version) = lower-case('15.0'))">
-                <xsl:copy-of select="sikb:createRecord('ERROR','imsikb0101:metaData/imsikb0101:version','Het veld metadata/versie moet versie 15.0 zijn')"/>
+                <xsl:copy-of select="sikb:createRecord('ERROR','imsikb0101:metaData/imsikb0101:version','Het veld metadata/versie moet versie 14.9.0 of 15.0 zijn')"/>
             </xsl:if>         
             <xsl:if test="not(//imsikb0101:Project) or not(count(//imsikb0101:Project) = 1)">
                 <!-- Check existence Project -->
