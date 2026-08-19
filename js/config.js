@@ -5,8 +5,8 @@ let respecConfig = {
   title: "Basisregistratie Ondergrond Catalogus Milieuhygiënisch bodemonderzoek",
   //subtitle: "Versie 1.2",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "wv",                   // Werkversie
-  //specStatus: "cv",               // Consultatieversie
+  //specStatus: "wv",                   // Werkversie
+  specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
@@ -30,13 +30,13 @@ let respecConfig = {
   shortName: "sad",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2026-08-05",
+  publishDate: "2026-08-19",
   //custom header lines  
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
   publishVersion: " ",
   previousVersion: " ",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2024-06-13",
+  previousPublishDate: "2024-09-25",
   previousMaturity: "def",
   //-- de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
