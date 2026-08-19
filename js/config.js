@@ -6,7 +6,7 @@ let respecConfig = {
   subtitle: "Versie 1.2",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "wv",                   // Werkversie
-  specStatus: "cv",               // Consultatieversie
+  specStatus: "cv",                // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
