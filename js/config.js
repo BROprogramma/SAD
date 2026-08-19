@@ -3,10 +3,10 @@ let respecConfig = {
   useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
   title: "Basisregistratie Ondergrond Catalogus Milieuhygiënisch bodemonderzoek",
-  subtitle: "Versie 1.2",
+  //subtitle: "Versie 1.2",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus: "wv",                   // Werkversie
-  specStatus: "cv",                // Consultatieversie
+  specStatus: "wv",                   // Werkversie
+  //specStatus: "cv",                // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
@@ -36,8 +36,8 @@ let respecConfig = {
   publishVersion: " ",
   previousVersion: " ",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2024-09-25",
-  previousMaturity: "def",
+  previousPublishDate: "2026-08-19",
+  previousMaturity: "cv",
   //-- de namen van de Editor(s) / Redacteur(en)---------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors:
