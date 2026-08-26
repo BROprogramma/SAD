@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <OrganischeStofGehalteKlasse>
+        <Waarde>nietHumeus</Waarde>
+        <SIKB0101ID>1</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Organische stof is niet aanwezig.</Omschrijving>
+    </OrganischeStofGehalteKlasse>
+    <OrganischeStofGehalteKlasse>
+        <Waarde>zwakHumeus</Waarde>
+        <SIKB0101ID>2</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Organische stof is aanwezig en maakt minder dan 2,5 % van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 5 % bedragen.</Omschrijving>
+    </OrganischeStofGehalteKlasse>
+    <OrganischeStofGehalteKlasse>
+        <Waarde>matigHumeus</Waarde>
+        <SIKB0101ID>3</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Organische stof maakt tussen 2,5 en 8 % van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 16 % bedragen.</Omschrijving>
+    </OrganischeStofGehalteKlasse>
+    <OrganischeStofGehalteKlasse>
+        <Waarde>sterkHumeus</Waarde>
+        <SIKB0101ID>4</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>Organische stof maakt tussen 8 en 16 % van de massa uit, tenzij de grond als een klei is benoemd dan kan het aandeel tot 30 % bedragen.</Omschrijving>
+    </OrganischeStofGehalteKlasse>
+</domeintabel>

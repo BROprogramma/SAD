@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ZandMediaanKlasse>
+        <Waarde>uiterstFijnNEN5104</Waarde>
+        <SIKB0101ID>3</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>De zandmediaan ligt tussen 63 en 105 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+    </ZandMediaanKlasse>
+    <ZandMediaanKlasse>
+        <Waarde>zeerFijnNEN5104</Waarde>
+        <SIKB0101ID>4</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>De zandmediaan ligt tussen 105 en 150 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+    </ZandMediaanKlasse>
+    <ZandMediaanKlasse>
+        <Waarde>matigFijnNEN5104</Waarde>
+        <SIKB0101ID>5</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>De zandmediaan ligt tussen 150 en 210 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+    </ZandMediaanKlasse>
+    <ZandMediaanKlasse>
+        <Waarde>uiterstGrofNEN5104</Waarde>
+        <SIKB0101ID>7</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>De zandmediaan ligt tussen 420 en 2000 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+    </ZandMediaanKlasse>
+    <ZandMediaanKlasse>
+        <Waarde>zeerGrofNEN5104</Waarde>
+        <SIKB0101ID>8</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>De zandmediaan ligt tussen 300 en 420 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+    </ZandMediaanKlasse>
+    <ZandMediaanKlasse>
+        <Waarde>matigGrofNEN5104</Waarde>
+        <SIKB0101ID>9</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA>v</IMBROA>
+        <Omschrijving>De zandmediaan ligt tussen 210 en 300 µm. Een klasse onder de NEN 5104 procedure.</Omschrijving>
+    </ZandMediaanKlasse>
+	<ZandMediaanKlasse>
+		<Waarde>fijn63tot200um</Waarde>
+		<SIKB0101ID>16</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 63 µm en kleiner dan of gelijk aan 200 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+	</ZandMediaanKlasse>
+	<ZandMediaanKlasse>
+		<Waarde>fijn63tot105um</Waarde>
+		<SIKB0101ID>17</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 63 µm en kleiner dan of gelijk aan 105 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+	</ZandMediaanKlasse>
+	<ZandMediaanKlasse>
+		<Waarde>fijn105tot150um</Waarde>
+		<SIKB0101ID>18</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 105 µm en kleiner dan of gelijk aan 150 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+	</ZandMediaanKlasse>
+	<ZandMediaanKlasse>
+		<Waarde>fijn150tot200um</Waarde>
+		<SIKB0101ID>19</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 150 µm en kleiner dan of gelijk aan 200 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+	</ZandMediaanKlasse>
+	<ZandMediaanKlasse>
+		<Waarde>middelgrof200tot630um</Waarde>
+		<SIKB0101ID>20</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>De zandmediaan ligt tussen 200 en 630 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+	</ZandMediaanKlasse>
+	<ZandMediaanKlasse>
+		<Waarde>middelgrof200tot300um</Waarde>
+		<SIKB0101ID>21</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 200 µm en kleiner dan of gelijk aan 300 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+	</ZandMediaanKlasse>
+	<ZandMediaanKlasse>
+		<Waarde>middelgrof300tot420um</Waarde>
+		<SIKB0101ID>22</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 300 µm en kleiner dan of gelijk aan 420 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+	</ZandMediaanKlasse>
+	<ZandMediaanKlasse>
+		<Waarde>middelgrof420tot630um</Waarde>
+		<SIKB0101ID>23</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 420 µm en kleiner dan of gelijk aan 630 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+	</ZandMediaanKlasse>
+	<ZandMediaanKlasse>
+		<Waarde>grof630tot2000um</Waarde>
+		<SIKB0101ID>24</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA></IMBROA>
+		<Omschrijving>De zandmediaan is groter dan 630 µm en kleiner dan of gelijk aan 2000 µm. Een klasse onder de NEN-EN-ISO 14688-1 + NEN 8990 en de NEN 6693 procedure. </Omschrijving>
+	</ZandMediaanKlasse>    
+</domeintabel>
