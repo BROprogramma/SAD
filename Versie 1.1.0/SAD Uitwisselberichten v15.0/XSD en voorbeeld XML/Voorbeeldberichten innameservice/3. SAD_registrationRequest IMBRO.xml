@@ -886,26 +886,6 @@
 						</immetingen:Characteristic>
 					</imsikb0101:featureMember>
 					<imsikb0101:featureMember>
-						<immetingen:Characteristic gml:id="_75780622-9e7d-4fe5-80b1-5c23038f93b0">
-							<om:phenomenonTime/>
-							<om:resultTime/>
-							<om:procedure/>
-							<om:observedProperty/>
-							<om:featureOfInterest xlink:href="#_0f9c0e6c-b093-4548-8ffe-2e481c6af3a7"/>
-							<om:result xsi:type="immetingen:ClassifiedResultType">
-								<immetingen:classifiedResult>urn:immetingen:BodemsoortMediaan:id:9</immetingen:classifiedResult>
-							</om:result>
-							<immetingen:identification>
-								<immetingen:NEN3610ID>
-									<immetingen:namespace>SIKB</immetingen:namespace>
-									<immetingen:lokaalID>75780622-9e7d-4fe5-80b1-5c23038f93b0</immetingen:lokaalID>
-								</immetingen:NEN3610ID>
-							</immetingen:identification>
-							<immetingen:indicator>urn:immetingen:Parameter:id:3698</immetingen:indicator>
-							<immetingen:remarks>grof</immetingen:remarks>
-						</immetingen:Characteristic>
-					</imsikb0101:featureMember>
-					<imsikb0101:featureMember>
 						<immetingen:Characteristic gml:id="_95780622-9e7d-4fe5-80b1-5c23038f93b0">
 							<om:phenomenonTime/>
 							<om:resultTime/>
@@ -971,6 +951,8 @@
 							<sam:relatedObservation xlink:href="#_440939b4-faaa-4a6a-b1ff-1586112f6885"/>
 							<sam:relatedObservation xlink:href="#_2f900201-64a3-40bd-b0fb-f30e76af3f03"/>
 							<sam:relatedObservation xlink:href="#_e428b99f-e7d7-4275-9142-2c861211bfb0"/>
+							<sam:relatedObservation xlink:href="#_85780622-9e7d-4fe5-80b1-5c23038f93b0"/>
+							<sam:relatedObservation xlink:href="#_95780622-9e7d-4fe5-80b1-5c23038f93b0"/>
 							<sam:relatedSamplingFeature>
 								<sam:SamplingFeatureComplex>
 									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>
