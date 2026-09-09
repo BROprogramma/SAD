@@ -101,6 +101,7 @@
         <!--> Check of alle entiteiten aanwezig zijn-->
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'geometry', 'ERROR')"/>
+        <xsl:copy-of select="sikb:checkExistence(., $prGUID, 'asbestos', 'ERROR')"/>
         <!--> Check of alle entiteiten gevuld zijn-->
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'name', 'ERROR')"/>
         <xsl:copy-of select="sikb:checkFilled(., $prGUID, 'geometry', 'ERROR')"/>
@@ -603,10 +604,12 @@
 		<!-- Bepaal vooraf, los van de output-loop, of grondsoort en/of bzb aanwezig zijn -->
 		<xsl:variable name="heeftGrondsoort"
 			select="exists($allCharacteristics[contains(fn:lower-case(immetingen:indicator), fn:lower-case('Parameter'))
-							and substring-after(immetingen:indicator, ':id:') = '3699'])"/>
+							and substring-after(immetingen:indicator, ':id:') = '3699'
+							and contains(fn:lower-case(string(om:result)), fn:lower-case(':Bodemsoort:'))])"/>
 		<xsl:variable name="heeftBzb"
 			select="exists($allCharacteristics[contains(fn:lower-case(immetingen:indicator), fn:lower-case('Parameter'))
-							and substring-after(immetingen:indicator, ':id:') = '7311'])"/>
+							and substring-after(immetingen:indicator, ':id:') = '7311'
+							and contains(fn:lower-case(string(om:result)), fn:lower-case(':BodemlaagBijzonderheden:'))])"/>
 		<!-- Controle NA de for-each: minimaal één van grondsoort/bzb moet aanwezig zijn -->
 		<xsl:if test="not($heeftGrondsoort) and not($heeftBzb)">
 			<xsl:variable name="message" select="replace(string-join(('Bij Laag', $prGUID, 'is geen Grondsoort of Bijzonder bestanddeel vastgelegd. Minimaal één van beide dient aanwezig te zijn.'), ' '), '  ', ' ')"/>
