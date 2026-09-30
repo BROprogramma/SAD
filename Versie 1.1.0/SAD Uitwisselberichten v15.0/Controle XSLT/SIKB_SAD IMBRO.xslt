@@ -230,7 +230,10 @@
 		<xsl:variable name="record" select="string-join(('[',$rcdName, ']' , '(', $prGUID, ')'),' ')"/> 
 		<xsl:variable name="materialClassURN" select="./spec:materialClass/@xlink:href"/>   	
 		<xsl:copy-of select="sikb:checkExistence(., $record, 'materialClass', 'ERROR')"/>
-		<xsl:copy-of select="sikb:checkFilled(./materialClass, $record, 'xlink:href', 'ERROR')"/>
+		<!-- materialClass moet een gevulde xlink:href hebben (checkFilled kan geen attribuut controleren) -->
+		<xsl:if test="spec:materialClass and normalize-space(spec:materialClass/@xlink:href) = ''">
+			<xsl:copy-of select="sikb:createRecord('ERROR', string(./name()), replace(string-join(('Het element materialClass bij', string(./local-name()), $record, 'moet een waarde (xlink:href) hebben.'), ' '), '  ', ' '))"/>
+		</xsl:if>
 		<xsl:copy-of select="sikb:checkLookupId(., $record, 'materialClass', 'Compartiment', 'WARNING')"/>
         <xsl:choose>
 		  <xsl:when test="not(contains('|1|2|', concat('|', substring-after($materialClassURN, ':id:'), '|')))">        

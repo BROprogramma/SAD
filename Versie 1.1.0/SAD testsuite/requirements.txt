@@ -1,0 +1,2 @@
+saxonche>=13.0
+lxml>=5.0
