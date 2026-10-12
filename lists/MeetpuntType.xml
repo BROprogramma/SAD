@@ -46,14 +46,14 @@
         <Waarde>inspectiegatMetBoring</Waarde>
         <SIKB0101ID>23</SIKB0101ID>
         <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
+        <IMBROA></IMBROA>
         <Omschrijving>Een gat van 30 bij 30 cm voor asbest inspectie welke wordt doorgezet met een boring.</Omschrijving>
     </MeetpuntType>
     <MeetpuntType>
         <Waarde>inspectiegatMetPeilbuis</Waarde>
         <SIKB0101ID>24</SIKB0101ID>
         <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
+        <IMBROA></IMBROA>
         <Omschrijving>Een gat van 30 bij 30 cm voor asbest inspectie welke wordt doorgezet met een boring met een peilbuis.</Omschrijving>
     </MeetpuntType>    
 </domeintabel>
