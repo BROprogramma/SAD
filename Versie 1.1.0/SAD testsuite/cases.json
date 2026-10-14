@@ -1,0 +1,1044 @@
+{
+  "_uitleg": "Gedeelde handgeschreven testcases voor alle versies. Elke case neemt een goed bericht (source of sources), past het in het geheugen aan (mutations) en controleert dat de XSLT van het regime van dat bericht de verwachte NIEUWE melding geeft. Versie-afhankelijke waarden staan als ${NAAM} in de case en worden ingevuld uit <versie>/Tests/versie.json. Met \"versies\": [\"mapnaam\"] geldt een case alleen voor die versie(s). Zie README.md voor alle acties.",
+  "cases": [
+    {
+      "name": "Metadata - dataflow ontbreekt",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:metaData/imsikb0101:dataflow",
+          "action": "remove"
+        }
+      ],
+      "expect": [
+        {
+          "type": "WARNING",
+          "title_contains": "dataflow",
+          "message_contains": "Er zou een metadata/dataflow ingevuld moeten zijn"
+        },
+        {
+          "type": "WARNING",
+          "title_contains": "dataflow",
+          "message_contains": "zou ingevuld moeten zijn met"
+        }
+      ]
+    },
+    {
+      "name": "Metadata - dataflow is geen SAD/onderzoek (id:1)",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:metaData/imsikb0101:dataflow",
+          "action": "set",
+          "value": "urn:imsikb0101:DatastroomType:id:1"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "dataflow",
+        "message_contains": "zou ingevuld moeten zijn met"
+      },
+      "not_expect": [
+        {
+          "type": "WARNING",
+          "message_contains": "Er zou een metadata/dataflow ingevuld moeten zijn"
+        }
+      ]
+    },
+    {
+      "name": "Metadata - version is niet de versie van de XSLT",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:metaData/imsikb0101:version",
+          "action": "set",
+          "value": "14.0"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "imsikb0101:version",
+        "message_contains": "versie"
+      },
+      "waarom": "De melding noemt bewust '14.9.0 of 15.0': de software kiest de XSLT op basis van de versie, en er is ook een 14.9-XSLT."
+    },
+    {
+      "name": "Bestand - twee Projects",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:featureMember[imsikb0101:Project]",
+          "action": "duplicate"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "xml-bestand",
+        "message_contains": "minimaal en maximaal 1 Project"
+      }
+    },
+    {
+      "name": "Bestand - geen Adviesbureau (organisationType id:64)",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Organization/immetingen:organisationType",
+          "action": "set",
+          "value": "urn:immetingen:RolBetrokkene:id:1"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "xml-bestand",
+        "message_contains": "Adviesbureau organisatie"
+      }
+    },
+    {
+      "name": "Organization - Adviesbureau zonder KvK- en EU-nummer",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Organization/immetingen:chamberOfCommerceNumber",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "xml-bestand",
+        "message_contains": "chamberOfCommerceNumber of europeanCompanyRegistryNumber"
+      }
+    },
+    {
+      "name": "Organization - europeanCompanyRegistryNumber langer dan 40 tekens",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Organization/immetingen:chamberOfCommerceNumber",
+          "action": "insert_xml",
+          "position": "after",
+          "xml": "<immetingen:europeanCompanyRegistryNumber>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</immetingen:europeanCompanyRegistryNumber>"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Organization",
+        "message_contains": "europeanCompanyRegistryNumber"
+      }
+    },
+    {
+      "name": "Project - twee investigationReasons",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:investigationReason",
+          "action": "duplicate"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Project",
+        "message_contains": "mag er maar 1 investigationReason"
+      }
+    },
+    {
+      "name": "Project - geen measurementObjects",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:measurementObjects",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "Project",
+        "message_contains": "moet een measurementObject zijn opgevoerd"
+      }
+    },
+    {
+      "name": "Project - geen Sample met rol id:6",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//sam:role[@xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:6']",
+          "action": "set_attribute",
+          "name": "xlink:href",
+          "value": "urn:immetingen:RelatedSamplingFeatureRollen:id:99"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "xml-bestand",
+        "message_contains": "RelatedSamplingFeatureRollen:id:6 zijn opgevoerd"
+      }
+    },
+    {
+      "name": "Project - geen enkele Analysis in het bestand",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:featureMember[immetingen:Analysis]",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "xml-bestand",
+        "message_contains": "geen Analysis gevonden"
+      }
+    },
+    {
+      "name": "IMBRO - Project zonder reportNumber en zonder eindrapport",
+      "waarom": "In IMBRO is dit een ERROR, in IMBRO/A een WARNING (zie volgende case).",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportNumber",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:documents",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Project",
+        "message_contains": "reportNumber of Document[type=eindrapport].Title"
+      }
+    },
+    {
+      "name": "IMBRO/A - Project zonder reportNumber en zonder eindrapport",
+      "source": "1. SAD_registrationRequest IMBROA.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportNumber",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:documents",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "Project",
+        "message_contains": "reportNumber"
+      }
+    },
+    {
+      "name": "IMBRO - Project zonder asbestos",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:asbestos",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Project",
+        "message_contains": "asbestos"
+      }
+    },
+    {
+      "name": "IMBRO/A - Project zonder asbestos is toegestaan",
+      "waarom": "Bewust verschil met IMBRO: in IMBRO/A is asbestos niet verplicht.",
+      "source": "1. SAD_registrationRequest IMBROA.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:asbestos",
+          "action": "remove"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR",
+          "message_contains": "asbestos"
+        }
+      ]
+    },
+    {
+      "name": "Project - onbekende projectType-code",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:projectType",
+          "action": "set",
+          "value": "urn:imsikb0101:OnderzoekType:id:99999"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Project",
+        "message_contains": "niet gevonden in lookup-tabel"
+      }
+    },
+    {
+      "name": "Project - reportDate in de toekomst",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportDate",
+          "action": "set",
+          "value": "2099-01-01"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Project",
+        "message_contains": "ligt niet voor heden"
+      }
+    },
+    {
+      "name": "Sample - water-analysemonster met 2 deelmonsters",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60284f34b3fa']/sam:relatedSamplingFeature[sam:SamplingFeatureComplex/sam:role/@xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:10']",
+          "action": "duplicate"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "AnalyticResult",
+        "message_contains": "Een water analysemonster mag maar 1 relatie naar een deelmonster hebben"
+      }
+    },
+    {
+      "name": "Sample - grond-analysemonster Begindiepte niet t.o.v. maaiveld",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/immetingen:upperDepth/immetingen:Depth/immetingen:condition",
+          "action": "set",
+          "value": "urn:immetingen:Hoedanigheid:id:12"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "Sample",
+        "message_contains": "mag de Begindiepte alleen t.o.v. Maaiveld zijn"
+      }
+    },
+    {
+      "name": "Sample - grond-analysemonster Einddiepte niet t.o.v. maaiveld",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/immetingen:lowerDepth/immetingen:Depth/immetingen:condition",
+          "action": "set",
+          "value": "urn:immetingen:Hoedanigheid:id:12"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "Sample",
+        "message_contains": "mag de Einddiepte alleen t.o.v. Maaiveld zijn"
+      }
+    },
+    {
+      "name": "Borehole - lagen overlappen",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cc256d2b-c8af-454e-b249-91b2a38116e1']/imsikb0101:upperDepth/immetingen:Depth/immetingen:value",
+          "action": "set",
+          "value": "40"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Layers",
+        "message_contains": "heeft lagen die overlappen"
+      }
+    },
+    {
+      "name": "Borehole - lagen niet aaneengesloten",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cc256d2b-c8af-454e-b249-91b2a38116e1']/imsikb0101:upperDepth/immetingen:Depth/immetingen:value",
+          "action": "set",
+          "value": "60"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Layers",
+        "message_contains": "heeft niet aaneengesloten lagen"
+      }
+    },
+    {
+      "name": "Trench - lagen overlappen",
+      "waarom": "Laag van de sleuf wordt gedupliceerd, zodat er twee lagen van 0-50 zijn.",
+      "sources": [
+        "3b. SAD_registrationRequest IMBRO - Asbest.xml",
+        "T1. IMBROA met Trench (van 3b).xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:featureMember[imsikb0101:Layer/@gml:id='_8c0c1c1b-1ca9-4bed-932a-cc97843088ca']",
+          "action": "duplicate"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Layers",
+        "message_contains": "heeft lagen die overlappen"
+      }
+    },
+    {
+      "name": "IMBRO - Layer zonder grondsoort en zonder bijzonder bestanddeel",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7']/sam:relatedObservation",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Layer",
+        "message_contains": "is geen Grondsoort of Bijzonder bestanddeel vastgelegd"
+      },
+      "source": "3. SAD_registrationRequest IMBRO.xml"
+    },
+    {
+      "name": "IMBRO/A - Layer zonder grondsoort en zonder bijzonder bestanddeel geeft geen ERROR",
+      "waarom": "Bevestigd bewust verschil: de IMBRO/A-XSLT heeft deze controle niet, IMBRO wel.",
+      "source": "1. SAD_registrationRequest IMBROA.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7']/sam:relatedObservation",
+          "action": "remove"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR",
+          "message_contains": "is geen Grondsoort of Bijzonder bestanddeel vastgelegd"
+        }
+      ]
+    },
+    {
+      "name": "Layer - onbekende bodemsoort-code",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Characteristic[@gml:id='_578606fd-780c-439c-91f5-11faded07ff2']/om:result/immetingen:classifiedResult",
+          "action": "set",
+          "value": "urn:immetingen:bodemsoort:id:99999"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "om:result",
+        "message_contains": "niet gevonden in lookup-tabel"
+      }
+    },
+    {
+      "name": "Layer - onbekende BodemlaagBijzonderheden-code",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Characteristic[@gml:id='_ef8efcab-13fe-4d79-8bd7-d2aa2ead1414']/om:result/immetingen:classifiedResult",
+          "action": "set",
+          "value": "urn:immetingen:BodemlaagBijzonderheden:id:99999"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "om:result",
+        "message_contains": "niet gevonden in lookup-tabel"
+      }
+    },
+    {
+      "name": "Layer - bijzonder bestanddeel met 2 gradaties",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Characteristic[@gml:id='_ef8efcab-13fe-4d79-8bd7-d2aa2ead1414']/om:relatedObservation",
+          "action": "insert_xml",
+          "position": "after",
+          "xml": "<om:relatedObservation><om:ObservationContext><om:role xlink:href=\"urn:immetingen:RelatedObservationRollen:id:2\"/><om:relatedObservation xlink:href=\"#_841ea8c0-ebda-4733-8bf2-7c564966d98c\"/></om:ObservationContext></om:relatedObservation>"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Characteristic",
+        "message_contains": "zijn meer dan 1 Gradaties gevonden"
+      }
+    },
+    {
+      "name": "Layer - onbekende GrindGehalte-code",
+      "waarom": "De kleur-waarneming van de laag wordt omgezet naar een grindgehalte (${LAAG_GRINDGEHALTE}) met een onbekende code.",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Characteristic[@gml:id='_644d7937-b601-4ca2-8a8b-df1d3928e46f']/immetingen:indicator",
+          "action": "set",
+          "value": "${LAAG_GRINDGEHALTE}"
+        },
+        {
+          "xpath": "//immetingen:Characteristic[@gml:id='_644d7937-b601-4ca2-8a8b-df1d3928e46f']/om:result/immetingen:classifiedResult",
+          "action": "set",
+          "value": "urn:immetingen:GrindGehalte:id:99999"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "om:result",
+        "message_contains": "GrindGehalte:id:99999 ) van het element classifiedResult"
+      }
+    },
+    {
+      "name": "Layer - grindgehalte zonder grondsoort",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Characteristic[@gml:id='_644d7937-b601-4ca2-8a8b-df1d3928e46f']/immetingen:indicator",
+          "action": "set",
+          "value": "${LAAG_GRINDGEHALTE}"
+        },
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cc256d2b-c8af-454e-b249-91b2a38116e1']/sam:relatedObservation[@xlink:href='#_7243429b-4e5c-4801-97ad-77b36d8edaac']",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "Characteristic",
+        "message_contains": "is een GrindGehalte waarneming opgenomen, terwijl er geen grondsoort is"
+      }
+    },
+    {
+      "name": "Layer - onbekende OrganischeStofGehalte-code",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Characteristic[@gml:id='_644d7937-b601-4ca2-8a8b-df1d3928e46f']/immetingen:indicator",
+          "action": "set",
+          "value": "${LAAG_ORGANISCHESTOF}"
+        },
+        {
+          "xpath": "//immetingen:Characteristic[@gml:id='_644d7937-b601-4ca2-8a8b-df1d3928e46f']/om:result/immetingen:classifiedResult",
+          "action": "set",
+          "value": "urn:immetingen:OrganischeStofGehalte:id:99999"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "om:result",
+        "message_contains": "OrganischeStofGehalte:id:99999 ) van het element classifiedResult"
+      }
+    },
+    {
+      "name": "Layer - organische stof zonder grondsoort",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Characteristic[@gml:id='_644d7937-b601-4ca2-8a8b-df1d3928e46f']/immetingen:indicator",
+          "action": "set",
+          "value": "${LAAG_ORGANISCHESTOF}"
+        },
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cc256d2b-c8af-454e-b249-91b2a38116e1']/sam:relatedObservation[@xlink:href='#_7243429b-4e5c-4801-97ad-77b36d8edaac']",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "Characteristic",
+        "message_contains": "is een OrganischeStofGehalte waarneming opgenomen, terwijl er geen grondsoort is"
+      }
+    },
+    {
+      "name": "Filter - diepte t.o.v. Bovenkant Peilbuis zonder heightTopFiltertube",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Filter/imsikb0101:upperDepth/immetingen:Depth/immetingen:condition",
+          "action": "set",
+          "value": "urn:immetingen:Hoedanigheid:id:14"
+        },
+        {
+          "xpath": "//imsikb0101:Filter/imsikb0101:lowerDepth/immetingen:Depth/immetingen:condition",
+          "action": "set",
+          "value": "urn:immetingen:Hoedanigheid:id:14"
+        },
+        {
+          "xpath": "//imsikb0101:Filter/imsikb0101:heightTopFiltertube",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Filter",
+        "message_contains": "dan moet er wel een Bovenkant Peilbuis (heightTopFiltertube) waarde meegegeven worden"
+      }
+    },
+    {
+      "name": "Filter - diepte t.o.v. NAP, peilbuis t.o.v. maaiveld, geen groundLevel",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Filter/imsikb0101:upperDepth/immetingen:Depth/immetingen:condition",
+          "action": "set",
+          "value": "urn:immetingen:Hoedanigheid:id:12"
+        },
+        {
+          "xpath": "//imsikb0101:Filter/imsikb0101:lowerDepth/immetingen:Depth/immetingen:condition",
+          "action": "set",
+          "value": "urn:immetingen:Hoedanigheid:id:12"
+        },
+        {
+          "xpath": "//imsikb0101:Filter/imsikb0101:heightTopFiltertube/immetingen:Height/immetingen:condition",
+          "action": "set",
+          "value": "urn:immetingen:Hoedanigheid:id:11"
+        },
+        {
+          "xpath": "//imsikb0101:Borehole[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/imsikb0101:groundLevel",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Filter",
+        "message_contains": "dan moet er op meetpunt niveau een Maaiveldhoogte (groundLevel) meegegeven worden"
+      }
+    },
+    {
+      "name": "Filter - upperDepth en lowerDepth met verschillende referentie",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Filter/imsikb0101:lowerDepth/immetingen:Depth/immetingen:condition",
+          "action": "set",
+          "value": "urn:immetingen:Hoedanigheid:id:12"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Filter",
+        "message_contains": "heeft de lowerDepth een andere referentie dan de upperDepth"
+      }
+    },
+    {
+      "name": "featureMember - lokaalID wijkt af van gml:id (immetingen-object)",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Organization/immetingen:identification/immetingen:NEN3610ID/immetingen:lokaalID",
+          "action": "set",
+          "value": "00000000-0000-4000-8000-000000000000"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Organization",
+        "message_contains": "heeft een afwijkend lokaalId"
+      }
+    },
+    {
+      "name": "featureMember - lokaalID wijkt af van gml:id (imsikb0101-object)",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:identification/immetingen:NEN3610ID/immetingen:lokaalID",
+          "action": "set",
+          "value": "00000000-0000-4000-8000-000000000000"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Project",
+        "message_contains": "heeft een afwijkend lokaalId"
+      }
+    },
+    {
+      "name": "Analysis - geen AnalyticResult of MeasureResult",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/om:result",
+          "action": "set_attribute",
+          "name": "xsi:type",
+          "value": "immetingen:TestsuiteOnbekendResultType"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "AnalyticResult",
+        "message_contains": "Er moet een AnalyticResult of MeasureResult in Analysis aanwezig zijn"
+      }
+    },
+    {
+      "name": "Analysis - hoedanigheid past niet bij grootheid",
+      "waarom": "Grootheid 4724 staat in allowed_values.xml met hoedanigheden 11, 12, 14; hoedanigheid 1 is dus fout.",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty/immetingen:quantity",
+          "action": "set",
+          "value": "urn:immetingen:parameter:id:4724"
+        },
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty",
+          "action": "insert_xml",
+          "xml": "<immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Analysis",
+        "message_contains": "maar heeft een incorrecte hoedanigheid"
+      }
+    },
+    {
+      "name": "Analysis - eenheid past niet bij grootheid",
+      "waarom": "Grootheid 4724 staat in allowed_values.xml met eenheden 115 en 19; eenheid 1 is dus fout.",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty/immetingen:quantity",
+          "action": "set",
+          "value": "urn:immetingen:parameter:id:4724"
+        },
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty",
+          "action": "insert_xml",
+          "xml": "<immetingen:condition>urn:immetingen:hoedanigheid:id:11</immetingen:condition>"
+        },
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/om:result/immetingen:numericValue",
+          "action": "set_attribute",
+          "name": "uom",
+          "value": "urn:immetingen:Eenheid:id:1"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Analysis",
+        "message_contains": "maar heeft een incorrecte eenheid"
+      }
+    },
+    {
+      "name": "Analysis - parameter met verkeerde hoedanigheid",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty",
+          "action": "insert_xml",
+          "xml": "<immetingen:condition>urn:immetingen:hoedanigheid:id:1</immetingen:condition>"
+        },
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty",
+          "action": "insert_xml",
+          "xml": "<immetingen:parameter>urn:immetingen:parameter:id:4724</immetingen:parameter>"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Analysis",
+        "message_contains": "heeft parameter"
+      }
+    },
+    {
+      "name": "Analysis - grootheid 2720 zonder parameter",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty/immetingen:quantity",
+          "action": "set",
+          "value": "urn:immetingen:parameter:id:2720"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Analysis",
+        "message_contains": "waarbij een parameter verplicht is"
+      }
+    },
+    {
+      "name": "Analysis - procedure verwijst niet naar een AnalysisProcess",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/om:procedure",
+          "action": "set_attribute",
+          "name": "xlink:href",
+          "value": "#_bestaat-niet"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "AnalysisProcess",
+        "message_contains": "Analysis verwijst niet naar procedure van type: AnalysisProcess"
+      }
+    },
+    {
+      "name": "Analysis - quantity ontbreekt",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty/immetingen:quantity",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "PhysicalProperty",
+        "message_contains": "Het element quantity bij PhysicalProperty"
+      }
+    },
+    {
+      "name": "Analysis - quantity leeg",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty/immetingen:quantity",
+          "action": "set",
+          "value": ""
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "PhysicalProperty",
+        "message_contains": "Het element quantity bij PhysicalProperty"
+      }
+    },
+    {
+      "name": "Analysis - onbekende quantity-code",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty/immetingen:quantity",
+          "action": "set",
+          "value": "urn:immetingen:parameter:id:999999"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "PhysicalProperty",
+        "message_contains": "van het element quantity"
+      }
+    },
+    {
+      "name": "Analysis - onbekende parameter-code",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty",
+          "action": "insert_xml",
+          "xml": "<immetingen:parameter>urn:immetingen:parameter:id:999999</immetingen:parameter>"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "PhysicalProperty",
+        "message_contains": "van het element parameter"
+      }
+    },
+    {
+      "name": "Analysis - onbekende hoedanigheid-code",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/immetingen:physicalProperty/immetingen:PhysicalProperty",
+          "action": "insert_xml",
+          "xml": "<immetingen:condition>urn:immetingen:hoedanigheid:id:999999</immetingen:condition>"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "PhysicalProperty",
+        "message_contains": "van het element condition"
+      }
+    },
+    {
+      "name": "Analysis - onbekende valueProcessingMethod-code",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//immetingen:Analysis[@gml:id='_8c1e4170-cd2e-46b9-8961-dc49d2b0ff3b']/om:result",
+          "action": "insert_xml",
+          "xml": "<immetingen:valueProcessingMethod>urn:immetingen:Waardebewerkingsmethode:id:99999</immetingen:valueProcessingMethod>"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "om:result",
+        "message_contains": "van het element valueProcessingMethod"
+      }
+    },
+    {
+      "name": "AnalysisProcess - onbekende analyticalTechnique-code",
+      "waarom": "In de voorbeeldberichten staat analyticalTechnique alleen in commentaar; hier wordt het element toegevoegd.",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "(//immetingen:AnalysisProcess)[1]",
+          "action": "insert_xml",
+          "xml": "<immetingen:analyticalTechnique>urn:immetingen:WaardebepalingsTechniek:id:99999</immetingen:analyticalTechnique>"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "AnalysisProcess",
+        "message_contains": "van het element analyticalTechnique"
+      }
+    },
+    {
+      "name": "Sample - materialClass zonder xlink:href-waarde",
+      "waarom": "Controle toegevoegd bij reparatie van de voorheen onbereikbare checkFilled(./materialClass, ..., 'xlink:href').",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/spec:materialClass",
+          "action": "set_attribute",
+          "name": "xlink:href",
+          "value": ""
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Sample",
+        "message_contains": "Het element materialClass bij Sample"
+      }
+    }
+  ]
+}

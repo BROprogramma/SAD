@@ -7,20 +7,20 @@
         <IMBROA>v</IMBROA>
         <Omschrijving>Geen olievlekken waargenomen.</Omschrijving>
     </OlieWaterReactieMate>
-    <OlieWaterReactieMate>
-        <Waarde>zwak</Waarde>
-        <SIKB0101ID>2</SIKB0101ID>
-        <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Enkele olievlekken of een oliestreep zichtbaar.</Omschrijving>
-    </OlieWaterReactieMate>
-    <OlieWaterReactieMate>
-        <Waarde>matig</Waarde>
-        <SIKB0101ID>3</SIKB0101ID>
-        <IMBRO>v</IMBRO>
-        <IMBROA>v</IMBROA>
-        <Omschrijving>Meerdere oliestrepen of olievlekken.</Omschrijving>
-    </OlieWaterReactieMate>
+	<OlieWaterReactieMate>
+		<Waarde>zwak</Waarde>
+		<SIKB0101ID>2</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meestal overeenkomend met enkele olievlekken of een oliestreep (bedekkingsgraad 0 - 10%).</Omschrijving>
+	</OlieWaterReactieMate>
+	<OlieWaterReactieMate>
+		<Waarde>matig</Waarde>
+		<SIKB0101ID>3</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Meerdere oliestrepen of olievlekken (bedekkingsgraad 10 - 30%).</Omschrijving>
+	</OlieWaterReactieMate>
     <OlieWaterReactieMate>
         <Waarde>sterk</Waarde>
         <SIKB0101ID>4</SIKB0101ID>
@@ -29,10 +29,10 @@
         <Omschrijving>Olievlekken met een dekkingsgraad van 30 - 75%.</Omschrijving>
     </OlieWaterReactieMate>
     <OlieWaterReactieMate>
-        <Waarde>uiterst</Waarde>
+        <Waarde>zeerSterk</Waarde>
         <SIKB0101ID>5</SIKB0101ID>
         <IMBRO>v</IMBRO>
         <IMBROA>v</IMBROA>
-        <Omschrijving>Olievlekken met een dekkingsgraad van 75 - 100%.</Omschrijving>
+        <Omschrijving>Olievlekken met een dekkingsgraad van 75 - 100%. Deze waarde afkomstig uit de NEN 6693 vervangt de term 'uiterst'.</Omschrijving>
     </OlieWaterReactieMate>
 </domeintabel>

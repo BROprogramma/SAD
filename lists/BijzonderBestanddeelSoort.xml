@@ -680,6 +680,13 @@
 		<Omschrijving>rubber</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
+		<Waarde>holte</Waarde>
+		<SIKB0101ID>181</SIKB0101ID>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een lege of ongevulde ruimte die is ingesloten in de bodem.</Omschrijving>
+	</BijzonderBestanddeelSoort>
+	<BijzonderBestanddeelSoort>
 		<Waarde>gebakkenStraatstenen</Waarde>
 		<SIKB0101ID>228</SIKB0101ID>
 		<IMBRO>v</IMBRO>
@@ -909,13 +916,6 @@
 		<IMBRO></IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>waterbodem</Omschrijving>
-	</BijzonderBestanddeelSoort>
-	<BijzonderBestanddeelSoort>
-		<Waarde>lucht</Waarde>
-		<SIKB0101ID>181</SIKB0101ID>
-		<IMBRO></IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>lucht</Omschrijving>
 	</BijzonderBestanddeelSoort>
 	<BijzonderBestanddeelSoort>
 		<Waarde>puin_zand</Waarde>

@@ -971,6 +971,8 @@
 							<sam:relatedObservation xlink:href="#_440939b4-faaa-4a6a-b1ff-1586112f6885"/>
 							<sam:relatedObservation xlink:href="#_2f900201-64a3-40bd-b0fb-f30e76af3f03"/>
 							<sam:relatedObservation xlink:href="#_e428b99f-e7d7-4275-9142-2c861211bfb0"/>
+							<sam:relatedObservation xlink:href="#_95780622-9e7d-4fe5-80b1-5c23038f93b0"/>
+							<sam:relatedObservation xlink:href="#_85780622-9e7d-4fe5-80b1-5c23038f93b0"/>
 							<sam:relatedSamplingFeature>
 								<sam:SamplingFeatureComplex>
 									<sam:role xlink:href="urn:immetingen:RelatedSamplingFeatureRollen:id:4"/>

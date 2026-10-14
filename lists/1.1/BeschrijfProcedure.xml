@@ -7,4 +7,11 @@
         <IMBROA>v</IMBROA>
         <Omschrijving>De grond is geclassificeerd volgens NEN 5104 en die norm vormt de basis van de procedure. Als er bijzondere bestandsdelen in de grond aanwezig zijn wordt NEN 5706 gebruikt voor een beschrijving van de bijzondere bestandsdelen. Het kunnen ook voorgangers van deze NEN normen zijn zoals NPR normen.</Omschrijving>
     </BeschrijfProcedure>
+    <BeschrijfProcedure>
+        <Waarde>nen6693</Waarde>
+        <SIKB0101ID>2</SIKB0101ID>
+        <IMBRO>v</IMBRO>
+        <IMBROA></IMBROA>
+        <Omschrijving>De beschrijving van en de waarnemingen aan de (water)bodem en het grondwater zijn gedaan conform de NEN 6693.</Omschrijving>
+    </BeschrijfProcedure>
 </domeintabel>

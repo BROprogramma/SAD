@@ -1,0 +1,7 @@
+{
+  "_uitleg": "Versie-afhankelijke waarden voor de gedeelde cases.json (${NAAM}).",
+  "variabelen": {
+    "LAAG_GRINDGEHALTE": "urn:immetingen:Parameter:id:3688",
+    "LAAG_ORGANISCHESTOF": "urn:immetingen:Parameter:id:3690"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_uitleg": "Controles die met geen enkele invoer kunnen afgaan (dode code). Ze tellen niet mee in het dekkingspercentage maar staan apart in het rapport. 'check' is template|functie|veld zoals in het rapport. Als zo'n controle tóch een melding geeft, telt hij gewoon als geraakt en hoort hij hier weg.",
+  "onbereikbaar": [
+    {
+      "check": "immetingen:Depth|checkLookupId|@uom",
+      "reden": "Bewust zo gelaten (besluit 2026-09-30): context './value' heeft geen immetingen:-prefix en '@uom' is geen elementnaam, dus de eenheid van een diepte wordt niet gecontroleerd. Een werkende checkLookupId zou op elke diepte 'niet geldig voor BRO SAD' geven, omdat alle eenheden in de lookup op broSadImbro/broSadImbroA=false staan."
+    },
+    {
+      "check": "immetingen:Height|checkLookupId|@uom",
+      "reden": "Idem als immetingen:Depth: de eenheid van een hoogte wordt bewust niet gecontroleerd."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Baseline bericht="1b. SAD_registrationRequest IMBROA - filter scenarios.xml" regime="IMBRO/A" xslt="SIKB_SAD IMBROA.xslt">
+  <LogRecord>
+    <Type>WARNING</Type>
+    <Title>imsikb0101:Sample</Title>
+    <Message>Het element relatedObservation bij Sample [ Scenario1_a2-1-1 ] ( _182129e3-6902-48c7-a6e8-df58b227d257 ) ontbreekt.</Message>
+  </LogRecord>
+  <LogRecord>
+    <Type>WARNING</Type>
+    <Title>imsikb0101:Sample</Title>
+    <Message>Het element relatedObservation bij Sample [ Scenario1_a2-1-1 ] ( _182129e3-6902-48c7-a6e8-df58b227d257 ) ontbreekt.</Message>
+  </LogRecord>
+  <LogRecord>
+    <Type>WARNING</Type>
+    <Title>imsikb0101:Borehole</Title>
+    <Message>Het element groundLevel bij Borehole [ Scenario1_a1 ] ( _56d6fb94-c978-4d19-9a1b-1b879a3e71a3 ) ontbreekt.</Message>
+  </LogRecord>
+  <LogRecord>
+    <Type>WARNING</Type>
+    <Title>imsikb0101:Borehole</Title>
+    <Message>Het element groundLevel bij Borehole [ Scenario2_a1 ] ( _e47ec4d8-a82e-47f9-85fa-d2c7f4eb3ba2 ) ontbreekt.</Message>
+  </LogRecord>
+  <LogRecord>
+    <Type>WARNING</Type>
+    <Title>imsikb0101:Borehole</Title>
+    <Message>Het element groundLevel bij Borehole [ Scenario1_b1 ] ( _db40bdb9-66db-424b-a56a-df7026a280fa ) ontbreekt.</Message>
+  </LogRecord>
+  <LogRecord>
+    <Type>ERROR</Type>
+    <Title>imsikb0101:Filter</Title>
+    <Message>Bij [ 1 ] ( _574992ca-ffcd-4f7c-ad84-7450250f9407 ) is de referentie van upperDepth en lowerDepth tov Bovenkant Peilbuis, dan moet er wel een Bovenkant Peilbuis (heightTopFiltertube) waarde meegegeven worden.</Message>
+  </LogRecord>
+  <LogRecord>
+    <Type>WARNING</Type>
+    <Title>imsikb0101:Borehole</Title>
+    <Message>Het element groundLevel bij Borehole [ Scenario2_b1 ] ( _849b1e91-a0b3-44fe-bf07-860cb18af1d7 ) ontbreekt.</Message>
+  </LogRecord>
+  <LogRecord>
+    <Type>WARNING</Type>
+    <Title>imsikb0101:Borehole</Title>
+    <Message>Het element groundLevel bij Borehole [ Scenario3_a1 ] ( _2d883aeb-9eae-4322-a97a-33a026f41391 ) ontbreekt.</Message>
+  </LogRecord>
+  <LogRecord>
+    <Type>WARNING</Type>
+    <Title>imsikb0101:Borehole</Title>
+    <Message>Het element groundLevel bij Borehole [ Scenario3_b2 ] ( _ab088735-5248-4625-a0ea-5c8db8dc49f9 ) ontbreekt.</Message>
+  </LogRecord>
+  <LogRecord>
+    <Type>ERROR</Type>
+    <Title>imsikb0101:Filter</Title>
+    <Message>Bij [ 1 ] ( _a5fa196a-385f-45c0-8c69-5232a95b351e ) is de referentie van upperDepth en lowerDepth tov NAP, Bovenkant Peilbuis (heightTopFiltertube) is tov Maaiveld, dan moet er op meetpunt niveau een Maaiveldhoogte (groundLevel) meegegeven worden.</Message>
+  </LogRecord>
+</Baseline>

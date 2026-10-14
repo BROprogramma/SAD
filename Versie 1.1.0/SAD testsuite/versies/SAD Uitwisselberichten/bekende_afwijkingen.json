@@ -1,0 +1,28 @@
+{
+  "_uitleg": "Bewust geaccepteerde afwijkingen. Zo'n test krijgt status BEKEND (paars) in plaats van FAIL. Bij voorbeeldberichten moeten de ERRORs precies overeenkomen met de lijst hieronder: verandert er iets, dan faalt de test alsnog.",
+  "voorbeeldberichten": {
+    "1b. SAD_registrationRequest IMBROA - filter scenarios.xml": {
+      "reden": "Bevestigd: het bericht toont bewust filterscenario's met fouten (2 filters missen heightTopFiltertube resp. groundLevel)",
+      "errors": [
+        {
+          "title_contains": "imsikb0101:Filter",
+          "message_contains": "dan moet er wel een Bovenkant Peilbuis (heightTopFiltertube) waarde meegegeven worden"
+        },
+        {
+          "title_contains": "imsikb0101:Filter",
+          "message_contains": "dan moet er op meetpunt niveau een Maaiveldhoogte (groundLevel) meegegeven worden"
+        }
+      ]
+    },
+    "T4. IMBROA met bereikbaar conclusiemonster (van 3b).xml": {
+      "reden": "Testbericht: monstertype 12 (conclusiemonster) is ongeldig voor IMBRO/A. Het conclusiemonster-blok in de IMBRO/A-XSLT is eigenlijk overbodig maar blijft voorlopig staan; dit bericht bestaat alleen om dat blok te testen. Wordt het blok verwijderd, dan kan T4 weg.",
+      "errors": [
+        {
+          "title_contains": "imsikb0101:Sample",
+          "message_contains": "monstertype:id:12 ) van het element specimenType bij Sample [ Gat1-Totaal ]"
+        }
+      ]
+    }
+  },
+  "xsd": {}
+}
