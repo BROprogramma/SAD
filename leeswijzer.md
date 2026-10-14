@@ -6,7 +6,7 @@
 
 [Hoofdstuk 3](#milieukwaliteit) plaatst het registratieobject in de gegevenssystematiek van de basisregistratie ondergrond en vertelt wat de benadering is geweest bij het opstellen van de gegevensdefinitie.
 
-[Hoofdstuk 4](##milieuhygienisch-bodemonderzoek) is de toelichting op de gegevensdefinitie van het registratieobject.
+[Hoofdstuk 4](#milieuhygienisch-bodemonderzoek) is de toelichting op de gegevensdefinitie van het registratieobject.
 
 [Hoofdstuk 5](#h5-gegevensdefinitie) vertelt hoe de gegevensdefinitie is opgebouwd en welke aspecten van de gegevens daarin worden beschreven.
 
