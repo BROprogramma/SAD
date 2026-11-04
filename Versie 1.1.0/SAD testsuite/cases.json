@@ -1039,6 +1039,213 @@
         "title_contains": "Sample",
         "message_contains": "Het element materialClass bij Sample"
       }
+    },
+    {
+      "name": "Borehole - measurementObjectType 23 geaccepteerd bij IMBRO",
+      "waarom": "MeetObjectSoort 23 (inspectiegat met boring, behandeld als 1 grondboring) is alleen bij IMBRO toegestaan. Er mag geen enkele nieuwe melding bijkomen (niet 'unsupported', niet uit de lookup).",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Borehole[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:23"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR"
+        },
+        {
+          "type": "WARNING"
+        }
+      ]
+    },
+    {
+      "name": "Borehole - measurementObjectType 24 geaccepteerd bij IMBRO",
+      "waarom": "MeetObjectSoort 24 (inspectiegat met boring en peilbuis, behandeld als 6 peilbuis) is alleen bij IMBRO toegestaan. Er mag geen enkele nieuwe melding bijkomen (niet 'unsupported', niet uit de lookup).",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Borehole[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:24"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR"
+        },
+        {
+          "type": "WARNING"
+        }
+      ]
+    },
+    {
+      "name": "Trench - measurementObjectType 23 geaccepteerd bij IMBRO",
+      "waarom": "MeetObjectSoort 23 (inspectiegat met boring, behandeld als 1 grondboring) is alleen bij IMBRO toegestaan. Er mag geen enkele nieuwe melding bijkomen (niet 'unsupported', niet uit de lookup).",
+      "source": "3b. SAD_registrationRequest IMBRO - Asbest.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Trench[@gml:id='_e9d65836-99c6-4d77-a7e5-c25895cd480e']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:23"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR"
+        },
+        {
+          "type": "WARNING"
+        }
+      ]
+    },
+    {
+      "name": "Trench - measurementObjectType 24 geaccepteerd bij IMBRO",
+      "waarom": "MeetObjectSoort 24 (inspectiegat met boring en peilbuis, behandeld als 6 peilbuis) is alleen bij IMBRO toegestaan. Er mag geen enkele nieuwe melding bijkomen (niet 'unsupported', niet uit de lookup).",
+      "source": "3b. SAD_registrationRequest IMBRO - Asbest.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Trench[@gml:id='_e9d65836-99c6-4d77-a7e5-c25895cd480e']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:24"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR"
+        },
+        {
+          "type": "WARNING"
+        }
+      ]
+    },
+    {
+      "name": "MeasurementObject - measurementObjectType 23 geaccepteerd bij IMBRO",
+      "waarom": "MeetObjectSoort 23 (inspectiegat met boring, behandeld als 1 grondboring) is alleen bij IMBRO toegestaan. Er mag geen enkele nieuwe melding bijkomen (niet 'unsupported', niet uit de lookup).",
+      "source": "T2. IMBRO met MeasurementObject en SoilLocation (van 3).xml",
+      "mutations": [
+        {
+          "xpath": "//immetingen:MeasurementObject[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:23"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR"
+        },
+        {
+          "type": "WARNING"
+        }
+      ]
+    },
+    {
+      "name": "MeasurementObject - measurementObjectType 24 geaccepteerd bij IMBRO",
+      "waarom": "MeetObjectSoort 24 (inspectiegat met boring en peilbuis, behandeld als 6 peilbuis) is alleen bij IMBRO toegestaan. Er mag geen enkele nieuwe melding bijkomen (niet 'unsupported', niet uit de lookup).",
+      "source": "T2. IMBRO met MeasurementObject en SoilLocation (van 3).xml",
+      "mutations": [
+        {
+          "xpath": "//immetingen:MeasurementObject[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:24"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR"
+        },
+        {
+          "type": "WARNING"
+        }
+      ]
+    },
+    {
+      "name": "Borehole - measurementObjectType 23 krijgt de gewone controles bij IMBRO",
+      "waarom": "Bewijst dat type 23 niet stil wordt overgeslagen maar net als type 1 volledig gecontroleerd wordt.",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Borehole[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:23"
+        },
+        {
+          "xpath": "//imsikb0101:Borehole[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/immetingen:name",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Borehole",
+        "message_contains": "name"
+      },
+      "not_expect": [
+        {
+          "type": "WARNING",
+          "message_contains": "unsupported measurementObjectType"
+        }
+      ]
+    },
+    {
+      "name": "Borehole - niet-ondersteund measurementObjectType wordt genegeerd",
+      "waarom": "Negatieve controle: 22 (hellingmeetbuis) staat niet in de lijst toegestane typen.",
+      "sources": [
+        "3. SAD_registrationRequest IMBRO.xml",
+        "1. SAD_registrationRequest IMBROA.xml"
+      ],
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Borehole[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:22"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "Borehole",
+        "message_contains": "unsupported measurementObjectType"
+      }
+    },
+    {
+      "name": "Borehole - measurementObjectType 23 niet toegestaan bij IMBRO/A",
+      "waarom": "MeetObjectSoort 23 is bewust alleen voor IMBRO toegestaan; IMBRO/A negeert de boring.",
+      "source": "1. SAD_registrationRequest IMBROA.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Borehole[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:23"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "Borehole",
+        "message_contains": "unsupported measurementObjectType"
+      }
+    },
+    {
+      "name": "Borehole - measurementObjectType 24 niet toegestaan bij IMBRO/A",
+      "waarom": "MeetObjectSoort 24 is bewust alleen voor IMBRO toegestaan; IMBRO/A negeert de boring.",
+      "source": "1. SAD_registrationRequest IMBROA.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Borehole[@gml:id='_d8401c1a-ec0c-446f-8e45-22d9514f8400']/immetingen:measurementObjectType",
+          "action": "set",
+          "value": "urn:immetingen:MeetObjectSoort:id:24"
+        }
+      ],
+      "expect": {
+        "type": "WARNING",
+        "title_contains": "Borehole",
+        "message_contains": "unsupported measurementObjectType"
+      }
     }
   ]
 }
