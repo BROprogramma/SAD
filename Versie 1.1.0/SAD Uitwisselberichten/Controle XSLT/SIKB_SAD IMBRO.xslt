@@ -312,9 +312,11 @@
 				<!-- analysemonsters-->
 				 <xsl:if test="fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')">
 					<xsl:copy-of select="sikb:checkExistence(., $record, 'relatedObservation', 'WARNING')"/>					
-					<!-- check aantal deelmonsters, indien groter dan 1 = mengAnalysemonster -->
-					<xsl:if test="count(sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')]) > 1">
-						<!-- analysemonster gemengd-->
+					<!-- check aantal deelmonsters, indien groter dan 1 = mengAnalysemonster.
+					     Een grond-analysemonster zonder deelmonsters (bv. vanuit Archief alleen mengmonsters bekend) wordt ook als mengmonster behandeld. -->
+					<xsl:variable name="deelmonsterCount" select="count(sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')])"/>
+					<xsl:if test="$deelmonsterCount > 1 or ($deelmonsterCount = 0 and fn:lower-case(spec:materialClass/@xlink:href) = fn:lower-case('urn:immetingen:compartiment:id:1'))">
+						<!-- analysemonster gemengd (of grond-analysemonster zonder deelmonsters)-->
 						<xsl:copy-of select="sikb:checkExistence(., $record, 'upperDepth', 'ERROR')"/>
 						<xsl:copy-of select="sikb:checkFilled(., $record, 'upperDepth', 'ERROR')"/>
 						<xsl:copy-of select="sikb:checkExistence(., $record, 'lowerDepth', 'ERROR')"/>

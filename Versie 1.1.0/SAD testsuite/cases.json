@@ -1246,6 +1246,122 @@
         "title_contains": "Borehole",
         "message_contains": "unsupported measurementObjectType"
       }
+    },
+    {
+      "name": "Sample - grond-analysemonster zonder deelmonsters zonder Begindiepte",
+      "waarom": "Een grond-analysemonster zonder relaties naar deelmonsters (bv. vanuit Archief alleen mengmonsters bekend) wordt in IMBRO als mengmonster behandeld: begin- en einddiepte zijn verplicht.",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/sam:relatedSamplingFeature[sam:SamplingFeatureComplex/sam:role/@xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:10']",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/immetingen:upperDepth",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Sample",
+        "message_contains": "Het element upperDepth bij Sample"
+      }
+    },
+    {
+      "name": "Sample - grond-analysemonster zonder deelmonsters zonder Einddiepte",
+      "waarom": "Een grond-analysemonster zonder relaties naar deelmonsters (bv. vanuit Archief alleen mengmonsters bekend) wordt in IMBRO als mengmonster behandeld: begin- en einddiepte zijn verplicht.",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/sam:relatedSamplingFeature[sam:SamplingFeatureComplex/sam:role/@xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:10']",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/immetingen:lowerDepth",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Sample",
+        "message_contains": "Het element lowerDepth bij Sample"
+      }
+    },
+    {
+      "name": "Sample - grond-mengmonster (3 deelmonsters) zonder Begindiepte",
+      "waarom": "Bestaande controle op gemengde analysemonsters (meer dan 1 deelmonster).",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/immetingen:upperDepth",
+          "action": "remove"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Sample",
+        "message_contains": "Het element upperDepth bij Sample"
+      }
+    },
+    {
+      "name": "Sample - grond-analysemonster met 1 deelmonster zonder diepte geeft geen ERROR",
+      "waarom": "Grens: bij precies 1 deelmonster is het geen mengmonster, dus geen dieptecontrole.",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/sam:relatedSamplingFeature[sam:SamplingFeatureComplex/sam:role/@xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:10'][sam:SamplingFeatureComplex/sam:relatedSamplingFeature/@xlink:href!='#_0571c066-806a-459e-a8a1-b099cb6814d0']",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/immetingen:upperDepth",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/immetingen:lowerDepth",
+          "action": "remove"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR",
+          "message_contains": "upperDepth bij Sample"
+        },
+        {
+          "type": "ERROR",
+          "message_contains": "lowerDepth bij Sample"
+        }
+      ]
+    },
+    {
+      "name": "IMBRO/A - grond-analysemonster zonder deelmonsters zonder diepte geeft geen ERROR",
+      "waarom": "IMBRO/A heeft geen dieptecontrole op (meng)analysemonsters; de uitbreiding geldt alleen voor IMBRO.",
+      "source": "1. SAD_registrationRequest IMBROA.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/sam:relatedSamplingFeature[sam:SamplingFeatureComplex/sam:role/@xlink:href='urn:immetingen:RelatedSamplingFeatureRollen:id:10']",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/immetingen:upperDepth",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Sample[@gml:id='_b1adf8f7-e0cd-4810-a93e-60580f34b3fa']/immetingen:lowerDepth",
+          "action": "remove"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR",
+          "message_contains": "upperDepth bij Sample"
+        },
+        {
+          "type": "ERROR",
+          "message_contains": "lowerDepth bij Sample"
+        }
+      ]
     }
   ]
 }

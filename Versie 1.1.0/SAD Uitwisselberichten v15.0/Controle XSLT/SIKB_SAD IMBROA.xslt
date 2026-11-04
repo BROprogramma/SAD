@@ -170,7 +170,7 @@
             <xsl:copy-of select="sikb:createRecord('WARNING', 'Project', $message)"/>
         </xsl:if>                     	
                 
-        <!-- IMBRO/A| Loop the gemengde analysemonsters die zonder veldmonster geleverd kunnen worden --> 
+        <!-- Loop the gemengde analysemonsters die zonder veldmonster geleverd kunnen worden --> 
         <xsl:for-each select="//imsikb0101:Sample[fn:lower-case(spec:specimenType/@xlink:href) = fn:lower-case('urn:immetingen:MonsterType:id:10')]">
 			<xsl:variable name="linkedFieldSamplesCount" select="count(./sam:relatedSamplingFeature[fn:lower-case(sam:SamplingFeatureComplex/sam:role/@xlink:href) = fn:lower-case('urn:immetingen:RelatedSamplingFeatureRollen:id:10')])"/>            
 			
