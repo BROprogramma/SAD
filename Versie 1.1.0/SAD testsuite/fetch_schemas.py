@@ -3,6 +3,7 @@
 Ze worden bewaard in schema-cache/<host>/<pad>, zodat run_tests.py daarna offline kan valideren.
 Gebruik: python fetch_schemas.py
 """
+import json
 import re
 import sys
 import urllib.request
@@ -12,8 +13,8 @@ from urllib.parse import urljoin, urlparse
 SUITE_DIR = Path(__file__).resolve().parent
 CACHE_DIR = SUITE_DIR / "schema-cache"
 # De XSD's van alle versie-mappen naast de testsuite
-XSD_DIRS = sorted(d / "XSD en voorbeeld XML" for d in SUITE_DIR.parent.iterdir()
-                  if (d / "XSD en voorbeeld XML").is_dir())
+_XSD = json.loads((SUITE_DIR / "suite.json").read_text(encoding="utf-8"))["mappen"]["xsd"]
+XSD_DIRS = sorted(d / _XSD for d in SUITE_DIR.parent.iterdir() if (d / _XSD).is_dir())
 LOCATION = re.compile(r'<(?:\w+:)?(?:import|include|redefine)\b[^>]*?schemaLocation="([^"]+)"', re.S)
 
 

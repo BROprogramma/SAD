@@ -1,11 +1,11 @@
 """Zet de testconfiguratie klaar voor een nieuwe SIKB0101-versie (bijv. 15.1).
 
 Voorwaarde: de geleverde versie-map staat naast 'SAD testsuite' en bevat 'Controle XSLT' en
-'XSD en voorbeeld XML' (met de voorbeeldberichten van die versie). Die map wordt niet aangepast;
+de mappen uit suite.json (XSD's en voorbeeldberichten van die versie). Die map wordt niet aangepast;
 alles voor de tests komt in SAD testsuite/versies/<naam van de versie-map>/.
 
 Gebruik:
-    python nieuwe_versie.py "SAD Uitwisselberichten v15.1" --van "SAD Uitwisselberichten v15.0"
+    python nieuwe_versie.py "<nieuwe versie-map>" --van "<bestaande versie-map>"
 
 Wat het doet:
   1. kopieert de versie-instellingen (versie.json, overrides.json, bekende_afwijkingen.json,
@@ -21,12 +21,14 @@ import shutil
 import sys
 from pathlib import Path
 
+import json
+
 import fetch_schemas
-import maak_testberichten
 
 SUITE_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SUITE_DIR.parent
 VERSIONS_DIR = SUITE_DIR / "versies"
+FOLDERS = json.loads((SUITE_DIR / "suite.json").read_text(encoding="utf-8"))["mappen"]
 SETTINGS = ["versie.json", "overrides.json", "bekende_afwijkingen.json", "onbereikbaar.json", "run_tests.bat"]
 
 
@@ -39,7 +41,7 @@ def changed_lines(a, b):
 
 def compare(old, new):
     print(f"\nVerschillen t.o.v. {old.name}:")
-    for sub in ("Controle XSLT", "XSD en voorbeeld XML"):
+    for sub in (FOLDERS["xslt"], FOLDERS["xsd"]):
         old_files = {f.name: f for f in (old / sub).glob("*.*")}
         new_files = {f.name: f for f in (new / sub).glob("*.*")}
         for name in sorted(set(old_files) | set(new_files)):
@@ -61,7 +63,7 @@ def main():
     sys.stdout.reconfigure(encoding="utf-8")
 
     new, old = ROOT_DIR / args.nieuw, ROOT_DIR / args.van
-    for d in (new / "Controle XSLT", new / "XSD en voorbeeld XML" / "Voorbeeldberichten innameservice",
+    for d in (new / FOLDERS["xslt"], new / FOLDERS["inname"],
               VERSIONS_DIR / old.name):
         if not d.is_dir():
             parser.error(f"map ontbreekt: {d}")
@@ -81,8 +83,10 @@ def main():
     print("\nExterne schema's ophalen (alleen nieuwe):")
     fetch_schemas.main()
     print()
-    sys.argv = [sys.argv[0], new.name]
-    maak_testberichten.main()
+    if (SUITE_DIR / "maak_testberichten.py").exists():
+        import maak_testberichten
+        sys.argv = [sys.argv[0], new.name]
+        maak_testberichten.main()
 
     print(f"""
 Volgende stappen:

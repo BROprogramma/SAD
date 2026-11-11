@@ -1,7 +1,8 @@
-"""Regressietests voor de SAD controle-XSLT's (IMBRO en IMBRO/A), voor elke SIKB0101-versie.
+"""Regressietests voor de controle-XSLT's van een BRO-product (SAD, SLD, ...), voor elke SIKB0101-versie.
 
-Een versie is een geleverde map naast deze testsuite met 'Controle XSLT' en 'XSD en voorbeeld XML'
-(bijv. 'SAD Uitwisselberichten' en 'SAD Uitwisselberichten v15.0'); die mappen blijven ongewijzigd.
+Welk product, welke mappen, welke XSD's en welk bericht bij welke XSLT hoort, staat in suite.json.
+Een versie is een geleverde map naast deze testsuite met 'Controle XSLT' (en de mappen uit suite.json);
+die mappen blijven ongewijzigd.
 Alles voor de tests staat in deze testsuite: de gedeelde code en cases.json, en per versie
 versies/<naam van de versie-map>/ (baseline, testberichten, rapport, bekende afwijkingen, ...).
 
@@ -12,6 +13,7 @@ Gebruik:
     python run_tests.py --versie V --xslt-dir MAP   XSLT's uit MAP testen (bijv. een aangepaste kopie)
     python run_tests.py --update-baseline   huidige uitvoer + controlelijst vastleggen als nieuwe baseline
     python run_tests.py --snel              automatische controles overslaan (sneller, geen volledige dekking)
+    python run_tests.py --robuust           ook controleren dat de XSLT nooit vastloopt op een herhaald element (enkele minuten)
     python run_tests.py --workers 4         aantal parallelle processen (standaard: cores - 1, max 16)
 
 Exitcode 0 = niets gefaald, 1 = minstens één test gefaald.
@@ -41,8 +43,14 @@ ROOT_DIR = SUITE_DIR.parent                          # map met de versie-mappen
 SCHEMA_CACHE = SUITE_DIR / "schema-cache"
 VERSIONS_DIR = SUITE_DIR / "versies"                 # per versie: versies/<naam van de versie-map>/
 
+# Product-instellingen: mappen, XSD's, controles (welk bericht naar welke XSLT), extra namespaces
+SUITE_CONFIG = json.loads((SUITE_DIR / "suite.json").read_text(encoding="utf-8"))
+PRODUCT = SUITE_CONFIG["product"]
+FOLDERS = SUITE_CONFIG["mappen"]
+CONTROLES = SUITE_CONFIG["controles"]
+
 # Paden van de versie die op dit moment getest wordt (gezet door configure())
-SAD_DIR = TESTS_DIR = XSD_DIR = EXAMPLES_DIR = DISPATCH_DIR = DEFAULT_XSLT_DIR = None
+VERSION_DIR = TESTS_DIR = XSD_DIR = EXAMPLES_DIR = DISPATCH_DIR = DEFAULT_XSLT_DIR = None
 TESTBERICHTEN_DIR = BASELINE_DIR = REPORT_FILE = None
 VERSION_VARS = {}
 
@@ -58,29 +66,26 @@ def version_dirs():
 
 
 def configure(sad_dir):
-    global SAD_DIR, TESTS_DIR, XSD_DIR, EXAMPLES_DIR, DISPATCH_DIR, DEFAULT_XSLT_DIR
+    global VERSION_DIR, TESTS_DIR, XSD_DIR, EXAMPLES_DIR, DISPATCH_DIR, DEFAULT_XSLT_DIR
     global TESTBERICHTEN_DIR, BASELINE_DIR, REPORT_FILE, VERSION_VARS
-    SAD_DIR = Path(sad_dir).resolve()
-    TESTS_DIR = VERSIONS_DIR / SAD_DIR.name
-    XSD_DIR = SAD_DIR / "XSD en voorbeeld XML"
-    EXAMPLES_DIR = XSD_DIR / "Voorbeeldberichten innameservice"
-    DISPATCH_DIR = XSD_DIR / "Voorbeeldberichten uitgifteservice"
-    DEFAULT_XSLT_DIR = SAD_DIR / "Controle XSLT"
+    VERSION_DIR = Path(sad_dir).resolve()
+    TESTS_DIR = VERSIONS_DIR / VERSION_DIR.name
+    XSD_DIR = VERSION_DIR / FOLDERS["xsd"]
+    EXAMPLES_DIR = VERSION_DIR / FOLDERS["inname"]
+    DISPATCH_DIR = VERSION_DIR / FOLDERS["uitgifte"]
+    DEFAULT_XSLT_DIR = VERSION_DIR / "Controle XSLT"
     TESTBERICHTEN_DIR = TESTS_DIR / "testberichten"
     BASELINE_DIR = TESTS_DIR / "baseline"
     REPORT_FILE = TESTS_DIR / "report" / "report.html"
     VERSION_VARS = load_json("versie.json", {}).get("variabelen", {})
 
-# Kwaliteitsregime (waarde van qualityRegime in het bericht) -> XSLT-bestand
-XSLT_PER_REGIME = {
-    "IMBRO": "SIKB_SAD IMBRO.xslt",
-    "IMBRO/A": "SIKB_SAD IMBROA.xslt",
-}
+# Controle (naam uit suite.json) -> XSLT-bestand. Welk bericht bij welke controle hoort: zie classify().
+# In de code heet de controle van een bericht om historische redenen 'regime'.
+XSLT_PER_CONTROLE = {c["naam"]: c["xslt"] for c in CONTROLES}
 
 # Prefixen die in de XPath's van cases.json en overrides.json gebruikt mogen worden
 NAMESPACES = {
-    "issad": "http://www.broservices.nl/xsd/issad/1.1",
-    "sadcom": "http://www.broservices.nl/xsd/sadcommon/1.1",
+    **SUITE_CONFIG.get("namespaces", {}),
     "imsikb0101": "http://www.sikb.nl/imsikb0101",
     "immetingen": "http://www.sikb.nl/immetingen",
     "gml": "http://www.opengis.net/gml/3.2",
@@ -156,6 +161,26 @@ def read_regime(tree):
     return norm(values[0]) if values else None
 
 
+def read_source_document(tree):
+    """Soort bericht: de naam van het eerste element in sourceDocument (bijv. SLD_NewDecision)."""
+    children = tree.xpath("//*[local-name()='sourceDocument']/*")
+    return etree.QName(children[0]).localname if children else None
+
+
+def classify(tree):
+    """Welke controle (XSLT) hoort bij dit bericht? Eerste regel uit suite.json die past.
+
+    Geeft (naam van de controle, None) of (None, reden waarom geen enkele controle past)."""
+    regime, source = read_regime(tree), read_source_document(tree)
+    for controle in CONTROLES:
+        if "qualityRegime" in controle and regime not in controle["qualityRegime"]:
+            continue
+        if "sourceDocument" in controle and source not in controle["sourceDocument"]:
+            continue
+        return controle["naam"], None
+    return None, f"geen controle-XSLT voor dit bericht (sourceDocument={source!r}, qualityRegime={regime!r})"
+
+
 def parse_records(output):
     root = etree.fromstring(output.encode("utf-8"))
     return [Record(norm(r.findtext("Type")), norm(r.findtext("Title")), norm(r.findtext("Message")),
@@ -190,7 +215,7 @@ class Engine:
         self.proc = proc
         compiler = proc.new_xslt30_processor()
         self.plain, self.marked, self.traced, self.sites, self.errors = {}, {}, {}, {}, {}
-        for regime, filename in XSLT_PER_REGIME.items():
+        for regime, filename in XSLT_PER_CONTROLE.items():
             path = xslt_dir / filename
             try:
                 self.plain[regime] = compiler.compile_stylesheet(stylesheet_file=str(path))
@@ -224,8 +249,30 @@ def _init_worker(xslt_dir):
     _WORKER_ENGINE = Engine(PySaxonProcessor(license=False), Path(xslt_dir))
 
 
+class TransformFailure(list):
+    """Uitvoer van een transformatie die met een XSLT-fout stopte: geen meldingen, wel de foutmelding."""
+
+    def __init__(self, error):
+        super().__init__()
+        self.error = error
+
+
+def _safe_execute(engine, job):
+    # Een XSLT-runtimefout (bijv. een onverwachte herhaling van een element) mag de run niet stoppen.
+    # De Saxon-foutklasse is niet over procesgrenzen te sturen, dus alleen de tekst gaat terug.
+    try:
+        return engine.execute(*job)
+    except Exception as e:  # noqa: BLE001
+        return {"__xslt_fout__": " ".join(str(e).split())[:500]}
+
+
 def _work(job):
-    return _WORKER_ENGINE.execute(*job)
+    return _safe_execute(_WORKER_ENGINE, job)
+
+
+def transform_error(records):
+    """De XSLT-foutmelding als de transformatie mislukte, anders None."""
+    return getattr(records, "error", None)
 
 
 class Transformer:
@@ -243,7 +290,9 @@ class Transformer:
         if self.pool and len(payload) > 1:
             results = list(self.pool.map(_work, payload, chunksize=1))
         else:
-            results = [self.engine.execute(*job) for job in payload]
+            results = [_safe_execute(self.engine, job) for job in payload]
+        results = [TransformFailure(r["__xslt_fout__"]) if isinstance(r, dict) and "__xslt_fout__" in r else r
+                   for r in results]
         self.count += len(payload)
         for (mode, regime, _), result in zip(jobs, results):
             if mode == "run":
@@ -263,7 +312,7 @@ class Transformer:
 
 def test_xslts(transformer, xslt_dir, examples, originals):
     results = []
-    for regime, filename in XSLT_PER_REGIME.items():
+    for regime, filename in XSLT_PER_CONTROLE.items():
         if regime in transformer.errors:
             results.append(Result("XSLT's", f"{filename} compileert", "FAIL", transformer.errors[regime]))
         else:
@@ -310,7 +359,8 @@ def test_xsd(known):
     if not SCHEMA_CACHE.exists():
         return [Result("XSD-validatie", "schema-cache", "OVERGESLAGEN",
                        "schema-cache ontbreekt; draai eerst: python fetch_schemas.py")]
-    for xsd_name, folder in (("issad-messages.xsd", EXAMPLES_DIR), ("dssad-messages.xsd", DISPATCH_DIR)):
+    for xsd_name, folder in ((SUITE_CONFIG["xsd"]["inname"], EXAMPLES_DIR),
+                             (SUITE_CONFIG["xsd"]["uitgifte"], DISPATCH_DIR)):
         parser = etree.XMLParser(no_network=True)
         parser.resolvers.add(CacheResolver())
         try:
@@ -320,7 +370,13 @@ def test_xsd(known):
             continue
         for xml in sorted(folder.glob("*.xml")):
             name = f"{xml.name}  ({xsd_name})"
-            ok = schema.validate(etree.parse(str(xml)))
+            doc = etree.parse(str(xml))
+            # Een SOAP-bericht (bijv. uitgifte bij SLD): valideer de inhoud van soap:Body, niet de envelop
+            if etree.QName(doc.getroot()).localname == "Envelope":
+                body = doc.xpath("/*/*[local-name()='Body']/*")
+                if body:
+                    doc = etree.ElementTree(copy.deepcopy(body[0]))
+            ok = schema.validate(doc)
             errors = [f"regel {e.line}: {e.message}" for e in schema.error_log]
             if ok:
                 results.append(Result("XSD-validatie", name, "PASS"))
@@ -341,12 +397,11 @@ def load_examples():
     for group, folder in (("Voorbeeldberichten", EXAMPLES_DIR), ("Testberichten", TESTBERICHTEN_DIR)):
         for path in sorted(folder.glob("*.xml")):
             tree = etree.parse(str(path))
-            regime = read_regime(tree)
-            if regime in XSLT_PER_REGIME:
+            regime, reason = classify(tree)
+            if regime:
                 examples.append(Example(path, regime, tree, group))
             else:
-                skipped.append(Result(group, path.name, "OVERGESLAGEN",
-                                      f"onbekend of geen qualityRegime: {regime!r}"))
+                skipped.append(Result(group, path.name, "OVERGESLAGEN", reason))
     return examples, skipped
 
 
@@ -365,8 +420,11 @@ def known_errors_match(errors, known):
 def test_examples(transformer, examples, originals, known):
     results = []
     for ex in examples:
-        label = f"{ex.regime} → {XSLT_PER_REGIME[ex.regime]}"
+        label = f"{ex.regime} → {XSLT_PER_CONTROLE[ex.regime]}"
         records = originals[ex.name]
+        if transform_error(records):
+            results.append(Result(ex.group, ex.name, "FAIL", f"XSLT-fout: {transform_error(records)}"))
+            continue
         errors = [r for r in records if r.type == "ERROR"]
         others = len(records) - len(errors)
         if not errors:
@@ -394,7 +452,7 @@ def read_baseline(path):
 
 
 def write_baseline(ex, records):
-    root = etree.Element("Baseline", bericht=ex.name, regime=ex.regime, xslt=XSLT_PER_REGIME[ex.regime])
+    root = etree.Element("Baseline", bericht=ex.name, regime=ex.regime, xslt=XSLT_PER_CONTROLE[ex.regime])
     for r in records:
         el = etree.SubElement(root, "LogRecord")
         for tag, value in zip(("Type", "Title", "Message"), r.key):
@@ -408,6 +466,10 @@ def test_baseline(examples, originals, update):
     results = []
     for ex in examples:
         records = originals[ex.name]
+        if transform_error(records):
+            results.append(Result("Baseline", ex.name, "FAIL", f"XSLT-fout, baseline niet vergeleken: "
+                                                              f"{transform_error(records)}"))
+            continue
         path = baseline_path(ex)
         actual = [r.key for r in records]
         if not path.exists() or update:
@@ -435,7 +497,7 @@ def test_baseline(examples, originals, update):
 # ---------------------------------------------------------------------------
 
 def checklist_path(regime):
-    return BASELINE_DIR / f"controlelijst {XSLT_PER_REGIME[regime].replace('.xslt', '')}.json"
+    return BASELINE_DIR / f"controlelijst {XSLT_PER_CONTROLE[regime].replace('.xslt', '')}.json"
 
 
 def checklist(sites):
@@ -446,7 +508,7 @@ def checklist(sites):
 def test_checklist(transformer, update):
     results = []
     for regime, sites in transformer.sites.items():
-        name = f"{XSLT_PER_REGIME[regime]}"
+        name = f"{XSLT_PER_CONTROLE[regime]}"
         path = checklist_path(regime)
         current = checklist(sites)
         old = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
@@ -696,6 +758,8 @@ def test_generated(transformer, examples, originals, overrides, keyword):
         pending = []
         for (key, ex, where), records in zip(meta, transformer.run_many(jobs)):
             st, site = state[key], state[key]["site"]
+            if transform_error(records):
+                where += f" → XSLT-fout: {transform_error(records)}"
             added = new_records(originals[ex.name], records)
             hits = [r for r in added if r.site == str(site.line)
                     and (expected_type(site) is None or r.type == expected_type(site))]
@@ -793,7 +857,7 @@ def substitute(value):
 def load_cases():
     """Gedeelde cases.json; cases met 'versies' gelden alleen voor die versie-mappen."""
     cases = json.loads((SUITE_DIR / "cases.json").read_text(encoding="utf-8"))["cases"]
-    return [substitute(c) for c in cases if "versies" not in c or SAD_DIR.name in c["versies"]]
+    return [substitute(c) for c in cases if "versies" not in c or VERSION_DIR.name in c["versies"]]
 
 
 def expand_cases(cases):
@@ -817,7 +881,7 @@ def test_cases(transformer, examples, originals, keyword):
             results.append(Result("Testcases", name, "FAIL", f"bronbericht niet gevonden: {source}"))
             continue
         expects = case["expect"] if isinstance(case["expect"], list) else [case["expect"]]
-        details = [f"Bronbericht: {ex.name} ({ex.regime} → {XSLT_PER_REGIME[ex.regime]})"]
+        details = [f"Bronbericht: {ex.name} ({ex.regime} → {XSLT_PER_CONTROLE[ex.regime]})"]
         details += [f"Mutatie: {m['action']} {m['xpath']}" + (f" = '{m['value']}'" if "value" in m else "")
                     for m in case["mutations"]]
         details += [f"Verwacht (nieuwe melding): {describe_expect(e)}" for e in expects]
@@ -839,6 +903,9 @@ def test_cases(transformer, examples, originals, keyword):
 
     outputs = transformer.run_many([("run", ex.regime, tree) for _, _, ex, _, _, tree in prepared])
     for (case, name, ex, expects, details, _), records in zip(prepared, outputs):
+        if transform_error(records):
+            results.append(Result("Testcases", name, "FAIL", f"XSLT-fout: {transform_error(records)}", details))
+            continue
         added = new_records(originals[ex.name], records)
         missing = [e for e in expects if not any(matches(r, e) for r in added)]
         forbidden = [r for f in case.get("not_expect", []) for r in added if matches(r, f)]
@@ -852,6 +919,50 @@ def test_cases(transformer, examples, originals, keyword):
                        else "geen verboden meldingen verschenen")
             results.append(Result("Testcases", name, "PASS", summary, details, added,
                                   "Meldingen die door de mutatie bijkwamen"))
+    return results
+
+
+# ---------------------------------------------------------------------------
+# Test: robuustheid (optioneel, --robuust)
+# ---------------------------------------------------------------------------
+
+def test_robustness(transformer, examples):
+    """Dupliceer in elk bericht elk element binnen de SIKB-inhoud (één tegelijk): de XSLT mag nooit vastlopen.
+
+    Zo'n herhaling is meestal XSD-ongeldig, maar de XSLT moet dan een melding geven of het negeren,
+    niet stoppen met een runtime-fout (bijv. string() of lower-case() op twee waarden)."""
+    container = SUITE_CONFIG.get("robuustheid", {}).get("binnen", "FeatureCollectionIMSIKB0101")
+    jobs, meta, seen = [], [], set()
+    for ex in examples:
+        for i, el in enumerate(elements(ex.tree)):
+            if not el.xpath(f"ancestor::*[local-name()='{container}']"):
+                continue
+            # Elke structuurpositie (pad van elementnamen, zonder volgnummers) één keer per XSLT testen:
+            # hetzelfde element op dezelfde plek in een ander bericht of bij een ander object voegt niets toe.
+            position = (ex.regime, "/".join(etree.QName(a).localname for a in reversed(list(el.iterancestors())))
+                        + "/" + etree.QName(el).localname)
+            if position in seen:
+                continue
+            seen.add(position)
+            tree = copy.deepcopy(ex.tree)
+            target = elements(tree)[i]
+            target.addnext(copy.deepcopy(target))
+            jobs.append(("run", ex.regime, tree))
+            meta.append((ex, ex.tree.getpath(el)))
+    crashes = defaultdict(list)
+    tried = Counter(ex.regime for ex, _ in meta)
+    for (ex, path), records in zip(meta, transformer.run_many(jobs)):
+        if transform_error(records):
+            crashes[ex.regime].append(f"{ex.name}: element {path.split('/')[-1]} dubbel → {transform_error(records)}")
+    results = []
+    for regime in XSLT_PER_CONTROLE:
+        name = f"{XSLT_PER_CONTROLE[regime]}: herhaalde elementen"
+        if crashes[regime]:
+            results.append(Result("Robuustheid", name, "FAIL",
+                                  f"{len(crashes[regime])} van {tried[regime]} duplicaties laten de XSLT vastlopen",
+                                  crashes[regime][:25]))
+        elif tried[regime]:
+            results.append(Result("Robuustheid", name, "PASS", f"{tried[regime]} duplicaties, geen enkele vastloper"))
     return results
 
 
@@ -894,7 +1005,7 @@ def write_report(results, cover, xslt_dir, duration, transforms):
         excl_rows = "".join(f"<tr><td>{s.line}</td><td><code>{esc(s.short())}</code></td><td>{esc(reason)}</td></tr>"
                             for s, reason in excluded)
         cover_html.append(
-            f"<div class='cov'><div class='covhead'><b>{esc(XSLT_PER_REGIME[regime])}</b>"
+            f"<div class='cov'><div class='covhead'><b>{esc(XSLT_PER_CONTROLE[regime])}</b>"
             f"<span>{covered} / {total} controles geraakt ({pct:.0f}%)</span></div>"
             f"<div class='bar'><div style='width:{pct:.1f}%'></div></div>"
             f"<details><summary>{len(uncovered)} niet-geraakte controles</summary>"
@@ -926,7 +1037,7 @@ def write_report(results, cover, xslt_dir, duration, transforms):
                     for s in STATUSES)
     page = f"""<!doctype html>
 <html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SAD XSLT-tests {esc(SAD_DIR.name)}</title>
+<title>{esc(PRODUCT)} XSLT-tests {esc(VERSION_DIR.name)}</title>
 <style>
 :root {{ --bg:#fff; --fg:#1d1d1f; --muted:#6b6b70; --line:#e2e2e6; --pass:#1a7f37; --fail:#cf222e; --known:#8250df; --skip:#9a6700; --card:#f6f6f8; }}
 @media (prefers-color-scheme: dark) {{ :root {{ --bg:#16161a; --fg:#ececf0; --muted:#9a9aa2; --line:#2e2e35; --pass:#3fb950; --fail:#f85149; --known:#a371f7; --skip:#d29922; --card:#1f1f25; }} }}
@@ -954,7 +1065,7 @@ code {{ font-size:12px; }}
 label {{ user-select:none; }}
 body.only-fail details.test:not(.fail) {{ display:none; }}
 </style></head><body>
-<h1>SAD XSLT-tests <span class="muted">· {esc(SAD_DIR.name)}</span></h1>
+<h1>{esc(PRODUCT)} XSLT-tests <span class="muted">· {esc(VERSION_DIR.name)}</span></h1>
 <div class="muted">{datetime.now():%d-%m-%Y %H:%M} · {duration:.0f} s · {transforms} transformaties · XSLT-map: {esc(str(xslt_dir))}</div>
 <div class="stats">{stats}</div>
 <label><input type="checkbox" onchange="document.body.classList.toggle('only-fail', this.checked)"> Alleen gefaalde tests tonen</label>
@@ -992,7 +1103,7 @@ def run_version(args, sad_dir):
     known = load_json("bekende_afwijkingen.json", {})
     overrides = load_json("overrides.json", {"overrides": []})["overrides"]
     start = time.time()
-    print(f"\n{'=' * 78}\n{SAD_DIR.name}\n{'=' * 78}")
+    print(f"\n{'=' * 78}\n{VERSION_DIR.name}\n{'=' * 78}")
 
     workers = args.workers or max(1, min((os.cpu_count() or 2) - 1, 16))
     with PySaxonProcessor(license=False) as proc, \
@@ -1013,6 +1124,8 @@ def run_version(args, sad_dir):
         if not args.snel:
             results += test_generated(transformer, examples, originals, overrides, args.keyword)
         results += test_cases(transformer, examples, originals, args.keyword)
+        if args.robuust:
+            results += test_robustness(transformer, examples)
         cover = coverage(transformer, load_json("onbereikbaar.json", {"onbereikbaar": []})["onbereikbaar"])
         transforms = transformer.count
 
@@ -1022,7 +1135,7 @@ def run_version(args, sad_dir):
     print("\nDekking (controles die minstens één keer een melding gaven)"
           + ("  – gedeeltelijke run, niet representatief" if partial else ""))
     for regime, (covered, total, uncovered, excluded) in cover.items():
-        print(f"  {XSLT_PER_REGIME[regime]:<24} {covered:>3} / {total}  ({100 * covered / total:.0f}%)"
+        print(f"  {XSLT_PER_CONTROLE[regime]:<48} {covered:>3} / {total}  ({100 * covered / total:.0f}%)"
               f"   + {len(excluded)} onbereikbaar uitgesloten")
         for site in [] if partial else uncovered:
             print(f"      niet geraakt: regel {site.line}  {site.short()[:90]}")
@@ -1035,13 +1148,15 @@ def run_version(args, sad_dir):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Regressietests voor de SAD controle-XSLT's")
+    parser = argparse.ArgumentParser(description=f"Regressietests voor de {PRODUCT} controle-XSLT's")
     parser.add_argument("--versie", action="append",
                         help="naam of pad van een versie-map (mag vaker); standaard alle versies")
     parser.add_argument("-k", dest="keyword", help="alleen tests met deze tekst in de naam")
     parser.add_argument("--xslt-dir", type=Path, help="map met de te testen XSLT's (alleen samen met één --versie)")
     parser.add_argument("--update-baseline", action="store_true", help="huidige uitvoer vastleggen als baseline")
     parser.add_argument("--snel", action="store_true", help="automatische controles overslaan")
+    parser.add_argument("--robuust", action="store_true",
+                        help="ook controleren dat de XSLT nooit vastloopt op een herhaald element (enkele minuten per versie)")
     parser.add_argument("--workers", type=int, help="aantal parallelle processen (standaard: aantal cores - 1, max 16)")
     args = parser.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
