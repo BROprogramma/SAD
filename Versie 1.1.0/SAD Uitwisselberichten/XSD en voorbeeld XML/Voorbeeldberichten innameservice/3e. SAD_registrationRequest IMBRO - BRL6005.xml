@@ -1,4 +1,4 @@
-<registrationRequest xmlns="http://www.broservices.nl/xsd/issad/1.1" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.1 ../issad-messages.xsd">
+<registrationRequest xmlns="http://www.broservices.nl/xsd/issad/1" xmlns:sadcom="http://www.broservices.nl/xsd/sadcommon/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1 ../issad-messages.xsd">
 	<sadcom:requestReference>Project "Project volgens BRL 6005 voor de BRO"</sadcom:requestReference>
 	<sadcom:deliveryAccountableParty>27239531</sadcom:deliveryAccountableParty>
 	<sadcom:qualityRegime>IMBRO</sadcom:qualityRegime>
