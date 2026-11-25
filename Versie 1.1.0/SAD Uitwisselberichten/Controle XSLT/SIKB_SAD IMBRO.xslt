@@ -22,12 +22,18 @@
         xmlns:xlink="http://www.w3.org/1999/xlink"
         xmlns:sikb="http://xslcontrole.sikb"
         xmlns:issad="http://www.broservices.nl/xsd/issad/1.1"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
         xsi:schemaLocation="http://www.broservices.nl/xsd/issad/1.1 .//issad-messages.xsd">
     <xsl:output method="xml" indent="yes"/>
     <!-- Global variables for the lookup files -->
     <xsl:variable name="imsikbLookup" select="document('imsikb0101 lookup.xml')"/>
     <xsl:variable name="immetingenLookup" select="document('immetingen lookup.xml')"/>
     <xsl:variable name="allowedValues" select="document('allowed_values.xml')"/>
+    <!-- Correctie-uitzondering Grondsoort/BZB-controle (regel live 25-8-2026):
+         Project met broId = correctie; bij reportDate voor 2026-09-01 wordt de regel niet toegepast -->
+    <xsl:variable name="isCorrectie" select="normalize-space((//imsikb0101:Project)[1]/imsikb0101:broId) != ''"/>
+    <xsl:variable name="rapportDatum" select="normalize-space((//imsikb0101:Project)[1]/imsikb0101:reportDate)"/>
+    <xsl:variable name="skipGrondsoortBzbControle" select="$isCorrectie and $rapportDatum castable as xs:date and xs:date($rapportDatum) lt xs:date('2026-09-01')"/>
     <!-- Global keys indexing lookup records by their parent's categorie and their ID.
          Note: these keys assume that each lookup file has a structure where a group element
          (with an @categorie attribute) contains one or more lookup entries that have an <ID> child.
@@ -616,7 +622,7 @@
 							and substring-after(immetingen:indicator, ':id:') = '1'
 							and contains(fn:lower-case(string(om:result)), fn:lower-case(':BodemlaagBijzonderheden:'))])"/>
 		<!-- Controle NA de for-each: minimaal één van grondsoort/bzb moet aanwezig zijn -->
-		<xsl:if test="not($heeftGrondsoort) and not($heeftBzb)">
+		<xsl:if test="not($heeftGrondsoort) and not($heeftBzb) and not($skipGrondsoortBzbControle)">
 			<xsl:variable name="message" select="replace(string-join(('Bij Laag', $prGUID, 'is geen Grondsoort of Bijzonder bestanddeel vastgelegd. Minimaal één van beide dient aanwezig te zijn.'), ' '), '  ', ' ')"/>
 			<xsl:copy-of select="sikb:createRecord('ERROR', 'imsikb0101:Layer', $message)"/>
 		</xsl:if>
