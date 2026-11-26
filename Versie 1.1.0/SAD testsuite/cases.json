@@ -477,6 +477,110 @@
       ]
     },
     {
+      "name": "IMBRO - Correctie (broId) met reportDate voor 2026-09-01: geen ERROR Layer zonder grondsoort/bzb",
+      "waarom": "Correctieberichten (Project.broId gevuld) met rapportagedatum voor 1-9-2026 vallen buiten de regel (live 25-8-2026).",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7']/sam:relatedObservation",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportNumber",
+          "action": "insert_xml",
+          "position": "after",
+          "xml": "<imsikb0101:broId>SAD000000000001</imsikb0101:broId>"
+        },
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportDate",
+          "action": "set",
+          "value": "2026-08-31"
+        }
+      ],
+      "expect": [],
+      "not_expect": [
+        {
+          "type": "ERROR",
+          "message_contains": "is geen Grondsoort of Bijzonder bestanddeel vastgelegd"
+        }
+      ]
+    },
+    {
+      "name": "IMBRO - Correctie (broId) met reportDate 2026-09-01: wel ERROR Layer zonder grondsoort/bzb",
+      "waarom": "Grenswaarde: vanaf 1-9-2026 geldt de regel ook voor correcties.",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7']/sam:relatedObservation",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportNumber",
+          "action": "insert_xml",
+          "position": "after",
+          "xml": "<imsikb0101:broId>SAD000000000001</imsikb0101:broId>"
+        },
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportDate",
+          "action": "set",
+          "value": "2026-09-01"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Layer",
+        "message_contains": "is geen Grondsoort of Bijzonder bestanddeel vastgelegd"
+      }
+    },
+    {
+      "name": "IMBRO - Geen broId met reportDate voor 2026-09-01: wel ERROR Layer zonder grondsoort/bzb",
+      "waarom": "Zonder broId is het geen correctie; de datum maakt dan niet uit.",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7']/sam:relatedObservation",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportDate",
+          "action": "set",
+          "value": "2026-08-31"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Layer",
+        "message_contains": "is geen Grondsoort of Bijzonder bestanddeel vastgelegd"
+      }
+    },
+    {
+      "name": "IMBRO - Lege broId met oude reportDate: wel ERROR Layer zonder grondsoort/bzb",
+      "waarom": "Een leeg broId-element telt niet als correctie.",
+      "source": "3. SAD_registrationRequest IMBRO.xml",
+      "mutations": [
+        {
+          "xpath": "//imsikb0101:Layer[@gml:id='_cb070ae9-2428-4b4f-a7a7-f5b285c0bbd7']/sam:relatedObservation",
+          "action": "remove"
+        },
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportNumber",
+          "action": "insert_xml",
+          "position": "after",
+          "xml": "<imsikb0101:broId/>"
+        },
+        {
+          "xpath": "//imsikb0101:Project/imsikb0101:reportDate",
+          "action": "set",
+          "value": "2026-08-31"
+        }
+      ],
+      "expect": {
+        "type": "ERROR",
+        "title_contains": "Layer",
+        "message_contains": "is geen Grondsoort of Bijzonder bestanddeel vastgelegd"
+      }
+    },
+    {
       "name": "Layer - onbekende bodemsoort-code",
       "sources": [
         "3. SAD_registrationRequest IMBRO.xml",
