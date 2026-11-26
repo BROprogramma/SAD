@@ -1,7 +1,0 @@
-Changelog
-----------------------------
-Version 1.0.0 - 19.11.2026
-----------------------------
-
-1. For the xsd and example messages (voorbeeldberichten) files in versie 1.1.0/SAD_intern_Uitwisselberichten and SAD_Extern_Uitwisselberichten folders
- - UPDATED namespace for brocommon from 3.0 to 3, and the sad related namespaces from 1.0 to 1

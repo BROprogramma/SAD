@@ -1,0 +1,29 @@
+{
+  "_uitleg": "Aanpassingen op de automatisch gegenereerde controles. 'check' is de naam zoals in het rapport (template|functie|veld, eventueel met #n). Zonder 'regime' geldt de override voor beide XSLT's. Mogelijke velden: skip (reden, test wordt overgeslagen), source (alleen dit voorbeeldbericht gebruiken), context_xpath (dit element muteren), lookup_mutatie ('onbekende_code' of 'verkeerde_tabel'), reden (toelichting).",
+  "overrides": [
+    {
+      "check": "imsikb0101:Borehole|checkLookupId|measurementObjectType",
+      "lookup_mutatie": "verkeerde_tabel",
+      "reden": "Alleen meetobjectsoorten 1|6|12|16|18|21 bereiken deze controle en die zijn allemaal geldig; een onbekend id valt in de tak 'Borehole will be ignored'. Daarom testen we een verwijzing naar een verkeerde lookup-tabel."
+    },
+    {
+      "check": "imsikb0101:Trench|checkLookupId|measurementObjectType",
+      "lookup_mutatie": "verkeerde_tabel",
+      "reden": "Zie Borehole: alleen geldige meetobjectsoorten bereiken deze controle."
+    },
+    {
+      "check": "immetingen:MeasurementObject|checkLookupId|measurementObjectType",
+      "lookup_mutatie": "verkeerde_tabel",
+      "reden": "Zie Borehole: alleen geldige meetobjectsoorten bereiken deze controle."
+    },
+    {
+      "check": "immetingen:Organization|checkLength|europeanCompanyRegistryNumber",
+      "skip": "Geen voorbeeldbericht heeft dit veld; gedekt door testcase 'Organization - europeanCompanyRegistryNumber langer dan 40 tekens'."
+    },
+    {
+      "check": "immetingen:AnalysisProcess|checkLookupId|analyticalTechnique",
+      "regime": "IMBRO/A",
+      "skip": "In de IMBRO/A-voorbeelden staat analyticalTechnique alleen in commentaar; gedekt door testcase 'AnalysisProcess - onbekende analyticalTechnique-code'."
+    }
+  ]
+}

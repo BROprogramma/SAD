@@ -1,0 +1,30 @@
+{
+  "_uitleg": "Product-instellingen voor de testsuite. 'mappen' zijn paden binnen een geleverde versie-map. 'controles' bepalen welk bericht door welke XSLT gaat: de eerste regel waarvan qualityRegime (en eventueel sourceDocument) past, wint. Een bericht dat bij geen enkele regel past wordt overgeslagen (met reden in het rapport).",
+  "product": "SAD",
+  "mappen": {
+    "xslt": "Controle XSLT",
+    "xsd": "XSD en voorbeeld XML",
+    "inname": "XSD en voorbeeld XML/Voorbeeldberichten innameservice",
+    "uitgifte": "XSD en voorbeeld XML/Voorbeeldberichten uitgifteservice"
+  },
+  "xsd": {
+    "inname": "issad-messages.xsd",
+    "uitgifte": "dssad-messages.xsd"
+  },
+  "controles": [
+    {
+      "naam": "IMBRO",
+      "xslt": "SIKB_SAD IMBRO.xslt",
+      "qualityRegime": ["IMBRO"]
+    },
+    {
+      "naam": "IMBRO/A",
+      "xslt": "SIKB_SAD IMBROA.xslt",
+      "qualityRegime": ["IMBRO/A"]
+    }
+  ],
+  "namespaces": {
+    "issad": "http://www.broservices.nl/xsd/issad/1.1",
+    "sadcom": "http://www.broservices.nl/xsd/sadcommon/1.1"
+  }
+}

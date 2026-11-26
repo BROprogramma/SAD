@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Baseline bericht="T4. IMBROA met bereikbaar conclusiemonster (van 3b).xml" regime="IMBRO/A" xslt="SIKB_SAD IMBROA.xslt">
+  <LogRecord>
+    <Type>ERROR</Type>
+    <Title>imsikb0101:Sample</Title>
+    <Message>Waarde 12 ( urn:immetingen:monstertype:id:12 ) van het element specimenType bij Sample [ Gat1-Totaal ] ( _4e97feaa-14bf-41fc-9684-a6c209f90e7d ) is niet geldig voor BRO SAD IMBRO/A kwaliteit in lookup-tabel.</Message>
+  </LogRecord>
+</Baseline>
